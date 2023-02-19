@@ -1,0 +1,2 @@
+# hyperfy-apps
+some apps
