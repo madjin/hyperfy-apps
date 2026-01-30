@@ -1,0 +1,8 @@
+{
+  "id": "hyperfy-npc",
+  "name": "NPC",
+  "description": null,
+  "image": "image.png",
+  "category": "interaction",
+  "public": true
+}

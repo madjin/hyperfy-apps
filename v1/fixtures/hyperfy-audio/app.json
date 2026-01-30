@@ -1,0 +1,8 @@
+{
+  "id": "hyperfy-audio",
+  "name": "Audio",
+  "description": null,
+  "image": "image.png",
+  "category": "media",
+  "public": true
+}

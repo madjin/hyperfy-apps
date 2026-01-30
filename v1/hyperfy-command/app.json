@@ -1,0 +1,8 @@
+{
+  "id": "hyperfy-command",
+  "name": "Command",
+  "description": null,
+  "image": "image.png",
+  "category": "tool",
+  "public": true
+}

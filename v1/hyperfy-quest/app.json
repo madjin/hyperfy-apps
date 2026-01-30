@@ -1,0 +1,8 @@
+{
+  "id": "hyperfy-quest",
+  "name": "Quest",
+  "description": null,
+  "image": "image.png",
+  "category": "interaction",
+  "public": true
+}

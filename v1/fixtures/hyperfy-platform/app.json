@@ -1,0 +1,8 @@
+{
+  "id": "hyperfy-platform",
+  "name": "Platform",
+  "description": null,
+  "image": "image.png",
+  "category": "object",
+  "public": true
+}

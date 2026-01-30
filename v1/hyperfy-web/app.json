@@ -1,0 +1,8 @@
+{
+  "id": "hyperfy-web",
+  "name": "WebView",
+  "description": null,
+  "image": "image.png",
+  "category": "media",
+  "public": true
+}

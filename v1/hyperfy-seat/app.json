@@ -1,0 +1,8 @@
+{
+  "id": "hyperfy-seat",
+  "name": "Seat",
+  "description": null,
+  "image": "image.png",
+  "category": "interaction",
+  "public": true
+}

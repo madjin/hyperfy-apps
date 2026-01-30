@@ -1,0 +1,8 @@
+{
+  "id": "hyperfy-combat-melee",
+  "name": "Combat Melee",
+  "description": null,
+  "image": "image.png",
+  "category": "combat",
+  "public": true
+}

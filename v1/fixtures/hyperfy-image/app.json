@@ -1,0 +1,8 @@
+{
+  "id": "hyperfy-image",
+  "name": "Image",
+  "description": null,
+  "image": "image.png",
+  "category": "media",
+  "public": true
+}

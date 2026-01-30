@@ -1,0 +1,8 @@
+{
+  "id": "hyperfy-audio-light",
+  "name": "Audio Light",
+  "description": null,
+  "image": "image.png",
+  "category": "audio_tool",
+  "public": true
+}

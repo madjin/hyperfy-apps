@@ -1,0 +1,8 @@
+{
+  "id": "hyperfy-launchpad",
+  "name": "Launch Pad",
+  "description": null,
+  "image": "image.png",
+  "category": "object",
+  "public": true
+}

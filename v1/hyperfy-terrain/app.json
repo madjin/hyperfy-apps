@@ -1,0 +1,8 @@
+{
+  "id": "hyperfy-terrain",
+  "name": "Terrain",
+  "description": "A collection of simple terrains",
+  "image": "image.png",
+  "category": "environment",
+  "public": true
+}

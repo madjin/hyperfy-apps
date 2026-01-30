@@ -1,0 +1,8 @@
+{
+  "id": "hyperfy-screen",
+  "name": "Screen",
+  "description": null,
+  "image": "image.png",
+  "category": "media",
+  "public": true
+}

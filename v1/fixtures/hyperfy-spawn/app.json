@@ -1,0 +1,8 @@
+{
+  "id": "hyperfy-spawn",
+  "name": "Spawn",
+  "description": null,
+  "image": "image.png",
+  "category": "tool",
+  "public": true
+}

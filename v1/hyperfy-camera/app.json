@@ -1,0 +1,8 @@
+{
+  "id": "hyperfy-camera",
+  "name": "Camera",
+  "description": null,
+  "image": "image.png",
+  "category": "tool",
+  "public": true
+}

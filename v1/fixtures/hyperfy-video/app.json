@@ -1,0 +1,8 @@
+{
+  "id": "hyperfy-video",
+  "name": "Video",
+  "description": null,
+  "image": "image.png",
+  "category": "media",
+  "public": true
+}

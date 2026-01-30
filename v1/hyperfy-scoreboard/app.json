@@ -1,0 +1,8 @@
+{
+  "id": "hyperfy-scoreboard",
+  "name": "Scoreboard",
+  "description": null,
+  "image": "image.png",
+  "category": "interaction",
+  "public": true
+}

@@ -1,0 +1,8 @@
+{
+  "id": "hyperfy-combat-health",
+  "name": "Combat Health",
+  "description": null,
+  "image": "image.png",
+  "category": "combat",
+  "public": true
+}

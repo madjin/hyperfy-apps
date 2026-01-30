@@ -1,0 +1,8 @@
+{
+  "id": "hyperfy-reactor",
+  "name": "Reactor",
+  "description": null,
+  "image": "image.png",
+  "category": "interaction",
+  "public": true
+}

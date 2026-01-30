@@ -1,0 +1,8 @@
+{
+  "id": "hyperfy-receiver",
+  "name": "Receiver",
+  "description": null,
+  "image": "image.png",
+  "category": "interaction",
+  "public": true
+}

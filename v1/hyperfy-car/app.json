@@ -1,0 +1,8 @@
+{
+  "id": "hyperfy-car",
+  "name": "Car",
+  "description": null,
+  "image": "image.png",
+  "category": "object",
+  "public": true
+}

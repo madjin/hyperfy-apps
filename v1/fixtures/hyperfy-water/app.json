@@ -1,0 +1,8 @@
+{
+  "id": "hyperfy-water",
+  "name": "Water",
+  "description": null,
+  "image": "image.png",
+  "category": "environment",
+  "public": true
+}

@@ -1,0 +1,8 @@
+{
+  "id": "hyperfy-portal",
+  "name": "Portal",
+  "description": null,
+  "image": "image.png",
+  "category": "object",
+  "public": true
+}

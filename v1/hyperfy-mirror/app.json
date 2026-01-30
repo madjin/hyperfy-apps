@@ -1,0 +1,8 @@
+{
+  "id": "hyperfy-mirror",
+  "name": "Mirror",
+  "description": null,
+  "image": "image.png",
+  "category": "object",
+  "public": true
+}

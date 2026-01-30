@@ -1,0 +1,8 @@
+{
+  "id": "hyperfy-emote",
+  "name": "Emote",
+  "description": null,
+  "image": "image.png",
+  "category": "interaction",
+  "public": true
+}

@@ -1,0 +1,8 @@
+{
+  "id": "hyperfy-timer",
+  "name": "Timer",
+  "description": null,
+  "image": "image.png",
+  "category": "interaction",
+  "public": true
+}
