@@ -1,0 +1,18 @@
+{
+  "author": "Howie Duhzit x Kenney",
+  "url": "https://www.kenney.nl/assets/prototype-textures",
+  "desc": "Floor made to world scale with Kenney Prototype texture.",
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/Grid Floor.glb",
+  "image": {
+    "url": "assets/Grid Floor__image.png"
+  },
+  "props": {},
+  "scriptFormat": "module"
+}

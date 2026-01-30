@@ -1,0 +1,20 @@
+{
+  "author": "b0gie",
+  "url": "https://hyperfy.xyz",
+  "desc": "warp to a new location",
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/HyperPortal.glb",
+  "image": {
+    "url": "assets/HyperPortal__image.png"
+  },
+  "props": {
+    "zone1": "0,0,0"
+  },
+  "scriptFormat": "module"
+}

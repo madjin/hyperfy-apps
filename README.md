@@ -7,14 +7,19 @@ A collection of Hyperfy virtual world apps from both V1 (React SDK) and V2 (Scri
 Hyperfy apps are interactive objects, tools, and experiences that can be placed in virtual worlds. This repository contains apps from two major platform versions:
 
 - **V1**: React-based apps using the legacy Hyperfy SDK (2021-2023)
-- **V2**: Script-based apps using `.hyp` format with the modern Hyperfy SDK (2023-2026)
+- **V2**: Script-based apps in extracted, human-readable format (2023-2026)
 
 ## Repository Structure
 
 ```
 hyperfy-apps/
-├── v1/          # 40 V1 React apps (app.json + index.js)
-├── v2/          # 15 V2 .hyp blueprint files
+├── v1/              # 40 V1 React apps (app.json + index.js)
+├── v2/              # 14 V2 apps in extracted format (human-readable)
+│   ├── apps/        # Individual app folders (app.json + index.js)
+│   └── assets/      # Shared assets (models, textures, videos, etc.)
+├── v2-hyp/          # Original V2 .hyp binary files (for reference)
+├── extract-hyp.mjs  # Tool to extract .hyp files
+├── package.json
 └── README.md
 ```
 
@@ -79,38 +84,64 @@ hyperfy-alert/
 - Potential migration to V2
 - Understanding V1 world archives
 
-## V2 Apps (.hyp Format)
+## V2 Apps (Extracted Format)
 
-**Count:** 15 apps
-**Format:** Binary `.hyp` files containing blueprint + assets
+**Count:** 14 apps
+**Format:** Extracted human-readable format (`app.json` + `index.js` + assets)
 
-V2 apps use the modern Hyperfy `.hyp` binary format, which bundles a blueprint definition with embedded assets. See [.hyp format documentation](https://docs.hyperfy.xyz/docs/hyp-format/) for technical details.
+V2 apps use modern JavaScript with the Hyperfy Script SDK. This archive stores them in extracted format for easy browsing, editing, and version control.
 
-### .hyp File Format
+### V2 App Structure
 
 ```
-[4 bytes: header size (uint32 LE)]
-[JSON header with blueprint + asset manifest]
-[asset 1 binary data]
-[asset 2 binary data]
-...
+v2/
+├── apps/
+│   └── Text (link option)/
+│       ├── Text (link option).json    # App metadata and props
+│       └── index.js                   # App script (ES6 module)
+└── assets/
+    ├── Text (link option).glb         # 3D model
+    └── Text (link option)__image.png  # Thumbnail
 ```
 
-**Header structure:**
+**Example app.json:**
 ```json
 {
-  "blueprint": {
-    "id": "unique-id",
-    "version": 3,
-    "name": "App Name",
-    "model": "asset://hash.glb",
-    "script": "asset://hash.js",
-    "props": { /* configurable properties */ }
+  "author": "Hyperfy",
+  "desc": "Added link option",
+  "model": "assets/Text (link option).glb",
+  "image": {
+    "url": "assets/Text (link option)__image.png"
   },
-  "assets": [
-    {"type": "model", "url": "asset://hash.glb", "size": 1234, "mime": "model/gltf-binary"},
-    {"type": "script", "url": "asset://hash.js", "size": 567, "mime": "application/javascript"}
-  ]
+  "props": {
+    "text": "Enter text...",
+    "size": 24,
+    "color": "white",
+    "align": "center"
+  },
+  "scriptFormat": "module"
+}
+```
+
+**Example index.js:**
+```javascript
+export default function main(world, app, fetch, props, setTimeout) {
+  app.configure([
+    {
+      key: 'text',
+      type: 'textarea',
+      label: 'Text',
+    },
+    {
+      key: 'size',
+      type: 'number',
+      label: 'Size',
+      initial: 12,
+    },
+    // ... more prop configurations
+  ])
+
+  // App logic here
 }
 ```
 
@@ -118,18 +149,19 @@ V2 apps use the modern Hyperfy `.hyp` binary format, which bundles a blueprint d
 
 | App | Description |
 |-----|-------------|
-| Avatar Station - fixed.hyp | VRM avatar selection station |
-| BasicMp3Player.hyp | Audio player for MP3 files |
-| Discord3.hyp | Discord integration |
-| Emotes.hyp | Player emote system |
-| Grid*.hyp (4 variants) | Grid floor options |
-| HyperPortal - fixed.hyp | Portal/teleport system |
-| Platforms.hyp | Platform mechanics |
-| sit.hyp | Sitting/seat functionality |
-| Text.hyp | 3D text display |
-| TriggerZone.hyp | Invisible trigger areas |
-| VideoPlayer.hyp | Video playback |
-| WaterPlane.hyp | Water surface shader |
+| $scene | Scene/world environment settings |
+| Avatar Station | VRM avatar selection station |
+| BasicMp3Player | Audio player for MP3 files |
+| Discord3 | Discord integration |
+| Emote Command | Player emote system |
+| Grid Floor (3 variants) | Grid floor options |
+| HyperPortal | Portal/teleport system |
+| Platforms | Platform mechanics |
+| SITING POSITION | Sitting/seat functionality |
+| Text (link option) | 3D text display with link support |
+| TriggerZone | Invisible trigger areas |
+| VideoPlayer | Video playback |
+| Water Plane | Water surface shader |
 
 ### V2 Platform Status
 
@@ -159,22 +191,87 @@ For migration to V2, you'll need to:
 
 ### Working with V2 Apps
 
-V2 `.hyp` files can be used directly in modern Hyperfy worlds:
+V2 apps are stored in extracted, human-readable format for easy browsing on GitHub:
 
-**To inspect a .hyp file:**
-```python
-import struct, json
+**To browse apps:**
+```bash
+# View app metadata
+cat v2/apps/Text\ \(link\ option\)/Text\ \(link\ option\).json
 
-with open('v2/Text.hyp', 'rb') as f:
-    header_size = struct.unpack('<I', f.read(4))[0]
-    header = json.loads(f.read(header_size))
-    print(json.dumps(header, indent=2))
+# Read app script
+cat v2/apps/Text\ \(link\ option\)/index.js
+
+# View shared assets
+ls v2/assets/
 ```
 
 **To use in Hyperfy v7+:**
-1. Copy `.hyp` file to your world's app collection
-2. Place app in world via editor
-3. Configure properties as needed
+
+Option 1: Package as .hyp (requires Hyperfy SDK build tools - not included here)
+
+Option 2: Use original .hyp files:
+```bash
+# Original .hyp binaries are in v2-hyp/ for reference
+ls v2-hyp/
+```
+
+**To re-extract .hyp files (if you add new ones):**
+
+```bash
+# Install dependencies (one-time)
+npm install
+
+# Extract all .hyp files from v2-hyp/ to v2/
+node extract-hyp.mjs v2-hyp --project v2
+
+# Or extract a specific file
+node extract-hyp.mjs v2-hyp/NewApp.hyp --project v2
+```
+
+### Understanding .hyp Format
+
+The original `.hyp` files (in `v2-hyp/`) use a binary format:
+
+```
+[4 bytes: header size (uint32 LE)]
+[JSON header with blueprint + asset manifest]
+[asset 1 binary data]
+[asset 2 binary data]
+...
+```
+
+This format bundles everything (metadata, script, models, textures) into a single portable file. The extracted format splits this into separate files for better readability and version control.
+
+## Extraction Tool
+
+This repo includes `extract-hyp.mjs`, which extracts `.hyp` files into editable components:
+
+**Usage:**
+```bash
+node extract-hyp.mjs [input] [--project outputDir]
+
+# Examples:
+node extract-hyp.mjs v2-hyp                    # Extract all in v2-hyp/
+node extract-hyp.mjs v2-hyp/Text.hyp           # Extract single file
+node extract-hyp.mjs v2-hyp --project v2       # Extract to v2/
+```
+
+**What it does:**
+- Reads binary `.hyp` file
+- Extracts JSON header (blueprint metadata)
+- Extracts embedded assets (models, textures, scripts)
+- Writes `app.json` with metadata and props
+- Writes `index.js` with app script
+- Writes assets to shared `assets/` directory
+- Ensures proper ES6 module wrapper signature
+
+**Supported asset types:**
+- 3D models: `.glb`, `.gltf`, `.vrm`
+- Images: `.png`, `.jpg`, `.webp`, `.avif`, `.gif`, `.svg`, `.ktx2`
+- Videos: `.mp4`, `.webm`
+- Audio: `.mp3`, `.ogg`, `.wav`, `.aac`, `.m4a`
+- Scripts: `.js`
+- Fonts: `.ttf`, `.otf`, `.woff`, `.woff2`
 
 ## Reference Documentation
 
@@ -187,7 +284,7 @@ with open('v2/Text.hyp', 'rb') as f:
 
 These apps were archived from:
 - **V1 Apps**: Extracted from Hyperfy V1 world archives (2026-01-23 snapshot)
-- **V2 Apps**: Collected from various Hyperfy V2 world exports and community sources
+- **V2 Apps**: Collected from Hyperfy V2 world exports, SDK examples, and community sources
 
 Original source repositories:
 - Hyperfy Archive Project: `/home/jin/repo/hyperfy-archive/sunset/`
@@ -197,7 +294,8 @@ Original source repositories:
 ## Notes
 
 - **macOS Artifacts Removed**: `__MACOSX/` folders and `.DS_Store` files have been cleaned from this repository
-- **Asset Links**: Some V1 apps reference external assets via URLs that may no longer be accessible
+- **Extracted Format**: V2 apps are stored in extracted format (not binary .hyp) for better git diffs and human readability
+- **Asset Deduplication**: Shared assets in `v2/assets/` are referenced by multiple apps
 - **Incomplete Coverage**: This is not an exhaustive collection of all Hyperfy apps ever created
 - **No Warranty**: Apps are preserved as-is for archival purposes
 
@@ -206,7 +304,10 @@ Original source repositories:
 To add apps to this collection:
 
 1. **V1 Apps**: Place in `v1/{app-id}/` with `app.json` + `index.js`
-2. **V2 Apps**: Place `.hyp` files in `v2/`
+2. **V2 Apps**:
+   - Add `.hyp` file to `v2-hyp/`
+   - Run: `node extract-hyp.mjs v2-hyp/NewApp.hyp --project v2`
+   - Commit both the .hyp (in `v2-hyp/`) and extracted format (in `v2/`)
 3. Update this README if adding significant new categories
 
 ## License

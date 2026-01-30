@@ -1,0 +1,19 @@
+{
+  "name": "hyperfy-apps",
+  "version": "1.0.0",
+  "description": "Hyperfy V1 and V2 app archive with extraction tools",
+  "type": "module",
+  "scripts": {
+    "extract": "node extract-hyp.mjs v2-hyp --project v2",
+    "extract:single": "node extract-hyp.mjs"
+  },
+  "keywords": [
+    "hyperfy",
+    "virtual-worlds",
+    "metaverse",
+    "apps"
+  ],
+  "dependencies": {
+    "fs-extra": "^11.2.0"
+  }
+}

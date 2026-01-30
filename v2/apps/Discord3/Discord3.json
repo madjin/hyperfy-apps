@@ -1,0 +1,24 @@
+{
+  "author": "Peezy/Akerboom",
+  "url": null,
+  "desc": "broadcast world events to discord",
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/Discord3.glb",
+  "image": null,
+  "props": {
+    "webhook": "https://discord.com/api/webhooks/1420401455269023917/PcnFDVPD1uWbWhNfGOebUn8ByUXs42NqFKjLdx01eYMa1ZRyNHdxLGH5guzgEptMz299",
+    "broadcastChat": true,
+    "ownerName": "Akerboom",
+    "reportTime": 0,
+    "excludedNames": "Akerboom",
+    "showLogo": true,
+    "showNotifications": true
+  },
+  "scriptFormat": "module"
+}

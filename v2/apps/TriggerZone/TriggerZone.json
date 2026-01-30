@@ -1,0 +1,27 @@
+{
+  "author": "Gert-Jan Akerboom",
+  "url": null,
+  "desc": "Triggers when a player walks through and sends a message to discord",
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": true,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/TriggerZone.glb",
+  "image": null,
+  "props": {
+    "collision": true,
+    "broadcastChat": true,
+    "triggerName": "Trigger Zone",
+    "showTrigger": true,
+    "triggerColor": "#ff6ede",
+    "triggerOpacity": 0.49,
+    "webhook": "",
+    "triggerSizeX": 2,
+    "triggerSizeY": 2,
+    "triggerSizeZ": 2
+  },
+  "scriptFormat": "module"
+}

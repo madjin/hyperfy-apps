@@ -1,0 +1,32 @@
+{
+  "author": "Hyperfy",
+  "url": null,
+  "desc": "Added link option",
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/Text (link option).glb",
+  "image": {
+    "url": "assets/Text (link option)__image.png"
+  },
+  "props": {
+    "width": 200,
+    "height": 60,
+    "lit": false,
+    "text": "Enter text...",
+    "color": "white",
+    "align": "center",
+    "bg": "black",
+    "padding": 20,
+    "size": 24,
+    "doubleside": true,
+    "shadows": true,
+    "hover": true,
+    "link": ""
+  },
+  "scriptFormat": "module"
+}

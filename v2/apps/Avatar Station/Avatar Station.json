@@ -1,0 +1,30 @@
+{
+  "author": "Hyperfy",
+  "url": null,
+  "desc": null,
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": true,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/Avatar Station.glb",
+  "image": null,
+  "props": {
+    "avatar": {
+      "type": "avatar",
+      "url": "assets/avatar.vrm"
+    },
+    "emote": {
+      "type": "emote",
+      "url": "assets/emote.glb"
+    },
+    "rotate": true,
+    "rssotate": false,
+    "rssotdate": false,
+    "hover": false,
+    "name": "Prisoner"
+  },
+  "scriptFormat": "module"
+}

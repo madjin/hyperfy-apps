@@ -1,0 +1,34 @@
+{
+  "author": "Hyperfy x Valiant",
+  "url": null,
+  "desc": "Mod of Hyperfy player with ability to stream .m3u8",
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/VideoPlayer.glb",
+  "image": {
+    "url": "assets/VideoPlayer__image.png"
+  },
+  "props": {
+    "width": 0,
+    "height": 2,
+    "fit": "cover",
+    "lit": false,
+    "shadows": true,
+    "video": null,
+    "loop": true,
+    "volume": 1,
+    "sync": false,
+    "doubleside": true,
+    "placeholder": {
+      "type": "video",
+      "url": "assets/placeholder.mp4"
+    },
+    "videoUrl": ""
+  },
+  "scriptFormat": "module"
+}

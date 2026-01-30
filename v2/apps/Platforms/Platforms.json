@@ -1,0 +1,32 @@
+{
+  "author": "~/b0gie",
+  "url": "https://techshaman.42024769/",
+  "desc": "basic platformer template",
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": true,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/Platforms.glb",
+  "image": {
+    "url": "assets/Platforms__image.jpg"
+  },
+  "props": {
+    "spawnMode": "floating",
+    "showTutorial": true,
+    "status": "All cleared - ready for new launch!",
+    "platformType": "platform",
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1,
+    "fallingForce": 10,
+    "triggerVisibility": "invisible",
+    "fallDelay": 1,
+    "resetTime": 5,
+    "moveSpeed": 3,
+    "rotateSpeed": 1
+  },
+  "scriptFormat": "module"
+}

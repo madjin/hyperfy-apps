@@ -1,0 +1,28 @@
+{
+  "author": "Valiant",
+  "url": null,
+  "desc": "Basic MP3 Player. Upload file or URL",
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/BasicMp3Player.glb",
+  "image": {
+    "url": "assets/BasicMp3Player__image.png"
+  },
+  "props": {
+    "collision": true,
+    "url": "",
+    "loop": true,
+    "volume": 1,
+    "spatial": true,
+    "distance": 10,
+    "rolloff": 3,
+    "global": true,
+    "autoPlayUploaded": true
+  },
+  "scriptFormat": "module"
+}

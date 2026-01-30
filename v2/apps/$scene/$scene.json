@@ -1,0 +1,35 @@
+{
+  "author": null,
+  "url": null,
+  "desc": null,
+  "preload": true,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": true,
+  "model": "assets/-scene.glb",
+  "image": null,
+  "props": {
+    "hour": 4,
+    "period": "pm",
+    "intensity": 1,
+    "sky": {
+      "type": "texture",
+      "url": "assets/sky.webp"
+    },
+    "hdr": {
+      "type": "hdr",
+      "url": "assets/hdr.hdr"
+    },
+    "verticalRotation": 40,
+    "horizontalRotation": 230,
+    "rotationY": 0,
+    "fogNear": 450,
+    "fogFar": 1000,
+    "fogColor": "",
+    "color": "white"
+  },
+  "scriptFormat": "module"
+}
