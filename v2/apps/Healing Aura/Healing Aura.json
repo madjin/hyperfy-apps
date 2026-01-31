@@ -1,0 +1,25 @@
+{
+  "author": null,
+  "url": null,
+  "desc": null,
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/Healing Aura.glb",
+  "image": null,
+  "props": {
+    "image": {
+      "type": "texture",
+      "url": "assets/image.png"
+    },
+    "image2": {
+      "type": "texture",
+      "url": "assets/image2.png"
+    }
+  },
+  "scriptFormat": "module"
+}

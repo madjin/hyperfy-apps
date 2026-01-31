@@ -1,0 +1,16 @@
+{
+  "author": "Gert-Jan Akerboom",
+  "url": null,
+  "desc": "Rocket Launcher, now Global and has Collision.",
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": true,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/Rocket(Global+Coll).glb",
+  "image": null,
+  "props": {},
+  "scriptFormat": "module"
+}

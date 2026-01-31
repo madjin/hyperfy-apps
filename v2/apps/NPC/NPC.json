@@ -1,0 +1,60 @@
+{
+  "author": "",
+  "url": null,
+  "desc": "",
+  "preload": true,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": true,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/NPC.vrm",
+  "image": null,
+  "props": {
+    "emote": {
+      "type": "emote",
+      "url": "assets/emote.glb"
+    },
+    "avatar": {
+      "type": "avatar",
+      "url": "assets/avatar.vrm"
+    },
+    "walk": {
+      "type": "emote",
+      "url": "assets/walk.glb"
+    },
+    "idle": {
+      "type": "emote",
+      "url": "assets/idle.glb"
+    },
+    "talk": {
+      "type": "emote",
+      "url": "assets/talk.glb"
+    },
+    "run": {
+      "type": "emote",
+      "url": "assets/run.glb"
+    },
+    "refDistance": 5,
+    "maxDistance": 15,
+    "rolloffFactor": 5,
+    "distanceModel": "inverse",
+    "fireAudio": {
+      "type": "audio",
+      "url": "assets/fireAudio.mp3"
+    },
+    "playbackRate": 1,
+    "pauseDuration": 2,
+    "raptorAudio": {
+      "type": "audio",
+      "url": "assets/raptorAudio.mp3"
+    },
+    "detectionRange": 15,
+    "fovAngle": 120,
+    "chasePlayer": true,
+    "followDistance": 3,
+    "memoryDuration": 5
+  },
+  "scriptFormat": "module"
+}

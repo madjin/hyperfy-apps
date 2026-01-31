@@ -1,0 +1,16 @@
+{
+  "author": null,
+  "url": null,
+  "desc": "Demo showing raycast tag tracking",
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/Physics - Raycast Tags.glb",
+  "image": null,
+  "props": {},
+  "scriptFormat": "module"
+}

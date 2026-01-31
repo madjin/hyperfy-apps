@@ -1,0 +1,28 @@
+{
+  "author": "Hyperfy",
+  "url": null,
+  "desc": null,
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/Wall Hang.glb",
+  "image": {
+    "url": "assets/Wall Hang__image.png"
+  },
+  "props": {
+    "collision": true,
+    "flipEmote": {
+      "type": "emote",
+      "url": "assets/flipEmote.glb"
+    },
+    "hangingEmote": {
+      "type": "emote",
+      "url": "assets/hangingEmote.glb"
+    }
+  },
+  "scriptFormat": "module"
+}

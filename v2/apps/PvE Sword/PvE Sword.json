@@ -1,0 +1,30 @@
+{
+  "author": null,
+  "url": null,
+  "desc": "draft for pve sword",
+  "preload": true,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/PvE Sword.glb",
+  "image": null,
+  "props": {
+    "attack": {
+      "type": "emote",
+      "url": "assets/attack.glb"
+    },
+    "attack1": {
+      "type": "emote",
+      "url": "assets/attack1.glb"
+    },
+    "attack2": {
+      "type": "emote",
+      "url": "assets/attack2.glb"
+    },
+    "debug": true
+  },
+  "scriptFormat": "module"
+}

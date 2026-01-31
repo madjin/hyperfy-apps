@@ -1,0 +1,40 @@
+{
+  "author": "Valiant",
+  "url": null,
+  "desc": "Soaring Eagles with sound and adjustable parameters",
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/Eagles v1.glb",
+  "image": null,
+  "props": {
+    "visible": "true",
+    "eagle_count": 3,
+    "scale_min": 0.5,
+    "scale_max": 1.5,
+    "wingbeat_min": 5,
+    "wingbeat_max": 10,
+    "soarSpeed_min": 0.5,
+    "soarSpeed_max": 1.5,
+    "soundEnabled": "true",
+    "volume": 0.02,
+    "eagleSound": {
+      "type": "audio",
+      "url": "assets/eagleSound.mp3"
+    },
+    "minHeight": 20,
+    "maxHeight": 30,
+    "speed": 1,
+    "refDistance": 5,
+    "maxDistance": 50,
+    "eagleSound2": {
+      "type": "audio",
+      "url": "assets/eagleSound2.mp3"
+    }
+  },
+  "scriptFormat": "module"
+}

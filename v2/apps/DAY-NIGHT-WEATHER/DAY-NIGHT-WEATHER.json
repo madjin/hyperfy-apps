@@ -1,0 +1,119 @@
+{
+  "author": "HiveMind",
+  "url": null,
+  "desc": "A solar panel that obviously has control over the sky and sun",
+  "preload": true,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/DAY-NIGHT-WEATHER.glb",
+  "image": {
+    "url": "assets/DAY-NIGHT-WEATHER__image.png"
+  },
+  "props": {
+    "sky": {
+      "type": "texture",
+      "url": "assets/sky.jpg"
+    },
+    "hdr": {
+      "type": "hdr",
+      "url": "assets/hdr.hdr"
+    },
+    "hour": 1,
+    "period": "pm",
+    "hour2": 9,
+    "intensity": 5,
+    "autoRotate": false,
+    "cycleSpeed": 1,
+    "timeOfDay": 5.4,
+    "autoTime": false,
+    "manualTime": 0,
+    "useRealTime": true,
+    "tod_autoRotate": true,
+    "tod_timeOfDay": 12,
+    "tod_intensity": 3,
+    "sky_texture": {
+      "type": "texture",
+      "url": "assets/sky_texture.jpg"
+    },
+    "sky_hdr": {
+      "type": "hdr",
+      "url": "assets/sky_hdr.hdr"
+    },
+    "daynight_timeOfDay": 18.4,
+    "daynight_intensity": 1,
+    "daynight_autoRotate": true,
+    "daynight_timeofday": 12,
+    "sun_timeOfDay": 23.4,
+    "sun_intensity": 1,
+    "sun_autoRotate": true,
+    "fogNear": 0,
+    "fogFar": 1000,
+    "fogColor": "#D4B59F",
+    "fogDensity": 0.2,
+    "sunColor": "#BDC9E5",
+    "fogHeight": 0,
+    "fogFalloff": 1,
+    "sunTextureScale": 1,
+    "skyRotationEnabled": true,
+    "sunTexture": null,
+    "fogPositionX": 0,
+    "fogPositionY": -15,
+    "fogPositionZ": 0,
+    "fogAnimation": false,
+    "fogAnimationSpeed": 2,
+    "randomWeather": false,
+    "weatherType": "clear",
+    "particleDensity": 25,
+    "rainTexture": {
+      "type": "texture",
+      "url": "assets/rainTexture.png"
+    },
+    "dustTexture": {
+      "type": "texture",
+      "url": "assets/dustTexture.png"
+    },
+    "radstormTexture": {
+      "type": "texture",
+      "url": "assets/radstormTexture.png"
+    },
+    "fogParticleTexture": {
+      "type": "texture",
+      "url": "assets/fogParticleTexture.png"
+    },
+    "ashTexture": {
+      "type": "texture",
+      "url": "assets/ashTexture.png"
+    },
+    "cloudTexture": {
+      "type": "texture",
+      "url": "assets/cloudTexture.png"
+    },
+    "lightningTexture": {
+      "type": "texture",
+      "url": "assets/lightningTexture.png"
+    },
+    "thunderSound": {
+      "type": "audio",
+      "url": "assets/thunderSound.mp3"
+    },
+    "rainSound": {
+      "type": "audio",
+      "url": "assets/rainSound.mp3"
+    },
+    "defaultParticleTexture": {
+      "type": "texture",
+      "url": "assets/defaultParticleTexture.png"
+    },
+    "lightningHeight": 1000,
+    "lightningStartHeight": 50,
+    "rainColor": "#6495ED",
+    "stormRainColor": "#4682B4",
+    "lightningColor": "#f8f8ff",
+    "lightningEmissive": 40
+  },
+  "scriptFormat": "module"
+}

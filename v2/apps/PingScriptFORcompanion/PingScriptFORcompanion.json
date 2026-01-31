@@ -1,0 +1,23 @@
+{
+  "author": "drdoge.eth",
+  "url": "",
+  "desc": "ATTACH THIS SCRIPT TO ANYTHING YOU WANT THE COMPANION OR MINIMAP TO LOCATE IN WORLD JUST NAME ACCORDINGLY. ",
+  "preload": true,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/PingScriptFORcompanion.glb",
+  "image": null,
+  "props": {
+    "name": "Train",
+    "type": "Train",
+    "description": "A scannable object in the world",
+    "tags": "Landmark",
+    "displayName": "Train",
+    "objectType": "LandMark"
+  },
+  "scriptFormat": "module"
+}

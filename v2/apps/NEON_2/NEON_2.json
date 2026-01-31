@@ -1,0 +1,42 @@
+{
+  "author": "Neon by Akerboom/Audio by Bogie ",
+  "url": null,
+  "desc": "Create a neon sign.\nYou can use these characters\n ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890\":-?!( )#[ ]/={ }*@&\n\nyou can also \nset spacing\nset scale\nset height\nset glow intensity\nset color\nset alignment\nand toggle all character visibility on and off",
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": true,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/NEON_2.glb",
+  "image": null,
+  "props": {
+    "text_input": "** hyperfy **",
+    "letter_spacing": 2.5,
+    "letter_scale": 1,
+    "emission_r": 0.30000000000000004,
+    "emission_g": 0.7000000000000001,
+    "emission_b": 0.4,
+    "emission_intensity": 20,
+    ".emissiveIntensity: 5": 3.2,
+    "showchars": "true",
+    "visible": "false",
+    "alignment": "center",
+    "scale": 0.8,
+    "height": 2.3000000000000003,
+    "uvcolor": 0.45,
+    "defaultVolume": 1,
+    "isSpatial": true,
+    "audioType": "music",
+    "minDistance": 5,
+    "maxDistance": 20,
+    "rolloffFactor": 4,
+    "audio": {
+      "type": "audio",
+      "url": "assets/audio.mp3"
+    },
+    "audioPlayback": "stop"
+  },
+  "scriptFormat": "module"
+}

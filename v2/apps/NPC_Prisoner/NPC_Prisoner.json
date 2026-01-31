@@ -1,0 +1,37 @@
+{
+  "author": "MetaRick",
+  "url": null,
+  "desc": "Placeholder NPC",
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/NPC_Prisoner.vrm",
+  "image": null,
+  "props": {
+    "emote": {
+      "type": "emote",
+      "url": "assets/emote.glb"
+    },
+    "avatar": {
+      "type": "avatar",
+      "url": "assets/avatar.vrm"
+    },
+    "walk": {
+      "type": "emote",
+      "url": "assets/walk.glb"
+    },
+    "idle": {
+      "type": "emote",
+      "url": "assets/idle.glb"
+    },
+    "talk": {
+      "type": "emote",
+      "url": "assets/talk.glb"
+    }
+  },
+  "scriptFormat": "module"
+}

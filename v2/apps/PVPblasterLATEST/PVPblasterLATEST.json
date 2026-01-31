@@ -1,0 +1,51 @@
+{
+  "author": "dr doge pistols inc,",
+  "url": null,
+  "desc": "E to equip. Q to drop.",
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/PVPblasterLATEST.glb",
+  "image": null,
+  "props": {
+    "attack": {
+      "type": "emote",
+      "url": "assets/attack.glb"
+    },
+    "attack1": {
+      "type": "emote",
+      "url": "assets/attack1.glb"
+    },
+    "attack2": {
+      "type": "emote",
+      "url": "assets/attack2.glb"
+    },
+    "emote": {
+      "type": "emote",
+      "url": "assets/emote.glb"
+    },
+    "lightningSound": {
+      "type": "audio",
+      "url": "assets/lightningSound.mp3"
+    },
+    "spawnOffsetForward": 0,
+    "spawnOffsetUp": 0,
+    "spawnOffsetRight": 0,
+    "weaponDamage": 15,
+    "headshotMultiplier": 1.5,
+    "fireRate": 0.5,
+    "weaponRange": 100,
+    "healthRegenAmount": 1,
+    "healthRegenDelay": 5,
+    "impactSound": {
+      "type": "audio",
+      "url": "assets/impactSound.mp3"
+    },
+    "soundVolume": 3
+  },
+  "scriptFormat": "module"
+}

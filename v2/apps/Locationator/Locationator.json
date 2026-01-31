@@ -1,0 +1,16 @@
+{
+  "author": "MetaRick",
+  "url": "https://uncannydev.hyperworld.host/",
+  "desc": "Helps you find a world location, just drop the milkshake where you want and will display its world location.",
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/Locationator.glb",
+  "image": null,
+  "props": {},
+  "scriptFormat": "module"
+}

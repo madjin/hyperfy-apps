@@ -1,0 +1,23 @@
+{
+  "author": "peezy",
+  "url": "~/",
+  "desc": "spamable dash",
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/dash.glb",
+  "image": null,
+  "props": {
+    "rName": "dash",
+    "color": "0.0957",
+    "chargeEmote": {
+      "type": "emote",
+      "url": "assets/chargeEmote.glb"
+    }
+  },
+  "scriptFormat": "module"
+}

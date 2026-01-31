@@ -1,0 +1,30 @@
+{
+  "author": "Valiant",
+  "url": null,
+  "desc": "Mod of Butterfly Swarm by Akerboom ",
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/Bats v1.glb",
+  "image": null,
+  "props": {
+    "visible": "true",
+    "bat_amount": 1050,
+    "scale_min": 0.1,
+    "scale_max": 0.1,
+    "wingbeat_min": 12,
+    "wingbeat_max": 25,
+    "flyspeed_min": 0.3,
+    "flyspeed_max": 1,
+    "soundEnabled": "true",
+    "batSound": {
+      "type": "audio",
+      "url": "assets/batSound.mp3"
+    }
+  },
+  "scriptFormat": "module"
+}

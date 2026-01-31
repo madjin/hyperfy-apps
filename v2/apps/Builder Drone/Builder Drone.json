@@ -1,0 +1,19 @@
+{
+  "author": null,
+  "url": null,
+  "desc": null,
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/Builder Drone.glb",
+  "image": null,
+  "props": {
+    "controlKey": "P",
+    "holdDuration": 1
+  },
+  "scriptFormat": "module"
+}

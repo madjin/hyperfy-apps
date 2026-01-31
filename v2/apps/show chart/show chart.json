@@ -1,0 +1,26 @@
+{
+  "author": null,
+  "url": null,
+  "desc": null,
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/show chart.glb",
+  "image": null,
+  "props": {
+    "chartUrl": "https://cambrian.rickydata.com/plot_best_categories",
+    "refreshLabel": "Refresh Chart [E]",
+    "refreshRadius": 5,
+    "width": 640,
+    "height": 480,
+    "posX": 0,
+    "posY": 1.7,
+    "posZ": -3,
+    "imageFit": "fill"
+  },
+  "scriptFormat": "module"
+}

@@ -1,0 +1,16 @@
+{
+  "author": "Saori",
+  "url": null,
+  "desc": "",
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/Raycaster.glb",
+  "image": null,
+  "props": {},
+  "scriptFormat": "module"
+}

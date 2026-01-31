@@ -1,0 +1,22 @@
+{
+  "blueprint": {
+    "name": "Place",
+    "desc": "Named teleport destination. Other scripts can teleport players here via world.emit('place:PlaceName', playerId)",
+    "model": null,
+    "script": "place.js",
+    "props": {
+      "name": "Place"
+    },
+    "preload": false,
+    "public": true,
+    "locked": false,
+    "unique": false
+  },
+  "assets": [
+    {
+      "type": "script",
+      "url": "place.js",
+      "mime": "application/javascript"
+    }
+  ]
+}

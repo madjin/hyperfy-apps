@@ -1,0 +1,105 @@
+{
+  "author": "",
+  "url": null,
+  "desc": "overheat mechanism (reload) with UI, server validated",
+  "preload": true,
+  "public": true,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/Machine Gun v8.glb",
+  "image": null,
+  "props": {
+    "walkAim": {
+      "type": "emote",
+      "url": "assets/walkAim.glb"
+    },
+    "idle": {
+      "type": "emote",
+      "url": "assets/idle.glb"
+    },
+    "walk": {
+      "type": "emote",
+      "url": "assets/walk.glb"
+    },
+    "run": {
+      "type": "emote",
+      "url": "assets/run.glb"
+    },
+    "walkBack": {
+      "type": "emote",
+      "url": "assets/walkBack.glb"
+    },
+    "walkLeft": {
+      "type": "emote",
+      "url": "assets/walkLeft.glb"
+    },
+    "walkRight": {
+      "type": "emote",
+      "url": "assets/walkRight.glb"
+    },
+    "walkBackLeft": {
+      "type": "emote",
+      "url": "assets/walkBackLeft.glb"
+    },
+    "walkBackRight": {
+      "type": "emote",
+      "url": "assets/walkBackRight.glb"
+    },
+    "sprintBackright": {
+      "type": "emote",
+      "url": "assets/sprintBackright.glb"
+    },
+    "sprintBackRight": {
+      "type": "emote",
+      "url": "assets/sprintBackRight.glb"
+    },
+    "sprintBackLeft": {
+      "type": "emote",
+      "url": "assets/sprintBackLeft.glb"
+    },
+    "walkForwardLeft": {
+      "type": "emote",
+      "url": "assets/walkForwardLeft.glb"
+    },
+    "walkForwardRight": {
+      "type": "emote",
+      "url": "assets/walkForwardRight.glb"
+    },
+    "sprintForwardRight": {
+      "type": "emote",
+      "url": "assets/sprintForwardRight.glb"
+    },
+    "sprintForwardLeft": {
+      "type": "emote",
+      "url": "assets/sprintForwardLeft.glb"
+    },
+    "sprintBackward": {
+      "type": "emote",
+      "url": "assets/sprintBackward.glb"
+    },
+    "sprintLeft": {
+      "type": "emote",
+      "url": "assets/sprintLeft.glb"
+    },
+    "sprintRight": {
+      "type": "emote",
+      "url": "assets/sprintRight.glb"
+    },
+    "jump": {
+      "type": "emote",
+      "url": "assets/jump.glb"
+    },
+    "reload": {
+      "type": "emote",
+      "url": "assets/reload.glb"
+    },
+    "audio": {
+      "type": "audio",
+      "url": "assets/audio.mp3"
+    }
+  },
+  "scriptFormat": "module"
+}

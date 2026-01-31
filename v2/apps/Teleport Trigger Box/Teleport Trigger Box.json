@@ -1,0 +1,25 @@
+{
+  "author": "Roustan",
+  "url": null,
+  "desc": "create simple teleports and then hide the trigger box easily",
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/Teleport Trigger Box.glb",
+  "image": {
+    "url": "assets/Teleport Trigger Box__image.png"
+  },
+  "props": {
+    "collision": true,
+    "destination": "10,0,10",
+    "visible": true,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+  },
+  "scriptFormat": "module"
+}

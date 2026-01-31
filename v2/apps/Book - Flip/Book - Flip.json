@@ -1,0 +1,37 @@
+{
+  "author": "Dhin",
+  "url": null,
+  "desc": null,
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": true,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/Book - Flip.glb",
+  "image": null,
+  "props": {
+    "prompt": "a closed book standing up vertically",
+    "createdAt": 7485.845766458994,
+    "rollEmote": {
+      "type": "emote",
+      "url": "assets/rollEmote.glb"
+    },
+    "jumpStrength": 2,
+    "forwardStart": 10,
+    "forwardLand": 20,
+    "landDelay": 500,
+    "rollDuration": 100,
+    "hotkey": "F",
+    "jumpEmote": {
+      "type": "emote",
+      "url": "assets/jumpEmote.glb"
+    },
+    "flipEmote": {
+      "type": "emote",
+      "url": "assets/flipEmote.glb"
+    }
+  },
+  "scriptFormat": "module"
+}

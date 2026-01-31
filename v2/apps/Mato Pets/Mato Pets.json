@@ -1,0 +1,33 @@
+{
+  "author": "may - scoe",
+  "url": "https://bitmato.dev",
+  "desc": "Fully networked pet",
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": true,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/Mato Pets.vrm",
+  "image": null,
+  "props": {
+    "avoidance_distance": "4",
+    "follow_speed": "2.2",
+    "rotation_speed": "2.2",
+    "emote_idle": {
+      "type": "emote",
+      "url": "assets/emote_idle.glb"
+    },
+    "emote_walking": {
+      "type": "emote",
+      "url": "assets/emote_walking.glb"
+    },
+    "emote_sitting": {
+      "type": "emote",
+      "url": "assets/emote_sitting.glb"
+    },
+    "target": ""
+  },
+  "scriptFormat": "module"
+}

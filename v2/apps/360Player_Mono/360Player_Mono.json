@@ -1,0 +1,19 @@
+{
+  "author": "MetaRick",
+  "url": null,
+  "desc": "",
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/360Player_Mono.glb",
+  "image": null,
+  "props": {
+    "video": null,
+    "videoLink": "https://player.vimeo.com/progressive_redirect/playback/1052335324/rendition/2160p/file.mp4?loc=external&signature=e861f9b2581b5f144533be80b360009c2b397f6e84362f1a7913f7cfefec850b"
+  },
+  "scriptFormat": "module"
+}

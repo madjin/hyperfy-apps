@@ -1,0 +1,46 @@
+{
+  "author": "HowieDuhzit X devilsadvocate",
+  "url": "https://soljar.xyz/howieduhzit",
+  "desc": "Emote Player Rom",
+  "preload": true,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": true,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/Emote_Rom.glb",
+  "image": null,
+  "props": {
+    "rName": "Emotes",
+    "color": "0.0957",
+    "emote1Emoji": "😊",
+    "emote2Emoji": "",
+    "emote3Emoji": "",
+    "emote4Emoji": "",
+    "emote5Emoji": "🎵",
+    "emote6Emoji": "",
+    "emote7Emoji": "",
+    "emote8Emoji": "",
+    "emote9Emoji": "",
+    "emote0Emoji": "",
+    "duration": 6,
+    "emote1File": {
+      "type": "emote",
+      "url": "assets/emote1File.glb"
+    },
+    "emote2File": {
+      "type": "emote",
+      "url": "assets/emote2File.glb"
+    },
+    "emote3File": {
+      "type": "emote",
+      "url": "assets/emote3File.glb"
+    },
+    "emote4File": {
+      "type": "emote",
+      "url": "assets/emote4File.glb"
+    }
+  },
+  "scriptFormat": "module"
+}

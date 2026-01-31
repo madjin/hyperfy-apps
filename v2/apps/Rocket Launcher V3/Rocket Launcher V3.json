@@ -1,0 +1,16 @@
+{
+  "author": "Akerboom",
+  "url": null,
+  "desc": "Rocket Launcher",
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": true,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/Rocket Launcher V3.glb",
+  "image": null,
+  "props": {},
+  "scriptFormat": "module"
+}

@@ -7,10 +7,10 @@ Archive of Hyperfy virtual world apps preserved in human-readable format for ref
 ```
 hyperfy-apps/
 ├── v1/              # 40 V1 React-based apps (legacy platform, sunset 2023-2026)
-├── v2/              # 14 V2 Script SDK apps (current platform, extracted format)
+├── v2/              # 158 V2 Script SDK apps (current platform, extracted format)
 │   ├── apps/        # App definitions (.json + index.js per app)
 │   └── assets/      # Shared assets (models, textures, scripts, etc.)
-├── v2-hyp/          # Original .hyp binary files
+├── v2-hyp/          # 174 original .hyp binary files
 ├── extract-hyp.mjs  # Extraction tool
 └── package.json
 ```
@@ -23,23 +23,23 @@ React-based apps using legacy Hyperfy SDK. Each directory contains `app.json`, `
 
 ## V2 Apps (Current)
 
-Modern JavaScript apps using Hyperfy Script SDK, stored in extracted format for git-friendly browsing.
+158 modern JavaScript apps using Hyperfy Script SDK, extracted from .hyp files shared in the Hyperfy Discord.
 
-| App | Description |
-|-----|-------------|
-| $scene | Scene/world environment settings |
-| Avatar Station | VRM avatar selection |
-| BasicMp3Player | MP3 audio player |
-| Discord3 | Discord integration |
-| Emote Command | Player emotes |
-| Grid Floor (variants) | Grid floors |
-| HyperPortal | Portal system |
-| Platforms | Platform mechanics |
-| SITING POSITION | Seat functionality |
-| Text (link option) | 3D text with links |
-| TriggerZone | Invisible triggers |
-| VideoPlayer | Video playback |
-| Water Plane | Water shader |
+### Categories
+
+| Category | Apps |
+|----------|------|
+| **Core** | $scene, Avatar Station, spawn, HyperPortal, TriggerZone |
+| **Media** | BasicMp3Player, VideoPlayer, 360 Video Viewer, Boombox, Jukebox |
+| **Vehicles** | car, car1-v2, Rover, dash |
+| **NPCs/Creatures** | Mato Pets, Companion, Butterfly Swarm (v1-v6), Bats |
+| **Effects** | Fire, Smoke, Water Fountain, Rain (v1-v4), Fireflies, Snow |
+| **Environment** | Water Plane, Day Night Weather, Alien Planet, MoonJump |
+| **Interaction** | Networked Grabbable, TOKEN GATE, PAY TO ENTER DOOR, dice |
+| **Combat** | Machine Gun, Health, Loot |
+| **Camera** | Camera Trigger, Camera Manager, Free Camera, Raycaster |
+| **UI** | Text, Grid Floor, Framed Image, uiImage from File |
+| **Utilities** | Builder Drone, HyperBeacon, place |
 
 ## Usage
 
@@ -72,7 +72,8 @@ See: [.hyp format spec](https://github.com/hyperfy-xyz/hyperfy/blob/main/docs/hy
 
 ## Source
 
-Archived from Hyperfy V1/V2 world exports and SDK examples (January 2026).
+- **V1 Apps**: Extracted from Hyperfy V1 world exports (2023-2026)
+- **V2 Apps**: Collected from Hyperfy Discord #share-your-apps channel (January 2026)
 
 ## Reference
 

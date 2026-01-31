@@ -1,0 +1,53 @@
+{
+  "author": "homemade",
+  "url": "https://x.com/H0M3_D1R",
+  "desc": "made by 0mka\ntake a load off the easy way.",
+  "preload": true,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": true,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/Seat🪑v2.glb",
+  "image": {
+    "url": "assets/Seat🪑v2__image.webp"
+  },
+  "props": {
+    "emote": {
+      "type": "emote",
+      "url": "assets/emote.glb"
+    },
+    "visibleType": "visible",
+    "hoverImage": {
+      "type": "texture",
+      "url": "assets/hoverImage.webp"
+    },
+    "interactionType": "action",
+    "actionLabel": "Sit",
+    "actionDistance": 3,
+    "actionDuration": 0.5,
+    "enableHoverUI": "enabled",
+    "actionYPosition": 0,
+    "activeEmote": "emote1",
+    "emote1": {
+      "type": "emote",
+      "url": "assets/emote1.glb"
+    },
+    "emote2": {
+      "type": "emote",
+      "url": "assets/emote2.glb"
+    },
+    "emote3": {
+      "type": "emote",
+      "url": "assets/emote3.glb"
+    },
+    "emote4": {
+      "type": "emote",
+      "url": "assets/emote4.glb"
+    },
+    "anchorXPosition": 0,
+    "anchorYPosition": 0.09
+  },
+  "scriptFormat": "module"
+}

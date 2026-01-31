@@ -1,0 +1,19 @@
+{
+  "author": "Claude",
+  "url": null,
+  "desc": null,
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/Jumping Frog.glb",
+  "image": null,
+  "props": {
+    "prompt": "make a weird jumping frog",
+    "createdAt": 5865.238252512004
+  },
+  "scriptFormat": "module"
+}

@@ -1,0 +1,26 @@
+{
+  "author": null,
+  "url": null,
+  "desc": null,
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/Video Channel Changer.glb",
+  "image": null,
+  "props": {
+    "video": null,
+    "target": "Screen",
+    "loop": true,
+    "aspect": "16:9",
+    "fit": "none",
+    "videoFile": {
+      "type": "video",
+      "url": "assets/videoFile.mp4"
+    }
+  },
+  "scriptFormat": "module"
+}

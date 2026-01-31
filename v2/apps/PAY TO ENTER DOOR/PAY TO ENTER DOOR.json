@@ -1,0 +1,24 @@
+{
+  "author": "peezy",
+  "url": null,
+  "desc": "REQUIRES SOLANA MOD",
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": true,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/PAY TO ENTER DOOR.glb",
+  "image": null,
+  "props": {
+    "type": "1",
+    "direction": "1",
+    "slideDistance": "1",
+    "network": "devnet",
+    "tokenMintDevnet": "EkxY8gCiyxTfLnZpUvQs6UMSHYykfrUXQj4iQE1X2e41",
+    "tokenMintMainnet": "8vBMibwpn8wpfYKbQ9xqzodymg3LjmYec2tSNGRy23K8",
+    "price": 5
+  },
+  "scriptFormat": "module"
+}

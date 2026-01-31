@@ -1,0 +1,30 @@
+{
+  "author": "0mka",
+  "url": null,
+  "desc": "Use with QuestItemUI.\n\nMatch emit signals.",
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": true,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/QuestItemBasic.glb",
+  "image": {
+    "url": "assets/QuestItemBasic__image.webp"
+  },
+  "props": {
+    "collision": true,
+    "enableRotation": true,
+    "enableBobbing": true,
+    "collectSound": {
+      "type": "audio",
+      "url": "assets/collectSound.mp3"
+    },
+    "rotationSpeed": 0.6000000000000001,
+    "bobbingHeight": 0.03,
+    "enableEmit": true,
+    "eventName": "itemCollected"
+  },
+  "scriptFormat": "module"
+}

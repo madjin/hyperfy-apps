@@ -1,0 +1,16 @@
+{
+  "author": "akerboom",
+  "url": null,
+  "desc": "a curved pine from a small (50kb) glb",
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": true,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/SplinePineV1.glb",
+  "image": null,
+  "props": {},
+  "scriptFormat": "module"
+}

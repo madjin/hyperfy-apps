@@ -1,0 +1,16 @@
+{
+  "author": "",
+  "url": null,
+  "desc": "Demo showing rigidbody contacts and tags",
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/Physics - Contacts & Tags.glb",
+  "image": null,
+  "props": {},
+  "scriptFormat": "module"
+}

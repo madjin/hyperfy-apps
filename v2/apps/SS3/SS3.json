@@ -1,0 +1,55 @@
+{
+  "author": "drdoge.eth",
+  "url": null,
+  "desc": null,
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/SS3.glb",
+  "image": null,
+  "props": {
+    "auraColor": "#00ffaa",
+    "auraSize": 1,
+    "particleCount": 100,
+    "particleTexture": {
+      "type": "texture",
+      "url": "assets/particleTexture.png"
+    },
+    "primaryColor": "#00ffaa",
+    "secondaryColor": "#ff00aa",
+    "primaryCount": 50,
+    "secondaryCount": 30,
+    "glowCount": 20,
+    "primaryTexture": {
+      "type": "texture",
+      "url": "assets/primaryTexture.png"
+    },
+    "secondaryTexture": {
+      "type": "texture",
+      "url": "assets/secondaryTexture.png"
+    },
+    "glowTexture": {
+      "type": "texture",
+      "url": "assets/glowTexture.png"
+    },
+    "enabled": true,
+    "primaryRate": 5,
+    "secondaryRate": 5,
+    "glowRate": 5,
+    "particleLifetime": 1.5,
+    "minScale": 0,
+    "maxScale": 0.8,
+    "spreadRadius": 0.1,
+    "coneAngle": 5,
+    "riseSpeed": 1.2,
+    "expansionRate": 0.8,
+    "theme": "quantum",
+    "effectStyle": "flame",
+    "glowIntensity": 50
+  },
+  "scriptFormat": "module"
+}

@@ -1,0 +1,18 @@
+{
+  "author": "Akerboom",
+  "url": null,
+  "desc": "to do_give the individual butterflies a random rotation",
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": true,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/Butterfly Swarm V2a.glb",
+  "image": {
+    "url": "assets/Butterfly Swarm V2a__image.jpg"
+  },
+  "props": {},
+  "scriptFormat": "module"
+}

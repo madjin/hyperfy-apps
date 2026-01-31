@@ -1,0 +1,31 @@
+{
+  "author": "Ashxn",
+  "url": null,
+  "desc": "A solar panel that obviously has control over the sky and sun",
+  "preload": true,
+  "public": true,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/Solar Panel.glb",
+  "image": {
+    "url": "assets/Solar Panel__image.png"
+  },
+  "props": {
+    "sky": {
+      "type": "texture",
+      "url": "assets/sky.jpg"
+    },
+    "hdr": {
+      "type": "hdr",
+      "url": "assets/hdr.hdr"
+    },
+    "hour": 3,
+    "period": "pm",
+    "hour2": 9,
+    "intensity": 1
+  },
+  "scriptFormat": "module"
+}

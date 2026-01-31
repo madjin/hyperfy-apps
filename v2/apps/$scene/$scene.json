@@ -28,7 +28,7 @@
     "rotationY": 0,
     "fogNear": 450,
     "fogFar": 1000,
-    "fogColor": "",
+    "fogColor": "#97b4d3",
     "color": "white"
   },
   "scriptFormat": "module"

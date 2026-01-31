@@ -1,0 +1,18 @@
+{
+  "author": "",
+  "url": null,
+  "desc": null,
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/MoonJump.glb",
+  "image": null,
+  "props": {
+    "collision": true
+  },
+  "scriptFormat": "module"
+}

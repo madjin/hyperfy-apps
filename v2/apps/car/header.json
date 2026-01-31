@@ -1,0 +1,32 @@
+{
+  "blueprint": {
+    "id": "gcEfCu6ONF",
+    "version": 580,
+    "name": "car1",
+    "image": null,
+    "author": null,
+    "url": null,
+    "desc": null,
+    "model": "asset://f136ded61be11b617abfed7ba537dac2ea390b95f34a2d5c99a877b29dc29d9f.glb",
+    "script": "asset://56a47774437ac15dae6868329099eadceeeb04e17a1b852ac9d9f99842620642.js",
+    "props": {},
+    "preload": false,
+    "public": false,
+    "locked": false,
+    "unique": false
+  },
+  "assets": [
+    {
+      "type": "model",
+      "url": "asset://f136ded61be11b617abfed7ba537dac2ea390b95f34a2d5c99a877b29dc29d9f.glb",
+      "size": 9900,
+      "mime": "model/gltf-binary"
+    },
+    {
+      "type": "script",
+      "url": "asset://56a47774437ac15dae6868329099eadceeeb04e17a1b852ac9d9f99842620642.js",
+      "size": 9338,
+      "mime": "application/javascript"
+    }
+  ]
+}

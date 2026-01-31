@@ -1,0 +1,27 @@
+{
+  "author": "Dhin",
+  "url": null,
+  "desc": null,
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/Boombox.glb",
+  "image": null,
+  "props": {
+    "prompt": "old school boom box",
+    "createdAt": 61412.864976005,
+    "audio": {
+      "type": "audio",
+      "url": "assets/audio.mp3"
+    },
+    "volume": 0.5,
+    "audioDistance": 7,
+    "rolloffFactor": 5,
+    "isPlaying": true
+  },
+  "scriptFormat": "module"
+}

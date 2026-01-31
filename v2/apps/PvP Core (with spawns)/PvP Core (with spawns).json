@@ -1,0 +1,23 @@
+{
+  "author": null,
+  "url": null,
+  "desc": "Death animations.\nHealing over time.\nDamage Numbers.",
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/PvP Core (with spawns).glb",
+  "image": null,
+  "props": {
+    "death": {
+      "type": "emote",
+      "url": "assets/death.glb"
+    },
+    "spawn": 1,
+    "spawns": 3
+  },
+  "scriptFormat": "module"
+}

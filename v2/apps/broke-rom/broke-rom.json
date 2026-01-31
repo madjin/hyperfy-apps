@@ -1,0 +1,19 @@
+{
+  "author": "devilsadvocate",
+  "url": "https://grape.wtf",
+  "desc": "the solution to all your problems",
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": true,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/broke-rom.glb",
+  "image": null,
+  "props": {
+    "rName": "broke",
+    "color": "0.2633"
+  },
+  "scriptFormat": "module"
+}

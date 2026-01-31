@@ -1,0 +1,33 @@
+{
+  "author": "Hyperfy",
+  "url": null,
+  "desc": null,
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/Super Run.glb",
+  "image": {
+    "url": "assets/Super Run__image.png"
+  },
+  "props": {
+    "collision": true,
+    "flipEmote": {
+      "type": "emote",
+      "url": "assets/flipEmote.glb"
+    },
+    "doubleJumpEmote": {
+      "type": "emote",
+      "url": "assets/doubleJumpEmote.glb"
+    },
+    "superRunEmote": {
+      "type": "emote",
+      "url": "assets/superRunEmote.glb"
+    },
+    "deactivationTime": 0.5
+  },
+  "scriptFormat": "module"
+}

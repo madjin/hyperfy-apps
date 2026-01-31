@@ -1,0 +1,84 @@
+{
+  "author": null,
+  "url": null,
+  "desc": null,
+  "preload": true,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/Vanguard.glb",
+  "image": null,
+  "props": {
+    "avatar": {
+      "type": "avatar",
+      "url": "assets/avatar.vrm"
+    },
+    "weapon": {
+      "type": "model",
+      "url": "assets/weapon.glb"
+    },
+    "attack1": {
+      "type": "emote",
+      "url": "assets/attack1.glb"
+    },
+    "attack2": {
+      "type": "emote",
+      "url": "assets/attack2.glb"
+    },
+    "attackEmote1": {
+      "type": "emote",
+      "url": "assets/attackEmote1.glb"
+    },
+    "attackEmote2": {
+      "type": "emote",
+      "url": "assets/attackEmote2.glb"
+    },
+    "attackSound": {
+      "type": "audio",
+      "url": "assets/attackSound.mp3"
+    },
+    "chargeEmote": {
+      "type": "emote",
+      "url": "assets/chargeEmote.glb"
+    },
+    "chargeIcon": {
+      "type": "texture",
+      "url": "assets/chargeIcon.png"
+    },
+    "chargeCost": 30,
+    "specialEmote": {
+      "type": "emote",
+      "url": "assets/specialEmote.glb"
+    },
+    "specialIcon": {
+      "type": "texture",
+      "url": "assets/specialIcon.png"
+    },
+    "specialCost": 50,
+    "attackIcon": {
+      "type": "texture",
+      "url": "assets/attackIcon.png"
+    },
+    "attackCost": 1,
+    "attackDmg": "10-20",
+    "attackDamage": "5,10,30,2",
+    "attackCritChance": 30,
+    "attackCritMultiplier": 2,
+    "attackEnergy": 1,
+    "chargeEnergy": 20,
+    "specialEnergy": 50,
+    "specialDamage": "20,40,30,1.5",
+    "specialSound": {
+      "type": "audio",
+      "url": "assets/specialSound.mp3"
+    },
+    "chargeSound": {
+      "type": "audio",
+      "url": "assets/chargeSound.mp3"
+    }
+  },
+  "scriptFormat": "module"
+}

@@ -1,0 +1,16 @@
+{
+  "author": "Gert-Jan Akerboom",
+  "url": null,
+  "desc": "'paint' in the screen space UI to have grass appear around the red and white pole. UI disappears when player is more than 10 meters away",
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/Weightpaint_ScreenUI_test1.glb",
+  "image": null,
+  "props": {},
+  "scriptFormat": "module"
+}

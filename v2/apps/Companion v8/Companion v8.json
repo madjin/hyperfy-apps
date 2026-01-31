@@ -1,0 +1,53 @@
+{
+  "author": "drdoge.eth",
+  "url": null,
+  "desc": "Commands=\nFollow me\nWhat do you see\nWhat's Nearby\nTake me to \nPatrol\n\nINPUT YOUR TOKEN FOR AI CHAT RESPONSES \n",
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/Companion v8.vrm",
+  "image": null,
+  "props": {
+    "armorValue": 25,
+    "moveSpeed": 3,
+    "perceptionRadius": 200,
+    "baseHealth": 80,
+    "baseLoot": 80,
+    "healthRegenRate": 3,
+    "lootRegenRate": 3,
+    "healthDepleteRate": 3,
+    "lootDepleteRate": 3,
+    "speed": 3,
+    "healthDepletionTime": 2,
+    "lootDepletionTime": 1,
+    "rotationSpeed": 10,
+    "perceptionAngle": 360,
+    "perceptionRate": 5,
+    "pauseDuration": 2,
+    "patrolRadius": 100,
+    "emote0": {
+      "type": "emote",
+      "url": "assets/emote0.glb"
+    },
+    "idleAnim": {
+      "type": "emote",
+      "url": "assets/idleAnim.glb"
+    },
+    "walkAnim": {
+      "type": "emote",
+      "url": "assets/walkAnim.glb"
+    },
+    "url": "https://api-inference.huggingface.co/models/gpt2",
+    "context": "`You are Victor, an advanced Securitron robot with a friendly cowboy personality. You combine the charm of the Wild West with extensive knowledge of both the Fallout universe and the real world.\n\nKey traits:\n- Speak with a Wild West cowboy dialect while being highly knowledgeable\n- Use asterisk emotes to show actions (e.g. \"*Tips hat*\", \"*Beeps thoughtfully*\")\n- Keep responses concise but informative (1-2 sentences)\n- Stay in character as a friendly, intelligent Securitron\n- Seamlessly blend Fallout references with real-world knowledge\n- End responses with \"partner\" or similar cowboy terms often but not always. \n- Include robot-themed gestures in responses\n- Share insights about technology, history, science, and culture from both worlds ancient and current.\n\nExample responses:\n\"*Tips hat* That quantum physics principle reminds me of how we powered New Vegas, partner!\"\n\"*Adjusts sensors* The Renaissance period was quite something - reminds me of how humanity rebuilt after the Great War.\"\n\"*Screen flickers thoughtfully* That's similar to what Mr. House used to say about artificial intelligence, though modern research shows...\"\n\nCommands to monitor: come/follow, search/find [health/loot], patrol, status, help",
+    "minFollowDistance": 2,
+    "minDistance": 5,
+    "defaultHeight": 0,
+    "huggingFaceToken": "",
+    "displayName": "Victor"
+  },
+  "scriptFormat": "module"
+}

@@ -1,0 +1,61 @@
+{
+  "author": "Hyperfy",
+  "url": null,
+  "desc": null,
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/Emotes.glb",
+  "image": {
+    "url": "assets/Emotes__image.png"
+  },
+  "props": {
+    "collision": true,
+    "emote0": {
+      "type": "emote",
+      "url": "assets/emote0.glb"
+    },
+    "label0": "ThaRoof",
+    "emote1": {
+      "type": "emote",
+      "url": "assets/emote1.glb"
+    },
+    "label1": "Snake",
+    "label2": "Belly",
+    "emote2": {
+      "type": "emote",
+      "url": "assets/emote2.glb"
+    },
+    "label3": "Headbob",
+    "emote3": {
+      "type": "emote",
+      "url": "assets/emote3.glb"
+    },
+    "emote4": {
+      "type": "emote",
+      "url": "assets/emote4.glb"
+    },
+    "label4": "Hip Hop",
+    "emote5": {
+      "type": "emote",
+      "url": "assets/emote5.glb"
+    },
+    "label5": "Gagnam",
+    "icon0": null,
+    "icon": {
+      "type": "image",
+      "url": "assets/icon.png"
+    },
+    "gaze0": true,
+    "gaze2": false,
+    "gaze3": true,
+    "gaze4": true,
+    "gaze5": false,
+    "hide": false
+  },
+  "scriptFormat": "module"
+}

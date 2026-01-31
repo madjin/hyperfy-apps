@@ -1,0 +1,52 @@
+{
+  "author": "Valiant",
+  "url": null,
+  "desc": "Framed image with customisable frame options ",
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/Framed Image v1.0.glb",
+  "image": {
+    "url": "assets/Framed Image v1.0__image.png"
+  },
+  "props": {
+    "width": 0,
+    "height": 2,
+    "fit": "cover",
+    "image": null,
+    "transparent": true,
+    "lit": false,
+    "shadows": true,
+    "placeholder": {
+      "type": "image",
+      "url": "assets/placeholder.png"
+    },
+    "frameEnabled": true,
+    "frameThickness": 0.1,
+    "frameDepth": 0.2,
+    "frameInset": 0,
+    "frameZOffset": 0,
+    "frameColor": "#000000",
+    "frameCastShadow": true,
+    "frameReceiveShadow": false,
+    "frameBackboard": true,
+    "collider": true,
+    "colliderDepth": 0.2,
+    "frameGlow": false,
+    "frameGlowIntensity": 40.6,
+    "frameGlowColor": "#B91C1C",
+    "glowOnly": true,
+    "backboardColor": "#000000",
+    "backboardGlow": true,
+    "colliderMode": "both",
+    "panelThin": false,
+    "disco": false,
+    "discoSpeed": 0.2,
+    "discoTarget": "frame"
+  },
+  "scriptFormat": "module"
+}

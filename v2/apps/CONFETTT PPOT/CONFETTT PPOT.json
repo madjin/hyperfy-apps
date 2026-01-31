@@ -1,0 +1,57 @@
+{
+  "author": "Gert-Jan Akerboom",
+  "url": null,
+  "desc": "Confetti popper !\n-networked\n-has sound\n-add your own confetti/sound\n-click to pop",
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": true,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/CONFETTT PPOT.glb",
+  "image": null,
+  "props": {
+    "confettiImage1": {
+      "type": "texture",
+      "url": "assets/confettiImage1.png"
+    },
+    "confettiImage2": {
+      "type": "texture",
+      "url": "assets/confettiImage2.png"
+    },
+    "confettiImage3": {
+      "type": "texture",
+      "url": "assets/confettiImage3.png"
+    },
+    "confettiImage4": {
+      "type": "texture",
+      "url": "assets/confettiImage4.png"
+    },
+    "confettiImage5": {
+      "type": "texture",
+      "url": "assets/confettiImage5.png"
+    },
+    "confettiImage6": {
+      "type": "texture",
+      "url": "assets/confettiImage6.png"
+    },
+    "confettiImage7": {
+      "type": "texture",
+      "url": "assets/confettiImage7.png"
+    },
+    "confettiImage8": {
+      "type": "texture",
+      "url": "assets/confettiImage8.png"
+    },
+    "clickSound": {
+      "type": "audio",
+      "url": "assets/clickSound.mp3"
+    },
+    "explosionSound": {
+      "type": "audio",
+      "url": "assets/explosionSound.mp3"
+    }
+  },
+  "scriptFormat": "module"
+}

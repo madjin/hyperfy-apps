@@ -1,0 +1,16 @@
+{
+  "author": "Shiffty",
+  "url": null,
+  "desc": "Camera management system for Hyperfy apps.\n\nControls camera behavior including follow, static, orbit, shake and transitions.",
+  "preload": true,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": true,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/Camera Manager.glb",
+  "image": null,
+  "props": {},
+  "scriptFormat": "module"
+}

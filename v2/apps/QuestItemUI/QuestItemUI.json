@@ -1,0 +1,32 @@
+{
+  "author": "0mka",
+  "url": null,
+  "desc": "Use with QuestItemBasic.\n\nToggle Storage for Count to remain for player when returning to world.\n\nMatch emit signals to  quest items.",
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/QuestItemUI.glb",
+  "image": {
+    "url": "assets/QuestItemUI__image.webp"
+  },
+  "props": {
+    "collision": true,
+    "position": "top-center",
+    "borderWeight": "medium",
+    "borderColor": "gold",
+    "uiScale": 0.8,
+    "collectionText": "Quest Item",
+    "eventName": "itemCollected",
+    "displayMode": "always",
+    "enableStorage": true,
+    "storageKey": "itemsCollected",
+    "messageFontSize": 25,
+    "counterFontSize": 16,
+    "textSpacing": 7
+  },
+  "scriptFormat": "module"
+}

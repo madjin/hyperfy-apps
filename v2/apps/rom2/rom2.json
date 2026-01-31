@@ -1,0 +1,19 @@
+{
+  "author": "devilsadvocate",
+  "url": "https://grape.wtf",
+  "desc": "the solution to all your problems",
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": true,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/rom2.glb",
+  "image": null,
+  "props": {
+    "rName": "rom2",
+    "color": "0"
+  },
+  "scriptFormat": "module"
+}

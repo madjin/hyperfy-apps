@@ -1,0 +1,18 @@
+{
+  "author": "Akerboom",
+  "url": null,
+  "desc": "Simple UI element that shows who is in the world",
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": true,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/who there.glb",
+  "image": null,
+  "props": {
+    "visible": "false"
+  },
+  "scriptFormat": "module"
+}

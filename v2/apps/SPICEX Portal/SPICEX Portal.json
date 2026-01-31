@@ -1,0 +1,38 @@
+{
+  "author": "S.Husk ",
+  "url": "https://spicex.vercel.app",
+  "desc": "Traverse the hypverse",
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/SPICEX Portal.glb",
+  "image": {
+    "url": "assets/SPICEX Portal__image.jpg"
+  },
+  "props": {
+    "portalName": "Google",
+    "subtitle": "You can just go places",
+    "newTab": true,
+    "worldUrl": "https://google.com",
+    "volume": 0.6,
+    "audioType": "music",
+    "loop": false,
+    "spatial": true,
+    "distanceModel": "inverse",
+    "refDistance": 1,
+    "maxDistance": 40,
+    "rolloffFactor": 3,
+    "coneInnerAngle": 360,
+    "coneOuterAngle": 360,
+    "coneOuterGain": 0,
+    "audio": {
+      "type": "audio",
+      "url": "assets/audio.mp3"
+    }
+  },
+  "scriptFormat": "module"
+}

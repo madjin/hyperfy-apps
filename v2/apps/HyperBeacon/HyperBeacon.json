@@ -1,0 +1,23 @@
+{
+  "author": "hyperfy",
+  "url": "https://hyperfy.xyz",
+  "desc": "List your world on Zesty Relay",
+  "preload": true,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/HyperBeacon.glb",
+  "image": null,
+  "props": {
+    "url": "",
+    "description": "",
+    "name": "",
+    "tags": "",
+    "relay": "",
+    "image": ""
+  },
+  "scriptFormat": "module"
+}

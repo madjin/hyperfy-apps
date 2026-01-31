@@ -1,0 +1,22 @@
+{
+  "author": "Dhin",
+  "url": null,
+  "desc": null,
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": true,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/Camera Trigger.glb",
+  "image": null,
+  "props": {
+    "prompt": "a sphere",
+    "createdAt": 6943.546197899999,
+    "cameraHeight": 5,
+    "cameraDistance": 7,
+    "proximityDistance": 5
+  },
+  "scriptFormat": "module"
+}

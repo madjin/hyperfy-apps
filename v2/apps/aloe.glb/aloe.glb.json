@@ -1,0 +1,25 @@
+{
+  "author": "Akerboom",
+  "url": null,
+  "desc": "Let Aloe Vera plants grow in a defined area, control the amount and the min/max size of the plants.",
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/aloe.glb.glb",
+  "image": {
+    "url": "assets/aloe.glb__image.jpg"
+  },
+  "props": {
+    "clone_count": 100,
+    "area_size": 10,
+    "min_size": 0.2,
+    "max_size": 2,
+    "area_size_x": 1,
+    "area_size_z": 10
+  },
+  "scriptFormat": "module"
+}

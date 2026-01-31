@@ -1,0 +1,38 @@
+{
+  "author": "drdoge.eth",
+  "url": null,
+  "desc": "Smile for the Flash.... ",
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/MINI-NukePORTAL.glb",
+  "image": null,
+  "props": {
+    "refDistance": 3,
+    "maxDistance": 20,
+    "rolloffFactor": 1.5,
+    "distanceModel": "inverse",
+    "explosionDuration": 60,
+    "explosionRadius": 30,
+    "explosionAudio": {
+      "type": "audio",
+      "url": "assets/explosionAudio.mp3"
+    },
+    "radiationAudio": {
+      "type": "audio",
+      "url": "assets/radiationAudio.mp3"
+    },
+    "explosionSfx": {
+      "type": "audio",
+      "url": "assets/explosionSfx.mp3"
+    },
+    "newTab": false,
+    "portalDelay": 50,
+    "worldUrl": "https://nuked.tattedalien.club/"
+  },
+  "scriptFormat": "module"
+}

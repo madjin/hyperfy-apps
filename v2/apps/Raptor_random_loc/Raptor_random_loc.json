@@ -1,0 +1,41 @@
+{
+  "author": "akerboom",
+  "url": null,
+  "desc": "added locationator by metarick - mod  of Valiant NPC raptor of Mod of NPC Prisoner by Metarick",
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": true,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/Raptor_random_loc.vrm",
+  "image": null,
+  "props": {
+    "emote": {
+      "type": "emote",
+      "url": "assets/emote.glb"
+    },
+    "avatar": {
+      "type": "avatar",
+      "url": "assets/avatar.vrm"
+    },
+    "walk": {
+      "type": "emote",
+      "url": "assets/walk.glb"
+    },
+    "idle": {
+      "type": "emote",
+      "url": "assets/idle.glb"
+    },
+    "talk": {
+      "type": "emote",
+      "url": "assets/talk.glb"
+    },
+    "run": {
+      "type": "emote",
+      "url": "assets/run.glb"
+    }
+  },
+  "scriptFormat": "module"
+}

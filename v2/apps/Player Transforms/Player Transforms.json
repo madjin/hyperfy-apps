@@ -1,0 +1,21 @@
+{
+  "author": "Akerboom",
+  "url": null,
+  "desc": null,
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/Player Transforms.glb",
+  "image": {
+    "url": "assets/Player Transforms__image.png"
+  },
+  "props": {
+    "collision": true,
+    "showUI": true
+  },
+  "scriptFormat": "module"
+}

@@ -1,0 +1,20 @@
+{
+  "author": null,
+  "url": null,
+  "desc": null,
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/HP-eliza-2-1-app_1.vrm",
+  "image": null,
+  "props": {
+    "url": "https://agents.dcl.guru/eliza Tuah/hyperfy",
+    "name": "Eliza",
+    "context": "DO NOT RESPOND TO OTHER AGENTS"
+  },
+  "scriptFormat": "module"
+}

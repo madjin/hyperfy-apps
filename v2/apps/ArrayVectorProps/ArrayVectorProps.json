@@ -1,0 +1,52 @@
+{
+  "author": "May",
+  "url": "https://github.com/Bitmato-Studio/hyperfy/tree/bm/ArrayProps",
+  "desc": "https://github.com/Bitmato-Studio/hyperfy/tree/bm/ArrayProps",
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": true,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/ArrayVectorProps.glb",
+  "image": null,
+  "props": {
+    "test": [
+      {
+        "type": "emote",
+        "name": "sit_idle_emote.glb",
+        "url": "asset://036b786f142de68cefe0da2fa27725b92d71f7298035acd49944175c49507ede.glb"
+      },
+      {
+        "type": "emote",
+        "name": "hunter.glb",
+        "url": "asset://2afc9d0e43e9bd2c529f763db9a61510d86378d0f89f201494cbd78105d00fea.glb"
+      },
+      null
+    ],
+    "test2": [
+      "test",
+      "test2",
+      "test23",
+      ""
+    ],
+    "testv3": {
+      "x": 12,
+      "y": 3,
+      "z": 15
+    },
+    "test3": [
+      3,
+      4,
+      0
+    ],
+    "test4": [
+      50.05,
+      88.2,
+      17.35,
+      1
+    ]
+  },
+  "scriptFormat": "module"
+}

@@ -1,0 +1,111 @@
+{
+  "author": null,
+  "url": null,
+  "desc": null,
+  "preload": true,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/Mob - Skelly.vrm",
+  "image": null,
+  "props": {
+    "avatar": {
+      "type": "avatar",
+      "url": "assets/avatar.vrm"
+    },
+    "weapon": {
+      "type": "model",
+      "url": "assets/weapon.glb"
+    },
+    "attack1": {
+      "type": "emote",
+      "url": "assets/attack1.glb"
+    },
+    "attack2": {
+      "type": "emote",
+      "url": "assets/attack2.glb"
+    },
+    "attackEmote1": {
+      "type": "emote",
+      "url": "assets/attackEmote1.glb"
+    },
+    "attackEmote2": {
+      "type": "emote",
+      "url": "assets/attackEmote2.glb"
+    },
+    "attackSound": {
+      "type": "audio",
+      "url": "assets/attackSound.mp3"
+    },
+    "chargeEmote": {
+      "type": "emote",
+      "url": "assets/chargeEmote.glb"
+    },
+    "chargeIcon": {
+      "type": "texture",
+      "url": "assets/chargeIcon.png"
+    },
+    "chargeCost": 30,
+    "specialEmote": {
+      "type": "emote",
+      "url": "assets/specialEmote.glb"
+    },
+    "specialIcon": {
+      "type": "texture",
+      "url": "assets/specialIcon.png"
+    },
+    "specialCost": 50,
+    "attackIcon": {
+      "type": "texture",
+      "url": "assets/attackIcon.png"
+    },
+    "attackCost": 1,
+    "enabled": true,
+    "deathDuration": 5,
+    "healInterval": 2,
+    "healAmount": 10,
+    "deathEmote": {
+      "type": "emote",
+      "url": "assets/deathEmote.glb"
+    },
+    "idleEmote": {
+      "type": "emote",
+      "url": "assets/idleEmote.glb"
+    },
+    "walkEmote": {
+      "type": "emote",
+      "url": "assets/walkEmote.glb"
+    },
+    "attackEmote": {
+      "type": "emote",
+      "url": "assets/attackEmote.glb"
+    },
+    "assets": {
+      "type": "model",
+      "url": "assets/assets.glb"
+    },
+    "aggroRadius": 10,
+    "aggroDebug": false,
+    "runEmote": {
+      "type": "emote",
+      "url": "assets/runEmote.glb"
+    },
+    "aggroDistance": 10,
+    "fleeDistance": 11,
+    "leashDistance": 11,
+    "healRate": 1,
+    "regenRate": 1,
+    "regenAmount": 20,
+    "deadEmote": {
+      "type": "emote",
+      "url": "assets/deadEmote.glb"
+    },
+    "attackDmg": "10,15,30,2",
+    "attackRate": 1,
+    "runSpeed": 6
+  },
+  "scriptFormat": "module"
+}

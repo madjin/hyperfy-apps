@@ -1,0 +1,25 @@
+{
+  "author": "Shiffty",
+  "url": null,
+  "desc": "Full-featured Free Cam and Orbit Cam",
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/Free Camera.glb",
+  "image": {
+    "url": "assets/Free Camera__image.png"
+  },
+  "props": {
+    "collision": true,
+    "keyUIPanel": "j",
+    "keyFreecam": "k",
+    "keyOrbit": "l",
+    "keyFreeCamMoveSpeedUp": "[",
+    "keyFreeCamMoveSpeedDown": "]"
+  },
+  "scriptFormat": "module"
+}

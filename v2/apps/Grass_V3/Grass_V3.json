@@ -1,0 +1,26 @@
+{
+  "author": "akerboom",
+  "url": null,
+  "desc": "a grass particle system with wind animation_add flowers",
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/Grass_V3.glb",
+  "image": null,
+  "props": {
+    "clone_count": 10000,
+    "area_size_x": 40,
+    "area_size_z": 40,
+    "min_size": 0.8,
+    "max_size": 1.3,
+    "grass_count": 20,
+    "cluster_percentage": 80,
+    "cluster_density": 20,
+    "cluster_size": 1
+  },
+  "scriptFormat": "module"
+}

@@ -1,0 +1,16 @@
+{
+  "author": null,
+  "url": null,
+  "desc": "Demonstrating skinned mesh support and animations",
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/Wolf Maro.glb",
+  "image": null,
+  "props": {},
+  "scriptFormat": "module"
+}

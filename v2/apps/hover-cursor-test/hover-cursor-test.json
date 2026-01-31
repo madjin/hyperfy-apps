@@ -1,0 +1,16 @@
+{
+  "author": "Akerboom",
+  "url": null,
+  "desc": "a white circle appears when hovering over an object, indicating it is clickable.",
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/hover-cursor-test.glb",
+  "image": null,
+  "props": {},
+  "scriptFormat": "module"
+}

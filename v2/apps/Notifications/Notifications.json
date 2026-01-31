@@ -1,0 +1,28 @@
+{
+  "author": "Lastraum",
+  "url": null,
+  "desc": "A simple notification system",
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/Notifications.glb",
+  "image": {
+    "url": "assets/Notifications__image.png"
+  },
+  "props": {
+    "collision": false,
+    "debug": false,
+    "messageKey": "nots",
+    "color": "#ffffff",
+    "position": "0.1",
+    "speed": 10,
+    "height": 100,
+    "width": 400,
+    "fontSize": 14
+  },
+  "scriptFormat": "module"
+}
