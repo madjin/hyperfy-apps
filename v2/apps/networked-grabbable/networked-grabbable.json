@@ -1,0 +1,23 @@
+{
+  "author": "Saori",
+  "url": null,
+  "desc": null,
+  "preload": false,
+  "public": true,
+  "locked": false,
+  "frozen": false,
+  "unique": false,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/networked-grabbable.glb",
+  "image": {
+    "url": "assets/networked-grabbable__image.png"
+  },
+  "props": {
+    "walkAim": {
+      "type": "emote",
+      "url": "assets/walkAim.glb"
+    }
+  },
+  "scriptFormat": "module"
+}

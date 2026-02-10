@@ -1,0 +1,18 @@
+{
+  "author": "Akerboom",
+  "url": null,
+  "desc": null,
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "frozen": false,
+  "unique": true,
+  "disabled": false,
+  "scene": false,
+  "model": "assets/butterfly-swarm-v1.glb",
+  "image": {
+    "url": "assets/butterfly-swarm-v1__image.jpg"
+  },
+  "props": {},
+  "scriptFormat": "module"
+}
