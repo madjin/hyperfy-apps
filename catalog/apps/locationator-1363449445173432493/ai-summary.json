@@ -1,0 +1,40 @@
+{
+  "app_id": "locationator-1363449445173432493",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:46:27+00:00",
+  "one_liner": "Helps you find a world location and displays its coordinates and rotation in a compact UI label.",
+  "primary_use_case": "Shows the world position and rotation of the app object as a billboarded UI text label for easy location tracking.",
+  "feature_tags": [
+    "ui",
+    "billboard",
+    "position",
+    "rotation",
+    "text",
+    "update",
+    "compact"
+  ],
+  "interaction_modes": [
+    "ui",
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "low",
+  "networking_profile": "none",
+  "preview_recommendation": "The attached screenshot clearly displays the UI label with position and rotation; use it as the primary preview image.",
+  "manifest_quality_notes": [
+    "Short, self\u2011contained script",
+    "No external networking",
+    "Billboarded UI for visibility",
+    "Rotation display added",
+    "Preview image available",
+    "Model and script bundled in .hyp"
+  ],
+  "safety_or_runtime_flags": [],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message",
+    "hyp_file",
+    "v2_json",
+    "static_analysis"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "app_id": "raycaster-1348748103104331778",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:48:01+00:00",
+  "one_liner": "Raycaster app that performs server\u2011side raycasts and spawns a small beam object at the hit point.",
+  "primary_use_case": "Visualizing raycast hits by placing a beam object in the world, useful for debugging or interactive shooting mechanics.",
+  "feature_tags": [
+    "raycast",
+    "beam",
+    "server",
+    "client",
+    "visualization",
+    "debug",
+    "networked",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "trigger",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "events",
+  "preview_recommendation": "Add a screenshot or short video showing the beam appearing at raycast hits; currently no media is attached.",
+  "manifest_quality_notes": [
+    "No preview media attached",
+    "Description limited to short boilerplate text",
+    "Script analysis confirms basic raycast functionality",
+    "Model asset is a single GLB (beam) only",
+    "No additional props or UI configured",
+    "Confidence high based on author verification"
+  ],
+  "safety_or_runtime_flags": [
+    "no_media_found"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message:1348748103104331778",
+    "hyp_file:Raycaster.hyp",
+    "static_analysis_summary",
+    "author:Saori"
+  ]
+}

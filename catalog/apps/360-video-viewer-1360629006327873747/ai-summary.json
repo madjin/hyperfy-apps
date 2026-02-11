@@ -1,0 +1,41 @@
+{
+  "app_id": "360-video-viewer-1360629006327873747",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:44:03+00:00",
+  "one_liner": "A simple 360\u00b0 video viewer with a central platform, supporting YouTube\u2011downloaded files or m3u8 streams.",
+  "primary_use_case": "Play 360\u00b0 videos inside a Hyperfy world using a sphere mesh as the display surface.",
+  "feature_tags": [
+    "360 video",
+    "central platform",
+    "m3u8 support",
+    "youtube download",
+    "sphere mesh",
+    "looping",
+    "linked video",
+    "aspect 2:1"
+  ],
+  "interaction_modes": [
+    "ui",
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none",
+  "preview_recommendation": "Use the provided PNG preview; the app displays a small platform with a sphere that renders the selected video. Ensure the video file is uploaded and the src URL is set before publishing.",
+  "manifest_quality_notes": [
+    "All assets present",
+    "No external dependencies",
+    "Video prop optional",
+    "Client\u2011side only",
+    "No networking",
+    "Potential upload size limits for videos"
+  ],
+  "safety_or_runtime_flags": [],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message_id:1360629006327873747",
+    "discord_attachment_id:1360629006348583082",
+    "discord_url:https://cdn.discordapp.com/attachments/994775534733115412/1360629006348583082/360_Video_Viewer.hyp",
+    "hyp_filename:360_Video_Viewer.hyp"
+  ]
+}

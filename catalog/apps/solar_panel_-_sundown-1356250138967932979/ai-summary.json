@@ -1,0 +1,44 @@
+{
+  "app_id": "solar_panel_-_sundown-1356250138967932979",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:48:32+00:00",
+  "one_liner": "App to customize sky background, HDR, and sun intensity via UI controls.",
+  "primary_use_case": "Provides configurable sky and lighting settings for Hyperfy worlds, allowing creators to set texture, HDR, time of day, and sun intensity.",
+  "feature_tags": [
+    "sky",
+    "hdr",
+    "sun",
+    "lighting",
+    "environment",
+    "texture",
+    "configuration",
+    "time_of_day"
+  ],
+  "interaction_modes": [
+    "ui",
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "none",
+  "preview_recommendation": "Use the provided mp4 preview (fallback author) to visualize sky changes; consider adding a higher\u2011quality preview for better assessment.",
+  "manifest_quality_notes": [
+    "media_fallback_any_author",
+    "no author review needed",
+    "size moderate",
+    "script uses basic API",
+    "no networking",
+    "preview is fallback"
+  ],
+  "safety_or_runtime_flags": [
+    "media_fallback_any_author"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message:1356250138967932979",
+    "discord_attachment:1356250138649034815",
+    "author_discord_id:179546010303856640",
+    "static_analysis_summary",
+    "app_file:Solar_Panel_-_sundown.hyp"
+  ]
+}

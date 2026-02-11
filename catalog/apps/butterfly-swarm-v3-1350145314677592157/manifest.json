@@ -1,0 +1,61 @@
+{
+  "app_id": "butterfly-swarm-v3-1350145314677592157",
+  "app_slug": "butterfly-swarm-v3",
+  "app_name": "Butterfly_Swarm_V3",
+  "source": {
+    "hyp_filename": "Butterfly_Swarm_V3.hyp",
+    "discord_attachment_id": "1350145314778120283",
+    "discord_message_id": "1350145314677592157",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-03-14T16:35:27.506Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1346623562462527649/1350145314778120283/Butterfly_Swarm_V3.hyp?ex=6979920f&is=6978408f&hm=e1cad969233304bc6b12f2ec95484ed0139fd2cdfc896a67f6fe1b12939e34d7&"
+  },
+  "author": {
+    "display_name": "Gert-Jan Akerboom",
+    "discord_user_id": "601886221072990251",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "Butterfly swarm V3",
+    "raw_message_content": "Butterfly swarm V3",
+    "summary_excerpt": "Butterfly Swarm V3.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/butterfly-swarm-v3",
+    "v2_json_path": "v2/butterfly-swarm-v3/butterfly-swarm-v3.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Butterfly_Swarm_V3.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/Butterfly_Swarm_V3_1350145314677592157/m1_5000.png",
+    "media_type": ".png",
+    "selection_reason": "same_author_nearby",
+    "is_fallback_any_author": false
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/Butterfly_Swarm_V3_1350145314677592157/m1_5000.png",
+      "original_filename": "5000.png",
+      "content_type": "image/png",
+      "relative_index": -1,
+      "same_author": true,
+      "selection_reason": "same_author_nearby",
+      "size_bytes": 903875,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1350130188687642774"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Model",
+  "author": "ash",
+  "description": "This app lets you auto-enable collisions for its model.\nDrop it in the world, click \"Model\" to choose your glb, and toggle collision on etc",
+  "tags": [
+    "physics",
+    "scale",
+    "3d-model",
+    "ui",
+    "config",
+    "fallback_media"
+  ],
+  "interaction_modes": [
+    "ui",
+    "action"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking": "none",
+  "preview_url": "catalog/discord/hyp_media/Model_1353698908353724480/p7_image.png",
+  "download_path": "v2-hyp/Model.hyp",
+  "created_at": "2025-03-24T11:56:10.261Z",
+  "props": {
+    "collision": true,
+    "scale": 0.3
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\napp.configure([\n  {\n    key: 'scale',\n    type: 'number',\n    label: 'Scale',\n    min: 0,\n    dp: 2,\n    step: 0.1,\n    initial: 1,\n  },\n  {\n    key: 'collision',\n    type: 'switch',\n    label: 'Collision',\n    options: [\n      { label: 'No', value: false },\n      { label: 'Yes', value: true },\n    ],\n    initial: false\n  },\n])\n\nconst v1 = new Vector3()\nconst v2 = new Vector3()\nconst q1 = new Quaternion()\nconst m1 = new Matrix4()\n\n// scale entire app\napp.scale.setScalar(props.scale)\n\n// if collision enabled, make a rigidbody with colliders for each mesh\nif (props.collision) {\n  // clean to get updated transforms\n  app.clean()\n  // get app world inverse matrix\n  const appInverseMatrix = app.matrixWorld.clone().invert()\n  // create rigidbody\n  const body = app.create('rigidbody')\n  body.position.copy(app.position)\n  body.quaternion.copy(app.quaternion)\n  body.scale.copy(app.scale)\n  // create colliders\n  app.traverse(node => {\n    if (node.name === 'mesh') {\n      m1.copy(node.matrixWorld).premultiply(appInverseMatrix).decompose(v1, q1, v2)\n      const collider = app.create('collider')\n      collider.position.copy(v1)\n      collider.quaternion.copy(q1)\n      collider.scale.copy(v2)\n      collider.type = 'geometry'\n      collider.geometry = node.geometry\n      body.add(collider)\n    }\n  })\n  world.add(body)\n}\n}\n",
+  "asset_files": [
+    "Model.glb"
+  ]
+}

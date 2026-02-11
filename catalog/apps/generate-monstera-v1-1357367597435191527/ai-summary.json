@@ -1,0 +1,42 @@
+{
+  "app_id": "generate-monstera-v1-1357367597435191527",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:51:59+00:00",
+  "one_liner": "Generates a stack of Monstera leaf cubes with random count, spacing, rotation, and scaling, creating a procedural plant effect.",
+  "primary_use_case": "Procedural generation of decorative plant/leaf structures in Hyperfy worlds.",
+  "feature_tags": [
+    "procedural generation",
+    "randomization",
+    "cloning",
+    "3D model",
+    "client-side",
+    "visual effect",
+    "interactive",
+    "scene building"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "none",
+  "preview_recommendation": "Add a screenshot or short video showing the generated leaf stack; currently no media is available.",
+  "manifest_quality_notes": [
+    "No preview media attached",
+    "Media review required",
+    "Client\u2011side only script",
+    "Uses randomization via global num()",
+    "Clone count prop default 10",
+    "Model, texture, and script assets bundled"
+  ],
+  "safety_or_runtime_flags": [
+    "no_media_found"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "APP_FACTS",
+    "APP_FILES_CONTEXT",
+    "STATIC_ANALYSIS_SUMMARY_MD",
+    "DISCORD_CONTEXT"
+  ]
+}

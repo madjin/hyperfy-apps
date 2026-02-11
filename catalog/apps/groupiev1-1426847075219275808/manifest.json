@@ -1,0 +1,49 @@
+{
+  "app_id": "groupiev1-1426847075219275808",
+  "app_slug": "groupiev1",
+  "app_name": "GroupieV1",
+  "source": {
+    "hyp_filename": "GroupieV1.hyp",
+    "discord_attachment_id": "1426847074653311006",
+    "discord_message_id": "1426847075219275808",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-10-12T08:20:52.269Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1426847074653311006/GroupieV1.hyp?ex=68eeb0a4&is=68ed5f24&hm=af2efd49353b91279cee9dcb8afda0f0ec31c952cc946ee2f93225d6c3e74e33&"
+  },
+  "author": {
+    "display_name": "b34k3r",
+    "discord_user_id": "229142158295171073",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "I think these are <@688215116457443346>'s",
+    "raw_message_content": "I think these are <@688215116457443346>'s",
+    "summary_excerpt": "GroupieV1.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/groupiev1",
+    "v2_json_path": "v2/groupiev1/groupiev1.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/GroupieV1.md"
+  },
+  "preview": {
+    "primary_media_path": null,
+    "media_type": null,
+    "selection_reason": null,
+    "is_fallback_any_author": false
+  },
+  "media": [],
+  "status": {
+    "has_preview": false,
+    "needs_media_review": true,
+    "needs_author_review": false,
+    "flags": [
+      "no_media_found"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

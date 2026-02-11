@@ -1,0 +1,42 @@
+{
+  "app_id": "forest-1443613865295220818",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:45:26+00:00",
+  "one_liner": "Generates a configurable forest of thousands of tree clones with clustering and random distribution in Hyperfy V2.",
+  "primary_use_case": "Populate a world with a dense, customizable forest for scenery or gameplay environments.",
+  "feature_tags": [
+    "tree generation",
+    "clustering",
+    "random distribution",
+    "large scale",
+    "configurable",
+    "3D model",
+    "GLB assets",
+    "UI inputs"
+  ],
+  "interaction_modes": [
+    "ui",
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "none",
+  "preview_recommendation": "Add a screenshot or short video showing the generated forest to provide a visual preview for users.",
+  "manifest_quality_notes": [
+    "No media attached; preview missing",
+    "High clone count may impact performance",
+    "Requires GLB with tree1 named tree1\u2011tree10",
+    "All configuration options are UI\u2011driven",
+    "Script uses random placement and scaling"
+  ],
+  "safety_or_runtime_flags": [
+    "no_media_found",
+    "performance_intensive",
+    "missing_tree_meshes"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "https://cdn.discordapp.com/attachments/1346623562462527649/1443613865400074341/Forest.hyp",
+    "https://quickmesh.dev/tree/"
+  ]
+}

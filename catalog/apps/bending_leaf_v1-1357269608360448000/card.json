@@ -1,0 +1,26 @@
+{
+  "name": "bending_leaf_V1",
+  "author": "Gert-Jan Akerboom",
+  "description": "bending leaf V1.hyp",
+  "tags": [
+    "animation",
+    "skinned-mesh",
+    "rig",
+    "play",
+    "3d-model",
+    "simple"
+  ],
+  "interaction_modes": [
+    "action"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking": "none",
+  "preview_url": null,
+  "download_path": "v2-hyp/bending_leaf_V1.hyp",
+  "created_at": "2025-04-03T08:24:51.483Z",
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\nconst rig = app.get('rig')\n\nrig.play({ name: 'bend' })\n}\n",
+  "asset_files": [
+    "bending_leaf_V1.glb"
+  ]
+}

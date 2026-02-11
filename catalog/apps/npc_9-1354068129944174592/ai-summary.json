@@ -1,0 +1,44 @@
+{
+  "app_id": "npc_9-1354068129944174592",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:47:23+00:00",
+  "one_liner": "NPC app with configurable walk/run/idle emotes, attack button, hit detection, and networked attack animations.",
+  "primary_use_case": "Provides an interactive NPC that can perform attacks, play animations, and respond to player interactions in a multiplayer world.",
+  "feature_tags": [
+    "npc",
+    "emotes",
+    "attack",
+    "networked",
+    "hit-detection",
+    "animation",
+    "configurable",
+    "physics"
+  ],
+  "interaction_modes": [
+    "ui",
+    "action",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "events",
+  "preview_recommendation": "Use the provided PNG preview as the primary visual; ensure the avatar and emote assets load correctly and the attack button UI is visible.",
+  "manifest_quality_notes": [
+    "All assets referenced are present",
+    "Script includes both client and server logic",
+    "No explicit documentation beyond code",
+    "Preview image appears valid",
+    "Potential missing UI layout details",
+    "No known safety issues"
+  ],
+  "safety_or_runtime_flags": [],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message:1354068129944174592",
+    "discord_attachment:1354068129331810354",
+    "author_discord_id:169825031314997249",
+    "preview_image_path:catalog/discord/hyp_media/NPC_9_1354068129944174592/p2_image.png",
+    "script_analysis:static_analysis_summary",
+    "app_file:NPC_9.hyp"
+  ]
+}

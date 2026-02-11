@@ -1,0 +1,45 @@
+{
+  "app_id": "solar-panel-1364018550179631196",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:48:27+00:00",
+  "one_liner": "Solar Panel app that controls sky texture, HDR, sun direction and intensity based on time of day.",
+  "primary_use_case": "Dynamic sky lighting based on configurable time of day.",
+  "feature_tags": [
+    "sky",
+    "hdr",
+    "time",
+    "sun",
+    "intensity",
+    "configurable",
+    "3d model",
+    "visual"
+  ],
+  "interaction_modes": [
+    "ui",
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "low",
+  "networking_profile": "none",
+  "preview_recommendation": "Add a short GIF or screenshot showing the sky changing at different times, highlighting HDR and sun intensity.",
+  "manifest_quality_notes": [
+    "No preview media provided",
+    "Author confidence high based on Discord evidence",
+    "Props include hour2 which is unused",
+    "Script uses Vector3 global",
+    "Asset URLs are relative within .hyp",
+    "App version not explicitly given"
+  ],
+  "safety_or_runtime_flags": [
+    "no_media_found",
+    "safe_for_work"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message:1364018550179631196",
+    "hyp_file:Solar_Panel.hyp",
+    "author_display:~/drdoge.eth",
+    "source_url:https://cdn.discordapp.com/attachments/1346623562462527649/1364018549689159761/Solar_Panel.hyp",
+    "analysis_summary:static_analysis"
+  ]
+}

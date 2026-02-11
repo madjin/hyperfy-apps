@@ -1,0 +1,43 @@
+{
+  "app_id": "free-camera-1415049094363086848",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:45:46+00:00",
+  "one_liner": "Free Camera app provides togglable freecam and orbit camera modes with a UI panel and configurable hotkeys for easy navigation and cinematic shots.",
+  "primary_use_case": "Allows developers and users to explore worlds with a free\u2011move camera or orbit around a target, useful for debugging, cinematic captures, or enhanced navigation.",
+  "feature_tags": [
+    "freecam",
+    "orbit",
+    "ui_panel",
+    "hotkeys",
+    "configurable",
+    "collision",
+    "cube_visibility",
+    "speed_control"
+  ],
+  "interaction_modes": [
+    "ui",
+    "action"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "none",
+  "preview_recommendation": "Capture a screenshot showing the UI panel with sliders and a view from the freecam or orbit mode; include the model thumbnail if possible.",
+  "manifest_quality_notes": [
+    "No preview media found",
+    "Configurable hotkeys via app.configure",
+    "Orbit and freecam modes implemented",
+    "UI panel built with uiview components",
+    "Collision enabled on model",
+    "Cube visibility toggle present"
+  ],
+  "safety_or_runtime_flags": [
+    "no_media_found",
+    "client_only"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord://1415049094363086848",
+    "discord://1415049093872619600",
+    "hyp:Free_Camera.hyp"
+  ]
+}

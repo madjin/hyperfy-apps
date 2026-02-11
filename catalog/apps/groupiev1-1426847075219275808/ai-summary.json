@@ -1,0 +1,46 @@
+{
+  "app_id": "groupiev1-1426847075219275808",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:45:53+00:00",
+  "one_liner": "GroupieV1 is a collectron AI that patrols, gathers resources, and responds to player chat commands with UI feedback.",
+  "primary_use_case": "Automated resource collection and player assistance in virtual worlds.",
+  "feature_tags": [
+    "resource_collection",
+    "chat_commands",
+    "patrol",
+    "ui",
+    "emotes",
+    "configurable",
+    "stats",
+    "automation"
+  ],
+  "interaction_modes": [
+    "ui",
+    "action",
+    "trigger",
+    "passive",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "none",
+  "preview_recommendation": "Add a preview image or model thumbnail to showcase the collectron's appearance and UI layout, as currently no media is attached.",
+  "manifest_quality_notes": [
+    "No media found in the archive",
+    "Description limited to a short Discord message",
+    "Author confidence high based on Discord evidence",
+    "Rich set of configurable props and emotes",
+    "Script size moderate with many constants"
+  ],
+  "safety_or_runtime_flags": [
+    "no_media_found"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "Discord message ID 1426847075219275808",
+    "Discord attachment ID 1426847074653311006",
+    "Static analysis summary",
+    "APP_FACTS",
+    "APP_FILES_CONTEXT"
+  ]
+}

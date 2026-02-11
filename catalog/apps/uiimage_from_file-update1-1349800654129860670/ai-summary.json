@@ -1,0 +1,46 @@
+{
+  "app_id": "uiimage_from_file-update1-1349800654129860670",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:52:54+00:00",
+  "one_liner": "A configurable UI panel that displays an image from a file, with adjustable UI size, position, and image dimensions via a rich property UI.",
+  "primary_use_case": "Display customizable images within a UI panel, allowing creators to tweak UI layout and image sizing directly in the app's configuration.",
+  "feature_tags": [
+    "ui",
+    "image",
+    "file-upload",
+    "custom-dimensions",
+    "range-input",
+    "number-input",
+    "dropdown",
+    "layout"
+  ],
+  "interaction_modes": [
+    "ui",
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "none",
+  "preview_recommendation": "Add a screenshot or short video showing the UI with a sample image so users can see the layout, size controls, and image rendering before installing.",
+  "manifest_quality_notes": [
+    "No preview media attached (flagged as no_media_found).",
+    "Author confidence high from Discord identity.",
+    "Static analysis shows proper configuration UI and script structure.",
+    "App uses only local UI, no networking.",
+    "Potential missing documentation for some custom props."
+  ],
+  "safety_or_runtime_flags": [
+    "no_media_found",
+    "needs_media_review",
+    "safe_runtime"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "Discord message ID: 1349800654129860670",
+    "Discord attachment ID: 1349800653823938640",
+    "Static analysis summary MD (truncated)",
+    "Blueprint properties list from .hyp file",
+    "Script source excerpt",
+    "App author Discord user ID: 783416470205497394"
+  ]
+}

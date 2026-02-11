@@ -1,0 +1,89 @@
+{
+  "app_id": "mini-nuke-1354185108835270728",
+  "app_slug": "mini-nuke",
+  "app_name": "MINI-Nuke",
+  "source": {
+    "hyp_filename": "MINI-Nuke.hyp",
+    "discord_attachment_id": "1354185108432879917",
+    "discord_message_id": "1354185108835270728",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-03-25T20:08:09.489Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1354185108432879917/MINI-Nuke.hyp?ex=69791b29&is=6977c9a9&hm=9a6d8b81efc97bf4e3afb402eac689706c08af25f525059a7b6c33ba334ba4ba&"
+  },
+  "author": {
+    "display_name": "~/drdoge.eth",
+    "discord_user_id": "357905702926286858",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "MINI Nuke.hyp",
+    "raw_message_content": "",
+    "summary_excerpt": "MINI Nuke.hyp",
+    "source_priority_used": "summary_excerpt"
+  },
+  "links": {
+    "v2_app_dir": "v2/mini-nuke",
+    "v2_json_path": "v2/mini-nuke/mini-nuke.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/MINI-Nuke.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/MINI-Nuke_1354185108835270728/m4_image.png",
+    "media_type": ".png",
+    "selection_reason": "any_author_fallback",
+    "is_fallback_any_author": true
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/MINI-Nuke_1354185108835270728/m8_updated_companion.mp4",
+      "original_filename": "updated_companion.mp4",
+      "content_type": "video/mp4",
+      "relative_index": -8,
+      "same_author": true,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 16144952,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1354172022875361411"
+    },
+    {
+      "catalog_path": "catalog/discord/hyp_media/MINI-Nuke_1354185108835270728/m4_image.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": -4,
+      "same_author": true,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 5222,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1354173563900264530"
+    },
+    {
+      "catalog_path": "catalog/discord/hyp_media/MINI-Nuke_1354185108835270728/p7_flashpoint.mp4",
+      "original_filename": "flashpoint.mp4",
+      "content_type": "video/mp4",
+      "relative_index": 7,
+      "same_author": true,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 2741170,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1354192925298528427"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [
+      "media_fallback_any_author"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

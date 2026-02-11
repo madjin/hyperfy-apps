@@ -1,0 +1,46 @@
+{
+  "app_id": "hp-eliza-2-1-app_1-1346629939817877556",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:52:03+00:00",
+  "one_liner": "Eliza agent that chats, performs emotes, and looks at players, with configurable name, context, URL and up to four custom emotes.",
+  "primary_use_case": "Interactive NPC agent that responds to player chat, displays speech bubbles, performs emotes, and or at players in Hyperfy worlds.",
+  "feature_tags": [
+    "chat",
+    "emote",
+    "look",
+    "ui",
+    "bubble",
+    "nametag",
+    "networked",
+    "configurable"
+  ],
+  "interaction_modes": [
+    "ui",
+    "networked",
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "shared_state",
+  "preview_recommendation": "Add a screenshot of the Eliza avatar with its chat bubble and nametag visible to provide a visual preview.",
+  "manifest_quality_notes": [
+    "No preview media found",
+    "Large avatar asset (~19\u202fMB)",
+    "Configurable emotes via UI",
+    "Uses server\u2011client networking",
+    "Potential latency in chat updates",
+    "Requires external URL for responses"
+  ],
+  "safety_or_runtime_flags": [
+    "no_media_found",
+    "external_fetch"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "HP-eliza-2-1-app_1.hyp",
+    "discord_message_1346629939817877556",
+    "static_analysis_summary_md",
+    "app_files_context_v2_json",
+    "index_js_excerpt"
+  ]
+}

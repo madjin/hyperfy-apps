@@ -1,0 +1,27 @@
+{
+  "name": "Physics_-_Raycast_Tags",
+  "author": "ash",
+  "description": "two instances so this also shows cross-app raycasting works the same way.\nthe lasers also double as stripper poles.",
+  "tags": [
+    "physics",
+    "tagging",
+    "dynamic bodies",
+    "ui overlay",
+    "cross-app",
+    "laser"
+  ],
+  "interaction_modes": [
+    "ui",
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking": "none",
+  "preview_url": "catalog/discord/hyp_media/Physics_-_Raycast_Tags_1354315974823776286/p0_xyz-physics-raycast-tags.mp4",
+  "download_path": "v2-hyp/Physics_-_Raycast_Tags.hyp",
+  "created_at": "2025-03-26T04:48:10.372Z",
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\nconst blueBody = app.get('BlueBody')\nconst blueCollider = app.get('BlueCollider')\n\nblueBody.type = 'dynamic'\nblueBody.tag = 'BLUE'\nblueCollider.convex = true\n\nworld.attach(blueBody)\n\nconst laser = app.get('Laser')\n\nworld.attach(laser)\n\n// slightly above ground so it doesnt hit it\nlaser.position.y += 0.1\n\nconst laserText = createText('No Hit')\nlaserText.attach(app, [0.5, 1.5, 0])\n\nconst UP = new Vector3()\nconst distance = 3\n\napp.on('update', delta => {\n  const hit = world.raycast(laser.position, UP, distance)\n  laserText.set(hit?.tag || 'No Hit')\n})\n\nfunction createText(value) {\n  const $ui = app.create('ui', {\n    width: 100,\n    height: 50,\n    billboard: 'full',\n    position: [0, 2, 0],\n    alignItems: 'center',\n    justifyContent: 'center',\n  })\n  const $text = app.create('uitext', {\n    value,\n    textAlign: 'center',\n    color: 'white',\n  })\n  $ui.add($text)\n  \n  return {\n    attach(node, position) {\n      node.add($ui)\n      $ui.position.fromArray(position)\n    },\n    set(value) {\n      $text.value = value\n    },\n  }\n}\n}\n",
+  "asset_files": [
+    "Physics - Raycast Tags.glb"
+  ]
+}

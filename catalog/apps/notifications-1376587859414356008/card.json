@@ -1,0 +1,39 @@
+{
+  "name": "Notifications",
+  "author": "Lastraum - theforgecore.xyz",
+  "description": "notification hyp - if this is already made somewhere else lemme know  and ill delete - apologies if so \ud83d\ude4f  it auto scales to 0 so no model shows in world\n`app.emit('nots', {message:\"hello world\"})`\n\ndata:\n- `message`:string\n- `color` (optional) :string\n- `fontSize` (optional): number\n- `timer` (optional): number",
+  "tags": [
+    "ui",
+    "customizable",
+    "message",
+    "color",
+    "fontsize",
+    "timer"
+  ],
+  "interaction_modes": [
+    "trigger",
+    "ui"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking": "events",
+  "preview_url": null,
+  "download_path": "v2-hyp/Notifications.hyp",
+  "created_at": "2025-05-26T15:48:41.450Z",
+  "props": {
+    "collision": false,
+    "debug": false,
+    "messageKey": "nots",
+    "color": "#ffffff",
+    "position": "0.1",
+    "speed": 10,
+    "height": 100,
+    "width": 400,
+    "fontSize": 14
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\napp.configure([\n  {\n    key: 'debug',\n    type: 'toggle',\n    label: 'Debug Show',\n    initial: false,\n    hint: 'Toggles panel visibility for testing position'\n  },\n        {\n    key: 'messageKey',\n    type: 'text',\n    label: 'Message key',\n    initial: 'nots',\n    hint: 'Key for .on() listener'\n  },\n        {\n    key: 'color',\n    type: 'text',\n    label: 'Text Color',\n    initial: '#ffffff',\n    hint: 'Set text color'\n  },\n      {\n    key: 'position',\n    type: 'text',\n    label: 'Top Position',\n    initial: '0.1',\n    hint: 'Set top position of the notification panel'\n  },\n    {\n    key: 'speed',\n    type: 'number',\n    label: 'Speed',\n    initial: 10,\n    hint: 'Set notification speed'\n  },\n      {\n    key: 'height',\n    type: 'number',\n    label: 'Height',\n    initial: 100,\n    hint: 'Set panel height'\n  },\n      {\n    key: 'width',\n    type: 'number',\n    label: 'Width',\n    initial: 400,\n    hint: 'Set panel width'\n  },\n        {\n    key: 'fontSize',\n    type: 'number',\n    label: 'Font Size',\n    initial: 14,\n    hint: 'Set font size'\n  }\n])\n\nlet notsApp = app.get('Block')\nnotsApp.scale.x = 0\nnotsApp.scale.y = 0\nnotsApp.scale.z = 0\n\n\nlet animating = false\nlet direction = 0\nlet speed = props.speed\nlet position = -150\nlet timer = 0\nlet current = null\nlet queue = []\n\nlet notificationPanel = app.create('ui', {\n  width: props.width,\n  height: props.height * 1.5,\n  res: 2,\n  position: [0.5, 0, 1],\n  offset: [0, position, 0],\n  space: 'screen',\n  pivot:'top-center',\n  pointerEvents: false,\n  flexDirection: 'column',\n  justifyContent: 'center',\n  alignItems: 'center',\n});\n\nlet notificationBG = app.create('uiview', {\n  width: props.width,\n  height: props.height,\n  res: 2,\n  position: [0,0, 1],\n  offset: [0, 0, 0],\n  space: 'screen',\n  backgroundColor: 'rgba(0,0,0,0.5)',\n  padding: 5,\n  borderRadius: 5,\n  pointerEvents: false,\n  flexDirection: 'column',\n  justifyContent: 'center',\n  alignItems: 'ce",
+  "asset_files": [
+    "Notifications.glb",
+    "Notifications__image.png"
+  ]
+}

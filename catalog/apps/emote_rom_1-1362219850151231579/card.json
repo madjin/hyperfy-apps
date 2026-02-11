@@ -1,0 +1,25 @@
+{
+  "name": "Emote_Rom_1",
+  "author": "~/drdoge.eth",
+  "description": "<@722481129449586739>",
+  "tags": [
+    "animation",
+    "sync",
+    "ui",
+    "numpad",
+    "multiplayer",
+    "indicator"
+  ],
+  "interaction_modes": [
+    "action",
+    "trigger",
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking": "events",
+  "preview_url": null,
+  "download_path": "v2-hyp/Emote_Rom_1.hyp",
+  "created_at": "2025-04-17T00:15:21.097Z"
+}

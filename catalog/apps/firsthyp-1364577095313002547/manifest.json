@@ -1,0 +1,49 @@
+{
+  "app_id": "firsthyp-1364577095313002547",
+  "app_slug": "firsthyp",
+  "app_name": "firstHYP",
+  "source": {
+    "hyp_filename": "firstHYP.hyp",
+    "discord_attachment_id": "1364577094914539541",
+    "discord_message_id": "1364577095313002547",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-04-23T12:22:12.139Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1346623562462527649/1364577094914539541/firstHYP.hyp?ex=697956b4&is=69780534&hm=4385b7f7b066fd5165199fa47bf3b394659f2dda0d831938b5ba102429f92994&"
+  },
+  "author": {
+    "display_name": "vox",
+    "discord_user_id": "415262868217266177",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "made my first test  .hyp app ever. sorry for beeing so late to the party.",
+    "raw_message_content": "made my first test  .hyp app ever. sorry for beeing so late to the party.",
+    "summary_excerpt": "firstHYP.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": null,
+    "v2_json_path": null,
+    "hyp_summary_path": "catalog/discord/hyp_summaries/firstHYP.md"
+  },
+  "preview": {
+    "primary_media_path": null,
+    "media_type": null,
+    "selection_reason": null,
+    "is_fallback_any_author": false
+  },
+  "media": [],
+  "status": {
+    "has_preview": false,
+    "needs_media_review": true,
+    "needs_author_review": false,
+    "flags": [
+      "no_media_found"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

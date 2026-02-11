@@ -1,0 +1,49 @@
+{
+  "app_id": "confettt-ppot-1402249836455264277",
+  "app_slug": "confettt-ppot",
+  "app_name": "CONFETTT_PPOT",
+  "source": {
+    "hyp_filename": "CONFETTT_PPOT.hyp",
+    "discord_attachment_id": "1402249836136501398",
+    "discord_message_id": "1402249836455264277",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-08-05T11:20:13.553Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1346623562462527649/1402249836136501398/CONFETTT_PPOT.hyp?ex=6979482d&is=6977f6ad&hm=7aa796602171c65ee495e2494e8fb057c05eb8cf5716e0ae8728cacbe3aff46a&"
+  },
+  "author": {
+    "display_name": "Gert-Jan Akerboom",
+    "discord_user_id": "601886221072990251",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "Confetti Popper",
+    "raw_message_content": "Confetti Popper",
+    "summary_excerpt": "CONFETTT PPOT.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/confettt-ppot",
+    "v2_json_path": "v2/confettt-ppot/confettt-ppot.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/CONFETTT_PPOT.md"
+  },
+  "preview": {
+    "primary_media_path": null,
+    "media_type": null,
+    "selection_reason": null,
+    "is_fallback_any_author": false
+  },
+  "media": [],
+  "status": {
+    "has_preview": false,
+    "needs_media_review": true,
+    "needs_author_review": false,
+    "flags": [
+      "no_media_found"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

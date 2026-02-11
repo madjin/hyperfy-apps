@@ -1,0 +1,60 @@
+{
+  "name": "Butterfly_Swarm_V5",
+  "author": "Gert-Jan Akerboom",
+  "description": "Butterfly Swarm V5.hyp",
+  "tags": [
+    "animation",
+    "particles",
+    "3d-model",
+    "configurable",
+    "client-side",
+    "visual-effects"
+  ],
+  "interaction_modes": [
+    "ui",
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking": "none",
+  "preview_url": null,
+  "download_path": "v2-hyp/Butterfly_Swarm_V5.hyp",
+  "created_at": "2025-03-25T14:39:54.498Z",
+  "props": {
+    "scale": 0.3,
+    "startX": 0,
+    "startY": 5,
+    "startZ": 0,
+    "flapSpeed": 10,
+    "maxFlap": 60,
+    "moveSpeed": 0.4,
+    "moveRange": 2,
+    "driftSpeed": 0.3,
+    "driftRange": 1,
+    "baseStartX": 10,
+    "baseStartY": 5,
+    "baseStartZ": 0,
+    "areaWidth": 10,
+    "areaDepth": 10,
+    "clone_count": 20,
+    "area_size_x": 10,
+    "area_size_z": 10,
+    "min_size": 0.2,
+    "max_size": 2,
+    "butterfly_amount": 100,
+    "scale_min": 0.1,
+    "scale_max": 0.5,
+    "flapspeed_min": 5,
+    "flapspeed_max": 20,
+    "flyspeed_min": 0.1,
+    "flyspeed_max": 0.5,
+    "og_onoff": "no",
+    "og_visible": "false",
+    "visible": "true"
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\napp.configure(() => {\n  return [\n    {\n      type: 'switch',\n      key: 'visible',           // the key on `app.config` to set this value\n      label: 'Original Butterfly Visible',\n      options: [\n        {\n          label: 'True',\n          value: 'true',\n        },\n        {\n          label: 'False',\n          value: 'false',\n        }\n      ],\n      initial: 'true',\n    },\n    {\n      type: 'section',\n      key: 'amount',\n      label: 'Set the amount of butterflies (min 1 / max 5000)',\n    },\n    {\n      key: \"butterfly_amount\",\n      label: \"Butterfly Amount\",\n      type: \"number\",\n      initial: 50,\n      min: 1,\n      max: 5000,\n      step: 1,\n    },\n    {\n      type: 'section',\n      key: 'scale',\n      label: 'Set random scale (min 0.1 / max 10)',\n    },\n    {\n      key: \"scale_min\",\n      label: \"Scale Min\",\n      type: \"number\",\n      initial: 0.1,\n      min: 0.1,\n      max: 10,\n      dp: 1,\n      step: 0.1,\n    },\n    {\n      key: \"scale_max\",\n      label: \"Scale Max\",\n      type: \"number\",\n      initial: 0.5,\n      min: 0.1,\n      max: 10,\n      dp: 1,\n      step: 0.1,\n    },\n    {\n      type: 'section',\n      key: 'flapspeed',\n      label: 'Set random flap-speed (min 1 / max 50)',\n    },\n    {\n      key: \"flapspeed_min\",\n      label: \"Flap-speed Min\",\n      type: \"number\",\n      initial: 8,\n      min: 1,\n      max: 50,\n      step: 1,\n    },\n    {\n      key: \"flapspeed_max\",\n      label: \"Flap-speed Max\",\n      type: \"number\",\n      initial: 15,\n      min: 1,\n      max: 50,\n      step: 1,\n    },\n    {\n      type: 'section',\n      key: 'fly-speed',\n      label: 'Set random fly-speed (min 0.1 / max 20)',\n    },\n    {\n      key: \"flyspeed_min\",\n      label: \"Fly-speed Min\",\n      type: \"number\",\n      dp: 1,\n      initial: 0.1,\n      min: 0.1,\n      max: 20,\n      step: 0.1,\n    },\n    {\n      key: \"flyspeed_max\",\n      label: \"Fly-speed Max\",\n      type: \"number\",\n      dp: 1,\n      init",
+  "asset_files": [
+    "Butterfly Swarm V5.glb",
+    "Butterfly Swarm V5__image.jpg"
+  ]
+}

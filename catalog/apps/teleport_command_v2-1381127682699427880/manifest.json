@@ -1,0 +1,49 @@
+{
+  "app_id": "teleport_command_v2-1381127682699427880",
+  "app_slug": "teleport_command_v2",
+  "app_name": "Teleport_Command_v2",
+  "source": {
+    "hyp_filename": "Teleport_Command_v2.hyp",
+    "discord_attachment_id": "1381127682380791808",
+    "discord_message_id": "1381127682699427880",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-06-08T04:28:19.667Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1346623562462527649/1381127682380791808/Teleport_Command_v2.hyp?ex=69799063&is=69783ee3&hm=bb87fe0a4ae59c5f3d05ca7577426e7e142c07ca7f027cc2b40afc2132b2e7e7&"
+  },
+  "author": {
+    "display_name": "ash",
+    "discord_user_id": "179546010303856640",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "Fixed the storage mechanic here",
+    "raw_message_content": "Fixed the storage mechanic here",
+    "summary_excerpt": "Teleport Command v2.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": null,
+    "v2_json_path": null,
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Teleport_Command_v2.md"
+  },
+  "preview": {
+    "primary_media_path": null,
+    "media_type": null,
+    "selection_reason": null,
+    "is_fallback_any_author": false
+  },
+  "media": [],
+  "status": {
+    "has_preview": false,
+    "needs_media_review": true,
+    "needs_author_review": false,
+    "flags": [
+      "no_media_found"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

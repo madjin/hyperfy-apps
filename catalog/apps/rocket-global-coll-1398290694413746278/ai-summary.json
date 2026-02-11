@@ -1,0 +1,44 @@
+{
+  "app_id": "rocket-global-coll-1398290694413746278",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:48:07+00:00",
+  "one_liner": "Networked rocket with collision, launch UI, particle effects, and respawn animation.",
+  "primary_use_case": "Launchable rocket with networked launch, collision handling, and respawn animation for multiplayer worlds.",
+  "feature_tags": [
+    "networked",
+    "collision",
+    "particle",
+    "launch",
+    "ui",
+    "animation",
+    "respawn",
+    "action"
+  ],
+  "interaction_modes": [
+    "action",
+    "ui",
+    "networked",
+    "trigger"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "events",
+  "preview_recommendation": "Use the provided PNG preview showing the rocket; consider adding a short GIF of the launch sequence for clearer UI demonstration.",
+  "manifest_quality_notes": [
+    "Uses author fallback media",
+    "No custom image provided",
+    "App script includes both client and server logic",
+    "State sync via app.state",
+    "No explicit props defined",
+    "Confidence high based on discord evidence"
+  ],
+  "safety_or_runtime_flags": [
+    "media_fallback_any_author"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message",
+    "hyp_file",
+    "static_analysis"
+  ]
+}

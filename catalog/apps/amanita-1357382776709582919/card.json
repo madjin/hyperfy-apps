@@ -1,0 +1,34 @@
+{
+  "name": "Amanita",
+  "author": "Gert-Jan Akerboom",
+  "description": "i think this app could work for grasses too, its basically just a grass particle system (but with mushrooms)\nif you have some images of the style of grass you are interested in i could try to make some in blender and switch out the model on the app.",
+  "tags": [
+    "environment",
+    "mushrooms",
+    "particle-system",
+    "cloning",
+    "random-placement",
+    "configurable"
+  ],
+  "interaction_modes": [
+    "ui",
+    "action"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking": "none",
+  "preview_url": "catalog/discord/hyp_media/Amanita_1357382776709582919/m2_image.png",
+  "download_path": "v2-hyp/Amanita.hyp",
+  "created_at": "2025-04-03T15:54:32.920Z",
+  "props": {
+    "clone_count": 500,
+    "area_size_x": 100,
+    "area_size_z": 30,
+    "min_size": 0.01,
+    "max_size": 1
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\n// Configure UI inputs for the clone parameters\napp.configure(() => {\n  return [\n    {\n      key: \"clone_count\",\n      label: \"Clone Count\",\n      type: \"number\",\n      initial: 20,\n      min: 1,\n      max: 500,\n      step: 1,\n    },\n    {\n      key: \"area_size_x\",\n      label: \"Area Width (X meters)\",\n      type: \"number\",\n      initial: 10,\n      min: 1,\n      max: 100,\n      step: 1,\n    },\n    {\n      key: \"area_size_z\",\n      label: \"Area Depth (Z meters)\",\n      type: \"number\",\n      initial: 10,\n      min: 1,\n      max: 100,\n      step: 1,\n    },\n    {\n      key: \"min_size\",\n      label: \"Minimum Clone Size\",\n      type: \"number\",\n      dp: 2,\n      initial: 0.2,\n      min: 0.01,\n      max: 5,\n      step: 0.1,\n    },\n    {\n      key: \"max_size\",\n      label: \"Maximum Clone Size\",\n      type: \"number\",\n      dp: 2,\n      initial: 2,\n      min: 0.1,\n      max: 5,\n      step: 0.1,\n    }\n  ];\n});\n\n// Get configuration values\nconst CLONE_COUNT = app.config.clone_count;\nconst AREA_SIZE_X = app.config.area_size_x;\nconst AREA_SIZE_Z = app.config.area_size_z;\nconst MIN_SIZE = app.config.min_size;\nconst MAX_SIZE = app.config.max_size;\n\n// Get the original cube\nconst cube = app.get('amanita');\n\nif (!cube) {\n  console.error('Could not find Cube');\n  return;\n}\n\n// Create clones and distribute them randomly\nfor (let i = 1; i <= CLONE_COUNT; i++) {\n  const clone = cube.clone(true);\n  \n  // Generate random positions within our area\n  clone.position.x = num(-AREA_SIZE_X, AREA_SIZE_X, 2);\n  clone.position.z = num(-AREA_SIZE_Z, AREA_SIZE_Z, 2);\n  clone.position.y = 0;  // Keep on ground\n  \n  // Random rotation on Y axis (0 to 360 degrees)\n  clone.rotation.y = num(0, 360, 2);\n  \n  // Random uniform scale between min and max size\n  const scale = num(MIN_SIZE, MAX_SIZE, 2);\n  clone.scale.set(scale, scale, scale);\n  \n  app.add(clone);\n} \n}\n",
+  "asset_files": [
+    "Amanita.glb"
+  ]
+}

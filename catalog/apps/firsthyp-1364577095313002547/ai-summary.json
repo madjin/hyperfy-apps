@@ -1,0 +1,37 @@
+{
+  "app_id": "firsthyp-1364577095313002547",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:45:22+00:00",
+  "one_liner": "A simple demo app that applies a UV texture scroll on a mesh named UVSCROLL using a lightweight script.",
+  "primary_use_case": "Apply continuous UV scrolling to a mesh for animated texture effects in a Hyperfy world.",
+  "feature_tags": [
+    "UV scrolling",
+    "texture animation",
+    "mesh manipulation",
+    "demo",
+    "lightweight script"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "low",
+  "networking_profile": "none",
+  "preview_recommendation": "Add a preview image or short video showing the scrolling texture effect, as the current app lacks any media assets.",
+  "manifest_quality_notes": [
+    "No preview media attached",
+    "Simple single\u2011mesh script",
+    "High confidence in author identity",
+    "Small script size (1\u202fKB)",
+    "Model size moderate (\u2248534\u202fKB)"
+  ],
+  "safety_or_runtime_flags": [
+    "no_media_found"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "https://cdn.discordapp.com/attachments/1346623562462527649/1364577094914539541/firstHYP.hyp",
+    "Discord message ID: 1364577095313002547",
+    "Author Discord ID: 415262868217266177"
+  ]
+}

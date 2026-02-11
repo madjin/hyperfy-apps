@@ -1,0 +1,41 @@
+{
+  "app_id": "curved-video-viewer-1363490690339831849",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:51:53+00:00",
+  "one_liner": "Plays an MP4 video on a specified mesh, with configurable aspect ratio, fit mode, and looping.",
+  "primary_use_case": "Embedding video textures onto 3D objects in a Hyperfy world, e.g., screens or curved surfaces.",
+  "feature_tags": [
+    "video",
+    "texture",
+    "uv-fit",
+    "loop",
+    "configurable",
+    "mesh-target",
+    "fit-mode",
+    "client-side"
+  ],
+  "interaction_modes": [
+    "ui",
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "none",
+  "preview_recommendation": "Use the provided UVscroll.mp4 preview to verify video playback on a mesh named 'Screen'; ensure the mesh geometry matches the aspect ratio settings.",
+  "manifest_quality_notes": [
+    "Config UI defined via app.configure",
+    "Client\u2011only execution (world.isClient)",
+    "No networking code",
+    "Fallback video preview from any author",
+    "Model and script sizes are minimal"
+  ],
+  "safety_or_runtime_flags": [],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message_id:1363490690339831849",
+    "hyp_filename:Curved_Video_Viewer.hyp",
+    "model_asset:assets/curved-video-viewer.glb",
+    "script_asset:module",
+    "preview_media:catalog/discord/hyp_media/Curved_Video_Viewer_1363490690339831849/m2_UVscroll.mp4"
+  ]
+}

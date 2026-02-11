@@ -1,0 +1,23 @@
+{
+  "name": "szjanko-2-11-dice",
+  "author": "0mka",
+  "description": "szjanko 2 11 dice.hyp",
+  "tags": [
+    "cube",
+    "rotation",
+    "random",
+    "easing",
+    "pointer",
+    "update"
+  ],
+  "interaction_modes": [
+    "action",
+    "trigger"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking": "none",
+  "preview_url": null,
+  "download_path": "v2-hyp/szjanko-2-11-dice.hyp",
+  "created_at": "2025-03-04T23:46:36.827Z"
+}

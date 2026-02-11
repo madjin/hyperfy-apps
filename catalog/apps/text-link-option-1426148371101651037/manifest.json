@@ -1,0 +1,63 @@
+{
+  "app_id": "text-link-option-1426148371101651037",
+  "app_slug": "text-link-option",
+  "app_name": "Text_link_option",
+  "source": {
+    "hyp_filename": "Text_link_option.hyp",
+    "discord_attachment_id": "1426148370971361370",
+    "discord_message_id": "1426148371101651037",
+    "discord_channel": "\ud83e\uddca\u25023d-design",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-10-10T10:04:28.226Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1031058655581323324/1426148370971361370/Text_link_option.hyp?ex=68ec25ec&is=68ead46c&hm=b5b1afcce8ec4f4b783b320d4bc27cb5ea327a93814909ab571d035f0711d17d&"
+  },
+  "author": {
+    "display_name": "Gert-Jan Akerboom",
+    "discord_user_id": "601886221072990251",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "Here, i updated the default text app, now you can add a link to it : )",
+    "raw_message_content": "Here, i updated the default text app, now you can add a link to it : )",
+    "summary_excerpt": "Text link option.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/text-link-option",
+    "v2_json_path": "v2/text-link-option/text-link-option.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Text_link_option.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/Text_link_option_1426148371101651037/p3_IMG_1244.png",
+    "media_type": ".png",
+    "selection_reason": "any_author_fallback",
+    "is_fallback_any_author": true
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/Text_link_option_1426148371101651037/p3_IMG_1244.png",
+      "original_filename": "IMG_1244.png",
+      "content_type": "image/jpeg",
+      "relative_index": 3,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 734956,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1426204611764818031"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [
+      "media_fallback_any_author"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

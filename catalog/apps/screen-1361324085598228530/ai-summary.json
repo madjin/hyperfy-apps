@@ -1,0 +1,44 @@
+{
+  "app_id": "screen-1361324085598228530",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:52:33+00:00",
+  "one_liner": "A TV\u2011like screen that lets players share their desktop/video feed, with an optional admin\u2011only permission toggle.",
+  "primary_use_case": "Enable in\u2011world screensharing for any player, or restrict it to admins, by attaching a video node to a 3D screen model and providing a Share Screen action.",
+  "feature_tags": [
+    "screensharing",
+    "video",
+    "tv",
+    "admin permission",
+    "action button",
+    "3d model",
+    "configurable prop"
+  ],
+  "interaction_modes": [
+    "action",
+    "trigger",
+    "ui"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none",
+  "preview_recommendation": "No preview media is attached. Add a screenshot or short video of the screen in action to improve discoverability and meet preview requirements.",
+  "manifest_quality_notes": [
+    "Missing preview media",
+    "Media review needed",
+    "All required assets (model, script) present",
+    "Prop configuration UI is defined",
+    "No networked events used"
+  ],
+  "safety_or_runtime_flags": [
+    "no_media_found"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "Discord message ID 1361324085598228530",
+    "Screen.hyp file (attachment 1361324085199503401)",
+    "Static analysis summary (model size 24,928\u202fbytes, script size 1,075\u202fbytes)",
+    "App script excerpt (index_js)",
+    "Docs snippet: docs__app__app.snippet.txt",
+    "Docs snippet: docs__scripting__networking.snippet.txt"
+  ]
+}

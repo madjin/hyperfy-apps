@@ -1,0 +1,46 @@
+{
+  "app_id": "pve-sword-1354082561185288312",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:52:20+00:00",
+  "one_liner": "A PvE sword app that lets players pick up a sword, swing it to deal damage with random crits, and drop it, using emote attacks and server\u2011client synced state.",
+  "primary_use_case": "Multiplayer PvE combat where players can equip a sword, trigger attacks with visual emotes, and receive damage feedback.",
+  "feature_tags": [
+    "combat",
+    "damage",
+    "emotes",
+    "player_interaction",
+    "networked",
+    "server_logic",
+    "client_logic"
+  ],
+  "interaction_modes": [
+    "action",
+    "trigger",
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "shared_state",
+  "preview_recommendation": "Add screenshots or a short video showing the sword being taken, swung, and dropped in\u2011world; currently no media is attached.",
+  "manifest_quality_notes": [
+    "No media found (needs preview)",
+    "Debug flag present for visual sphere",
+    "Random number helper `num` assumed available",
+    "Potential hit detection issue reported in Discord",
+    "Author confidence high",
+    "Script uses both server and client logic"
+  ],
+  "safety_or_runtime_flags": [
+    "debug_mode",
+    "potential_performance_impact",
+    "no_safety_checks_on_hit_detection"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "APP_FACTS",
+    "APP_FILES_CONTEXT",
+    "STATIC_ANALYSIS_SUMMARY_MD",
+    "DISCORD_CONTEXT"
+  ]
+}

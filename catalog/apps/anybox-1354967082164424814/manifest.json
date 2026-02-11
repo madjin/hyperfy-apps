@@ -1,0 +1,74 @@
+{
+  "app_id": "anybox-1354967082164424814",
+  "app_slug": "anybox",
+  "app_name": "anybox",
+  "source": {
+    "hyp_filename": "anybox.hyp",
+    "discord_attachment_id": "1354967081073905674",
+    "discord_message_id": "1354967082164424814",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-03-27T23:55:26.459Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1354967081073905674/anybox.hyp?ex=6979506e&is=6977feee&hm=8b9c24ac911e4a1ace36cef5acbc6de65ce1d5187f74fcfe4e7b6bb57072b3e2&"
+  },
+  "author": {
+    "display_name": "ash",
+    "discord_user_id": "179546010303856640",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "i've been using my \"anybox\" for logic-based apps. helps me keep things organised",
+    "raw_message_content": "i've been using my \"anybox\" for logic-based apps. helps me keep things organised",
+    "summary_excerpt": "anybox.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/anybox",
+    "v2_json_path": "v2/anybox/anybox.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/anybox.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/anybox_1354967082164424814/p0_image.png",
+    "media_type": ".png",
+    "selection_reason": "same_message",
+    "is_fallback_any_author": false
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/anybox_1354967082164424814/p0_image.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": 0,
+      "same_author": true,
+      "selection_reason": "same_message",
+      "size_bytes": 167863,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1354967081556381816"
+    },
+    {
+      "catalog_path": "catalog/discord/hyp_media/anybox_1354967082164424814/p0_image_1354967081921151006.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": 0,
+      "same_author": true,
+      "selection_reason": "same_message",
+      "size_bytes": 140089,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1354967081921151006"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

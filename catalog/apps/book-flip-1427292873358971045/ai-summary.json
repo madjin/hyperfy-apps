@@ -1,0 +1,44 @@
+{
+  "app_id": "book-flip-1427292873358971045",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:44:20+00:00",
+  "one_liner": "Place a book object and press F to perform a flip or double jump, with optional emote animations.",
+  "primary_use_case": "Adds a flip/double-jump mechanic to Hyperfy worlds using a book model and hotkey trigger.",
+  "feature_tags": [
+    "flip",
+    "double-jump",
+    "emote",
+    "hotkey",
+    "physics",
+    "3d-model",
+    "client-side",
+    "interactive"
+  ],
+  "interaction_modes": [
+    "action",
+    "trigger",
+    "ui"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "none",
+  "preview_recommendation": "The knowledge.webp preview accurately shows the book model; no additional media review needed.",
+  "manifest_quality_notes": [
+    "All required assets are present",
+    "Props include emote URLs",
+    "Script runs client\u2011side only",
+    "No networking code used",
+    "Preview matches model geometry",
+    "Author confidence high"
+  ],
+  "safety_or_runtime_flags": [],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message_id:1427292873358971045",
+    "hyp_file:Book_-_Flip.hyp",
+    "app_facts",
+    "static_analysis_summary",
+    "v2_json_blueprint",
+    "media_attachment_id:1427292962483605564"
+  ]
+}

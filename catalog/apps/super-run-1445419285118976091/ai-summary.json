@@ -1,0 +1,41 @@
+{
+  "app_id": "super-run-1445419285118976091",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:48:34+00:00",
+  "one_liner": "Super_Run adds a sprint\u2011based speed boost: after 1\u202fsecond of continuous sprint, players gain a super\u2011run emote and extra forward push.",
+  "primary_use_case": "Enable temporary high\u2011speed movement for players who sprint continuously.",
+  "feature_tags": [
+    "speed_boost",
+    "sprinting",
+    "emote",
+    "collision",
+    "deactivation_time",
+    "props"
+  ],
+  "interaction_modes": [
+    "action",
+    "passive",
+    "ui"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "none",
+  "preview_recommendation": "Use the attached mp4 (p0_super-run.mp4) as the primary preview; it clearly shows the emote activation and speed effect.",
+  "manifest_quality_notes": [
+    "All core assets present",
+    "Author confidence high",
+    "No speculative behavior",
+    "Preview verified",
+    "Script analysis complete"
+  ],
+  "safety_or_runtime_flags": [],
+  "confidence": "high",
+  "evidence_refs": [
+    "https://cdn.discordapp.com/attachments/1346623562462527649/1445419284003033259/Super_Run.hyp",
+    "discord_message_id:1445419285118976091",
+    "author_discord:235754161377902593",
+    "attachment_id:1445419284749615299",
+    "discord_channel:#\ud83c\udfa8\u2502showcase",
+    "discord_timestamp:2025-12-02T14:20:12.164Z"
+  ]
+}

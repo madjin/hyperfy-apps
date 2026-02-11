@@ -1,0 +1,43 @@
+{
+  "app_id": "splinepinev1-1346505141473382451",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:52:36+00:00",
+  "one_liner": "Creates a curved pine-like structure by cloning a cube model along a sine spline with random scaling and rotation.",
+  "primary_use_case": "Procedural generation of decorative spline-based structures in Hyperfy worlds.",
+  "feature_tags": [
+    "procedural",
+    "spline",
+    "clone",
+    "random",
+    "scale",
+    "rotation",
+    "visual",
+    "model"
+  ],
+  "interaction_modes": [
+    "action",
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "none",
+  "preview_recommendation": "Show the preview video to demonstrate the curved pine structure; ensure the model loads correctly and the animation runs smoothly.",
+  "manifest_quality_notes": [
+    "Model size is small (56\u202fKB) and script is concise.",
+    "No external dependencies.",
+    "Uses Hyperfy's built\u2011in num() for randomness.",
+    "No UI configuration needed.",
+    "Potential missing node ID 'pinepart' if model naming differs.",
+    "No networking, so safe for all clients."
+  ],
+  "safety_or_runtime_flags": [],
+  "confidence": "high",
+  "evidence_refs": [
+    "APP_FACTS",
+    "APP_FILES_CONTEXT",
+    "STATIC_ANALYSIS_SUMMARY_MD",
+    "DISCORD_CONTEXT",
+    "docs__app__app.snippet.txt",
+    "docs__scripting__networking.snippet.txt"
+  ]
+}

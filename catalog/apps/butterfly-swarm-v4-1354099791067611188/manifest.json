@@ -1,0 +1,49 @@
+{
+  "app_id": "butterfly-swarm-v4-1354099791067611188",
+  "app_slug": "butterfly-swarm-v4",
+  "app_name": "Butterfly_Swarm_V4",
+  "source": {
+    "hyp_filename": "Butterfly_Swarm_V4.hyp",
+    "discord_attachment_id": "1354099790685802537",
+    "discord_message_id": "1354099791067611188",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-03-25T14:29:08.148Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1350129252976168992/1354099790685802537/Butterfly_Swarm_V4.hyp?ex=69797474&is=697822f4&hm=5934173395d2e5c54c349cc8c40f93277cb6ae9cc7729a15ec53dc31167c6c24&"
+  },
+  "author": {
+    "display_name": "Gert-Jan Akerboom",
+    "discord_user_id": "601886221072990251",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "Butterfly Swarm V4.hyp",
+    "raw_message_content": "",
+    "summary_excerpt": "Butterfly Swarm V4.hyp",
+    "source_priority_used": "summary_excerpt"
+  },
+  "links": {
+    "v2_app_dir": "v2/butterfly-swarm-v4",
+    "v2_json_path": "v2/butterfly-swarm-v4/butterfly-swarm-v4.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Butterfly_Swarm_V4.md"
+  },
+  "preview": {
+    "primary_media_path": null,
+    "media_type": null,
+    "selection_reason": null,
+    "is_fallback_any_author": false
+  },
+  "media": [],
+  "status": {
+    "has_preview": false,
+    "needs_media_review": true,
+    "needs_author_review": false,
+    "flags": [
+      "no_media_found"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

@@ -1,0 +1,42 @@
+{
+  "app_id": "physics-contacts-tags-1354299208894648330",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:47:27+00:00",
+  "one_liner": "Demo app showing rigidbody contacts and tags with UI feedback in Hyperfy.",
+  "primary_use_case": "Illustrate contact events between rigidbody nodes and display tags via UI.",
+  "feature_tags": [
+    "physics",
+    "contacts",
+    "tags",
+    "ui",
+    "demo",
+    "rigidbody",
+    "event-handling",
+    "visualization"
+  ],
+  "interaction_modes": [
+    "ui",
+    "trigger",
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none",
+  "preview_recommendation": "Use the provided MP4 preview to quickly visualize how the Blue and Red nodes change UI text on contact start/end.",
+  "manifest_quality_notes": [
+    "Clear demonstration of contact tagging",
+    "Simple, low\u2011complexity script",
+    "No networking required",
+    "Requires model with Blue and Red nodes",
+    "Preview video available"
+  ],
+  "safety_or_runtime_flags": [],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message:1354299255912660993",
+    "hyp_file:Physics_-_Contacts__Tags.hyp",
+    "preview_video:xyz-physics-contacts--tags.mp4",
+    "static_analysis:summary",
+    "author_discord:179546010303856640"
+  ]
+}

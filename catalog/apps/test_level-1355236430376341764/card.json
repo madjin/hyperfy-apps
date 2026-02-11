@@ -1,0 +1,25 @@
+{
+  "name": "test_level",
+  "author": "Saori",
+  "description": "test level.hyp",
+  "tags": [
+    "3d-model",
+    "script",
+    "demo",
+    "showcase",
+    "hyp"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "low",
+  "networking": "none",
+  "preview_url": "catalog/discord/hyp_media/test_level_1355236430376341764/m1_image.png",
+  "download_path": "v2-hyp/test_level.hyp",
+  "created_at": "2025-03-28T17:45:44.077Z",
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) { }\n",
+  "asset_files": [
+    "test_level.glb"
+  ]
+}

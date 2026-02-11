@@ -1,0 +1,46 @@
+{
+  "app_id": "heliv4-1374463195070332958",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:46:05+00:00",
+  "one_liner": "Helicopter app that orbits an oval path, scrolls rotor UVs, and plays spatial audio.",
+  "primary_use_case": "Animated 3D helicopter with dynamic motion and immersive sound for VR/AR scenes.",
+  "feature_tags": [
+    "oval_path",
+    "uv_scrolling",
+    "audio_spatial",
+    "rotor_animation",
+    "curvature_speed",
+    "scripted_movement",
+    "3d_model",
+    "glb_asset"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "none",
+  "preview_recommendation": "Generate a short preview video showing the helicopter following its oval trajectory, rotor UV scrolling, and spatial audio cues.",
+  "manifest_quality_notes": [
+    "no_media_found",
+    "short_description",
+    "script_uses_update",
+    "audio_spatial",
+    "model_included",
+    "script_included"
+  ],
+  "safety_or_runtime_flags": [
+    "no_media_found"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message",
+    "hyp_attachment",
+    "static_analysis",
+    "author_discord",
+    "app_id",
+    "app_name",
+    "model_asset",
+    "script_asset"
+  ]
+}

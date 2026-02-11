@@ -1,0 +1,49 @@
+{
+  "app_id": "car1-v2-1353199999730581585",
+  "app_slug": "car1-v2",
+  "app_name": "car1-v2",
+  "source": {
+    "hyp_filename": "car1-v2.hyp",
+    "discord_attachment_id": "1353199999349162085",
+    "discord_message_id": "1353199999730581585",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-03-23T02:53:41.176Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1353199999349162085/car1-v2.hyp?ex=69797a35&is=697828b5&hm=adb34ebb36b5873714d2a9b4884aad8c5de9ca1f5024d45e69ed772242e63137&"
+  },
+  "author": {
+    "display_name": "ash",
+    "discord_user_id": "179546010303856640",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "ok added some better anti-roll to this",
+    "raw_message_content": "ok added some better anti-roll to this",
+    "summary_excerpt": "car1 v2.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": null,
+    "v2_json_path": null,
+    "hyp_summary_path": "catalog/discord/hyp_summaries/car1-v2.md"
+  },
+  "preview": {
+    "primary_media_path": null,
+    "media_type": null,
+    "selection_reason": null,
+    "is_fallback_any_author": false
+  },
+  "media": [],
+  "status": {
+    "has_preview": false,
+    "needs_media_review": true,
+    "needs_author_review": false,
+    "flags": [
+      "no_media_found"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

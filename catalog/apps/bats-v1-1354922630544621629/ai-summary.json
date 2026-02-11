@@ -1,0 +1,39 @@
+{
+  "app_id": "bats-v1-1354922630544621629",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:44:18+00:00",
+  "one_liner": "Bats v1.hyp \u2013 a configurable swarm of animated bats with audio, using a GLB model and script.",
+  "primary_use_case": "Create a dynamic bat swarm visual effect in a Hyperfy world.",
+  "feature_tags": [
+    "swarm",
+    "bat",
+    "audio",
+    "animation",
+    "configurable",
+    "3d",
+    "glb",
+    "visual"
+  ],
+  "interaction_modes": [
+    "ui",
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "none",
+  "preview_recommendation": "Use the provided PNG preview (catalog/discord/hyp_media/Bats_v1_1354922630544621629/m2_image.png) as the primary thumbnail; it clearly shows the bat swarm visual.",
+  "manifest_quality_notes": [
+    "All assets (model, script, audio, preview) are present and linked.",
+    "UI configuration defined via app.configure with comprehensive props.",
+    "Audio asset correctly referenced and set to loop.",
+    "GLB model includes wing nodes used for animation.",
+    "No network events or server-side logic detected."
+  ],
+  "safety_or_runtime_flags": [],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message_1354922630544621629",
+    "hyp_file_Bats_v1.hyp",
+    "author_valiant_discord"
+  ]
+}

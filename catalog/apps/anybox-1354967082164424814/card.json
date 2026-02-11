@@ -1,0 +1,34 @@
+{
+  "name": "anybox",
+  "author": "ash",
+  "description": "i've been using my \"anybox\" for logic-based apps. helps me keep things organised",
+  "tags": [
+    "audio",
+    "ui",
+    "background",
+    "config",
+    "label",
+    "logic"
+  ],
+  "interaction_modes": [
+    "ui",
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "low",
+  "networking": "none",
+  "preview_url": "catalog/discord/hyp_media/anybox_1354967082164424814/p0_image.png",
+  "download_path": "v2-hyp/anybox.hyp",
+  "created_at": "2025-03-27T23:55:26.459Z",
+  "props": {
+    "audio": {
+      "type": "audio",
+      "url": "assets/audio.mp3"
+    }
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\napp.configure([\n  {\n    key: 'audio',\n    type: 'file',\n    kind: 'audio',\n    label: 'Audio',\n  }\n])\n\nconst src = props.audio?.url\n\nif (src) {\n  const audio = app.create('audio', {\n    src,\n    loop: true,\n    group: 'music',\n    spatial: false,\n    volume: 0.1\n  })\n  world.add(audio)\n  audio.play()\n}\n\n\n// =======================================\n// Box & Label\nconst LABEL = 'Background Audio'\nconst $ui = app.create('ui', {\n  height: 50,\n  alignItems: 'center',\n  justifyContent: 'center',\n})\n$ui.position.y = 1.3\nconst $text = app.create('uitext', {\n  value: LABEL || 'No Label',\n  textAlign: 'center',\n  color: 'white'\n})\n$ui.add($text)\napp.add($ui)\n// =======================================\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n}\n",
+  "asset_files": [
+    "anybox.glb",
+    "audio.mp3"
+  ]
+}

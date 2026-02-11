@@ -1,0 +1,48 @@
+{
+  "app_id": "day_night_weather_current-1364018271719919686",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:45:02+00:00",
+  "one_liner": "DAY_NIGHT_WEATHER_CURRENT app visualizes dynamic day/night cycles with weather effects, UI time display, and configurable properties.",
+  "primary_use_case": "Real-time environmental simulation with day/night cycle and weather visualization in Hyperfy worlds.",
+  "feature_tags": [
+    "day/night cycle",
+    "weather",
+    "ui",
+    "particles",
+    "audio",
+    "fog",
+    "lighting",
+    "scripted behavior"
+  ],
+  "interaction_modes": [
+    "ui",
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "none",
+  "preview_recommendation": "Use the current PNG preview as a visual reference; consider adding a short video or animated GIF to better showcase the dynamic day/night and weather transitions.",
+  "manifest_quality_notes": [
+    "fallback media used",
+    "no explicit author confirmation beyond Discord",
+    "rich asset set with textures, audio, model, script",
+    "script includes UI and weather logic",
+    "no networking functionality",
+    "high confidence in author identity"
+  ],
+  "safety_or_runtime_flags": [
+    "media_fallback_any_author",
+    "safe_for_work"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord",
+    "hyp_file",
+    "static_analysis",
+    "script",
+    "assets",
+    "preview_image",
+    "discord_message",
+    "author_profile"
+  ]
+}

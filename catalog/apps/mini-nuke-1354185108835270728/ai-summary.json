@@ -1,0 +1,49 @@
+{
+  "app_id": "mini-nuke-1354185108835270728",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:52:11+00:00",
+  "one_liner": "A detonatable mini\u2011nuke that creates a radiation cloud with damage, visual explosion, and configurable audio effects.",
+  "primary_use_case": "Create a hazardous radiation zone with player damage, visual explosion, and ambient sound in a Hyperfy world.",
+  "feature_tags": [
+    "damage",
+    "explosion",
+    "radiation",
+    "audio",
+    "ui",
+    "particle",
+    "action",
+    "configurable"
+  ],
+  "interaction_modes": [
+    "action",
+    "ui",
+    "passive",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "high",
+  "networking_profile": "events",
+  "preview_recommendation": "Use the primary PNG preview; the fallback author image is acceptable but may not fully represent the app's visual effects.",
+  "manifest_quality_notes": [
+    "Media fallback used for preview",
+    "Audio assets configured via app.configure",
+    "Particle system optimized for performance",
+    "Server\u2011side damage logic with timers",
+    "Configurable audio and distance properties",
+    "Potential missing world event listeners for damage propagation"
+  ],
+  "safety_or_runtime_flags": [
+    "radiation_damage",
+    "explosion_flash",
+    "audio_playback",
+    "performance_optimized"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "APP_FACTS",
+    "APP_FILES_CONTEXT",
+    "STATIC_ANALYSIS_SUMMARY_MD",
+    "DISCORD_CONTEXT",
+    "HYPERFY_DOC_SNIPPETS"
+  ]
+}

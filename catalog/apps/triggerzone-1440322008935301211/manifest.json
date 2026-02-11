@@ -1,0 +1,61 @@
+{
+  "app_id": "triggerzone-1440322008935301211",
+  "app_slug": "triggerzone",
+  "app_name": "TriggerZone",
+  "source": {
+    "hyp_filename": "TriggerZone.hyp",
+    "discord_attachment_id": "1440322008218079242",
+    "discord_message_id": "1440322008935301211",
+    "discord_channel": "\u26a1\u2502general",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-11-18T12:45:26.819Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/958209074045026327/1440322008218079242/TriggerZone.hyp?ex=691f0d66&is=691dbbe6&hm=3f9b1d1008e46bac8c7a460a684a19d5af6c57a2216c04da6dc45763bbfc6b2a&"
+  },
+  "author": {
+    "display_name": "Gert-Jan Akerboom",
+    "discord_user_id": "601886221072990251",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "I made this TriggerZone app, try it out and let me know what you think : )\nyou can have multiple trigger zones on 1 discord hook but for some reason it does not work when you click the 'unique' toggle\nwhen you want to have multiple in your world just add 1 and then copy and paste the code of the first one in a fresh default block and repeat.",
+    "raw_message_content": "I made this TriggerZone app, try it out and let me know what you think : )\nyou can have multiple trigger zones on 1 discord hook but for some reason it does not work when you click the 'unique' toggle\nwhen you want to have multiple in your world just add 1 and then copy and paste the code of the first one in a fresh default block and repeat.",
+    "summary_excerpt": "TriggerZone.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/triggerzone",
+    "v2_json_path": "v2/triggerzone/triggerzone.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/TriggerZone.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/TriggerZone_1440322008935301211/p1_triggerzone.mp4",
+    "media_type": ".mp4",
+    "selection_reason": "same_author_nearby",
+    "is_fallback_any_author": false
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/TriggerZone_1440322008935301211/p1_triggerzone.mp4",
+      "original_filename": "triggerzone.mp4",
+      "content_type": "video/mp4",
+      "relative_index": 1,
+      "same_author": true,
+      "selection_reason": "same_author_nearby",
+      "size_bytes": 511224,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1440329746587189308"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

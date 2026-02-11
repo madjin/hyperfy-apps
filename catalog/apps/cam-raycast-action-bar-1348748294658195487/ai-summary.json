@@ -1,0 +1,45 @@
+{
+  "app_id": "cam-raycast-action-bar-1348748294658195487",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:44:39+00:00",
+  "one_liner": "Adds a customizable on\u2011screen action bar with keybind icons and a raycast trigger for quick ability activation.",
+  "primary_use_case": "Provides Hyperfy worlds with a UI action bar for instant keybind activation and client\u2011to\u2011server raycast interaction.",
+  "feature_tags": [
+    "ui",
+    "action-bar",
+    "keybinds",
+    "raycast",
+    "emotes",
+    "customizable",
+    "client-side",
+    "networked"
+  ],
+  "interaction_modes": [
+    "ui",
+    "action",
+    "trigger",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "events",
+  "preview_recommendation": "Add a screenshot or short video showing the action bar UI and raycast effect to improve preview quality.",
+  "manifest_quality_notes": [
+    "no media found",
+    "high author confidence",
+    "script includes UI creation and keybind handling",
+    "client\u2011to\u2011server raycast event",
+    "multiple emoji and text props",
+    "requires client environment"
+  ],
+  "safety_or_runtime_flags": [
+    "no_media_found"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord:author:Saori",
+    "discord:message:1348748103104331778",
+    "discord:channel:#\ud83c\udfa8\u2502showcase",
+    "discord:timestamp:2025-03-10T20:04:11.978Z"
+  ]
+}

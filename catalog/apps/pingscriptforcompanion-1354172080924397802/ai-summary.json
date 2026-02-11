@@ -1,0 +1,42 @@
+{
+  "app_id": "pingscriptforcompanion-1354172080924397802",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:47:32+00:00",
+  "one_liner": "Attach a script to any object so the companion or minimap can locate it by name.",
+  "primary_use_case": "Makes objects scannable and discoverable via ping/pong events for companion or minimap navigation.",
+  "feature_tags": [
+    "ping",
+    "pong",
+    "companion",
+    "minimap",
+    "scannable",
+    "ui",
+    "network",
+    "script"
+  ],
+  "interaction_modes": [
+    "ui",
+    "trigger",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "low",
+  "networking_profile": "events",
+  "preview_recommendation": "Show the updated companion video demonstrating terrain handling and ping response; useful for users to see UI configuration and ping/pong interaction.",
+  "manifest_quality_notes": [
+    "Clear UI configuration fields",
+    "Simple, low\u2011complexity script",
+    "Operates via local world events only",
+    "No persistent storage required",
+    "Requires correct object naming",
+    "Potential naming conflicts if duplicate names exist"
+  ],
+  "safety_or_runtime_flags": [],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message_1354172080924397802",
+    "hyp_file_attachment",
+    "static_analysis_summary",
+    "script_excerpt"
+  ]
+}

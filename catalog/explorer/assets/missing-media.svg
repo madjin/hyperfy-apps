@@ -1,0 +1,19 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1280" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6E7CF"/>
+      <stop offset="1" stop-color="#F8D9CC"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="170" y1="120" x2="1110" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF9EE"/>
+      <stop offset="1" stop-color="#F3E6D7"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#g1)"/>
+  <rect x="160" y="110" width="960" height="500" rx="26" fill="url(#g2)" stroke="#D9C2A6" stroke-width="4"/>
+  <path d="M248 525L442 370L595 466L777 290L1032 525H248Z" fill="#EBCFB6"/>
+  <circle cx="880" cy="250" r="52" fill="#E8BD9E"/>
+  <rect x="250" y="560" width="770" height="15" rx="7" fill="#D9C2A6"/>
+  <text x="640" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="54" fill="#8E684E">Preview Missing</text>
+  <text x="640" y="392" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#9C7A62">No media was found for this app yet</text>
+</svg>

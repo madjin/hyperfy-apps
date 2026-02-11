@@ -1,0 +1,32 @@
+{
+  "name": "SimonSaysBoard",
+  "author": "cru",
+  "description": "simple idea for a minigame I'm testing. Very work in progress \n\"Simon Says\" - it's not technically Simon Says, but a similar vibe. \n\nThe screen displays a color, and players must jump to the correct block in time. In the final game, if they fail to do this, they would fall into a pit and die. \n\nThe game would increase in difficulty by getting quicker, reducing the # of functioning colors in the arena, or shrinking the cube sizes. There's a whole bunch of variables that could be added. \n\nEventually when there's one player remaining, the game would end. \n\nNext steps would be to add audio feedback, physics, and integrate with an HP system, like the one <@357905702926286858> created. There are also some issues with the way the colors are sent over to the playing area. It just grabs it from the local console I think \n\nThis idea is inspired by a project <@783416470205497394>  is working on where various colored cubes are instanced.",
+  "tags": [
+    "color-matching",
+    "multiplayer",
+    "reaction",
+    "minigame",
+    "cube-logic",
+    "event-driven"
+  ],
+  "interaction_modes": [
+    "action",
+    "trigger",
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking": "events",
+  "preview_url": "catalog/discord/hyp_media/SimonSaysBoard_1354675175769243730/p0_2025-03-27_00-21-03_1.mp4",
+  "download_path": "v2-hyp/SimonSaysBoard.hyp",
+  "created_at": "2025-03-27T04:35:30.551Z",
+  "props": {
+    "title": "Simon Says Board"
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\n// Configure the app with a title.\napp.configure([\n\t{\n\t\tkey: 'title',\n\t\ttype: 'text',\n\t\tlabel: 'UI Title',\n\t\tinitial: 'Simon Says Board'\n\t}\n]);\n\n// Define an array of cube names (all in all caps).\nconst cubeColors = [\"RED\", \"ORANGE\", \"YELLOW\", \"GREEN\", \"BLUE\", \"PURPLE\"];\n\n// Function to update cubes: hide all except the one matching the selected color.\nfunction updateCubesForColor(selectedColor) {\n\tselectedColor = selectedColor.toUpperCase();\n\tcubeColors.forEach(color => {\n\t\tconst cube = app.get(color);\n\t\tif (cube) {\n\t\t\tcube.active = (color === selectedColor);\n\t\t} else {\n\t\t\tconsole.log(\"Cube not found: \" + color);\n\t\t}\n\t});\n}\n\n// Function to reset cubes: show all cubes.\nfunction updateCubesReset() {\n\tcubeColors.forEach(color => {\n\t\tconst cube = app.get(color);\n\t\tif (cube) {\n\t\t\tcube.active = true;\n\t\t} else {\n\t\t\tconsole.log(\"Cube not found: \" + color);\n\t\t}\n\t});\n}\n\n// Listen for \"color-update\" events from the UI (works on both client and server).\napp.on('color-update', (data) => {\n\tif (data && data.color) {\n\t\tconsole.log(\"Detected color via event: \" + data.color.toUpperCase());\n\t\tupdateCubesForColor(data.color);\n\t} else {\n\t\tconsole.log(\"color-update event received without valid color data.\");\n\t}\n});\n\n// Listen for \"reset\" events from the UI.\napp.on('reset', (data) => {\n\t// When a RESET is detected, show all cubes.\n\tconsole.log(\"RESET detected via event.\");\n\tupdateCubesReset();\n});\n\n// Fallback: Override console.log to capture messages if events aren't processed.\n// This will parse local console messages such as \"COLOR = GREEN\" or \"RESET\".\nconst originalConsoleLog = console.log;\nconsole.log = function(...args) {\n\toriginalConsoleLog.apply(console, args);\n\tconst msg = args.join(\" \");\n\tif (msg.startsWith(\"COLOR =\")) {\n\t\t// Example: \"COLOR = GREEN\"\n\t\tconst parts = msg.split(\"COLOR =\");\n\t\tif (parts.length > 1) {\n\t\t\tconst colorStr = parts[1].trim();\n\t\t\tupdateCubesForColor(colorStr);\n\t\t\toriginalConsoleLog(\"Det",
+  "asset_files": [
+    "SimonSaysBoard.glb"
+  ]
+}

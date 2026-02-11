@@ -1,0 +1,41 @@
+{
+  "app_id": "eagles-v1-1356075244355457266",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:45:04+00:00",
+  "one_liner": "A configurable flock of soaring eagles with adjustable scale, speed, height, and optional wing sounds.",
+  "primary_use_case": "Adds ambient wildlife animation to worlds, allowing creators to customize eagle count, movement, and audio.",
+  "feature_tags": [
+    "visual",
+    "audio",
+    "configurable",
+    "animation",
+    "3d",
+    "ambient",
+    "birds",
+    "flight"
+  ],
+  "interaction_modes": [
+    "ui",
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "none",
+  "preview_recommendation": "Provide a short video or GIF showing the eagles in motion with sound enabled to illustrate the dynamic soaring and wing\u2011flap behavior.",
+  "manifest_quality_notes": [
+    "No preview media attached",
+    "Audio files exist but description mentions sounds stripped",
+    "Config UI includes many numeric ranges",
+    "Eagle count limited to a maximum of 6",
+    "Potential height/scale validation needed"
+  ],
+  "safety_or_runtime_flags": [
+    "no_media_found"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message:1356075244355457266",
+    "hyp_file:Eagles_v1.hyp",
+    "static_analysis_summary"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "app_id": "solar_panel_-_sundown-1356250138967932979",
+  "app_slug": "solar_panel_-_sundown",
+  "app_name": "Solar_Panel_-_sundown",
+  "source": {
+    "hyp_filename": "Solar_Panel_-_sundown.hyp",
+    "discord_attachment_id": "1356250138649034815",
+    "discord_message_id": "1356250138967932979",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-03-31T12:53:51.039Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1356250138649034815/Solar_Panel_-_sundown.hyp?ex=69795e1e&is=69780c9e&hm=b395b72d675b261549c5df577696a9091ef74dd732833220b99d8971457081bf&"
+  },
+  "author": {
+    "display_name": "ash",
+    "discord_user_id": "179546010303856640",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "you can use this to change the sky background and hdri, also sun intensity etc",
+    "raw_message_content": "you can use this to change the sky background and hdri, also sun intensity etc",
+    "summary_excerpt": "Solar Panel sundown.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": null,
+    "v2_json_path": null,
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Solar_Panel_-_sundown.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/Solar_Panel_-_sundown_1356250138967932979/m5_xyz-skelly-200.mp4",
+    "media_type": ".mp4",
+    "selection_reason": "any_author_fallback",
+    "is_fallback_any_author": true
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/Solar_Panel_-_sundown_1356250138967932979/m5_xyz-skelly-200.mp4",
+      "original_filename": "xyz-skelly-200.mp4",
+      "content_type": "video/mp4",
+      "relative_index": -5,
+      "same_author": true,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 29296679,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1356206564192817152"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [
+      "media_fallback_any_author"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

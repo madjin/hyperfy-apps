@@ -1,0 +1,36 @@
+{
+  "name": "Networked_Grabbable",
+  "author": "Saori",
+  "description": "Networked Grabbable.hyp",
+  "tags": [
+    "multiplayer",
+    "grab",
+    "interaction",
+    "state-sync",
+    "hand-attachment",
+    "animation"
+  ],
+  "interaction_modes": [
+    "action",
+    "trigger",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking": "shared_state",
+  "preview_url": null,
+  "download_path": "v2-hyp/Networked_Grabbable.hyp",
+  "created_at": "2025-03-12T03:25:45.227Z",
+  "props": {
+    "walkAim": {
+      "type": "emote",
+      "url": "assets/walkAim.glb"
+    }
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\nif (world.isClient) {\n  console.log(\"state\", app.state)\n  let holder = undefined\n  if (holder === undefined && app.state.owner !== undefined) {\n    holder = world.getPlayer(app.state.owner)\n  }\n  const { id: localId } = world.getPlayer()\n  const controls = app.control()\n  const action = app.create('action', {\n    label: 'Pick Up',\n    distance: 3,\n    onTrigger: ({ playerId }) => {\n      action.active = false;\n      app.send('taken', playerId)\n      holder = world.getPlayer(playerId)\n    }\n  });\n  if (holder !== undefined) action.active = false\n\n  app.on('taken', (playerId) => {\n    holder = world.getPlayer(playerId)\n    action.active = false\n  })\n\n  app.on('dropped', () => {\n    holder = undefined\n    action.active = true\n  })\n\n  controls.keyX.onRelease = () => {\n    if (holder === undefined) return\n    if (holder.id !== localId) return\n\n    app.send('dropped')\n\n    holder = undefined\n  }\n\n  app.add(action)\n\n  app.on('lateUpdate', () => {\n    if (holder === undefined) return\n\n    const matrix = holder.getBoneTransform('rightIndexProximal')\n    if (matrix) {\n      app.position.setFromMatrixPosition(matrix)\n      app.quaternion.setFromRotationMatrix(matrix)\n    }\n  })\n}\n\nif (world.isServer) {\n  const state = app.state\n  app.on('taken', (playerId) => {\n    state.owner = playerId\n    app.send('taken', playerId)\n  })\n  app.on('dropped', () => {\n    state.owner = undefined\n    app.send('dropped')\n  })\n}\n}\n",
+  "asset_files": [
+    "Networked Grabbable.glb",
+    "Networked Grabbable__image.png",
+    "walkAim.glb"
+  ]
+}

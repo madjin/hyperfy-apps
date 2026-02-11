@@ -1,0 +1,61 @@
+{
+  "app_id": "test_level-1355236430376341764",
+  "app_slug": "test_level",
+  "app_name": "test_level",
+  "source": {
+    "hyp_filename": "test_level.hyp",
+    "discord_attachment_id": "1355236429759905983",
+    "discord_message_id": "1355236430376341764",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-03-28T17:45:44.077Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1355236264848265346/1355236429759905983/test_level.hyp?ex=6979a287&is=69785107&hm=d320b9c2bfefd34a1e4cbc7d7db692e938eea995047112b444829466e96cb0f4&"
+  },
+  "author": {
+    "display_name": "Saori",
+    "discord_user_id": "1099579050378399806",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "test level.hyp",
+    "raw_message_content": "",
+    "summary_excerpt": "test level.hyp",
+    "source_priority_used": "summary_excerpt"
+  },
+  "links": {
+    "v2_app_dir": "v2/test_level",
+    "v2_json_path": "v2/test_level/test_level.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/test_level.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/test_level_1355236430376341764/m1_image.png",
+    "media_type": ".png",
+    "selection_reason": "same_author_nearby",
+    "is_fallback_any_author": false
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/test_level_1355236430376341764/m1_image.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": -1,
+      "same_author": true,
+      "selection_reason": "same_author_nearby",
+      "size_bytes": 225293,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1355236265124954277"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

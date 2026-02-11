@@ -1,0 +1,47 @@
+{
+  "app_id": "pvp-core-with-spawns-1355236590603075706",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:47:41+00:00",
+  "one_liner": "PvP core app that adds death emote, random spawn selection, heal\u2011over\u2011time and floating damage numbers for multiplayer combat.",
+  "primary_use_case": "Enhances PvP combat by showing death animations, spawning players at random locations, healing over time, and displaying damage numbers near players.",
+  "feature_tags": [
+    "death_emote",
+    "spawn_randomization",
+    "heal_over_time",
+    "damage_numbers",
+    "ui_overlay",
+    "multiplayer",
+    "server_logic",
+    "client_logic"
+  ],
+  "interaction_modes": [
+    "trigger",
+    "ui",
+    "passive",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "events",
+  "preview_recommendation": "Use the provided PNG preview (m2_image.png) as the primary visual; it clearly shows the app's UI overlay and is appropriate for the showcase channel.",
+  "manifest_quality_notes": [
+    "author confidence high",
+    "preview present and verified",
+    "no media review needed",
+    "script includes both server and client logic",
+    "props include emote file and spawn count",
+    "overall app size ~90KB"
+  ],
+  "safety_or_runtime_flags": [],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_user_id:1099579050378399806",
+    "discord_message_id:1355236590603075706",
+    "hyp_filename:PvP_Core_with_spawns.hyp",
+    "discord_attachment_id:1355236590091243800",
+    "preview_media_path:catalog/discord/hyp_media/PvP_Core_with_spawns_1355236590603075706/m2_image.png",
+    "author_display_name:Saori",
+    "discord_channel:#\ud83c\udfa8\u2502showcase",
+    "timestamp:2025-03-28T17:46:22.278Z"
+  ]
+}

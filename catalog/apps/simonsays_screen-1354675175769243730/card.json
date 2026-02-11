@@ -1,0 +1,67 @@
+{
+  "name": "SimonSays_Screen",
+  "author": "cru",
+  "description": "simple idea for a minigame I'm testing. Very work in progress \n\"Simon Says\" - it's not technically Simon Says, but a similar vibe. \n\nThe screen displays a color, and players must jump to the correct block in time. In the final game, if they fail to do this, they would fall into a pit and die. \n\nThe game would increase in difficulty by getting quicker, reducing the # of functioning colors in the arena, or shrinking the cube sizes. There's a whole bunch of variables that could be added. \n\nEventually when there's one player remaining, the game would end. \n\nNext steps would be to add audio feedback, physics, and integrate with an HP system, like the one <@357905702926286858> created. There are also some issues with the way the colors are sent over to the playing area. It just grabs it from the local console I think \n\nThis idea is inspired by a project <@783416470205497394>  is working on where various colored cubes are instanced.",
+  "tags": [
+    "ui",
+    "multiplayer",
+    "audio",
+    "color",
+    "minigame",
+    "configurable"
+  ],
+  "interaction_modes": [
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking": "events",
+  "preview_url": "catalog/discord/hyp_media/SimonSays_Screen_1354675175769243730/p0_2025-03-27_00-21-03_1.mp4",
+  "download_path": "v2-hyp/SimonSays_Screen.hyp",
+  "created_at": "2025-03-27T04:35:30.551Z",
+  "props": {
+    "volume": 0.5,
+    "title": "SIMONSAYS",
+    "track1Name": "A town with an Ocean View",
+    "track2Name": "A walk through the Forest",
+    "track3Name": "Wheat fields at night",
+    "track4Name": "...",
+    "track5Name": "...",
+    "defaultVolume": 1,
+    "isSpatial": true,
+    "jukeboxColor": "#ff9d00",
+    "track1": {
+      "type": "audio",
+      "url": "assets/track1.mp3"
+    },
+    "track2": {
+      "type": "audio",
+      "url": "assets/track2.mp3"
+    },
+    "track3": {
+      "type": "audio",
+      "url": "assets/track3.mp3"
+    },
+    "track4": {
+      "type": "audio",
+      "url": "assets/track4.mp3"
+    },
+    "track5": null,
+    "colorChannel": "SimonColor",
+    "resetChannel": "SimonReset",
+    "signalStrength": 1,
+    "threshold": 0.5,
+    "debug": "on",
+    "uiScale": 1.8,
+    "uiHeight": 18.7
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\n// NETWORKED SIMON SAYS UI\n// Game logic runs on server, UI updates on clients\n// Now with scalable UI size\n\napp.configure([\n  {\n    key: 'title',\n    type: 'text',\n    label: 'UI Title',\n    initial: 'Simon Says UI'\n  },\n  {\n    key: 'colorChannel',\n    type: 'text',\n    label: 'Color Output Channel',\n    initial: 'SimonColor'\n  },\n  {\n    key: 'resetChannel',\n    type: 'text',\n    label: 'Reset Output Channel',\n    initial: 'SimonReset'\n  },\n  {\n    key: 'signalStrength',\n    type: 'number',\n    label: 'Signal Amplitude',\n    initial: 1,\n    min: 0,\n    max: 10,\n    step: 0.1\n  },\n  {\n    key: 'uiScale',\n    type: 'range',\n    label: 'UI Size Scale',\n    initial: 1,\n    min: 0.5,\n    max: 30,\n    step: 0.1\n  },\n  {\n    key: 'uiHeight',\n    type: 'range',\n    label: 'UI Height Position',\n    initial: 3,\n    min: 1,\n    max: 30,\n    step: 0.1\n  }\n]);\n\n// --- Get configuration ---\nconst colorChannel = props.colorChannel || 'SimonColor';\nconst resetChannel = props.resetChannel || 'SimonReset';\nconst signalStrength = props.signalStrength || 1;\nconst uiScale = props.uiScale || 1;\nconst uiHeight = props.uiHeight || 3;\n\n// --- Helper: Custom pseudo\u2011random generator (a simple LCG) ---\nlet seed = 1;\nfunction pseudoRandom() {\n  seed = (seed * 9301 + 49297) % 233280;\n  return seed / 233280;\n}\n\n// --- Predefined Colors (6 each) ---\nconst textColorOptions = [\n  { name: \"RED\", color: \"#FF0000\", signalValue: 1 },\n  { name: \"ORANGE\", color: \"#FF7F00\", signalValue: 2 },\n  { name: \"YELLOW\", color: \"#FFFF00\", signalValue: 3 },\n  { name: \"GREEN\", color: \"#00FF00\", signalValue: 4 },\n  { name: \"BLUE\", color: \"#0000FF\", signalValue: 5 },\n  { name: \"PURPLE\", color: \"#800080\", signalValue: 6 }\n];\n\nconst bgColorOptions = [\n  { name: \"RED\", backgroundColor: \"#FF3333\", signalValue: 1 },\n  { name: \"ORANGE\", backgroundColor: \"#FF9933\", signalValue: 2 },\n  { name: \"YELLOW\", backgroundColor: \"#FFFF33\", signalValue: 3 },\n  { name",
+  "asset_files": [
+    "SimonSays_Screen.glb",
+    "track1.mp3",
+    "track2.mp3",
+    "track3.mp3",
+    "track4.mp3"
+  ]
+}

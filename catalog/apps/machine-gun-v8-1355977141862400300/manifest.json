@@ -1,0 +1,74 @@
+{
+  "app_id": "machine-gun-v8-1355977141862400300",
+  "app_slug": "machine-gun-v8",
+  "app_name": "Machine_Gun_v8",
+  "source": {
+    "hyp_filename": "Machine_Gun_v8.hyp",
+    "discord_attachment_id": "1355977141468139540",
+    "discord_message_id": "1355977141862400300",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-03-30T18:49:03.457Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1355236264848265346/1355977141468139540/Machine_Gun_v8.hyp?ex=6979089f&is=6977b71f&hm=627ba6799ecdb69cdde10b3316fbdc02306e46ecf1bca03a25d3ac3411c4a079&"
+  },
+  "author": {
+    "display_name": "Saori",
+    "discord_user_id": "1099579050378399806",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "Machine Gun v8.hyp",
+    "raw_message_content": "",
+    "summary_excerpt": "Machine Gun v8.hyp",
+    "source_priority_used": "summary_excerpt"
+  },
+  "links": {
+    "v2_app_dir": "v2/machine-gun-v8",
+    "v2_json_path": "v2/machine-gun-v8/machine-gun-v8.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Machine_Gun_v8.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/Machine_Gun_v8_1355977141862400300/p1_arena_test.mp4",
+    "media_type": ".mp4",
+    "selection_reason": "same_author_nearby",
+    "is_fallback_any_author": false
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/Machine_Gun_v8_1355977141862400300/m2_2025-03-30_13-41-09.mp4",
+      "original_filename": "2025-03-30_13-41-09.mp4",
+      "content_type": "video/mp4",
+      "relative_index": -2,
+      "same_author": true,
+      "selection_reason": "same_author_nearby",
+      "size_bytes": 11057708,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1355976854565163209"
+    },
+    {
+      "catalog_path": "catalog/discord/hyp_media/Machine_Gun_v8_1355977141862400300/p1_arena_test.mp4",
+      "original_filename": "arena_test.mp4",
+      "content_type": "video/mp4",
+      "relative_index": 1,
+      "same_author": true,
+      "selection_reason": "same_author_nearby",
+      "size_bytes": 29213290,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1355979564563562736"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

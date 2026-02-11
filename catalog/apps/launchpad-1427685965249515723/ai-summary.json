@@ -1,0 +1,45 @@
+{
+  "app_id": "launchpad-1427685965249515723",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:46:19+00:00",
+  "one_liner": "Launchpad is a client\u2011side app that pushes any player upward by 10 units when they step onto the pad, acting like a trampoline.",
+  "primary_use_case": "Enables simple vertical boost mechanics for players in Hyperfy worlds, useful for platforming, jump puzzles, or fun interactive elements.",
+  "feature_tags": [
+    "player boost",
+    "trampoline",
+    "trigger",
+    "client-side",
+    "scripted",
+    "interactive",
+    "physics",
+    "simple"
+  ],
+  "interaction_modes": [
+    "trigger",
+    "action"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none",
+  "preview_recommendation": "Since no preview media is available, add a short GIF or screenshot showing the player being launched to improve discoverability.",
+  "manifest_quality_notes": [
+    "No preview media attached",
+    "Author identified with high confidence",
+    "Description is vague but functional",
+    "Model and script are present and small",
+    "No UI or configurable props"
+  ],
+  "safety_or_runtime_flags": [
+    "no_media_found",
+    "client-only",
+    "no_network"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message",
+    "hyp_file",
+    "static_analysis",
+    "author_discord",
+    "app_id"
+  ]
+}

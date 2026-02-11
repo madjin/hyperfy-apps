@@ -1,0 +1,87 @@
+{
+  "app_id": "framed-image-v1.0-1434190157220806658",
+  "app_slug": "framed-image-v1.0",
+  "app_name": "Framed_Image_v1.0",
+  "source": {
+    "hyp_filename": "Framed_Image_v1.0.hyp",
+    "discord_attachment_id": "1434190156939923516",
+    "discord_message_id": "1434190157220806658",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-11-01T14:39:39.446Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1346623562462527649/1434190156939923516/Framed_Image_v1.0.hyp?ex=697976eb&is=6978256b&hm=db35ae4c066f72ed83ab4ed4e83b38e2f77346b6b4b8cd4d0806aa00921141ad&"
+  },
+  "author": {
+    "display_name": "Valiant",
+    "discord_user_id": "540822785371668480",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "Framed Image. Using primitives for frame and a bunch of options for jazzing things up. non square images require manual width input.",
+    "raw_message_content": "Framed Image. Using primitives for frame and a bunch of options for jazzing things up. non square images require manual width input.",
+    "summary_excerpt": "Framed Image v1.0.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/framed-image-v1.0",
+    "v2_json_path": "v2/framed-image-v1.0/framed-image-v1.0.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Framed_Image_v1.0.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/Framed_Image_v1.0_1434190157220806658/p0_FramedImage.jpg",
+    "media_type": ".jpg",
+    "selection_reason": "same_message",
+    "is_fallback_any_author": false
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/Framed_Image_v1.0_1434190157220806658/p0_FramedImage.jpg",
+      "original_filename": "FramedImage.jpg",
+      "content_type": "image/jpeg",
+      "relative_index": 0,
+      "same_author": true,
+      "selection_reason": "same_message",
+      "size_bytes": 44469,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1434190156625346701"
+    },
+    {
+      "catalog_path": "catalog/discord/hyp_media/Framed_Image_v1.0_1434190157220806658/p2_image.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": 2,
+      "same_author": true,
+      "selection_reason": "same_author_nearby",
+      "size_bytes": 118858,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1434229079749689416"
+    },
+    {
+      "catalog_path": "catalog/discord/hyp_media/Framed_Image_v1.0_1434190157220806658/p2_image_1434229080131113070.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": 2,
+      "same_author": true,
+      "selection_reason": "same_author_nearby",
+      "size_bytes": 250454,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1434229080131113070"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

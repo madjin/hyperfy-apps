@@ -1,0 +1,49 @@
+{
+  "app_id": "sit-1351223744022183987",
+  "app_slug": "sit",
+  "app_name": "sit",
+  "source": {
+    "hyp_filename": "sit.hyp",
+    "discord_attachment_id": "1351223743548231872",
+    "discord_message_id": "1351223744022183987",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-03-17T16:00:45.098Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1346623562462527649/1351223743548231872/sit.hyp?ex=697989ec&is=6978386c&hm=f5036e69d8a73ad5ccdf05b84c6f4fefa958e46ca76aca16e7bcb19c281625ce&"
+  },
+  "author": {
+    "display_name": "Wilson",
+    "discord_user_id": "647884375526080518",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "This is a Seat, v1 inspired.",
+    "raw_message_content": "This is a Seat, v1 inspired.",
+    "summary_excerpt": "sit.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": null,
+    "v2_json_path": null,
+    "hyp_summary_path": "catalog/discord/hyp_summaries/sit.md"
+  },
+  "preview": {
+    "primary_media_path": null,
+    "media_type": null,
+    "selection_reason": null,
+    "is_fallback_any_author": false
+  },
+  "media": [],
+  "status": {
+    "has_preview": false,
+    "needs_media_review": true,
+    "needs_author_review": false,
+    "flags": [
+      "no_media_found"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

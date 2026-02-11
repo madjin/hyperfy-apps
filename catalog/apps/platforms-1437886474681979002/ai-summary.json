@@ -1,0 +1,44 @@
+{
+  "app_id": "platforms-1437886474681979002",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:47:35+00:00",
+  "one_liner": "A platformer template with configurable platform types, falling physics, and trigger visibility.",
+  "primary_use_case": "Create interactive platform sections in Hyperfy worlds, allowing designers to switch between static and falling platforms with customizable behavior.",
+  "feature_tags": [
+    "platform",
+    "falling",
+    "trigger",
+    "configurable",
+    "ui",
+    "physics",
+    "template",
+    "demo"
+  ],
+  "interaction_modes": [
+    "action",
+    "trigger",
+    "ui"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "local",
+  "preview_recommendation": "Use the fallback PNG preview (m2_image.png) as primary visual; consider adding a short GIF of the falling platform for better representation.",
+  "manifest_quality_notes": [
+    "Fallback media used due to missing author-specific preview",
+    "Props panel fully configured",
+    "Script uses timers and trigger events",
+    "Model URL not directly provided in manifest",
+    "No explicit networking",
+    "Confidence high based on Discord evidence"
+  ],
+  "safety_or_runtime_flags": [
+    "media_fallback_any_author"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message:1437886474681979002",
+    "discord_attachment:1437886474300166304",
+    "author_discord_user_id:297290503181959169",
+    "author_display_name:.hyp shaman"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "app_id": "grid-floor-v2-1380533380520738816",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:45:59+00:00",
+  "one_liner": "Grid Floor v2 places a Kenney prototype textured floor model slightly above ground (y=0.03) for world building.",
+  "primary_use_case": "Provides a ready-to-use ground plane for virtual worlds, useful for building arenas, levels, or any floor surface.",
+  "feature_tags": [
+    "grid",
+    "floor",
+    "kenney",
+    "texture",
+    "model",
+    "prototype",
+    "position",
+    "lightweight"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none",
+  "preview_recommendation": "Add a rendered image or short video of the floor model, and include a thumbnail to improve discoverability in the showcase.",
+  "manifest_quality_notes": [
+    "No preview media attached",
+    "Description limited to filename",
+    "Author confidence high from Discord",
+    "Model and texture URLs internal",
+    "Script minimal"
+  ],
+  "safety_or_runtime_flags": [],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message_1380533380520738816",
+    "discord_attachment_1380533380067889284",
+    "v2_json_blueprint",
+    "static_analysis_summary",
+    "hyp_file_metadata"
+  ]
+}

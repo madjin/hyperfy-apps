@@ -1,0 +1,61 @@
+{
+  "app_id": "bats-v1-1354922630544621629",
+  "app_slug": "bats-v1",
+  "app_name": "Bats_v1",
+  "source": {
+    "hyp_filename": "Bats_v1.hyp",
+    "discord_attachment_id": "1354922630251155477",
+    "discord_message_id": "1354922630544621629",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-03-27T20:58:48.367Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1354922630251155477/Bats_v1.hyp?ex=69792708&is=6977d588&hm=f80f1a296f63d0393cd4ff32c9d13f6808bf253ced5d07990e531f02bd1d2675&"
+  },
+  "author": {
+    "display_name": "Valiant",
+    "discord_user_id": "540822785371668480",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "Bats v1.hyp",
+    "raw_message_content": "",
+    "summary_excerpt": "Bats v1.hyp",
+    "source_priority_used": "summary_excerpt"
+  },
+  "links": {
+    "v2_app_dir": "v2/bats-v1",
+    "v2_json_path": "v2/bats-v1/bats-v1.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Bats_v1.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/Bats_v1_1354922630544621629/m2_image.png",
+    "media_type": ".png",
+    "selection_reason": "same_author_nearby",
+    "is_fallback_any_author": false
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/Bats_v1_1354922630544621629/m2_image.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": -2,
+      "same_author": true,
+      "selection_reason": "same_author_nearby",
+      "size_bytes": 364293,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1354922093019533463"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

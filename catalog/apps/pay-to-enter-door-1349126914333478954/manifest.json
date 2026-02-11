@@ -1,0 +1,49 @@
+{
+  "app_id": "pay-to-enter-door-1349126914333478954",
+  "app_slug": "pay-to-enter-door",
+  "app_name": "PAY_TO_ENTER_DOOR",
+  "source": {
+    "hyp_filename": "PAY_TO_ENTER_DOOR.hyp",
+    "discord_attachment_id": "1349126913909588099",
+    "discord_message_id": "1349126914333478954",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-03-11T21:08:41.943Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1346623562462527649/1349126913909588099/PAY_TO_ENTER_DOOR.hyp?ex=69792959&is=6977d7d9&hm=5c26bf6b9896971399b3fe53b2e96bffc4a944a19b9364f9dc6dfcf43097826f&"
+  },
+  "author": {
+    "display_name": "peezy",
+    "discord_user_id": "169825031314997249",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "REQUIRES SOLANA MOD <@783416470205497394>",
+    "raw_message_content": "REQUIRES SOLANA MOD <@783416470205497394>",
+    "summary_excerpt": "PAY TO ENTER DOOR.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/pay-to-enter-door",
+    "v2_json_path": "v2/pay-to-enter-door/pay-to-enter-door.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/PAY_TO_ENTER_DOOR.md"
+  },
+  "preview": {
+    "primary_media_path": null,
+    "media_type": null,
+    "selection_reason": null,
+    "is_fallback_any_author": false
+  },
+  "media": [],
+  "status": {
+    "has_preview": false,
+    "needs_media_review": true,
+    "needs_author_review": false,
+    "flags": [
+      "no_media_found"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

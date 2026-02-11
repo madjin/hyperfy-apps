@@ -1,0 +1,44 @@
+{
+  "app_id": "hyperportal-with-set-manual-1352439458317865070",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:46:10+00:00",
+  "one_liner": "A teleportation portal that lets admins set a target position either automatically from the player\u2019s location or manually via UI coordinates.",
+  "primary_use_case": "Teleport players to a predefined location using a portal, with admin\u2011controlled position setting.",
+  "feature_tags": [
+    "teleport",
+    "portal",
+    "position",
+    "UI switch",
+    "admin control",
+    "server-client sync",
+    "configurable",
+    "networked"
+  ],
+  "interaction_modes": [
+    "ui",
+    "trigger",
+    "action",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "events",
+  "preview_recommendation": "Use the primary PNG preview (p1_image.png) as the thumbnail; it is a fallback\u2011author image but clearly shows the portal UI and is suitable for display.",
+  "manifest_quality_notes": [
+    "preview is a fallback author image",
+    "short description matches app functionality",
+    "script includes both server and client logic",
+    "position stored in world state for persistence",
+    "no large\u2011media issues"
+  ],
+  "safety_or_runtime_flags": [
+    "media_fallback_any_author"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "https://cdn.discordapp.com/attachments/1346623562462527649/1352439457847967874/HyperPortal_with_Set_Manual.hyp",
+    "discord_message_id:1352439458317865070",
+    "discord_channel:#\ud83c\udfa8\u2502showcase",
+    "author:0mka (discord_user_id:783416470205497394)"
+  ]
+}

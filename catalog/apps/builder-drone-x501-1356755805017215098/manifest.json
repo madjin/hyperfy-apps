@@ -1,0 +1,49 @@
+{
+  "app_id": "builder-drone-x501-1356755805017215098",
+  "app_slug": "builder-drone-x501",
+  "app_name": "Builder_Drone_X501",
+  "source": {
+    "hyp_filename": "Builder_Drone_X501.hyp",
+    "discord_attachment_id": "1356755804694515833",
+    "discord_message_id": "1356755805017215098",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-04-01T22:23:11.220Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1346623562462527649/1356755804694515833/Builder_Drone_X501.hyp?ex=69793acf&is=6977e94f&hm=0254255e4ad3d0381956ca881e0c8be454b99a74722064a7ca1bf618fde879f1&"
+  },
+  "author": {
+    "display_name": "ash",
+    "discord_user_id": "179546010303856640",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "fixed an issue where if you refresh while flying the drone it doesn't release it",
+    "raw_message_content": "fixed an issue where if you refresh while flying the drone it doesn't release it",
+    "summary_excerpt": "Builder Drone X501.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/builder-drone-x501",
+    "v2_json_path": "v2/builder-drone-x501/builder-drone-x501.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Builder_Drone_X501.md"
+  },
+  "preview": {
+    "primary_media_path": null,
+    "media_type": null,
+    "selection_reason": null,
+    "is_fallback_any_author": false
+  },
+  "media": [],
+  "status": {
+    "has_preview": false,
+    "needs_media_review": true,
+    "needs_author_review": false,
+    "flags": [
+      "no_media_found"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

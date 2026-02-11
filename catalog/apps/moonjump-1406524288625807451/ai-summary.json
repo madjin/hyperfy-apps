@@ -1,0 +1,44 @@
+{
+  "app_id": "moonjump-1406524288625807451",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:47:03+00:00",
+  "one_liner": "MoonJump adds automatic double\u2011jump mechanics to players, applying an upward boost when airborne.",
+  "primary_use_case": "Enable double\u2011jump ability for players in Hyperfy worlds.",
+  "feature_tags": [
+    "double-jump",
+    "auto-boost",
+    "player-physics",
+    "collision",
+    "scripted",
+    "model",
+    "event-driven",
+    "networked"
+  ],
+  "interaction_modes": [
+    "action",
+    "trigger",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "none",
+  "preview_recommendation": "Use the provided PNG preview as a visual reference; consider adding a model snapshot or animated GIF for clearer representation of the double\u2011jump effect.",
+  "manifest_quality_notes": [
+    "Clear script logic",
+    "Fallback preview used",
+    "No author\u2011specific media",
+    "Model URL not directly provided",
+    "Potential missing UI config",
+    "Low asset size"
+  ],
+  "safety_or_runtime_flags": [
+    "media_fallback_any_author"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message:1406524288625807451",
+    "hyp_file:MoonJump.hyp",
+    "author_discord:783416470205497394",
+    "media_image:1406557434243190814"
+  ]
+}

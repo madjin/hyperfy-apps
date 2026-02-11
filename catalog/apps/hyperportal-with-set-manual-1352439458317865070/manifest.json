@@ -1,0 +1,76 @@
+{
+  "app_id": "hyperportal-with-set-manual-1352439458317865070",
+  "app_slug": "hyperportal-with-set-manual",
+  "app_name": "HyperPortal_with_Set_Manual",
+  "source": {
+    "hyp_filename": "HyperPortal_with_Set_Manual.hyp",
+    "discord_attachment_id": "1352439457847967874",
+    "discord_message_id": "1352439458317865070",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-03-21T00:31:33.973Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1346623562462527649/1352439457847967874/HyperPortal_with_Set_Manual.hyp?ex=697958e5&is=69780765&hm=2d7e17156a89daa00a095fd552754fd981ba74c99ad4f2d8b11938cdf233a16c&"
+  },
+  "author": {
+    "display_name": "0mka",
+    "discord_user_id": "783416470205497394",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "Added a switch to enter manual or set",
+    "raw_message_content": "Added a switch to enter manual or set",
+    "summary_excerpt": "HyperPortal with Set Manual.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/hyperportal-with-set-manual",
+    "v2_json_path": "v2/hyperportal-with-set-manual/hyperportal-with-set-manual.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/HyperPortal_with_Set_Manual.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/HyperPortal_with_Set_Manual_1352439458317865070/p1_image.png",
+    "media_type": ".png",
+    "selection_reason": "any_author_fallback",
+    "is_fallback_any_author": true
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/HyperPortal_with_Set_Manual_1352439458317865070/p1_image.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": 1,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 673447,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1352508973491818577"
+    },
+    {
+      "catalog_path": "catalog/discord/hyp_media/HyperPortal_with_Set_Manual_1352439458317865070/p8_matt-marshall-sideview-1.png",
+      "original_filename": "matt-marshall-sideview-1.png",
+      "content_type": "image/png",
+      "relative_index": 8,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 543008,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1352593106079449088"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [
+      "media_fallback_any_author"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

@@ -1,0 +1,23 @@
+{
+  "name": "The_Grid",
+  "author": "ash",
+  "description": "here's 3 scenes to try out",
+  "tags": [
+    "environment",
+    "sun",
+    "fog",
+    "texture",
+    "hdr",
+    "rotation"
+  ],
+  "interaction_modes": [
+    "ui",
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking": "none",
+  "preview_url": "catalog/discord/hyp_media/The_Grid_1415309781345894431/m4_image.png",
+  "download_path": "v2-hyp/The_Grid.hyp",
+  "created_at": "2025-09-10T12:15:47.057Z"
+}

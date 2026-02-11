@@ -1,0 +1,42 @@
+{
+  "app_id": "amanita-1357382776709582919",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:44:07+00:00",
+  "one_liner": "Amanita creates a mushroom-themed grass particle system with configurable clone count, area size, and scale.",
+  "primary_use_case": "Generate dense mushroom or grass clusters in a defined area for world decoration.",
+  "feature_tags": [
+    "grass",
+    "mushrooms",
+    "particle-system",
+    "cloning",
+    "random-placement",
+    "configurable",
+    "3d-model",
+    "visual"
+  ],
+  "interaction_modes": [
+    "ui",
+    "action"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "none",
+  "preview_recommendation": "Use the primary preview image (catalog/discord/hyp_media/Amanita_1357382776709582919/m2_image.png) as it is the best available visual, though it is a fallback author image.",
+  "manifest_quality_notes": [
+    "Author confidence high",
+    "Preview image is a fallback author image",
+    "Configurable UI defaults are sensible",
+    "Script uses random utilities for placement",
+    "Model path is assets/amanita.glb",
+    "No networking features present"
+  ],
+  "safety_or_runtime_flags": [
+    "media_fallback_any_author"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message_1357382776709582919",
+    "hyp_file_Amanita.hyp",
+    "static_analysis"
+  ]
+}

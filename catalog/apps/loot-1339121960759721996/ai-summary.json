@@ -1,0 +1,44 @@
+{
+  "app_id": "loot-1339121960759721996",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:46:29+00:00",
+  "one_liner": "Space trading simulation loot pack with rotating collectible model.",
+  "primary_use_case": "Collectible loot item in a space trading simulation that provides a loot value when collected.",
+  "feature_tags": [
+    "collectible",
+    "loot",
+    "rotation",
+    "space",
+    "trading",
+    "simulation",
+    "configurable",
+    "GLB"
+  ],
+  "interaction_modes": [
+    "action",
+    "trigger",
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "events",
+  "preview_recommendation": "Use the primary PNG preview (p0_vt01.png) as the thumbnail; it clearly shows the rotating loot model and fits platform dimensions.",
+  "manifest_quality_notes": [
+    "Blueprint version not explicitly listed",
+    "Video asset size large but not required for preview",
+    "No explicit safety flags detected",
+    "Author confidence high from discord",
+    "All assets successfully downloaded",
+    "Script uses standard Hyperfy API"
+  ],
+  "safety_or_runtime_flags": [],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message",
+    "hyp_file",
+    "static_analysis",
+    "media_download",
+    "author_discord_id"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "QuestItemUI",
+  "author": "0mka",
+  "description": "Here ya go <@722481129449586739> \n\nQuestItems with QuestItemUI with some basic configures.  \n\n- Match the emit signals.  \n- Can turn on and off persistant storage, if you want the count to carry over on world visits. Click Reset Count to clear storage key\n-  Can just change the model in quest item and should work. \n-  Can turn on and off rotation and bobbing and change speed and height.\n- Can click 'Reset Meshes' to bring back into world\n-  Can check pixabay to find a different collection sound or just delete it if you don't want sound\n\n-  Can rename Quest UI, switch for positioning on screen.  And scale the ui.  Change border width/color.  And text size/spacing.\n- Can set ui to appear for a moment then go away until another collect, or always be on screen. \n- You can use the emit signal from the quest item to trigger anything in another hyp with world.on and the emit signal. \n\n\nThis  should get you going.",
+  "tags": [
+    "ui",
+    "counter",
+    "persistent storage",
+    "customizable",
+    "event-driven",
+    "positioning"
+  ],
+  "interaction_modes": [
+    "ui",
+    "trigger",
+    "action"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking": "events",
+  "preview_url": null,
+  "download_path": "v2-hyp/QuestItemUI.hyp",
+  "created_at": "2025-07-20T07:26:56.291Z",
+  "props": {
+    "collision": true,
+    "position": "top-center",
+    "borderWeight": "medium",
+    "borderColor": "gold",
+    "uiScale": 0.8,
+    "collectionText": "Quest Item",
+    "eventName": "itemCollected",
+    "displayMode": "always",
+    "enableStorage": true,
+    "storageKey": "itemsCollected",
+    "messageFontSize": 25,
+    "counterFontSize": 16,
+    "textSpacing": 7
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\napp.configure([    \n  // === POSITION SETTINGS ===    \n  {    \n    type: 'section',    \n    label: 'Position Settings'    \n  },    \n  {    \n    key: 'position',    \n    type: 'switch',    \n    label: 'UI Position',    \n    options: [    \n      { label: 'Top Center', value: 'top-center' },    \n      { label: 'Top Right', value: 'top-right' },    \n      { label: 'Bottom Right Center', value: 'bottom-right-center' },    \n      { label: 'Bottom Right', value: 'bottom-right' }    \n    ],    \n    initial: 'top-right',    \n    hint: 'Choose where the collection notification appears on screen'    \n  },    \n      \n  // === DISPLAY SETTINGS ===    \n  {    \n    type: 'section',    \n    label: 'Display Settings'    \n  },    \n  {    \n    key: 'displayMode',    \n    type: 'switch',    \n    label: 'Display Mode',    \n    options: [    \n      { label: 'Always Show', value: 'always' },    \n      { label: 'Show on Collect', value: 'timeout' }    \n    ],    \n    initial: 'timeout',    \n    hint: 'Choose whether UI is always visible or only shows when collecting items'    \n  },    \n      \n  // === STORAGE SETTINGS ===    \n  {    \n    type: 'section',    \n    label: 'Storage Settings'    \n  },    \n  {    \n    key: 'enableStorage',    \n    type: 'toggle',    \n    label: 'Enable Persistent Storage',    \n    initial: true,    \n    hint: 'Save collection progress across sessions using server storage'    \n  },    \n  {    \n    key: 'storageKey',    \n    type: 'text',    \n    label: 'Storage Key Prefix',    \n    initial: 'itemsCollected',    \n    hint: 'Prefix for storage keys (will be combined with player ID)'    \n  },  \n  {  \n    type: 'button',  \n    key: 'resetButton',  \n    label: 'Reset Counter',  \n    hint: 'Reset collected items count to 0',  \n    onClick: () => {  \n      resetItemCount()  \n    }  \n  },  \n      \n  // === STYLING SETTINGS ===    \n  {    \n    type: 'section',    \n    label: 'Styling Settings'    \n  },  ",
+  "asset_files": [
+    "QuestItemUI.glb",
+    "QuestItemUI__image.webp"
+  ]
+}

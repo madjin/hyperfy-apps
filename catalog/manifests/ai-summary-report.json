@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-02-11T02:43:30+00:00",
+  "model": "moonshotai/kimi-k2.5",
+  "dry_run": true,
+  "duration_seconds": 0.0,
+  "counts": {
+    "ok": 0,
+    "skipped_existing": 0,
+    "dry_run": 3,
+    "failed": 0
+  },
+  "results": [
+    {
+      "app_id": "alien_planet-1415309781345894431",
+      "status": "dry_run",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/alien_planet-1415309781345894431/ai-summary.json",
+      "has_hyp_entry": true,
+      "has_hyp_summary": true
+    },
+    {
+      "app_id": "360-video-viewer-1360629006327873747",
+      "status": "dry_run",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/360-video-viewer-1360629006327873747/ai-summary.json",
+      "has_hyp_entry": true,
+      "has_hyp_summary": true
+    },
+    {
+      "app_id": "360player_mono-1361648804113285242",
+      "status": "dry_run",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/360player_mono-1361648804113285242/ai-summary.json",
+      "has_hyp_entry": true,
+      "has_hyp_summary": true
+    }
+  ]
+}

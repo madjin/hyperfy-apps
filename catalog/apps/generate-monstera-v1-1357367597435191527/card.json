@@ -1,0 +1,30 @@
+{
+  "name": "generate_monstera_V1",
+  "author": "Agent12",
+  "description": "<@601886221072990251> Have you seen this .hyp? \n\ni'm mostly an AI dev as well (and a poor one at that xD) \n\nBut maybe this working App that does something similar could help you come up with a different path to the same end-goal? \n\nI'm sure some other dev will also pop in at some point and guide you as well!",
+  "tags": [
+    "procedural generation",
+    "randomization",
+    "cloning",
+    "3d-model",
+    "client-side",
+    "visual effect"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking": "none",
+  "preview_url": null,
+  "download_path": "v2-hyp/generate_monstera_V1.hyp",
+  "created_at": "2025-04-03T14:54:13.899Z",
+  "props": {
+    "clone_count": 10
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\n// Ensure the script only runs on the client side\nif (!world.isClient) return;\n\n// Get the original cube GLB from the scene\nconst cube = app.get('monstera');\nif (!cube) {\n  console.error('Could not find Cube');\n  return;\n}\n\n// Generate a random clone count between 3 and 30 (inclusive)\n// Using Math.floor on num(3, 31) guarantees an integer between 3 and 30\nconst CLONE_COUNT = Math.floor(num(3, 31));\n\nconsole.log(`Random clone count selected: ${CLONE_COUNT}`);\n\n// Variables for managing cumulative vertical spacing\nlet cumulativeSpacing = 0;\n\n// Define the min and max values for random spacing (in world units)\nconst MIN_SPACING = 0.01;\nconst MAX_SPACING = 0.5;\n\n// Define the min and max values for random rotation (in degrees)\nconst MIN_ROTATION = 0;\nconst MAX_ROTATION = 360;\n\n// Define max and min scale values for the clones\nconst MAX_SCALE = 3;  // Largest scale for the bottom clone\nconst MIN_SCALE = 0.5;  // Smallest scale for the top clone\n\n// Clone and position the cubes based on the random clone count\nfor (let i = 1; i <= CLONE_COUNT; i++) {\n  // Clone the original cube (deep cloning enabled)\n  const clone = cube.clone(true);\n  \n  // Generate a random spacing value using the global num method\n  const randomSpacing = num(MIN_SPACING, MAX_SPACING);\n  cumulativeSpacing += randomSpacing;\n  \n  // Position the clone upward using the cumulative random spacing\n  clone.position.y = cube.position.y + cumulativeSpacing;\n  \n  // Generate a random rotation angle (in degrees) using the global num method\n  const randomRotation = num(MIN_ROTATION, MAX_ROTATION);\n  // Set the clone's y-axis rotation (convert degrees to radians)\n  clone.rotation.y = randomRotation * (Math.PI / 180);\n  \n  // Calculate a scale factor for this clone so that the bottom clone is the largest\n  // and the top clone is the smallest. We linearly interpolate between MAX_SCALE and MIN_SCALE.\n  let scaleFactor;\n  if (CLONE_COUNT > 1) {\n    s",
+  "asset_files": [
+    "generate monstera V1.glb",
+    "generate monstera V1__image.png"
+  ]
+}

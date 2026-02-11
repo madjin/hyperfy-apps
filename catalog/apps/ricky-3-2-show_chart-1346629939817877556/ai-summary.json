@@ -1,0 +1,48 @@
+{
+  "app_id": "ricky-3-2-show_chart-1346629939817877556",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:48:03+00:00",
+  "one_liner": "Configurable chart display with a refresh button in a VR world, allowing users to view and update a remote chart image.",
+  "primary_use_case": "Show a live-updating chart image in\u2011world with user\u2011triggered refresh via the E key.",
+  "feature_tags": [
+    "chart",
+    "refresh",
+    "ui",
+    "configurable",
+    "image",
+    "interactive",
+    "billboard",
+    "glb"
+  ],
+  "interaction_modes": [
+    "action",
+    "ui",
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "none",
+  "preview_recommendation": "Add a thumbnail or short video showing the chart UI and refresh interaction to improve discoverability.",
+  "manifest_quality_notes": [
+    "no media attached",
+    "configurable chart URL",
+    "refresh button with cooldown",
+    "uses update loop for timing",
+    "model size ~58KB",
+    "script size ~4KB"
+  ],
+  "safety_or_runtime_flags": [
+    "no_media_found"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_user_id:783416470205497394",
+    "discord_message_id:1346629939817877556",
+    "discord_attachment_id:1346629936999436369",
+    "static_analysis_summary",
+    "app_blueprint",
+    "app_script",
+    "app_model",
+    "app_props"
+  ]
+}

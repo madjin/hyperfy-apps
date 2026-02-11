@@ -1,0 +1,89 @@
+{
+  "app_id": "wolf-maro-1356607622211440731",
+  "app_slug": "wolf-maro",
+  "app_name": "Wolf_Maro",
+  "source": {
+    "hyp_filename": "Wolf_Maro.hyp",
+    "discord_attachment_id": "1356607621783617706",
+    "discord_message_id": "1356607622211440731",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-04-01T12:34:21.686Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1356607621783617706/Wolf_Maro.hyp?ex=6979598d&is=6978080d&hm=ba5cbb4853fa65f0d90b54d1aba8f994231700ff4f5811ab3263648afa7211bf&"
+  },
+  "author": {
+    "display_name": "ash",
+    "discord_user_id": "179546010303856640",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "For those wanting to try skinned meshes on latest dev branch here's a quick app i whipped up that showcases animations:",
+    "raw_message_content": "For those wanting to try skinned meshes on latest dev branch here's a quick app i whipped up that showcases animations:",
+    "summary_excerpt": "Wolf Maro.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/wolf-maro",
+    "v2_json_path": "v2/wolf-maro/wolf-maro.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Wolf_Maro.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/Wolf_Maro_1356607622211440731/p4_image.png",
+    "media_type": ".png",
+    "selection_reason": "any_author_fallback",
+    "is_fallback_any_author": true
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/Wolf_Maro_1356607622211440731/m6_image.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": -6,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 28417,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1356606660856119438"
+    },
+    {
+      "catalog_path": "catalog/discord/hyp_media/Wolf_Maro_1356607622211440731/m5_image.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": -5,
+      "same_author": true,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 12285,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1356606976498602175"
+    },
+    {
+      "catalog_path": "catalog/discord/hyp_media/Wolf_Maro_1356607622211440731/p4_image.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": 4,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 198494,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1356608583290196191"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [
+      "media_fallback_any_author"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

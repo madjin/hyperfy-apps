@@ -1,0 +1,49 @@
+{
+  "app_id": "ss3-1362219892073435166",
+  "app_slug": "ss3",
+  "app_name": "SS3",
+  "source": {
+    "hyp_filename": "SS3.hyp",
+    "discord_attachment_id": "1362219891691618486",
+    "discord_message_id": "1362219892073435166",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-04-17T00:15:31.092Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1362219891691618486/SS3.hyp?ex=69795523&is=697803a3&hm=95cd55324ba21ee4a54e6469a637b9286b808549a9fa0ccfd51f61f230c1edd5&"
+  },
+  "author": {
+    "display_name": "~/drdoge.eth",
+    "discord_user_id": "357905702926286858",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "SS3.hyp",
+    "raw_message_content": "",
+    "summary_excerpt": "SS3.hyp",
+    "source_priority_used": "summary_excerpt"
+  },
+  "links": {
+    "v2_app_dir": "v2/ss3",
+    "v2_json_path": "v2/ss3/ss3.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/SS3.md"
+  },
+  "preview": {
+    "primary_media_path": null,
+    "media_type": null,
+    "selection_reason": null,
+    "is_fallback_any_author": false
+  },
+  "media": [],
+  "status": {
+    "has_preview": false,
+    "needs_media_review": true,
+    "needs_author_review": false,
+    "flags": [
+      "no_media_found"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

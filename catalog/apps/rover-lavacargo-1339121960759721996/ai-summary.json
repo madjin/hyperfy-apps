@@ -1,0 +1,44 @@
+{
+  "app_id": "rover-lavacargo-1339121960759721996",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:48:10+00:00",
+  "one_liner": "Rover-LavaCargo is a space\u2011trading simulation app featuring a patrolling collectron that gathers resources, displays UI stats, and is fully configurable.",
+  "primary_use_case": "Simulate a space trading environment where autonomous collectrons patrol, detect, and harvest resources while providing UI feedback.",
+  "feature_tags": [
+    "space trading",
+    "collectron",
+    "resource gathering",
+    "patrol behavior",
+    "configurable props",
+    "UI dashboard",
+    "3D model",
+    "scripted logic"
+  ],
+  "interaction_modes": [
+    "ui",
+    "passive",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "high",
+  "networking_profile": "events",
+  "preview_recommendation": "Use the primary PNG preview (p0_vt01.png) as the thumbnail; the accompanying video showcases the collectron's movement, UI updates, and resource interaction.",
+  "manifest_quality_notes": [
+    "Well\u2011documented prop configuration",
+    "Comprehensive UI elements",
+    "Fully configurable parameters via app.configure",
+    "External assets (model, video, images) included",
+    "No known safety issues",
+    "Media review not required"
+  ],
+  "safety_or_runtime_flags": [],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message_1339121960759721996",
+    "hyp_file_Rover-LavaCargo.hyp",
+    "model_asset_rover-lavacargo.glb",
+    "video_asset_Rover_Ships_and_Loot_Planets_in_Hyperfy.mp4",
+    "image_asset_vt01.png",
+    "image_asset_vt02.png"
+  ]
+}

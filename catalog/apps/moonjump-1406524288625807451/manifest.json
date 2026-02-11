@@ -1,0 +1,63 @@
+{
+  "app_id": "moonjump-1406524288625807451",
+  "app_slug": "moonjump",
+  "app_name": "MoonJump",
+  "source": {
+    "hyp_filename": "MoonJump.hyp",
+    "discord_attachment_id": "1406524288546373642",
+    "discord_message_id": "1406524288625807451",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-08-17T06:25:22.366Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1346623562462527649/1406524288546373642/MoonJump.hyp?ex=6979abd2&is=69785a52&hm=435b0cd30b07db92f6094d77b39c914d9fa406237e54232f7db3056687a51a78&"
+  },
+  "author": {
+    "display_name": "0mka",
+    "discord_user_id": "783416470205497394",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "MoonJump.hyp",
+    "raw_message_content": "",
+    "summary_excerpt": "MoonJump.hyp",
+    "source_priority_used": "summary_excerpt"
+  },
+  "links": {
+    "v2_app_dir": "v2/moonjump",
+    "v2_json_path": "v2/moonjump/moonjump.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/MoonJump.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/MoonJump_1406524288625807451/p1_image.png",
+    "media_type": ".png",
+    "selection_reason": "any_author_fallback",
+    "is_fallback_any_author": true
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/MoonJump_1406524288625807451/p1_image.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": 1,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 14495,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1406557434243190814"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [
+      "media_fallback_any_author"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

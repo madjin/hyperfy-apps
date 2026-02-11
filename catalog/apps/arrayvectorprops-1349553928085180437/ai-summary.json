@@ -1,0 +1,44 @@
+{
+  "app_id": "arrayvectorprops-1349553928085180437",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:51:43+00:00",
+  "one_liner": "App that demonstrates array and vector props configuration, requiring the ArrayProps mod.",
+  "primary_use_case": "Showcase of configurable array and vector properties for 3D models in Hyperfy worlds.",
+  "feature_tags": [
+    "arrayProps",
+    "vector3",
+    "emote",
+    "model",
+    "script",
+    "configurable",
+    "demo",
+    "modDependency"
+  ],
+  "interaction_modes": [
+    "ui",
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "low",
+  "networking_profile": "none",
+  "preview_recommendation": "Add a screenshot or short video of the app in-world to improve discoverability.",
+  "manifest_quality_notes": [
+    "no_media_found",
+    "requires_external_mod",
+    "model_and_script_present",
+    "props_include_arrayFile_and_vector3",
+    "script_uses_app.configure",
+    "client_side_logging_only"
+  ],
+  "safety_or_runtime_flags": [],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message:1349553928085180437",
+    "discord_attachment:1349553928139968597",
+    "github_repo:https://github.com/Bitmato-Studio/hyperfy/tree/bm/ArrayProps",
+    "static_analysis:ArrayVectorProps.hyp",
+    "script_analysis:config_props",
+    "model_asset:assets/arrayvectorprops.glb",
+    "script_asset:192c6be0a480a18c3d3de50adc3dd143047906ceeb94bd3e74be213ec6a5c0e1.js"
+  ]
+}

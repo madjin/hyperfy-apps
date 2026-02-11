@@ -1,0 +1,40 @@
+{
+  "app_id": "rain-1361904724433174649",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:52:24+00:00",
+  "one_liner": "Rain app creates a configurable particle system with additive blending, alpha over life, and optional texture, using a GLB model and script.",
+  "primary_use_case": "Add dynamic rain-like particle effects to a Hyperfy world.",
+  "feature_tags": [
+    "particles",
+    "additive blending",
+    "texture",
+    "configurable props",
+    "scripted",
+    "GLB model",
+    "visual effects",
+    "demo"
+  ],
+  "interaction_modes": [
+    "ui",
+    "action",
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "none",
+  "preview_recommendation": "Use the provided mp4 preview (xyz-particle-demos_2_-_edit.mp4) to evaluate the rain particle effect visual quality before integrating the app.",
+  "manifest_quality_notes": [
+    "Short description relies on script analysis; no explicit app documentation.",
+    "Script contains commented-out experimental code.",
+    "Props only include an optional texture.",
+    "No networking features detected."
+  ],
+  "safety_or_runtime_flags": [],
+  "confidence": "high",
+  "evidence_refs": [
+    "APP_FACTS",
+    "APP_FILES_CONTEXT",
+    "STATIC_ANALYSIS_SUMMARY_MD",
+    "DISCORD_CONTEXT"
+  ]
+}

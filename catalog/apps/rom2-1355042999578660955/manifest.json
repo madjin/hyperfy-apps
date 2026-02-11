@@ -1,0 +1,63 @@
+{
+  "app_id": "rom2-1355042999578660955",
+  "app_slug": "rom2",
+  "app_name": "rom2",
+  "source": {
+    "hyp_filename": "rom2.hyp",
+    "discord_attachment_id": "1355042999339454464",
+    "discord_message_id": "1355042999578660955",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-03-28T04:57:06.581Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1355042999339454464/rom2.hyp?ex=69799722&is=697845a2&hm=9d6ef52716590aacc5f1b7e3ead71df999aac72bb52dd93b676ef175fa21a33a&"
+  },
+  "author": {
+    "display_name": "general hyper",
+    "discord_user_id": "675111548829564951",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "<@161613961605677058>",
+    "raw_message_content": "<@161613961605677058>",
+    "summary_excerpt": "rom2.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/rom2",
+    "v2_json_path": "v2/rom2/rom2.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/rom2.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/rom2_1355042999578660955/m3_image.png",
+    "media_type": ".png",
+    "selection_reason": "any_author_fallback",
+    "is_fallback_any_author": true
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/rom2_1355042999578660955/m3_image.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": -3,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 458084,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1355020520176881846"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [
+      "media_fallback_any_author"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

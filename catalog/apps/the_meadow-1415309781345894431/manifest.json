@@ -1,0 +1,63 @@
+{
+  "app_id": "the_meadow-1415309781345894431",
+  "app_slug": "the_meadow",
+  "app_name": "The_Meadow",
+  "source": {
+    "hyp_filename": "The_Meadow.hyp",
+    "discord_attachment_id": "1415309780431536128",
+    "discord_message_id": "1415309781345894431",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-09-10T12:15:47.057Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1415309780431536128/The_Meadow.hyp?ex=68c40ef2&is=68c2bd72&hm=a862751737f68ba8632a074325d26cbfb796ec8ca633dc95ee543607aecab988&"
+  },
+  "author": {
+    "display_name": "ash",
+    "discord_user_id": "179546010303856640",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "here's 3 scenes to try out",
+    "raw_message_content": "here's 3 scenes to try out",
+    "summary_excerpt": "The Meadow.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": null,
+    "v2_json_path": null,
+    "hyp_summary_path": "catalog/discord/hyp_summaries/The_Meadow.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/The_Meadow_1415309781345894431/m4_image.png",
+    "media_type": ".png",
+    "selection_reason": "any_author_fallback",
+    "is_fallback_any_author": true
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/The_Meadow_1415309781345894431/m4_image.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": -4,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 93374,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1415290348061851730"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [
+      "media_fallback_any_author"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

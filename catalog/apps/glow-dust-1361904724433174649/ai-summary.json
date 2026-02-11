@@ -1,0 +1,42 @@
+{
+  "app_id": "glow-dust-1361904724433174649",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:45:45+00:00",
+  "one_liner": "Glow_Dust creates an additive particle field with a configurable texture, speed, size, and emissive properties.",
+  "primary_use_case": "Add glowy dust particle effects to scenes, useful for ambience, magical effects, or visual flair.",
+  "feature_tags": [
+    "particles",
+    "additive blending",
+    "texture",
+    "emissive",
+    "configurable UI",
+    "alpha over life",
+    "speed range",
+    "size control"
+  ],
+  "interaction_modes": [
+    "ui",
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "low",
+  "networking_profile": "none",
+  "preview_recommendation": "Use the attached mp4 preview to evaluate particle visual quality and ensure the texture asset loads correctly for optimal effect.",
+  "manifest_quality_notes": [
+    "UI configuration present",
+    "Additive blending may impact performance on low\u2011end devices",
+    "No networking code used",
+    "Preview video available",
+    "Model asset is small",
+    "Script is straightforward"
+  ],
+  "safety_or_runtime_flags": [],
+  "confidence": "high",
+  "evidence_refs": [
+    "APP_FACTS",
+    "APP_FILES_CONTEXT",
+    "STATIC_ANALYSIS_SUMMARY_MD",
+    "DISCORD_CONTEXT",
+    "HYPERFY_DOC_SNIPPETS"
+  ]
+}

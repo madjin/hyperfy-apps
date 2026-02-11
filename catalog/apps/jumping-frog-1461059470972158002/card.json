@@ -1,0 +1,29 @@
+{
+  "name": "Jumping_Frog",
+  "author": "fractilians",
+  "description": "Jumping Frog.hyp",
+  "tags": [
+    "animation",
+    "character",
+    "frog",
+    "jump",
+    "squash_stretch",
+    "tongue"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking": "none",
+  "preview_url": null,
+  "download_path": "v2-hyp/Jumping_Frog.hyp",
+  "created_at": "2026-01-14T18:08:43.052Z",
+  "props": {
+    "prompt": "make a weird jumping frog"
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\napp.remove(app.get('Block'))\n/**\n * changelog:\n * - create: make a weird jumping frog\n */\n\nconst frog = app.create('group')\n\n// Structure: frog -> hop -> squash -> parts\nconst hop = app.create('group')\nfrog.add(hop)\n\nconst squash = app.create('group')\nhop.add(squash)\n\n// Colors\nconst green = '#2aff5e'\nconst darkGreen = '#1aba44'\nconst belly = '#d6ffcf'\nconst eyeWhite = '#ffffff'\nconst pupilBlack = '#222222'\nconst tongueRed = '#ff4a4a'\nconst spot = '#1e8f4a'\n\n// Dimensions\nconst bodyR = 0.16\nconst headR = 0.11\nconst bodyY = 0.19\nconst headY = bodyY + bodyR * 0.9 + headR * 0.35\n\n// Body\nconst body = app.create('prim', {\n  type: 'sphere',\n  size: [bodyR],\n  color: green,\n})\nbody.position.set(0, bodyY, 0)\nsquash.add(body)\n\n// Belly patch\nconst bellyPatch = app.create('prim', {\n  type: 'sphere',\n  size: [bodyR * 0.82],\n  color: belly,\n  opacity: 0.95,\n})\nbellyPatch.position.set(0, bodyY - bodyR * 0.15, bodyR * 0.35)\nsquash.add(bellyPatch)\n\n// Head\nconst head = app.create('prim', {\n  type: 'sphere',\n  size: [headR],\n  color: green,\n})\nhead.position.set(0, headY, bodyR * 0.18)\nsquash.add(head)\n\n// Eyes\nfunction makeEye(x) {\n  const eye = app.create('group')\n  const bulb = app.create('prim', {\n    type: 'sphere',\n    size: [headR * 0.28],\n    color: eyeWhite,\n    emissive: eyeWhite,\n    emissiveIntensity: 1.8,\n  })\n  const pupil = app.create('prim', {\n    type: 'sphere',\n    size: [headR * 0.12],\n    color: pupilBlack,\n    emissive: pupilBlack,\n    emissiveIntensity: 0.3,\n  })\n  bulb.position.set(0, 0, 0)\n  pupil.position.set(0, 0, headR * 0.21)\n  eye.add(bulb)\n  eye.add(pupil)\n  eye.position.set(x, headR * 0.55, headR * 0.15)\n  return eye\n}\nconst eyeL = makeEye(-headR * 0.48)\nconst eyeR = makeEye(headR * 0.48)\nhead.add(eyeL)\nhead.add(eyeR)\n\n// Tongue (weird bit)\nconst tongueLenMax = 0.28\nconst tongue = app.create('prim', {\n  type: 'box',\n  size: [0.04, 0.02, tongueLenMax],\n  color: tongueRed,\n  emissive: ",
+  "asset_files": [
+    "Jumping Frog.glb"
+  ]
+}

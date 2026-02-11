@@ -1,0 +1,49 @@
+{
+  "app_id": "m2-2-4-beacon-dev-1346629939817877556",
+  "app_slug": "m2-2-4-beacon-dev",
+  "app_name": "m2-2-4-beacon-dev",
+  "source": {
+    "hyp_filename": "m2-2-4-beacon-dev.hyp",
+    "discord_attachment_id": "1346629939633324052",
+    "discord_message_id": "1346629939817877556",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-03-04T23:46:36.827Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1346623562462527649/1346629939633324052/m2-2-4-beacon-dev.hyp?ex=69794e5c&is=6977fcdc&hm=b45391a377ab6dbf119f50cfd691a1d9bc2af234e7722b76754c13c7127e22ab&"
+  },
+  "author": {
+    "display_name": "0mka",
+    "discord_user_id": "783416470205497394",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "m2 2 4 beacon dev.hyp",
+    "raw_message_content": "",
+    "summary_excerpt": "m2 2 4 beacon dev.hyp",
+    "source_priority_used": "summary_excerpt"
+  },
+  "links": {
+    "v2_app_dir": "v2/m2-2-4-beacon-dev",
+    "v2_json_path": "v2/m2-2-4-beacon-dev/m2-2-4-beacon-dev.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/m2-2-4-beacon-dev.md"
+  },
+  "preview": {
+    "primary_media_path": null,
+    "media_type": null,
+    "selection_reason": null,
+    "is_fallback_any_author": false
+  },
+  "media": [],
+  "status": {
+    "has_preview": false,
+    "needs_media_review": true,
+    "needs_author_review": false,
+    "flags": [
+      "no_media_found"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

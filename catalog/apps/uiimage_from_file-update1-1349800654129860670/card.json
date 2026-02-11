@@ -1,0 +1,23 @@
+{
+  "name": "uiImage_from_File-update1",
+  "author": "0mka",
+  "description": "slight update.  Larger range in ui width/height and image width/height. UI.position updated to 'number' field from 'text' to avoid accidental characters crashing the hyp.\n\nMore cleaning soon.",
+  "tags": [
+    "ui",
+    "image",
+    "file-upload",
+    "custom-dimensions",
+    "range-input",
+    "number-input"
+  ],
+  "interaction_modes": [
+    "ui",
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking": "none",
+  "preview_url": null,
+  "download_path": "v2-hyp/uiImage_from_File-update1.hyp",
+  "created_at": "2025-03-13T17:45:54.028Z"
+}

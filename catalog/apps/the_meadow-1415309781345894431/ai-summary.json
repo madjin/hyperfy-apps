@@ -1,0 +1,47 @@
+{
+  "app_id": "the_meadow-1415309781345894431",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:48:43+00:00",
+  "one_liner": "The Meadow app lets creators customize sky background, HDR lighting, sun direction, intensity, color, and fog settings in a Hyperfy world.",
+  "primary_use_case": "Provides a UI for configuring environmental lighting and atmospheric effects (sky texture, HDRI, sun angle, intensity, color, fog) in a Hyperfy scene.",
+  "feature_tags": [
+    "sky",
+    "hdr",
+    "sun",
+    "fog",
+    "lighting",
+    "texture",
+    "rotation",
+    "color"
+  ],
+  "interaction_modes": [
+    "ui",
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "none",
+  "preview_recommendation": "Use the provided fallback PNG preview; it reliably represents the sky setup, though a live preview would better showcase dynamic lighting.",
+  "manifest_quality_notes": [
+    "media_fallback_any_author",
+    "author_confidence_high",
+    "single_scene_app",
+    "script_configured_ui",
+    "no_networking_used",
+    "preview_is_fallback"
+  ],
+  "safety_or_runtime_flags": [
+    "media_fallback_any_author"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message",
+    "hyp_file",
+    "static_analysis",
+    "author_discord_id",
+    "app_id",
+    "preview_media",
+    "blueprint_metadata",
+    "script_analysis"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "app_id": "rainv4-1359839641754275921",
+  "app_slug": "rainv4",
+  "app_name": "RainV4",
+  "source": {
+    "hyp_filename": "RainV4.hyp",
+    "discord_attachment_id": "1359839641070469150",
+    "discord_message_id": "1359839641754275921",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-04-10T10:37:15.193Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1359839641070469150/RainV4.hyp?ex=69793e1b&is=6977ec9b&hm=d646c1a2c02e2b99ff98afa66bb09cfb77e9017f4053a67e5f08db9bea3ae191&"
+  },
+  "author": {
+    "display_name": "Gert-Jan Akerboom",
+    "discord_user_id": "601886221072990251",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "<@415262868217266177> i added a cube for grabbing, can turn it on and off in UI",
+    "raw_message_content": "<@415262868217266177> i added a cube for grabbing, can turn it on and off in UI",
+    "summary_excerpt": "RainV4.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/rainv4",
+    "v2_json_path": "v2/rainv4/rainv4.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/RainV4.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/RainV4_1359839641754275921/m2_image.png",
+    "media_type": ".png",
+    "selection_reason": "any_author_fallback",
+    "is_fallback_any_author": true
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/RainV4_1359839641754275921/m2_image.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": -2,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 197935,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1359838621259137104"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [
+      "media_fallback_any_author"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

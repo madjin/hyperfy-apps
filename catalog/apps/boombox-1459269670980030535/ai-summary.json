@@ -1,0 +1,46 @@
+{
+  "app_id": "boombox-1459269670980030535",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:44:23+00:00",
+  "one_liner": "Boombox is an interactive 3D boombox model with spatial audio playback, play/pause button, and configurable audio properties.",
+  "primary_use_case": "Play spatial audio through an interactive 3D boombox with UI controls.",
+  "feature_tags": [
+    "spatial audio",
+    "play/pause",
+    "3D model",
+    "interactive UI",
+    "networked state",
+    "customizable props"
+  ],
+  "interaction_modes": [
+    "action",
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "events",
+  "preview_recommendation": "Use the provided PNG preview (m5_image.png) which clearly shows the boombox front view and conveys the app's visual design.",
+  "manifest_quality_notes": [
+    "author confidence high",
+    "media fallback used for preview",
+    "props inferred from v2_json",
+    "audio asset referenced and loaded",
+    "script includes UI controls and networking",
+    "no speculative data added"
+  ],
+  "safety_or_runtime_flags": [
+    "media_fallback_any_author",
+    "networked_events"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message:1459269670980030535",
+    "hyp_file:Boombox.hyp",
+    "author_discord:235754161377902593",
+    "media_catalog:catalog/discord/hyp_media/Boombox_1459269670980030535/m5_image.png",
+    "v2_json",
+    "static_analysis_summary",
+    "discord_context"
+  ]
+}

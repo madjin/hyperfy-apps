@@ -1,0 +1,49 @@
+{
+  "app_id": "solar-panel-1364018550179631196",
+  "app_slug": "solar-panel",
+  "app_name": "Solar_Panel",
+  "source": {
+    "hyp_filename": "Solar_Panel.hyp",
+    "discord_attachment_id": "1364018549689159761",
+    "discord_message_id": "1364018550179631196",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-04-21T23:22:44.602Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1346623562462527649/1364018549689159761/Solar_Panel.hyp?ex=697948c4&is=6977f744&hm=dfae7e4934dbd35b18ec0b1e70159450fb0892983613ca2c14fb7f0d18d3f924&"
+  },
+  "author": {
+    "display_name": "~/drdoge.eth",
+    "discord_user_id": "357905702926286858",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "Solar Panel.hyp",
+    "raw_message_content": "",
+    "summary_excerpt": "Solar Panel.hyp",
+    "source_priority_used": "summary_excerpt"
+  },
+  "links": {
+    "v2_app_dir": "v2/solar-panel",
+    "v2_json_path": "v2/solar-panel/solar-panel.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Solar_Panel.md"
+  },
+  "preview": {
+    "primary_media_path": null,
+    "media_type": null,
+    "selection_reason": null,
+    "is_fallback_any_author": false
+  },
+  "media": [],
+  "status": {
+    "has_preview": false,
+    "needs_media_review": true,
+    "needs_author_review": false,
+    "flags": [
+      "no_media_found"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

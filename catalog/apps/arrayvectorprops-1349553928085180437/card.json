@@ -1,0 +1,64 @@
+{
+  "name": "ArrayVectorProps",
+  "author": "~/MayD524/Hyperfy",
+  "description": "Requires https://github.com/Bitmato-Studio/hyperfy/tree/bm/ArrayProps mod",
+  "tags": [
+    "arrayprops",
+    "vector3",
+    "animation",
+    "3d-model",
+    "script",
+    "configurable"
+  ],
+  "interaction_modes": [
+    "ui",
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "low",
+  "networking": "none",
+  "preview_url": null,
+  "download_path": "v2-hyp/ArrayVectorProps.hyp",
+  "created_at": "2025-03-13T01:25:29.955Z",
+  "props": {
+    "test": [
+      {
+        "type": "emote",
+        "name": "sit_idle_emote.glb",
+        "url": "asset://036b786f142de68cefe0da2fa27725b92d71f7298035acd49944175c49507ede.glb"
+      },
+      {
+        "type": "emote",
+        "name": "hunter.glb",
+        "url": "asset://2afc9d0e43e9bd2c529f763db9a61510d86378d0f89f201494cbd78105d00fea.glb"
+      },
+      null
+    ],
+    "test2": [
+      "test",
+      "test2",
+      "test23",
+      ""
+    ],
+    "testv3": {
+      "x": 12,
+      "y": 3,
+      "z": 15
+    },
+    "test3": [
+      3,
+      4,
+      0
+    ],
+    "test4": [
+      50.05,
+      88.2,
+      17.35,
+      1
+    ]
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\nprops;\n(function () {\n    'use strict';\n\n    var config_props = [\n        {\n            \"type\": \"arrayFile\",\n            \"label\": \"test\",\n            \"key\": \"test\",\n            \"kind\": \"emote\"\n        },\n        {\n            \"type\": \"array\",\n            \"label\": \"testt\",\n            \"key\": \"test2\"\n        },\n        {\n            \"type\": \"arrayNumber\",\n            \"label\": \"tn\",\n            \"key\": \"test3\"\n        },\n        {\n            \"type\": \"arrayRange\",\n            \"label\": \"tn\",\n            \"key\": \"test4\",\n            \"min\": 1,\n            \"max\": 100,\n            \"initial\": 10\n        },\n        {\n            \"type\": \"vector3\",\n            \"label\": \"testv3\",\n            \"key\": \"testv3\"\n        }\n    ];\n\n    app.configure(config_props);\n\n    if (world.isClient) {\n        /** @type {PlayerProxy} Player */\n        world.getPlayer();\n        console.log(props.test)\n        console.log(props.test2)\n        console.log(props.test3)\n        console.log(props.test4)\n        console.log(props.testv3)\n    } \n\n    if (world.isServer) ;\n\n})();\n\n}\n",
+  "asset_files": [
+    "ArrayVectorProps.glb"
+  ]
+}

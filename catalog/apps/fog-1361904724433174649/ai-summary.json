@@ -1,0 +1,39 @@
+{
+  "app_id": "fog-1361904724433174649",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:51:53+00:00",
+  "one_liner": "A lightweight particle\u2011based fog effect that uses a configurable texture and simple particle system to create ambient mist in a Hyperfy world.",
+  "primary_use_case": "Add atmospheric fog or mist to a scene for visual ambience without heavy performance cost.",
+  "feature_tags": [
+    "particles",
+    "texture",
+    "visual\u2011effects",
+    "configurable\u2011ui",
+    "ambient\u2011mist",
+    "low\u2011poly\u2011model"
+  ],
+  "interaction_modes": [
+    "ui",
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "none",
+  "preview_recommendation": "The attached MP4 preview clearly demonstrates the fog particles in motion; it is suitable for inclusion in the app gallery.",
+  "manifest_quality_notes": [
+    "Preview video available and matches app behavior",
+    "Model size <10\u202fKB, script <2\u202fKB \u2013 lightweight",
+    "No networking or update loops used",
+    "Author confidence high (discord evidence)",
+    "All required assets bundled in .hyp file"
+  ],
+  "safety_or_runtime_flags": [],
+  "confidence": "high",
+  "evidence_refs": [
+    "APP_FACTS",
+    "APP_FILES_CONTEXT",
+    "STATIC_ANALYSIS_SUMMARY_MD",
+    "DISCORD_CONTEXT",
+    "HYPERFY_DOC_SNIPPETS"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Physics_-_Triggers__Tags",
+  "author": "ash",
+  "description": "Physics Triggers Tags.hyp",
+  "tags": [
+    "physics",
+    "triggers",
+    "tags",
+    "ui",
+    "dynamic",
+    "static"
+  ],
+  "interaction_modes": [
+    "trigger",
+    "ui"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking": "none",
+  "preview_url": "catalog/discord/hyp_media/Physics_-_Triggers_Tags_1354303006505435206/p0_xyz-physics-triggers--tags.mp4",
+  "download_path": "v2-hyp/Physics_-_Triggers__Tags.hyp",
+  "created_at": "2025-03-26T03:56:38.484Z"
+}

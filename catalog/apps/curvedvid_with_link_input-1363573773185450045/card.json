@@ -1,0 +1,23 @@
+{
+  "name": "CurvedVid_with_link_input",
+  "author": "MetaRick",
+  "description": "Here you go <@742409123311779860>",
+  "tags": [
+    "media-player",
+    "link",
+    "upload",
+    "loop",
+    "aspect_ratio",
+    "cover"
+  ],
+  "interaction_modes": [
+    "ui",
+    "passive"
+  ],
+  "asset_profile": "heavy",
+  "script_complexity": "low",
+  "networking": "none",
+  "preview_url": "catalog/discord/hyp_media/CurvedVid_with_link_input_1363573773185450045/p1_Desktop_2025.04.20_-_20.18.43.04.mp4",
+  "download_path": "v2-hyp/CurvedVid_with_link_input.hyp",
+  "created_at": "2025-04-20T17:55:21.503Z"
+}

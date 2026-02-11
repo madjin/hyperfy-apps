@@ -1,0 +1,40 @@
+{
+  "app_id": "rocket-launcher-v3-1364972260766646293",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:48:03+00:00",
+  "one_liner": "Rocket Launcher V3 adds a launch UI to a rocket model, with particle effects, quadratic easing, and respawn behavior.",
+  "primary_use_case": "Interactive in\u2011world object that launches a rocket on player input, visualized with particles and a UI overlay.",
+  "feature_tags": [
+    "launch",
+    "particles",
+    "ui",
+    "action",
+    "animation",
+    "respawn",
+    "scripted"
+  ],
+  "interaction_modes": [
+    "action",
+    "ui",
+    "trigger"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "none",
+  "preview_recommendation": "Use the provided screenshot as the preview; it clearly shows the rocket model with the launch UI, making it suitable for catalog display.",
+  "manifest_quality_notes": [
+    "All required assets (model, script, preview image) are present",
+    "Preview image matches app content",
+    "No networking features used",
+    "Script follows standard Hyperfy APIs",
+    "Author confidence high",
+    "No flags detected"
+  ],
+  "safety_or_runtime_flags": [],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message:1364972260766646293",
+    "hyp_file:Rocket_Launcher_V3.hyp",
+    "author:discord_user_id:601886221072990251"
+  ]
+}

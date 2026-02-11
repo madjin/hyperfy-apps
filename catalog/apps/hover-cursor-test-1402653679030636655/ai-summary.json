@@ -1,0 +1,43 @@
+{
+  "app_id": "hover-cursor-test-1402653679030636655",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:46:05+00:00",
+  "one_liner": "Displays a white circular UI cursor when hovering over a mesh, indicating clickability.",
+  "primary_use_case": "Provide visual hover feedback on mesh objects to signal interactivity.",
+  "feature_tags": [
+    "hover",
+    "cursor",
+    "ui",
+    "visual feedback",
+    "mesh",
+    "interactivity",
+    "simple",
+    "glb"
+  ],
+  "interaction_modes": [
+    "ui",
+    "trigger"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "low",
+  "networking_profile": "none",
+  "preview_recommendation": "Use the provided fallback PNG as primary preview; consider capturing the UI cursor overlay in\u2011world for clearer demonstration.",
+  "manifest_quality_notes": [
+    "media_fallback_any_author",
+    "preview uses fallback",
+    "author confidence high",
+    "script simple",
+    "no networking",
+    "size moderate"
+  ],
+  "safety_or_runtime_flags": [],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message_1402653679030636655",
+    "hyp_file_1402658678653014189",
+    "static_analysis_summary",
+    "docs_app_snippet",
+    "docs_scripting_networking",
+    "docs_hyp_format"
+  ]
+}

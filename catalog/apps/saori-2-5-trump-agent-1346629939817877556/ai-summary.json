@@ -1,0 +1,43 @@
+{
+  "app_id": "saori-2-5-trump-agent-1346629939817877556",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:52:33+00:00",
+  "one_liner": "A Trump\u2011themed VRM avatar that chats, performs emotes, and looks at players, optionally driven by an external webhook.",
+  "primary_use_case": "Interactive AI\u2011driven avatar for virtual worlds that can speak, animate, and respond to player actions via networked events.",
+  "feature_tags": [
+    "avatar",
+    "chat",
+    "emotes",
+    "ui",
+    "networked",
+    "webhook"
+  ],
+  "interaction_modes": [
+    "ui",
+    "passive",
+    "networked",
+    "trigger"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "shared_state",
+  "preview_recommendation": "Add a screenshot or short video showing the Trump avatar with its speech bubble and emotes in\u2011world; currently no media is attached.",
+  "manifest_quality_notes": [
+    "No preview media found \u2013 needs visual assets.",
+    "Model size (~15\u202fMB) is moderate; ensure loading performance.",
+    "Script uses both server and client logic; complexity is moderate.",
+    "External URL fetch may be blocked in some environments."
+  ],
+  "safety_or_runtime_flags": [
+    "no_media_found",
+    "network_requests"
+  ],
+  "confidence": "medium",
+  "evidence_refs": [
+    "APP_FACTS",
+    "APP_FILES_CONTEXT",
+    "STATIC_ANALYSIS_SUMMARY_MD",
+    "DISCORD_CONTEXT",
+    "HYPERFY_DOC_SNIPPETS"
+  ]
+}

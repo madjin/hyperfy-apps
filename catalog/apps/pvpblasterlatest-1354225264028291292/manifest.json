@@ -1,0 +1,49 @@
+{
+  "app_id": "pvpblasterlatest-1354225264028291292",
+  "app_slug": "pvpblasterlatest",
+  "app_name": "PVPblasterLATEST",
+  "source": {
+    "hyp_filename": "PVPblasterLATEST.hyp",
+    "discord_attachment_id": "1354225263701000274",
+    "discord_message_id": "1354225264028291292",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-03-25T22:47:43.233Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1354225263701000274/PVPblasterLATEST.hyp?ex=6979408f&is=6977ef0f&hm=9f1efd8ae24294843756f5cf515e60ccb2edd73709b53b3efd39d4c6cd047504&"
+  },
+  "author": {
+    "display_name": ".hyp shaman",
+    "discord_user_id": "297290503181959169",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "PVPblasterLATEST.hyp",
+    "raw_message_content": "",
+    "summary_excerpt": "PVPblasterLATEST.hyp",
+    "source_priority_used": "summary_excerpt"
+  },
+  "links": {
+    "v2_app_dir": "v2/pvpblasterlatest",
+    "v2_json_path": "v2/pvpblasterlatest/pvpblasterlatest.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/PVPblasterLATEST.md"
+  },
+  "preview": {
+    "primary_media_path": null,
+    "media_type": null,
+    "selection_reason": null,
+    "is_fallback_any_author": false
+  },
+  "media": [],
+  "status": {
+    "has_preview": false,
+    "needs_media_review": true,
+    "needs_author_review": false,
+    "flags": [
+      "no_media_found"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

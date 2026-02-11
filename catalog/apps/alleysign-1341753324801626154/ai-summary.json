@@ -1,0 +1,42 @@
+{
+  "app_id": "alleysign-1341753324801626154",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:44:05+00:00",
+  "one_liner": "AlleySign rotates a GLB model slowly around its Y\u2011axis using a simple update script, providing a continuous passive animation.",
+  "primary_use_case": "Provide a continuously rotating visual element for worlds, useful for signage, indicators, or decorative spinning objects.",
+  "feature_tags": [
+    "rotation",
+    "animation",
+    "model",
+    "script",
+    "passive",
+    "simple",
+    "glb",
+    "y-axis"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none",
+  "preview_recommendation": "Add a short looped video or animated GIF showing the model\u2019s Y\u2011axis rotation to give users a visual preview, as currently no media is attached.",
+  "manifest_quality_notes": [
+    "no_media_found",
+    "needs_media_review",
+    "author_confidence_high",
+    "script_simple",
+    "model_included",
+    "discord_source"
+  ],
+  "safety_or_runtime_flags": [],
+  "confidence": "high",
+  "evidence_refs": [
+    "https://cdn.discordapp.com/attachments/1022421054582423562/1341753324394774609/AlleySign.hyp?ex=69795ce9&is=69780b69&hm=19ead5bbb27fb9e3d9bf82fc28e9a64685528f538c5ccf4b519931ed5f8c",
+    "discord_message:1341753324801626154",
+    "discord_message:1341751684778557491",
+    "discord_message:1341752763998015541",
+    "discord_message:1341753437812949093",
+    "discord_message:1341754393476857938"
+  ]
+}

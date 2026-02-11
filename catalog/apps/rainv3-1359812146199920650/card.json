@@ -1,0 +1,52 @@
+{
+  "name": "RainV3",
+  "author": "Gert-Jan Akerboom",
+  "description": "if anyone wants to try it out",
+  "tags": [
+    "rain",
+    "particles",
+    "environment",
+    "customizable",
+    "splash effect",
+    "physics"
+  ],
+  "interaction_modes": [
+    "ui",
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking": "none",
+  "preview_url": "catalog/discord/hyp_media/RainV3_1359812146199920650/m1_rainV3.mp4",
+  "download_path": "v2-hyp/RainV3.hyp",
+  "created_at": "2025-04-10T08:47:59.742Z",
+  "props": {
+    "fireType": "custom",
+    "baseColor": "#ff3800",
+    "glowIntensity": 5,
+    "opacity": 0.6000000000000001,
+    "maxParticles": 2000,
+    "spawnRate": 1000,
+    "lifetime": 1.8,
+    "spawnRadius": 50,
+    "minScale": 0.02,
+    "maxScale": 0.07,
+    "minSpeed": 3,
+    "maxSpeed": 12,
+    "gravity": 2.8000000000000003,
+    "turbulence": 2,
+    "enableSmoke": false,
+    "smokeColor": "#444444",
+    "smokeOpacity": 1,
+    "smokeRatio": 0,
+    "presetName": "Test Fire",
+    "savePreset": false,
+    "loadPreset": "heavy",
+    "wind": 0.9,
+    "windDirection": 195
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\n// Realistic Rain Effect for Hyperfy\n// This script creates a customizable, realistic rain effect with extensive configuration options\n\n// Initialize app configuration\napp.configure(() => {\n\treturn [\n\n\t\t{\n\t\t\tkey: 'maxParticles',\n\t\t\ttype: 'number',\n\t\t\tlabel: 'Max Particles',\n\t\t\tmin: 1,\n\t\t\tmax: 5000,\n\t\t\tstep: 50,\n\t\t\tinitial: 1000,\n\t\t},\n\t\t{\n\t\t\tkey: 'spawnRate',\n\t\t\ttype: 'number',\n\t\t\tlabel: 'Spawn Rate (per sec)',\n\t\t\tmin: 1,\n\t\t\tmax: 3000,\n\t\t\tstep: 10,\n\t\t\tinitial: 200,\n\t\t},\n\t\t{\n\t\t\tkey: 'spawnRadius',\n\t\t\ttype: 'number',\n\t\t\tlabel: 'Rain Area (meters)',\n\t\t\tmin: 1,\n\t\t\tmax: 300,\n\t\t\tstep: 1,\n\t\t\tinitial: 20,\n\t\t},\n\t\t{\n\t\t\tkey: 'minScale',\n\t\t\ttype: 'range',\n\t\t\tlabel: 'Min Particle Size',\n\t\t\tmin: 0.01,\n\t\t\tmax: 0.1,\n\t\t\tstep: 0.01,\n\t\t\tinitial: 0.02,\n\t\t},\n\t\t{\n\t\t\tkey: 'maxScale',\n\t\t\ttype: 'range',\n\t\t\tlabel: 'Max Particle Size',\n\t\t\tmin: 0.02,\n\t\t\tmax: 0.2,\n\t\t\tstep: 0.01,\n\t\t\tinitial: 0.05,\n\t\t},\n\t\t{\n\t\t\ttype: 'section',\n\t\t\tkey: 'physics',\n\t\t\tlabel: 'Rain Physics',\n\t\t},\n\t\t{\n\t\t\tkey: 'minSpeed',\n\t\t\ttype: 'range',\n\t\t\tlabel: 'Min Speed',\n\t\t\tmin: 1.0,\n\t\t\tmax: 10.0,\n\t\t\tstep: 0.5,\n\t\t\tinitial: 3.0,\n\t\t},\n\t\t{\n\t\t\tkey: 'maxSpeed',\n\t\t\ttype: 'range',\n\t\t\tlabel: 'Max Speed',\n\t\t\tmin: 2.0,\n\t\t\tmax: 20.0,\n\t\t\tstep: 0.5,\n\t\t\tinitial: 6.0,\n\t\t},\n\t\t{\n\t\t\tkey: 'gravity',\n\t\t\ttype: 'range',\n\t\t\tlabel: 'Gravity',\n\t\t\tmin: 0.5,\n\t\t\tmax: 5.0,\n\t\t\tstep: 0.1,\n\t\t\tinitial: 2.0,\n\t\t},\n\t]\n})\n\n// Get the raindrop mesh\nconst raindrop = app.get('Icosphere');\nif (!raindrop) {\n\tconsole.error('Could not find raindrop');\n\treturn;\n}\n\n// Get the ring mesh for splash effects\nconst ring = app.get('ring');\nif (!ring) {\n\tconsole.error('Could not find ring');\n\treturn;\n}\n\n// Hide the original meshes\nraindrop.visible = false;\nring.visible = false;\n\n// Track splash effects\nconst splashEffects = [];\n\n// Configure based on selected preset or settings\nconst CONFIG = {\n\tBURST_INTERVAL: 0.05, // Time between particle bursts (seconds)\n}\n\n// Apply configuration values\nCONFIG.MAX_PARTICLES =",
+  "asset_files": [
+    "RainV3.glb"
+  ]
+}

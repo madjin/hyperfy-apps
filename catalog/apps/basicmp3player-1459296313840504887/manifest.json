@@ -1,0 +1,49 @@
+{
+  "app_id": "basicmp3player-1459296313840504887",
+  "app_slug": "basicmp3player",
+  "app_name": "BasicMp3Player",
+  "source": {
+    "hyp_filename": "BasicMp3Player.hyp",
+    "discord_attachment_id": "1459296313333121024",
+    "discord_message_id": "1459296313840504887",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2026-01-09T21:22:33.634Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1346623562462527649/1459296313333121024/BasicMp3Player.hyp?ex=69792c99&is=6977db19&hm=0630cb4898f95a3ea25aac629d803dfa84edb578d0d7c2c08a2c5f2f65ef1c97&"
+  },
+  "author": {
+    "display_name": "Valiant",
+    "discord_user_id": "540822785371668480",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "ultra basic mp3 player. upload or url for loading mp3 files. uses basic hyperfy glb cube so no jazz...visually.",
+    "raw_message_content": "ultra basic mp3 player. upload or url for loading mp3 files. uses basic hyperfy glb cube so no jazz...visually.",
+    "summary_excerpt": "BasicMp3Player.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/basicmp3player",
+    "v2_json_path": "v2/basicmp3player/basicmp3player.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/BasicMp3Player.md"
+  },
+  "preview": {
+    "primary_media_path": null,
+    "media_type": null,
+    "selection_reason": null,
+    "is_fallback_any_author": false
+  },
+  "media": [],
+  "status": {
+    "has_preview": false,
+    "needs_media_review": true,
+    "needs_author_review": false,
+    "flags": [
+      "no_media_found"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

@@ -1,0 +1,46 @@
+{
+  "app_id": "ss3-1362219892073435166",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:48:34+00:00",
+  "one_liner": "SS3 is a configurable aura effect app with particle textures, color themes, and effect styles for Hyperfy.",
+  "primary_use_case": "Add dynamic aura/particle visual effects to avatars or objects in Hyperfy worlds.",
+  "feature_tags": [
+    "aura",
+    "particles",
+    "themes",
+    "effect_styles",
+    "textures",
+    "customization",
+    "glow",
+    "emission"
+  ],
+  "interaction_modes": [
+    "ui",
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "none",
+  "preview_recommendation": "No preview media available; generate a short video or GIF showing the aura effect with default settings.",
+  "manifest_quality_notes": [
+    "All props defined",
+    "Default theme quantum",
+    "Effect style flame",
+    "No preview media",
+    "Config UI present",
+    "High confidence"
+  ],
+  "safety_or_runtime_flags": [
+    "no_media_found",
+    "no_network"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord:1362219892073435166",
+    "discord:1362219891691618486",
+    "hyp:SS3.hyp",
+    "author:~/drdoge.eth",
+    "channel:#\ud83d\udcbb\u2502developers",
+    "date:2025-04-17"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "app_id": "loot-planetlava-1339121960759721996",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:46:27+00:00",
+  "one_liner": "Space trading loot pack with rotating model, collectible via proximity, emitting events for collection and ping detection.",
+  "primary_use_case": "Provide collectible loot items in a space trading simulation, allowing players to gather resources through proximity checks and event-driven interactions.",
+  "feature_tags": [
+    "collectible",
+    "trading",
+    "space",
+    "loot",
+    "animation",
+    "proximity",
+    "event-driven",
+    "scripted"
+  ],
+  "interaction_modes": [
+    "action",
+    "trigger",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "events",
+  "preview_recommendation": "Use the primary PNG preview (p0_vt01.png) as the app thumbnail; it clearly shows the model and fits platform guidelines.",
+  "manifest_quality_notes": [
+    "Metadata extracted from Discord message and .hyp file",
+    "Props include lootValue, name, healthValue",
+    "Script uses configure, update, proximity-check, and ping events",
+    "No known safety issues",
+    "Author verified via Discord with high confidence"
+  ],
+  "safety_or_runtime_flags": [],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message:1339121960759721996",
+    "hyp_file:Loot-PlanetLava.hyp",
+    "author_discord_user_id:793486941349216288"
+  ]
+}

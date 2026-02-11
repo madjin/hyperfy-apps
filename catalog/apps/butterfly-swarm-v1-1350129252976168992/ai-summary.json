@@ -1,0 +1,45 @@
+{
+  "app_id": "butterfly-swarm-v1-1350129252976168992",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:44:28+00:00",
+  "one_liner": "Butterfly swarm app with customizable count, scale, wing flap speed, and fly speed, generating a dynamic flock of animated butterflies.",
+  "primary_use_case": "Create ambient butterfly swarms in Hyperfy worlds for visual decoration and dynamic scenery.",
+  "feature_tags": [
+    "butterfly",
+    "swarm",
+    "animation",
+    "customizable",
+    "ui",
+    "random",
+    "visual",
+    "ambient"
+  ],
+  "interaction_modes": [
+    "ui",
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "none",
+  "preview_recommendation": "Use the provided PNG preview (5000.png) as a visual reference; consider generating a short GIF or video to showcase the swarm's motion.",
+  "manifest_quality_notes": [
+    "UI inputs defined but not validated",
+    "Potential performance impact with high butterfly count",
+    "Missing explicit ground collision prevention",
+    "Future feature placeholders mentioned",
+    "No explicit networking",
+    "Author confidence high"
+  ],
+  "safety_or_runtime_flags": [],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message_1350129252976168992",
+    "discord_attachment_1350129253861167114",
+    "hyp_file_Butterfly_Swarm_V1.hyp",
+    "static_analysis_summary",
+    "index_js_excerpt",
+    "v2_json",
+    "author_discord_user_id_601886221072990251",
+    "discord_channel_\ud83c\udfa8\u2502showcase"
+  ]
+}

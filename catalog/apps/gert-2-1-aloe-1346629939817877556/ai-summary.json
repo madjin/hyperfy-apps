@@ -1,0 +1,42 @@
+{
+  "app_id": "gert-2-1-aloe-1346629939817877556",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:45:42+00:00",
+  "one_liner": "Gert-2-1-aloe clones a cube up to 100 times, randomly placing, rotating, and scaling each clone within a configurable area via a UI.",
+  "primary_use_case": "Populate a 3D scene with a configurable number of randomly positioned and sized cube instances for quick prototyping or visual variety.",
+  "feature_tags": [
+    "clone",
+    "random",
+    "distribution",
+    "configurable",
+    "3d",
+    "model",
+    "script",
+    "ui"
+  ],
+  "interaction_modes": [
+    "ui",
+    "action"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "low",
+  "networking_profile": "none",
+  "preview_recommendation": "Add a screenshot or short video showing the cloned cubes distributed across the area to give users a visual sense of the app's effect.",
+  "manifest_quality_notes": [
+    "no_media_found",
+    "script_simple",
+    "author_confidence_high"
+  ],
+  "safety_or_runtime_flags": [
+    "no_media_found"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message:1346629939817877556",
+    "discord_attachment:1346629938626953306",
+    "hyp_file:Gert-2-1-aloe.hyp",
+    "author:0mka",
+    "channel:#\ud83c\udfa8\u2502showcase",
+    "timestamp:2025-03-04T23:46:36.827Z"
+  ]
+}

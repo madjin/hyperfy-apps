@@ -1,0 +1,41 @@
+{
+  "app_id": "mato-pets-1343812585706749963",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:46:48+00:00",
+  "one_liner": "Networked pet that follows players, avoids obstacles, and can be adopted.",
+  "primary_use_case": "Adds a companion pet to a Hyperfy world that follows and interacts with players.",
+  "feature_tags": [
+    "follow",
+    "obstacle_avoidance",
+    "emotes",
+    "adopt_action",
+    "networked",
+    "v2"
+  ],
+  "interaction_modes": [
+    "action",
+    "networked",
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "shared_state",
+  "preview_recommendation": "Use the LaunchPartyMP.png fallback image; it clearly shows the pet's visual style and is suitable for the marketplace preview.",
+  "manifest_quality_notes": [
+    "Fallback media used due to missing author-specific preview",
+    "App script appears complete and functional",
+    "Props include idle, walking, and sitting emotes",
+    "Networked behavior with ownership transfer implemented",
+    "No known safety issues",
+    "Metadata gathered from Discord and static analysis"
+  ],
+  "safety_or_runtime_flags": [
+    "media_fallback_any_author"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message",
+    "static_analysis",
+    "hyp_file"
+  ]
+}

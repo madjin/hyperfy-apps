@@ -1,0 +1,45 @@
+{
+  "app_id": "videoplayer-1425504776371830875",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:48:54+00:00",
+  "one_liner": "Video Player app that adds HLS (.m3u8) stream support to the built\u2011in video player.",
+  "primary_use_case": "Play local video files or HLS streams on a configurable surface in Hyperfy worlds.",
+  "feature_tags": [
+    "HLS support",
+    "Video playback",
+    "Looping",
+    "Sync multiplayer",
+    "Surface sizing",
+    "Fit options",
+    "Doublesided",
+    "Placeholder video"
+  ],
+  "interaction_modes": [
+    "ui",
+    "networked",
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "shared_state",
+  "preview_recommendation": "Since no preview media is attached, add a screenshot of the video surface or a short demo clip showing HLS playback; the placeholder video can be used as a fallback preview.",
+  "manifest_quality_notes": [
+    "No preview media found",
+    "HLS support added via videoUrl prop",
+    "Sync logic handles VOD and streams",
+    "Placeholder video used when no source",
+    "Width/height auto\u2011aspect handling"
+  ],
+  "safety_or_runtime_flags": [
+    "no_media_found",
+    "external_url_load"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message",
+    "hyp_file",
+    "static_analysis",
+    "index_js",
+    "v2_json"
+  ]
+}

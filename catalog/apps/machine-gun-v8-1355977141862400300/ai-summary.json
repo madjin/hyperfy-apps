@@ -1,0 +1,40 @@
+{
+  "app_id": "machine-gun-v8-1355977141862400300",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:46:53+00:00",
+  "one_liner": "Machine Gun v8: a networked, overheat\u2011aware weapon with pickup action, UI bar, and rich emote animations.",
+  "primary_use_case": "Provide players with a responsive firearm that tracks overheating, supports reload, and offers visual UI feedback during combat.",
+  "feature_tags": [
+    "overheat",
+    "shooting",
+    "reload",
+    "emotes",
+    "audio",
+    "UI",
+    "weapon"
+  ],
+  "interaction_modes": [
+    "action",
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "heavy",
+  "script_complexity": "high",
+  "networking_profile": "events",
+  "preview_recommendation": "Use the arena test video (p1_arena_test.mp4) to showcase the overheat bar, shooting mechanics, and animation transitions when the gun is picked up.",
+  "manifest_quality_notes": [
+    "Full script and assets present",
+    "Overheat UI implemented",
+    "Author verified",
+    "No preview issues",
+    "All media downloaded",
+    "No flags"
+  ],
+  "safety_or_runtime_flags": [],
+  "confidence": "high",
+  "evidence_refs": [
+    "https://cdn.discordapp.com/attachments/1355236264848265346/1355977141468139540/Machine_Gun_v8.hyp",
+    "discord_message_id:1355977141862400300",
+    "author_discord_id:1099579050378399806"
+  ]
+}

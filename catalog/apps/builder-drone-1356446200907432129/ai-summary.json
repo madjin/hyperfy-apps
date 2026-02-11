@@ -1,0 +1,43 @@
+{
+  "app_id": "builder-drone-1356446200907432129",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:44:23+00:00",
+  "one_liner": "Configure a keybind to toggle a controllable drone for first\u2011person building, holding the key to enter or exit flight.",
+  "primary_use_case": "Allow players to remotely control a drone for building in first\u2011person mode without staying near the drone, using a customizable keybind and hold duration.",
+  "feature_tags": [
+    "drone",
+    "first-person",
+    "keybind",
+    "building",
+    "hold-to-toggle",
+    "multiplayer",
+    "networked",
+    "customizable"
+  ],
+  "interaction_modes": [
+    "action",
+    "trigger",
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "events",
+  "preview_recommendation": "Use the provided mp4 video (m2_xyz-builder-drone-x501.mp4) as the primary preview; it shows the drone in action and highlights the key\u2011hold toggle mechanic.",
+  "manifest_quality_notes": [
+    "Media fallback author used; preview is not author\u2011specific.",
+    "Minor mismatch: description mentions hold duration 1\u202fs while script default is 0.5\u202fs.",
+    "All required assets (model, script, media) are present and optimized."
+  ],
+  "safety_or_runtime_flags": [
+    "media_fallback_any_author"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message",
+    "hyp_file",
+    "static_analysis",
+    "app_files_context",
+    "discord_context"
+  ]
+}

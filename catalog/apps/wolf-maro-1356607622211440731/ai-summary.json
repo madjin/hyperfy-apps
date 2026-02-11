@@ -1,0 +1,42 @@
+{
+  "app_id": "wolf-maro-1356607622211440731",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:49:00+00:00",
+  "one_liner": "A quick demo app showcasing skinned mesh support and random animation playback on pointer click for the latest Hyperfy dev branch.",
+  "primary_use_case": "Demonstrates skinned mesh rendering and animation playback, letting users test animation on the latest Hyperfy dev branch.",
+  "feature_tags": [
+    "skinned mesh",
+    "animation",
+    "random animation",
+    "pointer interaction",
+    "GLTF model",
+    "demo",
+    "dev branch"
+  ],
+  "interaction_modes": [
+    "action",
+    "trigger"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none",
+  "preview_recommendation": "Use the primary PNG preview (p4_image.png) as it clearly shows the model; no additional media required.",
+  "manifest_quality_notes": [
+    "fallback media used",
+    "author confidence high",
+    "script simple and self-contained",
+    "no networking",
+    "media review not needed"
+  ],
+  "safety_or_runtime_flags": [
+    "media_fallback_any_author"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message",
+    "hyp_file",
+    "static_analysis",
+    "author_discord",
+    "media_fallback_flag"
+  ]
+}

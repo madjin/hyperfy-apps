@@ -1,0 +1,61 @@
+{
+  "app_id": "builder-drone-x501-1356441740357406801",
+  "app_slug": "builder-drone-x501",
+  "app_name": "Builder_Drone_X501",
+  "source": {
+    "hyp_filename": "Builder_Drone_X501.hyp",
+    "discord_attachment_id": "1356441739883319408",
+    "discord_message_id": "1356441740357406801",
+    "discord_channel": "\u26a1\u2502general",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-04-01T01:35:12.370Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/958209074045026327/1356441739883319408/Builder_Drone_X501.hyp?ex=697967d0&is=69781650&hm=b7acedf7a94fea7aa6a0a38882b83faf7132f67fb98b7cf5a82e057cb06c9058&"
+  },
+  "author": {
+    "display_name": "ash",
+    "discord_user_id": "179546010303856640",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "drop this in your world and you can build in first person flying mode.",
+    "raw_message_content": "drop this in your world and you can build in first person flying mode.",
+    "summary_excerpt": "Builder Drone X501.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/builder-drone-x501",
+    "v2_json_path": "v2/builder-drone-x501/builder-drone-x501.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Builder_Drone_X501.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/Builder_Drone_X501_1356441740357406801/p0_xyz-builder-drone-x501.mp4",
+    "media_type": ".mp4",
+    "selection_reason": "same_message",
+    "is_fallback_any_author": false
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/Builder_Drone_X501_1356441740357406801/p0_xyz-builder-drone-x501.mp4",
+      "original_filename": "xyz-builder-drone-x501.mp4",
+      "content_type": "video/mp4",
+      "relative_index": 0,
+      "same_author": true,
+      "selection_reason": "same_message",
+      "size_bytes": 4190300,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1356441739052978196"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

@@ -1,0 +1,39 @@
+{
+  "app_id": "cube-1-1355371621468209172",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:44:48+00:00",
+  "one_liner": "Cube_1 app scrolls a mesh texture based on a configurable speed property, using an unlinked mesh.",
+  "primary_use_case": "Dynamic texture scrolling on a cube model for visual effects.",
+  "feature_tags": [
+    "texture_scroll",
+    "speed_control",
+    "unlinked_mesh",
+    "ui_config",
+    "hyperfy_app",
+    "visual_effect"
+  ],
+  "interaction_modes": [
+    "ui",
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none",
+  "preview_recommendation": "Preview video demonstrates the scrolling texture effect on the unlinked cube; suitable for visual inspection.",
+  "manifest_quality_notes": [
+    "All required assets present",
+    "Author confidence high",
+    "No additional review needed",
+    "Preview media verified",
+    "Props extracted",
+    "Script analysis complete"
+  ],
+  "safety_or_runtime_flags": [],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message_1355371491146993774",
+    "discord_message_1355371621468209172",
+    "hyp_file_Cube_1.hyp",
+    "media_m2_xyz-unlinked-uvscroll.mp4"
+  ]
+}

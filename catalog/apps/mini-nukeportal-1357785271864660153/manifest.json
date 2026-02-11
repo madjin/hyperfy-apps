@@ -1,0 +1,49 @@
+{
+  "app_id": "mini-nukeportal-1357785271864660153",
+  "app_slug": "mini-nukeportal",
+  "app_name": "MINI-NukePORTAL",
+  "source": {
+    "hyp_filename": "MINI-NukePORTAL.hyp",
+    "discord_attachment_id": "1357785271701078036",
+    "discord_message_id": "1357785271864660153",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-04-04T18:33:55.243Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1357785271701078036/MINI-NukePORTAL.hyp?ex=69790513&is=6977b393&hm=aa86a0d77f73d900c362ac750bc113ed9dbbfffbe4577f3750015b4fc3909314&"
+  },
+  "author": {
+    "display_name": "~/drdoge.eth",
+    "discord_user_id": "357905702926286858",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "MINI NukePORTAL.hyp",
+    "raw_message_content": "",
+    "summary_excerpt": "MINI NukePORTAL.hyp",
+    "source_priority_used": "summary_excerpt"
+  },
+  "links": {
+    "v2_app_dir": "v2/mini-nukeportal",
+    "v2_json_path": "v2/mini-nukeportal/mini-nukeportal.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/MINI-NukePORTAL.md"
+  },
+  "preview": {
+    "primary_media_path": null,
+    "media_type": null,
+    "selection_reason": null,
+    "is_fallback_any_author": false
+  },
+  "media": [],
+  "status": {
+    "has_preview": false,
+    "needs_media_review": true,
+    "needs_author_review": false,
+    "flags": [
+      "no_media_found"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

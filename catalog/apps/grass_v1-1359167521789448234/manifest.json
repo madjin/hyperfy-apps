@@ -1,0 +1,63 @@
+{
+  "app_id": "grass_v1-1359167521789448234",
+  "app_slug": "grass_v1",
+  "app_name": "Grass_V1",
+  "source": {
+    "hyp_filename": "Grass_V1.hyp",
+    "discord_attachment_id": "1359167521424408616",
+    "discord_message_id": "1359167521789448234",
+    "discord_channel": "\u26a1\u2502general",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-04-08T14:06:29.306Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/958209074045026327/1359167521424408616/Grass_V1.hyp?ex=69796f25&is=69781da5&hm=a2263a4dcf5afe28d30b0650f77331a8ffb3ff7cdb120241a68646d07eed7e58&"
+  },
+  "author": {
+    "display_name": "Gert-Jan Akerboom",
+    "discord_user_id": "601886221072990251",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "<@309735511461724171>  i made a simple grass particle system today, it has the wind animation so it looks like there is a little breeze.\nIt definitely needs some more work on the code and on the meshes but it looks pretty cool already. Play around with the settings and let me know what you think. I especially like the cluster settings as it can make it look a bit more realistic when the grass is growing in little groups. I added up to 10000 grass particles and the fps stayed at 60 so i think it performs pretty well : )",
+    "raw_message_content": "<@309735511461724171>  i made a simple grass particle system today, it has the wind animation so it looks like there is a little breeze.\nIt definitely needs some more work on the code and on the meshes but it looks pretty cool already. Play around with the settings and let me know what you think. I especially like the cluster settings as it can make it look a bit more realistic when the grass is growing in little groups. I added up to 10000 grass particles and the fps stayed at 60 so i think it performs pretty well : )",
+    "summary_excerpt": "Grass V1.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/grass_v1",
+    "v2_json_path": "v2/grass_v1/grass_v1.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Grass_V1.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/Grass_V1_1359167521789448234/p4_image.png",
+    "media_type": ".png",
+    "selection_reason": "any_author_fallback",
+    "is_fallback_any_author": true
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/Grass_V1_1359167521789448234/p4_image.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": 4,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 1193416,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1359168531412811816"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [
+      "media_fallback_any_author"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

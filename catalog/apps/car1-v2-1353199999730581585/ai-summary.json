@@ -1,0 +1,48 @@
+{
+  "app_id": "car1-v2-1353199999730581585",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:44:46+00:00",
+  "one_liner": "car1-v2 adds improved anti-roll suspension to a car model, providing realistic physics, steering, and acceleration controls.",
+  "primary_use_case": "Vehicle physics simulation with enhanced anti-roll and suspension dynamics.",
+  "feature_tags": [
+    "anti-roll",
+    "suspension",
+    "steering",
+    "acceleration",
+    "physics",
+    "raycast",
+    "wheel-grip",
+    "vehicle"
+  ],
+  "interaction_modes": [
+    "action",
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "none",
+  "preview_recommendation": "Add a short video or screenshot showing the car driving with the new anti-roll behavior to improve discoverability.",
+  "manifest_quality_notes": [
+    "No preview media available",
+    "Media review needed",
+    "Metadata extracted from .hyp file",
+    "Assumptions based on script analysis",
+    "No network features detected",
+    "Confidence high for author identity"
+  ],
+  "safety_or_runtime_flags": [
+    "no_media_found",
+    "needs_media_review"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "https://cdn.discordapp.com/attachments/994775534733115412/1353199999349162085/car1-v2.hyp",
+    "1353199999730581585",
+    "1353199999349162085",
+    "179546010303856640",
+    "discord_message",
+    "discord_attachment",
+    "discord_channel_\ud83d\udcbb\u2502developers",
+    "discord_timestamp_2025-03-23T02:53:41.176Z"
+  ]
+}

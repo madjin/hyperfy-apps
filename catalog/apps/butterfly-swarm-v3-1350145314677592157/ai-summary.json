@@ -1,0 +1,38 @@
+{
+  "app_id": "butterfly-swarm-v3-1350145314677592157",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:44:30+00:00",
+  "one_liner": "A configurable 3D butterfly swarm with random movement, flapping, and UI controls for count, scale, and speeds.",
+  "primary_use_case": "Add a visually rich, animated butterfly swarm to a Hyperfy world with customizable parameters via UI.",
+  "feature_tags": [
+    "butterfly",
+    "swarm",
+    "animation",
+    "ui",
+    "configurable",
+    "3d",
+    "randomized",
+    "client-side"
+  ],
+  "interaction_modes": [
+    "ui",
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "none",
+  "preview_recommendation": "Use the provided PNG preview (catalog/discord/hyp_media/Butterfly_Swarm_V3_1350145314677592157/m1_5000.png) as the main visual reference for the app.",
+  "manifest_quality_notes": [
+    "preview available",
+    "author confidence high",
+    "discord source evidence",
+    "v2 json metadata supplied",
+    "no flags or notes"
+  ],
+  "safety_or_runtime_flags": [],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord",
+    "hyp file"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "app_id": "explosion-sprites-1361904724433174649",
+  "app_slug": "explosion-sprites",
+  "app_name": "Explosion_Sprites",
+  "source": {
+    "hyp_filename": "Explosion_Sprites.hyp",
+    "discord_attachment_id": "1361904724118606025",
+    "discord_message_id": "1361904724433174649",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-04-16T03:23:09.271Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1361904724118606025/Explosion_Sprites.hyp?ex=6979811d&is=69782f9d&hm=66ad82a6cc086a232dccf74714ef3cede8be950726d7d98cad6671b8f79c5507&"
+  },
+  "author": {
+    "display_name": "ash",
+    "discord_user_id": "179546010303856640",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "Explosion Sprites.hyp",
+    "raw_message_content": "",
+    "summary_excerpt": "Explosion Sprites.hyp",
+    "source_priority_used": "summary_excerpt"
+  },
+  "links": {
+    "v2_app_dir": "v2/explosion-sprites",
+    "v2_json_path": "v2/explosion-sprites/explosion-sprites.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Explosion_Sprites.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/Explosion_Sprites_1361904724433174649/m1_xyz-particle-demos_2_-_edit.mp4",
+    "media_type": ".mp4",
+    "selection_reason": "same_author_nearby",
+    "is_fallback_any_author": false
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/Explosion_Sprites_1361904724433174649/m1_xyz-particle-demos_2_-_edit.mp4",
+      "original_filename": "xyz-particle-demos_2_-_edit.mp4",
+      "content_type": "video/mp4",
+      "relative_index": -1,
+      "same_author": true,
+      "selection_reason": "same_author_nearby",
+      "size_bytes": 22376201,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1361903616788664400"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

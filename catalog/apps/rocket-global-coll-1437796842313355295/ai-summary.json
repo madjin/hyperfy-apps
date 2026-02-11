@@ -1,0 +1,19 @@
+{
+  "app_id": "rocket-global-coll-1437796842313355295",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:48:11+00:00",
+  "one_liner": "No reliable one-line summary generated.",
+  "primary_use_case": "General Hyperfy app behavior.",
+  "feature_tags": [
+    "unclassified"
+  ],
+  "interaction_modes": [],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "none",
+  "preview_recommendation": "",
+  "manifest_quality_notes": [],
+  "safety_or_runtime_flags": [],
+  "confidence": "medium",
+  "evidence_refs": []
+}

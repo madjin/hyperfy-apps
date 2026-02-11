@@ -1,0 +1,49 @@
+{
+  "app_id": "emote_rom_1-1362219850151231579",
+  "app_slug": "emote_rom_1",
+  "app_name": "Emote_Rom_1",
+  "source": {
+    "hyp_filename": "Emote_Rom_1.hyp",
+    "discord_attachment_id": "1362219849807560896",
+    "discord_message_id": "1362219850151231579",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-04-17T00:15:21.097Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1362219849807560896/Emote_Rom_1.hyp?ex=69795519&is=69780399&hm=25a0e20200330f771222e860f15837eb4fcc08ba561de5b7a4d4212dbf5a8239&"
+  },
+  "author": {
+    "display_name": "~/drdoge.eth",
+    "discord_user_id": "357905702926286858",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "<@722481129449586739>",
+    "raw_message_content": "<@722481129449586739>",
+    "summary_excerpt": "Emote Rom 1.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": null,
+    "v2_json_path": null,
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Emote_Rom_1.md"
+  },
+  "preview": {
+    "primary_media_path": null,
+    "media_type": null,
+    "selection_reason": null,
+    "is_fallback_any_author": false
+  },
+  "media": [],
+  "status": {
+    "has_preview": false,
+    "needs_media_review": true,
+    "needs_author_review": false,
+    "flags": [
+      "no_media_found"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

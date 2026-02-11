@@ -1,0 +1,38 @@
+{
+  "app_id": "camera-manager-test-1352519146201419816",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:44:43+00:00",
+  "one_liner": "CameraManagerTest is a demo app that showcases multiple camera modes (default, follow, orbit, static) with interactive key controls and a UI overlay.",
+  "primary_use_case": "Allows developers to test and demo camera behaviors (follow, orbit, shake) on moving cubes within a Hyperfy world.",
+  "feature_tags": [
+    "camera",
+    "ui",
+    "demo",
+    "cubes",
+    "movement",
+    "shake",
+    "orbit",
+    "follow"
+  ],
+  "interaction_modes": [
+    "action",
+    "ui"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "none",
+  "preview_recommendation": "The preview video clearly demonstrates the C/O/Z key controls, camera mode switching, and cube animations, making it a useful visual reference for developers.",
+  "manifest_quality_notes": [
+    "Clear UI implementation",
+    "Self-contained client script",
+    "Requires Cube node template"
+  ],
+  "safety_or_runtime_flags": [],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_user:466331582458888192",
+    "discord_message:1352519146201419816",
+    "discord_channel:#\ud83d\udcbb\u2502developers",
+    "discord_timestamp:2025-03-21T05:48:13.045Z"
+  ]
+}

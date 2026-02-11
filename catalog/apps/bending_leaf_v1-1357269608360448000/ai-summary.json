@@ -1,0 +1,39 @@
+{
+  "app_id": "bending_leaf_v1-1357269608360448000",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:51:42+00:00",
+  "one_liner": "A simple leaf app that plays a bend animation on a skinned mesh rig; currently lacks interactive click handling.",
+  "primary_use_case": "Play a predefined bend animation on a leaf model, useful for decorative or environmental effects.",
+  "feature_tags": [
+    "animation",
+    "skinned-mesh",
+    "rig",
+    "play",
+    "model",
+    "simple"
+  ],
+  "interaction_modes": [
+    "action"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none",
+  "preview_recommendation": "No preview media is attached; create a screenshot or short video showing the leaf bending animation and, if possible, a UI element for interaction.",
+  "manifest_quality_notes": [
+    "Missing preview media (no_media_found flag).",
+    "App cannot be selected or duplicated via right\u2011click due to skinned mesh limitations.",
+    "Suggested to add an invisible collider node to capture click events.",
+    "Script is minimal and safe, but lacks UI for user interaction.",
+    "Model size is small (~57\u202fKB) and script is tiny (56\u202fbytes)."
+  ],
+  "safety_or_runtime_flags": [
+    "no_media_found"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "APP_FACTS",
+    "APP_FILES_CONTEXT",
+    "DISCORD_CONTEXT",
+    "STATIC_ANALYSIS_SUMMARY_MD"
+  ]
+}

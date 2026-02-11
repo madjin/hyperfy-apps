@@ -1,0 +1,61 @@
+{
+  "app_id": "butterfly-swarm-v6-hyperfly-edition-2-1355068289964970128",
+  "app_slug": "butterfly-swarm-v6-hyperfly-edition-2",
+  "app_name": "Butterfly_Swarm_V6_Hyperfly_edition2",
+  "source": {
+    "hyp_filename": "Butterfly_Swarm_V6_Hyperfly_edition2.hyp",
+    "discord_attachment_id": "1355068289667301427",
+    "discord_message_id": "1355068289964970128",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-03-28T06:37:36.279Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1350129252976168992/1355068289667301427/Butterfly_Swarm_V6_Hyperfly_edition2.hyp?ex=697905f0&is=6977b470&hm=7ee1dae677ab449af2b815ad35b213e9a5a40ef2fe1023b37f6620a996c3fc10&"
+  },
+  "author": {
+    "display_name": "Gert-Jan Akerboom",
+    "discord_user_id": "601886221072990251",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "fixed",
+    "raw_message_content": "fixed",
+    "summary_excerpt": "Butterfly Swarm V6 Hyperfly edition2.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/butterfly-swarm-v6-hyperfly-edition-2",
+    "v2_json_path": "v2/butterfly-swarm-v6-hyperfly-edition-2/butterfly-swarm-v6-hyperfly-edition-2.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Butterfly_Swarm_V6_Hyperfly_edition2.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/Butterfly_Swarm_V6_Hyperfly_edition2_1355068289964970128/p2_1092aa12-4c83-4fd9-bd55-6704eea2f06e.png",
+    "media_type": ".png",
+    "selection_reason": "same_author_nearby",
+    "is_fallback_any_author": false
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/Butterfly_Swarm_V6_Hyperfly_edition2_1355068289964970128/p2_1092aa12-4c83-4fd9-bd55-6704eea2f06e.png",
+      "original_filename": "1092aa12-4c83-4fd9-bd55-6704eea2f06e.png",
+      "content_type": "image/png",
+      "relative_index": 2,
+      "same_author": true,
+      "selection_reason": "same_author_nearby",
+      "size_bytes": 1042491,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1355093782277787708"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

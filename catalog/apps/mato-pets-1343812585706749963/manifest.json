@@ -1,0 +1,102 @@
+{
+  "app_id": "mato-pets-1343812585706749963",
+  "app_slug": "mato-pets",
+  "app_name": "Mato_Pets",
+  "source": {
+    "hyp_filename": "Mato_Pets.hyp",
+    "discord_attachment_id": "1343812585140785233",
+    "discord_message_id": "1343812585706749963",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-02-25T05:11:27.263Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1343021211994820728/1343812585140785233/Mato_Pets.hyp?ex=69799a7f&is=697848ff&hm=e57b657fb5dcbdfb87f64d741b1f76514a4cf114dbeeb628385ec520934cac9b&"
+  },
+  "author": {
+    "display_name": "~/MayD524/Hyperfy",
+    "discord_user_id": "350830819423551488",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "Well I did say tuesday didn't I? Not fully where I wanted it but a nice little demo, much more to come soon",
+    "raw_message_content": "Well I did say tuesday didn't I? Not fully where I wanted it but a nice little demo, much more to come soon",
+    "summary_excerpt": "Mato Pets.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/mato-pets",
+    "v2_json_path": "v2/mato-pets/mato-pets.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Mato_Pets.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/Mato_Pets_1343812585706749963/m1_LaunchPartyMP.png",
+    "media_type": ".png",
+    "selection_reason": "any_author_fallback",
+    "is_fallback_any_author": true
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/Mato_Pets_1343812585706749963/m1_LaunchPartyMP.png",
+      "original_filename": "LaunchPartyMP.png",
+      "content_type": "image/png",
+      "relative_index": -1,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 42671,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1343802488654139412"
+    },
+    {
+      "catalog_path": "catalog/discord/hyp_media/Mato_Pets_1343812585706749963/p5_grape-512-512.jpg",
+      "original_filename": "grape-512-512.jpg",
+      "content_type": "image/jpeg",
+      "relative_index": 5,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 27263,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1344027695993982997"
+    },
+    {
+      "catalog_path": "catalog/discord/hyp_media/Mato_Pets_1343812585706749963/p7_grape-banner-2050-512.jpg",
+      "original_filename": "grape-banner-2050-512.jpg",
+      "content_type": "image/jpeg",
+      "relative_index": 7,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 65522,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1344028145485086811"
+    },
+    {
+      "catalog_path": "catalog/discord/hyp_media/Mato_Pets_1343812585706749963/p8_Screenshot_2025-02-25_at_11.07.00_AM.png",
+      "original_filename": "Screenshot_2025-02-25_at_11.07.00_AM.png",
+      "content_type": "image/png",
+      "relative_index": 8,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 370845,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1344028826602045573"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [
+      "media_fallback_any_author"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

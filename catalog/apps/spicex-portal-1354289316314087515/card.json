@@ -1,0 +1,51 @@
+{
+  "name": "SPICEXPortal",
+  "author": ".hyp shaman",
+  "description": "SPICEXPortal.hyp",
+  "tags": [
+    "teleport",
+    "ui",
+    "audio",
+    "spatial",
+    "particles",
+    "customizable"
+  ],
+  "interaction_modes": [
+    "ui",
+    "trigger",
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking": "none",
+  "preview_url": "catalog/discord/hyp_media/SPICEXPortal_1354289316314087515/p1_brave_iUo8WLJkxq.mp4",
+  "download_path": "v2-hyp/SPICEXPortal.hyp",
+  "created_at": "2025-03-26T03:02:14.488Z",
+  "props": {
+    "portalName": "Google",
+    "subtitle": "You can just go places",
+    "newTab": true,
+    "worldUrl": "https://google.com",
+    "volume": 0.6,
+    "audioType": "music",
+    "loop": false,
+    "spatial": true,
+    "distanceModel": "inverse",
+    "refDistance": 1,
+    "maxDistance": 40,
+    "rolloffFactor": 3,
+    "coneInnerAngle": 360,
+    "coneOuterAngle": 360,
+    "coneOuterGain": 0,
+    "audio": {
+      "type": "audio",
+      "url": "assets/audio.mp3"
+    }
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\nconst portal = app.get('SpiceXPortal')\nconst rim = app.get('Rim')\nconst particle = app.get('Particle')\n\napp.configure([\n\t{\n\t\ttype: 'section',\n\t\tkey: 'general',\n\t\tlabel: 'Portal Settings'\n\t},\n\t{\n\t\tkey: 'portalName',\n\t\ttype: 'text',\n\t\tlabel: 'Warp Destination',\n\t\tinitial: 'Google',\n\t},\n\t{\n\t\tkey: 'subtitle',\n\t\ttype: 'text',\n\t\tlabel: 'Warp Description',\n\t\tinitial: 'You can just go places',\n\t},\n\t{\n\t\tkey: 'worldUrl',\n\t\ttype: 'text',\n\t\tlabel: 'Destination World URL',\n\t\tplaceholder: 'https://google.com',\n\t},\n\t{\n\t\tkey: 'newTab',\n\t\ttype: 'switch',\n\t\tlabel: 'Open in New Tab',\n\t\toptions: [\n\t\t\t{ label: 'Yes', value: true },\n\t\t\t{ label: 'No', value: false }\n\t\t],\n\t\tinitial: true,\n\t\tdescription: 'Whether to open the world in a new tab or the current tab'\n\t},\n\t{\n\t\ttype: 'section',\n\t\tkey: 'audioSection',\n\t\tlabel: 'Audio Settings'\n\t},\n\t{\n\t\ttype: 'file',\n\t\tkey: 'audio',\n\t\tkind: 'audio',\n\t\tlabel: 'Audio File'\n\t},\n\t{\n\t\ttype: 'range',\n\t\tkey: 'volume',\n\t\tlabel: 'Volume',\n\t\tmin: 0,\n\t\tmax: 1,\n\t\tstep: 0.1,\n\t\tinitial: 0.6\n\t},\n\t{\n\t\ttype: 'dropdown',\n\t\tkey: 'audioType',\n\t\tlabel: 'Audio Type',\n\t\toptions: [\n\t\t\t{ label: 'Music', value: 'music' },\n\t\t\t{ label: 'Sound Effect', value: 'sfx' }\n\t\t],\n\t\tinitial: 'music'\n\t},\n\t{\n\t\ttype: 'switch',\n\t\tkey: 'loop',\n\t\tlabel: 'Loop Audio',\n\t\toptions: [\n\t\t\t{ label: 'Loop On', value: true },\n\t\t\t{ label: 'Loop Off', value: false }\n\t\t],\n\t\tinitial: false\n\t},\n\t{\n\t\ttype: 'checkbox',\n\t\tkey: 'spatial',\n\t\tlabel: 'Spatial Audio',\n\t\tinitial: true\n\t},\n\t{\n\t\ttype: 'section',\n\t\tkey: 'spatialSection',\n\t\tlabel: 'Spatial Audio Settings'\n\t},\n\t{\n\t\ttype: 'dropdown',\n\t\tkey: 'distanceModel',\n\t\tlabel: 'Distance Model',\n\t\toptions: [\n\t\t\t{ label: 'Linear', value: 'linear' },\n\t\t\t{ label: 'Inverse', value: 'inverse' },\n\t\t\t{ label: 'Exponential', value: 'exponential' }\n\t\t],\n\t\tinitial: 'inverse'\n\t},\n\t{\n\t\ttype: 'number',\n\t\tkey: 'refDistance',\n\t\tlabel: 'Reference Distance',\n\t\tmin: 0,\n\t\tmax: 10,\n\t\tstep: 0.1,\n\t\tinitial: 1\n\t},\n\t{\n\t\t",
+  "asset_files": [
+    "SPICEX Portal.glb",
+    "SPICEX Portal__image.jpg",
+    "audio.mp3"
+  ]
+}

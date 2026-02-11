@@ -1,0 +1,44 @@
+{
+  "app_id": "teleport-trigger-box-1431333007888748678",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:48:44+00:00",
+  "one_liner": "Customizable teleport trigger box that teleports players to a defined location when they enter a green cube.",
+  "primary_use_case": "Teleport players to a specific coordinate on trigger entry.",
+  "feature_tags": [
+    "teleport",
+    "trigger",
+    "customizable",
+    "collision",
+    "visibility",
+    "scale"
+  ],
+  "interaction_modes": [
+    "trigger",
+    "ui"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "local",
+  "preview_recommendation": "Add a screenshot of the green cube in\u2011world and a short video showing a player entering the trigger and being teleported to the target coordinates.",
+  "manifest_quality_notes": [
+    "No preview media attached",
+    "Primary source is Discord message",
+    "App configuration UI is clearly defined",
+    "Script uses standard Hyperfy APIs",
+    "Model asset is small (\u22482KB)",
+    "Props defaults are sensible"
+  ],
+  "safety_or_runtime_flags": [
+    "no_media_found",
+    "needs_media_review"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message_id:1431333007888748678",
+    "discord_channel:#\ud83d\udcbb\u2502developers",
+    "discord_attachment_id:1431333007783886849",
+    "author_discord_id:722481129449586739",
+    "hyp_filename:TeleportTriggerBox.hyp",
+    "source_timestamp:2025-10-24T17:26:21.962Z"
+  ]
+}

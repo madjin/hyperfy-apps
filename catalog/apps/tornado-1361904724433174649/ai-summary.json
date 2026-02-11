@@ -1,0 +1,44 @@
+{
+  "app_id": "tornado-1361904724433174649",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:48:46+00:00",
+  "one_liner": "Tornado creates a swirling particle effect with configurable image texture, using a GLB model and script.",
+  "primary_use_case": "Add a dynamic tornado-like particle visual to a Hyperfy world, suitable for ambient or dramatic scenes.",
+  "feature_tags": [
+    "particles",
+    "texture",
+    "animation",
+    "visual_effect",
+    "configurable",
+    "glb_model",
+    "script",
+    "demo"
+  ],
+  "interaction_modes": [
+    "ui",
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "none",
+  "preview_recommendation": "Use the provided mp4 preview to assess particle performance; ensure target device can handle ~22MB video and real-time particle count up to 10k.",
+  "manifest_quality_notes": [
+    "No explicit version number in blueprint",
+    "Only basic UI config provided",
+    "Script lacks error handling",
+    "Preview video size may affect load times",
+    "Model size is minimal",
+    "Documentation linked via Discord"
+  ],
+  "safety_or_runtime_flags": [
+    "High particle count may impact performance",
+    "Large preview video size"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message",
+    "hyp_file",
+    "static_analysis",
+    "github_docs"
+  ]
+}

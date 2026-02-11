@@ -1,0 +1,27 @@
+{
+  "name": "Locationator",
+  "author": "MetaRick",
+  "description": "Updated shows rotation as well",
+  "tags": [
+    "ui",
+    "billboard",
+    "position",
+    "rotation",
+    "text",
+    "update"
+  ],
+  "interaction_modes": [
+    "ui",
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "low",
+  "networking": "none",
+  "preview_url": "catalog/discord/hyp_media/Locationator_1363449445173432493/m1_image.png",
+  "download_path": "v2-hyp/Locationator.hyp",
+  "created_at": "2025-04-20T09:41:19.395Z",
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\n// =================================================================\n// World Position and Rotation Text Display Script\n// Displays the world coordinates and rotation of the app object as a compact, billboarded UI text label.\n// =================================================================\n\n// Ensure app, position, and rotation exist\nif (!app || !app.position || !app.rotation) {\n  console.error('[POSITION DISPLAY] App, app.position, or app.rotation not found');\n  return;\n}\n\n// Create UI container\nconst ui = app.create('ui', {\n  width: 270, // Compact width\n  height: 50, // Increased height to fit rotation\n  backgroundColor: 'rgba(0,15,30,0.9)', // Dark background\n});\nui.billboard = 'y'; // Face camera on Y-axis\nui.position.set(0, 1.5, 0); // 1.5 units above app\nui.borderRadius = 8; // Subtle curve\nui.padding = 5; // Tight padding\nui.justifyContent = 'center';\nui.alignItems = 'center';\n\n// Create UI text for position and rotation\nconst positionText = app.create('uitext');\npositionText.value = 'X: 0.00, Y: 0.00, Z: 0.00\\nRX: 0.00, RY: 0.00, RZ: 0.00'; // Initial value, multi-line\npositionText.fontSize = 16; // Small font\npositionText.color = '#ffffff'; // White text\npositionText.textAlign = 'center';\n\n// Add text to UI container\nui.add(positionText);\n\n// Add UI container to app\napp.add(ui);\n\n// Update loop: Update text with world coordinates and rotation\napp.on('update', () => {\n  if (app && app.position && app.rotation) {\n    const pos = app.position;\n    const rot = app.rotation; // Euler angles in radians\n    positionText.value = `X: ${pos.x.toFixed(2)}, Y: ${pos.y.toFixed(2)}, Z: ${pos.z.toFixed(2)}\\nRX: ${rot.x.toFixed(2)}, RY: ${rot.y.toFixed(2)}, RZ: ${rot.z.toFixed(2)}`;\n  }\n});\n\n// Optional: Function to move and rotate the app (for testing)\nfunction moveAndRotateApp(x, y, z, rx, ry, rz) {\n  if (app && app.position && app.rotation) {\n    app.position.set(x, y, z);\n    app.rotation.set(rx,",
+  "asset_files": [
+    "Locationator.glb"
+  ]
+}

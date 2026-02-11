@@ -1,0 +1,41 @@
+{
+  "app_id": "weightpaint_screenui_test1-1395042221425819648",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:48:57+00:00",
+  "one_liner": "Screen\u2011space UI grid that lets users paint grass by clicking squares, placing flower models in the world, visible only within 10\u202fm of the app.",
+  "primary_use_case": "Interactive in\u2011world painting tool for placing grass/flowers via a screen\u2011overlay UI.",
+  "feature_tags": [
+    "ui",
+    "painting",
+    "grid",
+    "grass",
+    "flower",
+    "screen-space",
+    "distance-visibility",
+    "interaction"
+  ],
+  "interaction_modes": [
+    "ui",
+    "action"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "none",
+  "preview_recommendation": "Add a screenshot showing the 10\u00d710 UI grid overlay and a short video of the grass\u2011painting interaction to improve discoverability.",
+  "manifest_quality_notes": [
+    "No media found in archive",
+    "UI visibility based on player distance",
+    "Flower placement logic uses model node named \"flower\"",
+    "Script runs client\u2011side only",
+    "Potential missing model node reference",
+    "Missing preview flag"
+  ],
+  "safety_or_runtime_flags": [
+    "no_media_found"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord",
+    "hyp_file"
+  ]
+}

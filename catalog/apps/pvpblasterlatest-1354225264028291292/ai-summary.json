@@ -1,0 +1,46 @@
+{
+  "app_id": "pvpblasterlatest-1354225264028291292",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:47:46+00:00",
+  "one_liner": "A customizable PVP weapon with lightning effects, emote animations, and optional health regeneration for first\u2011person shooters.",
+  "primary_use_case": "Provide players with a configurable first\u2011person shooter weapon featuring damage, fire rate, headshot multiplier, visual lightning, sound effects, and optional health regeneration.",
+  "feature_tags": [
+    "weapon",
+    "damage",
+    "first-person",
+    "emote",
+    "particles",
+    "audio",
+    "health-regeneration",
+    "configurable"
+  ],
+  "interaction_modes": [
+    "action",
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "high",
+  "networking_profile": "events",
+  "preview_recommendation": "Add a short video or screenshot showing the weapon\u2019s lightning effect, emote animation, and UI configuration to improve preview quality.",
+  "manifest_quality_notes": [
+    "No preview media attached",
+    "Full UI configuration present",
+    "Particle system with pool implementation",
+    "Optional health regeneration settings",
+    "Audio fallback to default sound"
+  ],
+  "safety_or_runtime_flags": [
+    "no_media_found",
+    "audio_fallback",
+    "particle_pool",
+    "configurable_volume"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message",
+    "hyp_file",
+    "static_analysis",
+    "app_files_context"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "app_id": "rocket-launcher-v3-1364972260766646293",
+  "app_slug": "rocket-launcher-v3",
+  "app_name": "Rocket_Launcher_V3",
+  "source": {
+    "hyp_filename": "Rocket_Launcher_V3.hyp",
+    "discord_attachment_id": "1364972260754198588",
+    "discord_message_id": "1364972260766646293",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-04-24T14:32:26.925Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1346623562462527649/1364972260754198588/Rocket_Launcher_V3.hyp?ex=6979753a&is=697823ba&hm=4482676cdcce8a5ba21136cc04a24388ed187023c0da5541f0a9e20061336148&"
+  },
+  "author": {
+    "display_name": "Gert-Jan Akerboom",
+    "discord_user_id": "601886221072990251",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "rocket launcher",
+    "raw_message_content": "rocket launcher",
+    "summary_excerpt": "Rocket Launcher V3.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/rocket-launcher-v3",
+    "v2_json_path": "v2/rocket-launcher-v3/rocket-launcher-v3.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Rocket_Launcher_V3.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/Rocket_Launcher_V3_1364972260766646293/m1_World_-_Google_Chrome_24.04.2025_14_53_08.png",
+    "media_type": ".png",
+    "selection_reason": "same_author_nearby",
+    "is_fallback_any_author": false
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/Rocket_Launcher_V3_1364972260766646293/m1_World_-_Google_Chrome_24.04.2025_14_53_08.png",
+      "original_filename": "World_-_Google_Chrome_24.04.2025_14_53_08.png",
+      "content_type": "image/png",
+      "relative_index": -1,
+      "same_author": true,
+      "selection_reason": "same_author_nearby",
+      "size_bytes": 401968,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1364947396399861770"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

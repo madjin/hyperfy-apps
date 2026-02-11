@@ -1,0 +1,25 @@
+{
+  "name": "Teleport_Command_v2",
+  "author": "ash",
+  "description": "Fixed the storage mechanic here",
+  "tags": [
+    "teleport",
+    "command",
+    "button",
+    "configurable",
+    "state_sync",
+    "server_client"
+  ],
+  "interaction_modes": [
+    "ui",
+    "trigger",
+    "action",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking": "events",
+  "preview_url": null,
+  "download_path": "v2-hyp/Teleport_Command_v2.hyp",
+  "created_at": "2025-06-08T04:28:19.667Z"
+}

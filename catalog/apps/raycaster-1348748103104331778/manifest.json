@@ -1,0 +1,49 @@
+{
+  "app_id": "raycaster-1348748103104331778",
+  "app_slug": "raycaster",
+  "app_name": "Raycaster",
+  "source": {
+    "hyp_filename": "Raycaster.hyp",
+    "discord_attachment_id": "1348748102810603610",
+    "discord_message_id": "1348748103104331778",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-03-10T20:03:26.308Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1346623562462527649/1348748102810603610/Raycaster.hyp?ex=69791a0e&is=6977c88e&hm=0c6be9bddb91de18f8181f89e72a569e94a0b96f9750512240150ea515c500b4&"
+  },
+  "author": {
+    "display_name": "Saori",
+    "discord_user_id": "1099579050378399806",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "just boilerplate server raycast stuff and places an object where it hit",
+    "raw_message_content": "just boilerplate server raycast stuff and places an object where it hit",
+    "summary_excerpt": "Raycaster.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/raycaster",
+    "v2_json_path": "v2/raycaster/raycaster.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Raycaster.md"
+  },
+  "preview": {
+    "primary_media_path": null,
+    "media_type": null,
+    "selection_reason": null,
+    "is_fallback_any_author": false
+  },
+  "media": [],
+  "status": {
+    "has_preview": false,
+    "needs_media_review": true,
+    "needs_author_review": false,
+    "flags": [
+      "no_media_found"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

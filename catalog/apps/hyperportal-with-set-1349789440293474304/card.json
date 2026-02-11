@@ -1,0 +1,32 @@
+{
+  "name": "HyperPortal_with_Set",
+  "author": "0mka",
+  "description": "Thanks <@179546010303856640> for adding the set to this similar to the elementals store setup.",
+  "tags": [
+    "teleport",
+    "admin ui",
+    "position set",
+    "interaction",
+    "multiplayer",
+    "custom ui"
+  ],
+  "interaction_modes": [
+    "ui",
+    "trigger",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking": "events",
+  "preview_url": null,
+  "download_path": "v2-hyp/HyperPortal_with_Set.hyp",
+  "created_at": "2025-03-13T17:01:20.441Z",
+  "props": {
+    "zone1": "1,0,0"
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\napp.configure([\n\t{\n\t\tkey: 'btns',\n\t\ttype: 'buttons',\n\t\tlabel: 'Position',\n\t\tbuttons: [\n\t\t\t{ \n\t\t\t\tlabel: 'Set', \n\t\t\t\tonClick: () => {\n\t\t\t\t\tconst position = world.getPlayer().position.toArray()\n\t\t\t\t\tapp.send('position', position)\n\t\t\t\t}\n\t\t\t}\n\t\t]\n\t}\n])\n\nif (world.isServer) {\n\tconst key = `${app.instanceId}:position`\n\tlet position = world.get(key)\n\tapp.on('position', (arr, playerId) => {\n\t\tconst player = world.getPlayer(playerId)\n\t\tif (!player.isAdmin) return\n\t\tposition = arr\n\t\tworld.set(key, arr)\n\t\tapp.send('position', arr)\n\t})\n}\n\nif (world.isClient) {\n\tlet position = null\n\t// attempt to get position from state\n\tif (app.state.position) {\n\t\tposition = new Vector3().fromArray(app.state.position)\n\t}\n\t// listen to server position updates\n\tapp.on('position', arr => {\n\t\tposition = new Vector3().fromArray(arr)\n\t})\n\t// teleport on trigger enter\n\tconst body = app.get('Portal')\n\tbody.onTriggerEnter = e => {\n\t\tif (e.playerId && position) {\n\t\t\tconst player = world.getPlayer(e.playerId)\n\t\t\tplayer.teleport(position)\n\t\t}\n\t}\n}\n\n\n\n}\n",
+  "asset_files": [
+    "HyperPortal with Set.glb",
+    "HyperPortal with Set__image.png"
+  ]
+}

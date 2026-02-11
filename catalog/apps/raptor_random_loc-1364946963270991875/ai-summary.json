@@ -1,0 +1,43 @@
+{
+  "app_id": "raptor_random_loc-1364946963270991875",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:47:56+00:00",
+  "one_liner": "A self\u2011directed raptor NPC that wanders within a 100\u202fm radius, randomly switches between walk, run, idle and talk emotes, and shows its world position and rotation via a floating UI label.",
+  "primary_use_case": "Add a lively, autonomous NPC with random movement and state changes to a Hyperfy world, useful for ambience, testing, or interactive storytelling.",
+  "feature_tags": [
+    "autonomous",
+    "random-movement",
+    "emote-animations",
+    "range-limit",
+    "position-ui",
+    "npc",
+    "avatar",
+    "walk-run-idle-talk"
+  ],
+  "interaction_modes": [
+    "passive",
+    "ui"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "none",
+  "preview_recommendation": "Use the provided screenshot (World\u2011Chrome\u202f24.04.2025) which clearly shows the raptor avatar with its UI label displaying coordinates; it conveys both the visual model and the UI feature.",
+  "manifest_quality_notes": [
+    "All required assets (avatar, model, emotes, script) are bundled.",
+    "Script includes a clear state machine and configurable range limit.",
+    "UI updates position/rotation each frame without heavy calculations.",
+    "No external network calls or dependencies.",
+    "Randomness uses Math.random, ensuring variability per instance.",
+    "Potential performance impact minimal due to simple physics and per\u2011frame updates."
+  ],
+  "safety_or_runtime_flags": [
+    "no-network",
+    "no-unsafe-apis",
+    "no-external-code"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord://cdn.discordapp.com/attachments/1346623562462527649/1364946963195232347/Raptor_random_loc.hyp",
+    "discord_message_id:1364946963270991875"
+  ]
+}

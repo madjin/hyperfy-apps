@@ -1,0 +1,49 @@
+{
+  "app_id": "eagles-v1-1356075244355457266",
+  "app_slug": "eagles-v1",
+  "app_name": "Eagles_v1",
+  "source": {
+    "hyp_filename": "Eagles_v1.hyp",
+    "discord_attachment_id": "1356075244028166254",
+    "discord_message_id": "1356075244355457266",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-03-31T01:18:52.914Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1356075244028166254/Eagles_v1.hyp?ex=697963fc&is=6978127c&hm=5b527c3365babcc471244da414bb3bf38e266adb02e0da802b201f42031615c3&"
+  },
+  "author": {
+    "display_name": "Valiant",
+    "discord_user_id": "540822785371668480",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "it's wip, think i stripped the sounds out",
+    "raw_message_content": "it's wip, think i stripped the sounds out",
+    "summary_excerpt": "Eagles v1.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/eagles-v1",
+    "v2_json_path": "v2/eagles-v1/eagles-v1.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Eagles_v1.md"
+  },
+  "preview": {
+    "primary_media_path": null,
+    "media_type": null,
+    "selection_reason": null,
+    "is_fallback_any_author": false
+  },
+  "media": [],
+  "status": {
+    "has_preview": false,
+    "needs_media_review": true,
+    "needs_author_review": false,
+    "flags": [
+      "no_media_found"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

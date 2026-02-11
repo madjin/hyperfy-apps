@@ -1,0 +1,87 @@
+{
+  "app_id": "health-1339121960759721996",
+  "app_slug": "health",
+  "app_name": "Health",
+  "source": {
+    "hyp_filename": "Health.hyp",
+    "discord_attachment_id": "1339121964584796163",
+    "discord_message_id": "1339121960759721996",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-02-12T06:32:35.128Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1339121960759721996/1339121964584796163/Health.hyp?ex=697904c4&is=6977b344&hm=6041006d119b02d358435790ee7449f94c1b4b9b79dd63aebf7edea4499a0903&"
+  },
+  "author": {
+    "display_name": "maximus",
+    "discord_user_id": "793486941349216288",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "Remixed Metamike's Rover+Loot apps and hacked them to mock up a space trading sim.\n\nWill keep iterating over concept over the next months grabbing what I can from folks to hobble together a trading sim <:pepestonks:999875339390029894> \n\nUsed assets from poly pizza, void runners with music by Dvir Silver from Pixabay.",
+    "raw_message_content": "Remixed Metamike's Rover+Loot apps and hacked them to mock up a space trading sim.\n\nWill keep iterating over concept over the next months grabbing what I can from folks to hobble together a trading sim <:pepestonks:999875339390029894> \n\nUsed assets from poly pizza, void runners with music by Dvir Silver from Pixabay.",
+    "summary_excerpt": "Health.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/health",
+    "v2_json_path": "v2/health/health.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Health.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/Health_1339121960759721996/p0_vt01.png",
+    "media_type": ".png",
+    "selection_reason": "same_message",
+    "is_fallback_any_author": false
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/Health_1339121960759721996/p0_vt01.png",
+      "original_filename": "vt01.png",
+      "content_type": "image/png",
+      "relative_index": 0,
+      "same_author": true,
+      "selection_reason": "same_message",
+      "size_bytes": 91763,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1339121961598455881"
+    },
+    {
+      "catalog_path": "catalog/discord/hyp_media/Health_1339121960759721996/p0_vt02.png",
+      "original_filename": "vt02.png",
+      "content_type": "image/png",
+      "relative_index": 0,
+      "same_author": true,
+      "selection_reason": "same_message",
+      "size_bytes": 70501,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1339121962060087306"
+    },
+    {
+      "catalog_path": "catalog/discord/hyp_media/Health_1339121960759721996/p0_Rover_Ships_and_Loot_Planets_in_Hyperfy.mp4",
+      "original_filename": "Rover_Ships_and_Loot_Planets_in_Hyperfy.mp4",
+      "content_type": "video/mp4",
+      "relative_index": 0,
+      "same_author": true,
+      "selection_reason": "same_message",
+      "size_bytes": 4337472,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1339121966178762845"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

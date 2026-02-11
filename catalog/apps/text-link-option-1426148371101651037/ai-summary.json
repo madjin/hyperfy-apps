@@ -1,0 +1,42 @@
+{
+  "app_id": "text-link-option-1426148371101651037",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:48:40+00:00",
+  "one_liner": "A configurable text UI element that can display custom text and optionally open a hyperlink when clicked.",
+  "primary_use_case": "Display customizable text in the world with optional click\u2011through link for UI, menus, or informational panels.",
+  "feature_tags": [
+    "text",
+    "link",
+    "ui",
+    "customizable",
+    "clickable",
+    "3d",
+    "lightweight",
+    "hover"
+  ],
+  "interaction_modes": [
+    "ui",
+    "action"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none",
+  "preview_recommendation": "Use the provided PNG preview as the app thumbnail; it clearly shows the UI element with background and text, suitable for catalog listings.",
+  "manifest_quality_notes": [
+    "preview is author fallback",
+    "media review not required",
+    "author review not required",
+    "app is private",
+    "no networking used",
+    "script is straightforward"
+  ],
+  "safety_or_runtime_flags": [
+    "media_fallback_any_author"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "https://cdn.discordapp.com/attachments/1031058655581323324/1426148370971361370/Text_link_option.hyp",
+    "1426148371101651037",
+    "1426204611764818031"
+  ]
+}

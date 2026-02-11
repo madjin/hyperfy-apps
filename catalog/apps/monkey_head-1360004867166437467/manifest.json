@@ -1,0 +1,61 @@
+{
+  "app_id": "monkey_head-1360004867166437467",
+  "app_slug": "monkey_head",
+  "app_name": "monkey_head",
+  "source": {
+    "hyp_filename": "monkey_head.hyp",
+    "discord_attachment_id": "1360004866717515958",
+    "discord_message_id": "1360004867166437467",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-04-10T21:33:48.001Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1360004866717515958/monkey_head.hyp?ex=69792f3b&is=6977ddbb&hm=3c3ce312bba51b416d9ebaf3c12596d16167ac4f962ebe8384d61d0b76463eca&"
+  },
+  "author": {
+    "display_name": ".hyp shaman",
+    "discord_user_id": "297290503181959169",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "here",
+    "raw_message_content": "here",
+    "summary_excerpt": "monkey head.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/monkey_head",
+    "v2_json_path": "v2/monkey_head/monkey_head.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/monkey_head.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/monkey_head_1360004867166437467/m2_image.png",
+    "media_type": ".png",
+    "selection_reason": "same_author_nearby",
+    "is_fallback_any_author": false
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/monkey_head_1360004867166437467/m2_image.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": -2,
+      "same_author": true,
+      "selection_reason": "same_author_nearby",
+      "size_bytes": 11568,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1360004590300434452"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

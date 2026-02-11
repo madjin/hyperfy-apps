@@ -1,0 +1,63 @@
+{
+  "app_id": "mato-pet-v2-1345214513477189663",
+  "app_slug": "mato-pet-v2",
+  "app_name": "Mato_Pet_v2",
+  "source": {
+    "hyp_filename": "Mato_Pet_v2.hyp",
+    "discord_attachment_id": "1345214513989025873",
+    "discord_message_id": "1345214513477189663",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-03-01T02:02:12.890Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1343021211994820728/1345214513989025873/Mato_Pet_v2.hyp?ex=69796e25&is=69781ca5&hm=b112f1be58e2d05379f1689be6af173b61f40302099d5c2969b65e13e3083ab5&"
+  },
+  "author": {
+    "display_name": "~/MayD524/Hyperfy",
+    "discord_user_id": "350830819423551488",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "Updated hyper pets to use modules >:) https://github.com/Bitmato-Studio/MatoPet",
+    "raw_message_content": "Updated hyper pets to use modules >:) https://github.com/Bitmato-Studio/MatoPet",
+    "summary_excerpt": "Mato Pet v2.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/mato-pet-v2",
+    "v2_json_path": "v2/mato-pet-v2/mato-pet-v2.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Mato_Pet_v2.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/Mato_Pet_v2_1345214513477189663/p2_image.png",
+    "media_type": ".png",
+    "selection_reason": "any_author_fallback",
+    "is_fallback_any_author": true
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/Mato_Pet_v2_1345214513477189663/p2_image.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": 2,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 270051,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1345254814031941715"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [
+      "media_fallback_any_author"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

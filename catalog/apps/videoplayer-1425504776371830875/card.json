@@ -1,0 +1,47 @@
+{
+  "name": "VideoPlayer",
+  "author": "Valiant",
+  "description": "Video Player\n\nModification of built in video app with HLS (.m3u8) stream support.",
+  "tags": [
+    "hls support",
+    "video playback",
+    "looping",
+    "sync multiplayer",
+    "surface sizing",
+    "fit options"
+  ],
+  "interaction_modes": [
+    "ui",
+    "networked",
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking": "shared_state",
+  "preview_url": null,
+  "download_path": "v2-hyp/VideoPlayer.hyp",
+  "created_at": "2025-10-08T15:27:03.285Z",
+  "props": {
+    "width": 0,
+    "height": 2,
+    "fit": "cover",
+    "lit": false,
+    "shadows": true,
+    "video": null,
+    "loop": true,
+    "volume": 1,
+    "sync": false,
+    "doubleside": true,
+    "placeholder": {
+      "type": "video",
+      "url": "assets/placeholder.mp4"
+    },
+    "videoUrl": ""
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\napp.configure([\n  {\n    key: 'placeholder',\n    type: 'file',\n    kind: 'video',\n    label: 'Placeholder',\n    hidden: true,\n  },\n  {\n    key: 'video',\n    type: 'file',\n    kind: 'video',\n    label: 'Video',\n    hint: 'The video file to play.'\n  },\n  // NEW: optional HLS stream URL (non-breaking)\n  {\n    key: 'videoUrl',\n    type: 'text',\n    label: 'Video URL',\n    placeholder: '.m3u8',\n    hint: 'The URL to an HLS (m3u8) video manifest.'\n  },\n  {\n    key: 'loop',\n    type: 'toggle',\n    label: 'Loop',\n    hint: 'Whether the video should loop or stop when it reaches the end.',\n    initial: true,\n  },\n  {\n    key: 'sync',\n    type: 'toggle',\n    label: 'Sync',\n    hint: 'When enabled, video state will be synchronized over multiplayer.',\n    initial: true,\n  },\n  {\n    key: 'surface',\n    type: 'section',\n    label: 'Surface'\n  },\n  {\n    key: 'width',\n    type: 'number',\n    label: 'Width',\n    dp: 1,\n    step: 0.1,\n    bigStep: 1,\n    hint: 'The width of the surface. This can be set to zero as long as you provide a height, and the width will automatically adapt to the videos aspect ratio.',\n    initial: 0,\n  },\n  {\n    key: 'height',\n    type: 'number',\n    label: 'Height',\n    dp: 1,\n    step: 0.1,\n    bigStep: 1,\n    hint: 'The height of the surface. This can be set to zero as long as you provide a width, and the height will automatically adapt to the videos aspect ratio.',\n    initial: 1,\n  },\n  {\n    key: 'fit',\n    type: 'switch',\n    label: 'Fit',\n    options: [\n      { label: 'Stretch', value: 'none' },\n      { label: 'Cover', value: 'cover' },\n      { label: 'Contain', value: 'contain' },\n    ],\n    hint: 'How the video should be scaled to fit the surface. This is only relevant when both height and width are set.',\n    initial: 'none',\n  },\n  {\n    key: 'lit',\n    type: 'toggle',\n    label: 'Lit',\n    hint: 'Whether the surface reacts to world lighting or not.'\n  },\n  {\n    key: 'shadows'",
+  "asset_files": [
+    "VideoPlayer.glb",
+    "VideoPlayer__image.png",
+    "placeholder.mp4"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "name": "JUKEBOX_UI",
+  "author": "~/drdoge.eth",
+  "description": "JUKEBOX UI.hyp",
+  "tags": [
+    "audio",
+    "playlist",
+    "ui",
+    "visualizer",
+    "spatial",
+    "customizable"
+  ],
+  "interaction_modes": [
+    "ui",
+    "action"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking": "none",
+  "preview_url": null,
+  "download_path": "v2-hyp/JUKEBOX_UI.hyp",
+  "created_at": "2025-03-26T17:54:19.828Z",
+  "props": {
+    "volume": 0.5,
+    "title": "Wasteland Jukebox 3000",
+    "track1Name": "Chopper Style",
+    "track2Name": "Nuclear Swing",
+    "track3Name": "Atomic Road",
+    "track4Name": "Desert Mirage",
+    "track5Name": "Neon Canyon",
+    "defaultVolume": 1,
+    "isSpatial": true,
+    "jukeboxColor": "#ff9d00",
+    "track1": {
+      "type": "audio",
+      "url": "assets/track1.mp3"
+    },
+    "track2": null,
+    "track3": null,
+    "track4": null,
+    "track5": null
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\n// WASTELAND JUKEBOX 3000\n// A multi-track audio jukebox for Hyperfy\n\n// Configure our jukebox properties\napp.configure([\n\t{\n\t\tkey: 'title',\n\t\ttype: 'text',\n\t\tlabel: 'Jukebox Title',\n\t\tinitial: 'Wasteland Jukebox 3000'\n\t},\n\t{\n\t\ttype: 'section',\n\t\tlabel: 'Audio Tracks'\n\t},\n\t{\n\t\tkey: 'track1',\n\t\ttype: 'file',\n\t\tkind: 'audio',\n\t\tlabel: 'Track 1'\n\t},\n\t{\n\t\tkey: 'track1Name',\n\t\ttype: 'text',\n\t\tlabel: 'Track 1 Name',\n\t\tinitial: 'Wasteland Blues'\n\t},\n\t{\n\t\tkey: 'track2',\n\t\ttype: 'file',\n\t\tkind: 'audio',\n\t\tlabel: 'Track 2'\n\t},\n\t{\n\t\tkey: 'track2Name',\n\t\ttype: 'text',\n\t\tlabel: 'Track 2 Name',\n\t\tinitial: 'Nuclear Swing'\n\t},\n\t{\n\t\tkey: 'track3',\n\t\ttype: 'file',\n\t\tkind: 'audio',\n\t\tlabel: 'Track 3'\n\t},\n\t{\n\t\tkey: 'track3Name',\n\t\ttype: 'text',\n\t\tlabel: 'Track 3 Name',\n\t\tinitial: 'Atomic Road'\n\t},\n\t{\n\t\tkey: 'track4',\n\t\ttype: 'file',\n\t\tkind: 'audio',\n\t\tlabel: 'Track 4'\n\t},\n\t{\n\t\tkey: 'track4Name',\n\t\ttype: 'text',\n\t\tlabel: 'Track 4 Name',\n\t\tinitial: 'Desert Mirage'\n\t},\n\t{\n\t\tkey: 'track5',\n\t\ttype: 'file',\n\t\tkind: 'audio',\n\t\tlabel: 'Track 5'\n\t},\n\t{\n\t\tkey: 'track5Name',\n\t\ttype: 'text',\n\t\tlabel: 'Track 5 Name',\n\t\tinitial: 'Neon Canyon'\n\t},\n\t{\n\t\ttype: 'section',\n\t\tlabel: 'Jukebox Settings'\n\t},\n\t{\n\t\tkey: 'defaultVolume',\n\t\ttype: 'switch',\n\t\tlabel: 'Default Volume',\n\t\toptions: [\n\t\t\t{ label: 'Low', value: 0.3 },\n\t\t\t{ label: 'Medium', value: 0.6 },\n\t\t\t{ label: 'High', value: 1.0 }\n\t\t],\n\t\tinitial: 0.6\n\t},\n\t{\n\t\tkey: 'isSpatial',\n\t\ttype: 'switch',\n\t\tlabel: 'Audio Type',\n\t\toptions: [\n\t\t\t{ label: 'Spatial (3D)', value: true },\n\t\t\t{ label: 'Global', value: false }\n\t\t],\n\t\tinitial: true\n\t},\n\t{\n\t\tkey: 'jukeboxColor',\n\t\ttype: 'color',\n\t\tlabel: 'Jukebox Accent Color',\n\t\tinitial: '#ff9d00'\n\t}\n])\n\n// Create our playlist from the configured tracks\nconst playlist = []\n// Function to add tracks to playlist if they exist\nfunction addTrackToPlaylist(track, name, index) {\n\tif (track && track.url) {\n\t\tplaylist.push({\n\t\t\tid: index,\n\t\t\turl: track.url,",
+  "asset_files": [
+    "JUKEBOX_UI.glb",
+    "track1.mp3"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "app_id": "video-with-player-ui-1447233812231880724",
+  "app_slug": "video-with-player-ui",
+  "app_name": "Video_with_player_UI",
+  "source": {
+    "hyp_filename": "Video_with_player_UI.hyp",
+    "discord_attachment_id": "1447233811636162772",
+    "discord_message_id": "1447233812231880724",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-12-07T14:30:29.140Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1346623562462527649/1447233811636162772/Video_with_player_UI.hyp?ex=697974c4&is=69782344&hm=bdf24d0c81434473be705c47ef31655ba66d7a7d46f1f0ae516af57a7920fc0d&"
+  },
+  "author": {
+    "display_name": "Gert-Jan Akerboom",
+    "discord_user_id": "601886221072990251",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "there is now ; ) \ni added a player UI switch to the default video player, when 'on' the video player has a simple UI players can control, i added a play, pause and reset button.\nif you need other buttons or a different style, let me know.",
+    "raw_message_content": "there is now ; ) \ni added a player UI switch to the default video player, when 'on' the video player has a simple UI players can control, i added a play, pause and reset button.\nif you need other buttons or a different style, let me know.",
+    "summary_excerpt": "Video with player UI.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/video-with-player-ui",
+    "v2_json_path": "v2/video-with-player-ui/video-with-player-ui.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Video_with_player_UI.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/Video_with_player_UI_1447233812231880724/p0_video_player_ui.png",
+    "media_type": ".png",
+    "selection_reason": "same_message",
+    "is_fallback_any_author": false
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/Video_with_player_UI_1447233812231880724/p0_video_player_ui.png",
+      "original_filename": "video_player_ui.png",
+      "content_type": "image/png",
+      "relative_index": 0,
+      "same_author": true,
+      "selection_reason": "same_message",
+      "size_bytes": 228959,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1447233811996737566"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

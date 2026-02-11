@@ -1,0 +1,76 @@
+{
+  "app_id": "hover-cursor-test-1402653679030636655",
+  "app_slug": "hover-cursor-test",
+  "app_name": "hover-cursor-test",
+  "source": {
+    "hyp_filename": "hover-cursor-test.hyp",
+    "discord_attachment_id": "1402653678653014189",
+    "discord_message_id": "1402653679030636655",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-08-06T14:04:57.126Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1346623562462527649/1402653678653014189/hover-cursor-test.hyp?ex=69796ec9&is=69781d49&hm=f5e74ba36ed9470624e1f467b8b72efb12a19a960b4bf3686ad37097a328ab73&"
+  },
+  "author": {
+    "display_name": "Gert-Jan Akerboom",
+    "discord_user_id": "601886221072990251",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "cursor change when hover over mesh",
+    "raw_message_content": "cursor change when hover over mesh",
+    "summary_excerpt": "hover cursor test.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/hover-cursor-test",
+    "v2_json_path": "v2/hover-cursor-test/hover-cursor-test.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/hover-cursor-test.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/hover-cursor-test_1402653679030636655/m2_image.png",
+    "media_type": ".png",
+    "selection_reason": "any_author_fallback",
+    "is_fallback_any_author": true
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/hover-cursor-test_1402653679030636655/m3_image.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": -3,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 1613,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1402636462738112532"
+    },
+    {
+      "catalog_path": "catalog/discord/hyp_media/hover-cursor-test_1402653679030636655/m2_image.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": -2,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 4490,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1402636855920296086"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [
+      "media_fallback_any_author"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

@@ -1,0 +1,49 @@
+{
+  "app_id": "blocktesting-1348127461031809134",
+  "app_slug": "blocktesting",
+  "app_name": "BlockTesting",
+  "source": {
+    "hyp_filename": "BlockTesting.hyp",
+    "discord_attachment_id": "1348127460646060052",
+    "discord_message_id": "1348127461031809134",
+    "discord_channel": "\ud83d\udc1e\u2502issues",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-03-09T02:57:13.707Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1022421054582423562/1348127460646060052/BlockTesting.hyp?ex=69797b09&is=69782989&hm=f1267ff18f6c81b644229fe6f041b1e021cb8cd1fe59ab0f841c88e343f607ae&"
+  },
+  "author": {
+    "display_name": "Shiffty",
+    "discord_user_id": "466331582458888192",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "<@179546010303856640> Is applyEffect(null) still the way to clear effects? Maybe have a bug if so. In attached hyp, press right mouse to block, and release to unblock. The player gets stuck in the block.",
+    "raw_message_content": "<@179546010303856640> Is applyEffect(null) still the way to clear effects? Maybe have a bug if so. In attached hyp, press right mouse to block, and release to unblock. The player gets stuck in the block.",
+    "summary_excerpt": "BlockTesting.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": null,
+    "v2_json_path": null,
+    "hyp_summary_path": "catalog/discord/hyp_summaries/BlockTesting.md"
+  },
+  "preview": {
+    "primary_media_path": null,
+    "media_type": null,
+    "selection_reason": null,
+    "is_fallback_any_author": false
+  },
+  "media": [],
+  "status": {
+    "has_preview": false,
+    "needs_media_review": true,
+    "needs_author_review": false,
+    "flags": [
+      "no_media_found"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

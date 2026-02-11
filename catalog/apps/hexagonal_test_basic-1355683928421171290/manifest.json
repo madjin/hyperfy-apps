@@ -1,0 +1,61 @@
+{
+  "app_id": "hexagonal_test_basic-1355683928421171290",
+  "app_slug": "hexagonal_test_basic",
+  "app_name": "hexagonal_test_basic",
+  "source": {
+    "hyp_filename": "hexagonal_test_basic.hyp",
+    "discord_attachment_id": "1355683927422926929",
+    "discord_message_id": "1355683928421171290",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-03-29T23:23:55.925Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1346623562462527649/1355683927422926929/hexagonal_test_basic.hyp?ex=6979490b&is=6977f78b&hm=8eb2fed2abf5a26ade73131c549ff73de933f8cc542f8c4a42b9ebd322d90a81&"
+  },
+  "author": {
+    "display_name": "cru",
+    "discord_user_id": "735663632356212887",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "interesting hexagonal panels that react to player and change color \nmade em for a mini-game project",
+    "raw_message_content": "interesting hexagonal panels that react to player and change color \nmade em for a mini-game project",
+    "summary_excerpt": "hexagonal test basic.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": null,
+    "v2_json_path": null,
+    "hyp_summary_path": "catalog/discord/hyp_summaries/hexagonal_test_basic.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/hexagonal_test_basic_1355683928421171290/p0_image.png",
+    "media_type": ".png",
+    "selection_reason": "same_message",
+    "is_fallback_any_author": false
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/hexagonal_test_basic_1355683928421171290/p0_image.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": 0,
+      "same_author": true,
+      "selection_reason": "same_message",
+      "size_bytes": 385735,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1355683928199004232"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

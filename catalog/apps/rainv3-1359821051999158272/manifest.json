@@ -1,0 +1,76 @@
+{
+  "app_id": "rainv3-1359821051999158272",
+  "app_slug": "rainv3",
+  "app_name": "RainV3",
+  "source": {
+    "hyp_filename": "RainV3.hyp",
+    "discord_attachment_id": "1359821051676332214",
+    "discord_message_id": "1359821051999158272",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-04-10T09:23:23.050Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1346623562462527649/1359821051676332214/RainV3.hyp?ex=69792cca&is=6977db4a&hm=fcdec2b1fd3a6ec24785a769ac3dfa75d5b834a920811094317b1680e62c9487&"
+  },
+  "author": {
+    "display_name": "Gert-Jan Akerboom",
+    "discord_user_id": "601886221072990251",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "rain V3",
+    "raw_message_content": "rain V3",
+    "summary_excerpt": "RainV3.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/rainv3",
+    "v2_json_path": "v2/rainv3/rainv3.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/RainV3.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/RainV3_1359821051999158272/m1_image.png",
+    "media_type": ".png",
+    "selection_reason": "any_author_fallback",
+    "is_fallback_any_author": true
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/RainV3_1359821051999158272/m1_image.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": -1,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 138172,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1359680764010303610"
+    },
+    {
+      "catalog_path": "catalog/discord/hyp_media/RainV3_1359821051999158272/m1_image_1359680764517683422.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": -1,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 541019,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1359680764517683422"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [
+      "media_fallback_any_author"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

@@ -1,0 +1,49 @@
+{
+  "app_id": "arrayvectorprops-1349553928085180437",
+  "app_slug": "arrayvectorprops",
+  "app_name": "ArrayVectorProps",
+  "source": {
+    "hyp_filename": "ArrayVectorProps.hyp",
+    "discord_attachment_id": "1349553928139968597",
+    "discord_message_id": "1349553928085180437",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-03-13T01:25:29.955Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1346623562462527649/1349553928139968597/ArrayVectorProps.hyp?ex=69796589&is=69781409&hm=828b639c220a091e8b9babd734c88fcf83ba42697cb64cdaae5c7fda88f42309&"
+  },
+  "author": {
+    "display_name": "~/MayD524/Hyperfy",
+    "discord_user_id": "350830819423551488",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "Requires https://github.com/Bitmato-Studio/hyperfy/tree/bm/ArrayProps mod",
+    "raw_message_content": "Requires https://github.com/Bitmato-Studio/hyperfy/tree/bm/ArrayProps mod",
+    "summary_excerpt": "ArrayVectorProps.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/arrayvectorprops",
+    "v2_json_path": "v2/arrayvectorprops/arrayvectorprops.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/ArrayVectorProps.md"
+  },
+  "preview": {
+    "primary_media_path": null,
+    "media_type": null,
+    "selection_reason": null,
+    "is_fallback_any_author": false
+  },
+  "media": [],
+  "status": {
+    "has_preview": false,
+    "needs_media_review": true,
+    "needs_author_review": false,
+    "flags": [
+      "no_media_found"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

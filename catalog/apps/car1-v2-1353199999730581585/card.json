@@ -1,0 +1,23 @@
+{
+  "name": "car1-v2",
+  "author": "ash",
+  "description": "ok added some better anti-roll to this",
+  "tags": [
+    "anti-roll",
+    "suspension",
+    "steering",
+    "acceleration",
+    "physics",
+    "wheel-grip"
+  ],
+  "interaction_modes": [
+    "action",
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking": "none",
+  "preview_url": null,
+  "download_path": "v2-hyp/car1-v2.hyp",
+  "created_at": "2025-03-23T02:53:41.176Z"
+}

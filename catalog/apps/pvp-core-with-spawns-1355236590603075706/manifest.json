@@ -1,0 +1,61 @@
+{
+  "app_id": "pvp-core-with-spawns-1355236590603075706",
+  "app_slug": "pvp-core-with-spawns",
+  "app_name": "PvP_Core_with_spawns",
+  "source": {
+    "hyp_filename": "PvP_Core_with_spawns.hyp",
+    "discord_attachment_id": "1355236590091243800",
+    "discord_message_id": "1355236590603075706",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-03-28T17:46:22.278Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1355236264848265346/1355236590091243800/PvP_Core_with_spawns.hyp?ex=6979a2ae&is=6978512e&hm=c6610a63b36336db2d33fd6da18e4d8a696e134165664f503b08fbc44ada6ad3&"
+  },
+  "author": {
+    "display_name": "Saori",
+    "discord_user_id": "1099579050378399806",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "PvP Core with spawns.hyp",
+    "raw_message_content": "",
+    "summary_excerpt": "PvP Core with spawns.hyp",
+    "source_priority_used": "summary_excerpt"
+  },
+  "links": {
+    "v2_app_dir": "v2/pvp-core-with-spawns",
+    "v2_json_path": "v2/pvp-core-with-spawns/pvp-core-with-spawns.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/PvP_Core_with_spawns.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/PvP_Core_with_spawns_1355236590603075706/m2_image.png",
+    "media_type": ".png",
+    "selection_reason": "same_author_nearby",
+    "is_fallback_any_author": false
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/PvP_Core_with_spawns_1355236590603075706/m2_image.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": -2,
+      "same_author": true,
+      "selection_reason": "same_author_nearby",
+      "size_bytes": 225293,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1355236265124954277"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

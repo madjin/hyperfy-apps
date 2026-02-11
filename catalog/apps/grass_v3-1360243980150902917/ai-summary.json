@@ -1,0 +1,41 @@
+{
+  "app_id": "grass_v3-1360243980150902917",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:45:48+00:00",
+  "one_liner": "Grass_V3 creates a configurable particle system of grass and flowers with clustering, random placement, and wind animation.",
+  "primary_use_case": "Procedural generation of grass and flower clusters in a 3D scene.",
+  "feature_tags": [
+    "grass",
+    "flowers",
+    "particle system",
+    "clustering",
+    "random placement",
+    "wind animation",
+    "configurable UI"
+  ],
+  "interaction_modes": [
+    "ui",
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "none",
+  "preview_recommendation": "The preview PNG shows a lush field of grass with scattered flowers, illustrating the clustering and wind animation; use it to gauge visual quality.",
+  "manifest_quality_notes": [
+    "Config UI defaults differ from v2 defaults",
+    "High clone counts may affect performance",
+    "Model includes multiple flower variants",
+    "No explicit error handling for missing models",
+    "App uses app.configure for UI inputs",
+    "All assets downloaded successfully"
+  ],
+  "safety_or_runtime_flags": [],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message:1360243980150902917",
+    "hyp_file:Grass_V3.hyp",
+    "v2_json",
+    "static_analysis_summary",
+    "discord_context"
+  ]
+}

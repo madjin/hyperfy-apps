@@ -1,0 +1,43 @@
+{
+  "app_id": "locationator-1363448335117193418",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:46:22+00:00",
+  "one_liner": "Locationator displays an app\u2019s world coordinates and rotation in a compact billboard UI, helping you pinpoint teleport destinations.",
+  "primary_use_case": "Quickly view an object\u2019s exact position and orientation to aid teleport placement or debugging.",
+  "feature_tags": [
+    "position",
+    "rotation",
+    "ui",
+    "billboard",
+    "text",
+    "debug",
+    "teleport-assist",
+    "world-coordinates"
+  ],
+  "interaction_modes": [
+    "ui",
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none",
+  "preview_recommendation": "The provided PNG preview shows the billboard UI with position/rotation text, sufficient for users to understand the app\u2019s visual output.",
+  "manifest_quality_notes": [
+    "Author verified via Discord",
+    "Preview image matches UI implementation",
+    "Script uses only local update loop",
+    "No networking or heavy assets"
+  ],
+  "safety_or_runtime_flags": [],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message_1363448335117193418",
+    "hyp_file_Locationator.hyp",
+    "static_analysis_summary",
+    "media_downloaded",
+    "author_meta_Rick",
+    "app_id_match",
+    "preview_image",
+    "v2_json_metadata"
+  ]
+}

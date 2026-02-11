@@ -1,0 +1,38 @@
+{
+  "app_id": "rover.2.11-1339121960759721996",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:48:13+00:00",
+  "one_liner": "Rover.2.11 is a space\u2011trading simulation app that repurposes Metamike\u2019s Rover+Loot collectron with configurable movement, perception, and UI.",
+  "primary_use_case": "Mock up a space trading simulation where collectrons patrol, gather resources, and transfer loot between stations.",
+  "feature_tags": [
+    "space trading",
+    "collectron",
+    "UI",
+    "configurable",
+    "resource management",
+    "patrolling",
+    "events",
+    "audio"
+  ],
+  "interaction_modes": [
+    "ui",
+    "networked",
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "events",
+  "preview_recommendation": "Use the primary PNG preview (p0_vt01.png) as the main thumbnail; it clearly shows the UI layout and collectron model.",
+  "manifest_quality_notes": [
+    "Clear description and purpose",
+    "Detailed blueprint with props",
+    "Standard Hyperfy API usage",
+    "No obvious security concerns"
+  ],
+  "safety_or_runtime_flags": [],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord",
+    "static_analysis"
+  ]
+}

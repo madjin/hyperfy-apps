@@ -1,0 +1,49 @@
+{
+  "app_id": "weightpaint_screenui_test1-1395042221425819648",
+  "app_slug": "weightpaint_screenui_test1",
+  "app_name": "Weightpaint_ScreenUI_test1",
+  "source": {
+    "hyp_filename": "Weightpaint_ScreenUI_test1.hyp",
+    "discord_attachment_id": "1395042221094338711",
+    "discord_message_id": "1395042221425819648",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-07-16T13:59:44.219Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1346623562462527649/1395042221094338711/Weightpaint_ScreenUI_test1.hyp?ex=69796d90&is=69781c10&hm=d5e7b0b378102b911452a8bfb751dc6a40a9724e5928e606a61a1bd98b045817&"
+  },
+  "author": {
+    "display_name": "Gert-Jan Akerboom",
+    "discord_user_id": "601886221072990251",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "https://discord.com/channels/958209073277456457/994775534733115412/1395042024280952953",
+    "raw_message_content": "https://discord.com/channels/958209073277456457/994775534733115412/1395042024280952953",
+    "summary_excerpt": "Weightpaint ScreenUI test1.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/weightpaint_screenui_test1",
+    "v2_json_path": "v2/weightpaint_screenui_test1/weightpaint_screenui_test1.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Weightpaint_ScreenUI_test1.md"
+  },
+  "preview": {
+    "primary_media_path": null,
+    "media_type": null,
+    "selection_reason": null,
+    "is_fallback_any_author": false
+  },
+  "media": [],
+  "status": {
+    "has_preview": false,
+    "needs_media_review": true,
+    "needs_author_review": false,
+    "flags": [
+      "no_media_found"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

@@ -1,0 +1,22 @@
+{
+  "name": "HELIv4",
+  "author": "vox",
+  "description": "HELIv4.hyp",
+  "tags": [
+    "oval_path",
+    "uv_scrolling",
+    "audio_spatial",
+    "rotor_animation",
+    "curvature_speed",
+    "scripted_movement"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking": "none",
+  "preview_url": null,
+  "download_path": "v2-hyp/HELIv4.hyp",
+  "created_at": "2025-05-20T19:06:01.996Z"
+}

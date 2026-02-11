@@ -1,0 +1,31 @@
+{
+  "name": "MoonJump",
+  "author": "0mka",
+  "description": "MoonJump.hyp",
+  "tags": [
+    "double-jump",
+    "auto-boost",
+    "player-physics",
+    "physics",
+    "scripted",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "action",
+    "trigger",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking": "none",
+  "preview_url": "catalog/discord/hyp_media/MoonJump_1406524288625807451/p1_image.png",
+  "download_path": "v2-hyp/MoonJump.hyp",
+  "created_at": "2025-08-17T06:25:22.366Z",
+  "props": {
+    "collision": true
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\n// Track player jump states  \nconst playerStates = new Map()  \n  \n// Initialize player state tracking  \nfunction initPlayerState(player) {  \n  playerStates.set(player.id, {  \n    wasGrounded: true,  \n    canDoubleJump: false,  \n    doubleJumpUsed: false  \n  })  \n}  \n  \n// Initialize for existing players  \nworld.getPlayers().forEach(player => {  \n  initPlayerState(player)  \n})  \n  \n// Listen for players entering/leaving  \nworld.on('playerenter', initPlayerState)  \nworld.on('playerleave', (player) => {  \n  playerStates.delete(player.id)  \n})  \n  \napp.on('update', (delta) => {  \n  world.getPlayers().forEach(player => {  \n    const state = playerStates.get(player.id)  \n    if (!state) return  \n      \n    const isGrounded = isPlayerGrounded(player)  \n      \n    // Reset when grounded  \n    if (isGrounded && !state.wasGrounded) {  \n      state.canDoubleJump = false  \n      state.doubleJumpUsed = false  \n    }  \n      \n    // Enable double jump when airborne (first jump detected)  \n    if (!isGrounded && state.wasGrounded && !state.doubleJumpUsed) {  \n      state.canDoubleJump = true  \n    }  \n      \n    // Auto-apply double jump after a short delay when airborne  \n    if (!isGrounded && state.canDoubleJump && !state.doubleJumpUsed) {  \n      // Apply double jump force  \n      player.push(new Vector3(0, 15, 0))  \n      state.doubleJumpUsed = true  \n      state.canDoubleJump = false  \n    }  \n      \n    state.wasGrounded = isGrounded  \n  })  \n})  \n  \nfunction isPlayerGrounded(player) {  \n  const playerPos = player.position  \n  const rayStart = new Vector3(playerPos.x, playerPos.y + 0.1, playerPos.z)  \n  const rayDir = new Vector3(0, -1, 0)  \n  const rayDistance = 0.3  \n    \n  const hit = world.raycast(rayStart, rayDir, rayDistance)  \n  return hit && hit.distance < 0.3  \n}\n}\n",
+  "asset_files": [
+    "MoonJump.glb"
+  ]
+}

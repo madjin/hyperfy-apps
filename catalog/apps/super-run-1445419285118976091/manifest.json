@@ -1,0 +1,61 @@
+{
+  "app_id": "super-run-1445419285118976091",
+  "app_slug": "super-run",
+  "app_name": "Super_Run",
+  "source": {
+    "hyp_filename": "Super_Run.hyp",
+    "discord_attachment_id": "1445419284003033259",
+    "discord_message_id": "1445419285118976091",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-12-02T14:20:12.164Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1346623562462527649/1445419284003033259/Super_Run.hyp?ex=6979725b&is=697820db&hm=ee9da2b974090e4ba80eca37db5c8dfc4bbe3e921bab3875b858ea8ab36e54b7&"
+  },
+  "author": {
+    "display_name": "Dhin",
+    "discord_user_id": "235754161377902593",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "Super run. Put this hyp down and run for longer than 1 second for speeed.\nMade with <@297290503181959169>",
+    "raw_message_content": "Super run. Put this hyp down and run for longer than 1 second for speeed.\nMade with <@297290503181959169>",
+    "summary_excerpt": "Super Run.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/super-run",
+    "v2_json_path": "v2/super-run/super-run.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Super_Run.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/Super_Run_1445419285118976091/p0_super-run.mp4",
+    "media_type": ".mp4",
+    "selection_reason": "same_message",
+    "is_fallback_any_author": false
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/Super_Run_1445419285118976091/p0_super-run.mp4",
+      "original_filename": "super-run.mp4",
+      "content_type": "video/mp4",
+      "relative_index": 0,
+      "same_author": true,
+      "selection_reason": "same_message",
+      "size_bytes": 455138,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1445419284749615299"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

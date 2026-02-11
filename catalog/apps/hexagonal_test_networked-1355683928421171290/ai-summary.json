@@ -1,0 +1,42 @@
+{
+  "app_id": "hexagonal_test_networked-1355683928421171290",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:46:03+00:00",
+  "one_liner": "Hexagonal panels that react to player contact, shifting vertically and scrolling UV textures in a networked mini-game.",
+  "primary_use_case": "Interactive floor pads for a networked mini-game that provide visual feedback via movement and texture animation.",
+  "feature_tags": [
+    "hexagonal",
+    "networked",
+    "uv_scrolling",
+    "movement",
+    "mini_game",
+    "configurable",
+    "client_server",
+    "interactive"
+  ],
+  "interaction_modes": [
+    "trigger",
+    "networked",
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "events",
+  "preview_recommendation": "Use the provided PNG preview as a thumbnail; it shows a representative hexagonal panel with UV texture, suitable for catalog listings.",
+  "manifest_quality_notes": [
+    "Config UI defined via app.configure",
+    "Networked event handling present",
+    "Idle oscillation logic included",
+    "Potential missing asset URLs for model/script",
+    "No explicit safety flags",
+    "Confidence high but limited by truncated script"
+  ],
+  "safety_or_runtime_flags": [],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message:1355683928421171290",
+    "discord_attachment:1355683927712600184",
+    "static_analysis_summary",
+    "hyp_file:hexagonal_test_networked.hyp"
+  ]
+}

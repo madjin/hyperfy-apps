@@ -1,0 +1,41 @@
+{
+  "app_id": "physics-triggers-tags-1354303006505435206",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:47:31+00:00",
+  "one_liner": "A demo app demonstrating rigidbody triggers and tags in Hyperfy, with blue static and red dynamic bodies, UI text updates on trigger events.",
+  "primary_use_case": "Showcase of physics trigger interactions and tag-based UI feedback in a Hyperfy world.",
+  "feature_tags": [
+    "physics",
+    "triggers",
+    "tags",
+    "ui",
+    "rigidbody",
+    "dynamic",
+    "static",
+    "event-driven"
+  ],
+  "interaction_modes": [
+    "trigger",
+    "ui"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none",
+  "preview_recommendation": "Include the MP4 preview to illustrate trigger events; ensure it is optimized for web streaming and clearly shows the UI text changing when the blue body enters or leaves the red collider.",
+  "manifest_quality_notes": [
+    "Clear author attribution",
+    "All assets present",
+    "No networking complexity",
+    "Small footprint",
+    "Confidence high"
+  ],
+  "safety_or_runtime_flags": [],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message_id:1354303006505435206",
+    "discord_attachment_id:1354303006170021999",
+    "hyp_filename:Physics_-_Triggers__Tags.hyp",
+    "author:ash",
+    "preview_media_path:catalog/discord/hyp_media/Physics_-_Triggers_Tags_1354303006505435206/p0_xyz-physics-triggers--tags.mp4"
+  ]
+}

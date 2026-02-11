@@ -1,0 +1,61 @@
+{
+  "app_id": "physics-contacts-tags-1354299208894648330",
+  "app_slug": "physics-contacts-tags",
+  "app_name": "Physics_-_Contacts__Tags",
+  "source": {
+    "hyp_filename": "Physics_-_Contacts__Tags.hyp",
+    "discord_attachment_id": "1354299207254802462",
+    "discord_message_id": "1354299208894648330",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-03-26T03:41:33.063Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1354299207254802462/Physics_-_Contacts__Tags.hyp?ex=6979856c&is=697833ec&hm=18eb6db2f2707366f443096e6f1cf32ed0ddc4a2c1b36d0927ab145e59738c64&"
+  },
+  "author": {
+    "display_name": "ash",
+    "discord_user_id": "179546010303856640",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "Physics Contacts Tags.hyp",
+    "raw_message_content": "",
+    "summary_excerpt": "Physics Contacts Tags.hyp",
+    "source_priority_used": "summary_excerpt"
+  },
+  "links": {
+    "v2_app_dir": "v2/physics-contacts-tags",
+    "v2_json_path": "v2/physics-contacts-tags/physics-contacts-tags.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Physics_-_Contacts__Tags.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/Physics_-_Contacts_Tags_1354299208894648330/p0_xyz-physics-contacts--tags.mp4",
+    "media_type": ".mp4",
+    "selection_reason": "same_message",
+    "is_fallback_any_author": false
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/Physics_-_Contacts_Tags_1354299208894648330/p0_xyz-physics-contacts--tags.mp4",
+      "original_filename": "xyz-physics-contacts--tags.mp4",
+      "content_type": "video/mp4",
+      "relative_index": 0,
+      "same_author": true,
+      "selection_reason": "same_message",
+      "size_bytes": 4015699,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1354299208072429639"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

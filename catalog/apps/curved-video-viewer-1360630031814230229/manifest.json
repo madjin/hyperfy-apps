@@ -1,0 +1,61 @@
+{
+  "app_id": "curved-video-viewer-1360630031814230229",
+  "app_slug": "curved-video-viewer",
+  "app_name": "Curved_Video_Viewer",
+  "source": {
+    "hyp_filename": "Curved_Video_Viewer.hyp",
+    "discord_attachment_id": "1360630031537279066",
+    "discord_message_id": "1360630031814230229",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-04-12T14:57:58.868Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1360630031537279066/Curved_Video_Viewer.hyp?ex=69797b36&is=697829b6&hm=ce1dd1cb45c08014c69230068607f2449956b6838ff770713b0085de164fab1f&"
+  },
+  "author": {
+    "display_name": "ash",
+    "discord_user_id": "179546010303856640",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "And here's a curved video viewer",
+    "raw_message_content": "And here's a curved video viewer",
+    "summary_excerpt": "Curved Video Viewer.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/curved-video-viewer",
+    "v2_json_path": "v2/curved-video-viewer/curved-video-viewer.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Curved_Video_Viewer.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/Curved_Video_Viewer_1360630031814230229/p1_image.png",
+    "media_type": ".png",
+    "selection_reason": "same_author_nearby",
+    "is_fallback_any_author": false
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/Curved_Video_Viewer_1360630031814230229/p1_image.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": 1,
+      "same_author": true,
+      "selection_reason": "same_author_nearby",
+      "size_bytes": 2941611,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1360630186676064366"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

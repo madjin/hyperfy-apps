@@ -1,0 +1,44 @@
+{
+  "app_id": "networked-grabbable-1349221803263922257",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:52:15+00:00",
+  "one_liner": "A networked pick\u2011up object that can be grabbed, held, and dropped, syncing ownership across clients.",
+  "primary_use_case": "Multiplayer object interaction \u2013 pick up, hold, and drop items in shared worlds.",
+  "feature_tags": [
+    "networked",
+    "grab",
+    "action",
+    "state-sync",
+    "hand-attachment",
+    "emote",
+    "custom-control",
+    "lightweight"
+  ],
+  "interaction_modes": [
+    "action",
+    "trigger",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "shared_state",
+  "preview_recommendation": "Add a short video or GIF showing the object being picked up, held, and dropped to help users understand the interaction flow.",
+  "manifest_quality_notes": [
+    "No preview media attached",
+    "Author confidence high (discord verification)",
+    "Script runs on both client and server",
+    "Model size moderate (~730\u202fKB)",
+    "Includes emote prop for hand animation",
+    "Drop action relies on keyX input"
+  ],
+  "safety_or_runtime_flags": [
+    "no_media_found"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "APP_FACTS",
+    "APP_FILES_CONTEXT",
+    "DISCORD_CONTEXT",
+    "STATIC_ANALYSIS_SUMMARY_MD"
+  ]
+}

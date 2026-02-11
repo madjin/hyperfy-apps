@@ -1,0 +1,23 @@
+{
+  "name": "BlockTesting",
+  "author": "Shiffty",
+  "description": "<@179546010303856640> Is applyEffect(null) still the way to clear effects? Maybe have a bug if so. In attached hyp, press right mouse to block, and release to unblock. The player gets stuck in the block.",
+  "tags": [
+    "animation",
+    "applyeffect",
+    "block",
+    "input",
+    "cancel",
+    "client"
+  ],
+  "interaction_modes": [
+    "action",
+    "trigger"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "low",
+  "networking": "none",
+  "preview_url": null,
+  "download_path": "v2-hyp/BlockTesting.hyp",
+  "created_at": "2025-03-09T02:57:13.707Z"
+}

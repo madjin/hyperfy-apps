@@ -1,0 +1,63 @@
+{
+  "app_id": "smolwrld-1356346677895626905",
+  "app_slug": "smolwrld",
+  "app_name": "SmolWrld",
+  "source": {
+    "hyp_filename": "SmolWrld.hyp",
+    "discord_attachment_id": "1356346677547634890",
+    "discord_message_id": "1356346677895626905",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-03-31T19:17:27.713Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1356346677547634890/SmolWrld.hyp?ex=69790f47&is=6977bdc7&hm=29be5ad26353042351a22c72be125dd28e59e3990e5bec81cf0f541b19b063a7&"
+  },
+  "author": {
+    "display_name": ".hyp shaman",
+    "discord_user_id": "297290503181959169",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "SmolWrld.hyp",
+    "raw_message_content": "",
+    "summary_excerpt": "SmolWrld.hyp",
+    "source_priority_used": "summary_excerpt"
+  },
+  "links": {
+    "v2_app_dir": "v2/smolwrld",
+    "v2_json_path": "v2/smolwrld/smolwrld.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/SmolWrld.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/SmolWrld_1356346677895626905/p5_Screenshot_2025-03-31_at_1.28.44_PM.png",
+    "media_type": ".png",
+    "selection_reason": "any_author_fallback",
+    "is_fallback_any_author": true
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/SmolWrld_1356346677895626905/p5_Screenshot_2025-03-31_at_1.28.44_PM.png",
+      "original_filename": "Screenshot_2025-03-31_at_1.28.44_PM.png",
+      "content_type": "image/png",
+      "relative_index": 5,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 144274,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1356364686274330914"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [
+      "media_fallback_any_author"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

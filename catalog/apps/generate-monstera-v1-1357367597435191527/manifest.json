@@ -1,0 +1,49 @@
+{
+  "app_id": "generate-monstera-v1-1357367597435191527",
+  "app_slug": "generate-monstera-v1",
+  "app_name": "generate_monstera_V1",
+  "source": {
+    "hyp_filename": "generate_monstera_V1.hyp",
+    "discord_attachment_id": "1357367596844056757",
+    "discord_message_id": "1357367597435191527",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-04-03T14:54:13.899Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1357367596844056757/generate_monstera_V1.hyp?ex=69797a55&is=697828d5&hm=57201d4aedf5b5a279f1e454140e873620f11f5b7394a2951bebd74d96fdfe26&"
+  },
+  "author": {
+    "display_name": "Agent12",
+    "discord_user_id": "309735511461724171",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "<@601886221072990251> Have you seen this .hyp? \n\ni'm mostly an AI dev as well (and a poor one at that xD) \n\nBut maybe this working App that does something similar could help you come up with a different path to the same end-goal? \n\nI'm sure some other dev will also pop in at some point and guide you as well!",
+    "raw_message_content": "<@601886221072990251> Have you seen this .hyp? \n\ni'm mostly an AI dev as well (and a poor one at that xD) \n\nBut maybe this working App that does something similar could help you come up with a different path to the same end-goal? \n\nI'm sure some other dev will also pop in at some point and guide you as well!",
+    "summary_excerpt": "generate monstera V1.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/generate-monstera-v1",
+    "v2_json_path": "v2/generate-monstera-v1/generate-monstera-v1.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/generate_monstera_V1.md"
+  },
+  "preview": {
+    "primary_media_path": null,
+    "media_type": null,
+    "selection_reason": null,
+    "is_fallback_any_author": false
+  },
+  "media": [],
+  "status": {
+    "has_preview": false,
+    "needs_media_review": true,
+    "needs_author_review": false,
+    "flags": [
+      "no_media_found"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

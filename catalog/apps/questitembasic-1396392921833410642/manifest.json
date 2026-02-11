@@ -1,0 +1,49 @@
+{
+  "app_id": "questitembasic-1396392921833410642",
+  "app_slug": "questitembasic",
+  "app_name": "QuestItemBasic",
+  "source": {
+    "hyp_filename": "QuestItemBasic.hyp",
+    "discord_attachment_id": "1396392921221038231",
+    "discord_message_id": "1396392921833410642",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-07-20T07:26:56.291Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1346623562462527649/1396392921221038231/QuestItemBasic.hyp?ex=69791180&is=6977c000&hm=c342d8667d05e52fe82076c4d419f3cb37a91ebe57e141d4aa579b2c0e41619d&"
+  },
+  "author": {
+    "display_name": "0mka",
+    "discord_user_id": "783416470205497394",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "Here ya go <@722481129449586739> \n\nQuestItems with QuestItemUI with some basic configures.  \n\n- Match the emit signals.  \n- Can turn on and off persistant storage, if you want the count to carry over on world visits. Click Reset Count to clear storage key\n-  Can just change the model in quest item and should work. \n-  Can turn on and off rotation and bobbing and change speed and height.\n- Can click 'Reset Meshes' to bring back into world\n-  Can check pixabay to find a different collection sound or just delete it if you don't want sound\n\n-  Can rename Quest UI, switch for positioning on screen.  And scale the ui.  Change border width/color.  And text size/spacing.\n- Can set ui to appear for a moment then go away until another collect, or always be on screen. \n- You can use the emit signal from the quest item to trigger anything in another hyp with world.on and the emit signal. \n\n\nThis  should get you going.",
+    "raw_message_content": "Here ya go <@722481129449586739> \n\nQuestItems with QuestItemUI with some basic configures.  \n\n- Match the emit signals.  \n- Can turn on and off persistant storage, if you want the count to carry over on world visits. Click Reset Count to clear storage key\n-  Can just change the model in quest item and should work. \n-  Can turn on and off rotation and bobbing and change speed and height.\n- Can click 'Reset Meshes' to bring back into world\n-  Can check pixabay to find a different collection sound or just delete it if you don't want sound\n\n-  Can rename Quest UI, switch for positioning on screen.  And scale the ui.  Change border width/color.  And text size/spacing.\n- Can set ui to appear for a moment then go away until another collect, or always be on screen. \n- You can use the emit signal from the quest item to trigger anything in another hyp with world.on and the emit signal. \n\n\nThis  should get you going.",
+    "summary_excerpt": "QuestItemBasic.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/questitembasic",
+    "v2_json_path": "v2/questitembasic/questitembasic.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/QuestItemBasic.md"
+  },
+  "preview": {
+    "primary_media_path": null,
+    "media_type": null,
+    "selection_reason": null,
+    "is_fallback_any_author": false
+  },
+  "media": [],
+  "status": {
+    "has_preview": false,
+    "needs_media_review": true,
+    "needs_author_review": false,
+    "flags": [
+      "no_media_found"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

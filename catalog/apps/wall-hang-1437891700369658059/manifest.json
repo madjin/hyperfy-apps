@@ -1,0 +1,115 @@
+{
+  "app_id": "wall-hang-1437891700369658059",
+  "app_slug": "wall-hang",
+  "app_name": "Wall_Hang",
+  "source": {
+    "hyp_filename": "Wall_Hang.hyp",
+    "discord_attachment_id": "1437891700029788361",
+    "discord_message_id": "1437891700369658059",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-11-11T19:48:16.104Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1437891700029788361/Wall_Hang.hyp?ex=69163600&is=6914e480&hm=6a8cc800af8838c74363dcdc69c0edfd0c96c44ff61a70ba8c8484ec2bd7edc5&"
+  },
+  "author": {
+    "display_name": "Dhin",
+    "discord_user_id": "235754161377902593",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "It's a wip. It needs a bunch of additions still. Need to add animations to when you hit the wall, jumping up to the wall, jumping up from hanging, etc.",
+    "raw_message_content": "It's a wip. It needs a bunch of additions still. Need to add animations to when you hit the wall, jumping up to the wall, jumping up from hanging, etc.",
+    "summary_excerpt": "Wall Hang.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/wall-hang",
+    "v2_json_path": "v2/wall-hang/wall-hang.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Wall_Hang.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/Wall_Hang_1437891700369658059/p2_Desktop_2025.11.11_-_17.21.42.05.mp4",
+    "media_type": ".mp4",
+    "selection_reason": "any_author_fallback",
+    "is_fallback_any_author": true
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/Wall_Hang_1437891700369658059/m8_Desktop_2025.11.11_-_10.41.47.01.mp4",
+      "original_filename": "Desktop_2025.11.11_-_10.41.47.01.mp4",
+      "content_type": "video/mp4",
+      "relative_index": -8,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 718000,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1437829987230154834"
+    },
+    {
+      "catalog_path": "catalog/discord/hyp_media/Wall_Hang_1437891700369658059/m7_image.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": -7,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 340225,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1437865947137446109"
+    },
+    {
+      "catalog_path": "catalog/discord/hyp_media/Wall_Hang_1437891700369658059/m4_image.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": -4,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 577117,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1437868142708916324"
+    },
+    {
+      "catalog_path": "catalog/discord/hyp_media/Wall_Hang_1437891700369658059/m3_image.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": -3,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 432421,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1437872177583100055"
+    },
+    {
+      "catalog_path": "catalog/discord/hyp_media/Wall_Hang_1437891700369658059/p2_Desktop_2025.11.11_-_17.21.42.05.mp4",
+      "original_filename": "Desktop_2025.11.11_-_17.21.42.05.mp4",
+      "content_type": "video/mp4",
+      "relative_index": 2,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 1893114,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1437930608952213644"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [
+      "media_fallback_any_author"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

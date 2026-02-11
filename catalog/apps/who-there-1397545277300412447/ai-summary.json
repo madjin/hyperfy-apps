@@ -1,0 +1,41 @@
+{
+  "app_id": "who-there-1397545277300412447",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:48:59+00:00",
+  "one_liner": "A simple screen\u2011space UI that shows who is currently in the world, with a toggleable player list and configurable cube visibility.",
+  "primary_use_case": "Display real\u2011time online player count and a detailed player list in a compact UI element.",
+  "feature_tags": [
+    "ui",
+    "player-list",
+    "real-time",
+    "toggle",
+    "screen-space",
+    "configurable",
+    "cube-visibility",
+    "compact"
+  ],
+  "interaction_modes": [
+    "ui",
+    "trigger",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "local",
+  "preview_recommendation": "Use the provided PNG preview showing the top\u2011right corner UI with the 'Online' label, player count, and toggle button; it accurately represents the compact UI layout.",
+  "manifest_quality_notes": [
+    "App script parsed successfully",
+    "UI layout described clearly",
+    "Configurable cube visibility via app.configure",
+    "Player list updates on world enter/leave events",
+    "No external assets beyond model and script",
+    "Preview image matches UI"
+  ],
+  "safety_or_runtime_flags": [],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message:1397545277300412447",
+    "discord_user:601886221072990251",
+    "hyp_file:who_there.hyp"
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "app_id": "vanguard-1355903733090750595",
+  "app_slug": "vanguard",
+  "app_name": "Vanguard",
+  "source": {
+    "hyp_filename": "Vanguard.hyp",
+    "discord_attachment_id": "1355903732742881552",
+    "discord_message_id": "1355903733090750595",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-03-30T13:57:21.442Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1355903732742881552/Vanguard.hyp?ex=69796d01&is=69781b81&hm=00b072e0f1747b8a415992a6088e500747d334a9c96382772ff79779aed8a966&"
+  },
+  "author": {
+    "display_name": "ash",
+    "discord_user_id": "179546010303856640",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "Just gonna leave these here for reference.\nThis is the Prism system.\nInstead of item based action bars like the Elemental system, this one is class based characters that have an avatar, skills, energy, etc.\nIt's also PvPvE and there's work to do to make PvP a toggleable thing, eg for dueling.\nBackpack will also be added, but those items will be more representational than the Elemental ones.",
+    "raw_message_content": "Just gonna leave these here for reference.\nThis is the Prism system.\nInstead of item based action bars like the Elemental system, this one is class based characters that have an avatar, skills, energy, etc.\nIt's also PvPvE and there's work to do to make PvP a toggleable thing, eg for dueling.\nBackpack will also be added, but those items will be more representational than the Elemental ones.",
+    "summary_excerpt": "Vanguard.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/vanguard",
+    "v2_json_path": "v2/vanguard/vanguard.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Vanguard.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/Vanguard_1355903733090750595/m6_xyz-skelly.mp4",
+    "media_type": ".mp4",
+    "selection_reason": "any_author_fallback",
+    "is_fallback_any_author": true
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/Vanguard_1355903733090750595/m8_CamSwitcher.mp4",
+      "original_filename": "CamSwitcher.mp4",
+      "content_type": "video/mp4",
+      "relative_index": -8,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 22409746,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1355780113417113731"
+    },
+    {
+      "catalog_path": "catalog/discord/hyp_media/Vanguard_1355903733090750595/m6_xyz-skelly.mp4",
+      "original_filename": "xyz-skelly.mp4",
+      "content_type": "video/mp4",
+      "relative_index": -6,
+      "same_author": true,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 9033986,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1355851207217778808"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [
+      "media_fallback_any_author"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

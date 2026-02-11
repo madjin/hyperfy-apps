@@ -1,0 +1,44 @@
+{
+  "name": "QuestItemBasic",
+  "author": "0mka",
+  "description": "Here ya go <@722481129449586739> \n\nQuestItems with QuestItemUI with some basic configures.  \n\n- Match the emit signals.  \n- Can turn on and off persistant storage, if you want the count to carry over on world visits. Click Reset Count to clear storage key\n-  Can just change the model in quest item and should work. \n-  Can turn on and off rotation and bobbing and change speed and height.\n- Can click 'Reset Meshes' to bring back into world\n-  Can check pixabay to find a different collection sound or just delete it if you don't want sound\n\n-  Can rename Quest UI, switch for positioning on screen.  And scale the ui.  Change border width/color.  And text size/spacing.\n- Can set ui to appear for a moment then go away until another collect, or always be on screen. \n- You can use the emit signal from the quest item to trigger anything in another hyp with world.on and the emit signal. \n\n\nThis  should get you going.",
+  "tags": [
+    "collectible",
+    "ui",
+    "rotation",
+    "bobbing",
+    "audio",
+    "persistent_storage"
+  ],
+  "interaction_modes": [
+    "action",
+    "trigger",
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking": "events",
+  "preview_url": null,
+  "download_path": "v2-hyp/QuestItemBasic.hyp",
+  "created_at": "2025-07-20T07:26:56.291Z",
+  "props": {
+    "collision": true,
+    "enableRotation": true,
+    "enableBobbing": true,
+    "collectSound": {
+      "type": "audio",
+      "url": "assets/collectSound.mp3"
+    },
+    "rotationSpeed": 0.6000000000000001,
+    "bobbingHeight": 0.03,
+    "enableEmit": true,
+    "eventName": "itemCollected"
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\napp.configure([    \n  // === COLLISION SETTINGS ===    \n  {    \n    type: 'section',    \n    label: 'Collision Settings'    \n  },    \n  {    \n    key: 'collision',    \n    type: 'toggle',    \n    label: 'Collision',    \n    initial: true,    \n    hint: 'Forces all meshes to have collision. Disable this if your model already has embedded collision.'    \n  },    \n      \n  // === ANIMATION SETTINGS ===    \n  {    \n    type: 'section',    \n    label: 'Animation Settings'    \n  },    \n  {    \n    key: 'enableRotation',    \n    type: 'toggle',    \n    label: 'Enable Rotation',    \n    initial: true,    \n    hint: 'Toggle rotation animation on/off - spins the collectible around its Y-axis'    \n  },    \n  {    \n    key: 'rotationSpeed',    \n    type: 'range',    \n    label: 'Rotation Speed',    \n    min: 0.5,    \n    max: 1.0,    \n    step: 0.1,    \n    initial: 1.0,    \n    hint: 'Controls how fast the collectible rotates (0.5 = slow, 1.0 = fast)'    \n  },    \n  {    \n    key: 'enableBobbing',    \n    type: 'toggle',    \n    label: 'Enable Bobbing',    \n    initial: true,    \n    hint: 'Toggle bobbing animation on/off - creates vertical sine wave movement'    \n  },    \n  {    \n    key: 'bobbingHeight',    \n    type: 'range',    \n    label: 'Bobbing Height',    \n    min: 0.02,    \n    max: 0.1,    \n    step: 0.005,    \n    initial: 0.05,    \n    hint: 'Controls how high the collectible bobs up and down (0.02 = subtle, 0.1 = dramatic)'    \n  },    \n      \n  // === AUDIO SETTINGS ===    \n  {    \n    type: 'section',    \n    label: 'Audio Settings'    \n  },    \n  {    \n    key: 'collectSound',    \n    type: 'file',    \n    label: 'Collection Sound',    \n    kind: 'audio',    \n    hint: 'Audio file to play when a player collects this item (.mp3 format)'    \n  },    \n      \n  // === EVENT SETTINGS ===    \n  {    \n    type: 'section',    \n    label: 'Event Settings'    \n  },    \n  {    \n    key: 'enableEmit',   ",
+  "asset_files": [
+    "QuestItemBasic.glb",
+    "QuestItemBasic__image.webp",
+    "collectSound.mp3"
+  ]
+}

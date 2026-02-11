@@ -1,0 +1,40 @@
+{
+  "app_id": "physics-raycast-tags-1354315974823776286",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:47:28+00:00",
+  "one_liner": "Demonstrates cross\u2011app raycasting with dynamic bodies, UI tag overlay, and lasers acting as visual poles.",
+  "primary_use_case": "Showcase raycast tag detection and UI feedback in a physics demo.",
+  "feature_tags": [
+    "raycast",
+    "tagging",
+    "dynamic bodies",
+    "ui overlay",
+    "cross-app",
+    "laser",
+    "physics",
+    "demo"
+  ],
+  "interaction_modes": [
+    "ui",
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none",
+  "preview_recommendation": "Use the provided MP4 preview to see the laser UI updating with detected tags, confirming cross\u2011app raycast functionality.",
+  "manifest_quality_notes": [
+    "Accurate metadata extracted from Discord and .hyp file",
+    "Video preview available and relevant",
+    "Simple, low\u2011complexity script",
+    "Demonstrates cross\u2011app raycast without networking",
+    "No known safety concerns"
+  ],
+  "safety_or_runtime_flags": [],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message:1354315974823776286",
+    "hyp_file:Physics_-_Raycast_Tags.hyp",
+    "preview_video:xyz-physics-raycast-tags.mp4",
+    "author:ash (discord_user_id:179546010303856640)"
+  ]
+}

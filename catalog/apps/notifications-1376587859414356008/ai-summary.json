@@ -1,0 +1,41 @@
+{
+  "app_id": "notifications-1376587859414356008",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:47:13+00:00",
+  "one_liner": "A lightweight UI app that shows customizable on-screen notifications triggered by world events, supporting message, color, font size, and timer options.",
+  "primary_use_case": "Display transient messages to players in a Hyperfy world, useful for alerts, chat snippets, or system feedback.",
+  "feature_tags": [
+    "notification",
+    "ui",
+    "customizable",
+    "message",
+    "color",
+    "fontSize",
+    "timer",
+    "queue"
+  ],
+  "interaction_modes": [
+    "trigger",
+    "ui"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "events",
+  "preview_recommendation": "Provide a screenshot or short video showing the notification panel appearing in-world, including example messages and color/font variations.",
+  "manifest_quality_notes": [
+    "no_media_found",
+    "needs_media_review",
+    "author_confidence_high",
+    "app_scaling_to_zero",
+    "model_hidden_in_world"
+  ],
+  "safety_or_runtime_flags": [
+    "no_media_found"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message",
+    "hyp_file",
+    "author_discord_id"
+  ]
+}

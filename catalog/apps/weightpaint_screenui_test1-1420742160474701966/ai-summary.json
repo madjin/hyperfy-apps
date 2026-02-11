@@ -1,0 +1,44 @@
+{
+  "app_id": "weightpaint_screenui_test1-1420742160474701966",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:48:59+00:00",
+  "one_liner": "Screen-space UI grid that lets you paint flowers/grass onto the world, visible only within 10\u202fm.",
+  "primary_use_case": "Interactive in-world painting tool for placing flower meshes via a 10\u202f\u00d7\u202f10 UI grid.",
+  "feature_tags": [
+    "ui",
+    "painting",
+    "grid",
+    "distance-visibility",
+    "screen-space",
+    "interactive",
+    "grass",
+    "model"
+  ],
+  "interaction_modes": [
+    "action",
+    "ui"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "none",
+  "preview_recommendation": "Use the provided mp4 preview (p4_coins.mp4) to showcase the UI grid appearing when nearby and the painting interaction.",
+  "manifest_quality_notes": [
+    "preview is author fallback",
+    "author confidence high",
+    "script includes distance check",
+    "model referenced as assets/weightpaint_screenui_test1.glb",
+    "no networking used",
+    "media file downloaded"
+  ],
+  "safety_or_runtime_flags": [
+    "media_fallback_any_author"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message:1420742160474701966",
+    "discord_attachment:1420742160076111984",
+    "discord_channel:#\u26a1\u2502general",
+    "discord_user:601886221072990251",
+    "discord_message_raw:Have you see this? i haven't really worked on it since the initial test."
+  ]
+}

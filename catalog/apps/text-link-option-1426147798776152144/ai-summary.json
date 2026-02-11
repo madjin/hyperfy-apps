@@ -1,0 +1,47 @@
+{
+  "app_id": "text-link-option-1426147798776152144",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:48:38+00:00",
+  "one_liner": "Default text app with optional link, configurable size, color, alignment, background, padding, and interactive UI.",
+  "primary_use_case": "Display customizable text UI with optional clickable link in Hyperfy worlds.",
+  "feature_tags": [
+    "text",
+    "link",
+    "ui",
+    "customizable",
+    "clickable",
+    "configurable",
+    "hover",
+    "shadow"
+  ],
+  "interaction_modes": [
+    "ui",
+    "action"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "none",
+  "preview_recommendation": "Add a thumbnail image showing the text UI with a sample link, and optionally a short GIF demonstrating the click interaction.",
+  "manifest_quality_notes": [
+    "No preview media provided",
+    "Metadata extracted from Discord attachment",
+    "Props and assets verified",
+    "Potential missing icon asset",
+    "Confidence high on author",
+    "Script complexity moderate"
+  ],
+  "safety_or_runtime_flags": [
+    "no_media_found",
+    "needs_media_review"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message:https://cdn.discordapp.com/attachments/1346623562462527649/1426147798344011807/Text_link_option.hyp",
+    "hyp_filename:Text_link_option.hyp",
+    "author_discord_id:601886221072990251",
+    "source_timestamp:2025-10-10T10:02:11.773Z",
+    "model_asset:assets/text-link-option.glb",
+    "image_asset:assets/text-link-option__image.png",
+    "script_asset:module"
+  ]
+}

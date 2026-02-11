@@ -1,0 +1,49 @@
+{
+  "app_id": "emotesr-1440465428748046346",
+  "app_slug": "emotesr",
+  "app_name": "EmotesR",
+  "source": {
+    "hyp_filename": "EmotesR.hyp",
+    "discord_attachment_id": "1440465428228079616",
+    "discord_message_id": "1440465428748046346",
+    "discord_channel": "\u26a1\u2502general",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-11-18T22:15:20.767Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/958209074045026327/1440465428228079616/EmotesR.hyp?ex=691f92f8&is=691e4178&hm=97537e1835450425e7e381969f7db94bcf64cf4739a97c02a5072dfc24d571a9&"
+  },
+  "author": {
+    "display_name": "\ud835\udd7d\ud835\udd94\ud835\udd9a\ud835\udd98\ud835\udd99\ud835\udd86\ud835\udd93",
+    "discord_user_id": "722481129449586739",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "Yo yo. turn on custom avatars in the admin menu under that world icon. And add this hyp.",
+    "raw_message_content": "Yo yo. turn on custom avatars in the admin menu under that world icon. And add this hyp.",
+    "summary_excerpt": "EmotesR.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": null,
+    "v2_json_path": null,
+    "hyp_summary_path": "catalog/discord/hyp_summaries/EmotesR.md"
+  },
+  "preview": {
+    "primary_media_path": null,
+    "media_type": null,
+    "selection_reason": null,
+    "is_fallback_any_author": false
+  },
+  "media": [],
+  "status": {
+    "has_preview": false,
+    "needs_media_review": true,
+    "needs_author_review": false,
+    "flags": [
+      "no_media_found"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

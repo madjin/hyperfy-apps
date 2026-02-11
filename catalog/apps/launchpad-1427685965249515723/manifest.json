@@ -1,0 +1,49 @@
+{
+  "app_id": "launchpad-1427685965249515723",
+  "app_slug": "launchpad",
+  "app_name": "Launchpad",
+  "source": {
+    "hyp_filename": "Launchpad.hyp",
+    "discord_attachment_id": "1427685964792205332",
+    "discord_message_id": "1427685965249515723",
+    "discord_channel": "\ud83e\uddca\u25023d-design",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-10-14T15:54:19.238Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1031058655581323324/1427685964792205332/Launchpad.hyp?ex=68f1152b&is=68efc3ab&hm=42371d41b23033312f0cf5f0efe8c78a3eb8e58a5535a6576622f12515e7363a&"
+  },
+  "author": {
+    "display_name": "Dhin",
+    "discord_user_id": "235754161377902593",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "if yes, there's this. not sure who made it",
+    "raw_message_content": "if yes, there's this. not sure who made it",
+    "summary_excerpt": "Launchpad.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/launchpad",
+    "v2_json_path": "v2/launchpad/launchpad.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Launchpad.md"
+  },
+  "preview": {
+    "primary_media_path": null,
+    "media_type": null,
+    "selection_reason": null,
+    "is_fallback_any_author": false
+  },
+  "media": [],
+  "status": {
+    "has_preview": false,
+    "needs_media_review": true,
+    "needs_author_review": false,
+    "flags": [
+      "no_media_found"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

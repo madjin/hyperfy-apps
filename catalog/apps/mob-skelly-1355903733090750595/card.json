@@ -1,0 +1,143 @@
+{
+  "name": "Mob_-_Skelly",
+  "author": "ash",
+  "description": "Just gonna leave these here for reference.\nThis is the Prism system.\nInstead of item based action bars like the Elemental system, this one is class based characters that have an avatar, skills, energy, etc.\nIt's also PvPvE and there's work to do to make PvP a toggleable thing, eg for dueling.\nBackpack will also be added, but those items will be more representational than the Elemental ones.",
+  "tags": [
+    "combat",
+    "npc",
+    "mob",
+    "prism",
+    "avatar",
+    "animation"
+  ],
+  "interaction_modes": [
+    "action",
+    "networked",
+    "passive"
+  ],
+  "asset_profile": "heavy",
+  "script_complexity": "high",
+  "networking": "events",
+  "preview_url": "catalog/discord/hyp_media/Mob_-_Skelly_1355903733090750595/m6_xyz-skelly.mp4",
+  "download_path": "v2-hyp/Mob_-_Skelly.hyp",
+  "created_at": "2025-03-30T13:57:21.442Z",
+  "props": {
+    "avatar": {
+      "type": "avatar",
+      "url": "assets/avatar.vrm"
+    },
+    "weapon": {
+      "type": "model",
+      "url": "assets/weapon.glb"
+    },
+    "attack1": {
+      "type": "emote",
+      "url": "assets/attack1.glb"
+    },
+    "attack2": {
+      "type": "emote",
+      "url": "assets/attack2.glb"
+    },
+    "attackEmote1": {
+      "type": "emote",
+      "url": "assets/attackEmote1.glb"
+    },
+    "attackEmote2": {
+      "type": "emote",
+      "url": "assets/attackEmote2.glb"
+    },
+    "attackSound": {
+      "type": "audio",
+      "url": "assets/attackSound.mp3"
+    },
+    "chargeEmote": {
+      "type": "emote",
+      "url": "assets/chargeEmote.glb"
+    },
+    "chargeIcon": {
+      "type": "texture",
+      "url": "assets/chargeIcon.png"
+    },
+    "chargeCost": 30,
+    "specialEmote": {
+      "type": "emote",
+      "url": "assets/specialEmote.glb"
+    },
+    "specialIcon": {
+      "type": "texture",
+      "url": "assets/specialIcon.png"
+    },
+    "specialCost": 50,
+    "attackIcon": {
+      "type": "texture",
+      "url": "assets/attackIcon.png"
+    },
+    "attackCost": 1,
+    "enabled": true,
+    "deathDuration": 5,
+    "healInterval": 2,
+    "healAmount": 10,
+    "deathEmote": {
+      "type": "emote",
+      "url": "assets/deathEmote.glb"
+    },
+    "idleEmote": {
+      "type": "emote",
+      "url": "assets/idleEmote.glb"
+    },
+    "walkEmote": {
+      "type": "emote",
+      "url": "assets/walkEmote.glb"
+    },
+    "attackEmote": {
+      "type": "emote",
+      "url": "assets/attackEmote.glb"
+    },
+    "assets": {
+      "type": "model",
+      "url": "assets/assets.glb"
+    },
+    "aggroRadius": 10,
+    "aggroDebug": false,
+    "runEmote": {
+      "type": "emote",
+      "url": "assets/runEmote.glb"
+    },
+    "aggroDistance": 10,
+    "fleeDistance": 11,
+    "leashDistance": 11,
+    "healRate": 1,
+    "regenRate": 1,
+    "regenAmount": 20,
+    "deadEmote": {
+      "type": "emote",
+      "url": "assets/deadEmote.glb"
+    },
+    "attackDmg": "10,15,30,2",
+    "attackRate": 1,
+    "runSpeed": 6
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\napp.configure([\n  {\n    key: 'assets',\n    type: 'file',\n    kind: 'model',\n    label: 'Assets',\n  },\n  {\n    key: 'idleEmote',\n    type: 'file',\n    kind: 'emote',\n    label: 'Idle Emote',\n  },\n  {\n    key: 'runEmote',\n    type: 'file',\n    kind: 'emote',\n    label: 'Run Emote'\n  },\n  {\n    key: 'runSpeed',\n    type: 'number',\n    label: 'Run Speed',\n    initial: 6,\n    dp: 1,\n  },\n  {\n    key: 'attackEmote',\n    type: 'file',\n    kind: 'emote',\n    label: 'Attack Emote'\n  },\n  {\n    key: 'attackDmg',\n    type: 'text',\n    label: 'Attack Dmg',\n    initial: '10,20,30,2',\n  },\n  {\n    key: 'attackRate',\n    type: 'number',\n    label: 'Attack Rate',\n    initial: 1.3,\n    dp: 1,\n  },\n  {\n    key: 'aggroDistance',\n    type: 'number',\n    label: 'Aggro Distance',\n    initial: 10,\n  },\n  {\n    key: 'leashDistance',\n    type: 'number',\n    label: 'Leash Distance',\n    initial: 11,\n  },\n  {\n    key: 'regenRate',\n    type: 'number',\n    label: 'Regen Rate',\n    initial: 1,\n  },\n  {\n    key: 'regenAmount',\n    type: 'number',\n    label: 'Regen Amount',\n    initial: 1,\n  },\n  {\n    key: 'deadEmote',\n    type: 'file',\n    kind: 'emote',\n    label: 'Dead Emote'\n  },\n])\n\nconst SEND_RATE = 1 / 5\nconst GRAVITY = -10\nconst FORWARD = new Vector3(0, 0, -1)\nconst MAX_HEALTH = 40\nconst DEATH_TIME = 3\nconst RESPAWN_TIME = 3\nconst SPAWN_TIME = 3\n\nconst DEBUG_AGGRO = false\n\nconst Emotes = {\n  IDLE: 0,\n  RUN: 1,\n  ATTACK: 2,\n  DEAD: 3,\n}\nconst emoteUrls = {\n  0: props.idleEmote?.url,\n  1: props.runEmote?.url + '?s=1',\n  2: props.attackEmote?.url,\n  3: props.deadEmote?.url + '?l=0'\n}\n\nconst v1 = new Vector3()\nconst v2 = new Vector3()\nconst v3 = new Vector3()\nconst q1 = new Quaternion()\nconst q2 = new Quaternion()\nconst q3 = new Quaternion()\n\nconst avatar = app.get('avatar')\navatar.quaternion.copy(app.quaternion)\n\nconst mobId = app.instanceId\n\nconst getAttackDmg = strToDamageFn(props.attackDmg)\n\nconst start = {\n  position: a",
+  "asset_files": [
+    "Mob - Skelly.vrm",
+    "assets.glb",
+    "attack1.glb",
+    "attack2.glb",
+    "attackEmote.glb",
+    "attackEmote1.glb",
+    "attackEmote2.glb",
+    "attackIcon.png",
+    "attackSound.mp3",
+    "avatar.vrm",
+    "chargeEmote.glb",
+    "chargeIcon.png",
+    "deadEmote.glb",
+    "deathEmote.glb",
+    "idleEmote.glb",
+    "runEmote.glb",
+    "specialEmote.glb",
+    "specialIcon.png",
+    "walkEmote.glb",
+    "weapon.glb"
+  ]
+}

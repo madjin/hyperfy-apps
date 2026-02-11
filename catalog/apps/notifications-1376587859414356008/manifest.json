@@ -1,0 +1,49 @@
+{
+  "app_id": "notifications-1376587859414356008",
+  "app_slug": "notifications",
+  "app_name": "Notifications",
+  "source": {
+    "hyp_filename": "Notifications.hyp",
+    "discord_attachment_id": "1376587859108302969",
+    "discord_message_id": "1376587859414356008",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-05-26T15:48:41.450Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1346623562462527649/1376587859108302969/Notifications.hyp?ex=69798719&is=69783599&hm=a762fbf27c18ae5713a32c754178062504ab1c4730ca15182918ec247025f7e1&"
+  },
+  "author": {
+    "display_name": "Lastraum - theforgecore.xyz",
+    "discord_user_id": "486763458495512588",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "notification hyp - if this is already made somewhere else lemme know  and ill delete - apologies if so \ud83d\ude4f  it auto scales to 0 so no model shows in world\n`app.emit('nots', {message:\"hello world\"})`\n\ndata:\n- `message`:string\n- `color` (optional) :string\n- `fontSize` (optional): number\n- `timer` (optional): number",
+    "raw_message_content": "notification hyp - if this is already made somewhere else lemme know  and ill delete - apologies if so \ud83d\ude4f  it auto scales to 0 so no model shows in world\n`app.emit('nots', {message:\"hello world\"})`\n\ndata:\n- `message`:string\n- `color` (optional) :string\n- `fontSize` (optional): number\n- `timer` (optional): number",
+    "summary_excerpt": "Notifications.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/notifications",
+    "v2_json_path": "v2/notifications/notifications.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Notifications.md"
+  },
+  "preview": {
+    "primary_media_path": null,
+    "media_type": null,
+    "selection_reason": null,
+    "is_fallback_any_author": false
+  },
+  "media": [],
+  "status": {
+    "has_preview": false,
+    "needs_media_review": true,
+    "needs_author_review": false,
+    "flags": [
+      "no_media_found"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

@@ -1,0 +1,39 @@
+{
+  "app_id": "curved-video-viewer-1360630031814230229",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:51:48+00:00",
+  "one_liner": "A simple app that maps a video (file or HLS stream) onto a 3D mesh, supporting looping, aspect ratio, and fit options.",
+  "primary_use_case": "Display and play video textures on 3D objects, enabling curved or 360\u00b0 video playback within Hyperfy worlds.",
+  "feature_tags": [
+    "video",
+    "curved",
+    "texture",
+    "media",
+    "playback",
+    "loop",
+    "fit",
+    "aspect"
+  ],
+  "interaction_modes": [
+    "ui",
+    "action"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "none",
+  "preview_recommendation": "The PNG preview shows the video mesh on a screen; it is suitable for quick visual checks of the app's appearance.",
+  "manifest_quality_notes": [
+    "All required assets (model and script) are present.",
+    "Preview image is available and correctly linked.",
+    "UI configuration for props is defined.",
+    "No server\u2011side logic or networking used.",
+    "Potential missing video source if user does not provide file or URL."
+  ],
+  "safety_or_runtime_flags": [],
+  "confidence": "high",
+  "evidence_refs": [
+    "APP_FACTS",
+    "APP_FILES_CONTEXT",
+    "STATIC_ANALYSIS_SUMMARY_MD"
+  ]
+}

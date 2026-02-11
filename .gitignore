@@ -1,1 +1,4 @@
 node_modules/
+__pycache__/
+tmp
+catalog/discord/hyp_media_raw/

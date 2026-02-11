@@ -1,0 +1,49 @@
+{
+  "app_id": "token-gate-1349126914333478954",
+  "app_slug": "token-gate",
+  "app_name": "TOKEN_GATE",
+  "source": {
+    "hyp_filename": "TOKEN_GATE.hyp",
+    "discord_attachment_id": "1349126913485963344",
+    "discord_message_id": "1349126914333478954",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-03-11T21:08:41.943Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1346623562462527649/1349126913485963344/TOKEN_GATE.hyp?ex=69792959&is=6977d7d9&hm=be2c13cb6c652881266d2023e1efca32bde65c398544642d4c466efa8d326f2a&"
+  },
+  "author": {
+    "display_name": "peezy",
+    "discord_user_id": "169825031314997249",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "REQUIRES SOLANA MOD <@783416470205497394>",
+    "raw_message_content": "REQUIRES SOLANA MOD <@783416470205497394>",
+    "summary_excerpt": "TOKEN GATE.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/token-gate",
+    "v2_json_path": "v2/token-gate/token-gate.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/TOKEN_GATE.md"
+  },
+  "preview": {
+    "primary_media_path": null,
+    "media_type": null,
+    "selection_reason": null,
+    "is_fallback_any_author": false
+  },
+  "media": [],
+  "status": {
+    "has_preview": false,
+    "needs_media_review": true,
+    "needs_author_review": false,
+    "flags": [
+      "no_media_found"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

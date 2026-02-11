@@ -1,0 +1,61 @@
+{
+  "app_id": "spawn-1355236590603075706",
+  "app_slug": "spawn",
+  "app_name": "spawn",
+  "source": {
+    "hyp_filename": "spawn.hyp",
+    "discord_attachment_id": "1355236589298647160",
+    "discord_message_id": "1355236590603075706",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-03-28T17:46:22.278Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1355236264848265346/1355236589298647160/spawn.hyp?ex=6979a2ad&is=6978512d&hm=d7d22dfd3fcc8672d7191a7eb8d56d573dbf74ef81dd7cd364ba17ee514d7f1c&"
+  },
+  "author": {
+    "display_name": "Saori",
+    "discord_user_id": "1099579050378399806",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "spawn.hyp",
+    "raw_message_content": "",
+    "summary_excerpt": "spawn.hyp",
+    "source_priority_used": "summary_excerpt"
+  },
+  "links": {
+    "v2_app_dir": "v2/spawn",
+    "v2_json_path": "v2/spawn/spawn.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/spawn.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/spawn_1355236590603075706/m2_image.png",
+    "media_type": ".png",
+    "selection_reason": "same_author_nearby",
+    "is_fallback_any_author": false
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/spawn_1355236590603075706/m2_image.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": -2,
+      "same_author": true,
+      "selection_reason": "same_author_nearby",
+      "size_bytes": 225293,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1355236265124954277"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

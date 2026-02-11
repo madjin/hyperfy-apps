@@ -1,0 +1,41 @@
+{
+  "app_id": "hyperbeacon_v2-1337234426395889747",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:46:24+00:00",
+  "one_liner": "HyperBeacon_v2 is a beacon app that registers world info to a DSIG relay, sending periodic heartbeats and rotating a visual mesh.",
+  "primary_use_case": "Register world presence on a relay and provide live status updates for users.",
+  "feature_tags": [
+    "beacon",
+    "relay",
+    "heartbeat",
+    "dsig",
+    "visualization",
+    "networked",
+    "ui",
+    "world"
+  ],
+  "interaction_modes": [
+    "ui",
+    "trigger",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "events",
+  "preview_recommendation": "Use the provided spatial relay example PNG as the primary preview; it clearly shows the rotating mesh and conveys the app\u2019s visual feedback.",
+  "manifest_quality_notes": [
+    "App metadata extracted from Discord messages",
+    "Script analysis indicates moderate complexity",
+    "Asset sizes are modest",
+    "No known safety issues",
+    "Confidence high based on author verification"
+  ],
+  "safety_or_runtime_flags": [],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message:1337234426395889747",
+    "discord_attachment:1337234426043826208",
+    "github_beacon_repo:https://github.com/zestyxyz/beacon",
+    "docs_url:https://docs.zesty.xyz/graph/overview"
+  ]
+}

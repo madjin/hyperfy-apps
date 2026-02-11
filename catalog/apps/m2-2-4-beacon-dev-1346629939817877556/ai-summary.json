@@ -1,0 +1,41 @@
+{
+  "app_id": "m2-2-4-beacon-dev-1346629939817877556",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:46:41+00:00",
+  "one_liner": "Beacon client app that sends world metadata (URL, name, description, image, tags) to an external relay and periodically heartbeats the session.",
+  "primary_use_case": "Collects and reports a world's canonical URL, name, description, preview image, and tags to a relay server, then maintains session liveness via periodic heartbeat signals.",
+  "feature_tags": [
+    "beacon",
+    "relay",
+    "heartbeat",
+    "metadata",
+    "config",
+    "ui"
+  ],
+  "interaction_modes": [
+    "ui",
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "none",
+  "preview_recommendation": "Add a preview image or model thumbnail to the app's media assets to give users a visual cue, as currently no media is attached.",
+  "manifest_quality_notes": [
+    "no_media_found",
+    "placeholder_configuration",
+    "script_not_configured",
+    "needs_user_setup"
+  ],
+  "safety_or_runtime_flags": [
+    "no_media_found"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message_1346629939817877556",
+    "hyp_file_m2-2-4-beacon-dev.hyp",
+    "static_analysis_summary",
+    "app_blueprint",
+    "model_asset",
+    "script_asset"
+  ]
+}

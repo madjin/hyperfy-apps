@@ -1,0 +1,44 @@
+{
+  "name": "Platforms",
+  "author": ".hyp shaman",
+  "description": "have fun",
+  "tags": [
+    "platform",
+    "falling",
+    "interaction",
+    "configurable",
+    "ui",
+    "physics"
+  ],
+  "interaction_modes": [
+    "action",
+    "trigger",
+    "ui"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking": "local",
+  "preview_url": "catalog/discord/hyp_media/Platforms_1437886474681979002/m2_image.png",
+  "download_path": "v2-hyp/Platforms.hyp",
+  "created_at": "2025-11-11T19:27:30.203Z",
+  "props": {
+    "spawnMode": "floating",
+    "showTutorial": true,
+    "status": "All cleared - ready for new launch!",
+    "platformType": "platform",
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1,
+    "fallingForce": 10,
+    "triggerVisibility": "invisible",
+    "fallDelay": 1,
+    "resetTime": 5,
+    "moveSpeed": 3,
+    "rotateSpeed": 1
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\n// Get individual platform nodes directly\nconst platform = app.get('Platform')\nconst mediumPlatform = app.get('MediumPlatform')\nconst largePlatform = app.get('LargePlatform')\nconst extraLargePlatform = app.get('ExtraLargePlatform')\n\nconst areaTrigger = app.get('AreaTrigger') // The trigger detection\nconst triggerMesh = app.get('LOD001') // Separate mesh for visualization\nconst fllnPltfrm = app.get('FllnPltfrm')\n\n// Falling platform state\nlet originalPosition = null\nlet resetTimer = null\n\n// init start with falling platform visible and static\nif (platform) platform.active = false\nif (mediumPlatform) mediumPlatform.active = false\nif (largePlatform) largePlatform.active = false\nif (extraLargePlatform) extraLargePlatform.active = false\nif (fllnPltfrm) fllnPltfrm.type = 'static'\n\n\n// Store original position for reset\nif (fllnPltfrm) {\n  originalPosition = fllnPltfrm.position.clone()\n}\n\napp.keepActive = true\n\n// Handle trigger mesh visibility like cartridge.js\nif (triggerMesh && props.triggerVisibility === 'invisible') {\n  triggerMesh.active = false\n}\n\n// Configure props panel\napp.configure([\n  {\n    type: 'switch',\n    key: 'platformType',\n    label: 'Platform Type',\n    options: [\n      { label: 'Platform', value: 'platform' },\n      { label: 'Medium Platform', value: 'mediumPlatform' },\n      { label: 'Large Platform', value: 'largePlatform' },\n      { label: 'X-Large Platform', value: 'extraLargePlatform' },\n      { label: 'Falling Platform', value: 'fallingPlatform' },\n    ],\n    initial: 'fallingPlatform',\n    hint: 'Select which platform type to display. Falling Platform includes trigger-based physics.'\n  },\n  {\n    type: 'switch',\n    key: 'triggerVisibility',\n    label: 'Area Trigger Visibility',\n    options: [\n      { label: 'Visible', value: 'visible' },\n      { label: 'Invisible', value: 'invisible' },\n    ],\n    initial: 'invisible',\n    hint: 'Control visibility of the falling platform trig",
+  "asset_files": [
+    "Platforms.glb",
+    "Platforms__image.jpg"
+  ]
+}

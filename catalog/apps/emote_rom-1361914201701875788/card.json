@@ -1,0 +1,64 @@
+{
+  "name": "Emote_Rom",
+  "author": "HowieDuhzit",
+  "description": "its not a wheel but its a start, this binds emotes and emojis to the number keys",
+  "tags": [
+    "animation",
+    "emoji",
+    "numpad",
+    "ui",
+    "multiplayer",
+    "sync"
+  ],
+  "interaction_modes": [
+    "action",
+    "trigger",
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking": "events",
+  "preview_url": "catalog/discord/hyp_media/Emote_Rom_1361914201701875788/p1_xyz-particle-fire-trails.mp4",
+  "download_path": "v2-hyp/Emote_Rom.hyp",
+  "created_at": "2025-04-16T04:00:48.828Z",
+  "props": {
+    "rName": "Emotes",
+    "color": "0.0957",
+    "emote1Emoji": "\ud83d\ude0a",
+    "emote2Emoji": "",
+    "emote3Emoji": "",
+    "emote4Emoji": "",
+    "emote5Emoji": "\ud83c\udfb5",
+    "emote6Emoji": "",
+    "emote7Emoji": "",
+    "emote8Emoji": "",
+    "emote9Emoji": "",
+    "emote0Emoji": "",
+    "duration": 6,
+    "emote1File": {
+      "type": "emote",
+      "url": "assets/emote1File.glb"
+    },
+    "emote2File": {
+      "type": "emote",
+      "url": "assets/emote2File.glb"
+    },
+    "emote3File": {
+      "type": "emote",
+      "url": "assets/emote3File.glb"
+    },
+    "emote4File": {
+      "type": "emote",
+      "url": "assets/emote4File.glb"
+    }
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\n// =================================================================\n// Place your rom scrip below:\n// =================================================================\n\n\napp.configure([\n  \n])\n\n// Server-side code to handle emote syncing\nif (world.isServer) {\n  app.on('emote:play', ({ playerId, emoteUrl, emoji }) => {\n    // Broadcast to all clients\n    app.broadcast('emote:show', { playerId, emoteUrl, emoji })\n  })\n}\n\nif (world.isClient) {\n  const player = world.getPlayer()\n  const control = app.control()\n  const activeEmoteUIs = new Map() // Track UIs for all players\n\n  // Create UI for emote indicator\n  function createEmoteUI(targetPlayer) {\n    const ui = app.create('ui')\n    ui.width = 50\n    ui.height = 50\n    ui.backgroundColor = 'rgba(0, 0, 0, 0)'\n    ui.borderRadius = 25\n    ui.padding = 5\n    ui.billboard = 'full'\n    ui.pivot = 'center'\n    ui.justifyContent = 'center'\n    ui.alignItems = 'center'\n    \n    const text = app.create('uitext')\n    text.fontSize = 0\n    text.color = '#ffffff'\n    ui.add(text)\n    \n    // Position above target player\n    ui.position.copy(targetPlayer.position)\n    ui.position.y += 2.5\n    \n    return { ui, text }\n  }\n\n  function showEmoteIndicator(targetPlayer, emoji) {\n    let emoteUI = activeEmoteUIs.get(targetPlayer.id)\n    \n    if (!emoteUI) {\n      const { ui, text } = createEmoteUI(targetPlayer)\n      emoteUI = { ui, text }\n      activeEmoteUIs.set(targetPlayer.id, emoteUI)\n      world.add(ui)\n    }\n    \n    // Update position and emoji\n    emoteUI.ui.position.copy(targetPlayer.position)\n    emoteUI.ui.position.y += 2.5\n    emoteUI.text.value = emoji\n    \n    // Hide after duration\n    setTimeout(() => {\n      const ui = activeEmoteUIs.get(targetPlayer.id)\n      if (ui) {\n        world.remove(ui.ui)\n        activeEmoteUIs.delete(targetPlayer.id)\n      }\n    }, (app.props.duration || 1) * 1000)\n  }\n\n  function playEmote(num) {\n    const emoteFile = app.pr",
+  "asset_files": [
+    "Emote_Rom.glb",
+    "emote1File.glb",
+    "emote2File.glb",
+    "emote3File.glb",
+    "emote4File.glb"
+  ]
+}

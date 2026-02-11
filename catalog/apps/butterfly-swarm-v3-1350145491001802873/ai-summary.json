@@ -1,0 +1,45 @@
+{
+  "app_id": "butterfly-swarm-v3-1350145491001802873",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:44:32+00:00",
+  "one_liner": "Butterfly Swarm V3 creates a configurable, animated swarm of butterflies with random movement and flapping.",
+  "primary_use_case": "Add a dynamic, ambient butterfly swarm visual to Hyperfy worlds.",
+  "feature_tags": [
+    "visual",
+    "particle",
+    "animation",
+    "configurable",
+    "ui",
+    "3d",
+    "ambient",
+    "swarm"
+  ],
+  "interaction_modes": [
+    "ui",
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "none",
+  "preview_recommendation": "Use the provided PNG preview (m2_5000.png) to represent the app; it accurately shows the butterfly swarm visual.",
+  "manifest_quality_notes": [
+    "High confidence author identity",
+    "Preview image available",
+    "UI configuration defined",
+    "No networking used",
+    "Model asset referenced in v2 JSON",
+    "Potential missing external URLs"
+  ],
+  "safety_or_runtime_flags": [],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message:1350145491001802873",
+    "discord_attachment:1350145490674782309",
+    "discord_user:601886221072990251",
+    "app_slug:butterfly-swarm-v3",
+    "hyp_file:Butterfly_Swarm_V3.hyp",
+    "discord_channel:#\ud83c\udfa8\u2502showcase",
+    "discord_timestamp:2025-03-14T16:36:09.545Z",
+    "author_display_name:Gert-Jan Akerboom"
+  ]
+}

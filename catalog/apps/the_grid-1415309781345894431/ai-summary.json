@@ -1,0 +1,45 @@
+{
+  "app_id": "the_grid-1415309781345894431",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:48:40+00:00",
+  "one_liner": "The Grid app provides three configurable sky scenes with sun and fog settings.",
+  "primary_use_case": "Configure sky background, lighting, and fog in a 3D scene.",
+  "feature_tags": [
+    "sky",
+    "sun",
+    "fog",
+    "texture",
+    "hdr",
+    "rotation",
+    "intensity",
+    "color"
+  ],
+  "interaction_modes": [
+    "ui",
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "none",
+  "preview_recommendation": "Use the provided PNG preview; it shows the sky background. Since it's a fallback author image, consider adding a dedicated preview of the sky node for clarity.",
+  "manifest_quality_notes": [
+    "fallback preview used",
+    "no dedicated preview",
+    "script includes calculateSunDirection utility",
+    "props cover sky, hdr, sun, and fog",
+    "no networking features",
+    "high confidence in data"
+  ],
+  "safety_or_runtime_flags": [
+    "media_fallback_any_author"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message",
+    "hyp_file",
+    "static_analysis",
+    "docs_app",
+    "docs_networking",
+    "docs_world"
+  ]
+}

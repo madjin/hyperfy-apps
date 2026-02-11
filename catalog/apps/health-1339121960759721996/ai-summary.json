@@ -1,0 +1,44 @@
+{
+  "app_id": "health-1339121960759721996",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:46:03+00:00",
+  "one_liner": "Health pack app that restores health, rotates in place, and can be collected by nearby collectrons in a space trading sim.",
+  "primary_use_case": "Provides a collectible health pack item for players in Hyperfy worlds, restoring health when collected.",
+  "feature_tags": [
+    "health",
+    "collectible",
+    "rotation",
+    "animation",
+    "space-trading",
+    "model",
+    "script",
+    "props"
+  ],
+  "interaction_modes": [
+    "action",
+    "trigger",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "events",
+  "preview_recommendation": "Use the primary PNG preview (p0_vt01.png) as the app thumbnail; it clearly shows the rotating health pack model.",
+  "manifest_quality_notes": [
+    "Configurable health value",
+    "Rotates when idle",
+    "Collectible via proximity",
+    "Emits item-detected event",
+    "No known safety issues",
+    "High confidence in description"
+  ],
+  "safety_or_runtime_flags": [],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message",
+    "hyp_file",
+    "static_analysis",
+    "source_code",
+    "media_images",
+    "media_video"
+  ]
+}

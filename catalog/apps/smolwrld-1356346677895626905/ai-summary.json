@@ -1,0 +1,44 @@
+{
+  "app_id": "smolwrld-1356346677895626905",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:48:27+00:00",
+  "one_liner": "SmolWrld is a Hyperfy app that plays background and multiple spatial audio tracks with configurable volume, distance, and cone settings, while animating sky rotation and water texture.",
+  "primary_use_case": "Audio environment with spatial sound and simple visual animation for immersive experiences.",
+  "feature_tags": [
+    "audio",
+    "spatial audio",
+    "configurable props",
+    "model",
+    "animation",
+    "multi-track",
+    "loop",
+    "interactive"
+  ],
+  "interaction_modes": [
+    "ui",
+    "passive"
+  ],
+  "asset_profile": "heavy",
+  "script_complexity": "medium",
+  "networking_profile": "none",
+  "preview_recommendation": "Use the provided screenshot as the primary preview; it shows the app's UI and visual elements, suitable for catalog display.",
+  "manifest_quality_notes": [
+    "Large audio assets may increase load time",
+    "Fallback preview used due to author mismatch",
+    "Extensive audio configuration props",
+    "Duplicate audio nodes (audio1\u20115) share same source",
+    "No networking events detected",
+    "Model and script sizes moderate"
+  ],
+  "safety_or_runtime_flags": [
+    "large_audio_files",
+    "media_fallback_any_author",
+    "potential_performance_impact"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message_1356346677895626905",
+    "hyp_file_SmolWrld.hyp",
+    "static_analysis_summary"
+  ]
+}

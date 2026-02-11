@@ -1,0 +1,48 @@
+{
+  "app_id": "alien_planet-1415309781345894431",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:44:02+00:00",
+  "one_liner": "Alien Planet app provides customizable sky, sun, and fog settings with a 3D model and script, allowing users to configure background, HDR, sun direction, intensity, and fog.",
+  "primary_use_case": "Configure environmental lighting and sky for a 3D scene.",
+  "feature_tags": [
+    "sky",
+    "sun",
+    "fog",
+    "hdr",
+    "texture",
+    "configurable",
+    "3d-model",
+    "script"
+  ],
+  "interaction_modes": [
+    "ui",
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "none",
+  "preview_recommendation": "Use the provided PNG preview; consider adding a higher\u2011resolution render of the sky for better visual appeal.",
+  "manifest_quality_notes": [
+    "fallback_media_used",
+    "author_review_not_needed",
+    "media_review_complete",
+    "discord_source_verified",
+    "no_networking",
+    "script_modular"
+  ],
+  "safety_or_runtime_flags": [
+    "media_fallback_any_author",
+    "no_safety_issues"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "discord_message_1415309781345894431",
+    "hyp_file_Alien_Planet.hyp",
+    "static_analysis",
+    "docs_app",
+    "docs_scripting",
+    "docs_supported_files",
+    "discord_context",
+    "preview_image"
+  ]
+}

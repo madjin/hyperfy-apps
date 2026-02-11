@@ -1,0 +1,49 @@
+{
+  "app_id": "heliv4-1374463195070332958",
+  "app_slug": "heliv4",
+  "app_name": "HELIv4",
+  "source": {
+    "hyp_filename": "HELIv4.hyp",
+    "discord_attachment_id": "1374463194738987048",
+    "discord_message_id": "1374463195070332958",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-05-20T19:06:01.996Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1346623562462527649/1374463194738987048/HELIv4.hyp?ex=69790c99&is=6977bb19&hm=c1299c95443a10290f5835ba13f858538f840167a63dcaada0d55e9f9611309b&"
+  },
+  "author": {
+    "display_name": "vox",
+    "discord_user_id": "415262868217266177",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "HELIv4.hyp",
+    "raw_message_content": "",
+    "summary_excerpt": "HELIv4.hyp",
+    "source_priority_used": "summary_excerpt"
+  },
+  "links": {
+    "v2_app_dir": null,
+    "v2_json_path": null,
+    "hyp_summary_path": "catalog/discord/hyp_summaries/HELIv4.md"
+  },
+  "preview": {
+    "primary_media_path": null,
+    "media_type": null,
+    "selection_reason": null,
+    "is_fallback_any_author": false
+  },
+  "media": [],
+  "status": {
+    "has_preview": false,
+    "needs_media_review": true,
+    "needs_author_review": false,
+    "flags": [
+      "no_media_found"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

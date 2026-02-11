@@ -1,0 +1,49 @@
+{
+  "app_id": "networked-grabbable-1349221803263922257",
+  "app_slug": "networked-grabbable",
+  "app_name": "Networked_Grabbable",
+  "source": {
+    "hyp_filename": "Networked_Grabbable.hyp",
+    "discord_attachment_id": "1349221803062464532",
+    "discord_message_id": "1349221803263922257",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-03-12T03:25:45.227Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1346623562462527649/1349221803062464532/Networked_Grabbable.hyp?ex=697981b9&is=69783039&hm=cbbb94f95323d41a788dc632e54756194d81d142694692000fa7eee6e7193279&"
+  },
+  "author": {
+    "display_name": "Saori",
+    "discord_user_id": "1099579050378399806",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "Networked Grabbable.hyp",
+    "raw_message_content": "",
+    "summary_excerpt": "Networked Grabbable.hyp",
+    "source_priority_used": "summary_excerpt"
+  },
+  "links": {
+    "v2_app_dir": "v2/networked-grabbable",
+    "v2_json_path": "v2/networked-grabbable/networked-grabbable.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Networked_Grabbable.md"
+  },
+  "preview": {
+    "primary_media_path": null,
+    "media_type": null,
+    "selection_reason": null,
+    "is_fallback_any_author": false
+  },
+  "media": [],
+  "status": {
+    "has_preview": false,
+    "needs_media_review": true,
+    "needs_author_review": false,
+    "flags": [
+      "no_media_found"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-11T01:21:14+00:00",
+  "max_commit_size_bytes": 52428800
+}

@@ -1,0 +1,45 @@
+{
+  "app_id": "questitemui-1396392921833410642",
+  "model": "openrouter/aurora-alpha",
+  "generated_at": "2026-02-11T01:52:20+00:00",
+  "one_liner": "QuestItemUI displays a configurable on\u2011screen counter for collected quest items, with persistent storage, styling, positioning, and event integration.",
+  "primary_use_case": "Show a UI notification and count when players collect quest items in a Hyperfy world.",
+  "feature_tags": [
+    "ui",
+    "counter",
+    "persistent storage",
+    "customizable",
+    "event-driven",
+    "positioning",
+    "styling",
+    "quest items"
+  ],
+  "interaction_modes": [
+    "ui",
+    "trigger",
+    "action"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "events",
+  "preview_recommendation": "No preview media is attached. Add a screenshot or short video showing the UI in action (different positions, display modes, and storage behavior) to help users assess the app quickly.",
+  "manifest_quality_notes": [
+    "no_media_found",
+    "author confidence high",
+    "UI fully configurable via props",
+    "persistent storage optional",
+    "event name configurable",
+    "reset button provided"
+  ],
+  "safety_or_runtime_flags": [
+    "no_media_found"
+  ],
+  "confidence": "high",
+  "evidence_refs": [
+    "APP_FACTS",
+    "APP_FILES_CONTEXT",
+    "DISCORD_CONTEXT",
+    "STATIC_ANALYSIS_SUMMARY_MD",
+    "HYPERFY_DOC_SNIPPETS"
+  ]
+}
