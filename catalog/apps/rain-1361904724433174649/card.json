@@ -1,22 +1,20 @@
 {
   "name": "Rain",
   "author": "ash",
-  "description": "Rain.hyp",
+  "description": "A configurable particle system visualizing rain effects. Features a rectangle emitter with additive blending and alpha-over-life fading, positioned overhead. Includes a UI prop for custom raindrop textures. Intended as a reference implementation for Hyperfy's particle system.",
   "tags": [
     "particles",
-    "additive blending",
-    "texture",
-    "configurable props",
-    "scripted",
-    "glb model"
+    "environment",
+    "ui",
+    "animation",
+    "3d-model"
   ],
   "interaction_modes": [
     "ui",
-    "action",
     "passive"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "medium",
+  "asset_profile": "light",
+  "script_complexity": "low",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/Rain_1361904724433174649/m1_xyz-particle-demos_2_-_edit.mp4",
   "download_path": "v2-hyp/Rain.hyp",

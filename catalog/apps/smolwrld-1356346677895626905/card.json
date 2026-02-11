@@ -1,14 +1,14 @@
 {
   "name": "SmolWrld",
   "author": ".hyp shaman",
-  "description": "SmolWrld.hyp",
+  "description": "Spatial audio environment with configurable background/foreground tracks, distance attenuation, and sound cones. Features multi-zone audio placement, animated sky rotation, and water texture scrolling.",
   "tags": [
     "audio",
-    "configurable props",
-    "3d-model",
-    "animation",
-    "multi-track",
-    "loop"
+    "spatial",
+    "environment",
+    "ui",
+    "media-player",
+    "3d-model"
   ],
   "interaction_modes": [
     "ui",

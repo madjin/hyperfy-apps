@@ -1,21 +1,17 @@
 {
   "name": "Grass_V3",
   "author": "Gert-Jan Akerboom",
-  "description": "Grass V3.hyp",
+  "description": "JSON validator service",
   "tags": [
-    "environment",
-    "flowers",
-    "particles",
-    "clustering",
-    "random placement",
-    "wind animation"
+    "api",
+    "json",
+    "validation"
   ],
   "interaction_modes": [
-    "ui",
-    "passive"
+    "action"
   ],
   "asset_profile": "medium",
-  "script_complexity": "medium",
+  "script_complexity": "low",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/Grass_V3_1360243980150902917/m1_Play_-_Google_Chrome_11.04.2025_15_22_23.png",
   "download_path": "v2-hyp/Grass_V3.hyp",

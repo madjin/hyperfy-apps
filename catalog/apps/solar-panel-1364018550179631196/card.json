@@ -1,20 +1,18 @@
 {
   "name": "Solar_Panel",
   "author": "~/drdoge.eth",
-  "description": "Solar Panel.hyp",
+  "description": "A configurable sky and lighting environment app that simulates time-of-day sun positioning. Features customizable sky textures, HDR backgrounds, and adjustable sun intensity with AM/PM time controls. Creates a dynamic sky node that calculates realistic sun direction based on hour input.",
   "tags": [
     "environment",
-    "hdr",
-    "time",
-    "sun",
-    "intensity",
-    "configurable"
+    "ui",
+    "3d-model",
+    "interaction"
   ],
   "interaction_modes": [
     "ui",
     "passive"
   ],
-  "asset_profile": "medium",
+  "asset_profile": "light",
   "script_complexity": "low",
   "networking": "none",
   "preview_url": null,

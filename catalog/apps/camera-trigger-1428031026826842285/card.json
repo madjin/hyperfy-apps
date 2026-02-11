@@ -1,22 +1,21 @@
 {
   "name": "Camera_Trigger",
   "author": "Dhin",
-  "description": "<@849162940699115530> \nThis could potentially be pretty cool for a museum type environment.\nIt's a trigger that while standing on it changes the camera view. Would require setup but may give more control than the jumper.",
+  "description": "A physics trigger zone that smoothly transitions the camera to a configured overlook view when a player enters, and returns to first-person view on exit. Designed for museum or gallery environments to showcase specific viewing angles of exhibits.",
   "tags": [
     "camera",
     "interaction",
-    "museum",
-    "exhibit",
-    "view",
-    "zone"
+    "animation",
+    "environment",
+    "3d-model"
   ],
   "interaction_modes": [
     "trigger",
-    "action"
+    "passive"
   ],
   "asset_profile": "light",
   "script_complexity": "medium",
-  "networking": "none",
+  "networking": "local",
   "preview_url": "catalog/discord/hyp_media/Camera_Trigger_1428031026826842285/m1_IMG_0630.png",
   "download_path": "v2-hyp/Camera_Trigger.hyp",
   "created_at": "2025-10-15T14:45:28.329Z",

@@ -1,19 +1,17 @@
 {
   "name": "Mato_Pets",
   "author": "~/MayD524/Hyperfy",
-  "description": "Well I did say tuesday didn't I? Not fully where I wanted it but a nice little demo, much more to come soon",
+  "description": "Networked companion pet that follows players with physics-based avoidance. Features adoption system, configurable follow speeds, and synchronized emotes (idle/walk/sit). Uses raycasting for navigation and supports ownership transfer between players.",
   "tags": [
-    "follow",
-    "obstacle_avoidance",
-    "animation",
-    "adopt_action",
+    "npc",
     "multiplayer",
-    "v2"
+    "interaction",
+    "physics",
+    "companion"
   ],
   "interaction_modes": [
-    "action",
     "networked",
-    "passive"
+    "networked"
   ],
   "asset_profile": "medium",
   "script_complexity": "medium",

@@ -1,18 +1,15 @@
 {
   "app_id": "rover-ringedplanet-1339121960759721996",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:48:10+00:00",
-  "one_liner": "Remixed Metamike's Rover+Loot apps into a space\u2011trading simulation with patrolling AI, UI stats, and customizable props, using assets from Poly Pizza, Void Runners, and Dvir Silver music.",
-  "primary_use_case": "Space trading simulation where a collectron patrols, gathers resources, and displays health and profitability stats via UI.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:15:53+00:00",
+  "description": "Remixed space trading sim based on Metamike's Rover+Loot. Features autonomous patrolling drone behavior with health/cargo stats, proximity detection, resource transfer mechanics, and floating UI. Collectron-style NPC with configurable perception, movement, and depletion/regen systems.",
   "feature_tags": [
-    "trading",
-    "resource collection",
-    "patrol AI",
-    "ui stats",
-    "customizable props",
-    "3d model",
-    "audio",
-    "space theme"
+    "vehicle",
+    "npc",
+    "ui",
+    "interaction",
+    "simulation",
+    "3d-model"
   ],
   "interaction_modes": [
     "ui",
@@ -22,21 +19,5 @@
   ],
   "asset_profile": "medium",
   "script_complexity": "high",
-  "networking_profile": "events",
-  "preview_recommendation": "Use the provided PNG preview as the main thumbnail; it clearly shows the ship model and UI layout.",
-  "manifest_quality_notes": [
-    "Configurable via props",
-    "Dynamic UI stat bars",
-    "Patrol AI with random movement",
-    "Event\u2011driven networking (ping/pong)",
-    "Includes video demo asset",
-    "Assets sourced from external creators"
-  ],
-  "safety_or_runtime_flags": [],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message",
-    "hyp_file",
-    "static_analysis"
-  ]
+  "networking_profile": "events"
 }

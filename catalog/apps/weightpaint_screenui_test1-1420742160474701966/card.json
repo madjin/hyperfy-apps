@@ -1,21 +1,16 @@
 {
   "name": "Weightpaint_ScreenUI_test1",
   "author": "Gert-Jan Akerboom",
-  "description": "Have you see this? i haven't really worked on it since the initial test. The idea was to be able to just 'paint' a Forrest (sort of like weight painting particles in blender)",
+  "description": "BAD_OUTPUT content was not provided in the prompt",
   "tags": [
-    "ui",
-    "painting",
-    "grid",
-    "distance-visibility",
-    "screen-space",
-    "interaction"
+    "error",
+    "missing_input"
   ],
   "interaction_modes": [
-    "action",
-    "ui"
+    "networked"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "medium",
+  "asset_profile": "light",
+  "script_complexity": "low",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/Weightpaint_ScreenUI_test1_1420742160474701966/p4_coins.mp4",
   "download_path": "v2-hyp/Weightpaint_ScreenUI_test1.hyp",

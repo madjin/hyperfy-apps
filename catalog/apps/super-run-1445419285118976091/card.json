@@ -1,22 +1,17 @@
 {
   "name": "Super_Run",
   "author": "Dhin",
-  "description": "Super run. Put this hyp down and run for longer than 1 second for speeed.\nMade with <@297290503181959169>",
+  "description": "A sample application",
   "tags": [
-    "speed_boost",
-    "sprinting",
-    "animation",
-    "physics",
-    "deactivation_time",
-    "props"
+    "utility",
+    "productivity"
   ],
   "interaction_modes": [
-    "action",
     "passive",
-    "ui"
+    "action"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "medium",
+  "asset_profile": "light",
+  "script_complexity": "low",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/Super_Run_1445419285118976091/p0_super-run.mp4",
   "download_path": "v2-hyp/Super_Run.hyp",

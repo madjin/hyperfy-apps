@@ -1,13 +1,10 @@
 {
   "name": "n1-n1-05",
   "author": "ash",
-  "description": "here is the exact same glb you posted above, with convex disabled",
+  "description": "Configures a GLB model's collider to use precise trimesh collision (convex=false) instead of convex hull, demonstrating physics collision setup for accurate mesh boundaries.",
   "tags": [
     "physics",
-    "convex",
-    "3d-model",
-    "script",
-    "simple"
+    "3d-model"
   ],
   "interaction_modes": [
     "passive"

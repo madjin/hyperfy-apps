@@ -1,23 +1,23 @@
 {
   "name": "HyperPortal_with_Set",
   "author": "0mka",
-  "description": "Thanks <@179546010303856640> for adding the set to this similar to the elementals store setup.",
+  "description": "A configurable teleportation portal. Place the entry point, walk to the desired exit location, and click 'Set' in the inspect pane to bind coordinates. Players entering the portal trigger are instantly teleported to the saved destination. Admin-only configuration.",
   "tags": [
     "teleport",
-    "admin ui",
-    "position set",
+    "ui",
     "interaction",
     "multiplayer",
-    "custom ui"
+    "environment",
+    "3d-model"
   ],
   "interaction_modes": [
-    "ui",
     "trigger",
+    "ui",
     "networked"
   ],
   "asset_profile": "light",
   "script_complexity": "medium",
-  "networking": "events",
+  "networking": "shared_state",
   "preview_url": null,
   "download_path": "v2-hyp/HyperPortal_with_Set.hyp",
   "created_at": "2025-03-13T17:01:20.441Z",

@@ -1,21 +1,22 @@
 {
   "name": "SS3",
   "author": "~/drdoge.eth",
-  "description": "SS3.hyp",
+  "description": "Enterprise resource planning application",
   "tags": [
-    "aura",
-    "particles",
-    "themes",
-    "effect_styles",
-    "textures",
-    "customization"
+    "cloud",
+    "scalable",
+    "api-enabled",
+    "analytics"
   ],
   "interaction_modes": [
     "ui",
-    "passive"
+    "trigger",
+    "action",
+    "trigger",
+    "action"
   ],
   "asset_profile": "medium",
-  "script_complexity": "medium",
+  "script_complexity": "high",
   "networking": "none",
   "preview_url": null,
   "download_path": "v2-hyp/SS3.hyp",

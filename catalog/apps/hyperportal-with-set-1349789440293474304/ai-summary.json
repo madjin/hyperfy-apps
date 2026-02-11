@@ -1,40 +1,22 @@
 {
   "app_id": "hyperportal-with-set-1349789440293474304",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:52:04+00:00",
-  "one_liner": "Admin-configurable portal that teleports players to a saved position when they enter the trigger zone.",
-  "primary_use_case": "Provides a simple way for world admins to set a teleport destination and have players automatically moved there via a portal trigger.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:06:53+00:00",
+  "description": "A configurable teleportation portal. Place the entry point, walk to the desired exit location, and click 'Set' in the inspect pane to bind coordinates. Players entering the portal trigger are instantly teleported to the saved destination. Admin-only configuration.",
   "feature_tags": [
     "teleport",
-    "admin UI",
-    "position set",
-    "trigger",
-    "networked",
-    "custom UI"
+    "ui",
+    "interaction",
+    "multiplayer",
+    "environment",
+    "3d-model"
   ],
   "interaction_modes": [
-    "ui",
     "trigger",
+    "ui",
     "networked"
   ],
   "asset_profile": "light",
   "script_complexity": "medium",
-  "networking_profile": "events",
-  "preview_recommendation": "Add a screenshot or short video showing the portal UI button and the teleport effect when a player enters the portal.",
-  "manifest_quality_notes": [
-    "No preview media attached",
-    "Position can only be set by admin players",
-    "Uses world state to persist position across sessions",
-    "Simple model and script assets"
-  ],
-  "safety_or_runtime_flags": [
-    "requires_admin"
-  ],
-  "confidence": "high",
-  "evidence_refs": [
-    "APP_FACTS",
-    "APP_FILES_CONTEXT",
-    "STATIC_ANALYSIS_SUMMARY_MD",
-    "DISCORD_CONTEXT"
-  ]
+  "networking_profile": "shared_state"
 }

@@ -1,40 +1,16 @@
 {
   "app_id": "butterfly-swarm-v2a-1350129252976168992",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:44:30+00:00",
-  "one_liner": "Butterfly swarm visual effect with configurable count, scale, wing flap speed, and fly speed for Hyperfy V2.",
-  "primary_use_case": "Add a dynamic, animated butterfly swarm to a Hyperfy world for ambient visual enhancement.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T03:58:26+00:00",
+  "description": "Fixed JSON output",
   "feature_tags": [
-    "visual",
-    "ambient",
-    "particles",
-    "customizable",
-    "ui",
-    "animation",
-    "3d",
-    "blender"
+    "unclassified"
   ],
   "interaction_modes": [
-    "ui",
-    "passive"
+    "trigger",
+    "trigger"
   ],
   "asset_profile": "medium",
-  "script_complexity": "medium",
-  "networking_profile": "none",
-  "preview_recommendation": "Use the provided PNG preview (p0_5000.png) to showcase the swarm's appearance; it accurately reflects the in\u2011world visual effect.",
-  "manifest_quality_notes": [
-    "UI inputs for count, scale, flap speed, and fly speed",
-    "Randomized movement and rotation per butterfly",
-    "No networking or server\u2011side state",
-    "Custom wing textures possible via external GLB",
-    "Performance adjustable via butterfly count",
-    "Requires Blender for custom model modifications"
-  ],
-  "safety_or_runtime_flags": [],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message",
-    "hyp_file",
-    "static_analysis"
-  ]
+  "script_complexity": "high",
+  "networking_profile": "none"
 }

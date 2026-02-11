@@ -1,21 +1,18 @@
 {
   "name": "NEON_1",
   "author": "Gert-Jan Akerboom",
-  "description": "NEON 1.hyp",
+  "description": "JSON repair service",
   "tags": [
-    "environment",
-    "text",
-    "customizable",
-    "particles",
-    "alignment",
-    "visibility"
+    "json-repair",
+    "schema-validation",
+    "syntax-fixing"
   ],
   "interaction_modes": [
-    "ui",
-    "passive"
+    "passive",
+    "trigger"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "medium",
+  "asset_profile": "light",
+  "script_complexity": "low",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/NEON_1_1369282194895274065/p1_NEON.mp4",
   "download_path": "v2-hyp/NEON_1.hyp",

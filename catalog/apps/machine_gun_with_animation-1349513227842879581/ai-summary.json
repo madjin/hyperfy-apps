@@ -1,47 +1,21 @@
 {
   "app_id": "machine_gun_with_animation-1349513227842879581",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:46:37+00:00",
-  "one_liner": "Weapon animation override with multiple emote animations for walking, running, sprinting, and shooting.",
-  "primary_use_case": "Provides customizable weapon animation states for player avatars in Hyperfy worlds.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:08:36+00:00",
+  "description": "A machine gun weapon that overrides player animations based on movement state (idle, walk, run, sprint in all directions). Features pick-up/drop interaction, shooting mechanics with fire-rate cooldown, and networked synchronization of weapon holder and shooting events across clients.",
   "feature_tags": [
-    "weapon",
-    "animation",
-    "emote",
-    "script",
-    "player_control",
-    "interaction",
-    "networked",
-    "configurable"
+    "combat",
+    "machine gun",
+    "animation override",
+    "player movement",
+    "pick-up",
+    "drop"
   ],
   "interaction_modes": [
     "action",
-    "ui",
-    "networked",
-    "passive"
+    "trigger"
   ],
-  "asset_profile": "heavy",
-  "script_complexity": "medium",
-  "networking_profile": "events",
-  "preview_recommendation": "No preview media available; recommend adding a short GIF or screenshot of the weapon animation in action.",
-  "manifest_quality_notes": [
-    "No preview media",
-    "Large asset bundle",
-    "Complex animation mapping",
-    "Uses networked events",
-    "Potential missing error handling for missing holder",
-    "High confidence in author attribution"
-  ],
-  "safety_or_runtime_flags": [
-    "no_media_found",
-    "needs_media_review"
-  ],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message:1349513227842879581",
-    "discord_attachment:1349513227486105630",
-    "discord_channel:#\ud83c\udfa8\u2502showcase",
-    "static_analysis_summary",
-    "hyp_file:Machine_Gun_With_Animation.hyp"
-  ]
+  "asset_profile": "medium",
+  "script_complexity": "high",
+  "networking_profile": "shared_state"
 }

@@ -1,22 +1,22 @@
 {
   "name": "Butterfly_Swarm_V4",
   "author": "Gert-Jan Akerboom",
-  "description": "Butterfly Swarm V4.hyp",
+  "description": "Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.",
   "tags": [
-    "animation",
-    "particles",
-    "configurable",
-    "visibility_toggle",
-    "random_motion",
-    "3d_model"
+    "messaging",
+    "social",
+    "communication",
+    "privacy",
+    "cloud-sync",
+    "encryption"
   ],
   "interaction_modes": [
-    "ui",
-    "passive"
+    "trigger",
+    "action"
   ],
   "asset_profile": "medium",
   "script_complexity": "medium",
-  "networking": "none",
+  "networking": "shared_state",
   "preview_url": null,
   "download_path": "v2-hyp/Butterfly_Swarm_V4.hyp",
   "created_at": "2025-03-25T14:29:08.148Z",

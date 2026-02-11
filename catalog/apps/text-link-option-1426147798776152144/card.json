@@ -1,22 +1,18 @@
 {
   "name": "Text_link_option",
   "author": "Gert-Jan Akerboom",
-  "description": "Default text app with option to add a link",
+  "description": "Background task for syncing user data with external CRM",
   "tags": [
-    "text",
-    "link",
-    "ui",
-    "customizable",
-    "clickable",
-    "configurable"
+    "background-processing",
+    "crm-integration",
+    "data-sync"
   ],
   "interaction_modes": [
-    "ui",
-    "action"
+    "passive"
   ],
   "asset_profile": "medium",
-  "script_complexity": "medium",
-  "networking": "none",
+  "script_complexity": "high",
+  "networking": "shared_state",
   "preview_url": null,
   "download_path": "v2-hyp/Text_link_option.hyp",
   "created_at": "2025-10-10T10:02:11.773Z"

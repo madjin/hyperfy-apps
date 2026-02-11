@@ -1,46 +1,19 @@
 {
   "app_id": "token-gate-1349126914333478954",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:52:40+00:00",
-  "one_liner": "A Solana\u2011based token\u2011gated sliding door that opens only when the player holds a minimum amount of a specified SPL token.",
-  "primary_use_case": "Gate access to in\u2011world content based on a user\u2019s Solana token balance, with UI feedback and auto\u2011close behavior.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:20:24+00:00",
+  "description": "A Solana token-gated door that opens when players hold a minimum balance of specified SPL tokens. Features configurable sliding or swinging animations, customizable minimum balance thresholds, and support for any SPL token mint.",
   "feature_tags": [
     "solana",
     "token-gate",
-    "sliding-door",
-    "ui",
-    "networked",
-    "configurable",
-    "balance-display"
+    "access-control",
+    "spl-token"
   ],
   "interaction_modes": [
-    "action",
     "ui",
-    "passive",
-    "networked"
+    "trigger"
   ],
   "asset_profile": "medium",
   "script_complexity": "medium",
-  "networking_profile": "events",
-  "preview_recommendation": "No preview media is attached; add a short video or animated GIF showing the door opening after a token balance check to improve discoverability.",
-  "manifest_quality_notes": [
-    "Missing preview media (flagged in status)",
-    "Requires Solana mod \u2013 external dependency",
-    "All configuration fields are exposed via UI",
-    "Auto\u2011close timer may be confusing without visual cue",
-    "Script uses both client and server APIs"
-  ],
-  "safety_or_runtime_flags": [
-    "requires_solana_mod",
-    "client_balance_fetch",
-    "ui_interaction",
-    "networked_event_handling"
-  ],
-  "confidence": "medium",
-  "evidence_refs": [
-    "APP_FACTS",
-    "APP_FILES_CONTEXT",
-    "DISCORD_CONTEXT",
-    "STATIC_ANALYSIS_SUMMARY_MD"
-  ]
+  "networking_profile": "shared_state"
 }

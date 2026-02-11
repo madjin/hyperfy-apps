@@ -1,45 +1,22 @@
 {
   "app_id": "teleport_command_v2-1381127682699427880",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:48:36+00:00",
-  "one_liner": "Teleport Command v2 lets players set a destination via a UI button and teleport to it using a configurable command (default 'home'), storing the location on the server.",
-  "primary_use_case": "quick player teleportation to a saved location",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:19:08+00:00",
+  "description": "Configurable teleport system allowing admins to set destination coordinates via UI button, enabling players to teleport using chat commands (e.g., /home). Features persistent world-state storage, server-client synchronization, and customizable command triggers.",
   "feature_tags": [
     "teleport",
+    "ui",
     "command",
-    "button",
-    "configurable",
-    "state_sync",
-    "server_client",
-    "event_driven"
+    "multiplayer",
+    "interaction"
   ],
   "interaction_modes": [
     "ui",
-    "trigger",
     "action",
+    "trigger",
     "networked"
   ],
   "asset_profile": "medium",
   "script_complexity": "medium",
-  "networking_profile": "events",
-  "preview_recommendation": "Add a short video or GIF showing the UI button and teleport action, or a screenshot of the model with the button UI overlay, to illustrate functionality.",
-  "manifest_quality_notes": [
-    "No preview media attached",
-    "Limited documentation beyond script analysis",
-    "Unclear if UI toggle for location setting is desired",
-    "Potential missing safety checks for invalid destinations",
-    "Confidence high based on author data"
-  ],
-  "safety_or_runtime_flags": [
-    "no_media_found"
-  ],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_attachment:1381127682380791808",
-    "discord_message:1381127682699427880",
-    "static_analysis_summary",
-    "docs_snippet:app_api",
-    "docs_snippet:networking",
-    "docs_snippet:world_api"
-  ]
+  "networking_profile": "shared_state"
 }

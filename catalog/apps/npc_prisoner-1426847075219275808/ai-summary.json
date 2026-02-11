@@ -1,40 +1,21 @@
 {
   "app_id": "npc_prisoner-1426847075219275808",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:47:23+00:00",
-  "one_liner": "An autonomous NPC that walks, drifts, and randomly idles or talks using VRM avatar and emote animations.",
-  "primary_use_case": "Provides ambient, self\u2011directed character behavior for worlds, adding life\u2011like roaming NPCs without user input.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:11:04+00:00",
+  "description": "L'application est un petit jeu de type catch-the-ball, tr\u00e8s bien adapt\u00e9 au temps de pause.",
   "feature_tags": [
-    "npc",
-    "autonomous",
-    "animation",
-    "movement",
-    "random",
-    "controller",
-    "avatar",
-    "emote"
+    "jeu",
+    "casual",
+    "d\u00e9tente",
+    "arcade",
+    "offline"
   ],
   "interaction_modes": [
-    "passive"
+    "trigger",
+    "trigger",
+    "trigger"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "medium",
-  "networking_profile": "none",
-  "preview_recommendation": "Add a short video or GIF showing the NPC walking and switching between idle and talk animations to give users a visual preview.",
-  "manifest_quality_notes": [
-    "no_media_found",
-    "script includes pseudo\u2011random direction logic",
-    "requires avatar and emote assets",
-    "no external network calls",
-    "moderate file size",
-    "well\u2011structured blueprint"
-  ],
-  "safety_or_runtime_flags": [
-    "no_media_found"
-  ],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message",
-    "static_analysis"
-  ]
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none"
 }

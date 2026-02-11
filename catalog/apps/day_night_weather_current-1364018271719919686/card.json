@@ -1,21 +1,13 @@
 {
   "name": "DAY_NIGHT_WEATHER_CURRENT",
   "author": "~/drdoge.eth",
-  "description": "DAY NIGHT WEATHER CURRENT.hyp",
+  "description": "A Hyperfy app.",
   "tags": [
-    "day/night cycle",
-    "environment",
-    "ui",
-    "particles",
-    "audio",
-    "fog"
+    "unclassified"
   ],
-  "interaction_modes": [
-    "ui",
-    "passive"
-  ],
+  "interaction_modes": [],
   "asset_profile": "medium",
-  "script_complexity": "medium",
+  "script_complexity": "low",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/DAY_NIGHT_WEATHER_CURRENT_1364018271719919686/m8_IMG_1182.png",
   "download_path": "v2-hyp/DAY_NIGHT_WEATHER_CURRENT.hyp",

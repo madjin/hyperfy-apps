@@ -1,17 +1,14 @@
 {
   "app_id": "butterfly-swarm-v6-hyperfly-edition-2-1355068289964970128",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:44:36+00:00",
-  "one_liner": "A configurable swarm of glowing cyan butterflies that flutter and drift within a defined area.",
-  "primary_use_case": "Adds ambient visual animation to 3D worlds via a customizable butterfly swarm.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T03:58:56+00:00",
+  "description": "Spawns configurable swarms of animated butterflies with emissive cyan wings. Features random scaling, flapping animations, and flight patterns within defined 3D areas. Performance-optimized edition supporting up to 5000 instances with real-time configuration UI.",
   "feature_tags": [
-    "visual",
+    "particles",
     "animation",
-    "glow",
-    "configurable",
-    "particle",
-    "ambient",
-    "3d"
+    "environment",
+    "3d-model",
+    "ui"
   ],
   "interaction_modes": [
     "ui",
@@ -19,22 +16,5 @@
   ],
   "asset_profile": "medium",
   "script_complexity": "medium",
-  "networking_profile": "none",
-  "preview_recommendation": "Use the provided PNG preview as the thumbnail; it clearly shows the butterfly cluster and color scheme.",
-  "manifest_quality_notes": [
-    "Short description placeholder replaced with derived summary",
-    "Author confidence high via Discord evidence",
-    "Preview image verified and present",
-    "Props extracted from v2_json and script defaults",
-    "Script complexity moderate with randomization and animation loop",
-    "No networking features detected"
-  ],
-  "safety_or_runtime_flags": [],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord",
-    "hyp_file",
-    "v2_json",
-    "static_analysis_summary"
-  ]
+  "networking_profile": "none"
 }

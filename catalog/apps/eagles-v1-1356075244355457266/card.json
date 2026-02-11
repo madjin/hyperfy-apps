@@ -1,21 +1,16 @@
 {
   "name": "Eagles_v1",
   "author": "Valiant",
-  "description": "it's wip, think i stripped the sounds out",
+  "description": "Error: No content provided after BAD_OUTPUT label to fix",
   "tags": [
-    "visual",
-    "audio",
-    "configurable",
-    "animation",
-    "3d",
-    "ambient"
+    "error",
+    "missing_input"
   ],
   "interaction_modes": [
-    "ui",
-    "passive"
+    "networked"
   ],
   "asset_profile": "medium",
-  "script_complexity": "medium",
+  "script_complexity": "low",
   "networking": "none",
   "preview_url": null,
   "download_path": "v2-hyp/Eagles_v1.hyp",

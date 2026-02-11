@@ -1,22 +1,14 @@
 {
   "name": "SimonSays_Screen",
   "author": "cru",
-  "description": "simple idea for a minigame I'm testing. Very work in progress \n\"Simon Says\" - it's not technically Simon Says, but a similar vibe. \n\nThe screen displays a color, and players must jump to the correct block in time. In the final game, if they fail to do this, they would fall into a pit and die. \n\nThe game would increase in difficulty by getting quicker, reducing the # of functioning colors in the arena, or shrinking the cube sizes. There's a whole bunch of variables that could be added. \n\nEventually when there's one player remaining, the game would end. \n\nNext steps would be to add audio feedback, physics, and integrate with an HP system, like the one <@357905702926286858> created. There are also some issues with the way the colors are sent over to the playing area. It just grabs it from the local console I think \n\nThis idea is inspired by a project <@783416470205497394>  is working on where various colored cubes are instanced.",
+  "description": "A Hyperfy app.",
   "tags": [
-    "ui",
-    "multiplayer",
-    "audio",
-    "color",
-    "minigame",
-    "configurable"
+    "unclassified"
   ],
-  "interaction_modes": [
-    "ui",
-    "networked"
-  ],
+  "interaction_modes": [],
   "asset_profile": "medium",
   "script_complexity": "medium",
-  "networking": "events",
+  "networking": "local",
   "preview_url": "catalog/discord/hyp_media/SimonSays_Screen_1354675175769243730/p0_2025-03-27_00-21-03_1.mp4",
   "download_path": "v2-hyp/SimonSays_Screen.hyp",
   "created_at": "2025-03-27T04:35:30.551Z",

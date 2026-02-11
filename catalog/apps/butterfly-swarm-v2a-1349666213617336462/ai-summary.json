@@ -1,44 +1,16 @@
 {
   "app_id": "butterfly-swarm-v2a-1349666213617336462",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:44:29+00:00",
-  "one_liner": "A swarm of 100 butterflies with random movement, scaling, flapping, and optional rotation, rendered via cloned wing nodes.",
-  "primary_use_case": "Add dynamic, randomized butterfly swarms to a Hyperfy world for visual ambience and atmospheric effects.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T03:57:50+00:00",
+  "description": "Classifies the user utterance into one of the supported intents",
   "feature_tags": [
-    "butterfly",
-    "swarm",
-    "random_movement",
-    "scale_variation",
-    "flap_animation",
-    "clone_nodes",
-    "ui_inputs",
-    "custom_model"
+    "nlp",
+    "text_classification"
   ],
   "interaction_modes": [
-    "ui",
-    "passive"
+    "trigger"
   ],
   "asset_profile": "medium",
-  "script_complexity": "medium",
-  "networking_profile": "none",
-  "preview_recommendation": "Generate a short GIF or video of the butterflies flying with random rotations in a test world; use the provided GLB model and script to capture the visual effect.",
-  "manifest_quality_notes": [
-    "No preview media available",
-    "Random rotation TODO not fully implemented",
-    "Author confidence high",
-    "Model asset present",
-    "Script uses update event",
-    "Potential performance impact with 100 butterflies"
-  ],
-  "safety_or_runtime_flags": [
-    "no_media_found"
-  ],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message:1349666213617336462",
-    "discord_attachment:1349666213227397222",
-    "discord_channel:#\ud83c\udfa8\u2502showcase",
-    "static_analysis_summary",
-    "hyp_file:Butterfly_Swarm_V2a.hyp"
-  ]
+  "script_complexity": "low",
+  "networking_profile": "none"
 }

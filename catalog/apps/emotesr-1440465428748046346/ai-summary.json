@@ -1,41 +1,15 @@
 {
   "app_id": "emotesr-1440465428748046346",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:45:20+00:00",
-  "one_liner": "EmotesR adds a configurable emote selector UI, enabling quick access to custom avatar emotes via a floating button and hotkey shortcuts.",
-  "primary_use_case": "Provides players with a UI button and keyboard shortcuts to trigger multiple custom emotes in-world.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:03:00+00:00",
+  "description": "Placeholder object due to missing input data",
   "feature_tags": [
-    "emotes",
-    "ui",
-    "hotkeys",
-    "custom avatars",
-    "configurable",
-    "scripted"
+    "unclassified"
   ],
   "interaction_modes": [
-    "ui",
-    "trigger",
-    "action"
+    "passive"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "medium",
-  "networking_profile": "none",
-  "preview_recommendation": "Add a screenshot or short video showing the floating UI button and the emote selector in action to improve discoverability.",
-  "manifest_quality_notes": [
-    "No preview media attached",
-    "App script generates UI dynamically",
-    "Emotes are loaded as separate glb assets",
-    "Requires admin to enable custom avatars",
-    "Needs media review for completeness"
-  ],
-  "safety_or_runtime_flags": [
-    "no_media_found"
-  ],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message",
-    "discord_attachment",
-    "static_analysis",
-    "hyp_file"
-  ]
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none"
 }

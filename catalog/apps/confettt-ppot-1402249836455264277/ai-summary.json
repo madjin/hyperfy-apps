@@ -1,49 +1,20 @@
 {
   "app_id": "confettt-ppot-1402249836455264277",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:44:54+00:00",
-  "one_liner": "Confetti Popper app creates colorful particle bursts with sound when the user clicks the popper mesh, customizable with up to 8 textures and two audio clips.",
-  "primary_use_case": "Add interactive confetti effects to a Hyperfy world, triggered by user clicks, with optional custom textures and sounds.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:01:01+00:00",
+  "description": "Interactive confetti popper that spawns particle bursts with audio feedback when clicked. Features 8 configurable confetti textures, hover glow effects, and networked state synchronization between clients and server.",
   "feature_tags": [
-    "confetti",
     "particles",
-    "sound",
-    "customizable",
-    "click-trigger",
-    "hover-glow",
-    "client-side",
-    "networked"
+    "audio",
+    "interaction",
+    "animation",
+    "3d-model"
   ],
   "interaction_modes": [
     "action",
-    "trigger",
     "networked"
   ],
   "asset_profile": "medium",
   "script_complexity": "medium",
-  "networking_profile": "events",
-  "preview_recommendation": "Since no preview media is available, generate a thumbnail showing the popper mesh with a hover glow and a sample confetti burst, or capture a short video of the click\u2011triggered particles.",
-  "manifest_quality_notes": [
-    "no_media_found",
-    "client\u2011only logic",
-    "requires up textures",
-    "requires audio clips",
-    "state reset on startup",
-    "hover glow effect"
-  ],
-  "safety_or_runtime_flags": [
-    "no_media_found",
-    "client_only",
-    "requires_user_interaction"
-  ],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message_1402249836455264277",
-    "hyp_file_CONFETTT_PPOT.hyp",
-    "static_analysis_summary",
-    "author_discord_id_601886221072990251",
-    "discord_channel_\ud83c\udfa8\u2502showcase",
-    "model_asset_d91f5a14dce54f679b6a2c982da3a9cfefcddc0e0a48e5531919c18af993a6.glb",
-    "script_asset_3202ca24272d1127354e28a60f99eda8ff02dbaf573101417035783fa1e895da.js"
-  ]
+  "networking_profile": "shared_state"
 }

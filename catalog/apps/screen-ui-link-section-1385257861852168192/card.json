@@ -1,14 +1,10 @@
 {
   "name": "Screen_UI_link_section",
   "author": "Gert-Jan Akerboom",
-  "description": "add (download) links to your world",
+  "description": "A configurable screen-space UI panel that adds up to 14 download link buttons to your world. Features a toggleable interface with customizable header text and individual button labels that open URLs in new tabs when clicked.",
   "tags": [
     "ui",
-    "download",
-    "toggle",
-    "configurable",
-    "button",
-    "link"
+    "interaction"
   ],
   "interaction_modes": [
     "ui",

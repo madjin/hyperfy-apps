@@ -1,21 +1,16 @@
 {
   "name": "RainV4",
   "author": "Gert-Jan Akerboom",
-  "description": "<@415262868217266177> i added a cube for grabbing, can turn it on and off in UI",
+  "description": "Fix was attempted but no invalid JSON content was provided in the BAD_OUTPUT field",
   "tags": [
-    "rain",
-    "particles",
-    "environment",
-    "splash",
-    "configurable",
-    "ui"
+    "json_repair",
+    "error_handling"
   ],
   "interaction_modes": [
-    "ui",
-    "passive"
+    "networked"
   ],
   "asset_profile": "medium",
-  "script_complexity": "medium",
+  "script_complexity": "high",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/RainV4_1359839641754275921/m2_image.png",
   "download_path": "v2-hyp/RainV4.hyp",

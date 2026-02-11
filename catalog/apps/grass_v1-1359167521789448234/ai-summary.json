@@ -1,47 +1,20 @@
 {
   "app_id": "grass_v1-1359167521789448234",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:45:47+00:00",
-  "one_liner": "Grass_V1 creates a wind\u2011animated grass particle system with configurable clone count, area size, clustering, and size, supporting up to 10\u202f000 particles at 60\u202ffps.",
-  "primary_use_case": "Add realistic, wind\u2011blown grass to a Hyperfy world for environmental decoration and visual ambience.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:05:07+00:00",
+  "description": "Grass particle system with wind animation and procedural clustering. Configurable density, area size, and grouping for realistic distribution. Supports 10,000+ instances at 60 FPS using instanced mesh cloning.",
   "feature_tags": [
-    "grass",
+    "environment",
     "particles",
-    "wind",
-    "clustering",
-    "performance",
-    "ui-config",
-    "high-fps",
-    "visual"
+    "animation",
+    "3d-model",
+    "ui"
   ],
   "interaction_modes": [
-    "ui",
-    "passive"
+    "passive",
+    "ui"
   ],
-  "asset_profile": "medium",
+  "asset_profile": "light",
   "script_complexity": "medium",
-  "networking_profile": "none",
-  "preview_recommendation": "Use the provided PNG preview (p4_image.png) as the primary visual; it is a fallback author image but clearly shows the grass effect.",
-  "manifest_quality_notes": [
-    "fallback media used",
-    "author confidence high",
-    "no media review needed",
-    "no author review needed",
-    "performance claim verified",
-    "script uses UI config"
-  ],
-  "safety_or_runtime_flags": [
-    "performance_good"
-  ],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message_1359167521789448234",
-    "discord_attachment_1359167521424408616",
-    "hyp_file_Grass_V1.hyp",
-    "static_analysis",
-    "app_files_context",
-    "author_discord_id_601886221072990251",
-    "author_display_name_Gert-Jan Akerboom",
-    "app_slug_grass_v1"
-  ]
+  "networking_profile": "none"
 }

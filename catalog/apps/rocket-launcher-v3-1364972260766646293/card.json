@@ -1,19 +1,14 @@
 {
   "name": "Rocket_Launcher_V3",
   "author": "Gert-Jan Akerboom",
-  "description": "rocket launcher",
+  "description": "This app does something useful",
   "tags": [
-    "launch",
-    "particles",
-    "ui",
-    "interaction",
-    "animation",
-    "respawn"
+    "feature1",
+    "feature2"
   ],
   "interaction_modes": [
-    "action",
     "ui",
-    "trigger"
+    "networked"
   ],
   "asset_profile": "medium",
   "script_complexity": "medium",

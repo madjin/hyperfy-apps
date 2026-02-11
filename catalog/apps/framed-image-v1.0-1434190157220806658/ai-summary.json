@@ -1,44 +1,21 @@
 {
   "app_id": "framed-image-v1.0-1434190157220806658",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:45:27+00:00",
-  "one_liner": "Framed Image - customizable frame around an image with options for size, fit, glow, backboard, collider, and disco effects.",
-  "primary_use_case": "Display an image with a 3D frame and optional visual effects in a Hyperfy world.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:04:04+00:00",
+  "description": "Image display app with customizable primitive frames. Features configurable dimensions, glow effects, backboards, collider modes, and disco lighting animation. Supports manual width adjustment for non-square aspect ratios.",
   "feature_tags": [
-    "frame",
-    "backboard",
-    "glow",
-    "collider",
-    "disco",
-    "placeholder",
-    "transparent",
-    "shadows"
+    "media-player",
+    "ui",
+    "3d",
+    "animation",
+    "customizable",
+    "environment"
   ],
   "interaction_modes": [
-    "ui",
-    "networked",
-    "action"
+    "passive",
+    "trigger"
   ],
   "asset_profile": "medium",
   "script_complexity": "medium",
-  "networking_profile": "events",
-  "preview_recommendation": "The preview shows a sample framed image (p0_FramedImage.jpg). Ensure the preview image clearly displays the frame and backboard to convey the app's visual style.",
-  "manifest_quality_notes": [
-    "Author confidence high",
-    "All assets downloaded",
-    "Script includes UI and networking",
-    "No media review needed",
-    "Potential missing width auto handling",
-    "Manifest generated from provided data"
-  ],
-  "safety_or_runtime_flags": [],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message:1434190157220806658",
-    "hyp_file:Framed_Image_v1.0.hyp",
-    "author_discord_id:540822785371668480",
-    "preview_image_path:catalog/discord/hyp_media/Framed_Image_v1.0_1434190157220806658/p0_FramedImage.jpg",
-    "model_asset:assets/framed-image-v1.0.glb",
-    "script_asset:assets/framed-image-v1.0__image.png"
-  ]
+  "networking_profile": "local"
 }

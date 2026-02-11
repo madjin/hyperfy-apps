@@ -1,50 +1,22 @@
 {
   "app_id": "prism-1355903733090750595",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:47:40+00:00",
-  "one_liner": "Prism is a class\u2011based character system with avatars, skills, energy, PvPvE combat, respawn locations, and UI for managing death, healing, and damage display.",
-  "primary_use_case": "Class\u2011based character combat and respawn management in Hyperfy worlds.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:12:38+00:00",
+  "description": "A class-based RPG combat system supporting PvPvE gameplay with avatar integration, skill-based attacks, and death/respawn mechanics. Features configurable classes with energy systems, damage floating text, and cross-app event networking for multiplayer dueling.",
   "feature_tags": [
-    "class-based",
+    "combat",
+    "rpg",
+    "multiplayer",
+    "ui",
     "avatar",
-    "skills",
-    "energy",
-    "PvPvE",
-    "damage UI",
-    "respawn",
-    "healing"
+    "animation"
   ],
   "interaction_modes": [
     "action",
-    "trigger",
     "ui",
-    "passive",
     "networked"
   ],
-  "asset_profile": "heavy",
+  "asset_profile": "medium",
   "script_complexity": "high",
-  "networking_profile": "events",
-  "preview_recommendation": "Use the primary mp4 preview (m6_xyz-skelly.mp4) as the main visual; fallback media is acceptable if primary unavailable.",
-  "manifest_quality_notes": [
-    "media_fallback_any_author",
-    "author confidence high",
-    "description concise",
-    "script includes both server and client logic",
-    "needs no media review",
-    "no pending author review"
-  ],
-  "safety_or_runtime_flags": [
-    "media_fallback_any_author"
-  ],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message:1355903733090750595",
-    "discord_attachment:1355903732411269261",
-    "discord_channel:#\ud83d\udcbb\u2502developers",
-    "discord_timestamp:2025-03-30T13:57:21.442Z",
-    "source_file:Prism.hyp",
-    "author:ash",
-    "author_discord_id:179546010303856640",
-    "media_fallback_any_author"
-  ]
+  "networking_profile": "events"
 }

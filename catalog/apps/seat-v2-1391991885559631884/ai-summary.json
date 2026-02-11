@@ -1,25 +1,13 @@
 {
   "app_id": "seat-v2-1391991885559631884",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:53:11+00:00",
-  "one_liner": "An example app that demonstrates the schema.",
-  "primary_use_case": "Demo",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:16:48+00:00",
+  "description": "Error: No malformed JSON content was provided after the BAD_OUTPUT label to fix. Please provide the invalid JSON that needs correction.",
   "feature_tags": [
-    "demo",
-    "example"
+    "unclassified"
   ],
-  "interaction_modes": [
-    "ui",
-    "passive"
-  ],
+  "interaction_modes": [],
   "asset_profile": "light",
   "script_complexity": "low",
-  "networking_profile": "none",
-  "preview_recommendation": "Ready for preview",
-  "manifest_quality_notes": [
-    "All required fields present."
-  ],
-  "safety_or_runtime_flags": [],
-  "confidence": "high",
-  "evidence_refs": []
+  "networking_profile": "none"
 }

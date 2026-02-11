@@ -1,44 +1,20 @@
 {
   "app_id": "blocktesting-1348127461031809134",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:44:17+00:00",
-  "one_liner": "BlockTesting lets players toggle a blocking emote by holding the right mouse button; pressing applies a long\u2011duration effect, releasing clears it via applyEffect(null).",
-  "primary_use_case": "Provide a client\u2011side input mechanic to apply and clear a blocking animation effect on the player using right\u2011click mouse controls.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T03:55:52+00:00",
+  "description": "Testing utility for blocking mechanics. Applies a configurable snare emote on right-mouse hold and clears it on release to debug player effect cancellation.",
   "feature_tags": [
     "animation",
-    "applyEffect",
-    "block",
-    "input",
-    "cancel",
-    "emote",
-    "client",
-    "script"
+    "interaction",
+    "combat",
+    "ui",
+    "3d-model"
   ],
   "interaction_modes": [
     "action",
-    "trigger"
+    "ui"
   ],
   "asset_profile": "medium",
   "script_complexity": "low",
-  "networking_profile": "none",
-  "preview_recommendation": "Add a screenshot or short video demonstrating the block effect activation and release, as the current archive lacks any preview media.",
-  "manifest_quality_notes": [
-    "No media found in archive",
-    "Potential bug: player may remain stuck in block after release",
-    "Client\u2011only script, no server interaction",
-    "Limited documentation beyond code comments",
-    "High confidence in author identity"
-  ],
-  "safety_or_runtime_flags": [
-    "no_media_found",
-    "potential_stuck_bug",
-    "client_only"
-  ],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message:1348127461031809134",
-    "discord_attachment:1348127460646060052",
-    "discord_channel:#\ud83d\udc1e\u2502issues",
-    "author_discord:466331582458888192"
-  ]
+  "networking_profile": "none"
 }

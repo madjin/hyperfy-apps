@@ -1,18 +1,16 @@
 {
   "name": "JUKEBOX_UI",
   "author": "~/drdoge.eth",
-  "description": "JUKEBOX UI.hyp",
+  "description": "Configurable 3D jukebox with spatial audio, playlist management (shuffle/loop), and interactive UI for up to 5 tracks. Features track visualization and customizable accent colors.",
   "tags": [
     "audio",
-    "playlist",
+    "media-player",
     "ui",
-    "visualizer",
-    "spatial",
-    "customizable"
+    "3d-model"
   ],
   "interaction_modes": [
     "ui",
-    "action"
+    "passive"
   ],
   "asset_profile": "medium",
   "script_complexity": "medium",

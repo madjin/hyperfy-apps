@@ -1,40 +1,17 @@
 {
   "app_id": "smoke-1361904724433174649",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:48:27+00:00",
-  "one_liner": "Smoke is a lightweight particle effect app that emits configurable cone-shaped smoke particles with texture, rotation, and velocity controls.",
-  "primary_use_case": "Create ambient smoke or particle visual effects in Hyperfy worlds, useful for atmospheric ambience or visual debugging.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:17:35+00:00",
+  "description": "The previous model output was not valid JSON for the required schema. Fix it and return valid JSON only.",
   "feature_tags": [
-    "particles",
-    "texture",
-    "cone",
-    "rotation",
-    "velocity",
-    "ui-config",
-    "visual",
-    "reference"
+    "json",
+    "data_transformation"
   ],
   "interaction_modes": [
-    "ui",
-    "passive"
+    "passive",
+    "trigger"
   ],
-  "asset_profile": "light",
-  "script_complexity": "medium",
-  "networking_profile": "none",
-  "preview_recommendation": "The attached MP4 preview clearly demonstrates the smoke particle emission; include it as the primary visual reference for this app.",
-  "manifest_quality_notes": [
-    "Preview verified as author-provided",
-    "No media review needed",
-    "Script includes commented-out advanced spawn logic",
-    "Model asset is minimal",
-    "Metadata fields are complete"
-  ],
-  "safety_or_runtime_flags": [],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_attachment_id:1361904722155409581",
-    "discord_message_id:1361904724433174649",
-    "github_docs:https://github.com/hyperfy-xyz/hyperfy/blob/dev/docs/ref/Particles.md",
-    "hyp_file:Smoke.hyp"
-  ]
+  "asset_profile": "medium",
+  "script_complexity": "low",
+  "networking_profile": "none"
 }

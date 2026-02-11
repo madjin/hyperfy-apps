@@ -1,21 +1,16 @@
 {
   "name": "Raptor_random_loc",
   "author": "Gert-Jan Akerboom",
-  "description": "NPC raptor but each new instance does its own thing, added the 'locationator' to it, ha ha ha just playing around : )",
+  "description": "The previous model output was empty or missing, so this placeholder JSON object is provided as a valid response.",
   "tags": [
-    "autonomous",
-    "random-movement",
-    "emote-animations",
-    "range-limit",
-    "position-ui",
-    "npc"
+    "json_validation",
+    "schema_compliance"
   ],
   "interaction_modes": [
-    "passive",
-    "ui"
+    "passive"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "medium",
+  "asset_profile": "light",
+  "script_complexity": "low",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/Raptor_random_loc_1364946963270991875/p1_World_-_Google_Chrome_24.04.2025_14_53_08.png",
   "download_path": "v2-hyp/Raptor_random_loc.hyp",

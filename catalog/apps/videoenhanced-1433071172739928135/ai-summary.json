@@ -1,45 +1,17 @@
 {
   "app_id": "videoenhanced-1433071172739928135",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:48:52+00:00",
-  "one_liner": "VideoEnhanced adds interactive visual overlays to video playback, letting users toggle a 'lit' effect and see dynamic shape adjustments via hover hints.",
-  "primary_use_case": "Enhance video playback with interactive visual effects and UI controls.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:22:04+00:00",
+  "description": "Example application for demonstration purposes",
   "feature_tags": [
-    "video",
-    "enhancement",
-    "ui",
-    "interactive",
-    "visual",
-    "hover",
-    "config",
-    "effects"
+    "productivity",
+    "utilities"
   ],
   "interaction_modes": [
-    "ui",
-    "trigger",
-    "passive"
+    "passive",
+    "action"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "medium",
-  "networking_profile": "none",
-  "preview_recommendation": "Add a short video or animated GIF preview showing the 'lit' toggle and hover hint to illustrate the visual effect, as no media is currently available.",
-  "manifest_quality_notes": [
-    "No preview media available",
-    "Description fields are empty",
-    "Limited documentation beyond API snippets",
-    "User feedback indicates functional UI",
-    "Potential bug with lit toggle direction",
-    "Unclear asset composition"
-  ],
-  "safety_or_runtime_flags": [
-    "no_media_found"
-  ],
-  "confidence": "medium",
-  "evidence_refs": [
-    "discord:1433071132449749746",
-    "discord:1433076916913553554",
-    "discord:1433075982515961886",
-    "discord:1433076086157082655",
-    "hypfile:VideoEnhanced.hyp"
-  ]
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none"
 }

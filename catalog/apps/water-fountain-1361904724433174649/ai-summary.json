@@ -1,42 +1,17 @@
 {
   "app_id": "water-fountain-1361904724433174649",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:48:56+00:00",
-  "one_liner": "Water_Fountain app creates a configurable particle fountain with gravity and color gradient, using a cone-shaped emitter and optional texture.",
-  "primary_use_case": "Add a visually appealing water fountain particle effect to a Hyperfy world.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:22:17+00:00",
+  "description": "Valid JSON object returned as no invalid content was provided to fix",
   "feature_tags": [
-    "particles",
-    "gravity",
-    "cone",
-    "texture",
-    "ui-config",
-    "blending",
-    "animation",
-    "custom-image"
+    "placeholder",
+    "error_handling"
   ],
   "interaction_modes": [
-    "passive",
-    "ui"
+    "networked",
+    "passive"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "medium",
-  "networking_profile": "none",
-  "preview_recommendation": "Use the provided MP4 preview to evaluate visual quality; the effect runs out\u2011of\u2011the\u2011box and works well as a decorative element.",
-  "manifest_quality_notes": [
-    "Description concise",
-    "Assets verified",
-    "Script uses standard API",
-    "No networking",
-    "Preview available",
-    "Author confidence high"
-  ],
-  "safety_or_runtime_flags": [],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message_id:1361904724433174649",
-    "discord_attachment_id:1361904720754643115",
-    "discord_url:https://cdn.discordapp.com/attachments/994775534733115412/1361904720754643115/Water_Fountain.hyp",
-    "github_docs:https://github.com/hyperfy-xyz/hyperfy/blob/dev/docs/ref/Particles.md",
-    "author:ash"
-  ]
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none"
 }

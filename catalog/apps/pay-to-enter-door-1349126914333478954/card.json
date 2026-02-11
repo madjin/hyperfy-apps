@@ -1,23 +1,14 @@
 {
   "name": "PAY_TO_ENTER_DOOR",
   "author": "peezy",
-  "description": "REQUIRES SOLANA MOD <@783416470205497394>",
+  "description": "Missing content to fix. The BAD_OUTPUT field was empty in the request.",
   "tags": [
-    "solana",
-    "payment",
-    "door",
-    "sliding",
-    "swinging",
-    "configurable"
+    "unclassified"
   ],
-  "interaction_modes": [
-    "ui",
-    "action",
-    "networked"
-  ],
-  "asset_profile": "medium",
-  "script_complexity": "medium",
-  "networking": "events",
+  "interaction_modes": [],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking": "none",
   "preview_url": null,
   "download_path": "v2-hyp/PAY_TO_ENTER_DOOR.hyp",
   "created_at": "2025-03-11T21:08:41.943Z",

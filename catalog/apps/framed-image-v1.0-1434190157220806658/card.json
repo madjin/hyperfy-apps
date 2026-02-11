@@ -1,23 +1,22 @@
 {
   "name": "Framed_Image_v1.0",
   "author": "Valiant",
-  "description": "Framed Image. Using primitives for frame and a bunch of options for jazzing things up. non square images require manual width input.",
+  "description": "Image display app with customizable primitive frames. Features configurable dimensions, glow effects, backboards, collider modes, and disco lighting animation. Supports manual width adjustment for non-square aspect ratios.",
   "tags": [
-    "frame",
-    "backboard",
-    "particles",
-    "collider",
-    "disco",
-    "placeholder"
+    "media-player",
+    "ui",
+    "3d",
+    "animation",
+    "customizable",
+    "environment"
   ],
   "interaction_modes": [
-    "ui",
-    "networked",
-    "action"
+    "passive",
+    "trigger"
   ],
   "asset_profile": "medium",
   "script_complexity": "medium",
-  "networking": "events",
+  "networking": "local",
   "preview_url": "catalog/discord/hyp_media/Framed_Image_v1.0_1434190157220806658/p0_FramedImage.jpg",
   "download_path": "v2-hyp/Framed_Image_v1.0.hyp",
   "created_at": "2025-11-01T14:39:39.446Z",

@@ -1,47 +1,18 @@
 {
   "app_id": "builder-drone-x501-1356441740357406801",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:44:25+00:00",
-  "one_liner": "First\u2011person flying builder drone that lets you construct in\u2011world while piloting a drone.",
-  "primary_use_case": "Enables immersive building in first\u2011person aerial mode within Hyperfy worlds.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T03:56:59+00:00",
+  "description": "A controllable drone that enables first-person flying mode for building. Players activate a 'Fly' action to pilot the drone with WASD/space controls while the camera follows, syncing position and rotation across the network.",
   "feature_tags": [
-    "building",
-    "first-person",
-    "flying",
-    "drone",
-    "multiplayer",
-    "networked",
-    "action",
-    "ui"
+    "vehicle",
+    "camera",
+    "building"
   ],
   "interaction_modes": [
-    "action",
-    "trigger",
-    "ui",
-    "networked"
+    "passive",
+    "passive"
   ],
   "asset_profile": "medium",
-  "script_complexity": "medium",
-  "networking_profile": "shared_state",
-  "preview_recommendation": "Show the drone\u2019s rotors spinning in a short video to illustrate the flying build mode.",
-  "manifest_quality_notes": [
-    "All required assets present",
-    "Preview verified",
-    "Script matches description",
-    "No missing metadata",
-    "Confidence high",
-    "No speculative claims"
-  ],
-  "safety_or_runtime_flags": [],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message_id:1356441740357406801",
-    "discord_attachment_id:1356441739883319408",
-    "hyp_filename:Builder_Drone_X501.hyp",
-    "model_path:assets/builder-drone-x501.glb",
-    "script_path:assets/builder-drone-x501.hyp",
-    "preview_video:catalog/discord/hyp_media/Builder_Drone_X501_1356441740357406801/p0_xyz-builder-drone-x501.mp4",
-    "author_discord_user_id:179546010303856640",
-    "discord_channel:#\ud83c\udfa8\u2502showcase"
-  ]
+  "script_complexity": "high",
+  "networking_profile": "shared_state"
 }

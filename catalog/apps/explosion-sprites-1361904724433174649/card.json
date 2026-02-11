@@ -1,22 +1,20 @@
 {
   "name": "Explosion_Sprites",
   "author": "ash",
-  "description": "Explosion Sprites.hyp",
+  "description": "A reference particle system demonstrating explosion effects using sprite sheet animation. Features configurable textures, hemisphere emission shape, and 16-frame sprite animation. Designed as a documentation example for Hyperfy's particle API with support for up to 10k particles in world space.",
   "tags": [
     "particles",
-    "texture",
-    "spritesheet",
-    "duration",
-    "life",
-    "speed"
+    "animation",
+    "environment",
+    "ui",
+    "3d-model"
   ],
   "interaction_modes": [
     "ui",
-    "action",
     "passive"
   ],
   "asset_profile": "medium",
-  "script_complexity": "medium",
+  "script_complexity": "low",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/Explosion_Sprites_1361904724433174649/m1_xyz-particle-demos_2_-_edit.mp4",
   "download_path": "v2-hyp/Explosion_Sprites.hyp",

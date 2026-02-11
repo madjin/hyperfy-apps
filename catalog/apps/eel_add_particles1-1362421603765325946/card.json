@@ -1,14 +1,13 @@
 {
   "name": "eel_add_particles1",
   "author": "Gert-Jan Akerboom",
-  "description": "here the app if someone wants to check it out : )",
+  "description": "Attaches glow-dust particle effects to animated model bones. Tracks bone transforms in real-time to position and rotate particle emitters, creating visual effects that follow skeletal animation. Includes configurable particle texture upload.",
   "tags": [
     "particles",
-    "bonetransform",
-    "customtexture",
-    "additiveblending",
-    "emissive",
-    "alphaoverlife"
+    "animation",
+    "3d-model",
+    "ui",
+    "visual-effects"
   ],
   "interaction_modes": [
     "ui",

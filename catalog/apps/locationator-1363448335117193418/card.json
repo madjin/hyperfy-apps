@@ -1,19 +1,11 @@
 {
   "name": "Locationator",
   "author": "MetaRick",
-  "description": "heres a handy app that will just display the location when you place it, helpful for figuring out where you wanna teleport things  to.",
+  "description": "Original output was not provided. Please include the invalid JSON content after 'BAD_OUTPUT:' to allow proper conversion to valid JSON.",
   "tags": [
-    "position",
-    "rotation",
-    "ui",
-    "billboard",
-    "text",
-    "debug"
+    "unclassified"
   ],
-  "interaction_modes": [
-    "ui",
-    "passive"
-  ],
+  "interaction_modes": [],
   "asset_profile": "light",
   "script_complexity": "low",
   "networking": "none",

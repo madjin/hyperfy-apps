@@ -1,21 +1,13 @@
 {
   "name": "Curved_Video_Viewer",
   "author": "ash",
-  "description": "<@415262868217266177> give this a crack",
+  "description": "Input was empty - no JSON to fix",
   "tags": [
-    "media-player",
-    "texture",
-    "uv-fit",
-    "loop",
-    "configurable",
-    "mesh-target"
+    "unclassified"
   ],
-  "interaction_modes": [
-    "ui",
-    "passive"
-  ],
+  "interaction_modes": [],
   "asset_profile": "light",
-  "script_complexity": "medium",
+  "script_complexity": "low",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/Curved_Video_Viewer_1363490690339831849/m2_UVscroll.mp4",
   "download_path": "v2-hyp/Curved_Video_Viewer.hyp",

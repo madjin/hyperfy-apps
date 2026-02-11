@@ -1,46 +1,20 @@
 {
   "app_id": "emote_rom-1361914201701875788",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:45:08+00:00",
-  "one_liner": "Binds emotes and emojis to number keys, showing UI indicators and syncing across players.",
-  "primary_use_case": "In\u2011game emote activation via numpad keys with visual emoji overlay.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:02:36+00:00",
+  "description": "Open source AI-powered interactive CLI autocomplete that suggests commands as you type based on your shell history",
   "feature_tags": [
-    "emote",
-    "emoji",
-    "numpad",
-    "ui",
-    "networked",
-    "sync",
-    "customizable",
-    "visual_indicator"
+    "autocomplete",
+    "npc",
+    "cli",
+    "shell",
+    "history"
   ],
   "interaction_modes": [
-    "action",
-    "trigger",
-    "ui",
-    "networked"
+    "passive",
+    "passive"
   ],
   "asset_profile": "medium",
-  "script_complexity": "medium",
-  "networking_profile": "events",
-  "preview_recommendation": "Use the provided mp4 preview showing particle fire trails; it demonstrates the UI overlay and emote activation.",
-  "manifest_quality_notes": [
-    "media_fallback_any_author",
-    "description_short",
-    "props_defined",
-    "script_verified",
-    "model_present",
-    "no_additional_review_needed"
-  ],
-  "safety_or_runtime_flags": [
-    "media_fallback_any_author"
-  ],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message",
-    "hyp_file",
-    "static_analysis",
-    "app_manifest",
-    "preview_media"
-  ]
+  "script_complexity": "low",
+  "networking_profile": "none"
 }

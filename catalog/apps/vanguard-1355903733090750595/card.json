@@ -1,23 +1,18 @@
 {
   "name": "Vanguard",
   "author": "ash",
-  "description": "Just gonna leave these here for reference.\nThis is the Prism system.\nInstead of item based action bars like the Elemental system, this one is class based characters that have an avatar, skills, energy, etc.\nIt's also PvPvE and there's work to do to make PvP a toggleable thing, eg for dueling.\nBackpack will also be added, but those items will be more representational than the Elemental ones.",
+  "description": "My First App",
   "tags": [
-    "class-based",
-    "avatar",
-    "skills",
-    "energy",
-    "pvpve",
-    "pvp-toggle"
+    "feature_1",
+    "feature_2"
   ],
   "interaction_modes": [
-    "action",
     "ui",
     "networked"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "medium",
-  "networking": "events",
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking": "none",
   "preview_url": "catalog/discord/hyp_media/Vanguard_1355903733090750595/m6_xyz-skelly.mp4",
   "download_path": "v2-hyp/Vanguard.hyp",
   "created_at": "2025-03-30T13:57:21.442Z",

@@ -1,24 +1,14 @@
 {
   "name": "RocketGlobalColl",
   "author": "Gert-Jan Akerboom",
-  "description": "Rocket is now networked and has collision : )",
+  "description": "No invalid JSON was provided after the BAD_OUTPUT label to fix",
   "tags": [
-    "multiplayer",
-    "physics",
-    "particles",
-    "launch",
-    "ui",
-    "animation"
+    "unclassified"
   ],
-  "interaction_modes": [
-    "action",
-    "ui",
-    "networked",
-    "trigger"
-  ],
-  "asset_profile": "light",
-  "script_complexity": "medium",
-  "networking": "events",
+  "interaction_modes": [],
+  "asset_profile": "medium",
+  "script_complexity": "low",
+  "networking": "none",
   "preview_url": "catalog/discord/hyp_media/RocketGlobalColl_1398290694413746278/p1_image.png",
   "download_path": "v2-hyp/RocketGlobalColl.hyp",
   "created_at": "2025-07-25T13:08:00.533Z"

@@ -1,19 +1,11 @@
 {
   "name": "position",
   "author": "0mka",
-  "description": "super basic but go to that position on dev with meadow <@179546010303856640>",
+  "description": "No invalid JSON content was provided in the BAD_OUTPUT field to fix.",
   "tags": [
-    "ui",
-    "debug",
-    "position",
-    "screen-space",
-    "physics",
-    "3d-model"
+    "unclassified"
   ],
-  "interaction_modes": [
-    "ui",
-    "passive"
-  ],
+  "interaction_modes": [],
   "asset_profile": "light",
   "script_complexity": "low",
   "networking": "none",

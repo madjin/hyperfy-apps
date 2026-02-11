@@ -1,23 +1,19 @@
 {
   "name": "Boombox",
   "author": "Dhin",
-  "description": "here's a boombox that might help",
+  "description": "A sample application for demonstration purposes",
   "tags": [
-    "audio",
-    "play/pause",
-    "3d-model",
-    "interactive ui",
-    "multiplayer",
-    "customizable props"
+    "demo",
+    "sample",
+    "test"
   ],
   "interaction_modes": [
-    "action",
     "ui",
     "networked"
   ],
   "asset_profile": "medium",
-  "script_complexity": "medium",
-  "networking": "events",
+  "script_complexity": "low",
+  "networking": "none",
   "preview_url": "catalog/discord/hyp_media/Boombox_1459269670980030535/m5_image.png",
   "download_path": "v2-hyp/Boombox.hyp",
   "created_at": "2026-01-09T19:36:41.481Z",

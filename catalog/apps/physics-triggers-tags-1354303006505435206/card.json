@@ -1,18 +1,17 @@
 {
   "name": "Physics_-_Triggers__Tags",
   "author": "ash",
-  "description": "Physics Triggers Tags.hyp",
+  "description": "A physics demonstration showcasing trigger zones and object tags. Features static and dynamic bodies with collision detection, displaying trigger entry/exit events via floating UI text. Useful for learning Hyperfy physics interactions and tag-based filtering.",
   "tags": [
     "physics",
-    "triggers",
-    "tags",
     "ui",
-    "dynamic",
-    "static"
+    "interaction",
+    "3d-model"
   ],
   "interaction_modes": [
     "trigger",
-    "ui"
+    "ui",
+    "passive"
   ],
   "asset_profile": "light",
   "script_complexity": "low",

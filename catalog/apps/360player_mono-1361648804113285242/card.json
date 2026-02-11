@@ -1,20 +1,18 @@
 {
   "name": "360Player_Mono",
   "author": "MetaRick",
-  "description": "Made some adjustments to the 360 video player... cpl changes:\n\n1: made it so sun still works inside\n2: made it bigger and removed floor\n3: Fixed aspect ratio (mono 360s are genrally 16:9 not 2:1, so pervious one would not wrap correctly)\n4: Added a public variable to paste a link (got an alley video skybox short test loop)",
+  "description": "Mono 360-degree video player for immersive environments. Features configurable video URL/upload, correct 16:9 aspect ratio for mono 360s, and sun visibility support. Maps video to spherical geometry for skybox-style backgrounds.",
   "tags": [
-    "360-video",
-    "sphere",
-    "sunlight-inside",
-    "aspect-ratio-fix",
-    "no-floor",
-    "custom-video-link"
+    "media-player",
+    "environment",
+    "ui",
+    "3d-model"
   ],
   "interaction_modes": [
     "ui",
     "passive"
   ],
-  "asset_profile": "medium",
+  "asset_profile": "light",
   "script_complexity": "low",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/360Player_Mono_1361648804113285242/m5_xyz-particle-spritesheets.mp4",

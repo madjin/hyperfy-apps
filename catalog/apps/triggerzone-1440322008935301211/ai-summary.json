@@ -1,47 +1,17 @@
 {
   "app_id": "triggerzone-1440322008935301211",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:52:45+00:00",
-  "one_liner": "Sends Discord messages when a player walks through a configurable trigger zone, with optional visual cube, color, opacity, and name exclusion list.",
-  "primary_use_case": "Notify a Discord channel of player movement events inside a Hyperfy world.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:20:49+00:00",
+  "description": "An example application",
   "feature_tags": [
-    "discord",
-    "trigger",
-    "zone",
-    "notification",
-    "visual",
-    "configurable",
-    "server-side",
-    "physics"
+    "example",
+    "placeholder"
   ],
   "interaction_modes": [
     "ui",
-    "trigger",
     "networked"
   ],
-  "asset_profile": "light",
-  "script_complexity": "medium",
-  "networking_profile": "local",
-  "preview_recommendation": "Use the provided MP4 preview showing the trigger cube, its color/opacity settings, and the Discord webhook behavior.",
-  "manifest_quality_notes": [
-    "Model (3\u202fKB) and script (10\u202fKB) are small.",
-    "Full UI configuration defined via app.configure.",
-    "Bug reported with the 'unique' toggle in description.",
-    "No media review needed; preview already present.",
-    "App is not public (public:false) but functional.",
-    "Multiple zones require manual copy\u2011paste of code."
-  ],
-  "safety_or_runtime_flags": [
-    "external_webhook",
-    "network_fetch",
-    "server_only"
-  ],
-  "confidence": "high",
-  "evidence_refs": [
-    "APP_FACTS",
-    "APP_FILES_CONTEXT",
-    "DISCORD_CONTEXT",
-    "STATIC_ANALYSIS_SUMMARY_MD",
-    "HYPRFY_DOCS"
-  ]
+  "asset_profile": "medium",
+  "script_complexity": "low",
+  "networking_profile": "events"
 }

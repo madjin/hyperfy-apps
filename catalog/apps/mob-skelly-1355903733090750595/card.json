@@ -1,23 +1,16 @@
 {
   "name": "Mob_-_Skelly",
   "author": "ash",
-  "description": "Just gonna leave these here for reference.\nThis is the Prism system.\nInstead of item based action bars like the Elemental system, this one is class based characters that have an avatar, skills, energy, etc.\nIt's also PvPvE and there's work to do to make PvP a toggleable thing, eg for dueling.\nBackpack will also be added, but those items will be more representational than the Elemental ones.",
+  "description": "PLACEHOLDER_FIX",
   "tags": [
-    "combat",
-    "npc",
-    "mob",
-    "prism",
-    "avatar",
-    "animation"
+    "unclassified"
   ],
   "interaction_modes": [
-    "action",
-    "networked",
     "passive"
   ],
-  "asset_profile": "heavy",
-  "script_complexity": "high",
-  "networking": "events",
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking": "none",
   "preview_url": "catalog/discord/hyp_media/Mob_-_Skelly_1355903733090750595/m6_xyz-skelly.mp4",
   "download_path": "v2-hyp/Mob_-_Skelly.hyp",
   "created_at": "2025-03-30T13:57:21.442Z",

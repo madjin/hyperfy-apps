@@ -1,42 +1,16 @@
 {
   "app_id": "broke-rom-1355215078328369344",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:44:23+00:00",
-  "one_liner": "A Hyperfy app that lets users set a ROM name and pick a color, then adjusts mesh UVs; includes a known material\u2011linking bug.",
-  "primary_use_case": "Configure visual appearance of a ROM model via UI controls and apply UV texture offsets based on selected color.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T03:57:14+00:00",
+  "description": "No bad output content was provided after 'BAD_OUTPUT:' to fix. Please provide the invalid JSON that needs correction.",
   "feature_tags": [
-    "ui-config",
-    "mesh-manipulation",
-    "uv-adjustment",
-    "color-selection",
-    "debugging",
-    "material-linking"
+    "error",
+    "missing_input"
   ],
   "interaction_modes": [
-    "ui",
-    "passive"
+    "networked"
   ],
   "asset_profile": "light",
   "script_complexity": "low",
-  "networking_profile": "none",
-  "preview_recommendation": "Use the primary screenshot (p3_Screenshot_2025-03-28_at_9.28.05_AM.png) as the preview; it clearly shows the UI and model, despite being a fallback author.",
-  "manifest_quality_notes": [
-    "Fallback preview used due to any\u2011author fallback",
-    "Material linking bug documented in script comments",
-    "Props defined with default values",
-    "No networking or server\u2011side logic present",
-    "Asset URLs are internal to the .hyp bundle"
-  ],
-  "safety_or_runtime_flags": [
-    "media_fallback_any_author"
-  ],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message:1355215078328369344",
-    "hyp_file:broke-rom.hyp",
-    "script_excerpt",
-    "static_analysis_summary",
-    "author_confidence:high",
-    "discord_user_id:675111548829564951"
-  ]
+  "networking_profile": "none"
 }

@@ -1,21 +1,20 @@
 {
   "name": "Model",
   "author": "ash",
-  "description": "This app lets you auto-enable collisions for its model.\nDrop it in the world, click \"Model\" to choose your glb, and toggle collision on etc",
+  "description": "Utility app that auto-enables physics collisions for imported GLB models. Features UI-configurable scale and collision toggle, dynamically generating rigidbodies and geometry colliders on placement.",
   "tags": [
-    "physics",
-    "scale",
     "3d-model",
+    "physics",
+    "utility",
     "ui",
-    "config",
-    "fallback_media"
+    "environment"
   ],
   "interaction_modes": [
     "ui",
-    "action"
+    "passive"
   ],
   "asset_profile": "light",
-  "script_complexity": "low",
+  "script_complexity": "medium",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/Model_1353698908353724480/p7_image.png",
   "download_path": "v2-hyp/Model.hyp",

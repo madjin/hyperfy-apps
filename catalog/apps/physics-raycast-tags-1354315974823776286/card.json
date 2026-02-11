@@ -1,21 +1,16 @@
 {
   "name": "Physics_-_Raycast_Tags",
   "author": "ash",
-  "description": "two instances so this also shows cross-app raycasting works the same way.\nthe lasers also double as stripper poles.",
+  "description": "Placeholder JSON object since the bad output content was not provided",
   "tags": [
-    "physics",
-    "tagging",
-    "dynamic bodies",
-    "ui overlay",
-    "cross-app",
-    "laser"
+    "placeholder"
   ],
   "interaction_modes": [
     "ui",
-    "passive"
+    "networked"
   ],
   "asset_profile": "light",
-  "script_complexity": "low",
+  "script_complexity": "high",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/Physics_-_Raycast_Tags_1354315974823776286/p0_xyz-physics-raycast-tags.mp4",
   "download_path": "v2-hyp/Physics_-_Raycast_Tags.hyp",

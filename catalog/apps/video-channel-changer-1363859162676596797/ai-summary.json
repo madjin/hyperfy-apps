@@ -1,45 +1,17 @@
 {
   "app_id": "video-channel-changer-1363859162676596797",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:48:50+00:00",
-  "one_liner": "A Hyperfy app that maps a video onto a mesh and lets users switch video channels via pointer clicks.",
-  "primary_use_case": "Display interactive video textures on 3D objects with channel switching.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:21:21+00:00",
+  "description": "No bad output was provided in the prompt to fix. This is a placeholder valid JSON object.",
   "feature_tags": [
-    "video",
-    "texture",
-    "interactive",
-    "pointer",
-    "channel-switch",
-    "loop",
-    "fit",
-    "aspect-ratio"
+    "json",
+    "placeholder"
   ],
   "interaction_modes": [
-    "action",
-    "ui",
-    "passive"
+    "networked",
+    "networked"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "medium",
-  "networking_profile": "none",
-  "preview_recommendation": "Use the provided preview image showing the video mesh; ensure the video asset loads correctly and test pointer interaction to verify channel switching works.",
-  "manifest_quality_notes": [
-    "Video asset present",
-    "Fallback preview used",
-    "Author confidence high",
-    "Description indicates need for latest dev",
-    "No explicit version info in metadata",
-    "No network features"
-  ],
-  "safety_or_runtime_flags": [
-    "media_fallback_any_author"
-  ],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message:1363859162676596797",
-    "discord_attachment:1363859162341179482",
-    "media_video:1363854172591624222",
-    "media_image:1363856635457441912",
-    "hyp_file:Video_Channel_Changer.hyp"
-  ]
+  "asset_profile": "heavy",
+  "script_complexity": "low",
+  "networking_profile": "local"
 }

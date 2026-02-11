@@ -1,40 +1,22 @@
 {
   "app_id": "hexagonal_test_basic-1355683928421171290",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:46:01+00:00",
-  "one_liner": "Hexagonal panels that react to player contact, dip down, and cycle UV colors for a mini\u2011game.",
-  "primary_use_case": "Interactive decorative panels for mini\u2011games, providing visual feedback via movement and UV color cycling.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:06:19+00:00",
+  "description": "Interactive hexagonal floor panels that react to player contact by dipping down and cycling through UV color scrolls. Features idle oscillation, configurable movement speeds, and visual feedback for mini-game applications.",
   "feature_tags": [
-    "hexagonal",
-    "interactive",
-    "UV scrolling",
-    "player reaction",
-    "mini\u2011game",
-    "configurable",
+    "interaction",
     "animation",
-    "visual feedback"
+    "physics",
+    "environment",
+    "3d-model",
+    "ui"
   ],
   "interaction_modes": [
-    "action",
+    "trigger",
+    "ui",
     "passive"
   ],
   "asset_profile": "medium",
   "script_complexity": "medium",
-  "networking_profile": "none",
-  "preview_recommendation": "Use the provided PNG preview showing a hexagonal panel; ensure the image is clear and representative of the UV color cycling.",
-  "manifest_quality_notes": [
-    "All essential metadata present",
-    "Configurable UI fields defined",
-    "No network events used",
-    "Preview image available",
-    "App size modest",
-    "No safety flags detected"
-  ],
-  "safety_or_runtime_flags": [],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message_id:1355683928421171290",
-    "discord_attachment_id:1355683927422926929",
-    "discord_url:https://cdn.discordapp.com/attachments/1346623562462527649/1355683927422926929/hexagonal_test_basic.hyp"
-  ]
+  "networking_profile": "none"
 }

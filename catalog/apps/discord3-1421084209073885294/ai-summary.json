@@ -1,45 +1,21 @@
 {
   "app_id": "discord3-1421084209073885294",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:45:00+00:00",
-  "one_liner": "Discord integration that broadcasts chat, join/leave events with session duration, optional UI notifications, and logo visibility control via webhook.",
-  "primary_use_case": "Send player activity and chat messages from a Hyperfy world to Discord, with optional in\u2011world UI alerts.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:02:02+00:00",
+  "description": "Generate Complete PG with all required fields",
   "feature_tags": [
-    "chat broadcast",
-    "join/leave notifications",
-    "session duration",
-    "ui notifications",
-    "logo visibility",
-    "webhook integration",
-    "player exclusion",
-    "screen ping"
+    "district_selection",
+    "address_geocode",
+    "property_type",
+    "vacancy_type",
+    "room_config",
+    "amenities"
   ],
   "interaction_modes": [
     "ui",
-    "trigger",
-    "networked"
+    "passive"
   ],
-  "asset_profile": "medium",
+  "asset_profile": "light",
   "script_complexity": "medium",
-  "networking_profile": "events",
-  "preview_recommendation": "Add a screenshot or short video showing the Discord logo UI and a sample notification to improve discoverability, as the current entry has no media.",
-  "manifest_quality_notes": [
-    "no media found",
-    "high author confidence",
-    "script includes server and client logic",
-    "configurable UI elements",
-    "player name exclusion supported",
-    "session duration tracking implemented"
-  ],
-  "safety_or_runtime_flags": [
-    "no_media_found",
-    "requires valid webhook URL"
-  ],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord message",
-    "hyp file",
-    "static analysis",
-    "app metadata"
-  ]
+  "networking_profile": "none"
 }

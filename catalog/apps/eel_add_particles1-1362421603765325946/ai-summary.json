@@ -1,18 +1,14 @@
 {
   "app_id": "eel_add_particles1-1362421603765325946",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:45:06+00:00",
-  "one_liner": "App that attaches glow-dust particles to a bone, allowing custom particle texture upload and world-space positioning.",
-  "primary_use_case": "Attach particle effects to a bone in a 3D model for visual effects.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:02:26+00:00",
+  "description": "Attaches glow-dust particle effects to animated model bones. Tracks bone transforms in real-time to position and rotate particle emitters, creating visual effects that follow skeletal animation. Includes configurable particle texture upload.",
   "feature_tags": [
     "particles",
-    "boneTransform",
-    "customTexture",
-    "additiveBlending",
-    "emissive",
-    "alphaOverLife",
-    "worldSpace",
-    "animation"
+    "animation",
+    "3d-model",
+    "ui",
+    "visual-effects"
   ],
   "interaction_modes": [
     "ui",
@@ -20,20 +16,5 @@
   ],
   "asset_profile": "medium",
   "script_complexity": "medium",
-  "networking_profile": "none",
-  "preview_recommendation": "Include the preview video to showcase particle movement and bone attachment; ensure the video is high quality and demonstrates the texture upload UI.",
-  "manifest_quality_notes": [
-    "Author confidence high",
-    "Discord source verified",
-    "Video preview present",
-    "Script uses bone transform correctly",
-    "Potential rotation offset may need adjustment"
-  ],
-  "safety_or_runtime_flags": [],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message:1362421603765325946",
-    "hyp_file:eel_add_particles1.hyp",
-    "preview_video:catalog/discord/hyp_media/eel_add_particles1_1362421603765325946/m1_eel_add_particles.mp4"
-  ]
+  "networking_profile": "none"
 }

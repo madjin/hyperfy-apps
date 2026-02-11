@@ -1,23 +1,21 @@
 {
   "name": "Prism",
   "author": "ash",
-  "description": "Just gonna leave these here for reference.\nThis is the Prism system.\nInstead of item based action bars like the Elemental system, this one is class based characters that have an avatar, skills, energy, etc.\nIt's also PvPvE and there's work to do to make PvP a toggleable thing, eg for dueling.\nBackpack will also be added, but those items will be more representational than the Elemental ones.",
+  "description": "A class-based RPG combat system supporting PvPvE gameplay with avatar integration, skill-based attacks, and death/respawn mechanics. Features configurable classes with energy systems, damage floating text, and cross-app event networking for multiplayer dueling.",
   "tags": [
-    "class-based",
+    "combat",
+    "rpg",
+    "multiplayer",
+    "ui",
     "avatar",
-    "skills",
-    "energy",
-    "pvpve",
-    "damage ui"
+    "animation"
   ],
   "interaction_modes": [
     "action",
-    "trigger",
     "ui",
-    "passive",
     "networked"
   ],
-  "asset_profile": "heavy",
+  "asset_profile": "medium",
   "script_complexity": "high",
   "networking": "events",
   "preview_url": "catalog/discord/hyp_media/Prism_1355903733090750595/m6_xyz-skelly.mp4",

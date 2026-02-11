@@ -1,21 +1,16 @@
 {
   "name": "SPICEXPortal",
   "author": ".hyp shaman",
-  "description": "SPICEXPortal.hyp",
+  "description": "Web browser",
   "tags": [
-    "teleport",
-    "ui",
-    "audio",
-    "spatial",
-    "particles",
-    "customizable"
+    "web",
+    "browser",
+    "internet"
   ],
   "interaction_modes": [
-    "ui",
-    "trigger",
-    "passive"
+    "trigger"
   ],
-  "asset_profile": "medium",
+  "asset_profile": "heavy",
   "script_complexity": "medium",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/SPICEXPortal_1354289316314087515/p1_brave_iUo8WLJkxq.mp4",

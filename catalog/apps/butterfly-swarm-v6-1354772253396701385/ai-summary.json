@@ -1,42 +1,20 @@
 {
   "app_id": "butterfly-swarm-v6-1354772253396701385",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:44:35+00:00",
-  "one_liner": "A configurable swarm of up to 500 animated butterflies with random movement, flapping, and UI controls for area, height, scale, and speed.",
-  "primary_use_case": "Create a dynamic, visually rich butterfly swarm for decorative or ambient effects in virtual worlds.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T03:58:30+00:00",
+  "description": "Configurable 3D butterfly swarm generator with randomized flight patterns, wing flapping animations, and spawn area controls. Features UI for adjusting butterfly count, scale variance, flight speed, and spawn dimensions.",
   "feature_tags": [
-    "swarm",
-    "animated",
-    "configurable",
-    "3D model",
-    "particle effect",
-    "UI controls",
-    "client-side animation",
-    "lightweight"
+    "particles",
+    "animation",
+    "environment",
+    "3d-model",
+    "ui"
   ],
   "interaction_modes": [
     "ui",
     "passive"
   ],
-  "asset_profile": "medium",
+  "asset_profile": "light",
   "script_complexity": "medium",
-  "networking_profile": "none",
-  "preview_recommendation": "Use the primary PNG preview (p3_image.png) as the app thumbnail; it shows a representative butterfly cluster and meets fallback criteria.",
-  "manifest_quality_notes": [
-    "All required assets present",
-    "UI config correctly defined",
-    "No missing nodes",
-    "Client-side only animation",
-    "Fallback media used due to author media missing",
-    "Confidence high but verify texture path"
-  ],
-  "safety_or_runtime_flags": [
-    "media_fallback_any_author"
-  ],
-  "confidence": "high",
-  "evidence_refs": [
-    "https://cdn.discordapp.com/attachments/1350129252976168992/1354772252872409148/Butterfly_Swarm_V6.hyp",
-    "discord_message_id:1354772253396701385",
-    "discord_user_id:601886221072990251"
-  ]
+  "networking_profile": "none"
 }

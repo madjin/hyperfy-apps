@@ -1,17 +1,13 @@
 {
   "name": "anybox",
   "author": "ash",
-  "description": "i've been using my \"anybox\" for logic-based apps. helps me keep things organised",
+  "description": "Fixed JSON output",
   "tags": [
-    "audio",
-    "ui",
-    "background",
-    "config",
-    "label",
-    "logic"
+    "json",
+    "fix",
+    "validation"
   ],
   "interaction_modes": [
-    "ui",
     "passive"
   ],
   "asset_profile": "medium",

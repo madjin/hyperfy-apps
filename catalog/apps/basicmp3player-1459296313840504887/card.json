@@ -1,14 +1,13 @@
 {
   "name": "BasicMp3Player",
   "author": "Valiant",
-  "description": "ultra basic mp3 player. upload or url for loading mp3 files. uses basic hyperfy glb cube so no jazz...visually.",
+  "description": "Minimal clickable MP3 player supporting file upload or URL input. Features play/pause on click, volume/loop/spatial controls, and auto-play for uploaded files. Uses a basic cube mesh as the visual interface.",
   "tags": [
     "audio",
-    "upload",
-    "url",
-    "loop",
-    "volume",
-    "spatial"
+    "media-player",
+    "interaction",
+    "ui",
+    "3d-model"
   ],
   "interaction_modes": [
     "action",

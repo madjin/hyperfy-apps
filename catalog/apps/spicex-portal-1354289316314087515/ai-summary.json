@@ -1,41 +1,17 @@
 {
   "app_id": "spicex-portal-1354289316314087515",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:48:32+00:00",
-  "one_liner": "A configurable portal app that opens a URL (e.g., Google) with UI labels, audio, spatial sound, and particle effects.",
-  "primary_use_case": "Warp users to external web destinations via an interactive 3D portal with customizable UI and audio.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:18:45+00:00",
+  "description": "Web browser",
   "feature_tags": [
-    "portal",
-    "ui",
-    "audio",
-    "spatial",
-    "particles",
-    "customizable",
-    "web-link",
-    "clickable"
+    "web",
+    "browser",
+    "internet"
   ],
   "interaction_modes": [
-    "ui",
-    "trigger",
-    "passive"
+    "trigger"
   ],
-  "asset_profile": "medium",
+  "asset_profile": "heavy",
   "script_complexity": "medium",
-  "networking_profile": "none",
-  "preview_recommendation": "Use the provided MP4 preview to showcase the portal\u2019s UI and particle effects; ensure audio is enabled to hear the spatial music.",
-  "manifest_quality_notes": [
-    "Author confidence high",
-    "All assets present",
-    "Script includes UI and particle logic",
-    "No networking used",
-    "Preview video matches app behavior",
-    "Model and script URLs resolved"
-  ],
-  "safety_or_runtime_flags": [],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message_1354289316314087515",
-    "hyp_file_SPICEXPortal.hyp",
-    "v2_json_url_https://spicex.vercel.app"
-  ]
+  "networking_profile": "none"
 }

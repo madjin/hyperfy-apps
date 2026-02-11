@@ -1,40 +1,20 @@
 {
   "app_id": "emote_rom_1-1362219850151231579",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:45:10+00:00",
-  "one_liner": "Emote_Rom_1 syncs player emotes across a Hyperfy world, showing emoji UI indicators and supporting numpad-triggered animations.",
-  "primary_use_case": "Enable players to trigger and broadcast custom emote animations with visual emoji cues in multiplayer sessions.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:02:15+00:00",
+  "description": "Networked emote ROM enabling 10 configurable avatar animations triggered by numpad keys (0-9), with cross-client synchronization and floating emoji indicators above players.",
   "feature_tags": [
-    "emote",
-    "sync",
-    "ui",
-    "numpad",
     "animation",
-    "networked",
-    "indicator",
-    "configurable"
+    "multiplayer",
+    "ui",
+    "interaction"
   ],
   "interaction_modes": [
     "action",
-    "trigger",
     "ui",
     "networked"
   ],
   "asset_profile": "medium",
   "script_complexity": "medium",
-  "networking_profile": "events",
-  "preview_recommendation": "Add a screenshot or short video showing the emoji UI indicator above a player during an emote, and include a preview of the emote animation assets.",
-  "manifest_quality_notes": [
-    "No media attached in source",
-    "Description limited to Discord mention",
-    "Author confidence high",
-    "Script includes both client and server logic",
-    "Multiple emote assets bundled"
-  ],
-  "safety_or_runtime_flags": [],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord",
-    "static_analysis"
-  ]
+  "networking_profile": "events"
 }

@@ -1,21 +1,15 @@
 {
   "name": "Forest",
   "author": "Gert-Jan Akerboom",
-  "description": "a forest generator with trees from here https://quickmesh.dev/tree/",
+  "description": "No bad output was provided to fix.",
   "tags": [
-    "tree generation",
-    "clustering",
-    "random distribution",
-    "large scale",
-    "configurable",
-    "3d-model"
+    "unclassified"
   ],
   "interaction_modes": [
-    "ui",
     "passive"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "medium",
+  "asset_profile": "light",
+  "script_complexity": "low",
   "networking": "none",
   "preview_url": null,
   "download_path": "v2-hyp/Forest.hyp",

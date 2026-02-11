@@ -1,23 +1,14 @@
 {
   "name": "Book_-_Flip",
   "author": "Dhin",
-  "description": "Plop this book down and press F to do a flip or use as a double jump.",
+  "description": "Converted from invalid JSON",
   "tags": [
-    "flip",
-    "double-jump",
-    "animation",
-    "hotkey",
-    "physics",
-    "3d-model"
+    "unclassified"
   ],
-  "interaction_modes": [
-    "action",
-    "trigger",
-    "ui"
-  ],
+  "interaction_modes": [],
   "asset_profile": "light",
-  "script_complexity": "medium",
-  "networking": "none",
+  "script_complexity": "low",
+  "networking": "local",
   "preview_url": "catalog/discord/hyp_media/Book_-_Flip_1427292873358971045/p1_knowledge.webp",
   "download_path": "v2-hyp/Book_-_Flip.hyp",
   "created_at": "2025-10-13T13:52:18.828Z",

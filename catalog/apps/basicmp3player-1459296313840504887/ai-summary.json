@@ -1,18 +1,14 @@
 {
   "app_id": "basicmp3player-1459296313840504887",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:44:12+00:00",
-  "one_liner": "Ultra basic MP3 player: upload a file or provide a URL to play audio on a simple Hyperfy GLB cube.",
-  "primary_use_case": "Play audio files via upload or URL within a Hyperfy world using a clickable mesh.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T03:55:12+00:00",
+  "description": "Minimal clickable MP3 player supporting file upload or URL input. Features play/pause on click, volume/loop/spatial controls, and auto-play for uploaded files. Uses a basic cube mesh as the visual interface.",
   "feature_tags": [
     "audio",
-    "upload",
-    "url",
-    "loop",
-    "volume",
-    "spatial",
-    "global",
-    "autoplay"
+    "media-player",
+    "interaction",
+    "ui",
+    "3d-model"
   ],
   "interaction_modes": [
     "action",
@@ -20,23 +16,5 @@
   ],
   "asset_profile": "light",
   "script_complexity": "low",
-  "networking_profile": "none",
-  "preview_recommendation": "Add a preview image or short video showing the GLB cube and click interaction, as the current app lacks any media preview.",
-  "manifest_quality_notes": [
-    "no_media_found",
-    "needs_media_review",
-    "simple_script",
-    "client_side_only"
-  ],
-  "safety_or_runtime_flags": [
-    "no_media_found"
-  ],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_attachment:1459296313333121024",
-    "discord_message:1459296313840504887",
-    "discord_channel:#\ud83c\udfa8\u2502showcase",
-    "discord_timestamp:2026-01-09T21:22:33.634Z",
-    "discord_url:https://cdn.discordapp.com/attachments/1346623562462527649/1459296313333121024/BasicMp3Player.hyp"
-  ]
+  "networking_profile": "none"
 }

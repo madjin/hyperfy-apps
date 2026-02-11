@@ -1,24 +1,23 @@
 {
   "name": "Builder_Drone",
   "author": "devbyte",
-  "description": "I did a quick edit with cursor that lets you configure a keybind and not need to be near the drone. Just hold down the key.",
+  "description": "Configurable builder drone enabling first-person flying mode for construction. Hold custom keybind to pilot with WASD/Space/C controls while others see your avatar. Features networked physics sync and adjustable hold duration.",
   "tags": [
-    "drone",
-    "first-person",
-    "keybind",
+    "vehicle",
+    "camera",
+    "physics",
     "building",
-    "hold-to-toggle",
-    "multiplayer"
+    "multiplayer",
+    "interaction"
   ],
   "interaction_modes": [
     "action",
-    "trigger",
     "ui",
     "networked"
   ],
-  "asset_profile": "medium",
+  "asset_profile": "light",
   "script_complexity": "medium",
-  "networking": "events",
+  "networking": "shared_state",
   "preview_url": "catalog/discord/hyp_media/Builder_Drone_1356446200907432129/m2_xyz-builder-drone-x501.mp4",
   "download_path": "v2-hyp/Builder_Drone.hyp",
   "created_at": "2025-04-01T01:52:55.848Z",

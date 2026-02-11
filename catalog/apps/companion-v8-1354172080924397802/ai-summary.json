@@ -1,46 +1,19 @@
 {
   "app_id": "companion-v8-1354172080924397802",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:51:51+00:00",
-  "one_liner": "Victor, a friendly cowboy\u2011styled Securitron companion that patrols, follows, scans, and chats using AI\u2011driven Fallout\u2011flavored responses.",
-  "primary_use_case": "AI\u2011driven interactive companion NPC for exploration, assistance, and chat in Hyperfy worlds.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:00:55+00:00",
+  "description": "Repaired JSON output conforming to schema requirements.",
   "feature_tags": [
-    "AI chat",
-    "NPC",
-    "Patrol",
-    "Follow",
-    "Scanning",
-    "Emotes",
-    "Fallout theme",
-    "Cowboy personality"
+    "json",
+    "fix",
+    "repair"
   ],
   "interaction_modes": [
-    "action",
     "trigger",
-    "passive"
+    "passive",
+    "action"
   ],
   "asset_profile": "medium",
   "script_complexity": "medium",
-  "networking_profile": "none",
-  "preview_recommendation": "Use the provided MP4 preview to showcase Victor's patrolling, following, scanning, and AI chat capabilities; it effectively demonstrates the companion's personality and interactive commands.",
-  "manifest_quality_notes": [
-    "Clear author identification and provenance",
-    "Includes VRM avatar, emotes, and script assets",
-    "Well\u2011defined AI context and personality",
-    "Requires HuggingFace token for full AI functionality",
-    "External API calls may introduce latency",
-    "No custom networked events detected"
-  ],
-  "safety_or_runtime_flags": [
-    "requires_huggingface_token",
-    "external_api_call",
-    "no_unsafe_operations"
-  ],
-  "confidence": "high",
-  "evidence_refs": [
-    "APP_FACTS",
-    "APP_FILES_CONTEXT",
-    "STATIC_ANALYSIS_SUMMARY_MD",
-    "DISCORD_CONTEXT"
-  ]
+  "networking_profile": "none"
 }

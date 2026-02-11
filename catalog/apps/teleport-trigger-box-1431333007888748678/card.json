@@ -1,22 +1,20 @@
 {
   "name": "TeleportTriggerBox",
   "author": "\ud835\udd7d\ud835\udd94\ud835\udd9a\ud835\udd98\ud835\udd99\ud835\udd86\ud835\udd93",
-  "description": "I made a simple customizable teleport trigger box. my first .hyp file \ud83d\ude0e",
+  "description": "A customizable 3D trigger box that teleports players to specified XYZ coordinates upon entry. Features configurable destination, visibility toggle, and scalable dimensions via the properties panel.",
   "tags": [
     "teleport",
     "interaction",
-    "customizable",
     "physics",
-    "visibility",
-    "scale"
+    "ui"
   ],
   "interaction_modes": [
     "trigger",
     "ui"
   ],
   "asset_profile": "light",
-  "script_complexity": "medium",
-  "networking": "local",
+  "script_complexity": "low",
+  "networking": "none",
   "preview_url": null,
   "download_path": "v2-hyp/TeleportTriggerBox.hyp",
   "created_at": "2025-10-24T17:26:21.962Z",

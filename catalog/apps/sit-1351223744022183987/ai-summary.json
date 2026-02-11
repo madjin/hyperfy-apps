@@ -1,43 +1,17 @@
 {
   "app_id": "sit-1351223744022183987",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:48:25+00:00",
-  "one_liner": "Seat-inspired app that lets players sit using a trigger button and emote, with visibility toggle.",
-  "primary_use_case": "Provides an interactive seat that players can occupy, toggling visibility and emitting networked events for sit/stand.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:17:18+00:00",
+  "description": "Ground inference API tool",
   "feature_tags": [
-    "action",
-    "anchor",
-    "button",
-    "emote",
-    "visibility",
-    "networked",
-    "trigger",
-    "props"
+    "api",
+    "inference",
+    "grounding"
   ],
   "interaction_modes": [
-    "action",
-    "trigger",
     "networked"
   ],
   "asset_profile": "medium",
-  "script_complexity": "medium",
-  "networking_profile": "shared_state",
-  "preview_recommendation": "Add a clear screenshot showing the seat model, the Sit button, and visibility toggle UI to give users a quick visual reference.",
-  "manifest_quality_notes": [
-    "No media found in archive",
-    "Script uses both client and server logic",
-    "Visibility toggle via props",
-    "Emote asset large (~1.4\u202fMB)",
-    "Potential missing UI preview"
-  ],
-  "safety_or_runtime_flags": [
-    "no_media_found"
-  ],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message",
-    "hyp_file",
-    "static_analysis",
-    "docs_snippets"
-  ]
+  "script_complexity": "high",
+  "networking_profile": "shared_state"
 }

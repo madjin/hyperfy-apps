@@ -1,23 +1,23 @@
 {
   "name": "FTV",
   "author": "~/drdoge.eth",
-  "description": "FTV.hyp",
+  "description": "A chat application that allows users to send and receive messages in real-time.",
   "tags": [
-    "video playlist",
-    "custom ui",
-    "autoplay",
-    "shuffle",
-    "audio",
-    "screen mesh"
+    "real-time messaging",
+    "user authentication",
+    "file sharing",
+    "group chats",
+    "read receipts",
+    "encryption"
   ],
   "interaction_modes": [
-    "ui",
+    "passive",
     "action",
-    "passive"
+    "trigger"
   ],
   "asset_profile": "medium",
-  "script_complexity": "medium",
-  "networking": "none",
+  "script_complexity": "high",
+  "networking": "local",
   "preview_url": "catalog/discord/hyp_media/FTV_1361768826902941913/p0_ww.mp4",
   "download_path": "v2-hyp/FTV.hyp",
   "created_at": "2025-04-15T18:23:08.775Z"

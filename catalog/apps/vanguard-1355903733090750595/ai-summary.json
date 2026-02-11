@@ -1,47 +1,17 @@
 {
   "app_id": "vanguard-1355903733090750595",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:48:55+00:00",
-  "one_liner": "Class\u2011based combat system with avatar, skills, and energy; supports PvPvE, upcoming PvP toggle, and future backpack representation.",
-  "primary_use_case": "Provide a class\u2011based combat framework for Hyperfy worlds, enabling avatars with skill\u2011based actions and energy management.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:21:13+00:00",
+  "description": "My First App",
   "feature_tags": [
-    "class-based",
-    "avatar",
-    "skills",
-    "energy",
-    "PvPvE",
-    "PvP-toggle",
-    "backpack",
-    "emotes"
+    "feature_1",
+    "feature_2"
   ],
   "interaction_modes": [
-    "action",
     "ui",
     "networked"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "medium",
-  "networking_profile": "events",
-  "preview_recommendation": "Use the primary mp4 (m6_xyz-skelly.mp4) as the preview; it shows character actions and works as a reliable fallback.",
-  "manifest_quality_notes": [
-    "fallback_media_used",
-    "author_confidence_high",
-    "description_complete",
-    "script_parsed",
-    "assets_verified",
-    "no_media_issues"
-  ],
-  "safety_or_runtime_flags": [
-    "media_fallback_any_author"
-  ],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message:1355903733090750595",
-    "discord_attachment:1355903732742881552",
-    "discord_channel:#\ud83d\udcbb\u2502developers",
-    "author_discord_id:179546010303856640",
-    "hyp_file:Vanguard.hyp",
-    "media_file:m6_xyz-skelly.mp4",
-    "preview_media:m8_CamSwitcher.mp4"
-  ]
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none"
 }

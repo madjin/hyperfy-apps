@@ -1,43 +1,20 @@
 {
   "app_id": "explosion-sprites-1361904724433174649",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:45:15+00:00",
-  "one_liner": "Explosion Sprites app creates particle effects with a configurable texture, hemisphere shape, and adjustable parameters like life, speed, and size.",
-  "primary_use_case": "Add customizable explosion particle effects to a Hyperfy world.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:02:42+00:00",
+  "description": "A reference particle system demonstrating explosion effects using sprite sheet animation. Features configurable textures, hemisphere emission shape, and 16-frame sprite animation. Designed as a documentation example for Hyperfy's particle API with support for up to 10k particles in world space.",
   "feature_tags": [
     "particles",
-    "texture",
-    "spritesheet",
-    "duration",
-    "life",
-    "speed",
-    "size",
-    "blending"
+    "animation",
+    "environment",
+    "ui",
+    "3d-model"
   ],
   "interaction_modes": [
     "ui",
-    "action",
     "passive"
   ],
   "asset_profile": "medium",
-  "script_complexity": "medium",
-  "networking_profile": "none",
-  "preview_recommendation": "The attached MP4 preview clearly demonstrates the particle effect; use it to assess visual quality and performance before integration.",
-  "manifest_quality_notes": [
-    "Preview available",
-    "UI prop configured",
-    "No networking used",
-    "Model asset included",
-    "Texture asset included",
-    "Script creates particles"
-  ],
-  "safety_or_runtime_flags": [],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message_1361903619951034609",
-    "discord_message_1361904754439229644",
-    "github_docs_particles",
-    "hyp_file_Explosion_Sprites.hyp",
-    "media_preview_mp4"
-  ]
+  "script_complexity": "low",
+  "networking_profile": "none"
 }

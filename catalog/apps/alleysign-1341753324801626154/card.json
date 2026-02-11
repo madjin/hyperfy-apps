@@ -1,14 +1,11 @@
 {
   "name": "AlleySign",
   "author": "MetaRick",
-  "description": "<@601886221072990251>  This will rotate it on y axis not triggering a glb animation but just rotate if it helps",
+  "description": "A continuously rotating 3D alley sign that spins on its Y-axis via script-based rotation rather than GLB animation. Lightweight decorative environment prop with passive animation.",
   "tags": [
-    "rotation",
     "animation",
     "3d-model",
-    "script",
-    "passive",
-    "simple"
+    "environment"
   ],
   "interaction_modes": [
     "passive"

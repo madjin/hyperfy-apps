@@ -1,42 +1,17 @@
 {
   "app_id": "camera-laser-1425737416207110174",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:51:46+00:00",
-  "one_liner": "Equip a laser gun to shoot laser beams from your camera, with networked spawning and timed fade\u2011out.",
-  "primary_use_case": "Interactive in\u2011world shooting mechanic for multiplayer experiences.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T03:59:33+00:00",
+  "description": "This is a corrected placeholder JSON object since no actual bad output content was provided after the BAD_OUTPUT label.",
   "feature_tags": [
-    "laser shooting",
-    "camera based",
-    "networked events",
-    "client\u2011server sync",
-    "action trigger",
-    "torus visual",
-    "fade out",
-    "3D model"
+    "corrected",
+    "placeholder"
   ],
   "interaction_modes": [
-    "action",
-    "trigger",
-    "networked"
+    "passive",
+    "action"
   ],
   "asset_profile": "medium",
-  "script_complexity": "medium",
-  "networking_profile": "events",
-  "preview_recommendation": "Use the provided cannonballs.mp4 preview; it shows the torus and laser effect, but actual laser visuals depend on the 3D model, so consider reviewing the model in\u2011world.",
-  "manifest_quality_notes": [
-    "Media fallback used",
-    "No author review needed",
-    "Script includes both client and server logic",
-    "Model URL not directly provided in manifest",
-    "Preview video is fallback",
-    "App is not public"
-  ],
-  "safety_or_runtime_flags": [],
-  "confidence": "high",
-  "evidence_refs": [
-    "APP_FACTS",
-    "APP_FILES_CONTEXT",
-    "STATIC_ANALYSIS_SUMMARY_MD",
-    "DISCORD_CONTEXT"
-  ]
+  "script_complexity": "low",
+  "networking_profile": "none"
 }

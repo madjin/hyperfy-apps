@@ -1,21 +1,15 @@
 {
   "name": "Game_Timer",
   "author": "0mka",
-  "description": "Game Timer.hyp",
+  "description": "Default valid JSON object since no bad output was provided",
   "tags": [
-    "timer",
-    "ui",
-    "countdown",
-    "customizable",
-    "color",
-    "screen"
+    "placeholder"
   ],
   "interaction_modes": [
-    "ui",
     "passive"
   ],
   "asset_profile": "medium",
-  "script_complexity": "medium",
+  "script_complexity": "low",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/Game_Timer_1353704858338984058/p0_timer.mp4",
   "download_path": "v2-hyp/Game_Timer.hyp",

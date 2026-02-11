@@ -1,47 +1,22 @@
 {
   "app_id": "builder-drone-x501-1356505487033499729",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:44:26+00:00",
-  "one_liner": "A multiplayer controllable drone that syncs position and rotation across server and clients, allowing a single player to fly it via UI action.",
-  "primary_use_case": "Enable shared, real\u2011time drone control in a Hyperfy world, letting one player pilot the drone while others observe its movement.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T03:57:15+00:00",
+  "description": "A flyable drone vehicle with physics simulation and multiplayer state synchronization. Players enter flight mode via action trigger, controlling movement with WASD/Space/C while the server reconciles position and rotation across clients.",
   "feature_tags": [
-    "multiplayer",
-    "drone",
+    "vehicle",
     "physics",
-    "sync",
-    "action",
-    "ui",
-    "control",
-    "networked"
+    "multiplayer",
+    "interaction",
+    "camera",
+    "3d-model"
   ],
   "interaction_modes": [
     "action",
-    "ui",
+    "trigger",
     "networked"
   ],
   "asset_profile": "medium",
-  "script_complexity": "medium",
-  "networking_profile": "shared_state",
-  "preview_recommendation": "Use the available video (xyz-builder-drone-x501.mp4) as the primary preview; if unavailable, fall back to the provided PNG image.",
-  "manifest_quality_notes": [
-    "Fallback image used for preview",
-    "All media downloaded",
-    "App state sync resolved",
-    "No missing assets",
-    "Author confidence high"
-  ],
-  "safety_or_runtime_flags": [
-    "media_fallback_any_author"
-  ],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message_1356505487033499729",
-    "hyp_file_Builder_Drone_X501.hyp",
-    "static_analysis_summary",
-    "docs_app_snippet",
-    "docs_networking_snippet",
-    "media_files",
-    "author_ash",
-    "discord_channel_showcase"
-  ]
+  "script_complexity": "high",
+  "networking_profile": "shared_state"
 }

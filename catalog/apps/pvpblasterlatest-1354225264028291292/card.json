@@ -1,23 +1,19 @@
 {
   "name": "PVPblasterLATEST",
   "author": ".hyp shaman",
-  "description": "PVPblasterLATEST.hyp",
+  "description": "A sample application",
   "tags": [
-    "combat",
-    "first-person",
-    "animation",
-    "particles",
-    "audio",
-    "health-regeneration"
+    "ios",
+    "mobile",
+    "production"
   ],
   "interaction_modes": [
-    "action",
     "ui",
     "networked"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "high",
-  "networking": "events",
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking": "shared_state",
   "preview_url": null,
   "download_path": "v2-hyp/PVPblasterLATEST.hyp",
   "created_at": "2025-03-25T22:47:43.233Z",

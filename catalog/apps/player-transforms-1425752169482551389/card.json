@@ -1,21 +1,18 @@
 {
   "name": "Player_Transforms",
   "author": "Gert-Jan Akerboom",
-  "description": "-Player Transforms- \na little helper to get the Player Location, Player Body Rotation and Player Camera Rotation in real time",
+  "description": "Create a Kubernetes cluster with advanced networking capabilities",
   "tags": [
-    "location",
-    "rotation",
-    "camera",
-    "ui",
-    "real-time",
-    "debug"
+    "kubernetes",
+    "multiplayer",
+    "infrastructure"
   ],
   "interaction_modes": [
     "ui",
-    "passive"
+    "trigger"
   ],
-  "asset_profile": "light",
-  "script_complexity": "medium",
+  "asset_profile": "medium",
+  "script_complexity": "high",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/Player_Transforms_1425752169482551389/p0_player_transforms.mp4",
   "download_path": "v2-hyp/Player_Transforms.hyp",

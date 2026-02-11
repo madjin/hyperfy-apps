@@ -1,41 +1,20 @@
 {
   "app_id": "camera-trigger-1428031026826842285",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:44:39+00:00",
-  "one_liner": "A trigger zone that, when a player stands on it, smoothly transitions the camera view, ideal for museum or exhibition setups.",
-  "primary_use_case": "Provides interactive camera perspective changes for virtual museum or exhibit environments, allowing designers to guide player focus.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T03:59:02+00:00",
+  "description": "A physics trigger zone that smoothly transitions the camera to a configured overlook view when a player enters, and returns to first-person view on exit. Designed for museum or gallery environments to showcase specific viewing angles of exhibits.",
   "feature_tags": [
     "camera",
-    "trigger",
-    "museum",
-    "exhibit",
-    "view",
-    "zone",
-    "3d",
-    "interactive"
+    "interaction",
+    "animation",
+    "environment",
+    "3d-model"
   ],
   "interaction_modes": [
     "trigger",
-    "action"
+    "passive"
   ],
   "asset_profile": "light",
   "script_complexity": "medium",
-  "networking_profile": "none",
-  "preview_recommendation": "Use the provided PNG preview as a visual reference; it shows the trigger zone and is suitable for listing.",
-  "manifest_quality_notes": [
-    "Fallback media used",
-    "Author confidence high",
-    "Client\u2011side camera control",
-    "No network events",
-    "Small model and script"
-  ],
-  "safety_or_runtime_flags": [
-    "media_fallback_any_author"
-  ],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message",
-    "hyp_file",
-    "static_analysis"
-  ]
+  "networking_profile": "local"
 }

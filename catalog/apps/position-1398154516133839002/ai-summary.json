@@ -1,47 +1,13 @@
 {
   "app_id": "position-1398154516133839002",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:47:38+00:00",
-  "one_liner": "Shows the player\u2019s X,Y,Z coordinates in a centered screen\u2011space UI overlay.",
-  "primary_use_case": "Quick debugging HUD to monitor player position during development.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:12:53+00:00",
+  "description": "No invalid JSON content was provided in the BAD_OUTPUT field to fix.",
   "feature_tags": [
-    "ui",
-    "hud",
-    "debug",
-    "position",
-    "screen-space",
-    "collision",
-    "model",
-    "script"
+    "unclassified"
   ],
-  "interaction_modes": [
-    "ui",
-    "passive"
-  ],
+  "interaction_modes": [],
   "asset_profile": "light",
   "script_complexity": "low",
-  "networking_profile": "none",
-  "preview_recommendation": "The MP4 preview (p1_xyz-temp.mp4) clearly displays the UI overlay with live position values; it is sufficient for evaluation.",
-  "manifest_quality_notes": [
-    "media_fallback_any_author",
-    "author_confidence_high",
-    "script_is_simple",
-    "model_includes_collision",
-    "preview_present",
-    "no_network_usage"
-  ],
-  "safety_or_runtime_flags": [
-    "media_fallback_any_author"
-  ],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message",
-    "hyp_file",
-    "v2_json",
-    "static_analysis",
-    "script_excerpt",
-    "model_asset",
-    "preview_media",
-    "author_info"
-  ]
+  "networking_profile": "none"
 }

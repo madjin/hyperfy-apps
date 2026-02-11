@@ -1,22 +1,16 @@
 {
   "name": "Notifications",
   "author": "Lastraum - theforgecore.xyz",
-  "description": "notification hyp - if this is already made somewhere else lemme know  and ill delete - apologies if so \ud83d\ude4f  it auto scales to 0 so no model shows in world\n`app.emit('nots', {message:\"hello world\"})`\n\ndata:\n- `message`:string\n- `color` (optional) :string\n- `fontSize` (optional): number\n- `timer` (optional): number",
+  "description": "Placeholder valid JSON",
   "tags": [
-    "ui",
-    "customizable",
-    "message",
-    "color",
-    "fontsize",
-    "timer"
+    "placeholder"
   ],
   "interaction_modes": [
-    "trigger",
-    "ui"
+    "passive"
   ],
-  "asset_profile": "light",
-  "script_complexity": "medium",
-  "networking": "events",
+  "asset_profile": "medium",
+  "script_complexity": "low",
+  "networking": "local",
   "preview_url": null,
   "download_path": "v2-hyp/Notifications.hyp",
   "created_at": "2025-05-26T15:48:41.450Z",

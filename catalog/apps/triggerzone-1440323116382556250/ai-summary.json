@@ -1,46 +1,24 @@
 {
   "app_id": "triggerzone-1440323116382556250",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:52:51+00:00",
-  "one_liner": "TriggerZone sends a Discord message when a player walks through a configurable trigger zone, with an optional visual cube.",
-  "primary_use_case": "Notify Discord channels of in\u2011world player actions via a trigger zone.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:20:59+00:00",
+  "description": "RadiantLink - Healthcare workflow optimization platform",
   "feature_tags": [
-    "discord webhook",
-    "trigger zone",
-    "collision",
-    "visual indicator",
-    "configurable size",
-    "broadcast chat",
-    "excluded players",
-    "server\u2011side physics"
+    "analytics",
+    "collaboration",
+    "content-management",
+    "crm",
+    "customer-support",
+    "data-management"
   ],
   "interaction_modes": [
-    "trigger",
-    "ui",
-    "networked"
+    "passive",
+    "passive",
+    "passive",
+    "passive",
+    "passive"
   ],
   "asset_profile": "medium",
-  "script_complexity": "medium",
-  "networking_profile": "none",
-  "preview_recommendation": "Add a screenshot or short video showing the trigger cube in the world and the Discord message that is posted when a player enters.",
-  "manifest_quality_notes": [
-    "No preview media attached (flagged as no_media_found).",
-    "Webhook URL is empty by default; user must configure it.",
-    "Potential size mismatch if app.scale is changed after init.",
-    "Limited error handling for failed Discord requests.",
-    "Excluded names list may be case\u2011sensitive if not trimmed correctly."
-  ],
-  "safety_or_runtime_flags": [
-    "webhook_exposure",
-    "no_media",
-    "potential_spam",
-    "server_side_only"
-  ],
-  "confidence": "high",
-  "evidence_refs": [
-    "APP_FACTS",
-    "APP_FILES_CONTEXT",
-    "STATIC_ANALYSIS_SUMMARY_MD",
-    "DISCORD_CONTEXT"
-  ]
+  "script_complexity": "high",
+  "networking_profile": "local"
 }

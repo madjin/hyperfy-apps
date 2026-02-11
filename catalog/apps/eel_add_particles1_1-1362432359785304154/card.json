@@ -1,20 +1,17 @@
 {
   "name": "eel_add_particles1_1",
   "author": "ash",
-  "description": "eel add particles1 1.hyp",
+  "description": "A simple student management system",
   "tags": [
-    "particles",
-    "bone",
-    "additive",
-    "blending",
-    "texture",
-    "world-space"
+    "unclassified"
   ],
   "interaction_modes": [
-    "passive"
+    "ui",
+    "trigger",
+    "action"
   ],
-  "asset_profile": "light",
-  "script_complexity": "medium",
+  "asset_profile": "medium",
+  "script_complexity": "low",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/eel_add_particles1_1_1362432359785304154/m5_eel_add_particles.mp4",
   "download_path": "v2-hyp/eel_add_particles1_1.hyp",

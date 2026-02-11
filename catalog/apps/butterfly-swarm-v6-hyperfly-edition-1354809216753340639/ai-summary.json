@@ -1,18 +1,14 @@
 {
   "app_id": "butterfly-swarm-v6-hyperfly-edition-1354809216753340639",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:44:36+00:00",
-  "one_liner": "A configurable 3D butterfly swarm with adjustable area, count, scale, and animation speed, rendered via a GLB model and scripted for client-side animation.",
-  "primary_use_case": "Create immersive decorative butterfly swarms in virtual worlds, customizable via UI controls for visual variety.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T03:58:31+00:00",
+  "description": "Configurable butterfly swarm simulation spawning up to 5000 animated butterflies with randomized scale, flap speed, and flight patterns within a defined 3D area. Features real-time wing animation and drift movement for ambient environmental decoration.",
   "feature_tags": [
-    "swarm",
-    "3D model",
+    "environment",
     "animation",
-    "configurable",
-    "client-side",
-    "particle effect",
-    "glb",
-    "hyperfly"
+    "particles",
+    "ui",
+    "3d-model"
   ],
   "interaction_modes": [
     "ui",
@@ -20,24 +16,5 @@
   ],
   "asset_profile": "medium",
   "script_complexity": "medium",
-  "networking_profile": "none",
-  "preview_recommendation": "Use the provided fallback PNG preview; consider adding a higher\u2011resolution render or a short video to better showcase the swarm animation.",
-  "manifest_quality_notes": [
-    "fallback preview used",
-    "author confidence high",
-    "script uses random functions",
-    "no emission effect implemented",
-    "model size small",
-    "no network usage"
-  ],
-  "safety_or_runtime_flags": [
-    "media_fallback_any_author"
-  ],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message_1354809188370350190",
-    "discord_message_1354772253396701385",
-    "hyp_file",
-    "static_analysis"
-  ]
+  "networking_profile": "none"
 }

@@ -1,42 +1,22 @@
 {
   "app_id": "physics-contacts-tags-1354299208894648330",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:47:27+00:00",
-  "one_liner": "Demo app showing rigidbody contacts and tags with UI feedback in Hyperfy.",
-  "primary_use_case": "Illustrate contact events between rigidbody nodes and display tags via UI.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:11:54+00:00",
+  "description": "Skebby is a mobile marketing platform that allows businesses to send SMS messages, WhatsApp messages, and push notifications to their customers. The app enables merchants to manage campaigns, contacts, and analytics from their mobile devices. Key features include SMS sending with customizable sender",
   "feature_tags": [
-    "physics",
-    "contacts",
-    "tags",
-    "ui",
-    "demo",
-    "rigidbody",
-    "event-handling",
-    "visualization"
+    "sms marketing",
+    "whatsapp business",
+    "push notifications",
+    "bulk messaging",
+    "campaign management",
+    "contact management"
   ],
   "interaction_modes": [
-    "ui",
-    "trigger",
+    "action",
+    "networked",
     "passive"
   ],
-  "asset_profile": "light",
-  "script_complexity": "low",
-  "networking_profile": "none",
-  "preview_recommendation": "Use the provided MP4 preview to quickly visualize how the Blue and Red nodes change UI text on contact start/end.",
-  "manifest_quality_notes": [
-    "Clear demonstration of contact tagging",
-    "Simple, low\u2011complexity script",
-    "No networking required",
-    "Requires model with Blue and Red nodes",
-    "Preview video available"
-  ],
-  "safety_or_runtime_flags": [],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message:1354299255912660993",
-    "hyp_file:Physics_-_Contacts__Tags.hyp",
-    "preview_video:xyz-physics-contacts--tags.mp4",
-    "static_analysis:summary",
-    "author_discord:179546010303856640"
-  ]
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "shared_state"
 }

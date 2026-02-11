@@ -1,49 +1,19 @@
 {
   "app_id": "questitembasic-1396392921833410642",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:47:45+00:00",
-  "one_liner": "A configurable collectible item with UI, rotation, bobbing, sound, and custom event emit.",
-  "primary_use_case": "Add interactive collectible objects to a world that track collection count and trigger events.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:13:41+00:00",
+  "description": "IOST-based decentralized application for digital asset management",
   "feature_tags": [
-    "collectible",
-    "ui",
-    "rotation",
-    "bobbing",
-    "sound",
-    "persistent_storage",
-    "event_emit",
-    "reset_meshes"
+    "blockchain",
+    "wallet",
+    "defi"
   ],
   "interaction_modes": [
-    "action",
     "trigger",
-    "ui",
-    "networked"
+    "action",
+    "passive"
   ],
   "asset_profile": "medium",
-  "script_complexity": "medium",
-  "networking_profile": "events",
-  "preview_recommendation": "Provide a screenshot or short video showing the item in-world, its UI, rotation/bobbing animation, and event trigger to improve discoverability.",
-  "manifest_quality_notes": [
-    "No preview media found",
-    "All required assets present",
-    "Comprehensive configuration UI",
-    "Persistent storage optional",
-    "Event emission enabled",
-    "Reset functionality documented"
-  ],
-  "safety_or_runtime_flags": [
-    "no_media_found"
-  ],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_author",
-    "discord_message",
-    "static_analysis",
-    "app_file",
-    "v2_json",
-    "index_js",
-    "discord_context",
-    "hyperfy_docs"
-  ]
+  "script_complexity": "low",
+  "networking_profile": "local"
 }

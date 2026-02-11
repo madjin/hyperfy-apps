@@ -1,14 +1,14 @@
 {
   "name": "PvE_Sword",
   "author": "peezy",
-  "description": "PvE Sword.hyp",
+  "description": "A multiplayer PvE melee combat system where players equip a sword to deal damage to others using physics-based hit detection. Features configurable attack emotes, server-authoritative damage calculation with critical hits, and pickup/drop mechanics synchronized across clients.",
   "tags": [
     "combat",
-    "animation",
-    "player_interaction",
     "multiplayer",
-    "server_logic",
-    "client_logic"
+    "interaction",
+    "animation",
+    "physics",
+    "3d-model"
   ],
   "interaction_modes": [
     "action",
@@ -17,7 +17,7 @@
     "networked"
   ],
   "asset_profile": "medium",
-  "script_complexity": "medium",
+  "script_complexity": "high",
   "networking": "shared_state",
   "preview_url": null,
   "download_path": "v2-hyp/PvE_Sword.hyp",

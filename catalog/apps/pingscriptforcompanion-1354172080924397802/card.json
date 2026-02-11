@@ -1,23 +1,16 @@
 {
   "name": "PingScriptFORcompanion",
   "author": "~/drdoge.eth",
-  "description": "PingScriptFORcompanion.hyp",
+  "description": "No input provided to fix",
   "tags": [
-    "ping",
-    "pong",
-    "companion",
-    "minimap",
-    "scannable",
-    "ui"
+    "placeholder"
   ],
   "interaction_modes": [
-    "ui",
-    "trigger",
     "networked"
   ],
-  "asset_profile": "medium",
+  "asset_profile": "light",
   "script_complexity": "low",
-  "networking": "events",
+  "networking": "none",
   "preview_url": "catalog/discord/hyp_media/PingScriptFORcompanion_1354172080924397802/m1_updated_companion.mp4",
   "download_path": "v2-hyp/PingScriptFORcompanion.hyp",
   "created_at": "2025-03-25T19:16:23.393Z",

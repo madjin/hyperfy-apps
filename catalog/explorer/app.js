@@ -50,9 +50,109 @@ function VideoPreview({ src }) {
   `;
 }
 
+// ---- SourceModal: fetches card.json on demand, syntax highlights ----
+
+function SourceModal({ app, onClose }) {
+  const [card, setCard] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState("");
+  const [activeTab, setActiveTab] = useState("script");
+  const [copied, setCopied] = useState(false);
+  const codeRef = useRef(null);
+
+  useEffect(() => {
+    const cardUrl = `../apps/${app.id}/card.json`;
+    fetch(cardUrl)
+      .then((r) => {
+        if (!r.ok) throw new Error(`HTTP ${r.status}`);
+        return r.json();
+      })
+      .then((d) => { setCard(d); setLoading(false); })
+      .catch((e) => { setError(e.message); setLoading(false); });
+  }, [app.id]);
+
+  // Highlight code after render
+  useEffect(() => {
+    if (card && codeRef.current && window.Prism) {
+      window.Prism.highlightAllUnder(codeRef.current);
+    }
+  }, [card, activeTab]);
+
+  // Close on Escape
+  useEffect(() => {
+    const handler = (e) => { if (e.key === "Escape") onClose(); };
+    window.addEventListener("keydown", handler);
+    return () => window.removeEventListener("keydown", handler);
+  }, [onClose]);
+
+  const getCurrentCode = useCallback(() => {
+    if (!card) return "";
+    if (activeTab === "script") return card.script_excerpt || "// No script found";
+    if (activeTab === "blueprint") return JSON.stringify(card.props || {}, null, 2);
+    return "";
+  }, [card, activeTab]);
+
+  const onCopy = useCallback(() => {
+    const text = getCurrentCode();
+    navigator.clipboard.writeText(text).then(() => {
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    }).catch(() => {});
+  }, [getCurrentCode]);
+
+  const lang = activeTab === "script" ? "javascript" : "json";
+
+  return html`
+    <div className="modal-overlay" onClick=${(e) => { if (e.target === e.currentTarget) onClose(); }}>
+      <div className="modal">
+        <div className="modal-header">
+          <h2 className="modal-title">${app.name.replace(/_/g, " ")} — Source</h2>
+          <div className="modal-header-actions">
+            <button className=${`modal-copy-btn ${copied ? "copied" : ""}`} onClick=${onCopy}>
+              ${copied ? "Copied!" : "Copy"}
+            </button>
+            <button className="modal-close-btn" onClick=${onClose}>Close</button>
+          </div>
+        </div>
+
+        ${!loading && card ? html`
+          <div className="modal-tabs">
+            ${card.script_excerpt ? html`
+              <button className=${`modal-tab ${activeTab === "script" ? "active" : ""}`}
+                onClick=${() => setActiveTab("script")}>index.js</button>
+            ` : null}
+            ${card.props && Object.keys(card.props).length > 0 ? html`
+              <button className=${`modal-tab ${activeTab === "blueprint" ? "active" : ""}`}
+                onClick=${() => setActiveTab("blueprint")}>Props / Blueprint</button>
+            ` : null}
+          </div>
+        ` : null}
+
+        <div className="modal-body" ref=${codeRef}>
+          ${loading ? html`<div className="modal-loading">Loading source...</div>` : null}
+          ${error ? html`<div className="modal-error">Failed to load: ${error}</div>` : null}
+          ${!loading && !error && card ? html`
+            <pre className=${`language-${lang}`}><code className=${`language-${lang}`}>${getCurrentCode()}</code></pre>
+          ` : null}
+        </div>
+
+        ${!loading && card ? html`
+          <div className="modal-meta">
+            ${card.asset_files?.length ? html`
+              <span className="modal-meta-item"><strong>Assets:</strong> ${card.asset_files.join(", ")}</span>
+            ` : null}
+            <span className="modal-meta-item"><strong>Complexity:</strong> ${card.script_complexity}</span>
+            <span className="modal-meta-item"><strong>Networking:</strong> ${card.networking}</span>
+          </div>
+        ` : null}
+      </div>
+    </div>
+  `;
+}
+
 // ---- AppCard ----
 
-function AppCard({ app, onTagClick }) {
+function AppCard({ app, onTagClick, onSourceClick }) {
   const previewSrc = app.preview_url ? `../../${app.preview_url}` : null;
   const downloadHref = app.download_path ? `../../${app.download_path}` : null;
   const dateStr = formatDate(app.created_at);
@@ -121,7 +221,7 @@ function AppCard({ app, onTagClick }) {
             ? html`<a className="card-btn primary" href=${downloadHref} download=${app.hyp_filename}>Download .hyp</a>`
             : html`<span className="card-btn" style=${{ opacity: 0.4, cursor: "default" }}>No .hyp</span>`}
           ${app.has_source
-            ? html`<a className="card-btn" href=${`../../v2/apps/${encodeURIComponent(app.slug)}/`} target="_blank" rel="noopener">Source</a>`
+            ? html`<button className="card-btn" onClick=${(e) => { e.stopPropagation(); onSourceClick(app); }}>Source</button>`
             : null}
         </div>
       </div>
@@ -195,6 +295,7 @@ function Explorer() {
   const [sortMode, setSortMode] = useState("name");
   const [filterMode, setFilterMode] = useState("all"); // all, preview, source
   const [activeTags, setActiveTags] = useState(new Set());
+  const [sourceApp, setSourceApp] = useState(null);
 
   useEffect(() => {
     let cancelled = false;
@@ -391,11 +492,15 @@ function Explorer() {
           : html`
               <section className="grid">
                 ${filteredApps.map(
-                  (app) => html`<${AppCard} key=${app.id} app=${app} onTagClick=${onTagToggle} />`
+                  (app) => html`<${AppCard} key=${app.id} app=${app} onTagClick=${onTagToggle} onSourceClick=${setSourceApp} />`
                 )}
               </section>
             `}
       </div>
+
+      ${sourceApp
+        ? html`<${SourceModal} app=${sourceApp} onClose=${() => setSourceApp(null)} />`
+        : null}
     </div>
   `;
 }

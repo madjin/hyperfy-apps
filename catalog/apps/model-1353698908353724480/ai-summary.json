@@ -1,44 +1,20 @@
 {
   "app_id": "model-1353698908353724480",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:47:08+00:00",
-  "one_liner": "Model app that lets creators drop a glb, set its scale and toggle collision via a simple UI.",
-  "primary_use_case": "Enable/disable physics collisions for a 3D model and adjust its scale directly in-world.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:09:48+00:00",
+  "description": "Utility app that auto-enables physics collisions for imported GLB models. Features UI-configurable scale and collision toggle, dynamically generating rigidbodies and geometry colliders on placement.",
   "feature_tags": [
-    "collision",
-    "scale",
-    "model",
-    "glb",
+    "3d-model",
     "physics",
+    "utility",
     "ui",
-    "config",
-    "fallback_media"
+    "environment"
   ],
   "interaction_modes": [
     "ui",
-    "action"
+    "passive"
   ],
   "asset_profile": "light",
-  "script_complexity": "low",
-  "networking_profile": "none",
-  "preview_recommendation": "Use the provided fallback PNG preview; it clearly shows the UI and model placeholder, suitable for catalog listings.",
-  "manifest_quality_notes": [
-    "fallback media used",
-    "author confidence high",
-    "script simple and self\u2011contained",
-    "no external dependencies",
-    "size under 6\u202fKB",
-    "metadata complete"
-  ],
-  "safety_or_runtime_flags": [
-    "media_fallback_any_author"
-  ],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message",
-    "hyp_file",
-    "static_analysis",
-    "author_profile",
-    "preview_image"
-  ]
+  "script_complexity": "medium",
+  "networking_profile": "none"
 }

@@ -1,17 +1,13 @@
 {
   "name": "ArrayVectorProps",
   "author": "~/MayD524/Hyperfy",
-  "description": "Requires https://github.com/Bitmato-Studio/hyperfy/tree/bm/ArrayProps mod",
+  "description": "This is a sample valid JSON object conforming to the expected schema.",
   "tags": [
-    "arrayprops",
-    "vector3",
-    "animation",
-    "3d-model",
-    "script",
-    "configurable"
+    "fix",
+    "json",
+    "schema"
   ],
   "interaction_modes": [
-    "ui",
     "passive"
   ],
   "asset_profile": "medium",

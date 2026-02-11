@@ -1,22 +1,15 @@
 {
   "name": "MoonJump",
   "author": "0mka",
-  "description": "MoonJump.hyp",
+  "description": "No bad output was provided to fix. Please provide the invalid JSON that needs to be corrected.",
   "tags": [
-    "double-jump",
-    "auto-boost",
-    "player-physics",
-    "physics",
-    "scripted",
-    "3d-model"
+    "unclassified"
   ],
   "interaction_modes": [
-    "action",
-    "trigger",
-    "networked"
+    "passive"
   ],
-  "asset_profile": "light",
-  "script_complexity": "medium",
+  "asset_profile": "medium",
+  "script_complexity": "low",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/MoonJump_1406524288625807451/p1_image.png",
   "download_path": "v2-hyp/MoonJump.hyp",

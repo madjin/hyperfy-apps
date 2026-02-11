@@ -1,34 +1,16 @@
 {
   "app_id": "test_level-1355236430376341764",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:48:38+00:00",
-  "one_liner": "A test level Hyperfy app with a GLB model and empty script, authored by Saori, shared in #\ud83c\udfa8\u2502showcase.",
-  "primary_use_case": "Demonstration of a simple Hyperfy app containing a model and a placeholder script.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:19:32+00:00",
+  "description": "A test level containing a 3D environment model (~3MB GLB). Appears to be a development or showcase piece for spatial environments with minimal scripting.",
   "feature_tags": [
-    "model",
-    "script",
-    "demo",
-    "showcase",
-    "glb",
-    "hyp"
+    "3d-model",
+    "environment"
   ],
   "interaction_modes": [
     "passive"
   ],
-  "asset_profile": "medium",
+  "asset_profile": "heavy",
   "script_complexity": "low",
-  "networking_profile": "none",
-  "preview_recommendation": "Use the provided PNG preview as the app thumbnail; it clearly shows the model's visual style.",
-  "manifest_quality_notes": [
-    "Empty script placeholder",
-    "Model size moderate",
-    "Preview available",
-    "Author confidence high"
-  ],
-  "safety_or_runtime_flags": [],
-  "confidence": "high",
-  "evidence_refs": [
-    "https://cdn.discordapp.com/attachments/1355236264848265346/1355236429759905983/test_level.hyp",
-    "https://cdn.discordapp.com/attachments/1355236264848265346/1355236429759905983/m1_image.png"
-  ]
+  "networking_profile": "none"
 }

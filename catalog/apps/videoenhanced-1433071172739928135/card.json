@@ -1,22 +1,17 @@
 {
   "name": "VideoEnhanced",
   "author": "3rdEyeVisuals",
-  "description": "",
+  "description": "Example application for demonstration purposes",
   "tags": [
-    "media-player",
-    "enhancement",
-    "ui",
-    "interaction",
-    "visual",
-    "hover"
+    "productivity",
+    "utilities"
   ],
   "interaction_modes": [
-    "ui",
-    "trigger",
-    "passive"
+    "passive",
+    "action"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "medium",
+  "asset_profile": "light",
+  "script_complexity": "low",
   "networking": "none",
   "preview_url": null,
   "download_path": "v2-hyp/VideoEnhanced.hyp",

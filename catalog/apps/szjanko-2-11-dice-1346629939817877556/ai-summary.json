@@ -1,42 +1,20 @@
 {
   "app_id": "szjanko-2-11-dice-1346629939817877556",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:48:35+00:00",
-  "one_liner": "Interactive dice roll app with a cube model that rotates on pointer click, using a simple script to animate random rotations.",
-  "primary_use_case": "Provide a tactile dice roll visual effect in Hyperfy worlds, triggered by user interaction.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:19:15+00:00",
+  "description": "ChatGPT iOS application",
   "feature_tags": [
-    "cube",
-    "rotation",
-    "random",
-    "easing",
-    "pointer",
-    "update",
-    "3d",
-    "script"
+    "chat",
+    "npc",
+    "conversation",
+    "gpt",
+    "voice"
   ],
   "interaction_modes": [
-    "action",
-    "trigger"
+    "ui",
+    "passive"
   ],
   "asset_profile": "light",
   "script_complexity": "low",
-  "networking_profile": "none",
-  "preview_recommendation": "Generate a short animated preview (GIF or MP4) showing the cube rotating when clicked to replace the missing media.",
-  "manifest_quality_notes": [
-    "Missing media assets",
-    "Description limited to filename",
-    "No UI configuration",
-    "Simple script with no networking",
-    "Only basic interaction supported"
-  ],
-  "safety_or_runtime_flags": [
-    "no_media_found"
-  ],
-  "confidence": "high",
-  "evidence_refs": [
-    "https://cdn.discordapp.com/attachments/1346623562462527649/1346629938203332642/szjanko-2-11-dice.hyp",
-    "Discord message ID 1346629939817877556",
-    "Static analysis summary (script and assets)",
-    "Author Discord ID 783416470205497394"
-  ]
+  "networking_profile": "shared_state"
 }

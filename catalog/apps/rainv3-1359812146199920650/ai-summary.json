@@ -1,16 +1,14 @@
 {
   "app_id": "rainv3-1359812146199920650",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:52:25+00:00",
-  "one_liner": "Customizable realistic rain effect with particle system, splash rings, and configurable physics.",
-  "primary_use_case": "Add immersive rain weather to Hyperfy worlds.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:13:57+00:00",
+  "description": "Realistic rain particle system with customizable physics, splash effects, and particle pooling. Features configurable spawn rates, gravity, wind direction, and visual parameters via UI panel.",
   "feature_tags": [
-    "rain",
-    "particle system",
-    "weather",
-    "customizable",
-    "splash effect",
-    "physics"
+    "particles",
+    "environment",
+    "animation",
+    "physics",
+    "ui"
   ],
   "interaction_modes": [
     "ui",
@@ -18,23 +16,5 @@
   ],
   "asset_profile": "light",
   "script_complexity": "medium",
-  "networking_profile": "none",
-  "preview_recommendation": "Show the rain video preview to highlight particle density, splash rings, and overall visual quality.",
-  "manifest_quality_notes": [
-    "Author verified via Discord",
-    "Preview video present",
-    "Config UI defined",
-    "No networking used",
-    "Potential performance impact at high particle count",
-    "Model includes raindrop and ring meshes"
-  ],
-  "safety_or_runtime_flags": [],
-  "confidence": "high",
-  "evidence_refs": [
-    "APP_FACTS",
-    "APP_FILES_CONTEXT",
-    "DISCORD_CONTEXT",
-    "STATIC_ANALYSIS_SUMMARY_MD",
-    "HYPERFY_DOC_SNIPPETS"
-  ]
+  "networking_profile": "none"
 }

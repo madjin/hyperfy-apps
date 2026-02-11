@@ -1,24 +1,23 @@
 {
   "name": "Teleport_Command_v2",
   "author": "ash",
-  "description": "Fixed the storage mechanic here",
+  "description": "Configurable teleport system allowing admins to set destination coordinates via UI button, enabling players to teleport using chat commands (e.g., /home). Features persistent world-state storage, server-client synchronization, and customizable command triggers.",
   "tags": [
     "teleport",
+    "ui",
     "command",
-    "button",
-    "configurable",
-    "state_sync",
-    "server_client"
+    "multiplayer",
+    "interaction"
   ],
   "interaction_modes": [
     "ui",
-    "trigger",
     "action",
+    "trigger",
     "networked"
   ],
   "asset_profile": "medium",
   "script_complexity": "medium",
-  "networking": "events",
+  "networking": "shared_state",
   "preview_url": null,
   "download_path": "v2-hyp/Teleport_Command_v2.hyp",
   "created_at": "2025-06-08T04:28:19.667Z"

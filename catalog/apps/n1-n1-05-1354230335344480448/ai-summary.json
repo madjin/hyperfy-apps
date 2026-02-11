@@ -1,36 +1,16 @@
 {
   "app_id": "n1-n1-05-1354230335344480448",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:47:03+00:00",
-  "one_liner": "Loads a GLB model and disables its collider's convex property for precise physics.",
-  "primary_use_case": "Set convex collision to false to achieve accurate collision detection in the app.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:09:45+00:00",
+  "description": "Configures a GLB model's collider to use precise trimesh collision (convex=false) instead of convex hull, demonstrating physics collision setup for accurate mesh boundaries.",
   "feature_tags": [
-    "collision",
-    "convex",
-    "model",
-    "script",
     "physics",
-    "simple"
+    "3d-model"
   ],
   "interaction_modes": [
     "passive"
   ],
   "asset_profile": "light",
   "script_complexity": "low",
-  "networking_profile": "none",
-  "preview_recommendation": "No media attached; add a preview image or video showing the model with convex disabled for better discoverability.",
-  "manifest_quality_notes": [
-    "no_media_found",
-    "simple_script",
-    "convex_disabled",
-    "author_confidence_high"
-  ],
-  "safety_or_runtime_flags": [],
-  "confidence": "high",
-  "evidence_refs": [
-    "https://cdn.discordapp.com/attachments/994775534733115412/1354230334979571833/n1-n1-05.hyp",
-    "discord_message:1354230335344480448",
-    "author_discord:179546010303856640",
-    "channel:#\ud83d\udcbb\u2502developers"
-  ]
+  "networking_profile": "none"
 }

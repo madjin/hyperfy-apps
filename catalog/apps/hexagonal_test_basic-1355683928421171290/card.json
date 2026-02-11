@@ -1,17 +1,18 @@
 {
   "name": "hexagonal_test_basic",
   "author": "cru",
-  "description": "interesting hexagonal panels that react to player and change color \nmade em for a mini-game project",
+  "description": "Interactive hexagonal floor panels that react to player contact by dipping down and cycling through UV color scrolls. Features idle oscillation, configurable movement speeds, and visual feedback for mini-game applications.",
   "tags": [
-    "hexagonal",
     "interaction",
-    "uv scrolling",
-    "player reaction",
-    "mini\u2011game",
-    "configurable"
+    "animation",
+    "physics",
+    "environment",
+    "3d-model",
+    "ui"
   ],
   "interaction_modes": [
-    "action",
+    "trigger",
+    "ui",
     "passive"
   ],
   "asset_profile": "medium",

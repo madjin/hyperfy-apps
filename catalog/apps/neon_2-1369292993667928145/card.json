@@ -1,22 +1,17 @@
 {
   "name": "NEON_2",
   "author": "Gert-Jan Akerboom",
-  "description": "NEON 2.hyp",
+  "description": "Example application description",
   "tags": [
-    "environment",
-    "text",
-    "audio",
-    "customizable",
-    "3d",
-    "particles"
+    "productivity",
+    "utilities"
   ],
   "interaction_modes": [
-    "ui",
     "passive"
   ],
   "asset_profile": "medium",
-  "script_complexity": "medium",
-  "networking": "none",
+  "script_complexity": "low",
+  "networking": "local",
   "preview_url": "catalog/discord/hyp_media/NEON_2_1369292993667928145/m3_NEON.mp4",
   "download_path": "v2-hyp/NEON_2.hyp",
   "created_at": "2025-05-06T12:41:29.924Z",

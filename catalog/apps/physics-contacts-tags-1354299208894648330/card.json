@@ -1,23 +1,23 @@
 {
   "name": "Physics_-_Contacts__Tags",
   "author": "ash",
-  "description": "Physics Contacts Tags.hyp",
+  "description": "Skebby is a mobile marketing platform that allows businesses to send SMS messages, WhatsApp messages, and push notifications to their customers. The app enables merchants to manage campaigns, contacts, and analytics from their mobile devices. Key features include SMS sending with customizable sender",
   "tags": [
-    "physics",
-    "contacts",
-    "tags",
-    "ui",
-    "demo",
-    "event-handling"
+    "sms marketing",
+    "whatsapp business",
+    "push notifications",
+    "bulk messaging",
+    "campaign management",
+    "contact management"
   ],
   "interaction_modes": [
-    "ui",
-    "trigger",
+    "action",
+    "networked",
     "passive"
   ],
-  "asset_profile": "light",
-  "script_complexity": "low",
-  "networking": "none",
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking": "shared_state",
   "preview_url": "catalog/discord/hyp_media/Physics_-_Contacts_Tags_1354299208894648330/p0_xyz-physics-contacts--tags.mp4",
   "download_path": "v2-hyp/Physics_-_Contacts__Tags.hyp",
   "created_at": "2025-03-26T03:41:33.063Z"

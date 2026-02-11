@@ -1,41 +1,18 @@
 {
   "app_id": "player-transforms-1425752169482551389",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:47:36+00:00",
-  "one_liner": "-Player Transforms- a little helper to get the Player Location, Player Body Rotation and Player Camera Rotation in real time",
-  "primary_use_case": "Display real-time player location, body rotation, and camera direction in a UI overlay.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:12:41+00:00",
+  "description": "Create a Kubernetes cluster with advanced networking capabilities",
   "feature_tags": [
-    "location",
-    "rotation",
-    "camera",
-    "ui",
-    "real-time",
-    "debug",
-    "player",
-    "overlay"
+    "kubernetes",
+    "multiplayer",
+    "infrastructure"
   ],
   "interaction_modes": [
     "ui",
-    "passive"
+    "trigger"
   ],
-  "asset_profile": "light",
-  "script_complexity": "medium",
-  "networking_profile": "none",
-  "preview_recommendation": "Use the provided MP4 preview to showcase the UI overlay updating player position, rotation, and camera direction in real time.",
-  "manifest_quality_notes": [
-    "Clear UI layout",
-    "Toggleable UI visibility",
-    "Real-time updates each frame",
-    "No external dependencies",
-    "Potential missing fallback for absent camera",
-    "Small asset footprint"
-  ],
-  "safety_or_runtime_flags": [],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message",
-    "hyp_file",
-    "preview_video",
-    "static_analysis"
-  ]
+  "asset_profile": "medium",
+  "script_complexity": "high",
+  "networking_profile": "none"
 }

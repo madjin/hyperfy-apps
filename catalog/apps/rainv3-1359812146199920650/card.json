@@ -1,14 +1,13 @@
 {
   "name": "RainV3",
   "author": "Gert-Jan Akerboom",
-  "description": "if anyone wants to try it out",
+  "description": "Realistic rain particle system with customizable physics, splash effects, and particle pooling. Features configurable spawn rates, gravity, wind direction, and visual parameters via UI panel.",
   "tags": [
-    "rain",
     "particles",
     "environment",
-    "customizable",
-    "splash effect",
-    "physics"
+    "animation",
+    "physics",
+    "ui"
   ],
   "interaction_modes": [
     "ui",

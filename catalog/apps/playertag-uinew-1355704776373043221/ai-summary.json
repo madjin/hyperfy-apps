@@ -1,45 +1,15 @@
 {
   "app_id": "playertag-uinew-1355704776373043221",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:47:35+00:00",
-  "one_liner": "PlayerTag UInew displays customizable player tags with Fallout-themed colors, icons, and a toggleable UI overlay.",
-  "primary_use_case": "Show dynamic player information (name, health, custom text, badges) above avatars in multiplayer worlds.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:12:31+00:00",
+  "description": "Invalid or missing input data - no bad output was provided to fix",
   "feature_tags": [
-    "player-tag",
-    "custom-ui",
-    "fallout-theme",
-    "toggleable",
-    "dynamic-display",
-    "badge-icons",
-    "color-presets",
-    "opacity-control"
+    "unclassified"
   ],
   "interaction_modes": [
-    "ui",
-    "action"
+    "passive"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "medium",
-  "networking_profile": "none",
-  "preview_recommendation": "Use the provided mp4 preview to verify UI layout; the fallback author media is acceptable but a dedicated UI screenshot would be preferable.",
-  "manifest_quality_notes": [
-    "author confidence high",
-    "media fallback used",
-    "no networking",
-    "script size moderate",
-    "extensive props",
-    "preview available"
-  ],
-  "safety_or_runtime_flags": [
-    "media_fallback_any_author"
-  ],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message_id:1355704776373043221",
-    "discord_attachment_id:1355704775940771850",
-    "author_discord_user_id:357905702926286858",
-    "static_analysis_summary",
-    "app_f:playertag-uinew.hyp",
-    "preview_media_path:catalog/discord/hyp_media/PlayerTag-UInew_1355704776373043221/p1_2025-03-29_21-41-34.mp4"
-  ]
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none"
 }

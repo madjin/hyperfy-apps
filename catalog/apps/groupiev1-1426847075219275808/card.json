@@ -1,24 +1,13 @@
 {
   "name": "GroupieV1",
   "author": "b34k3r",
-  "description": "I think these are <@688215116457443346>'s",
+  "description": "A Hyperfy app.",
   "tags": [
-    "resource_collection",
-    "chat_commands",
-    "patrol",
-    "ui",
-    "animation",
-    "configurable"
+    "unclassified"
   ],
-  "interaction_modes": [
-    "ui",
-    "action",
-    "trigger",
-    "passive",
-    "networked"
-  ],
+  "interaction_modes": [],
   "asset_profile": "medium",
-  "script_complexity": "medium",
+  "script_complexity": "low",
   "networking": "none",
   "preview_url": null,
   "download_path": "v2-hyp/GroupieV1.hyp",

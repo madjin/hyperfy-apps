@@ -1,43 +1,17 @@
 {
   "app_id": "eel_add_particles1_1-1362432359785304154",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:45:09+00:00",
-  "one_liner": "Adds world-space particles attached to a bone, using additive blending and configurable texture.",
-  "primary_use_case": "Create bone\u2011anchored visual particle effects that follow model animation, suitable for glows, dust, or magic trails.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:02:51+00:00",
+  "description": "A simple student management system",
   "feature_tags": [
-    "particles",
-    "bone",
-    "additive",
-    "blending",
-    "texture",
-    "world-space",
-    "update",
-    "script"
+    "unclassified"
   ],
   "interaction_modes": [
-    "passive"
+    "ui",
+    "trigger",
+    "action"
   ],
-  "asset_profile": "light",
-  "script_complexity": "medium",
-  "networking_profile": "none",
-  "preview_recommendation": "The preview video (mp4) clearly shows the particles moving with the bone; use it as a visual reference for the effect, though it is a fallback author preview.",
-  "manifest_quality_notes": [
-    "preview is fallback author",
-    "author confidence high",
-    "static analysis confirms script behavior",
-    "media downloaded and optimized",
-    "no additional review needed"
-  ],
-  "safety_or_runtime_flags": [
-    "media_fallback_any_author"
-  ],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_author_high",
-    "hyp_file",
-    "preview_media",
-    "static_analysis",
-    "discord_context",
-    "app_facts"
-  ]
+  "asset_profile": "medium",
+  "script_complexity": "low",
+  "networking_profile": "none"
 }

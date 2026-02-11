@@ -1,14 +1,11 @@
 {
   "name": "hover-cursor-test",
   "author": "Gert-Jan Akerboom",
-  "description": "cursor change when hover over mesh",
+  "description": "Demonstrates a custom UI cursor that toggles visibility when hovering over a 3D mesh using pointer enter/leave events.",
   "tags": [
-    "hover",
-    "cursor",
     "ui",
-    "visual feedback",
-    "mesh",
-    "interaction"
+    "interaction",
+    "3d-model"
   ],
   "interaction_modes": [
     "ui",

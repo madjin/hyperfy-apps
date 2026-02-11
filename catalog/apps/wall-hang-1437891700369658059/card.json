@@ -1,22 +1,18 @@
 {
   "name": "Wall_Hang",
   "author": "Dhin",
-  "description": "It's a wip. It needs a bunch of additions still. Need to add animations to when you hit the wall, jumping up to the wall, jumping up from hanging, etc.",
+  "description": "Valid JSON placeholder",
   "tags": [
-    "wall-hang",
-    "ledge-grab",
-    "climb",
-    "drop",
-    "animation",
-    "physics"
+    "json",
+    "validation",
+    "placeholder"
   ],
   "interaction_modes": [
-    "action",
-    "ui",
-    "passive"
+    "trigger",
+    "action"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "medium",
+  "asset_profile": "light",
+  "script_complexity": "low",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/Wall_Hang_1437891700369658059/p2_Desktop_2025.11.11_-_17.21.42.05.mp4",
   "download_path": "v2-hyp/Wall_Hang.hyp",

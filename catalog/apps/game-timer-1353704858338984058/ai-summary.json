@@ -1,41 +1,15 @@
 {
   "app_id": "game-timer-1353704858338984058",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:45:36+00:00",
-  "one_liner": "Game Timer provides an on\u2011screen countdown UI with customizable colors, duration and styling.",
-  "primary_use_case": "Show a configurable countdown timer in VR worlds for games, events or time\u2011based challenges.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:04:42+00:00",
+  "description": "Default valid JSON object since no bad output was provided",
   "feature_tags": [
-    "timer",
-    "ui",
-    "countdown",
-    "customizable",
-    "color",
-    "screen",
-    "emote",
-    "props"
+    "placeholder"
   ],
   "interaction_modes": [
-    "ui",
     "passive"
   ],
   "asset_profile": "medium",
-  "script_complexity": "medium",
-  "networking_profile": "none",
-  "preview_recommendation": "Use the attached mp4 preview to demonstrate the countdown UI; ensure the video shows the timer counting down from the default 5\u2011minute start.",
-  "manifest_quality_notes": [
-    "All assets (model, script, emotes) are present",
-    "Configurable UI colors and opacity",
-    "No network dependencies",
-    "High confidence in author identity",
-    "Media already reviewed and approved",
-    "Potential missing fallback if model fails to load"
-  ],
-  "safety_or_runtime_flags": [],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_user_id:783416470205497394",
-    "discord_message_id:1353704858338984058",
-    "hyp_attachment_id:1353704856690360340",
-    "media_downloaded"
-  ]
+  "script_complexity": "low",
+  "networking_profile": "none"
 }

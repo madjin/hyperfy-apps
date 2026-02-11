@@ -1,40 +1,16 @@
 {
   "app_id": "neon_2-1369292993667928145",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:47:15+00:00",
-  "one_liner": "Customizable 3D neon sign with audio playback, supporting text, spacing, scale, color, alignment, and visibility toggles.",
-  "primary_use_case": "Create and display dynamic neon text signage in a Hyperfy world, optionally with background music or sound effects.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:10:26+00:00",
+  "description": "Example application description",
   "feature_tags": [
-    "neon",
-    "text",
-    "audio",
-    "customizable",
-    "3d",
-    "glow"
+    "productivity",
+    "utilities"
   ],
   "interaction_modes": [
-    "ui",
     "passive"
   ],
   "asset_profile": "medium",
-  "script_complexity": "medium",
-  "networking_profile": "none",
-  "preview_recommendation": "Use the provided MP4 preview (m3_NEON.mp4) to showcase the neon sign with and audio playback; the media is a fallback for any author.",
-  "manifest_quality_notes": [
-    "fallback_media_used",
-    "author_confirmed",
-    "all_assets_present",
-    "audio_included",
-    "no_network_dependencies"
-  ],
-  "safety_or_runtime_flags": [
-    "media_fallback_any_author"
-  ],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message_1369292960063033364",
-    "discord_message_1369290734729171044",
-    "hyp_file_NEON_2.hyp",
-    "static_analysis_summary"
-  ]
+  "script_complexity": "low",
+  "networking_profile": "local"
 }

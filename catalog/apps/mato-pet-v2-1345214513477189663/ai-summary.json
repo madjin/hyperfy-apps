@@ -1,41 +1,17 @@
 {
   "app_id": "mato-pet-v2-1345214513477189663",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:46:42+00:00",
-  "one_liner": "Mato Pet v2: a modular virtual pet app with VRM avatar, emotes, and movement scripting for Hyperfy worlds.",
-  "primary_use_case": "Interactive virtual pet that follows, rotates, and performs emotes within a Hyperfy world.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:08:35+00:00",
+  "description": "Test application",
   "feature_tags": [
-    "virtual pet",
-    "modular",
-    "emotes",
-    "movement",
-    "networked",
-    "VRM",
-    "scripted",
-    "customizable"
+    "analytics",
+    "cloud_sync"
   ],
   "interaction_modes": [
-    "networked",
-    "action",
-    "passive"
+    "ui",
+    "trigger"
   ],
   "asset_profile": "medium",
-  "script_complexity": "high",
-  "networking_profile": "events",
-  "preview_recommendation": "Use the provided PNG preview; consider adding a short video or animated GIF to showcase the pet's emotes and movement for better visibility.",
-  "manifest_quality_notes": [
-    "Fallback preview used due to missing author-specific media.",
-    "Description relies on external GitHub link; internal summary could be richer.",
-    "All essential assets (model, script, emotes) are present and downloaded.",
-    "No explicit UI configuration defined in props."
-  ],
-  "safety_or_runtime_flags": [
-    "media_fallback_any_author"
-  ],
-  "confidence": "high",
-  "evidence_refs": [
-    "https://cdn.discordapp.com/attachments/1343021211994820728/1345214513989025873/Mato_Pet_v2.hyp",
-    "https://github.com/Bitmato-Studio/MatoPet",
-    "discord_message"
-  ]
+  "script_complexity": "low",
+  "networking_profile": "local"
 }

@@ -1,21 +1,21 @@
 {
   "name": "RainV4",
   "author": "Gert-Jan Akerboom",
-  "description": "Added a cube for easier access, you can toggle it on and off in the UI",
+  "description": "Configuration settings for the application",
   "tags": [
-    "rain",
-    "particles",
-    "ui toggle",
-    "physics",
-    "splash effect",
-    "configurable"
+    "settings",
+    "config",
+    "json_config",
+    "configuration"
   ],
   "interaction_modes": [
-    "ui",
+    "passive",
+    "passive",
+    "passive",
     "passive"
   ],
-  "asset_profile": "light",
-  "script_complexity": "medium",
+  "asset_profile": "medium",
+  "script_complexity": "low",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/RainV4_1359841759248646274/m2_image.png",
   "download_path": "v2-hyp/RainV4.hyp",

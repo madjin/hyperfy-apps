@@ -1,41 +1,18 @@
 {
   "app_id": "neon_1-1369282194895274065",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:47:12+00:00",
-  "one_liner": "NEON 1 creates customizable neon sign text with adjustable spacing, scale, color, glow, alignment, and visibility.",
-  "primary_use_case": "Display dynamic neon text in a virtual world for signage, branding, or decorative purposes.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:10:34+00:00",
+  "description": "JSON repair service",
   "feature_tags": [
-    "neon",
-    "text",
-    "customizable",
-    "glow",
-    "alignment",
-    "visibility",
-    "3d-model",
-    "ui"
+    "json-repair",
+    "schema-validation",
+    "syntax-fixing"
   ],
   "interaction_modes": [
-    "ui",
-    "passive"
+    "passive",
+    "trigger"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "medium",
-  "networking_profile": "none",
-  "preview_recommendation": "Use the MP4 preview to showcase the neon sign effect; consider adding a lightweight GIF for faster loading in UI.",
-  "manifest_quality_notes": [
-    "author confidence high",
-    "preview available",
-    "media optimized",
-    "props fully defined",
-    "no networking used"
-  ],
-  "safety_or_runtime_flags": [],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message:1369282194895274065",
-    "hyp_file:NEON_1.hyp",
-    "author:601886221072990251",
-    "static_analysis",
-    "media_attachment:1369282194496819302"
-  ]
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none"
 }

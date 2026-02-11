@@ -1,49 +1,19 @@
 {
   "app_id": "mini-nukeportal-1354506347751805090",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:46:52+00:00",
-  "one_liner": "A configurable nuke app that creates a radiation cloud, deals damage, plays explosion effects, and portals players to a target world.",
-  "primary_use_case": "Interactive explosive event with radiation damage and world teleportation for immersive gameplay.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:09:16+00:00",
+  "description": "Application configuration",
   "feature_tags": [
-    "radiation",
-    "explosion",
-    "portal",
-    "audio",
-    "particle",
-    "damage",
-    "configurable",
-    "ui"
+    "auth",
+    "logging",
+    "metrics"
   ],
   "interaction_modes": [
     "action",
-    "ui",
-    "passive",
-    "networked"
+    "networked",
+    "passive"
   ],
   "asset_profile": "medium",
   "script_complexity": "high",
-  "networking_profile": "events",
-  "preview_recommendation": "Provide a short video or GIF showing the detonation, radiation cloud, and portal jump, plus a screenshot of the UI configuration panel.",
-  "manifest_quality_notes": [
-    "No preview media currently available",
-    "Audio placeholders are present",
-    "Extensive configurable properties",
-    "Complex particle system may affect performance",
-    "Server\u2011side collision detection logic incomplete"
-  ],
-  "safety_or_runtime_flags": [
-    "no_media_found",
-    "needs_media_review"
-  ],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord",
-    "hyp file",
-    "static analysis",
-    "author display name",
-    "app_id",
-    "model URL",
-    "script URL",
-    "audio assets"
-  ]
+  "networking_profile": "shared_state"
 }

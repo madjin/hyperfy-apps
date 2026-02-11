@@ -1,14 +1,13 @@
 {
   "name": "360_Video_Viewer",
   "author": "ash",
-  "description": "If anyone wants to try out 360 videos on dev here's the app i used.\nIt has a little platform right in the middle you can stand on.\nYou can find 360 videos on youtube and download them with https://www.socialplug.io/free-tools/youtube-video-downloader\nNote that worlds by default limit upload filesizes so you may need to increase that for them to save properly.\nYou can also set the src to an m3u8 stream if you find any.",
+  "description": "A 360-degree video player that renders immersive spherical video inside a sphere geometry. Users stand on a central platform while video plays on the inner surface. Supports local video files and m3u8 streaming sources.",
   "tags": [
-    "360 video",
-    "central platform",
-    "m3u8 support",
-    "youtube download",
-    "sphere mesh",
-    "looping"
+    "media-player",
+    "environment",
+    "ui",
+    "3d-model",
+    "interaction"
   ],
   "interaction_modes": [
     "ui",

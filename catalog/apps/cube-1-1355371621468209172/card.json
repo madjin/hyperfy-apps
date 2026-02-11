@@ -1,14 +1,12 @@
 {
   "name": "Cube_1",
   "author": "ash",
-  "description": "Cube 1.hyp",
+  "description": "A configurable cube demonstrating unlinked mesh instances with independent texture scrolling animation. Features UI-controlled scroll speed and uses delta-time updates for smooth material offset animation.",
   "tags": [
-    "texture_scroll",
-    "speed_control",
-    "unlinked_mesh",
-    "ui_config",
-    "hyperfy_app",
-    "visual_effect"
+    "animation",
+    "3d-model",
+    "ui",
+    "interaction"
   ],
   "interaction_modes": [
     "ui",

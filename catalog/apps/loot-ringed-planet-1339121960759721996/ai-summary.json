@@ -1,42 +1,16 @@
 {
   "app_id": "loot-ringed-planet-1339121960759721996",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:46:33+00:00",
-  "one_liner": "Space trading loot pack with a rotating ringed planet model, collectible via proximity checks and emitting events for collectrons.",
-  "primary_use_case": "Collectible loot item for space trading simulations.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:08:28+00:00",
+  "description": "No invalid JSON was provided after 'BAD_OUTPUT:'. Please paste the malformed JSON content that requires correction.",
   "feature_tags": [
-    "collectible",
-    "loot",
-    "space",
-    "trading",
-    "rotation",
-    "proximity",
-    "events",
-    "customizable"
+    "error",
+    "missing_input"
   ],
   "interaction_modes": [
-    "action",
-    "trigger",
-    "ui",
     "networked"
   ],
   "asset_profile": "medium",
-  "script_complexity": "medium",
-  "networking_profile": "events",
-  "preview_recommendation": "Use the provided PNG preview (p0_vt01.png) as the main thumbnail; it clearly shows the rotating planet model and fits Hyperfy's media guidelines.",
-  "manifest_quality_notes": [
-    "Config fields default values differ from script defaults",
-    "Model size moderate (\u224874\u202fKB)",
-    "Video preview available",
-    "No known safety concerns",
-    "Author confidence high"
-  ],
-  "safety_or_runtime_flags": [],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message:1339121960759721996",
-    "discord_attachment:1339121963322310677",
-    "hyp_file:Loot-Ringed_Planet.hyp",
-    "author:discord_user_793486941349216288"
-  ]
+  "script_complexity": "low",
+  "networking_profile": "shared_state"
 }

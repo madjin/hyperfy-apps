@@ -1,41 +1,19 @@
 {
   "app_id": "camera-manager-1352519146201419816",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:51:50+00:00",
-  "one_liner": "Reusable camera management system for Hyperfy apps supporting follow, static, orbit, shake, and smooth transitions.",
-  "primary_use_case": "Provides flexible camera control for games and experiences, allowing developers to switch between follow, static, orbit modes and add shake effects.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T03:59:52+00:00",
+  "description": "This is a \"test\" with \n newlines and \\ backslashes",
   "feature_tags": [
-    "camera",
-    "follow",
-    "static",
-    "orbit",
-    "shake",
-    "transitions",
-    "configurable",
-    "client-side"
+    "test",
+    "example",
+    "json"
   ],
   "interaction_modes": [
-    "trigger",
+    "ui",
+    "networked",
     "networked"
   ],
   "asset_profile": "medium",
   "script_complexity": "medium",
-  "networking_profile": "local",
-  "preview_recommendation": "Show the preview video highlighting mode switching (C, O) and shake effect (Z) to demonstrate core functionality.",
-  "manifest_quality_notes": [
-    "Preview video demonstrates core features",
-    "Script includes extensive state handling",
-    "No networked events used",
-    "Model is lightweight",
-    "Potential server-side considerations",
-    "Confidence high"
-  ],
-  "safety_or_runtime_flags": [],
-  "confidence": "high",
-  "evidence_refs": [
-    "APP_FACTS",
-    "APP_FILES_CONTEXT",
-    "DISCORD_CONTEXT",
-    "STATIC_ANALYSIS_SUMMARY_MD"
-  ]
+  "networking_profile": "local"
 }

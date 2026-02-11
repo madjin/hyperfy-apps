@@ -1,20 +1,17 @@
 {
   "name": "generate_monstera_V1",
   "author": "Agent12",
-  "description": "<@601886221072990251> Have you seen this .hyp? \n\ni'm mostly an AI dev as well (and a poor one at that xD) \n\nBut maybe this working App that does something similar could help you come up with a different path to the same end-goal? \n\nI'm sure some other dev will also pop in at some point and guide you as well!",
+  "description": "Example application description",
   "tags": [
-    "procedural generation",
-    "randomization",
-    "cloning",
-    "3d-model",
-    "client-side",
-    "visual effect"
+    "productivity",
+    "utilities"
   ],
   "interaction_modes": [
-    "passive"
+    "trigger",
+    "action"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "medium",
+  "asset_profile": "light",
+  "script_complexity": "low",
   "networking": "none",
   "preview_url": null,
   "download_path": "v2-hyp/generate_monstera_V1.hyp",

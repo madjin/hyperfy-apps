@@ -1,20 +1,20 @@
 {
   "name": "Butterfly_Swarm_V6_Hyperfly_edition2_BW",
   "author": "Gert-Jan Akerboom",
-  "description": "and a black and white edition : )",
+  "description": "Black and white edition of a configurable butterfly swarm environment. Spawns up to 5000 procedurally animated butterflies with randomized scale, flap speed, and flight patterns within a customizable 3D area. Features emissive cyan wing materials and real-time wing flapping. Includes UI configuratio",
   "tags": [
     "particles",
-    "emissive",
-    "configurable",
-    "black-and-white",
+    "animation",
+    "environment",
     "3d-model",
-    "scripted"
+    "ui",
+    "passive"
   ],
   "interaction_modes": [
     "ui",
     "passive"
   ],
-  "asset_profile": "medium",
+  "asset_profile": "light",
   "script_complexity": "medium",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/Butterfly_Swarm_V6_Hyperfly_edition2_BW_1355068613178167366/p1_1092aa12-4c83-4fd9-bd55-6704eea2f06e.png",

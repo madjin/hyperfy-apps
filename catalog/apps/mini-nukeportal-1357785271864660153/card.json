@@ -1,24 +1,14 @@
 {
   "name": "MINI-NukePORTAL",
   "author": "~/drdoge.eth",
-  "description": "MINI NukePORTAL.hyp",
+  "description": "No invalid JSON content was provided to fix",
   "tags": [
-    "radiation",
-    "particles",
-    "combat",
-    "teleport",
-    "audio",
-    "ui"
+    "unclassified"
   ],
-  "interaction_modes": [
-    "action",
-    "ui",
-    "passive",
-    "networked"
-  ],
+  "interaction_modes": [],
   "asset_profile": "medium",
-  "script_complexity": "medium",
-  "networking": "events",
+  "script_complexity": "low",
+  "networking": "none",
   "preview_url": null,
   "download_path": "v2-hyp/MINI-NukePORTAL.hyp",
   "created_at": "2025-04-04T18:33:55.243Z",

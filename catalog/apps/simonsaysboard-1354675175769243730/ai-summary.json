@@ -1,42 +1,19 @@
 {
   "app_id": "simonsaysboard-1354675175769243730",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:48:24+00:00",
-  "one_liner": "A minigame where colored cubes light up and players must jump to the matching block before time runs out.",
-  "primary_use_case": "Interactive color\u2011matching challenge for multiplayer sessions, testing reaction speed and coordination.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:17:27+00:00",
+  "description": "A Simon Says-inspired multiplayer minigame where players jump to colored blocks matching the displayed color. Last player standing wins. Features difficulty scaling and competitive gameplay.",
   "feature_tags": [
-    "color-matching",
     "multiplayer",
-    "reaction",
     "minigame",
-    "cube-logic",
-    "event-driven",
-    "ui-configurable",
-    "audio-optional"
+    "reaction-based",
+    "elimination"
   ],
   "interaction_modes": [
     "action",
-    "trigger",
-    "ui",
-    "networked"
+    "ui"
   ],
-  "asset_profile": "light",
-  "script_complexity": "low",
-  "networking_profile": "events",
-  "preview_recommendation": "Include the MP4 preview showing cube activation and reset behavior; ensure video clearly displays color changes and UI feedback.",
-  "manifest_quality_notes": [
-    "Script lacks robust error handling for missing nodes",
-    "Console parsing fallback may produce noisy logs",
-    "Audio and physics not yet integrated",
-    "Model asset details are minimal",
-    "App configuration limited to title property"
-  ],
-  "safety_or_runtime_flags": [],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message",
-    "hyp_file",
-    "app_description",
-    "script_analysis"
-  ]
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "shared_state"
 }

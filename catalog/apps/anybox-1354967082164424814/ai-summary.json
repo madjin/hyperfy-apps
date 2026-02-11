@@ -1,45 +1,17 @@
 {
   "app_id": "anybox-1354967082164424814",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:44:08+00:00",
-  "one_liner": "anybox adds background audio and a simple UI label to logic\u2011based Hyperfy apps, keeping things organised.",
-  "primary_use_case": "Provide background music and a configurable UI label for Hyperfy apps that use logic\u2011based workflows, helping creators keep audio organized and accessible.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T03:55:12+00:00",
+  "description": "Fixed JSON output",
   "feature_tags": [
-    "audio",
-    "ui",
-    "background",
-    "config",
-    "label",
-    "logic",
-    "music",
-    "simple"
+    "json",
+    "fix",
+    "validation"
   ],
   "interaction_modes": [
-    "ui",
     "passive"
   ],
   "asset_profile": "medium",
   "script_complexity": "low",
-  "networking_profile": "none",
-  "preview_recommendation": "Use the provided PNG preview as it clearly shows the UI label and conveys the app\u2019s purpose; no additional media needed.",
-  "manifest_quality_notes": [
-    "Description concise but lacks detailed functionality.",
-    "Audio asset size large relative to other assets.",
-    "No explicit networking features detected.",
-    "Author confidence high based on Discord evidence.",
-    "All assets downloaded successfully.",
-    "No safety concerns identified."
-  ],
-  "safety_or_runtime_flags": [],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message:1354967082164424814",
-    "hyp_file:1354967081073905674",
-    "static_analysis",
-    "docs_snippets",
-    "app_files_context",
-    "discord_context",
-    "media_downloaded",
-    "author_discord"
-  ]
+  "networking_profile": "none"
 }

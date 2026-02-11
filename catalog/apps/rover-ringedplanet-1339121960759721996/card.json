@@ -1,13 +1,13 @@
 {
   "name": "Rover-RingedPlanet",
   "author": "maximus",
-  "description": "Remixed Metamike's Rover+Loot apps and hacked them to mock up a space trading sim.\n\nWill keep iterating over concept over the next months grabbing what I can from folks to hobble together a trading sim <:pepestonks:999875339390029894> \n\nUsed assets from poly pizza, void runners with music by Dvir Silver from Pixabay.",
+  "description": "Remixed space trading sim based on Metamike's Rover+Loot. Features autonomous patrolling drone behavior with health/cargo stats, proximity detection, resource transfer mechanics, and floating UI. Collectron-style NPC with configurable perception, movement, and depletion/regen systems.",
   "tags": [
-    "trading",
-    "resource collection",
-    "patrol ai",
-    "ui stats",
-    "customizable props",
+    "vehicle",
+    "npc",
+    "ui",
+    "interaction",
+    "simulation",
     "3d-model"
   ],
   "interaction_modes": [

@@ -1,17 +1,15 @@
 {
   "name": "CameraManager",
   "author": "Shiffty",
-  "description": "I found myself writing camera code a lot so I pulled everything out into a Camera Manager app. Still fresh but feel free to try it out and use at will.\n\nControls for the test rig:\nC - change camera mode\nO - change object target\nZ - camera shake",
+  "description": "This is a \"test\" with \n newlines and \\ backslashes",
   "tags": [
-    "camera",
-    "follow",
-    "static",
-    "orbit",
-    "shake",
-    "transitions"
+    "test",
+    "example",
+    "json"
   ],
   "interaction_modes": [
-    "trigger",
+    "ui",
+    "networked",
     "networked"
   ],
   "asset_profile": "medium",

@@ -1,21 +1,17 @@
 {
   "name": "Water_Fountain",
   "author": "ash",
-  "description": "Water Fountain.hyp",
+  "description": "Valid JSON object returned as no invalid content was provided to fix",
   "tags": [
-    "particles",
-    "gravity",
-    "cone",
-    "texture",
-    "ui-config",
-    "blending"
+    "placeholder",
+    "error_handling"
   ],
   "interaction_modes": [
-    "passive",
-    "ui"
+    "networked",
+    "passive"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "medium",
+  "asset_profile": "light",
+  "script_complexity": "low",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/Water_Fountain_1361904724433174649/m1_xyz-particle-demos_2_-_edit.mp4",
   "download_path": "v2-hyp/Water_Fountain.hyp",

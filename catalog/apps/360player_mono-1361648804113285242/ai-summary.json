@@ -1,43 +1,19 @@
 {
   "app_id": "360player_mono-1361648804113285242",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:44:10+00:00",
-  "one_liner": "A 360\u00b0 video player that maps a video onto a sphere, supports interior sunlight, larger size, no floor, and correct 16:9 aspect ratio.",
-  "primary_use_case": "Render immersive 360\u00b0 video content inside Hyperfy worlds using a sphere mesh, with optional external video URL and UI configuration.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T03:54:46+00:00",
+  "description": "Mono 360-degree video player for immersive environments. Features configurable video URL/upload, correct 16:9 aspect ratio for mono 360s, and sun visibility support. Maps video to spherical geometry for skybox-style backgrounds.",
   "feature_tags": [
-    "360-video",
-    "sphere",
-    "sunlight-inside",
-    "aspect-ratio-fix",
-    "no-floor",
-    "custom-video-link",
-    "ui-config",
-    "media"
+    "media-player",
+    "environment",
+    "ui",
+    "3d-model"
   ],
   "interaction_modes": [
     "ui",
     "passive"
   ],
-  "asset_profile": "medium",
+  "asset_profile": "light",
   "script_complexity": "low",
-  "networking_profile": "none",
-  "preview_recommendation": "Use the provided fallback MP4 preview or supply a 16:9 360 video URL via the videoLink prop; ensure the video is accessible and correctly oriented for best results.",
-  "manifest_quality_notes": [
-    "Fallback media from any author used",
-    "Sunlight remains visible inside sphere",
-    "Sphere scaled larger and floor removed",
-    "Aspect ratio fixed to 16:9 for mono 360 videos",
-    "Public videoLink property allows external URLs",
-    "No networking or state synchronization"
-  ],
-  "safety_or_runtime_flags": [
-    "media_fallback_any_author"
-  ],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message",
-    "hyp_file",
-    "static_analysis",
-    "v2_json"
-  ]
+  "networking_profile": "none"
 }

@@ -1,42 +1,17 @@
 {
   "app_id": "firsthypv2-1364604780420272199",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:45:18+00:00",
-  "one_liner": "firstHYPv2 adds a UV scrolling texture to a mesh named UVSCROLL using a lightweight update script with configurable speed.",
-  "primary_use_case": "Apply dynamic UV scrolling animation to a model mesh.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:03:26+00:00",
+  "description": "Example application description",
   "feature_tags": [
-    "uv_scrolling",
-    "texture_animation",
-    "mesh_effect",
-    "low_poly",
-    "scripted",
-    "hyperfy",
-    "client_update",
-    "no_media"
+    "productivity",
+    "utilities"
   ],
   "interaction_modes": [
+    "ui",
     "passive"
   ],
-  "asset_profile": "light",
+  "asset_profile": "medium",
   "script_complexity": "low",
-  "networking_profile": "none",
-  "preview_recommendation": "Generate a preview from the GLB model focusing on the UVSCROLL mesh to showcase the scrolling effect, as no media is currently attached.",
-  "manifest_quality_notes": [
-    "no_media_found",
-    "script_simple",
-    "model_provided",
-    "high_confidence_author",
-    "timestamp_recent",
-    "size_under_1MB"
-  ],
-  "safety_or_runtime_flags": [],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message_1364604780420272199",
-    "discord_attachment_1364604780135186543",
-    "static_analysis_summary",
-    "app_metadata",
-    "author_discord",
-    "timestamp_2025-04-23"
-  ]
+  "networking_profile": "none"
 }

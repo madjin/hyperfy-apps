@@ -1,21 +1,19 @@
 {
   "name": "The_Meadow",
   "author": "ash",
-  "description": "here's 3 scenes to try out",
+  "description": "ACME Corp Internal Expense Tracker",
   "tags": [
-    "environment",
-    "hdr",
-    "sun",
-    "fog",
-    "texture",
-    "rotation"
+    "finance",
+    "reporting"
   ],
   "interaction_modes": [
     "ui",
-    "passive"
+    "trigger",
+    "trigger",
+    "trigger"
   ],
   "asset_profile": "medium",
-  "script_complexity": "medium",
+  "script_complexity": "low",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/The_Meadow_1415309781345894431/m4_image.png",
   "download_path": "v2-hyp/The_Meadow.hyp",

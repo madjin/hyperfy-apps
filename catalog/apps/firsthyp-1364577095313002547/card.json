@@ -1,19 +1,18 @@
 {
   "name": "firstHYP",
   "author": "vox",
-  "description": "made my first test  .hyp app ever. sorry for beeing so late to the party.",
+  "description": "Fetches weather data from external API",
   "tags": [
-    "uv scrolling",
-    "texture animation",
-    "mesh manipulation",
-    "demo",
-    "lightweight script"
+    "environment",
+    "api",
+    "integration"
   ],
   "interaction_modes": [
-    "passive"
+    "ui",
+    "trigger"
   ],
   "asset_profile": "medium",
-  "script_complexity": "low",
+  "script_complexity": "high",
   "networking": "none",
   "preview_url": null,
   "download_path": "v2-hyp/firstHYP.hyp",

@@ -1,24 +1,22 @@
 {
   "name": "Machine_Gun_With_Animation",
   "author": "Saori",
-  "description": "Machine Gun With Animation.hyp",
+  "description": "A machine gun weapon that overrides player animations based on movement state (idle, walk, run, sprint in all directions). Features pick-up/drop interaction, shooting mechanics with fire-rate cooldown, and networked synchronization of weapon holder and shooting events across clients.",
   "tags": [
     "combat",
-    "animation",
-    "script",
-    "player_control",
-    "interaction",
-    "multiplayer"
+    "machine gun",
+    "animation override",
+    "player movement",
+    "pick-up",
+    "drop"
   ],
   "interaction_modes": [
     "action",
-    "ui",
-    "networked",
-    "passive"
+    "trigger"
   ],
-  "asset_profile": "heavy",
-  "script_complexity": "medium",
-  "networking": "events",
+  "asset_profile": "medium",
+  "script_complexity": "high",
+  "networking": "shared_state",
   "preview_url": null,
   "download_path": "v2-hyp/Machine_Gun_With_Animation.hyp",
   "created_at": "2025-03-12T22:43:46.261Z"

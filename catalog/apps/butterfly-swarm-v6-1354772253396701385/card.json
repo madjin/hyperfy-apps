@@ -1,20 +1,19 @@
 {
   "name": "Butterfly_Swarm_V6",
   "author": "Gert-Jan Akerboom",
-  "description": "Butterfly Swarm V6.hyp",
+  "description": "Configurable 3D butterfly swarm generator with randomized flight patterns, wing flapping animations, and spawn area controls. Features UI for adjusting butterfly count, scale variance, flight speed, and spawn dimensions.",
   "tags": [
     "particles",
     "animation",
-    "configurable",
+    "environment",
     "3d-model",
-    "ui",
-    "client-side animation"
+    "ui"
   ],
   "interaction_modes": [
     "ui",
     "passive"
   ],
-  "asset_profile": "medium",
+  "asset_profile": "light",
   "script_complexity": "medium",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/Butterfly_Swarm_V6_1354772253396701385/p3_image.png",

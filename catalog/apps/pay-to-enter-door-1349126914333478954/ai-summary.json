@@ -1,44 +1,13 @@
 {
   "app_id": "pay-to-enter-door-1349126914333478954",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:47:25+00:00",
-  "one_liner": "A Hyperfy app that requires a Solana token payment to open a sliding or swinging door, configurable for devnet or mainnet.",
-  "primary_use_case": "Pay-to-open door with Solana token in a virtual world.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:11:43+00:00",
+  "description": "Missing content to fix. The BAD_OUTPUT field was empty in the request.",
   "feature_tags": [
-    "solana",
-    "payment",
-    "door",
-    "sliding",
-    "swinging",
-    "configurable",
-    "ui",
-    "networked"
+    "unclassified"
   ],
-  "interaction_modes": [
-    "ui",
-    "action",
-    "networked"
-  ],
-  "asset_profile": "medium",
-  "script_complexity": "medium",
-  "networking_profile": "events",
-  "preview_recommendation": "Add a short video or GIF showing the door opening after payment, and a thumbnail of the model.",
-  "manifest_quality_notes": [
-    "Requires Solana mod",
-    "No media attached",
-    "Configuration UI present",
-    "Sliding door default",
-    "Token mint addresses provided",
-    "Auto-close timer implemented"
-  ],
-  "safety_or_runtime_flags": [
-    "no_media_found",
-    "requires_solana_mod"
-  ],
-  "confidence": "high",
-  "evidence_refs": [
-    "https://cdn.discordapp.com/attachments/1346623562462527649/1349126913909588099/PAY_TO_ENTER_DOOR.hyp",
-    "discord_message_id:1349126914333478954",
-    "author_display_name:peezy"
-  ]
+  "interaction_modes": [],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none"
 }

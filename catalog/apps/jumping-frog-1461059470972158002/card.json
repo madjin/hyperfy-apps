@@ -1,14 +1,12 @@
 {
   "name": "Jumping_Frog",
   "author": "fractilians",
-  "description": "Jumping Frog.hyp",
+  "description": "A procedural animated frog character that continuously hops with squash-and-stretch physics, tongue-flicking animations, and randomized jump parameters. Built from geometric primitives with articulated legs and expressive eyes, serving as autonomous environmental decoration.",
   "tags": [
     "animation",
-    "character",
-    "frog",
-    "jump",
-    "squash_stretch",
-    "tongue"
+    "3d-model",
+    "npc",
+    "environment"
   ],
   "interaction_modes": [
     "passive"

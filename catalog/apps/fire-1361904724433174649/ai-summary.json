@@ -1,41 +1,20 @@
 {
   "app_id": "fire-1361904724433174649",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:45:16+00:00",
-  "one_liner": "Fire app creates a cone-shaped particle system with red additive blending, configurable image texture, and animated color/size over life.",
-  "primary_use_case": "Provides a visual fire-like particle effect for Hyperfy worlds, allowing creators to add dynamic, animated particle emitters with customizable textures.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:02:52+00:00",
+  "description": "A particle system visualization demonstrating fire effects with configurable textures. Features cone emission, additive blending, and color gradients over particle lifetime. Includes commented examples for advanced bursts and world-space spawning. Useful as a reference implementation for Hyperfy's p",
   "feature_tags": [
     "particles",
-    "cone shape",
-    "additive blending",
-    "texture",
-    "color over life",
-    "size over life",
-    "rotate over life",
-    "ui config"
+    "environment",
+    "animation",
+    "3d-model",
+    "ui"
   ],
   "interaction_modes": [
     "ui",
     "passive"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "medium",
-  "networking_profile": "none",
-  "preview_recommendation": "The attached mp4 preview demonstrates the cone particle emitter with red additive blending and animated color/size/rotation over its lifetime, suitable for evaluating visual quality.",
-  "manifest_quality_notes": [
-    "Short description derived from summary excerpt",
-    "Media verified and downloaded",
-    "Script analysis confirms particle creation and UI configuration",
-    "No networking features detected"
-  ],
-  "safety_or_runtime_flags": [],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message_1361903619951034609",
-    "discord_message_1361904754439229644",
-    "discord_message_1361904845551964362",
-    "static_analysis_summary",
-    "v2_json",
-    "index_js_excerpt"
-  ]
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none"
 }

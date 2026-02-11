@@ -1,22 +1,17 @@
 {
   "name": "sit",
   "author": "Wilson",
-  "description": "This is a Seat, v1 inspired.",
+  "description": "Ground inference API tool",
   "tags": [
-    "interaction",
-    "anchor",
-    "button",
-    "animation",
-    "visibility",
-    "multiplayer"
+    "api",
+    "inference",
+    "grounding"
   ],
   "interaction_modes": [
-    "action",
-    "trigger",
     "networked"
   ],
   "asset_profile": "medium",
-  "script_complexity": "medium",
+  "script_complexity": "high",
   "networking": "shared_state",
   "preview_url": null,
   "download_path": "v2-hyp/sit.hyp",

@@ -1,19 +1,11 @@
 {
   "name": "Wolf_Maro",
   "author": "ash",
-  "description": "For those wanting to try skinned meshes on latest dev branch here's a quick app i whipped up that showcases animations:",
+  "description": "No bad output content was provided in the prompt to fix. Please provide the invalid JSON that needs to be corrected.",
   "tags": [
-    "skinned mesh",
-    "animation",
-    "random animation",
-    "pointer interaction",
-    "gltf model",
-    "demo"
+    "unclassified"
   ],
-  "interaction_modes": [
-    "action",
-    "trigger"
-  ],
+  "interaction_modes": [],
   "asset_profile": "light",
   "script_complexity": "low",
   "networking": "none",

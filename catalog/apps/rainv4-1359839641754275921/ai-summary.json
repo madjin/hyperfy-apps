@@ -1,44 +1,16 @@
 {
   "app_id": "rainv4-1359839641754275921",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:52:24+00:00",
-  "one_liner": "Realistic, configurable rain effect with particle pool, splash visuals, and a toggleable grab cube UI.",
-  "primary_use_case": "Add a customizable rain weather effect to a Hyperfy world with UI controls and optional grab cube visibility.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:14:26+00:00",
+  "description": "Fix was attempted but no invalid JSON content was provided in the BAD_OUTPUT field",
   "feature_tags": [
-    "rain",
-    "particle",
-    "weather",
-    "splash",
-    "configurable",
-    "ui",
-    "grab",
-    "physics"
+    "json_repair",
+    "error_handling"
   ],
   "interaction_modes": [
-    "ui",
-    "passive"
+    "networked"
   ],
   "asset_profile": "medium",
-  "script_complexity": "medium",
-  "networking_profile": "none",
-  "preview_recommendation": "The fallback PNG preview is adequate; consider adding a short video or GIF for better visual representation.",
-  "manifest_quality_notes": [
-    "media_fallback_any_author",
-    "author confidence high",
-    "client\u2011only update loop",
-    "no networked events",
-    "UI configurable via app.configure",
-    "grab mesh visibility toggled by UI"
-  ],
-  "safety_or_runtime_flags": [
-    "client_side",
-    "no_network"
-  ],
-  "confidence": "high",
-  "evidence_refs": [
-    "APP_FACTS",
-    "APP_FILES_CONTEXT",
-    "STATIC_ANALYSIS_SUMMARY_MD",
-    "DISCORD_CONTEXT"
-  ]
+  "script_complexity": "high",
+  "networking_profile": "none"
 }

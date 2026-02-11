@@ -1,45 +1,21 @@
 {
   "app_id": "butterfly_swarm_v6_hyperfly_edition2_bw-1355068613178167366",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:44:38+00:00",
-  "one_liner": "Butterfly Swarm V6 Hyperfly edition2 BW \u2013 black and white version with configurable swarm of emissive butterflies.",
-  "primary_use_case": "Create a dynamic, configurable swarm of glowing butterflies for decorative or ambient effects in virtual worlds.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T03:58:46+00:00",
+  "description": "Black and white edition of a configurable butterfly swarm environment. Spawns up to 5000 procedurally animated butterflies with randomized scale, flap speed, and flight patterns within a customizable 3D area. Features emissive cyan wing materials and real-time wing flapping. Includes UI configuratio",
   "feature_tags": [
-    "butterfly",
-    "swarm",
-    "emissive",
-    "configurable",
-    "black-and-white",
+    "particles",
+    "animation",
+    "environment",
     "3d-model",
-    "scripted",
-    "interactive"
+    "ui",
+    "passive"
   ],
   "interaction_modes": [
     "ui",
     "passive"
   ],
-  "asset_profile": "medium",
+  "asset_profile": "light",
   "script_complexity": "medium",
-  "networking_profile": "none",
-  "preview_recommendation": "Use the provided PNG preview; the app's visual effect is best seen in a well-lit environment with sufficient space for the swarm.",
-  "manifest_quality_notes": [
-    "All assets present",
-    "Config UI defined",
-    "No networking code",
-    "High confidence in author identity",
-    "Preview image available",
-    "Potential performance impact with high butterfly count"
-  ],
-  "safety_or_runtime_flags": [],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message",
-    "discord_attachment",
-    "static_analysis",
-    "app_blueprint",
-    "media_download",
-    "author_discord_id",
-    "app_slug",
-    "app_name"
-  ]
+  "networking_profile": "none"
 }

@@ -1,49 +1,20 @@
 {
   "app_id": "car1-1353196235074441290",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:44:43+00:00",
-  "one_liner": "ok... latest dev has new physics stuff for vehicles etc. here's the bones of a car, it needs some tuning. client-side only for now but could be fully simulated on server and send visuals.",
-  "primary_use_case": "Prototype of vehicle physics and suspension system for Hyperfy, demonstrating wheel dynamics, steering, and raycast\u2011based ground interaction.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:00:09+00:00",
+  "description": "Client-side vehicle physics demo featuring a drivable car with raycast-based suspension, spring physics, and WASD controls. Simulates realistic wheel forces, steering, and acceleration with dynamic visual wheel positioning. Experimental prototype intended for future server-side simulation.",
   "feature_tags": [
-    "physics",
     "vehicle",
-    "suspension",
-    "steering",
-    "acceleration",
-    "raycasting",
-    "client-side",
-    "prototype"
+    "physics",
+    "interaction",
+    "3d-model",
+    "animation",
+    "camera"
   ],
   "interaction_modes": [
-    "action",
-    "passive"
+    "action"
   ],
-  "asset_profile": "medium",
+  "asset_profile": "light",
   "script_complexity": "high",
-  "networking_profile": "none",
-  "preview_recommendation": "Use the existing fallback image (susanequip.png) as the preview; it shows a vehicle component and fits the physics prototype theme.",
-  "manifest_quality_notes": [
-    "Author confidence high from Discord evidence.",
-    "Preview image is a fallback from any author.",
-    "App currently client\u2011side only; server\u2011side simulation not implemented.",
-    "Physics script is extensive but lacks configurable parameters.",
-    "No networking code present.",
-    "Model asset referenced but not included in metadata."
-  ],
-  "safety_or_runtime_flags": [
-    "client_side_only",
-    "media_fallback_any_author",
-    "needs_tuning",
-    "no_networking",
-    "potential_performance_heavy",
-    "unverified_model"
-  ],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message_1353196235074441290",
-    "hyp_file_car1.hyp",
-    "static_analysis_summary",
-    "media_fallback_any_author_flag",
-    "author_discord_id_179546010303856640"
-  ]
+  "networking_profile": "local"
 }

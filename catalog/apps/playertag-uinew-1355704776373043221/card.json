@@ -1,21 +1,15 @@
 {
   "name": "PlayerTag-UInew",
   "author": "~/drdoge.eth",
-  "description": "PlayerTag UInew.hyp",
+  "description": "Invalid or missing input data - no bad output was provided to fix",
   "tags": [
-    "player-tag",
-    "custom-ui",
-    "fallout-theme",
-    "toggleable",
-    "dynamic-display",
-    "badge-icons"
+    "unclassified"
   ],
   "interaction_modes": [
-    "ui",
-    "action"
+    "passive"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "medium",
+  "asset_profile": "light",
+  "script_complexity": "low",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/PlayerTag-UInew_1355704776373043221/p1_2025-03-29_21-41-34.mp4",
   "download_path": "v2-hyp/PlayerTag-UInew.hyp",

@@ -1,18 +1,11 @@
 {
   "app_id": "screen-ui-link-section-1385257861852168192",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:48:15+00:00",
-  "one_liner": "Adds a configurable UI section with up to 14 download buttons and a toggle, allowing users to open URLs from the world.",
-  "primary_use_case": "Provide in-world download links or external resources via UI buttons.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:16:04+00:00",
+  "description": "A configurable screen-space UI panel that adds up to 14 download link buttons to your world. Features a toggleable interface with customizable header text and individual button labels that open URLs in new tabs when clicked.",
   "feature_tags": [
     "ui",
-    "download",
-    "toggle",
-    "configurable",
-    "button",
-    "link",
-    "screen",
-    "visibility"
+    "interaction"
   ],
   "interaction_modes": [
     "ui",
@@ -20,26 +13,5 @@
   ],
   "asset_profile": "light",
   "script_complexity": "medium",
-  "networking_profile": "none",
-  "preview_recommendation": "Add a screenshot or short video showing the toggle button and download links UI for better preview.",
-  "manifest_quality_notes": [
-    "No media found",
-    "Configurable button count up to 14",
-    "Header text and visibility togglable",
-    "Download links open in new tab",
-    "All UI elements are screen-space",
-    "App uses default model and script"
-  ],
-  "safety_or_runtime_flags": [
-    "no_media_found"
-  ],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message",
-    "hyp_file",
-    "static_analysis",
-    "author_gertjan_akerboom",
-    "channel_showcase",
-    "timestamp_2025-06-19"
-  ]
+  "networking_profile": "none"
 }

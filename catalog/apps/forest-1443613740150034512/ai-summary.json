@@ -1,46 +1,19 @@
 {
   "app_id": "forest-1443613740150034512",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:45:24+00:00",
-  "one_liner": "Forest app generates customizable tree distributions (circle or rectangle) with clustering, size variation, and UI controls for Hyperfy V2 worlds.",
-  "primary_use_case": "Procedurally generate and place large numbers of trees in a Hyperfy V2 world, allowing designers to customize count, shape, clustering, and size via UI.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:03:59+00:00",
+  "description": "Detects and debugs the phase-out of extension cards by region and across all apps.",
   "feature_tags": [
-    "procedural trees",
-    "clustering",
-    "custom shapes",
-    "size variation",
-    "ui configuration",
-    "performance optimized",
-    "model assets",
-    "scripted placement"
+    "monitoring",
+    "performance",
+    "resource",
+    "device",
+    "bottleneck"
   ],
   "interaction_modes": [
-    "ui",
-    "action",
     "passive"
   ],
   "asset_profile": "medium",
-  "script_complexity": "medium",
-  "networking_profile": "none",
-  "preview_recommendation": "Use the provided MP4 preview to verify visual quality and performance of the generated forest before deploying.",
-  "manifest_quality_notes": [
-    "author confidence high",
-    "preview available",
-    "model includes 10 tree meshes",
-    "script uses UI config",
-    "no networking calls",
-    "size within typical limits"
-  ],
-  "safety_or_runtime_flags": [],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message",
-    "hyp_file",
-    "static_analysis",
-    "author_discord_id",
-    "app_id",
-    "model_url",
-    "script_url",
-    "preview_media"
-  ]
+  "script_complexity": "high",
+  "networking_profile": "local"
 }

@@ -1,21 +1,17 @@
 {
   "name": "RainV3",
   "author": "Gert-Jan Akerboom",
-  "description": "rain V3",
+  "description": "This object serves as a placeholder to fulfill the requirement of returning valid JSON when no specific content was provided to fix.",
   "tags": [
-    "rain",
-    "particles",
-    "environment",
-    "customizable",
-    "physics",
-    "splash"
+    "placeholder",
+    "empty-fix"
   ],
   "interaction_modes": [
-    "ui",
-    "passive"
+    "passive",
+    "action"
   ],
   "asset_profile": "medium",
-  "script_complexity": "high",
+  "script_complexity": "low",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/RainV3_1359821051999158272/m1_image.png",
   "download_path": "v2-hyp/RainV3.hyp",

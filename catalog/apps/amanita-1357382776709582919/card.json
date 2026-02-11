@@ -1,21 +1,18 @@
 {
   "name": "Amanita",
   "author": "Gert-Jan Akerboom",
-  "description": "i think this app could work for grasses too, its basically just a grass particle system (but with mushrooms)\nif you have some images of the style of grass you are interested in i could try to make some in blender and switch out the model on the app.",
+  "description": "Configurable particle system that distributes amanita mushroom models across a defined area with random scale and rotation. Designed for environmental ground cover decoration, adaptable for grass or similar foliage.",
   "tags": [
     "environment",
-    "mushrooms",
-    "particle-system",
-    "cloning",
-    "random-placement",
-    "configurable"
+    "particles",
+    "3d-model"
   ],
   "interaction_modes": [
     "ui",
-    "action"
+    "passive"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "medium",
+  "asset_profile": "light",
+  "script_complexity": "low",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/Amanita_1357382776709582919/m2_image.png",
   "download_path": "v2-hyp/Amanita.hyp",

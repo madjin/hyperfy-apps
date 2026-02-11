@@ -1,22 +1,17 @@
 {
   "name": "SpeedTrail_v0.1",
   "author": "Valiant",
-  "description": "if anyone wants to try it out. wip . supposed to be diff particle burst on landing but not working right. it does trigger, massively, on certain rates of descent when flying. client only just now so not visible to other players.",
+  "description": "Valid JSON placeholder due to missing bad output content",
   "tags": [
-    "particle_trail",
-    "landing_burst",
-    "client_side",
-    "configurable",
-    "toggle_ui",
-    "performance_optimized"
+    "json",
+    "placeholder",
+    "missing_input"
   ],
   "interaction_modes": [
-    "ui",
-    "trigger",
-    "passive"
+    "networked"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "medium",
+  "asset_profile": "light",
+  "script_complexity": "low",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/SpeedTrail_v0.1_1361987355577421954/m1_2025-04-14_23-09-26_1.mp4",
   "download_path": "v2-hyp/SpeedTrail_v0.1.hyp",

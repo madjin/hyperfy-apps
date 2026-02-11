@@ -1,49 +1,13 @@
 {
   "app_id": "mini-nukeportal-1357785271864660153",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:46:56+00:00",
-  "one_liner": "An interactive nuke app that creates a radiation cloud, deals damage, and opens a destination world after detonation.",
-  "primary_use_case": "Trigger a nuclear explosion with configurable audio, visual effects, and portal transition to another world.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:09:31+00:00",
+  "description": "No invalid JSON content was provided to fix",
   "feature_tags": [
-    "radiation",
-    "explosion",
-    "damage",
-    "portal",
-    "audio",
-    "ui",
-    "particle",
-    "customizable"
+    "unclassified"
   ],
-  "interaction_modes": [
-    "action",
-    "ui",
-    "passive",
-    "networked"
-  ],
+  "interaction_modes": [],
   "asset_profile": "medium",
-  "script_complexity": "medium",
-  "networking_profile": "events",
-  "preview_recommendation": "No preview media found; recommend creating a short video showing the detonation flash, radiation cloud, and portal jump.",
-  "manifest_quality_notes": [
-    "No preview media available",
-    "Model and audio assets are present",
-    "Extensive configurable audio and distance parameters",
-    "Complex particle system may affect performance",
-    "Server\u2011side collision detection included",
-    "World URL should be validated"
-  ],
-  "safety_or_runtime_flags": [
-    "no_media_found",
-    "server_side_logic",
-    "potential_high_cpu_usage"
-  ],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message:1357785271864660153",
-    "discord_attachment:1357785271701078036",
-    "hyp_filename:MINI-NukePORTAL.hyp",
-    "author_discord:357905702926286858",
-    "channel:#\ud83d\udcbb\u2502developers",
-    "url:https://nuked.tattedalien.club/"
-  ]
+  "script_complexity": "low",
+  "networking_profile": "none"
 }

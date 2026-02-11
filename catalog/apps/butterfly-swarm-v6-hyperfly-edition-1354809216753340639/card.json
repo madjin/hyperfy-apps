@@ -1,14 +1,13 @@
 {
   "name": "Butterfly_Swarm_V6_Hyperfly_edition",
   "author": "Gert-Jan Akerboom",
-  "description": "Butterfly Swarm V6 Hyperfly edition.hyp",
+  "description": "Configurable butterfly swarm simulation spawning up to 5000 animated butterflies with randomized scale, flap speed, and flight patterns within a defined 3D area. Features real-time wing animation and drift movement for ambient environmental decoration.",
   "tags": [
-    "particles",
-    "3d-model",
+    "environment",
     "animation",
-    "configurable",
-    "client-side",
-    "hyperfly"
+    "particles",
+    "ui",
+    "3d-model"
   ],
   "interaction_modes": [
     "ui",

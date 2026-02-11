@@ -1,35 +1,17 @@
 {
   "app_id": "spawn-1355236590603075706",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:48:29+00:00",
-  "one_liner": "Spawn app teleports players to its position when a server\u2011side spawn event (spawn:<id>) is received.",
-  "primary_use_case": "Teleporting players to a predefined location on a spawn trigger.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:18:20+00:00",
+  "description": "Collaborative sound detection and labeling system",
   "feature_tags": [
-    "teleport",
-    "event-driven",
-    "configurable",
-    "server-side",
-    "player-management"
+    "audio-processing",
+    "real-time",
+    "classification"
   ],
   "interaction_modes": [
-    "action",
-    "trigger",
-    "networked"
+    "passive"
   ],
-  "asset_profile": "light",
-  "script_complexity": "low",
-  "networking_profile": "events",
-  "preview_recommendation": "Use the provided PNG preview; the app's model and script are lightweight and load quickly.",
-  "manifest_quality_notes": [
-    "All required assets are present",
-    "No missing metadata",
-    "No flags reported"
-  ],
-  "safety_or_runtime_flags": [],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message",
-    "hyp_file",
-    "static_analysis"
-  ]
+  "asset_profile": "heavy",
+  "script_complexity": "high",
+  "networking_profile": "shared_state"
 }

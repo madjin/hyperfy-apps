@@ -1,18 +1,13 @@
 {
   "name": "broke-rom",
   "author": "general hyper",
-  "description": "broke rom.hyp",
+  "description": "No bad output content was provided after 'BAD_OUTPUT:' to fix. Please provide the invalid JSON that needs correction.",
   "tags": [
-    "ui-config",
-    "mesh-manipulation",
-    "uv-adjustment",
-    "color-selection",
-    "debugging",
-    "material-linking"
+    "error",
+    "missing_input"
   ],
   "interaction_modes": [
-    "ui",
-    "passive"
+    "networked"
   ],
   "asset_profile": "light",
   "script_complexity": "low",

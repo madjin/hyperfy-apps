@@ -1,22 +1,20 @@
 {
   "name": "Loot",
   "author": "maximus",
-  "description": "Remixed Metamike's Rover+Loot apps and hacked them to mock up a space trading sim.\n\nWill keep iterating over concept over the next months grabbing what I can from folks to hobble together a trading sim <:pepestonks:999875339390029894> \n\nUsed assets from poly pizza, void runners with music by Dvir Silver from Pixabay.",
+  "description": "Collectible loot pack with rotation animation and proximity-based collection. Emits world events for collector apps. Configurable value/name. Part of a space trading sim concept.",
   "tags": [
-    "collectible",
-    "combat",
-    "rotation",
-    "space",
-    "trading",
-    "simulation"
+    "interaction",
+    "multiplayer",
+    "3d-model",
+    "animation",
+    "ui"
   ],
   "interaction_modes": [
-    "action",
+    "passive",
     "trigger",
-    "ui",
     "networked"
   ],
-  "asset_profile": "medium",
+  "asset_profile": "light",
   "script_complexity": "medium",
   "networking": "events",
   "preview_url": "catalog/discord/hyp_media/Loot_1339121960759721996/p0_vt01.png",

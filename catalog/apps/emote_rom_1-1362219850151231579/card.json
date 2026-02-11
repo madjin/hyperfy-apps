@@ -1,18 +1,15 @@
 {
   "name": "Emote_Rom_1",
   "author": "~/drdoge.eth",
-  "description": "<@722481129449586739>",
+  "description": "Networked emote ROM enabling 10 configurable avatar animations triggered by numpad keys (0-9), with cross-client synchronization and floating emoji indicators above players.",
   "tags": [
     "animation",
-    "sync",
-    "ui",
-    "numpad",
     "multiplayer",
-    "indicator"
+    "ui",
+    "interaction"
   ],
   "interaction_modes": [
     "action",
-    "trigger",
     "ui",
     "networked"
   ],

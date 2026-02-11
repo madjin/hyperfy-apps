@@ -1,22 +1,17 @@
 {
   "name": "Ricky-3-2-show_chart",
   "author": "0mka",
-  "description": "Ricky 3 2 show chart.hyp",
+  "description": "No bad output content was provided to fix",
   "tags": [
-    "chart",
-    "refresh",
-    "ui",
-    "configurable",
-    "image",
-    "interaction"
+    "json_validation",
+    "error_handling",
+    "input_missing"
   ],
   "interaction_modes": [
-    "action",
-    "ui",
     "passive"
   ],
   "asset_profile": "light",
-  "script_complexity": "medium",
+  "script_complexity": "low",
   "networking": "none",
   "preview_url": null,
   "download_path": "v2-hyp/Ricky-3-2-show_chart.hyp",

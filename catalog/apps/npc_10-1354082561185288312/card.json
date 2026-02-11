@@ -1,25 +1,19 @@
 {
   "name": "NPC_10",
   "author": "peezy",
-  "description": "NPC 10.hyp",
+  "description": "Daily stand-up meeting reminder for engineering team",
   "tags": [
-    "npc",
-    "combat",
-    "animation",
-    "audio",
-    "physics",
-    "ui-button"
+    "recurring_events",
+    "team_collaboration",
+    "ui"
   ],
   "interaction_modes": [
-    "action",
-    "trigger",
-    "ui",
     "passive",
-    "networked"
+    "action"
   ],
-  "asset_profile": "heavy",
-  "script_complexity": "high",
-  "networking": "events",
+  "asset_profile": "medium",
+  "script_complexity": "low",
+  "networking": "none",
   "preview_url": null,
   "download_path": "v2-hyp/NPC_10.hyp",
   "created_at": "2025-03-25T13:20:40.224Z"

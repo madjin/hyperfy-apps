@@ -1,14 +1,13 @@
 {
   "name": "Butterfly_Swarm_V6_Hyperfly_edition2",
   "author": "Gert-Jan Akerboom",
-  "description": "fixed",
+  "description": "Spawns configurable swarms of animated butterflies with emissive cyan wings. Features random scaling, flapping animations, and flight patterns within defined 3D areas. Performance-optimized edition supporting up to 5000 instances with real-time configuration UI.",
   "tags": [
-    "visual",
-    "animation",
     "particles",
-    "configurable",
-    "ambient",
-    "3d"
+    "animation",
+    "environment",
+    "3d-model",
+    "ui"
   ],
   "interaction_modes": [
     "ui",

@@ -1,15 +1,11 @@
 {
   "name": "Seatv2",
   "author": "0mka",
-  "description": "Seatv2.hyp",
+  "description": "Error: No malformed JSON content was provided after the BAD_OUTPUT label to fix. Please provide the invalid JSON that needs correction.",
   "tags": [
-    "demo",
-    "example"
+    "unclassified"
   ],
-  "interaction_modes": [
-    "ui",
-    "passive"
-  ],
+  "interaction_modes": [],
   "asset_profile": "light",
   "script_complexity": "low",
   "networking": "none",

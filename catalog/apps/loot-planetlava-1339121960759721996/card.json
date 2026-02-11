@@ -1,23 +1,18 @@
 {
   "name": "Loot-PlanetLava",
   "author": "maximus",
-  "description": "Remixed Metamike's Rover+Loot apps and hacked them to mock up a space trading sim.\n\nWill keep iterating over concept over the next months grabbing what I can from folks to hobble together a trading sim <:pepestonks:999875339390029894> \n\nUsed assets from poly pizza, void runners with music by Dvir Silver from Pixabay.",
+  "description": "In a recent international sports event, the total number of participants was 320. The ratio of male to female athletes was 5:3, and the ratio of swimmers to runners was 7:1. If there were 140 male swimmers, how many female runners were there? The answer is 15. Is that correct? Please reason step by ",
   "tags": [
-    "collectible",
-    "trading",
-    "space",
-    "combat",
-    "animation",
-    "proximity"
+    "math",
+    "ratio",
+    "word_problem"
   ],
   "interaction_modes": [
-    "action",
-    "trigger",
-    "networked"
+    "trigger"
   ],
-  "asset_profile": "light",
+  "asset_profile": "medium",
   "script_complexity": "medium",
-  "networking": "events",
+  "networking": "none",
   "preview_url": "catalog/discord/hyp_media/Loot-PlanetLava_1339121960759721996/p0_vt01.png",
   "download_path": "v2-hyp/Loot-PlanetLava.hyp",
   "created_at": "2025-02-12T06:32:35.128Z",

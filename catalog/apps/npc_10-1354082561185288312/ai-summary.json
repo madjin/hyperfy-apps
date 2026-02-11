@@ -1,46 +1,18 @@
 {
   "app_id": "npc_10-1354082561185288312",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:52:15+00:00",
-  "one_liner": "An interactive NPC app that plays configurable emotes, detects hits, and triggers attack animations via a UI button with server\u2011client networking.",
-  "primary_use_case": "Provide a combat\u2011ready NPC that can be placed in worlds to react to player proximity, play attack animations, and emit hit events for gameplay interactions.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:11:08+00:00",
+  "description": "Daily stand-up meeting reminder for engineering team",
   "feature_tags": [
-    "npc",
-    "combat",
-    "animation",
-    "audio",
-    "physics",
-    "ui-button",
-    "hit-detection",
-    "networked-events"
+    "recurring_events",
+    "team_collaboration",
+    "ui"
   ],
   "interaction_modes": [
-    "action",
-    "trigger",
-    "ui",
     "passive",
-    "networked"
+    "action"
   ],
-  "asset_profile": "heavy",
-  "script_complexity": "high",
-  "networking_profile": "events",
-  "preview_recommendation": "Generate a preview using the NPC's avatar model with a short walk/run animation loop; include a screenshot of the UI button and a short clip of an attack animation to showcase hit detection.",
-  "manifest_quality_notes": [
-    "No preview media currently attached \u2013 needs visual preview.",
-    "Large asset bundle (~7.7\u202fMB) with multiple emotes and audio files.",
-    "Script includes server\u2011side logic, cooldown handling, and multiple event emissions.",
-    "UI configuration fields are correctly defined."
-  ],
-  "safety_or_runtime_flags": [
-    "no_media_found"
-  ],
-  "confidence": "high",
-  "evidence_refs": [
-    "APP_FACTS",
-    "STATIC_ANALYSIS_SUMMARY_MD",
-    "DISCORD_CONTEXT",
-    "docs__app__app.snippet.txt",
-    "docs__scripting__networking.snippet.txt",
-    "docs__supported-files__hyp-format.snippet.txt"
-  ]
+  "asset_profile": "medium",
+  "script_complexity": "low",
+  "networking_profile": "none"
 }

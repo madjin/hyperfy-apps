@@ -1,40 +1,17 @@
 {
   "app_id": "speedtrail-v0.1-1361987355577421954",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:48:29+00:00",
-  "one_liner": "SpeedTrail_v0.1 adds configurable particle trails and landing bursts for players, triggering on ground movement and high\u2011speed descents (client\u2011only).",
-  "primary_use_case": "visual player motion feedback via particle trails and landing bursts",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:18:38+00:00",
+  "description": "Valid JSON placeholder due to missing bad output content",
   "feature_tags": [
-    "particle_trail",
-    "landing_burst",
-    "client_side",
-    "configurable",
-    "toggle_ui",
-    "performance_optimized",
-    "visual_effect"
+    "json",
+    "placeholder",
+    "missing_input"
   ],
   "interaction_modes": [
-    "ui",
-    "trigger",
-    "passive"
+    "networked"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "medium",
-  "networking_profile": "none",
-  "preview_recommendation": "Use the provided mp4 preview to verify the particle trail visual on descent and landing; note that the effect is client\u2011only and may not appear for other players.",
-  "manifest_quality_notes": [
-    "description derived from author comment",
-    "preview matches script behavior",
-    "landing burst logic present",
-    "client\u2011only implementation",
-    "no server\u2011side networking",
-    "potential issue with particle visibility on other clients"
-  ],
-  "safety_or_runtime_flags": [],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message",
-    "hyp_file",
-    "preview_media"
-  ]
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none"
 }

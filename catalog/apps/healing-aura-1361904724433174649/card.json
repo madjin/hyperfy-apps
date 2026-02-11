@@ -1,22 +1,18 @@
 {
   "name": "Healing_Aura",
   "author": "ash",
-  "description": "Healing Aura.hyp",
+  "description": "Fixed JSON output - no content provided to fix",
   "tags": [
-    "particles",
-    "textures",
-    "ui config",
-    "emissive",
-    "green",
-    "additive blending"
+    "json",
+    "fix",
+    "validator"
   ],
   "interaction_modes": [
-    "ui",
-    "action",
+    "passive",
     "passive"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "medium",
+  "asset_profile": "light",
+  "script_complexity": "low",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/Healing_Aura_1361904724433174649/m1_xyz-particle-demos_2_-_edit.mp4",
   "download_path": "v2-hyp/Healing_Aura.hyp",

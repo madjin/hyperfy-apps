@@ -1,46 +1,21 @@
 {
   "app_id": "rainv4-1359841759248646274",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:52:30+00:00",
-  "one_liner": "RainV4 adds a toggleable cube and realistic rain particle system with configurable parameters like particle count, spawn rate, gravity, and splash effects.",
-  "primary_use_case": "Create immersive rain weather effects with UI controls for visibility and particle parameters.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:14:49+00:00",
+  "description": "Configuration settings for the application",
   "feature_tags": [
-    "rain",
-    "particle system",
-    "UI toggle",
-    "physics",
-    "splash effect",
-    "configurable",
-    "client-side",
-    "visual effect"
+    "settings",
+    "config",
+    "json_config",
+    "configuration"
   ],
   "interaction_modes": [
-    "ui",
+    "passive",
+    "passive",
+    "passive",
     "passive"
   ],
-  "asset_profile": "light",
-  "script_complexity": "medium",
-  "networking_profile": "none",
-  "preview_recommendation": "Use the provided fallback PNG preview; the app includes a UI toggle for the cube and a realistic rain effect. Ensure the preview shows the rain particles and splash.",
-  "manifest_quality_notes": [
-    "Media fallback used due to missing author-specific preview",
-    "UI toggle labeled 'Move Cube' may be confusing",
-    "Particle system runs client-side only",
-    "No networking events defined",
-    "Script relies on external utils (num, Vector3) assumed present",
-    "Configurable parameters cover most visual aspects"
-  ],
-  "safety_or_runtime_flags": [
-    "media_fallback_any_author",
-    "client_only"
-  ],
-  "confidence": "high",
-  "evidence_refs": [
-    "APP_FACTS",
-    "APP_FILES_CONTEXT",
-    "DISCORD_CONTEXT",
-    "STATIC_ANALYSIS_SUMMARY_MD",
-    "docs__app__app.snippet.txt",
-    "docs__world__world.snippet.txt"
-  ]
+  "asset_profile": "medium",
+  "script_complexity": "low",
+  "networking_profile": "none"
 }

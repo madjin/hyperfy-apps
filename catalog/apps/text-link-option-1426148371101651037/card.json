@@ -1,21 +1,19 @@
 {
   "name": "Text_link_option",
   "author": "Gert-Jan Akerboom",
-  "description": "Here, i updated the default text app, now you can add a link to it : )",
+  "description": "A browser based Pok\u00e9mon fangame",
   "tags": [
-    "text",
-    "link",
-    "ui",
-    "customizable",
-    "clickable",
-    "3d"
+    "fangame",
+    "pokemon",
+    "browser-game",
+    "roguelike"
   ],
   "interaction_modes": [
     "ui",
-    "action"
+    "passive"
   ],
-  "asset_profile": "light",
-  "script_complexity": "low",
+  "asset_profile": "heavy",
+  "script_complexity": "high",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/Text_link_option_1426148371101651037/p3_IMG_1244.png",
   "download_path": "v2-hyp/Text_link_option.hyp",

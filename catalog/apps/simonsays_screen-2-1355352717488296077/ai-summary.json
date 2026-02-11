@@ -1,41 +1,16 @@
 {
   "app_id": "simonsays_screen-2-1355352717488296077",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:48:23+00:00",
-  "one_liner": "Simon Says UI with 3D screen causing lag spikes; includes countdown, color cycles, background modes, and networked alerts.",
-  "primary_use_case": "Interactive Simon Says game UI for VR worlds, demonstrating color alerts, UI scaling, and audio tracks.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:17:38+00:00",
+  "description": "A simple user management application",
   "feature_tags": [
-    "ui",
-    "audio",
-    "color-alert",
-    "countdown",
-    "networked",
-    "lag-test",
-    "3d"
+    "user-management",
+    "authentication"
   ],
   "interaction_modes": [
-    "ui",
-    "networked",
-    "trigger"
+    "ui"
   ],
   "asset_profile": "medium",
-  "script_complexity": "medium",
-  "networking_profile": "events",
-  "preview_recommendation": "Use the provided MP4 preview to evaluate UI layout, color transitions, and lag impact of large 3D elements before deployment.",
-  "manifest_quality_notes": [
-    "Lag spikes observed with larger screen sizes",
-    "Four audio tracks loaded via props",
-    "UI scaling adjustable via props",
-    "Custom pseudo\u2011random generator for color selection",
-    "Networked reset and color\u2011alert events logged",
-    "Potential performance issue on high\u2011resolution screens"
-  ],
-  "safety_or_runtime_flags": [],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message:1355352717488296077",
-    "hyp_file:SimonSays_Screen_2.hyp",
-    "static_analysis_md",
-    "app_v2_json"
-  ]
+  "script_complexity": "low",
+  "networking_profile": "none"
 }

@@ -1,21 +1,20 @@
 {
   "name": "Fire",
   "author": "ash",
-  "description": "Fire.hyp",
+  "description": "A particle system visualization demonstrating fire effects with configurable textures. Features cone emission, additive blending, and color gradients over particle lifetime. Includes commented examples for advanced bursts and world-space spawning. Useful as a reference implementation for Hyperfy's p",
   "tags": [
     "particles",
-    "cone shape",
-    "additive blending",
-    "texture",
-    "color over life",
-    "size over life"
+    "environment",
+    "animation",
+    "3d-model",
+    "ui"
   ],
   "interaction_modes": [
     "ui",
     "passive"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "medium",
+  "asset_profile": "light",
+  "script_complexity": "low",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/Fire_1361904724433174649/m1_xyz-particle-demos_2_-_edit.mp4",
   "download_path": "v2-hyp/Fire.hyp",

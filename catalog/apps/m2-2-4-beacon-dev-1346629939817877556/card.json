@@ -1,21 +1,17 @@
 {
   "name": "m2-2-4-beacon-dev",
   "author": "0mka",
-  "description": "m2 2 4 beacon dev.hyp",
+  "description": "Invalid or missing input data. Please provide the content to be converted to JSON.",
   "tags": [
-    "beacon",
-    "relay",
-    "heartbeat",
-    "metadata",
-    "config",
-    "ui"
+    "error_handling",
+    "json_validation"
   ],
   "interaction_modes": [
-    "ui",
-    "passive"
+    "passive",
+    "action"
   ],
   "asset_profile": "light",
-  "script_complexity": "medium",
+  "script_complexity": "low",
   "networking": "none",
   "preview_url": null,
   "download_path": "v2-hyp/m2-2-4-beacon-dev.hyp",

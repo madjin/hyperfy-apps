@@ -1,22 +1,20 @@
 {
   "name": "Fog",
   "author": "ash",
-  "description": "Fog.hyp",
+  "description": "JSON validation and correction service",
   "tags": [
-    "particles",
-    "texture",
-    "visual\u2011effects",
-    "configurable\u2011ui",
-    "ambient\u2011mist",
-    "low\u2011poly\u2011model"
+    "validation",
+    "json",
+    "schema"
   ],
   "interaction_modes": [
-    "ui",
+    "passive",
+    "passive",
     "passive"
   ],
   "asset_profile": "medium",
-  "script_complexity": "medium",
-  "networking": "none",
+  "script_complexity": "high",
+  "networking": "local",
   "preview_url": "catalog/discord/hyp_media/Fog_1361904724433174649/m1_xyz-particle-demos_2_-_edit.mp4",
   "download_path": "v2-hyp/Fog.hyp",
   "created_at": "2025-04-16T03:23:09.271Z",

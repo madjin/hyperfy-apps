@@ -1,21 +1,16 @@
 {
   "name": "Butterfly_Swarm_V2a",
   "author": "Gert-Jan Akerboom",
-  "description": "Added more randomness to the flying behavior, still to do - randomly rotate the individual clones so they do not all fly 'upright'",
+  "description": "Classifies the user utterance into one of the supported intents",
   "tags": [
-    "particles",
-    "random_movement",
-    "scale_variation",
-    "flap_animation",
-    "clone_nodes",
-    "ui_inputs"
+    "nlp",
+    "text_classification"
   ],
   "interaction_modes": [
-    "ui",
-    "passive"
+    "trigger"
   ],
   "asset_profile": "medium",
-  "script_complexity": "medium",
+  "script_complexity": "low",
   "networking": "none",
   "preview_url": null,
   "download_path": "v2-hyp/Butterfly_Swarm_V2a.hyp",

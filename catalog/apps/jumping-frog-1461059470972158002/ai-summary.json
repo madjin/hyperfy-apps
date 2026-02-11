@@ -1,48 +1,18 @@
 {
   "app_id": "jumping-frog-1461059470972158002",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:46:16+00:00",
-  "one_liner": "A whimsical 3D jumping frog with squash\u2011stretch animation, tongue flick, and blinking eyes, built from a glb model and scripted in Hyperfy.",
-  "primary_use_case": "Add a lively animated frog character to Hyperfy worlds for decorative or playful purposes, showcasing procedural animation and simple visual effects.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:07:09+00:00",
+  "description": "A procedural animated frog character that continuously hops with squash-and-stretch physics, tongue-flicking animations, and randomized jump parameters. Built from geometric primitives with articulated legs and expressive eyes, serving as autonomous environmental decoration.",
   "feature_tags": [
     "animation",
-    "character",
-    "frog",
-    "jump",
-    "squash_stretch",
-    "tongue",
-    "eyes",
-    "legs"
+    "3d-model",
+    "npc",
+    "environment"
   ],
   "interaction_modes": [
     "passive"
   ],
   "asset_profile": "light",
   "script_complexity": "medium",
-  "networking_profile": "none",
-  "preview_recommendation": "No preview media found; consider uploading a screenshot or GLTF preview to showcase the frog's animation.",
-  "manifest_quality_notes": [
-    "Missing preview media",
-    "All assets bundled in .hyp",
-    "Script uses deterministic RNG",
-    "No external dependencies",
-    "Compact model size",
-    "No audio assets"
-  ],
-  "safety_or_runtime_flags": [
-    "no_media_found",
-    "needs_media_review",
-    "no_network"
-  ],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message:1461059470972158002",
-    "discord_attachment:1461059470732951734",
-    "author_discord_id:821575310398980116",
-    "author_display_name:fractilians",
-    "channel:#\u26a1\u2502general",
-    "timestamp:2026-01-14T18:08:43.052Z",
-    "discord_url:https://cdn.discordapp.com/attachments/958209074045026327/1461059470732951734/Jumping_Frog.hyp",
-    "message_content:Jumping Frog.hyp"
-  ]
+  "networking_profile": "none"
 }

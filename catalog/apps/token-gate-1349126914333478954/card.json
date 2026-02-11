@@ -1,24 +1,20 @@
 {
   "name": "TOKEN_GATE",
   "author": "peezy",
-  "description": "REQUIRES SOLANA MOD <@783416470205497394>",
+  "description": "A Solana token-gated door that opens when players hold a minimum balance of specified SPL tokens. Features configurable sliding or swinging animations, customizable minimum balance thresholds, and support for any SPL token mint.",
   "tags": [
     "solana",
     "token-gate",
-    "sliding-door",
-    "ui",
-    "multiplayer",
-    "configurable"
+    "access-control",
+    "spl-token"
   ],
   "interaction_modes": [
-    "action",
     "ui",
-    "passive",
-    "networked"
+    "trigger"
   ],
   "asset_profile": "medium",
   "script_complexity": "medium",
-  "networking": "events",
+  "networking": "shared_state",
   "preview_url": null,
   "download_path": "v2-hyp/TOKEN_GATE.hyp",
   "created_at": "2025-03-11T21:08:41.943Z",

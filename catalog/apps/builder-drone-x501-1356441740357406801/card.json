@@ -1,23 +1,18 @@
 {
   "name": "Builder_Drone_X501",
   "author": "ash",
-  "description": "drop this in your world and you can build in first person flying mode.",
+  "description": "A controllable drone that enables first-person flying mode for building. Players activate a 'Fly' action to pilot the drone with WASD/space controls while the camera follows, syncing position and rotation across the network.",
   "tags": [
-    "building",
-    "first-person",
-    "flying",
-    "drone",
-    "multiplayer",
-    "interaction"
+    "vehicle",
+    "camera",
+    "building"
   ],
   "interaction_modes": [
-    "action",
-    "trigger",
-    "ui",
-    "networked"
+    "passive",
+    "passive"
   ],
   "asset_profile": "medium",
-  "script_complexity": "medium",
+  "script_complexity": "high",
   "networking": "shared_state",
   "preview_url": "catalog/discord/hyp_media/Builder_Drone_X501_1356441740357406801/p0_xyz-builder-drone-x501.mp4",
   "download_path": "v2-hyp/Builder_Drone_X501.hyp",

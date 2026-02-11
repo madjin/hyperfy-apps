@@ -1,22 +1,22 @@
 {
   "name": "Builder_Drone_X501",
   "author": "ash",
-  "description": "fixed some syncing issues with this:",
+  "description": "A flyable drone vehicle with physics simulation and multiplayer state synchronization. Players enter flight mode via action trigger, controlling movement with WASD/Space/C while the server reconciles position and rotation across clients.",
   "tags": [
-    "multiplayer",
-    "drone",
+    "vehicle",
     "physics",
-    "sync",
+    "multiplayer",
     "interaction",
-    "ui"
+    "camera",
+    "3d-model"
   ],
   "interaction_modes": [
     "action",
-    "ui",
+    "trigger",
     "networked"
   ],
   "asset_profile": "medium",
-  "script_complexity": "medium",
+  "script_complexity": "high",
   "networking": "shared_state",
   "preview_url": "catalog/discord/hyp_media/Builder_Drone_X501_1356505487033499729/m2_7BF1F0C5-A1B7-4314-B897-43E2666AB7C8.png",
   "download_path": "v2-hyp/Builder_Drone_X501.hyp",

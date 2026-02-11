@@ -1,22 +1,19 @@
 {
   "name": "Free_Camera",
   "author": "vox",
-  "description": "Free Camera.hyp",
+  "description": "Configuration and settings management application for Creature devices",
   "tags": [
-    "freecam",
-    "orbit",
-    "ui_panel",
-    "hotkeys",
-    "configurable",
-    "physics"
+    "settings",
+    "configuration",
+    "device_management"
   ],
   "interaction_modes": [
     "ui",
-    "action"
+    "trigger"
   ],
-  "asset_profile": "light",
-  "script_complexity": "medium",
-  "networking": "none",
+  "asset_profile": "medium",
+  "script_complexity": "low",
+  "networking": "local",
   "preview_url": null,
   "download_path": "v2-hyp/Free_Camera.hyp",
   "created_at": "2025-09-09T18:59:54.437Z",

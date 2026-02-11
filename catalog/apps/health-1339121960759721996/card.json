@@ -1,21 +1,20 @@
 {
   "name": "Health",
   "author": "maximus",
-  "description": "Remixed Metamike's Rover+Loot apps and hacked them to mock up a space trading sim.\n\nWill keep iterating over concept over the next months grabbing what I can from folks to hobble together a trading sim <:pepestonks:999875339390029894> \n\nUsed assets from poly pizza, void runners with music by Dvir Silver from Pixabay.",
+  "description": "Configurable health pack collectible with idle rotation animation. Detects nearby collector entities via proximity checks and emits networking events upon pickup for inventory system integration. Supports custom display names and health values.",
   "tags": [
-    "combat",
-    "collectible",
-    "rotation",
+    "interaction",
     "animation",
-    "space-trading",
+    "combat",
+    "ui",
     "3d-model"
   ],
   "interaction_modes": [
-    "action",
     "trigger",
+    "passive",
     "networked"
   ],
-  "asset_profile": "medium",
+  "asset_profile": "light",
   "script_complexity": "medium",
   "networking": "events",
   "preview_url": "catalog/discord/hyp_media/Health_1339121960759721996/p0_vt01.png",

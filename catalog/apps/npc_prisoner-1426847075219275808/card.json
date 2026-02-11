@@ -1,20 +1,21 @@
 {
   "name": "NPC_Prisoner",
   "author": "b34k3r",
-  "description": "I think these are <@688215116457443346>'s",
+  "description": "L'application est un petit jeu de type catch-the-ball, tr\u00e8s bien adapt\u00e9 au temps de pause.",
   "tags": [
-    "npc",
-    "autonomous",
-    "animation",
-    "movement",
-    "random",
-    "controller"
+    "jeu",
+    "casual",
+    "d\u00e9tente",
+    "arcade",
+    "offline"
   ],
   "interaction_modes": [
-    "passive"
+    "trigger",
+    "trigger",
+    "trigger"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "medium",
+  "asset_profile": "light",
+  "script_complexity": "low",
   "networking": "none",
   "preview_url": null,
   "download_path": "v2-hyp/NPC_Prisoner.hyp",

@@ -1,23 +1,19 @@
 {
   "name": "Screen",
   "author": "ash",
-  "description": "TV with screensharing:",
+  "description": "Description of the application functionality",
   "tags": [
-    "screensharing",
-    "media-player",
-    "tv",
-    "admin permission",
-    "action button",
-    "3d-model"
+    "tag1",
+    "tag2",
+    "tag3"
   ],
   "interaction_modes": [
     "action",
-    "trigger",
-    "ui"
+    "networked"
   ],
-  "asset_profile": "light",
-  "script_complexity": "low",
-  "networking": "none",
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking": "local",
   "preview_url": null,
   "download_path": "v2-hyp/Screen.hyp",
   "created_at": "2025-04-14T12:55:54.185Z",

@@ -1,22 +1,15 @@
 {
   "name": "EmotesR",
   "author": "\ud835\udd7d\ud835\udd94\ud835\udd9a\ud835\udd98\ud835\udd99\ud835\udd86\ud835\udd93",
-  "description": "Yo yo. turn on custom avatars in the admin menu under that world icon. And add this hyp.",
+  "description": "Placeholder object due to missing input data",
   "tags": [
-    "animation",
-    "ui",
-    "hotkeys",
-    "custom avatars",
-    "configurable",
-    "scripted"
+    "unclassified"
   ],
   "interaction_modes": [
-    "ui",
-    "trigger",
-    "action"
+    "passive"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "medium",
+  "asset_profile": "light",
+  "script_complexity": "low",
   "networking": "none",
   "preview_url": null,
   "download_path": "v2-hyp/EmotesR.hyp",

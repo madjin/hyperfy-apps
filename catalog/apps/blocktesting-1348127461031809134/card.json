@@ -1,18 +1,17 @@
 {
   "name": "BlockTesting",
   "author": "Shiffty",
-  "description": "<@179546010303856640> Is applyEffect(null) still the way to clear effects? Maybe have a bug if so. In attached hyp, press right mouse to block, and release to unblock. The player gets stuck in the block.",
+  "description": "Testing utility for blocking mechanics. Applies a configurable snare emote on right-mouse hold and clears it on release to debug player effect cancellation.",
   "tags": [
     "animation",
-    "applyeffect",
-    "block",
-    "input",
-    "cancel",
-    "client"
+    "interaction",
+    "combat",
+    "ui",
+    "3d-model"
   ],
   "interaction_modes": [
     "action",
-    "trigger"
+    "ui"
   ],
   "asset_profile": "medium",
   "script_complexity": "low",

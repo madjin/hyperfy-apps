@@ -1,41 +1,15 @@
 {
   "app_id": "mob-skelly-1355903733090750595",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:52:14+00:00",
-  "one_liner": "A class\u2011based enemy mob with avatar, skills, energy and AI for PvPvE worlds, supporting togglable PvP and a future backpack system.",
-  "primary_use_case": "AI\u2011controlled combat mob for Hyperfy PvPvE/PvP environments.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:09:21+00:00",
+  "description": "PLACEHOLDER_FIX",
   "feature_tags": [
-    "combat",
-    "ai",
-    "mob",
-    "prism",
-    "avatar",
-    "emotes",
-    "networked",
-    "pvpe"
+    "unclassified"
   ],
   "interaction_modes": [
-    "action",
-    "networked",
     "passive"
   ],
-  "asset_profile": "heavy",
-  "script_complexity": "high",
-  "networking_profile": "events",
-  "preview_recommendation": "Use the provided MP4 fallback preview (xyz\u2011skelly.mp4) as it is the most representative media for this app.",
-  "manifest_quality_notes": [
-    "Media fallback author used due to missing primary author media.",
-    "Author confidence high (discord verification).",
-    "Script contains both server and client logic with multiple phases.",
-    "Requires server side for AI behavior.",
-    "Asset bundle includes many textures, models, and audio \u2013 may affect load time.",
-    "Potential performance impact for many simultaneous mob instances."
-  ],
-  "safety_or_runtime_flags": [],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message:1355903733090750595",
-    "hyp_file:Mob_-_Skelly.hyp",
-    "static_analysis"
-  ]
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none"
 }

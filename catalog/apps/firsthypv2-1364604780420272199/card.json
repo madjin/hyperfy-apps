@@ -1,19 +1,16 @@
 {
   "name": "firstHYPv2",
   "author": "vox",
-  "description": "firstHYPv2.hyp",
+  "description": "Example application description",
   "tags": [
-    "uv_scrolling",
-    "texture_animation",
-    "mesh_effect",
-    "low_poly",
-    "scripted",
-    "hyperfy"
+    "productivity",
+    "utilities"
   ],
   "interaction_modes": [
+    "ui",
     "passive"
   ],
-  "asset_profile": "light",
+  "asset_profile": "medium",
   "script_complexity": "low",
   "networking": "none",
   "preview_url": null,

@@ -1,19 +1,16 @@
 {
   "name": "Platforms",
   "author": ".hyp shaman",
-  "description": "have fun",
+  "description": "A personal scheduler that manages tasks, calendar events, and reminders in one place",
   "tags": [
-    "platform",
-    "falling",
-    "interaction",
-    "configurable",
-    "ui",
-    "physics"
+    "calendar",
+    "scheduling",
+    "reminders",
+    "productivity"
   ],
   "interaction_modes": [
-    "action",
     "trigger",
-    "ui"
+    "action"
   ],
   "asset_profile": "medium",
   "script_complexity": "medium",

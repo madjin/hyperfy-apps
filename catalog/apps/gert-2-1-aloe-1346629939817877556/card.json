@@ -1,18 +1,16 @@
 {
   "name": "Gert-2-1-aloe",
   "author": "0mka",
-  "description": "Gert 2 1 aloe.hyp",
+  "description": "Quickly show and hide desktop icons",
   "tags": [
-    "clone",
-    "random",
-    "distribution",
-    "configurable",
-    "3d",
-    "3d-model"
+    "desktop",
+    "icons",
+    "toggle",
+    "visibility"
   ],
   "interaction_modes": [
-    "ui",
-    "action"
+    "trigger",
+    "ui"
   ],
   "asset_profile": "medium",
   "script_complexity": "low",

@@ -1,41 +1,13 @@
 {
   "app_id": "simonsays_screen-1354675175769243730",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:52:54+00:00",
-  "one_liner": "A multiplayer UI that shows a color cue; players must jump onto the matching block in time, with increasing speed and difficulty.",
-  "primary_use_case": "Multiplayer minigame UI for a Simon\u2011Says\u2011style color\u2011matching challenge.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:16:48+00:00",
+  "description": "A Hyperfy app.",
   "feature_tags": [
-    "ui",
-    "networked",
-    "audio",
-    "color",
-    "minigame",
-    "configurable",
-    "timer",
-    "visual"
+    "unclassified"
   ],
-  "interaction_modes": [
-    "ui",
-    "networked"
-  ],
+  "interaction_modes": [],
   "asset_profile": "medium",
   "script_complexity": "medium",
-  "networking_profile": "events",
-  "preview_recommendation": "The provided MP4 preview shows the UI and color cues clearly; recommend adding an audio preview to demonstrate the planned sound feedback.",
-  "manifest_quality_notes": [
-    "Includes a GLB model, script, and four audio tracks (~25\u202fMB total).",
-    "UI configurable via props (title, colors, scales).",
-    "Server\u2011client state sync using app.send/app.on (networked events).",
-    "Color channel integration may need debugging (local console reference).",
-    "Audio feedback not yet implemented in the script.",
-    "No explicit safety or physics logic present."
-  ],
-  "safety_or_runtime_flags": [],
-  "confidence": "high",
-  "evidence_refs": [
-    "APP_FACTS",
-    "APP_FILES_CONTEXT",
-    "DISCORD_CONTEXT",
-    "STATIC_ANALYSIS_SUMMARY_MD"
-  ]
+  "networking_profile": "local"
 }

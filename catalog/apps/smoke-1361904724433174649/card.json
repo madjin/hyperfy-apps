@@ -1,21 +1,17 @@
 {
   "name": "Smoke",
   "author": "ash",
-  "description": "Smoke.hyp",
+  "description": "The previous model output was not valid JSON for the required schema. Fix it and return valid JSON only.",
   "tags": [
-    "particles",
-    "texture",
-    "cone",
-    "rotation",
-    "velocity",
-    "ui-config"
+    "json",
+    "data_transformation"
   ],
   "interaction_modes": [
-    "ui",
-    "passive"
+    "passive",
+    "trigger"
   ],
-  "asset_profile": "light",
-  "script_complexity": "medium",
+  "asset_profile": "medium",
+  "script_complexity": "low",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/Smoke_1361904724433174649/m1_xyz-particle-demos_2_-_edit.mp4",
   "download_path": "v2-hyp/Smoke.hyp",

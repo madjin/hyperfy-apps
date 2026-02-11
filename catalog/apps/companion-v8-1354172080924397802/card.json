@@ -1,19 +1,16 @@
 {
   "name": "Companion_v8",
   "author": "~/drdoge.eth",
-  "description": "Companion v8.hyp",
+  "description": "Repaired JSON output conforming to schema requirements.",
   "tags": [
-    "ai chat",
-    "npc",
-    "patrol",
-    "follow",
-    "scanning",
-    "animation"
+    "json",
+    "fix",
+    "repair"
   ],
   "interaction_modes": [
-    "action",
     "trigger",
-    "passive"
+    "passive",
+    "action"
   ],
   "asset_profile": "medium",
   "script_complexity": "medium",

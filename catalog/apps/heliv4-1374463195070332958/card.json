@@ -1,20 +1,20 @@
 {
   "name": "HELIv4",
   "author": "vox",
-  "description": "HELIv4.hyp",
+  "description": "Autonomous police helicopter that flies a continuous oval patrol path. Features animated rotor UV scrolling, spatial audio with configurable props, and realistic flight physics including pitch/yaw adjustments based on path curvature and speed variation.",
   "tags": [
-    "oval_path",
-    "uv_scrolling",
-    "audio_spatial",
-    "rotor_animation",
-    "curvature_speed",
-    "scripted_movement"
+    "vehicle",
+    "animation",
+    "audio",
+    "environment",
+    "3d-model"
   ],
   "interaction_modes": [
-    "passive"
+    "passive",
+    "ui"
   ],
   "asset_profile": "light",
-  "script_complexity": "medium",
+  "script_complexity": "high",
   "networking": "none",
   "preview_url": null,
   "download_path": "v2-hyp/HELIv4.hyp",

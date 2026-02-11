@@ -1,21 +1,13 @@
 {
   "name": "Weightpaint_ScreenUI_test1",
   "author": "Gert-Jan Akerboom",
-  "description": "https://discord.com/channels/958209073277456457/994775534733115412/1395042024280952953",
+  "description": "No invalid JSON was provided in the BAD_OUTPUT field to fix",
   "tags": [
-    "ui",
-    "painting",
-    "grid",
-    "environment",
-    "flower",
-    "screen-space"
+    "unclassified"
   ],
-  "interaction_modes": [
-    "ui",
-    "action"
-  ],
-  "asset_profile": "light",
-  "script_complexity": "medium",
+  "interaction_modes": [],
+  "asset_profile": "medium",
+  "script_complexity": "low",
   "networking": "none",
   "preview_url": null,
   "download_path": "v2-hyp/Weightpaint_ScreenUI_test1.hyp",

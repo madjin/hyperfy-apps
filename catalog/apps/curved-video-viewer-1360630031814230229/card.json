@@ -1,22 +1,19 @@
 {
   "name": "Curved_Video_Viewer",
   "author": "ash",
-  "description": "And here's a curved video viewer",
+  "description": "Video streaming application with AI-powered content recommendations",
   "tags": [
-    "media-player",
-    "curved",
-    "texture",
-    "media",
-    "playback",
-    "loop"
+    "streaming",
+    "ai_recommendations",
+    "offline_mode"
   ],
   "interaction_modes": [
-    "ui",
-    "action"
+    "passive",
+    "passive"
   ],
-  "asset_profile": "light",
-  "script_complexity": "medium",
-  "networking": "none",
+  "asset_profile": "heavy",
+  "script_complexity": "high",
+  "networking": "events",
   "preview_url": "catalog/discord/hyp_media/Curved_Video_Viewer_1360630031814230229/p1_image.png",
   "download_path": "v2-hyp/Curved_Video_Viewer.hyp",
   "created_at": "2025-04-12T14:57:58.868Z",

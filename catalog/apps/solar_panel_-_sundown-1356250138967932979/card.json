@@ -1,21 +1,19 @@
 {
   "name": "Solar_Panel_-_sundown",
   "author": "ash",
-  "description": "you can use this to change the sky background and hdri, also sun intensity etc",
+  "description": "Google Analytics is a web analytics service offered by Google that tracks and reports website traffic.",
   "tags": [
-    "environment",
-    "hdr",
-    "sun",
-    "texture",
-    "configuration",
-    "time_of_day"
+    "analytics",
+    "tracking",
+    "marketing",
+    "reporting"
   ],
   "interaction_modes": [
-    "ui",
-    "passive"
+    "action",
+    "trigger"
   ],
   "asset_profile": "medium",
-  "script_complexity": "medium",
+  "script_complexity": "high",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/Solar_Panel_-_sundown_1356250138967932979/m5_xyz-skelly-200.mp4",
   "download_path": "v2-hyp/Solar_Panel_-_sundown.hyp",

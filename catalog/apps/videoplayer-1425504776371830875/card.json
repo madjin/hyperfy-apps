@@ -1,21 +1,19 @@
 {
   "name": "VideoPlayer",
   "author": "Valiant",
-  "description": "Video Player\n\nModification of built in video app with HLS (.m3u8) stream support.",
+  "description": "Enhanced video player supporting local files and HLS (.m3u8) live streams with multiplayer synchronization, configurable display surface, and audio controls.",
   "tags": [
-    "hls support",
-    "video playback",
-    "looping",
-    "sync multiplayer",
-    "surface sizing",
-    "fit options"
+    "media-player",
+    "multiplayer",
+    "ui",
+    "environment"
   ],
   "interaction_modes": [
     "ui",
-    "networked",
-    "passive"
+    "passive",
+    "networked"
   ],
-  "asset_profile": "medium",
+  "asset_profile": "light",
   "script_complexity": "medium",
   "networking": "shared_state",
   "preview_url": null,

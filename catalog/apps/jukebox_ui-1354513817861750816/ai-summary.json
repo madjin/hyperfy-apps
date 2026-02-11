@@ -1,43 +1,19 @@
 {
   "app_id": "jukebox_ui-1354513817861750816",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:46:13+00:00",
-  "one_liner": "A multi\u2011track audio jukebox UI for Hyperfy with configurable tracks, volume, spatial audio, and visualizer.",
-  "primary_use_case": "In\u2011world music player / jukebox for interactive environments.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-11T04:07:12+00:00",
+  "description": "Configurable 3D jukebox with spatial audio, playlist management (shuffle/loop), and interactive UI for up to 5 tracks. Features track visualization and customizable accent colors.",
   "feature_tags": [
     "audio",
-    "playlist",
+    "media-player",
     "ui",
-    "visualizer",
-    "spatial",
-    "customizable",
-    "color_accent",
-    "volume_control"
+    "3d-model"
   ],
   "interaction_modes": [
     "ui",
-    "action"
+    "passive"
   ],
   "asset_profile": "medium",
   "script_complexity": "medium",
-  "networking_profile": "none",
-  "preview_recommendation": "Add a screenshot or short video showing the UI with track list, visualizer bars, and playback controls to give users a clear preview of the jukebox experience.",
-  "manifest_quality_notes": [
-    "No preview media attached",
-    "Only track1 audio file provided; other tracks are null",
-    "UI includes title, track info, and visualizer but lacks explicit playback buttons",
-    "Model and script are present and functional",
-    "High confidence in author identity",
-    "Potential missing shuffle/loop UI elements"
-  ],
-  "safety_or_runtime_flags": [
-    "no_media_found"
-  ],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message_1354513817861750816",
-    "hyp_file_JUKEBOX_UI.hyp",
-    "static_analysis_summary",
-    "author_discord"
-  ]
+  "networking_profile": "none"
 }
