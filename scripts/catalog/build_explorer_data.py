@@ -25,6 +25,7 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 CATALOG_ROOT = REPO_ROOT / "catalog"
 GLOBAL_MANIFEST = CATALOG_ROOT / "manifests" / "apps-manifest.json"
 EXPLORER_DATA_DIR = CATALOG_ROOT / "explorer" / "data"
+GENERATED_PREVIEWS_DIR = CATALOG_ROOT / "generated_previews"
 V2_APPS_DIR = REPO_ROOT / "v2" / "apps"
 V2_ASSETS_DIR = REPO_ROOT / "v2" / "assets"
 
@@ -152,6 +153,12 @@ def build_app_entry(
     source = manifest.get("source", {})
     preview_path = manifest.get("preview", {}).get("primary_media_path") or app_row.get("primary_preview")
 
+    # Fallback: check for AI-generated preview image
+    if not preview_path:
+        matches = list(GENERATED_PREVIEWS_DIR.glob(f"{app_row['app_id']}.*"))
+        if matches:
+            preview_path = str(matches[0].relative_to(REPO_ROOT))
+
     # Prefer AI description, fall back to one_liner+primary_use_case (old schema), then manifest
     description = ""
     if ai_summary:
@@ -204,6 +211,12 @@ def build_card_json(
     """Build a self-contained card.json for AI agent consumption."""
     source = manifest.get("source", {})
     preview_path = manifest.get("preview", {}).get("primary_media_path") or app_row.get("primary_preview")
+
+    # Fallback: check for AI-generated preview image
+    if not preview_path:
+        matches = list(GENERATED_PREVIEWS_DIR.glob(f"{app_row['app_id']}.*"))
+        if matches:
+            preview_path = str(matches[0].relative_to(REPO_ROOT))
 
     description = ""
     if ai_summary:

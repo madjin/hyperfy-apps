@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "generated_at": "2026-02-11T04:30:25+00:00",
+  "generated_at": "2026-02-11T05:47:37+00:00",
   "counts": {
     "total": 179,
-    "with_preview": 115
+    "with_preview": 179
   },
   "tag_index": {
     "ui": [
@@ -1205,8 +1205,8 @@
       "name": "AlleySign",
       "author": "MetaRick",
       "description": "A continuously rotating 3D alley sign that spins on its Y-axis via script-based rotation rather than GLB animation. Lightweight decorative environment prop with passive animation.",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/alleysign-1341753324801626154.png",
+      "preview_type": "image",
       "hyp_filename": "AlleySign.hyp",
       "download_path": "v2-hyp/AlleySign.hyp",
       "created_at": "2025-02-19T12:48:41.204Z",
@@ -1221,7 +1221,7 @@
       "asset_profile": "light",
       "script_complexity": "low",
       "networking": "none",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": true
     },
     {
@@ -1281,8 +1281,8 @@
       "name": "ArrayVectorProps",
       "author": "~/MayD524/Hyperfy",
       "description": "This is a sample valid JSON object conforming to the expected schema.",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/arrayvectorprops-1349553928085180437.jpg",
+      "preview_type": "image",
       "hyp_filename": "ArrayVectorProps.hyp",
       "download_path": "v2-hyp/ArrayVectorProps.hyp",
       "created_at": "2025-03-13T01:25:29.955Z",
@@ -1297,7 +1297,7 @@
       "asset_profile": "medium",
       "script_complexity": "low",
       "networking": "none",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": true
     },
     {
@@ -1306,8 +1306,8 @@
       "name": "BasicMp3Player",
       "author": "Valiant",
       "description": "Minimal clickable MP3 player supporting file upload or URL input. Features play/pause on click, volume/loop/spatial controls, and auto-play for uploaded files. Uses a basic cube mesh as the visual interface.",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/basicmp3player-1459296313840504887.jpg",
+      "preview_type": "image",
       "hyp_filename": "BasicMp3Player.hyp",
       "download_path": "v2-hyp/BasicMp3Player.hyp",
       "created_at": "2026-01-09T21:22:33.634Z",
@@ -1325,7 +1325,7 @@
       "asset_profile": "light",
       "script_complexity": "low",
       "networking": "none",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": true
     },
     {
@@ -1360,8 +1360,8 @@
       "name": "bending_leaf_V1",
       "author": "Gert-Jan Akerboom",
       "description": "Animated 3D leaf using skinned mesh rigging. Plays a bending animation on load. Demonstrates skinned mesh animation playback and highlights interaction limitations with GPU-skinned meshes in Hyperfy.",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/bending_leaf_v1-1357269608360448000.png",
+      "preview_type": "image",
       "hyp_filename": "bending_leaf_V1.hyp",
       "download_path": "v2-hyp/bending_leaf_V1.hyp",
       "created_at": "2025-04-03T08:24:51.483Z",
@@ -1376,7 +1376,7 @@
       "asset_profile": "light",
       "script_complexity": "low",
       "networking": "none",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": true
     },
     {
@@ -1385,8 +1385,8 @@
       "name": "BlockTesting",
       "author": "Shiffty",
       "description": "Testing utility for blocking mechanics. Applies a configurable snare emote on right-mouse hold and clears it on release to debug player effect cancellation.",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/blocktesting-1348127461031809134.png",
+      "preview_type": "image",
       "hyp_filename": "BlockTesting.hyp",
       "download_path": "v2-hyp/BlockTesting.hyp",
       "created_at": "2025-03-09T02:57:13.707Z",
@@ -1404,7 +1404,7 @@
       "asset_profile": "medium",
       "script_complexity": "low",
       "networking": "none",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": false
     },
     {
@@ -1570,8 +1570,8 @@
       "name": "Builder_Drone_X501",
       "author": "ash",
       "description": "A controllable flying drone that players can pilot using WASD and mouse look. Features physics-based movement, animated rotors, and networked multiplayer support with ownership handoff.",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/builder-drone-x501-1356755805017215098.jpg",
+      "preview_type": "image",
       "hyp_filename": "Builder_Drone_X501.hyp",
       "download_path": "v2-hyp/Builder_Drone_X501.hyp",
       "created_at": "2025-04-01T22:23:11.220Z",
@@ -1590,7 +1590,7 @@
       "asset_profile": "light",
       "script_complexity": "medium",
       "networking": "shared_state",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": true
     },
     {
@@ -1628,8 +1628,8 @@
       "name": "Butterfly_Swarm_V2a",
       "author": "Gert-Jan Akerboom",
       "description": "Classifies the user utterance into one of the supported intents",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/butterfly-swarm-v2a-1349666213617336462.jpg",
+      "preview_type": "image",
       "hyp_filename": "Butterfly_Swarm_V2a.hyp",
       "download_path": "v2-hyp/Butterfly_Swarm_V2a.hyp",
       "created_at": "2025-03-13T08:51:40.912Z",
@@ -1643,7 +1643,7 @@
       "asset_profile": "medium",
       "script_complexity": "low",
       "networking": "none",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": true
     },
     {
@@ -1731,8 +1731,8 @@
       "name": "Butterfly_Swarm_V4",
       "author": "Gert-Jan Akerboom",
       "description": "Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/butterfly-swarm-v4-1354099791067611188.jpg",
+      "preview_type": "image",
       "hyp_filename": "Butterfly_Swarm_V4.hyp",
       "download_path": "v2-hyp/Butterfly_Swarm_V4.hyp",
       "created_at": "2025-03-25T14:29:08.148Z",
@@ -1751,7 +1751,7 @@
       "asset_profile": "medium",
       "script_complexity": "medium",
       "networking": "shared_state",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": true
     },
     {
@@ -1760,8 +1760,8 @@
       "name": "Butterfly_Swarm_V5",
       "author": "Gert-Jan Akerboom",
       "description": "Butterfly Swarm V5 creates a dynamic swarm of animated butterflies with configurable amount, scale, flap and fly speeds, using a GLB model and client\u2011side animation. Add a visually appealing, customizable butterfly swarm to a Hyperfy world for ambient animation.",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/butterfly-swarm-v5-1354102502055743531.jpg",
+      "preview_type": "image",
       "hyp_filename": "Butterfly_Swarm_V5.hyp",
       "download_path": "v2-hyp/Butterfly_Swarm_V5.hyp",
       "created_at": "2025-03-25T14:39:54.498Z",
@@ -1780,7 +1780,7 @@
       "asset_profile": "medium",
       "script_complexity": "medium",
       "networking": "none",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": true
     },
     {
@@ -1902,8 +1902,8 @@
       "name": "cam_raycast_action_bar",
       "author": "Saori",
       "description": "Adds a customizable on\u2011screen action bar with keybind icons and a raycast trigger for quick ability activation. Provides Hyperfy worlds with a UI action bar for instant keybind activation and client\u2011to\u2011server raycast interaction.",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/cam-raycast-action-bar-1348748294658195487.jpg",
+      "preview_type": "image",
       "hyp_filename": "cam_raycast_action_bar.hyp",
       "download_path": "v2-hyp/cam_raycast_action_bar.hyp",
       "created_at": "2025-03-10T20:04:11.978Z",
@@ -1924,7 +1924,7 @@
       "asset_profile": "medium",
       "script_complexity": "medium",
       "networking": "events",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": true
     },
     {
@@ -2066,8 +2066,8 @@
       "name": "car1-v2",
       "author": "ash",
       "description": "car1-v2 adds improved anti-roll suspension to a car model, providing realistic physics, steering, and acceleration controls. Vehicle physics simulation with enhanced anti-roll and suspension dynamics.",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/car1-v2-1353199999730581585.jpg",
+      "preview_type": "image",
       "hyp_filename": "car1-v2.hyp",
       "download_path": "v2-hyp/car1-v2.hyp",
       "created_at": "2025-03-23T02:53:41.176Z",
@@ -2086,7 +2086,7 @@
       "asset_profile": "light",
       "script_complexity": "medium",
       "networking": "none",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": false
     },
     {
@@ -2122,8 +2122,8 @@
       "name": "CONFETTT_PPOT",
       "author": "Gert-Jan Akerboom",
       "description": "Interactive confetti popper that spawns particle bursts with audio feedback when clicked. Features 8 configurable confetti textures, hover glow effects, and networked state synchronization between clients and server.",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/confettt-ppot-1402249836455264277.png",
+      "preview_type": "image",
       "hyp_filename": "CONFETTT_PPOT.hyp",
       "download_path": "v2-hyp/CONFETTT_PPOT.hyp",
       "created_at": "2025-08-05T11:20:13.553Z",
@@ -2141,7 +2141,7 @@
       "asset_profile": "medium",
       "script_complexity": "medium",
       "networking": "shared_state",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": true
     },
     {
@@ -2303,8 +2303,8 @@
       "name": "Discord3",
       "author": "Gert-Jan Akerboom",
       "description": "Generate Complete PG with all required fields",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/discord3-1421084209073885294.png",
+      "preview_type": "image",
       "hyp_filename": "Discord3.hyp",
       "download_path": "v2-hyp/Discord3.hyp",
       "created_at": "2025-09-26T10:41:17.911Z",
@@ -2323,7 +2323,7 @@
       "asset_profile": "light",
       "script_complexity": "medium",
       "networking": "none",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": true
     },
     {
@@ -2332,8 +2332,8 @@
       "name": "Eagles_v1",
       "author": "Valiant",
       "description": "Error: No content provided after BAD_OUTPUT label to fix",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/eagles-v1-1356075244355457266.jpg",
+      "preview_type": "image",
       "hyp_filename": "Eagles_v1.hyp",
       "download_path": "v2-hyp/Eagles_v1.hyp",
       "created_at": "2025-03-31T01:18:52.914Z",
@@ -2347,7 +2347,7 @@
       "asset_profile": "medium",
       "script_complexity": "low",
       "networking": "none",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": true
     },
     {
@@ -2437,8 +2437,8 @@
       "name": "Emote_Rom_1",
       "author": "~/drdoge.eth",
       "description": "Networked emote ROM enabling 10 configurable avatar animations triggered by numpad keys (0-9), with cross-client synchronization and floating emoji indicators above players.",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/emote_rom_1-1362219850151231579.jpg",
+      "preview_type": "image",
       "hyp_filename": "Emote_Rom_1.hyp",
       "download_path": "v2-hyp/Emote_Rom_1.hyp",
       "created_at": "2025-04-17T00:15:21.097Z",
@@ -2456,7 +2456,7 @@
       "asset_profile": "medium",
       "script_complexity": "medium",
       "networking": "events",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": false
     },
     {
@@ -2465,8 +2465,8 @@
       "name": "EmotesR",
       "author": "\ud835\udd7d\ud835\udd94\ud835\udd9a\ud835\udd98\ud835\udd99\ud835\udd86\ud835\udd93",
       "description": "Placeholder object due to missing input data",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/emotesr-1440465428748046346.jpg",
+      "preview_type": "image",
       "hyp_filename": "EmotesR.hyp",
       "download_path": "v2-hyp/EmotesR.hyp",
       "created_at": "2025-11-18T22:15:20.767Z",
@@ -2479,7 +2479,7 @@
       "asset_profile": "light",
       "script_complexity": "low",
       "networking": "none",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": false
     },
     {
@@ -2544,8 +2544,8 @@
       "name": "firstHYP",
       "author": "vox",
       "description": "Fetches weather data from external API",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/firsthyp-1364577095313002547.jpg",
+      "preview_type": "image",
       "hyp_filename": "firstHYP.hyp",
       "download_path": "v2-hyp/firstHYP.hyp",
       "created_at": "2025-04-23T12:22:12.139Z",
@@ -2561,7 +2561,7 @@
       "asset_profile": "medium",
       "script_complexity": "high",
       "networking": "none",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": false
     },
     {
@@ -2570,8 +2570,8 @@
       "name": "firstHYPv2",
       "author": "vox",
       "description": "Example application description",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/firsthypv2-1364604780420272199.jpg",
+      "preview_type": "image",
       "hyp_filename": "firstHYPv2.hyp",
       "download_path": "v2-hyp/firstHYPv2.hyp",
       "created_at": "2025-04-23T14:12:12.783Z",
@@ -2586,7 +2586,7 @@
       "asset_profile": "medium",
       "script_complexity": "low",
       "networking": "none",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": false
     },
     {
@@ -2649,8 +2649,8 @@
       "name": "Forest",
       "author": "Gert-Jan Akerboom",
       "description": "No bad output was provided to fix.",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/forest-1443613865295220818.png",
+      "preview_type": "image",
       "hyp_filename": "Forest.hyp",
       "download_path": "v2-hyp/Forest.hyp",
       "created_at": "2025-11-27T14:46:06.535Z",
@@ -2663,7 +2663,7 @@
       "asset_profile": "light",
       "script_complexity": "low",
       "networking": "none",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": true
     },
     {
@@ -2701,8 +2701,8 @@
       "name": "Free_Camera",
       "author": "vox",
       "description": "Configuration and settings management application for Creature devices",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/free-camera-1415049094363086848.jpg",
+      "preview_type": "image",
       "hyp_filename": "Free_Camera.hyp",
       "download_path": "v2-hyp/Free_Camera.hyp",
       "created_at": "2025-09-09T18:59:54.437Z",
@@ -2718,7 +2718,7 @@
       "asset_profile": "medium",
       "script_complexity": "low",
       "networking": "local",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": true
     },
     {
@@ -2780,8 +2780,8 @@
       "name": "generate_monstera_V1",
       "author": "Agent12",
       "description": "Example application description",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/generate-monstera-v1-1357367597435191527.jpg",
+      "preview_type": "image",
       "hyp_filename": "generate_monstera_V1.hyp",
       "download_path": "v2-hyp/generate_monstera_V1.hyp",
       "created_at": "2025-04-03T14:54:13.899Z",
@@ -2796,7 +2796,7 @@
       "asset_profile": "light",
       "script_complexity": "low",
       "networking": "none",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": true
     },
     {
@@ -2805,8 +2805,8 @@
       "name": "Gert-2-1-aloe",
       "author": "0mka",
       "description": "Quickly show and hide desktop icons",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/gert-2-1-aloe-1346629939817877556.png",
+      "preview_type": "image",
       "hyp_filename": "Gert-2-1-aloe.hyp",
       "download_path": "v2-hyp/Gert-2-1-aloe.hyp",
       "created_at": "2025-03-04T23:46:36.827Z",
@@ -2823,7 +2823,7 @@
       "asset_profile": "medium",
       "script_complexity": "low",
       "networking": "none",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": false
     },
     {
@@ -2914,8 +2914,8 @@
       "name": "Grid_Floor_v2",
       "author": "ash",
       "description": "A lightweight grid floor asset positioned 0.03 units above ground to prevent z-fighting. Includes textured GLB model and minimal positioning script. Designed as a reusable environmental building block for Hyperfy worlds.",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/grid-floor-v2-1380533380520738816.jpg",
+      "preview_type": "image",
       "hyp_filename": "Grid_Floor_v2.hyp",
       "download_path": "v2-hyp/Grid_Floor_v2.hyp",
       "created_at": "2025-06-06T13:06:46.986Z",
@@ -2930,7 +2930,7 @@
       "asset_profile": "light",
       "script_complexity": "low",
       "networking": "none",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": true
     },
     {
@@ -2939,8 +2939,8 @@
       "name": "GroupieV1",
       "author": "b34k3r",
       "description": "A Hyperfy app.",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/groupiev1-1426847075219275808.png",
+      "preview_type": "image",
       "hyp_filename": "GroupieV1.hyp",
       "download_path": "v2-hyp/GroupieV1.hyp",
       "created_at": "2025-10-12T08:20:52.269Z",
@@ -2951,7 +2951,7 @@
       "asset_profile": "medium",
       "script_complexity": "low",
       "networking": "none",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": true
     },
     {
@@ -3015,8 +3015,8 @@
       "name": "HELIv4",
       "author": "vox",
       "description": "Autonomous police helicopter that flies a continuous oval patrol path. Features animated rotor UV scrolling, spatial audio with configurable props, and realistic flight physics including pitch/yaw adjustments based on path curvature and speed variation.",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/heliv4-1374463195070332958.jpg",
+      "preview_type": "image",
       "hyp_filename": "HELIv4.hyp",
       "download_path": "v2-hyp/HELIv4.hyp",
       "created_at": "2025-05-20T19:06:01.996Z",
@@ -3034,7 +3034,7 @@
       "asset_profile": "light",
       "script_complexity": "high",
       "networking": "none",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": false
     },
     {
@@ -3124,8 +3124,8 @@
       "name": "HP-eliza-2-1-app_1",
       "author": "0mka",
       "description": "An app to manage and organize club meetings and events.",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/hp-eliza-2-1-app_1-1346629939817877556.jpg",
+      "preview_type": "image",
       "hyp_filename": "HP-eliza-2-1-app_1.hyp",
       "download_path": "v2-hyp/HP-eliza-2-1-app_1.hyp",
       "created_at": "2025-03-04T23:46:36.827Z",
@@ -3140,7 +3140,7 @@
       "asset_profile": "light",
       "script_complexity": "medium",
       "networking": "none",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": true
     },
     {
@@ -3175,8 +3175,8 @@
       "name": "HyperPortal_with_Set",
       "author": "0mka",
       "description": "A configurable teleportation portal. Place the entry point, walk to the desired exit location, and click 'Set' in the inspect pane to bind coordinates. Players entering the portal trigger are instantly teleported to the saved destination. Admin-only configuration.",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/hyperportal-with-set-1349789440293474304.png",
+      "preview_type": "image",
       "hyp_filename": "HyperPortal_with_Set.hyp",
       "download_path": "v2-hyp/HyperPortal_with_Set.hyp",
       "created_at": "2025-03-13T17:01:20.441Z",
@@ -3196,7 +3196,7 @@
       "asset_profile": "light",
       "script_complexity": "medium",
       "networking": "shared_state",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": true
     },
     {
@@ -3236,8 +3236,8 @@
       "name": "JUKEBOX_UI",
       "author": "~/drdoge.eth",
       "description": "Configurable 3D jukebox with spatial audio, playlist management (shuffle/loop), and interactive UI for up to 5 tracks. Features track visualization and customizable accent colors.",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/jukebox_ui-1354513817861750816.png",
+      "preview_type": "image",
       "hyp_filename": "JUKEBOX_UI.hyp",
       "download_path": "v2-hyp/JUKEBOX_UI.hyp",
       "created_at": "2025-03-26T17:54:19.828Z",
@@ -3254,7 +3254,7 @@
       "asset_profile": "medium",
       "script_complexity": "medium",
       "networking": "none",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": true
     },
     {
@@ -3263,8 +3263,8 @@
       "name": "Jumping_Frog",
       "author": "fractilians",
       "description": "A procedural animated frog character that continuously hops with squash-and-stretch physics, tongue-flicking animations, and randomized jump parameters. Built from geometric primitives with articulated legs and expressive eyes, serving as autonomous environmental decoration.",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/jumping-frog-1461059470972158002.jpg",
+      "preview_type": "image",
       "hyp_filename": "Jumping_Frog.hyp",
       "download_path": "v2-hyp/Jumping_Frog.hyp",
       "created_at": "2026-01-14T18:08:43.052Z",
@@ -3280,7 +3280,7 @@
       "asset_profile": "light",
       "script_complexity": "medium",
       "networking": "none",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": true
     },
     {
@@ -3289,8 +3289,8 @@
       "name": "Launchpad",
       "author": "Dhin",
       "description": "A physics-based launchpad that propels players upward when stepped on. Uses trigger collision detection to apply vertical force via player push mechanics, enabling jump boosts or trampoline-like behavior in worlds.",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/launchpad-1427685965249515723.jpg",
+      "preview_type": "image",
       "hyp_filename": "Launchpad.hyp",
       "download_path": "v2-hyp/Launchpad.hyp",
       "created_at": "2025-10-14T15:54:19.238Z",
@@ -3306,7 +3306,7 @@
       "asset_profile": "light",
       "script_complexity": "low",
       "networking": "none",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": true
     },
     {
@@ -3439,8 +3439,8 @@
       "name": "m2-2-4-beacon-dev",
       "author": "0mka",
       "description": "Invalid or missing input data. Please provide the content to be converted to JSON.",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/m2-2-4-beacon-dev-1346629939817877556.jpg",
+      "preview_type": "image",
       "hyp_filename": "m2-2-4-beacon-dev.hyp",
       "download_path": "v2-hyp/m2-2-4-beacon-dev.hyp",
       "created_at": "2025-03-04T23:46:36.827Z",
@@ -3455,7 +3455,7 @@
       "asset_profile": "light",
       "script_complexity": "low",
       "networking": "none",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": true
     },
     {
@@ -3490,8 +3490,8 @@
       "name": "Machine_Gun_With_Animation",
       "author": "Saori",
       "description": "A machine gun weapon that overrides player animations based on movement state (idle, walk, run, sprint in all directions). Features pick-up/drop interaction, shooting mechanics with fire-rate cooldown, and networked synchronization of weapon holder and shooting events across clients.",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/machine_gun_with_animation-1349513227842879581.jpg",
+      "preview_type": "image",
       "hyp_filename": "Machine_Gun_With_Animation.hyp",
       "download_path": "v2-hyp/Machine_Gun_With_Animation.hyp",
       "created_at": "2025-03-12T22:43:46.261Z",
@@ -3510,7 +3510,7 @@
       "asset_profile": "medium",
       "script_complexity": "high",
       "networking": "shared_state",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": false
     },
     {
@@ -3597,8 +3597,8 @@
       "name": "MINI-NukePORTAL",
       "author": "~/drdoge.eth",
       "description": "Application configuration",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/mini-nukeportal-1354506347751805090.png",
+      "preview_type": "image",
       "hyp_filename": "MINI-NukePORTAL.hyp",
       "download_path": "v2-hyp/MINI-NukePORTAL.hyp",
       "created_at": "2025-03-26T17:24:38.815Z",
@@ -3615,7 +3615,7 @@
       "asset_profile": "medium",
       "script_complexity": "high",
       "networking": "shared_state",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": true
     },
     {
@@ -3624,8 +3624,8 @@
       "name": "MINI-NukePORTAL",
       "author": "~/drdoge.eth",
       "description": "No invalid JSON content was provided to fix",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/mini-nukeportal-1357785271864660153.jpg",
+      "preview_type": "image",
       "hyp_filename": "MINI-NukePORTAL.hyp",
       "download_path": "v2-hyp/MINI-NukePORTAL.hyp",
       "created_at": "2025-04-04T18:33:55.243Z",
@@ -3636,7 +3636,7 @@
       "asset_profile": "medium",
       "script_complexity": "low",
       "networking": "none",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": true
     },
     {
@@ -3748,8 +3748,8 @@
       "name": "n1-n1-05",
       "author": "ash",
       "description": "Configures a GLB model's collider to use precise trimesh collision (convex=false) instead of convex hull, demonstrating physics collision setup for accurate mesh boundaries.",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/n1-n1-05-1354230335344480448.jpg",
+      "preview_type": "image",
       "hyp_filename": "n1-n1-05.hyp",
       "download_path": "v2-hyp/n1-n1-05.hyp",
       "created_at": "2025-03-25T23:07:52.329Z",
@@ -3763,7 +3763,7 @@
       "asset_profile": "light",
       "script_complexity": "low",
       "networking": "none",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": true
     },
     {
@@ -3822,8 +3822,8 @@
       "name": "Networked_Grabbable",
       "author": "Saori",
       "description": "A valid JSON object must have properly quoted keys and string values, no trailing commas, and valid data types.",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/networked-grabbable-1349221803263922257.png",
+      "preview_type": "image",
       "hyp_filename": "Networked_Grabbable.hyp",
       "download_path": "v2-hyp/Networked_Grabbable.hyp",
       "created_at": "2025-03-12T03:25:45.227Z",
@@ -3838,7 +3838,7 @@
       "asset_profile": "light",
       "script_complexity": "low",
       "networking": "none",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": true
     },
     {
@@ -3847,8 +3847,8 @@
       "name": "Notifications",
       "author": "Lastraum - theforgecore.xyz",
       "description": "Placeholder valid JSON",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/notifications-1376587859414356008.png",
+      "preview_type": "image",
       "hyp_filename": "Notifications.hyp",
       "download_path": "v2-hyp/Notifications.hyp",
       "created_at": "2025-05-26T15:48:41.450Z",
@@ -3861,7 +3861,7 @@
       "asset_profile": "medium",
       "script_complexity": "low",
       "networking": "local",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": true
     },
     {
@@ -3870,8 +3870,8 @@
       "name": "NPC_10",
       "author": "peezy",
       "description": "Daily stand-up meeting reminder for engineering team",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/npc_10-1354082561185288312.jpg",
+      "preview_type": "image",
       "hyp_filename": "NPC_10.hyp",
       "download_path": "v2-hyp/NPC_10.hyp",
       "created_at": "2025-03-25T13:20:40.224Z",
@@ -3887,7 +3887,7 @@
       "asset_profile": "medium",
       "script_complexity": "low",
       "networking": "none",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": false
     },
     {
@@ -3924,8 +3924,8 @@
       "name": "NPC_Prisoner",
       "author": "b34k3r",
       "description": "L'application est un petit jeu de type catch-the-ball, tr\u00e8s bien adapt\u00e9 au temps de pause.",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/npc_prisoner-1426847075219275808.png",
+      "preview_type": "image",
       "hyp_filename": "NPC_Prisoner.hyp",
       "download_path": "v2-hyp/NPC_Prisoner.hyp",
       "created_at": "2025-10-12T08:20:52.269Z",
@@ -3944,7 +3944,7 @@
       "asset_profile": "light",
       "script_complexity": "low",
       "networking": "none",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": true
     },
     {
@@ -3953,8 +3953,8 @@
       "name": "PAY_TO_ENTER_DOOR",
       "author": "peezy",
       "description": "Missing content to fix. The BAD_OUTPUT field was empty in the request.",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/pay-to-enter-door-1349126914333478954.jpg",
+      "preview_type": "image",
       "hyp_filename": "PAY_TO_ENTER_DOOR.hyp",
       "download_path": "v2-hyp/PAY_TO_ENTER_DOOR.hyp",
       "created_at": "2025-03-11T21:08:41.943Z",
@@ -3965,7 +3965,7 @@
       "asset_profile": "light",
       "script_complexity": "low",
       "networking": "none",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": true
     },
     {
@@ -4206,8 +4206,8 @@
       "name": "PvE_Sword",
       "author": "peezy",
       "description": "A multiplayer PvE melee combat system where players equip a sword to deal damage to others using physics-based hit detection. Features configurable attack emotes, server-authoritative damage calculation with critical hits, and pickup/drop mechanics synchronized across clients.",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/pve-sword-1354082561185288312.png",
+      "preview_type": "image",
       "hyp_filename": "PvE_Sword.hyp",
       "download_path": "v2-hyp/PvE_Sword.hyp",
       "created_at": "2025-03-25T13:20:40.224Z",
@@ -4228,7 +4228,7 @@
       "asset_profile": "medium",
       "script_complexity": "high",
       "networking": "shared_state",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": true
     },
     {
@@ -4265,8 +4265,8 @@
       "name": "PVPblasterLATEST",
       "author": ".hyp shaman",
       "description": "A sample application",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/pvpblasterlatest-1354225264028291292.jpg",
+      "preview_type": "image",
       "hyp_filename": "PVPblasterLATEST.hyp",
       "download_path": "v2-hyp/PVPblasterLATEST.hyp",
       "created_at": "2025-03-25T22:47:43.233Z",
@@ -4282,7 +4282,7 @@
       "asset_profile": "light",
       "script_complexity": "medium",
       "networking": "shared_state",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": true
     },
     {
@@ -4291,8 +4291,8 @@
       "name": "QuestItemBasic",
       "author": "0mka",
       "description": "IOST-based decentralized application for digital asset management",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/questitembasic-1396392921833410642.png",
+      "preview_type": "image",
       "hyp_filename": "QuestItemBasic.hyp",
       "download_path": "v2-hyp/QuestItemBasic.hyp",
       "created_at": "2025-07-20T07:26:56.291Z",
@@ -4309,7 +4309,7 @@
       "asset_profile": "medium",
       "script_complexity": "low",
       "networking": "local",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": true
     },
     {
@@ -4318,8 +4318,8 @@
       "name": "QuestItemUI",
       "author": "0mka",
       "description": "Mouse click automation utility for macOS with configurable hotkeys and settings",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/questitemui-1396392921833410642.jpg",
+      "preview_type": "image",
       "hyp_filename": "QuestItemUI.hyp",
       "download_path": "v2-hyp/QuestItemUI.hyp",
       "created_at": "2025-07-20T07:26:56.291Z",
@@ -4338,7 +4338,7 @@
       "asset_profile": "medium",
       "script_complexity": "medium",
       "networking": "none",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": true
     },
     {
@@ -4505,8 +4505,8 @@
       "name": "Raycaster",
       "author": "Saori",
       "description": "No invalid JSON was provided to fix",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/raycaster-1348748103104331778.jpg",
+      "preview_type": "image",
       "hyp_filename": "Raycaster.hyp",
       "download_path": "v2-hyp/Raycaster.hyp",
       "created_at": "2025-03-10T20:03:26.308Z",
@@ -4519,7 +4519,7 @@
       "asset_profile": "light",
       "script_complexity": "low",
       "networking": "none",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": true
     },
     {
@@ -4528,8 +4528,8 @@
       "name": "Ricky-3-2-show_chart",
       "author": "0mka",
       "description": "No bad output content was provided to fix",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/ricky-3-2-show_chart-1346629939817877556.png",
+      "preview_type": "image",
       "hyp_filename": "Ricky-3-2-show_chart.hyp",
       "download_path": "v2-hyp/Ricky-3-2-show_chart.hyp",
       "created_at": "2025-03-04T23:46:36.827Z",
@@ -4544,7 +4544,7 @@
       "asset_profile": "light",
       "script_complexity": "low",
       "networking": "none",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": false
     },
     {
@@ -4599,8 +4599,8 @@
       "name": "RocketGlobalColl",
       "author": "Gert-Jan Akerboom",
       "description": "No reliable one-line summary generated. General Hyperfy app behavior.",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/rocket-global-coll-1437796842313355295.png",
+      "preview_type": "image",
       "hyp_filename": "RocketGlobalColl.hyp",
       "download_path": "v2-hyp/RocketGlobalColl.hyp",
       "created_at": "2025-11-11T13:31:20.181Z",
@@ -4611,7 +4611,7 @@
       "asset_profile": "medium",
       "script_complexity": "medium",
       "networking": "none",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": false
     },
     {
@@ -4725,8 +4725,8 @@
       "name": "saori-2-5-trump-agent",
       "author": "0mka",
       "description": "A Trump\u2011themed VRM avatar that chats, performs emotes, and looks at players, optionally driven by an external webhook. Interactive AI\u2011driven avatar for virtual worlds that can speak, animate, and respond to player actions via networked events.",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/saori-2-5-trump-agent-1346629939817877556.png",
+      "preview_type": "image",
       "hyp_filename": "saori-2-5-trump-agent.hyp",
       "download_path": "v2-hyp/saori-2-5-trump-agent.hyp",
       "created_at": "2025-03-04T23:46:36.827Z",
@@ -4747,7 +4747,7 @@
       "asset_profile": "medium",
       "script_complexity": "medium",
       "networking": "shared_state",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": true
     },
     {
@@ -4756,8 +4756,8 @@
       "name": "Screen",
       "author": "ash",
       "description": "Description of the application functionality",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/screen-1361324085598228530.jpg",
+      "preview_type": "image",
       "hyp_filename": "Screen.hyp",
       "download_path": "v2-hyp/Screen.hyp",
       "created_at": "2025-04-14T12:55:54.185Z",
@@ -4773,7 +4773,7 @@
       "asset_profile": "medium",
       "script_complexity": "medium",
       "networking": "local",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": true
     },
     {
@@ -4782,8 +4782,8 @@
       "name": "Screen_UI_link_section",
       "author": "Gert-Jan Akerboom",
       "description": "A configurable screen-space UI panel that adds up to 14 download link buttons to your world. Features a toggleable interface with customizable header text and individual button labels that open URLs in new tabs when clicked.",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/screen-ui-link-section-1385257861852168192.jpg",
+      "preview_type": "image",
       "hyp_filename": "Screen_UI_link_section.hyp",
       "download_path": "v2-hyp/Screen_UI_link_section.hyp",
       "created_at": "2025-06-19T14:00:11.112Z",
@@ -4798,7 +4798,7 @@
       "asset_profile": "light",
       "script_complexity": "medium",
       "networking": "none",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": true
     },
     {
@@ -4807,8 +4807,8 @@
       "name": "Seatv2",
       "author": "0mka",
       "description": "Error: No malformed JSON content was provided after the BAD_OUTPUT label to fix. Please provide the invalid JSON that needs correction.",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/seat-v2-1391991885559631884.jpg",
+      "preview_type": "image",
       "hyp_filename": "Seatv2.hyp",
       "download_path": "v2-hyp/Seatv2.hyp",
       "created_at": "2025-07-08T03:58:47.476Z",
@@ -4819,7 +4819,7 @@
       "asset_profile": "light",
       "script_complexity": "low",
       "networking": "none",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": false
     },
     {
@@ -4900,8 +4900,8 @@
       "name": "sit",
       "author": "Wilson",
       "description": "Ground inference API tool",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/sit-1351223744022183987.png",
+      "preview_type": "image",
       "hyp_filename": "sit.hyp",
       "download_path": "v2-hyp/sit.hyp",
       "created_at": "2025-03-17T16:00:45.098Z",
@@ -4916,7 +4916,7 @@
       "asset_profile": "medium",
       "script_complexity": "high",
       "networking": "shared_state",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": false
     },
     {
@@ -4979,8 +4979,8 @@
       "name": "Solar_Panel",
       "author": "~/drdoge.eth",
       "description": "A configurable sky and lighting environment app that simulates time-of-day sun positioning. Features customizable sky textures, HDR backgrounds, and adjustable sun intensity with AM/PM time controls. Creates a dynamic sky node that calculates realistic sun direction based on hour input.",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/solar-panel-1364018550179631196.png",
+      "preview_type": "image",
       "hyp_filename": "Solar_Panel.hyp",
       "download_path": "v2-hyp/Solar_Panel.hyp",
       "created_at": "2025-04-21T23:22:44.602Z",
@@ -4997,7 +4997,7 @@
       "asset_profile": "light",
       "script_complexity": "low",
       "networking": "none",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": true
     },
     {
@@ -5132,8 +5132,8 @@
       "name": "SS3",
       "author": "~/drdoge.eth",
       "description": "Enterprise resource planning application",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/ss3-1362219892073435166.jpg",
+      "preview_type": "image",
       "hyp_filename": "SS3.hyp",
       "download_path": "v2-hyp/SS3.hyp",
       "created_at": "2025-04-17T00:15:31.092Z",
@@ -5153,7 +5153,7 @@
       "asset_profile": "medium",
       "script_complexity": "high",
       "networking": "none",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": true
     },
     {
@@ -5187,8 +5187,8 @@
       "name": "szjanko-2-11-dice",
       "author": "0mka",
       "description": "ChatGPT iOS application",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/szjanko-2-11-dice-1346629939817877556.png",
+      "preview_type": "image",
       "hyp_filename": "szjanko-2-11-dice.hyp",
       "download_path": "v2-hyp/szjanko-2-11-dice.hyp",
       "created_at": "2025-03-04T23:46:36.827Z",
@@ -5206,7 +5206,7 @@
       "asset_profile": "light",
       "script_complexity": "low",
       "networking": "shared_state",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": false
     },
     {
@@ -5215,8 +5215,8 @@
       "name": "Teleport_Command_v2",
       "author": "ash",
       "description": "Configurable teleport system allowing admins to set destination coordinates via UI button, enabling players to teleport using chat commands (e.g., /home). Features persistent world-state storage, server-client synchronization, and customizable command triggers.",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/teleport_command_v2-1381127682699427880.png",
+      "preview_type": "image",
       "hyp_filename": "Teleport_Command_v2.hyp",
       "download_path": "v2-hyp/Teleport_Command_v2.hyp",
       "created_at": "2025-06-08T04:28:19.667Z",
@@ -5236,7 +5236,7 @@
       "asset_profile": "medium",
       "script_complexity": "medium",
       "networking": "shared_state",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": false
     },
     {
@@ -5245,8 +5245,8 @@
       "name": "TeleportTriggerBox",
       "author": "\ud835\udd7d\ud835\udd94\ud835\udd9a\ud835\udd98\ud835\udd99\ud835\udd86\ud835\udd93",
       "description": "A customizable 3D trigger box that teleports players to specified XYZ coordinates upon entry. Features configurable destination, visibility toggle, and scalable dimensions via the properties panel.",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/teleport-trigger-box-1431333007888748678.jpg",
+      "preview_type": "image",
       "hyp_filename": "TeleportTriggerBox.hyp",
       "download_path": "v2-hyp/TeleportTriggerBox.hyp",
       "created_at": "2025-10-24T17:26:21.962Z",
@@ -5263,7 +5263,7 @@
       "asset_profile": "light",
       "script_complexity": "low",
       "networking": "none",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": true
     },
     {
@@ -5296,8 +5296,8 @@
       "name": "Text_link_option",
       "author": "Gert-Jan Akerboom",
       "description": "Background task for syncing user data with external CRM",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/text-link-option-1426147798776152144.png",
+      "preview_type": "image",
       "hyp_filename": "Text_link_option.hyp",
       "download_path": "v2-hyp/Text_link_option.hyp",
       "created_at": "2025-10-10T10:02:11.773Z",
@@ -5312,7 +5312,7 @@
       "asset_profile": "medium",
       "script_complexity": "high",
       "networking": "shared_state",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": false
     },
     {
@@ -5402,8 +5402,8 @@
       "name": "TOKEN_GATE",
       "author": "peezy",
       "description": "A Solana token-gated door that opens when players hold a minimum balance of specified SPL tokens. Features configurable sliding or swinging animations, customizable minimum balance thresholds, and support for any SPL token mint.",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/token-gate-1349126914333478954.png",
+      "preview_type": "image",
       "hyp_filename": "TOKEN_GATE.hyp",
       "download_path": "v2-hyp/TOKEN_GATE.hyp",
       "created_at": "2025-03-11T21:08:41.943Z",
@@ -5420,7 +5420,7 @@
       "asset_profile": "medium",
       "script_complexity": "medium",
       "networking": "shared_state",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": true
     },
     {
@@ -5481,8 +5481,8 @@
       "name": "TriggerZone",
       "author": "Gert-Jan Akerboom",
       "description": "RadiantLink - Healthcare workflow optimization platform",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/triggerzone-1440323116382556250.png",
+      "preview_type": "image",
       "hyp_filename": "TriggerZone.hyp",
       "download_path": "v2-hyp/TriggerZone.hyp",
       "created_at": "2025-11-18T12:49:50.855Z",
@@ -5504,7 +5504,7 @@
       "asset_profile": "medium",
       "script_complexity": "high",
       "networking": "local",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": true
     },
     {
@@ -5513,8 +5513,8 @@
       "name": "uiImage_from_File-update1",
       "author": "0mka",
       "description": "A mobile application",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/uiimage_from_file-update1-1349800654129860670.png",
+      "preview_type": "image",
       "hyp_filename": "uiImage_from_File-update1.hyp",
       "download_path": "v2-hyp/uiImage_from_File-update1.hyp",
       "created_at": "2025-03-13T17:45:54.028Z",
@@ -5530,7 +5530,7 @@
       "asset_profile": "medium",
       "script_complexity": "low",
       "networking": "none",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": false
     },
     {
@@ -5619,8 +5619,8 @@
       "name": "VideoEnhanced",
       "author": "3rdEyeVisuals",
       "description": "Example application for demonstration purposes",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/videoenhanced-1433071172739928135.png",
+      "preview_type": "image",
       "hyp_filename": "VideoEnhanced.hyp",
       "download_path": "v2-hyp/VideoEnhanced.hyp",
       "created_at": "2025-10-29T12:33:12.756Z",
@@ -5635,7 +5635,7 @@
       "asset_profile": "light",
       "script_complexity": "low",
       "networking": "none",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": false
     },
     {
@@ -5644,8 +5644,8 @@
       "name": "VideoPlayer",
       "author": "Valiant",
       "description": "Enhanced video player supporting local files and HLS (.m3u8) live streams with multiplayer synchronization, configurable display surface, and audio controls.",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/videoplayer-1425504776371830875.png",
+      "preview_type": "image",
       "hyp_filename": "VideoPlayer.hyp",
       "download_path": "v2-hyp/VideoPlayer.hyp",
       "created_at": "2025-10-08T15:27:03.285Z",
@@ -5663,7 +5663,7 @@
       "asset_profile": "light",
       "script_complexity": "medium",
       "networking": "shared_state",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": true
     },
     {
@@ -5723,8 +5723,8 @@
       "name": "Weightpaint_ScreenUI_test1",
       "author": "Gert-Jan Akerboom",
       "description": "No invalid JSON was provided in the BAD_OUTPUT field to fix",
-      "preview_url": null,
-      "preview_type": "none",
+      "preview_url": "catalog/generated_previews/weightpaint_screenui_test1-1395042221425819648.png",
+      "preview_type": "image",
       "hyp_filename": "Weightpaint_ScreenUI_test1.hyp",
       "download_path": "v2-hyp/Weightpaint_ScreenUI_test1.hyp",
       "created_at": "2025-07-16T13:59:44.219Z",
@@ -5735,7 +5735,7 @@
       "asset_profile": "medium",
       "script_complexity": "low",
       "networking": "none",
-      "has_preview": false,
+      "has_preview": true,
       "has_source": true
     },
     {

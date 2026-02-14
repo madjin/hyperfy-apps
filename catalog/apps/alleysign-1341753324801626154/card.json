@@ -13,7 +13,7 @@
   "asset_profile": "light",
   "script_complexity": "low",
   "networking": "none",
-  "preview_url": null,
+  "preview_url": "catalog/generated_previews/alleysign-1341753324801626154.png",
   "download_path": "v2-hyp/AlleySign.hyp",
   "created_at": "2025-02-19T12:48:41.204Z",
   "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\n// =================================================================\n// Slow Rotation Script\n// This script rotates the object slowly around its Y-axis.\n// =================================================================\n\n// Rotation speed in radians per second (adjust as needed)\nconst rotationSpeed = 0.1;\n\n// Update loop: Called every frame\napp.on('update', delta => {\n  // Increase the Y-axis rotation based on the elapsed time\n  app.rotation.y += rotationSpeed * delta;\n});\n\n}\n",

@@ -13,7 +13,7 @@
   "asset_profile": "light",
   "script_complexity": "low",
   "networking": "none",
-  "preview_url": null,
+  "preview_url": "catalog/generated_previews/bending_leaf_v1-1357269608360448000.png",
   "download_path": "v2-hyp/bending_leaf_V1.hyp",
   "created_at": "2025-04-03T08:24:51.483Z",
   "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\nconst rig = app.get('rig')\n\nrig.play({ name: 'bend' })\n}\n",
