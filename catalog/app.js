@@ -61,7 +61,7 @@ function SourceModal({ app, onClose }) {
   const codeRef = useRef(null);
 
   useEffect(() => {
-    const cardUrl = `../apps/${app.id}/card.json`;
+    const cardUrl = `./apps/${app.id}/card.json`;
     fetch(cardUrl)
       .then((r) => {
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
@@ -153,8 +153,8 @@ function SourceModal({ app, onClose }) {
 // ---- AppCard ----
 
 function AppCard({ app, onTagClick, onSourceClick }) {
-  const previewSrc = app.preview_url ? `../../${app.preview_url}` : null;
-  const downloadHref = app.download_path ? `../../${app.download_path}` : null;
+  const previewSrc = app.preview_url ? `../${app.preview_url}` : null;
+  const downloadHref = app.download_path ? `../${app.download_path}` : null;
   const dateStr = formatDate(app.created_at);
 
   return html`

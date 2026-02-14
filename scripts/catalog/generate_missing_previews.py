@@ -8,7 +8,7 @@ Outputs:
   catalog/generated_previews/{app_id}.png
 
 Inputs:
-  catalog/explorer/data/explorer-data.json  (app list, filter has_preview=false)
+  catalog/data/explorer-data.json            (app list, filter has_preview=false)
   catalog/apps/*/card.json                  (richer description + tags for prompts)
 """
 
