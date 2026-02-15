@@ -18,8 +18,8 @@
   "asset_profile": "heavy",
   "script_complexity": "high",
   "networking": "events",
-  "preview_url": "catalog/generated_previews/pvpblasterlatest-1354225264028291292.jpg",
-  "download_path": "v2-hyp/PVPblasterLATEST.hyp",
+  "preview_url": "generated_previews/pvpblasterlatest-1354225264028291292.jpg",
+  "download_path": "https://raw.githubusercontent.com/madjin/hyperfy-apps/main/v2-hyp/PVPblasterLATEST.hyp",
   "created_at": "2025-03-25T22:47:43.233Z",
   "props": {
     "attack": {
@@ -59,12 +59,12 @@
   },
   "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\n// Global error handler for isNumber errors\ntry {\n  // Attempted workaround for isNumber errors\n  if (typeof isNumber === 'undefined') {\n    // Define globally if not already defined\n    window.isNumber = function(value) {\n      return typeof value === 'number' && !isNaN(value);\n    };\n  }\n} catch (e) {\n  // Ignore errors from the attempt, we'll handle them another way\n}\n\n// Utility function to check if a value is a number\nfunction isNumber(value) {\n  return typeof value === 'number' && !isNaN(value);\n}\n\n// Global variables\nlet lastUseTime = 0;\nlet player = null;\nlet control = null;\nlet inFirstPersonMode = false;\nlet controlReleaseFn = null;\n\n// Timer management\nlet timers = {}; \n\n// Particle system configuration\nconst MAX_PARTICLES = 250; // Maximum allowed particles\nconst PARTICLE_POOL_SIZE = 50; // Size of our reusable particle pool\nconst particlePool = []; // Our pool of reusable particle objects\nconst particles = []; // Array to track active particles for effects\n\n// Initialize the particle pool with pre-created objects \nfunction initParticlePool() {\n  for (let i = 0; i < PARTICLE_POOL_SIZE; i++) {\n    particlePool.push({\n      anchor: null,\n      velocity: { x: 0, y: 0, z: 0 },\n      lifetime: 0,\n      active: false\n    });\n  }\n  console.log(`Particle pool initialized with ${PARTICLE_POOL_SIZE} objects`);\n}\n\n// Function to get a particle from the pool\nfunction getParticleFromPool() {\n  // First try to find an inactive particle\n  for (let i = 0; i < particlePool.length; i++) {\n    if (!particlePool[i].active) {\n      particlePool[i].active = true;\n      particlePool[i].lifetime = 0;\n      return particlePool[i];\n    }\n  }\n  \n  // If the pool is full and all particles are active, create a new one\n  // but only if we haven't reached the maximum\n  if (particles.length < MAX_PARTICLES) {\n    const newParticle = {\n      anchor: null,\n      velocity: { x: 0, y: 0, z: 0 },\n      lifetime: 0,\n      ac",
   "asset_files": [
-    "PVPblasterLATEST.glb",
     "attack.glb",
     "attack1.glb",
     "attack2.glb",
     "emote.glb",
     "impactSound.mp3",
-    "lightningSound.mp3"
+    "lightningSound.mp3",
+    "pvpblasterlatest.glb"
   ]
 }

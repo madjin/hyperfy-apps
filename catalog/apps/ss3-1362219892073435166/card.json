@@ -14,8 +14,8 @@
   "asset_profile": "medium",
   "script_complexity": "high",
   "networking": "events",
-  "preview_url": "catalog/generated_previews/ss3-1362219892073435166.jpg",
-  "download_path": "v2-hyp/SS3.hyp",
+  "preview_url": "generated_previews/ss3-1362219892073435166.jpg",
+  "download_path": "https://raw.githubusercontent.com/madjin/hyperfy-apps/main/v2-hyp/SS3.hyp",
   "created_at": "2025-04-17T00:15:31.092Z",
   "props": {
     "auraColor": "#00ffaa",
@@ -59,10 +59,10 @@
   },
   "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\n// Configure app with settings\napp.configure([\n  {\n    type: 'section',\n    label: 'Textures',\n    key: 'textures'\n  },\n  {\n    key: 'primaryTexture',\n    type: 'file',\n    kind: 'texture',\n    label: 'Primary Aura Texture'\n  },\n  {\n    key: 'secondaryTexture',\n    type: 'file',\n    kind: 'texture',\n    label: 'Secondary Aura Texture'\n  },\n  {\n    key: 'glowTexture',\n    type: 'file',\n    kind: 'texture',\n    label: 'Glow Effect Texture'\n  },\n  {\n    type: 'section',\n    label: 'Style Presets',\n    key: 'presets'\n  },\n  {\n    key: 'theme',\n    type: 'switch',\n    label: 'Color Theme',\n    options: [\n      { value: 'nuka', label: 'Nuka Cola (Green/Pink)' },\n      { value: 'plasma', label: 'Plasma (Blue/Cyan)' },\n      { value: 'radiation', label: 'Radiation (Green/Yellow)' },\n      { value: 'quantum', label: 'Quantum (Blue/Purple)' },\n      { value: 'fire', label: 'Fire (Orange/Red)' },\n      { value: 'ghost', label: 'Ghost (White/Blue)' },\n      { value: 'toxic', label: 'Toxic (Green/Purple)' },\n      { value: 'custom', label: 'Custom Colors' }\n    ],\n    initial: 'nuka'\n  },\n  {\n    key: 'effectStyle',\n    type: 'switch',\n    label: 'Effect Style',\n    options: [\n      { value: 'flame', label: 'Rising Flames' },\n      { value: 'energy', label: 'Energy Field' },\n      { value: 'mist', label: 'Misty Aura' },\n      { value: 'sparkle', label: 'Sparkling' },\n      { value: 'storm', label: 'Storm Cloud' }\n    ],\n    initial: 'flame'\n  },\n  {\n    type: 'section',\n    label: 'Custom Colors',\n    key: 'colors'\n  },\n  {\n    key: 'primaryColor',\n    type: 'color',\n    label: 'Primary Color',\n    initial: '#00ffaa'\n  },\n  {\n    key: 'secondaryColor',\n    type: 'color',\n    label: 'Secondary Color',\n    initial: '#ff00aa'\n  },\n  {\n    type: 'section',\n    label: 'Particle Emission',\n    key: 'emission'\n  },\n  {\n    key: 'primaryRate',\n    type: 'number',\n    label: 'Primary Particle Rate',\n    initial: 20,\n   ",
   "asset_files": [
-    "SS3.glb",
     "glowTexture.png",
     "particleTexture.png",
     "primaryTexture.png",
-    "secondaryTexture.png"
+    "secondaryTexture.png",
+    "ss3.glb"
   ]
 }

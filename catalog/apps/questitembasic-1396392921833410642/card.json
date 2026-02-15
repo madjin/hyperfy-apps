@@ -16,8 +16,8 @@
   "asset_profile": "medium",
   "script_complexity": "medium",
   "networking": "events",
-  "preview_url": "catalog/generated_previews/questitembasic-1396392921833410642.png",
-  "download_path": "v2-hyp/QuestItemBasic.hyp",
+  "preview_url": "generated_previews/questitembasic-1396392921833410642.png",
+  "download_path": "https://raw.githubusercontent.com/madjin/hyperfy-apps/main/v2-hyp/QuestItemBasic.hyp",
   "created_at": "2025-07-20T07:26:56.291Z",
   "props": {
     "collision": true,
@@ -34,8 +34,8 @@
   },
   "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\napp.configure([    \n  // === COLLISION SETTINGS ===    \n  {    \n    type: 'section',    \n    label: 'Collision Settings'    \n  },    \n  {    \n    key: 'collision',    \n    type: 'toggle',    \n    label: 'Collision',    \n    initial: true,    \n    hint: 'Forces all meshes to have collision. Disable this if your model already has embedded collision.'    \n  },    \n      \n  // === ANIMATION SETTINGS ===    \n  {    \n    type: 'section',    \n    label: 'Animation Settings'    \n  },    \n  {    \n    key: 'enableRotation',    \n    type: 'toggle',    \n    label: 'Enable Rotation',    \n    initial: true,    \n    hint: 'Toggle rotation animation on/off - spins the collectible around its Y-axis'    \n  },    \n  {    \n    key: 'rotationSpeed',    \n    type: 'range',    \n    label: 'Rotation Speed',    \n    min: 0.5,    \n    max: 1.0,    \n    step: 0.1,    \n    initial: 1.0,    \n    hint: 'Controls how fast the collectible rotates (0.5 = slow, 1.0 = fast)'    \n  },    \n  {    \n    key: 'enableBobbing',    \n    type: 'toggle',    \n    label: 'Enable Bobbing',    \n    initial: true,    \n    hint: 'Toggle bobbing animation on/off - creates vertical sine wave movement'    \n  },    \n  {    \n    key: 'bobbingHeight',    \n    type: 'range',    \n    label: 'Bobbing Height',    \n    min: 0.02,    \n    max: 0.1,    \n    step: 0.005,    \n    initial: 0.05,    \n    hint: 'Controls how high the collectible bobs up and down (0.02 = subtle, 0.1 = dramatic)'    \n  },    \n      \n  // === AUDIO SETTINGS ===    \n  {    \n    type: 'section',    \n    label: 'Audio Settings'    \n  },    \n  {    \n    key: 'collectSound',    \n    type: 'file',    \n    label: 'Collection Sound',    \n    kind: 'audio',    \n    hint: 'Audio file to play when a player collects this item (.mp3 format)'    \n  },    \n      \n  // === EVENT SETTINGS ===    \n  {    \n    type: 'section',    \n    label: 'Event Settings'    \n  },    \n  {    \n    key: 'enableEmit',   ",
   "asset_files": [
-    "QuestItemBasic.glb",
-    "QuestItemBasic__image.webp",
-    "collectSound.mp3"
+    "collectSound.mp3",
+    "questitembasic.glb",
+    "questitembasic__image.webp"
   ]
 }

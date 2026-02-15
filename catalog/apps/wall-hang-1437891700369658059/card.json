@@ -15,8 +15,8 @@
   "asset_profile": "light",
   "script_complexity": "high",
   "networking": "none",
-  "preview_url": "catalog/discord/hyp_media/Wall_Hang_1437891700369658059/p2_Desktop_2025.11.11_-_17.21.42.05.mp4",
-  "download_path": "v2-hyp/Wall_Hang.hyp",
+  "preview_url": "discord/hyp_media/Wall_Hang_1437891700369658059/p2_Desktop_2025.11.11_-_17.21.42.05.mp4",
+  "download_path": "https://raw.githubusercontent.com/madjin/hyperfy-apps/main/v2-hyp/Wall_Hang.hyp",
   "created_at": "2025-11-11T19:48:16.104Z",
   "props": {
     "collision": true,
@@ -31,9 +31,9 @@
   },
   "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\n// =================================================================\n// Wall Hang Mechanic Configuration\n// =================================================================\napp.configure([{\n  key: 'hangingEmote',\n  type: 'file',\n  kind: 'emote',\n  label: 'Hanging Emote'\n}]);\n\nconst PLAYER_HALF_HEIGHT = 1.2;\nconst CAPSULE_RADIUS = 0.3;\n\nconst HANG_CONFIG = {\n  maxGrabAbove: 0.6,\n  minGrabBelow: -0.3,\n  hangEndCooldown: 0.5,\n  climbImpulse: 1,\n  dropImpulse: 1,\n  minFallSpeed: -1.5,\n  layerMask: world.createLayerMask('environment')\n};\n\n// =================================================================\n// Client-Side Wall Hang Mechanic\n// =================================================================\nif (world.isClient) {\n  const { hangingEmote } = app.props;\n  const player = world.getPlayer();\n  const control = app.control();\n\n  let lastPosition = null;\n  let hanging = false;\n  let ledgePoint = null;\n  let wallNormal = null;\n  let lastSpace = false;\n  let lastS = false;\n  let hangCooldown = 0;\n  let currentEffect = null;\n\n  const tempVec = new Vector3();\n  const tempQuat = new Quaternion();\n  const tempEuler = new Euler(0, 0, 0, 'YXZ');\n  const downDir = new Vector3(0, -1, 0);\n  const upDir = new Vector3(0, 1, 0);\n\n  // Compute forward direction based on camera orientation\n  function getForwardDirection(outVec) {\n    tempEuler.setFromQuaternion(control.camera.quaternion);\n    tempEuler.x = 0;\n    tempEuler.z = 0;\n    tempQuat.setFromEuler(tempEuler);\n    return outVec.copy(new Vector3(0, 0, -1)).applyQuaternion(tempQuat);\n  }\n\n  // Check if player is grounded\n  function isGrounded() {\n    const origin = player.position.clone();\n    const maxDistance = PLAYER_HALF_HEIGHT + 0.1;\n    const hit = world.raycast(origin, downDir, maxDistance, HANG_CONFIG.layerMask);\n    return hit && hit.distance <= PLAYER_HALF_HEIGHT + 0.05;\n  }\n\n  // Reset hanging state\n  function resetHangingState(cooldownTime) {\n ",
   "asset_files": [
-    "Wall Hang.glb",
-    "Wall Hang__image.png",
     "flipEmote.glb",
-    "hangingEmote.glb"
+    "hangingEmote.glb",
+    "wall-hang.glb",
+    "wall-hang__image.png"
   ]
 }

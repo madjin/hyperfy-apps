@@ -15,8 +15,8 @@
   "asset_profile": "medium",
   "script_complexity": "high",
   "networking": "none",
-  "preview_url": "catalog/generated_previews/eagles-v1-1356075244355457266.jpg",
-  "download_path": "v2-hyp/Eagles_v1.hyp",
+  "preview_url": "generated_previews/eagles-v1-1356075244355457266.jpg",
+  "download_path": "https://raw.githubusercontent.com/madjin/hyperfy-apps/main/v2-hyp/Eagles_v1.hyp",
   "created_at": "2025-03-31T01:18:52.914Z",
   "props": {
     "visible": "true",
@@ -45,8 +45,8 @@
   },
   "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\napp.configure(() => {\n  return [\n    {\n      type: 'switch',\n      key: 'visible',\n      label: 'Original Eagle Visible',\n      options: [\n        { label: 'True', value: 'true' },\n        { label: 'False', value: 'false' }\n      ],\n      initial: 'true',\n    },\n    {\n      type: 'section',\n      key: 'amount',\n      label: 'Set the number of eagles (min 1 / max 6)',\n    },\n    {\n      key: \"eagle_count\",\n      label: \"Eagle Count\",\n      type: \"number\",\n      initial: 1,\n      min: 1,\n      max: 6,\n      step: 1,\n    },\n    {\n      type: 'section',\n      key: 'scale',\n      label: 'Set random scale (min 0.5 / max 1.5)',\n    },\n    {\n      key: \"scale_min\",\n      label: \"Scale Min\",\n      type: \"number\",\n      initial: 0.5,\n      min: 0.5,\n      max: 1.5,\n      dp: 1,\n      step: 0.1,\n    },\n    {\n      key: \"scale_max\",\n      label: \"Scale Max\",\n      type: \"number\",\n      initial: 1.5,\n      min: 0.5,\n      max: 1.5,\n      dp: 1,\n      step: 0.1,\n    },\n    {\n      type: 'section',\n      key: 'wingbeat',\n      label: 'Set random wing-beat speed for flaps (min 5 / max 15)',\n    },\n    {\n      key: \"wingbeat_min\",\n      label: \"Wing-beat Speed Min\",\n      type: \"number\",\n      initial: 5,\n      min: 5,\n      max: 15,\n      step: 1,\n    },\n    {\n      key: \"wingbeat_max\",\n      label: \"Wing-beat Speed Max\",\n      type: \"number\",\n      initial: 10,\n      min: 5,\n      max: 15,\n      step: 1,\n    },\n    {\n      type: 'section',\n      key: 'soar-speed',\n      label: 'Set random soar speed (min 0.5 / max 2)',\n    },\n    {\n      key: \"soarSpeed_min\",\n      label: \"Soar Speed Min\",\n      type: \"number\",\n      dp: 1,\n      initial: 0.5,\n      min: 0.5,\n      max: 2,\n      step: 0.1,\n    },\n    {\n      key: \"soarSpeed_max\",\n      label: \"Soar Speed Max\",\n      type: \"number\",\n      dp: 1,\n      initial: 1.5,\n      min: 0.5,\n      max: 2,\n      step: 0.1,\n    },\n    {\n      type: 'section',\n      key: 'heigh",
   "asset_files": [
-    "Eagles v1.glb",
     "eagleSound.mp3",
-    "eagleSound2.mp3"
+    "eagleSound2.mp3",
+    "eagles-v1.glb"
   ]
 }

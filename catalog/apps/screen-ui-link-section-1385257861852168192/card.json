@@ -12,8 +12,8 @@
   "asset_profile": "light",
   "script_complexity": "medium",
   "networking": "none",
-  "preview_url": "catalog/generated_previews/screen-ui-link-section-1385257861852168192.jpg",
-  "download_path": "v2-hyp/Screen_UI_link_section.hyp",
+  "preview_url": "generated_previews/screen-ui-link-section-1385257861852168192.jpg",
+  "download_path": "https://raw.githubusercontent.com/madjin/hyperfy-apps/main/v2-hyp/Screen_UI_link_section.hyp",
   "created_at": "2025-06-19T14:00:11.112Z",
   "props": {
     "button_count": 14,
@@ -62,6 +62,6 @@
   },
   "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\n// Function to convert hex color to rgba with alpha\nfunction hexToRgba(hex, alpha) {\n  let shorthandRegex = /^#?([a-f\\d])([a-f\\d])([a-f\\d])$/i;\n  hex = hex.replace(shorthandRegex, function(m, r, g, b) {\n    return r + r + g + g + b + b;\n  });\n\n  let result = /^#?([a-f\\d]{2})([a-f\\d]{2})([a-f\\d]{2})$/i.exec(hex);\n  return result ? `rgba(${parseInt(result[1], 16)}, ${parseInt(result[2], 16)}, ${parseInt(result[3], 16)}, ${alpha})` : null;\n}\n\n// Create the main toggle button (top right)\nconst UItoggle = app.create('ui', {\n  width: 60,\n  height: 60,\n  res: 1,\n  position: [1, 0, 0],\n  offset: [-15, 15, 0],\n  space: 'screen',\n  pivot: 'top-right',\n  backgroundColor: 'rgba(0,0,0,0.85)',\n  borderRadius: 12,\n  borderWidth: 0,\n  pointerEvents: true,\n  alignItems: 'center',\n  justifyContent: 'center',\n  flexDirection: 'row',\n  cursor: 'pointer',\n});\n\nconst UItoggleIcon = app.create('uitext', {\n  value: '\u25b2',\n  fontSize: 24,\n  color: '#fff',\n  textAlign: 'center',\n  backgroundColor: 'transparent',\n  cursor: 'pointer',\n});\nUItoggle.add(UItoggleIcon);\napp.add(UItoggle);\n\n// Add app.configure for number of infoUIButtons\napp.configure(() => {\n  const buttonCount = app.config.button_count || 8;\n  const configFields = [\n    {\n      key: 'button_count',\n      label: 'Number of Buttons',\n      type: 'number',\n      min: 1,\n      max: 14,\n      step: 1,\n      initial: 8,\n    },\n    {\n      key: 'header_text',\n      label: 'Header Text',\n      type: 'text',\n      initial: 'Download Section',\n      placeholder: 'Enter header text to explain downloads',\n    },\n    {\n      type: 'switch',\n      key: 'visible',\n      label: 'Cube Visible',\n      options: [\n        {\n          label: 'Show',\n          value: 'true',\n        },\n        {\n          label: 'Hide',\n          value: 'false',\n        }\n      ],\n      initial: 'true',\n    },\n    {\n      type: 'section',\n      key: 'links',\n      label: 'Links',\n    }\n  ];\n  \n  // Dy",
   "asset_files": [
-    "Screen UI link section.glb"
+    "screen-ui-link-section.glb"
   ]
 }

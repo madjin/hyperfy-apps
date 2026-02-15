@@ -11,14 +11,7 @@
   "asset_profile": "light",
   "script_complexity": "low",
   "networking": "none",
-  "preview_url": "catalog/discord/hyp_media/position_1398154516133839002/p1_xyz-temp.mp4",
-  "download_path": "v2-hyp/position.hyp",
-  "created_at": "2025-07-25T04:06:53.101Z",
-  "props": {
-    "collision": true
-  },
-  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\n// Get the local player  \nconst player = world.getPlayer()  \n  \n// Create a screen-space UI positioned in the center  \nconst ui = app.create('ui', {  \n  space: 'screen',  \n  position: [0.5, 0.5, 0], // Center of screen (50% x, 50% y)  \n  pivot: 'center',  \n  width: 300,  \n  height: 100,  \n  backgroundColor: 'rgba(0, 0, 0, 0.7)',  \n  borderRadius: 10,  \n  padding: 10  \n})  \n  \n// Create text element to display position  \nconst positionText = app.create('uitext', {  \n  value: 'Position: Loading...',  \n  fontSize: 16,  \n  color: 'white',  \n  textAlign: 'center'  \n})  \n  \n// Add text to UI  \nui.add(positionText)  \n  \n// Add UI to world space (not app hierarchy)  \nworld.add(ui)  \n  \n// Update position display every frame  \napp.on('update', () => {  \n  if (player && player.position) {  \n    const pos = player.position  \n    positionText.value = `Position: ${pos.x.toFixed(2)}, ${pos.y.toFixed(2)}, ${pos.z.toFixed(2)}`  \n  }  \n})\n}\n",
-  "asset_files": [
-    "position.glb"
-  ]
+  "preview_url": "discord/hyp_media/position_1398154516133839002/p1_xyz-temp.mp4",
+  "download_path": "https://raw.githubusercontent.com/madjin/hyperfy-apps/main/v2-hyp/position.hyp",
+  "created_at": "2025-07-25T04:06:53.101Z"
 }

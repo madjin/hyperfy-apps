@@ -29,6 +29,29 @@ GENERATED_PREVIEWS_DIR = CATALOG_ROOT / "generated_previews"
 V2_APPS_DIR = REPO_ROOT / "v2" / "apps"
 V2_ASSETS_DIR = REPO_ROOT / "v2" / "assets"
 
+def detect_github_raw_base() -> str:
+    """Detect GitHub raw URL base from git remote, with fallback."""
+    import subprocess
+    try:
+        result = subprocess.run(
+            ["git", "-C", str(REPO_ROOT), "remote", "get-url", "origin"],
+            capture_output=True, text=True, timeout=5,
+        )
+        url = result.stdout.strip()
+        # Handle https://github.com/user/repo.git or git@github.com:user/repo.git
+        if "github.com" in url:
+            url = url.replace("git@github.com:", "https://github.com/")
+            url = url.removesuffix(".git")
+            # Extract user/repo from https://github.com/user/repo
+            parts = url.split("github.com/")[-1]
+            return f"https://raw.githubusercontent.com/{parts}/main"
+    except Exception:
+        pass
+    return ""
+
+
+GITHUB_RAW_BASE = detect_github_raw_base()
+
 # Import ALLOWED_TAGS from summarize script for consistent tag filtering
 import sys
 sys.path.insert(0, str(REPO_ROOT / "scripts" / "research"))
@@ -172,16 +195,28 @@ def build_app_entry(
     script_complexity = (ai_summary or {}).get("script_complexity", "medium")
     networking = (ai_summary or {}).get("networking_profile", "none")
 
+    # Make preview_path relative to catalog/ for Pages deployment
+    catalog_preview = None
+    if preview_path:
+        if preview_path.startswith("catalog/"):
+            catalog_preview = preview_path[len("catalog/"):]
+        else:
+            catalog_preview = preview_path
+
+    # Download: use GitHub raw URL since v2-hyp/ is outside catalog/
+    hyp_filename = source.get("hyp_filename")
+    download_url = f"{GITHUB_RAW_BASE}/v2-hyp/{hyp_filename}" if hyp_filename else None
+
     return {
         "id": app_row["app_id"],
         "slug": app_row.get("app_slug", ""),
         "name": app_row.get("app_name", ""),
         "author": manifest.get("author", {}).get("display_name") or app_row.get("author", "Unknown"),
         "description": description,
-        "preview_url": preview_path,
+        "preview_url": catalog_preview,
         "preview_type": media_type_from_path(preview_path),
-        "hyp_filename": source.get("hyp_filename"),
-        "download_path": f"v2-hyp/{source['hyp_filename']}" if source.get("hyp_filename") else None,
+        "hyp_filename": hyp_filename,
+        "download_path": download_url,
         "created_at": source.get("discord_timestamp"),
         "tags": tags,
         "interaction_modes": interaction_modes,
@@ -239,6 +274,17 @@ def build_card_json(
             except Exception:
                 pass
 
+    # Make preview_path relative to catalog/ for Pages deployment
+    catalog_preview = None
+    if preview_path:
+        if preview_path.startswith("catalog/"):
+            catalog_preview = preview_path[len("catalog/"):]
+        else:
+            catalog_preview = preview_path
+
+    hyp_filename = source.get("hyp_filename")
+    download_url = f"{GITHUB_RAW_BASE}/v2-hyp/{hyp_filename}" if hyp_filename else None
+
     card: dict[str, Any] = {
         "name": app_row.get("app_name", ""),
         "author": manifest.get("author", {}).get("display_name") or app_row.get("author", "Unknown"),
@@ -248,8 +294,8 @@ def build_card_json(
         "asset_profile": asset_profile,
         "script_complexity": script_complexity,
         "networking": networking,
-        "preview_url": preview_path,
-        "download_path": f"v2-hyp/{source['hyp_filename']}" if source.get("hyp_filename") else None,
+        "preview_url": catalog_preview,
+        "download_path": download_url,
         "created_at": source.get("discord_timestamp"),
     }
 

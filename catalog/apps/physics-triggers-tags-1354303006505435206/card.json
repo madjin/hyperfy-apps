@@ -13,11 +13,11 @@
   "asset_profile": "light",
   "script_complexity": "low",
   "networking": "none",
-  "preview_url": "catalog/discord/hyp_media/Physics_-_Triggers_Tags_1354303006505435206/p0_xyz-physics-triggers--tags.mp4",
-  "download_path": "v2-hyp/Physics_-_Triggers__Tags.hyp",
+  "preview_url": "discord/hyp_media/Physics_-_Triggers_Tags_1354303006505435206/p0_xyz-physics-triggers--tags.mp4",
+  "download_path": "https://raw.githubusercontent.com/madjin/hyperfy-apps/main/v2-hyp/Physics_-_Triggers__Tags.hyp",
   "created_at": "2025-03-26T03:56:38.484Z",
   "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\nconst blueBody = app.get('Blue')\nblueBody.type = 'static'\nblueBody.tag = 'BLUE'\n\nconst blueCollider = app.get('BlueCollider')\nblueCollider.trigger = true\n\nconst redBody = app.get('Red')\nredBody.type = 'dynamic'\nredBody.tag = 'RED'\n\nconst redCollider = app.get('RedCollider')\nredCollider.convex = true\n\n// optional but its good practice to move things\n// that move around in world space, into world space ;)\nworld.attach(blueBody)\nworld.attach(redBody)\n\nconst blueText = createText('Inside: None')\nblueText.attach(blueBody, [0, 1.5, 0])\n\nblueBody.onTriggerEnter = e => {\n  console.log('blue trigger enter:', e, e.tag)\n  if (e.tag) {\n    blueText.set(`Inside: ${e.tag}`)\n  }\n}\n\nblueBody.onTriggerLeave = e => {\n  console.log('blue trigger leave:', e, e.tag)\n  if (e.tag) {\n    blueText.set(`Inside: None`)\n  }\n}\n\nfunction createText(value) {\n  const $ui = app.create('ui', {\n    width: 100,\n    height: 50,\n    billboard: 'full',\n    position: [0, 2, 0],\n    alignItems: 'center',\n    justifyContent: 'center',\n  })\n  const $text = app.create('uitext', {\n    value,\n    textAlign: 'center',\n    color: 'white',\n  })\n  $ui.add($text)\n  \n  return {\n    attach(node, position) {\n      node.add($ui)\n    },\n    set(value) {\n      $text.value = value\n    },\n  }\n}\n}\n",
   "asset_files": [
-    "Physics - Triggers & Tags.glb"
+    "physics-triggers-tags.glb"
   ]
 }

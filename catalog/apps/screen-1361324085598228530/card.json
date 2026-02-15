@@ -13,14 +13,14 @@
   "asset_profile": "light",
   "script_complexity": "low",
   "networking": "none",
-  "preview_url": "catalog/generated_previews/screen-1361324085598228530.jpg",
-  "download_path": "v2-hyp/Screen.hyp",
+  "preview_url": "generated_previews/screen-1361324085598228530.jpg",
+  "download_path": "https://raw.githubusercontent.com/madjin/hyperfy-apps/main/v2-hyp/Screen.hyp",
   "created_at": "2025-04-14T12:55:54.185Z",
   "props": {
     "restricted": false
   },
   "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\napp.configure([\n  {\n    key: 'restricted',\n    type: 'toggle',\n    label: 'Permission',\n    trueLabel: 'Admin',\n    falseLabel: 'Everyone',\n    initial: false,\n  }\n])\n\nconst screenId = app.instanceId\nconst restricted = props.restricted\n\nif (world.isClient) {\n  const display = app.get('Display')\n  const button = app.get('Button')\n  const screen = app.get('Screen')\n  const video = app.create('video', {\n    screenId: app.instanceId,\n    linked: true,\n    aspect: 16 / 9, // geometry is 16:9\n    geometry: screen.geometry,\n    fit: 'contain',\n    color: 'black',\n  })\n  // move video to same place as screen\n  video.position.copy(screen.position)\n  video.quaternion.copy(screen.quaternion)\n  video.scale.copy(screen.scale)\n  screen.parent.remove(screen)\n  app.add(video)\n\n  const player = world.getPlayer()\n  const canUse = restricted ? player.admin : true\n  if (canUse) {\n    const action = app.create('action', {\n      label: 'Share Screen',\n      distance: 5,\n      position: [0, 1, 0],\n      onTrigger: () => player.screenshare(screenId),\n    })\n    app.add(action)\n  }\n}\n}\n",
   "asset_files": [
-    "Screen.glb"
+    "screen.glb"
   ]
 }

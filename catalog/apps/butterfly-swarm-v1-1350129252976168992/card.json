@@ -13,12 +13,12 @@
   "asset_profile": "light",
   "script_complexity": "medium",
   "networking": "none",
-  "preview_url": "catalog/discord/hyp_media/Butterfly_Swarm_V1_1350129252976168992/p0_5000.png",
-  "download_path": "v2-hyp/Butterfly_Swarm_V1.hyp",
+  "preview_url": "discord/hyp_media/Butterfly_Swarm_V1_1350129252976168992/p0_5000.png",
+  "download_path": "https://raw.githubusercontent.com/madjin/hyperfy-apps/main/v2-hyp/Butterfly_Swarm_V1.hyp",
   "created_at": "2025-03-14T15:31:38.098Z",
   "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\n// Get the original wings\nconst wingROriginal = app.get('wingR');\nconst wingLOriginal = app.get('wingL');\n\nif (!wingROriginal || !wingLOriginal) {\n  console.error('Could not find wingR or wingL');\n  return;\n}\n\n// Remove the original wings from the scene\napp.remove(wingROriginal);\napp.remove(wingLOriginal);\n\n// Function to create a new butterfly in a random position with random movement\nfunction createButterfly() {\n  const wingRClone = wingROriginal.clone(true); // Clone right wing\n  const wingLClone = wingLOriginal.clone(true); // Clone left wing\n\n  if (!wingRClone || !wingLClone) {\n    console.error('Could not clone wingR or wingL');\n    return null;\n  }\n\n  // Generate random size and position\n  const scale = num(0.01, 0.5, 2); // Scale between 0.5x and 1.5x\n  const startX = num(-3, 3, 2); // Spread out on X-axis\n  const startY = num(3, 8, 2); // Vary heights\n  const startZ = num(-3, 3, 2); // Spread out on Z-axis\n  const flapSpeed = num(6, 12, 2); // Vary flapping speeds\n  const maxFlap = (60 * Math.PI) / 180; // 60-degree range\n  const floatSpeed = num(0.2, 0.6, 2); // Speed of floating up/down\n  const floatAmount = num(0.5, 2, 2); // How much they float\n\n  // Create a butterfly object that contains both wings and floating motion\n  const butterfly = {\n    position: { x: startX, y: startY, z: startZ }, // Start position\n    scale: scale, // Store scale value\n    wings: { wingR: wingRClone, wingL: wingLClone },\n    timeElapsed: num(0, Math.PI * 2), // Randomize start time for variation\n  };\n\n  // Set initial wing rotation\n  const baseAngle = (60 * Math.PI) / 180; // Convert 60 degrees to radians\n  wingRClone.rotation.y = baseAngle;\n  wingLClone.rotation.y = -baseAngle;\n\n  // Apply scale\n  wingRClone.scale.set(scale, scale, scale);\n  wingLClone.scale.set(scale, scale, scale);\n\n  // Position the wings at the butterfly's location\n  wingRClone.position.set(butterfly.position.x, butterfly.position.y, b",
   "asset_files": [
-    "Butterfly Swarm V1.glb",
-    "Butterfly Swarm V1__image.jpg"
+    "butterfly-swarm-v1.glb",
+    "butterfly-swarm-v1__image.jpg"
   ]
 }

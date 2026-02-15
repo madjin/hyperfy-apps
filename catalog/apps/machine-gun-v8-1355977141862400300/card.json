@@ -18,8 +18,8 @@
   "asset_profile": "heavy",
   "script_complexity": "high",
   "networking": "events",
-  "preview_url": "catalog/discord/hyp_media/Machine_Gun_v8_1355977141862400300/p1_arena_test.mp4",
-  "download_path": "v2-hyp/Machine_Gun_v8.hyp",
+  "preview_url": "discord/hyp_media/Machine_Gun_v8_1355977141862400300/p1_arena_test.mp4",
+  "download_path": "https://raw.githubusercontent.com/madjin/hyperfy-apps/main/v2-hyp/Machine_Gun_v8.hyp",
   "created_at": "2025-03-30T18:49:03.457Z",
   "props": {
     "walkAim": {
@@ -113,10 +113,10 @@
   },
   "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\nconst animations = [\n  'idle', 'run', 'walk', 'jump', 'walkBack', 'walkLeft', 'walkRight',\n  'sprintLeft', 'sprintRight', 'walkBackLeft', 'walkBackRight',\n  'sprintBackRight', 'sprintBackLeft', 'walkForwardLeft', 'walkForwardRight',\n  'sprintForwardRight', 'sprintForwardLeft', 'sprintBackward', 'reload'\n];\n\nconst animationConfig = animations.map(animation => {\n  const label = animation.replace(/([A-Z])/g, ' $1').replace(/^./, str => str.toUpperCase());\n  return {\n    key: animation,\n    type: 'file',\n    kind: 'emote',\n    label: `${label} Animation`\n  };\n});\n\nanimationConfig.push({\n  key: 'audio',\n  type: 'file',\n  kind: 'audio',\n  label: 'Audio'\n})\n\napp.configure(animationConfig);\n\nif (world.isClient) {\n  let overheatStatus\n  let pulseTime = 0;\n  let isPulsing = false;\n\n  const OVERHEAT_CONFIG = {\n    width: 80,\n    height: 10,\n    padding: 2,\n    borderRadius: 4,\n    backgroundColor: 'rgba(0, 0, 0, 0.5)',\n    overheatColor: 'rgba(255, 50, 50, 0.9)',\n    maxOverheat: 100,\n    currentOverheat: 0,\n    pulseSpeed: 5,\n    pulseMinOpacity: 0.4,\n    pulseMaxOpacity: 0.9\n  }\n\n  const overheatBarContainer = app.create('ui', {\n    width: OVERHEAT_CONFIG.width,\n    height: OVERHEAT_CONFIG.height,\n    alignSelf: 'center',\n    position: [0.5, 1, 0],\n    offset: [0, -35, 0],\n    space: 'screen',\n    anchorPoint: [0.5, 1],\n    backgroundColor: OVERHEAT_CONFIG.backgroundColor,\n    borderRadius: OVERHEAT_CONFIG.borderRadius,\n    padding: OVERHEAT_CONFIG.padding,\n    pointerEvents: false,\n  });\n\n  const overheatFill = app.create('uiview', {\n    width: 0,\n    height: OVERHEAT_CONFIG.height - (OVERHEAT_CONFIG.padding * 2),\n    backgroundColor: OVERHEAT_CONFIG.overheatColor,\n    borderRadius: OVERHEAT_CONFIG.borderRadius / 2,\n    pointerEvents: false,\n  });\n  overheatBarContainer.add(overheatFill);\n\n  app.on('overheatStatus', (data) => {\n    overheatStatus = data\n    updateOverheat(data.overheat, data.coolingDown)\n ",
   "asset_files": [
-    "Machine Gun v8.glb",
     "audio.mp3",
     "idle.glb",
     "jump.glb",
+    "machine-gun-v8.glb",
     "reload.glb",
     "run.glb",
     "sprintBackLeft.glb",

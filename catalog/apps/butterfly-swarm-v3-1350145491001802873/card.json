@@ -14,8 +14,8 @@
   "asset_profile": "medium",
   "script_complexity": "medium",
   "networking": "none",
-  "preview_url": "catalog/discord/hyp_media/Butterfly_Swarm_V3_1350145491001802873/m2_5000.png",
-  "download_path": "v2-hyp/Butterfly_Swarm_V3.hyp",
+  "preview_url": "discord/hyp_media/Butterfly_Swarm_V3_1350145491001802873/m2_5000.png",
+  "download_path": "https://raw.githubusercontent.com/madjin/hyperfy-apps/main/v2-hyp/Butterfly_Swarm_V3.hyp",
   "created_at": "2025-03-14T16:36:09.545Z",
   "props": {
     "scale": 0.3,
@@ -48,7 +48,7 @@
   },
   "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\n\napp.configure(() => {\n  return [\n    {\n\t\t\ttype: 'section',\n\t\t\tkey: 'amount',\n\t\t\tlabel: 'set the amount of butterflies min 1 / max 5000',\n\t\t},\n    {\n      key: \"butterfly_amount\",\n      label: \"Butterfly Amount\",\n      type: \"number\",\n      initial: 50,\n      min: 1,\n      max: 5000,\n      step: 1,\n    },\n    {\n\t\t\ttype: 'section',\n\t\t\tkey: 'scale',\n\t\t\tlabel: 'Set random scale_min 0.1/max 10',\n\t\t},\n    {\n      key: \"scale_min\",\n      label: \"Scale Min\",\n      type: \"number\",\n      initial: 0.1,\n      min: 0.1,\n      max: 10,\n      dp:1,\n      step: 0.1,\n    },\n    {\n      key: \"scale_max\",\n      label: \"Scale Max\",\n      type: \"number\",\n      initial: 0.5,\n      min: 0.1,\n      max: 10,\n      dp:1,\n      step: 0.1,\n    },\n    {\n\t\t\ttype: 'section',\n\t\t\tkey: 'flapspeed',\n\t\t\tlabel: 'Set random Flap-speed_min 1/max 50',\n\t\t},\n    {\n      key: \"flapspeed_min\",\n      label: \"Flap-speed Min\",\n      type: \"number\",\n      initial: 8,\n      min: 1,\n      max: 50,\n      step: 1,\n    },\n    {\n      key: \"flapspeed_max\",\n      label: \"Flap-speed Max\",\n      type: \"number\",\n      initial: 15,\n      min: 1,\n      max: 50,\n      step: 1,\n    },\n    {\n\t\t\ttype: 'section',\n\t\t\tkey: 'fly-speed',\n\t\t\tlabel: 'Set random Fly-speed_min 0.1/max 20',\n\t\t},\n    {\n      key: \"flyspeed_min\",\n      label: \"Fly-speed Min\",\n      type: \"number\",\n      dp: 1,\n      initial: 0.1,\n      min: 0.1,\n      max: 20,\n      step: 0.1,\n    },\n    {\n      key: \"flyspeed_max\",\n      label: \"Fly-speed Max\",\n      type: \"number\",\n      dp: 1,\n      initial: 1,\n      min: 0.1,\n      max: 20,\n      step: 0.1,\n    }\n\n  ];\n});\n\n\n\n// Retrieve the original right and left wing nodes from the GLB file\nconst wingROriginal = app.get('wingR'); // Original right wing node from the model\nconst wingLOriginal = app.get('wingL'); // Original left wing node from the model\n\nif (!wingROriginal || !wingLOriginal) {\n  console.error('Could not find wingR or wingL');\n  retu",
   "asset_files": [
-    "Butterfly Swarm V3.glb",
-    "Butterfly Swarm V3__image.jpg"
+    "butterfly-swarm-v3.glb",
+    "butterfly-swarm-v3__image.jpg"
   ]
 }

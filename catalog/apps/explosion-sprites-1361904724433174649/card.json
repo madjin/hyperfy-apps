@@ -12,8 +12,8 @@
   "asset_profile": "medium",
   "script_complexity": "low",
   "networking": "none",
-  "preview_url": "catalog/discord/hyp_media/Explosion_Sprites_1361904724433174649/m1_xyz-particle-demos_2_-_edit.mp4",
-  "download_path": "v2-hyp/Explosion_Sprites.hyp",
+  "preview_url": "discord/hyp_media/Explosion_Sprites_1361904724433174649/m1_xyz-particle-demos_2_-_edit.mp4",
+  "download_path": "https://raw.githubusercontent.com/madjin/hyperfy-apps/main/v2-hyp/Explosion_Sprites.hyp",
   "created_at": "2025-04-16T03:23:09.271Z",
   "props": {
     "image": {
@@ -23,7 +23,7 @@
   },
   "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\napp.configure([\n  {\n    key: 'image',\n    type: 'file',\n    kind: 'texture',\n    label: 'Image'\n  }\n])\n\n\nconst particles = app.create('particles', {\n  image: props.image?.url,\n  shape: ['hemisphere', 2, 0, true],\n  direction: 0,\n  rate: 10,\n  // bursts: [\n  //   { time: 0, count: 100 },\n  //   { time: 0.5, count: 500 },\n  //   { time: 1, count: 10000 },\n  // ],\n  spritesheet: [2,4,16,false],\n  duration: 5,\n  // loop: false,\n  // timescale: 0.1,\n  max: 10000,\n  space: 'world',\n  life: '0.5',\n  speed: '0.1',\n  size: '1',\n  // rotate: '0~360',\n  // color: 'blue',\n  alpha: '1',\n  // emissive: '10',\n  lit: false,\n  blending: 'normal',\n  // onEnd: () => { \n  //   console.log('END')\n  //   world.remove(particles)\n  // }\n})\napp.add(particles)\nparticles.position.y =1 \n\n\n\n\n\n// function spawn() {\n//   const particles = app.create('particles', {\n//     shape: ['box', 1, 50, 1, 1, 'volume', true],\n//     direction: 0,\n//     rate: 1000,\n//     // bursts: [\n//     //   { time: 0, count: 100 },\n//     //   { time: 0.5, count: 500 },\n//     //   { time: 1, count: 10000 },\n//     // ],\n//     duration: 5,\n//     // loop: false,\n//     max: 10000,\n//     space: 'world',\n//     life: '5',\n//     speed: '0.1',\n//     size: '1',\n//     rotate: '0~360',\n//     // color: 'blue',\n//     alpha: '1',\n//     // emissive: '10',\n//     lit: false,\n//     blending: 'normal'\n//   })\n//   particles.position.set(num(-100, 100, 2), 0, num(-100, 100, 2))\n//   world.add(particles)\n//   setTimeout(()=> {\n//     world.remove(particles)\n//   }, 3000)\n// }\n\n// let elapsed = 0\n// app.on('update', delta => {\n//   elapsed += delta\n//   if (elapsed > 0.1) {\n//     elapsed = 0\n//     spawn()\n//     spawn()\n//   }\n// })\n}\n",
   "asset_files": [
-    "Explosion Sprites.glb",
+    "explosion-sprites.glb",
     "image.png"
   ]
 }

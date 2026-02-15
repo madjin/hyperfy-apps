@@ -16,11 +16,11 @@
   "asset_profile": "light",
   "script_complexity": "medium",
   "networking": "events",
-  "preview_url": "catalog/discord/hyp_media/CameraManagerTest_1352519146201419816/p0_CameraManagerTest.mp4",
-  "download_path": "v2-hyp/CameraManagerTest.hyp",
+  "preview_url": "discord/hyp_media/CameraManagerTest_1352519146201419816/p0_CameraManagerTest.mp4",
+  "download_path": "https://raw.githubusercontent.com/madjin/hyperfy-apps/main/v2-hyp/CameraManagerTest.hyp",
   "created_at": "2025-03-21T05:48:13.045Z",
   "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\n// CameraManagerTest.js - Test app with static and moving cubes\n// Use C key to cycle between camera modes: Default, Follow, Orbit, Static\n// Use O key to cycle between different target objects\n// Use Z key to shake the camera\n\nif (world.isClient) {\n  // Get cube template\n  const cubeTemplate = app.get('Cube')\n  if (!cubeTemplate) {\n    console.error('Failed to load Cube template')\n  } else {\n    app.remove(cubeTemplate)\n  }\n  \n  // Configuration\n  const TEST_CONFIG = {\n    CUBE_SCALE: 0.25,\n    SPAWN_HEIGHT: 1.0,\n    SPAWN_RADIUS: 20.0,\n    ORBIT_SPEED: 1.0\n  }\n  \n  // UI Configuration\n  const UI_CONFIG = {\n    WIDTH: 600,\n    HEIGHT: 140,\n    FONT_SIZE: 48,\n    BACKGROUND_COLOR: 'rgba(0, 0, 0, 0.7)',\n    TEXT_COLOR: '#ffffff',\n    BORDER_RADIUS: 8,\n    PADDING: 10\n  }\n  \n  // Camera modes\n  const CAMERA_MODES = [\n    'default',   // Regular player camera\n    'follow',    // Follow object\n    'orbit',     // Orbit around object\n    'static'     // Fixed camera at origin\n  ]\n  \n  // State tracking\n  let cubes = []\n  let currentCameraMode = 0\n  let currentTargetIndex = 0\n  let control = null\n  let modeUI = null\n  \n  // Create UI for displaying camera mode\n  function createCameraModeUI() {\n    if (modeUI) return modeUI;\n    \n    const ui = app.create('ui')\n    ui.width = UI_CONFIG.WIDTH\n    ui.height = UI_CONFIG.HEIGHT\n    ui.space = 'screen'\n    ui.backgroundColor = UI_CONFIG.BACKGROUND_COLOR\n    ui.borderRadius = UI_CONFIG.BORDER_RADIUS\n    ui.padding = UI_CONFIG.PADDING\n    ui.justifyContent = 'center'\n    ui.alignItems = 'center'\n    ui.position.set(0.5, 0.1, 0) // Top center of screen\n    ui.pivot = 'center'\n    \n    const modeText = app.create('uitext', {\n      value: 'Mode: Default',\n      fontSize: UI_CONFIG.FONT_SIZE,\n      color: UI_CONFIG.TEXT_COLOR,\n      fontWeight: 'bold',\n      fontFamily: 'monospace'\n    })\n    \n    ui.add(modeText)\n    app.add(ui)\n    return { ui, text: modeText }\n  ",
   "asset_files": [
-    "Camera Manager Test.glb"
+    "camera-manager-test.glb"
   ]
 }

@@ -14,8 +14,8 @@
   "asset_profile": "medium",
   "script_complexity": "medium",
   "networking": "none",
-  "preview_url": "catalog/discord/hyp_media/Butterfly_Swarm_V6_1354772253396701385/p3_image.png",
-  "download_path": "v2-hyp/Butterfly_Swarm_V6.hyp",
+  "preview_url": "discord/hyp_media/Butterfly_Swarm_V6_1354772253396701385/p3_image.png",
+  "download_path": "https://raw.githubusercontent.com/madjin/hyperfy-apps/main/v2-hyp/Butterfly_Swarm_V6.hyp",
   "created_at": "2025-03-27T11:01:15.661Z",
   "props": {
     "scale": 0.3,
@@ -53,7 +53,7 @@
   },
   "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\napp.configure(() => {\n  return [\n    {\n      type: 'switch',\n      key: 'visible',           // the key on `app.config` to set this value\n      label: 'Original Butterfly Visible',\n      options: [\n        {\n          label: 'True',\n          value: 'true',\n        },\n        {\n          label: 'False',\n          value: 'false',\n        }\n      ],\n      initial: 'true',\n    },\n    {\n      type: 'section',\n      key: 'area',\n      label: 'Set the area size the Butterflies will spawn in (min 1x1m / max 1000x1000m)',\n    },\n    {\n      key: \"areaXZ\",\n      label: \"spawn Area\",\n      type: \"number\",\n      initial: 10,\n      min: 1,\n      max: 1000,\n      step: 1,\n    },\n    {\n      type: 'section',\n      key: 'area_up',\n      label: 'Set how high the butterflies will spawn in (min 1m / max 1000m on the Y axis)',\n    },\n    {\n      key: \"how_high\",\n      label: \"spawn Hight\",\n      type: \"number\",\n      initial: 10,\n      min: 1,\n      max: 1000,\n      step: 1,\n    },\n    {\n      type: 'section',\n      key: 'amount',\n      label: 'Set the amount of butterflies (min 1 / max 5000)',\n    },\n    {\n      key: \"butterfly_amount\",\n      label: \"Butterfly Amount\",\n      type: \"number\",\n      initial: 50,\n      min: 1,\n      max: 5000,\n      step: 1,\n    },\n    {\n      type: 'section',\n      key: 'scale',\n      label: 'Set random scale (min 0.1 / max 10)',\n    },\n    {\n      key: \"scale_min\",\n      label: \"Scale Min\",\n      type: \"number\",\n      initial: 0.1,\n      min: 0.1,\n      max: 10,\n      dp: 1,\n      step: 0.1,\n    },\n    {\n      key: \"scale_max\",\n      label: \"Scale Max\",\n      type: \"number\",\n      initial: 0.5,\n      min: 0.1,\n      max: 10,\n      dp: 1,\n      step: 0.1,\n    },\n    {\n      type: 'section',\n      key: 'flapspeed',\n      label: 'Set random flap-speed (min 1 / max 50)',\n    },\n    {\n      key: \"flapspeed_min\",\n      label: \"Flap-speed Min\",\n      type: \"number\",\n      initial: 8,\n      m",
   "asset_files": [
-    "Butterfly Swarm V6.glb",
-    "Butterfly Swarm V6__image.jpg"
+    "butterfly-swarm-v6.glb",
+    "butterfly-swarm-v6__image.jpg"
   ]
 }

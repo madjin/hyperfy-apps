@@ -15,8 +15,8 @@
   "asset_profile": "medium",
   "script_complexity": "medium",
   "networking": "events",
-  "preview_url": "catalog/generated_previews/sit-1351223744022183987.png",
-  "download_path": "v2-hyp/sit.hyp",
+  "preview_url": "generated_previews/sit-1351223744022183987.png",
+  "download_path": "https://raw.githubusercontent.com/madjin/hyperfy-apps/main/v2-hyp/sit.hyp",
   "created_at": "2025-03-17T16:00:45.098Z",
   "props": {
     "emote": {

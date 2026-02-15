@@ -15,7 +15,7 @@
   "asset_profile": "light",
   "script_complexity": "high",
   "networking": "events",
-  "preview_url": "catalog/generated_previews/car1-v2-1353199999730581585.jpg",
-  "download_path": "v2-hyp/car1-v2.hyp",
+  "preview_url": "generated_previews/car1-v2-1353199999730581585.jpg",
+  "download_path": "https://raw.githubusercontent.com/madjin/hyperfy-apps/main/v2-hyp/car1-v2.hyp",
   "created_at": "2025-03-23T02:53:41.176Z"
 }

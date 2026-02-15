@@ -13,8 +13,8 @@
   "asset_profile": "medium",
   "script_complexity": "low",
   "networking": "none",
-  "preview_url": "catalog/discord/hyp_media/Solar_Panel_-_sundown_1356250138967932979/m5_xyz-skelly-200.mp4",
-  "download_path": "v2-hyp/Solar_Panel_-_sundown.hyp",
+  "preview_url": "discord/hyp_media/Solar_Panel_-_sundown_1356250138967932979/m5_xyz-skelly-200.mp4",
+  "download_path": "https://raw.githubusercontent.com/madjin/hyperfy-apps/main/v2-hyp/Solar_Panel_-_sundown.hyp",
   "created_at": "2025-03-31T12:53:51.039Z",
   "props": {
     "sky": {

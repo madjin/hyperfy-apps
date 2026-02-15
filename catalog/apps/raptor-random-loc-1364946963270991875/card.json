@@ -16,8 +16,8 @@
   "asset_profile": "medium",
   "script_complexity": "medium",
   "networking": "events",
-  "preview_url": "catalog/discord/hyp_media/Raptor_random_loc_1364946963270991875/p1_World_-_Google_Chrome_24.04.2025_14_53_08.png",
-  "download_path": "v2-hyp/Raptor_random_loc.hyp",
+  "preview_url": "discord/hyp_media/Raptor_random_loc_1364946963270991875/p1_World_-_Google_Chrome_24.04.2025_14_53_08.png",
+  "download_path": "https://raw.githubusercontent.com/madjin/hyperfy-apps/main/v2-hyp/Raptor_random_loc.hyp",
   "created_at": "2025-04-24T12:51:55.532Z",
   "props": {
     "emote": {
@@ -47,10 +47,10 @@
   },
   "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\n// NPC Avatar with Walk, Run, Idle, and Talk Modes + Range Limit\napp.configure([\n    {\n      key: 'walk',\n      type: 'file',\n      kind: 'emote',\n      label: 'Walk',\n    },\n    {\n      key: 'run',\n      type: 'file',\n      kind: 'emote',\n      label: 'Run',\n    },\n    {\n      key: 'idle',\n      type: 'file',\n      kind: 'emote',\n      label: 'Idle',\n    },\n    {\n      key: 'talk',\n      type: 'file',\n      kind: 'emote',\n      label: 'Talk',\n    }\n  ])\n  \n  const v1 = new Vector3()\n  const q1 = new Quaternion()\n  const FORWARD = new Vector3(0, 0, -1)\n  \n  // Hardcoded range limit (editable in script)\n  const range = 100 // Maximum distance from origin in meters (default: 100)\n  \n  // Create the controller and store initial position\n  const initialPosition = new Vector3().fromArray(app.position.toArray())\n  const ctrl = app.create('controller', {\n    position: app.position.toArray(),\n    radius: 0.3,\n    height: 1,\n  })\n  world.add(ctrl)\n  \n  // Set up the avatar\n  const src = props.avatar?.url\n  const avatar = app.get('avatar')\n  avatar.position.set(0, 0, 0)\n  avatar.quaternion.set(0, 0, 0, 1)\n  ctrl.add(avatar)\n  avatar.emote = props.walk?.url // Start with walking\n  \n  // Movement variables\n  const dir = new Vector3(0.7, 0, 1).normalize()\n  const move = new Vector3()\n  const gravity = 8\n  const walkSpeed = 1.7 // Speed for walking mode\n  const runSpeed = 8.0  // Faster speed for running mode\n  \n  // Direction change variables\n  let frameCounter = 0\n  let nextDirectionChange = 180 // Starting interval (~3 seconds at 60 FPS)\n  const minTurnInterval = 120 // ~2 seconds\n  const maxTurnInterval = 300 // ~5 seconds\n  let directionIndex = 0\n  const directionAngles = [0, Math.PI / 4, Math.PI / 2, 3 * Math.PI / 4, Math.PI, 5 * Math.PI / 4, 3 * Math.PI / 2, 7 * Math.PI / 4]\n  \n  // State variables\n  let state = ['walking', 'running', 'idle', 'talking'][Math.floor(Math.random() * 4)] // Random initial sta",
   "asset_files": [
-    "Raptor_random_loc.vrm",
     "avatar.vrm",
     "emote.glb",
     "idle.glb",
+    "raptor_random_loc.vrm",
     "run.glb",
     "talk.glb",
     "walk.glb"

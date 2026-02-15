@@ -12,7 +12,7 @@
   "asset_profile": "medium",
   "script_complexity": "low",
   "networking": "none",
-  "preview_url": "catalog/generated_previews/firsthyp-1364577095313002547.jpg",
-  "download_path": "v2-hyp/firstHYP.hyp",
+  "preview_url": "generated_previews/firsthyp-1364577095313002547.jpg",
+  "download_path": "https://raw.githubusercontent.com/madjin/hyperfy-apps/main/v2-hyp/firstHYP.hyp",
   "created_at": "2025-04-23T12:22:12.139Z"
 }

@@ -13,8 +13,8 @@
   "asset_profile": "medium",
   "script_complexity": "medium",
   "networking": "none",
-  "preview_url": "catalog/discord/hyp_media/Grass_V3_1360243980150902917/m1_Play_-_Google_Chrome_11.04.2025_15_22_23.png",
-  "download_path": "v2-hyp/Grass_V3.hyp",
+  "preview_url": "discord/hyp_media/Grass_V3_1360243980150902917/m1_Play_-_Google_Chrome_11.04.2025_15_22_23.png",
+  "download_path": "https://raw.githubusercontent.com/madjin/hyperfy-apps/main/v2-hyp/Grass_V3.hyp",
   "created_at": "2025-04-11T13:23:56.979Z",
   "props": {
     "clone_count": 10000,
@@ -29,6 +29,6 @@
   },
   "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\n// Configure UI inputs for the grass parameters\napp.configure(() => {\n  return [\n    {\n      key: \"clone_count\",\n      label: \"Clone Count\",\n      type: \"number\",\n      initial: 20,\n      min: 1,\n      max: 10000,\n      step: 1,\n    },\n    {\n      key: \"area_size_x\",\n      label: \"Area Width (X meters)\",\n      type: \"number\",\n      initial: 10,\n      min: 1,\n      max: 100,\n      step: 1,\n    },\n    {\n      key: \"area_size_z\",\n      label: \"Area Depth (Z meters)\",\n      type: \"number\",\n      initial: 10,\n      min: 1,\n      max: 100,\n      step: 1,\n    },\n    {\n      key: \"min_size\",\n      label: \"Minimum Clone Size\",\n      type: \"number\",\n      dp: 2,\n      initial: 0.2,\n      min: 0.01,\n      max: 5,\n      step: 0.1,\n    },\n    {\n      key: \"max_size\",\n      label: \"Maximum Clone Size\",\n      type: \"number\",\n      dp: 2,\n      initial: 2,\n      min: 0.1,\n      max: 5,\n      step: 0.1,\n    },\n    {\n      key: \"cluster_percentage\",\n      label: \"Percentage of Grass in Clusters\",\n      type: \"number\",\n      initial: 30,\n      min: 0,\n      max: 100,\n      step: 1,\n    },\n    {\n      key: \"cluster_size\",\n      label: \"Cluster Size (radius in meters)\",\n      type: \"number\",\n      initial: 1,\n      min: 0.1,\n      max: 10,\n      step: 0.1,\n    },\n    {\n      key: \"cluster_density\",\n      label: \"Cluster Density (grass per m\u00b2)\",\n      type: \"number\",\n      initial: 5,\n      min: 1,\n      max: 20,\n      step: 1,\n    }\n  ];\n});\n\n// Get configuration values\nconst CLONE_COUNT = app.config.clone_count;\nconst AREA_SIZE_X = app.config.area_size_x;\nconst AREA_SIZE_Z = app.config.area_size_z;\nconst MIN_SIZE = app.config.min_size;\nconst MAX_SIZE = app.config.max_size;\nconst CLUSTER_PERCENTAGE = app.config.cluster_percentage;\nconst CLUSTER_SIZE = app.config.cluster_size;\nconst CLUSTER_DENSITY = app.config.cluster_density;\n\n// Helper function to generate random numbers\nfunction num(min, max, dp = 2) {\n  return Numb",
   "asset_files": [
-    "Grass_V3.glb"
+    "grass_v3.glb"
   ]
 }

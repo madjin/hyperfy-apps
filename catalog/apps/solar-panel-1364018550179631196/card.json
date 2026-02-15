@@ -13,8 +13,8 @@
   "asset_profile": "medium",
   "script_complexity": "low",
   "networking": "none",
-  "preview_url": "catalog/generated_previews/solar-panel-1364018550179631196.png",
-  "download_path": "v2-hyp/Solar_Panel.hyp",
+  "preview_url": "generated_previews/solar-panel-1364018550179631196.png",
+  "download_path": "https://raw.githubusercontent.com/madjin/hyperfy-apps/main/v2-hyp/Solar_Panel.hyp",
   "created_at": "2025-04-21T23:22:44.602Z",
   "props": {
     "sky": {
@@ -32,9 +32,9 @@
   },
   "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\napp.configure(() => {\n  return [\n    {\n      key: 'sky',\n      label: 'Sky',\n      type: 'file',\n      kind: 'texture',\n    },\n    {\n      key: 'hdr',\n      label: 'HDR',\n      type: 'file',\n      kind: 'hdr',\n    },\n    {\n      key: 'hour',\n      label: 'Hour',\n      type: 'number',\n      min: 1,\n      max: 12,\n      step: 1,\n      initial: 12,\n      dp: 0,\n    },\n    {\n      key: 'period',\n      label: '',\n      type: 'switch',\n      options: [\n        { value: 'am', label: 'AM' },\n        { value: 'pm', label: 'PM' }\n      ],\n      initial: 'pm'\n    },\n    {\n      key: 'intensity',\n      label: 'Intensity',\n      type: 'number',\n      min: 0,\n      max: 10,\n      step: 0.1,\n      initial: 1,\n      dp: 1,\n    },\n  ]\n})\n\nconst sky = app.create('sky')\n\nsky.bg = app.config.sky?.url\nsky.hdr = app.config.hdr?.url\n\nconst sunDirection = calculateSunDirection(\n  app.config.hour || 12,\n  app.config.period || 'pm'\n)\nsky.sunDirection = sunDirection\n\nsky.sunIntensity = app.config.intensity\n\napp.add(sky)\n\n\nfunction calculateSunDirection(hour, period) {\n  // Convert to 24 hour time\n  let hour24 = hour\n  if (period === 'pm' && hour !== 12) hour24 += 12\n  if (period === 'am' && hour === 12) hour24 = 0\n  // Assuming Vector3(0, -1, 0) is midday (12 PM)\n  // We rotate around the X axis, from -1 up through 1 and back\n  const rotation = ((hour24 - 12) * Math.PI) / 12\n  // At 12 PM: sin = 0, cos = 1 -> (0, -1, 0)\n  // At 6 PM: sin = 1, cos = 0 -> (0, 0, 1)\n  // At 12 AM: sin = 0, cos = -1 -> (0, 1, 0)\n  // At 6 AM: sin = -1, cos = 0 -> (0, 0, -1)\n  return new Vector3(0, -Math.cos(rotation), Math.sin(rotation))\n}\n}\n",
   "asset_files": [
-    "Solar Panel.glb",
-    "Solar Panel__image.png",
     "hdr.hdr",
-    "sky.jpg"
+    "sky.jpg",
+    "solar-panel.glb",
+    "solar-panel__image.png"
   ]
 }

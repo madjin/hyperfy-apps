@@ -17,11 +17,11 @@
   "asset_profile": "medium",
   "script_complexity": "high",
   "networking": "events",
-  "preview_url": "catalog/generated_previews/builder-drone-x501-1356755805017215098.jpg",
-  "download_path": "v2-hyp/Builder_Drone_X501.hyp",
+  "preview_url": "generated_previews/builder-drone-x501-1356755805017215098.jpg",
+  "download_path": "https://raw.githubusercontent.com/madjin/hyperfy-apps/main/v2-hyp/Builder_Drone_X501.hyp",
   "created_at": "2025-04-01T22:23:11.220Z",
   "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\nconst SEND_RATE = 1 / 5\n\nconst v1 = new Vector3()\nconst v2 = new Vector3()\nconst q1 = new Quaternion()\nconst q2 = new Quaternion()\nconst m1 = new Matrix4()\n\nconst body = app.get('RigidBody')\nconst view = app.get('View')\nconst rotors = [\n  app.get('RotorFL'),\n  app.get('RotorFR'),\n  app.get('RotorBR'),\n  app.get('RotorBL'),\n]\n\napp.remove(body)\n\nif (world.isServer) {\n  body.type = 'dynamic'\n  body.position.copy(app.position)\n  body.quaternion.copy(app.quaternion)\n  world.add(body)\n  const state = app.state\n  state.flyer = null\n  state.p = body.position.toArray()\n  state.q = body.quaternion.toArray()\n  state.ready = true\n  world.on('leave', e => {\n    if (state.flyer === e.playerId) {\n      state.flyer = null\n      app.send('flyer', null)\n      body.type = 'dynamic'\n    }\n  })\n  app.on('fly', (_, playerId) => {\n    if (state.flyer) {\n      return app.sendTo(playerId, 'flyer', state.flyer)\n    }\n    state.flyer = playerId\n    app.send('flyer', state.flyer)\n    body.type = state.flyer ? 'kinematic' : 'dynamic'\n  })\n  app.on('change', (change, playerId) => {\n    if (state.flyer !== playerId) return\n    if (change.p) {\n      state.p = change.p\n      body.position.fromArray(state.p)\n    }\n    if (change.q) {\n      state.q = change.q\n      body.quaternion.fromArray(state.q)\n    }\n    app.send('change', change, playerId)\n  })\n  app.on('release', (_, playerId) => {\n    if (state.flyer !== playerId) return\n    state.flyer = null\n    app.send('flyer', null)\n    body.type = 'dynamic'\n  })\n  let lastChange = 0\n  app.on('fixedUpdate', delta => {\n    if (!state.flyer) {\n      lastChange += delta\n      if (lastChange >= SEND_RATE) {\n        lastChange = 0\n        let didChange\n        const change = {}\n        const p = body.position.toArray()\n        if (!isArrayEqual(state.p, p)) {\n          state.p = p\n          change.p = p\n          didChange = true\n        }\n        const q = body.quaternion.toArray()\n        ",
   "asset_files": [
-    "Builder Drone X501.glb"
+    "builder-drone-x501.glb"
   ]
 }

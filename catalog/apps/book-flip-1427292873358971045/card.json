@@ -13,8 +13,8 @@
   "asset_profile": "light",
   "script_complexity": "medium",
   "networking": "none",
-  "preview_url": "catalog/discord/hyp_media/Book_-_Flip_1427292873358971045/p1_knowledge.webp",
-  "download_path": "v2-hyp/Book_-_Flip.hyp",
+  "preview_url": "discord/hyp_media/Book_-_Flip_1427292873358971045/p1_knowledge.webp",
+  "download_path": "https://raw.githubusercontent.com/madjin/hyperfy-apps/main/v2-hyp/Book_-_Flip.hyp",
   "created_at": "2025-10-13T13:52:18.828Z",
   "props": {
     "prompt": "a closed book standing up vertically",
@@ -39,7 +39,7 @@
   },
   "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\n// Remove default block if present\napp.remove(app.get('Block'));\n\n// =================================================================\n// Book Configuration\n// =================================================================\nconst BOOK_CONFIG = {\n  cover: { thickness: 0.004, overhang: 0.006, color: 'red' },\n  page: { width: 0.14, height: 0.22, depth: 0.03, color: '#f6f2df' },\n  spine: { width: 0.012 },\n  epsilon: 0.0001\n};\n\nconst coverWidth = BOOK_CONFIG.page.width + BOOK_CONFIG.cover.overhang * 2;\nconst coverHeight = BOOK_CONFIG.page.height + BOOK_CONFIG.cover.overhang * 2;\nconst centerY = coverHeight / 2;\n\n// Create book group\nconst bookGroup = app.create('group');\n\n// Add page block\nbookGroup.add(app.create('prim', {\n  type: 'box',\n  size: [BOOK_CONFIG.page.width, BOOK_CONFIG.page.height, BOOK_CONFIG.page.depth],\n  color: BOOK_CONFIG.page.color,\n  position: [0, centerY, 0],\n  physics: 'static'\n}));\n\n// Add front and back covers\n[-1, 1].forEach(sign => {\n  bookGroup.add(app.create('prim', {\n    type: 'box',\n    size: [coverWidth, coverHeight, BOOK_CONFIG.cover.thickness],\n    color: BOOK_CONFIG.cover.color,\n    position: [0, centerY, sign * (BOOK_CONFIG.page.depth / 2 + BOOK_CONFIG.cover.thickness / 2 + BOOK_CONFIG.epsilon)],\n    physics: 'static'\n  }));\n});\n\n// Add spine\nbookGroup.add(app.create('prim', {\n  type: 'box',\n  size: [BOOK_CONFIG.spine.width, coverHeight, BOOK_CONFIG.page.depth + BOOK_CONFIG.cover.thickness * 2 + BOOK_CONFIG.epsilon * 2],\n  color: BOOK_CONFIG.cover.color,\n  position: [-(coverWidth / 2) + BOOK_CONFIG.spine.width / 2 + BOOK_CONFIG.epsilon, centerY, 0],\n  physics: 'static'\n}));\n\n// Add book group to app\napp.add(bookGroup);\n\n// =================================================================\n// Flip Mechanic Configuration\n// =================================================================\napp.configure([{\n  key: 'flipEmote',\n  type: 'file',\n  kind: 'emote',\n  label: 'F",
   "asset_files": [
-    "Book - Flip.glb",
+    "book-flip.glb",
     "flipEmote.glb",
     "jumpEmote.glb",
     "rollEmote.glb"

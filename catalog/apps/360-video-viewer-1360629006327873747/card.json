@@ -12,14 +12,14 @@
   "asset_profile": "light",
   "script_complexity": "low",
   "networking": "none",
-  "preview_url": "catalog/discord/hyp_media/360_Video_Viewer_1360629006327873747/p2_image.png",
-  "download_path": "v2-hyp/360_Video_Viewer.hyp",
+  "preview_url": "discord/hyp_media/360_Video_Viewer_1360629006327873747/p2_image.png",
+  "download_path": "https://raw.githubusercontent.com/madjin/hyperfy-apps/main/v2-hyp/360_Video_Viewer.hyp",
   "created_at": "2025-04-12T14:53:54.373Z",
   "props": {
     "video": null
   },
   "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\napp.configure([\n  {\n    key: 'video',\n    type: 'file',\n    kind: 'video',\n    label: 'Video',\n  }\n])\n\nconst src = props.video?.url\n\nif (world.isClient) {\n  const mesh = app.get('Sphere')\n  const video = app.create('video', {\n    src,\n    linked: true,\n    loop: true,\n    aspect: 2 / 1, // 360 videos are generally 2:1\n    geometry: mesh.geometry,\n    cover: true,\n  })\n  // position at same place as mesh\n  // slightly smaller so its \"inside\"\n  video.position.copy(mesh.position)\n  video.quaternion.copy(mesh.quaternion)\n  video.scale.copy(mesh.scale).multiplyScalar(0.99)\n  \n  // disable original mesh\n  // mesh.active = false\n\n  // play!\n  app.add(video)  \n  video.play()\n}\n}\n",
   "asset_files": [
-    "360 Video Viewer.glb"
+    "360-video-viewer.glb"
   ]
 }

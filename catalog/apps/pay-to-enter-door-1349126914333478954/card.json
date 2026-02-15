@@ -16,8 +16,8 @@
   "asset_profile": "medium",
   "script_complexity": "high",
   "networking": "events",
-  "preview_url": "catalog/generated_previews/pay-to-enter-door-1349126914333478954.jpg",
-  "download_path": "v2-hyp/PAY_TO_ENTER_DOOR.hyp",
+  "preview_url": "generated_previews/pay-to-enter-door-1349126914333478954.jpg",
+  "download_path": "https://raw.githubusercontent.com/madjin/hyperfy-apps/main/v2-hyp/PAY_TO_ENTER_DOOR.hyp",
   "created_at": "2025-03-11T21:08:41.943Z",
   "props": {
     "type": "1",
@@ -30,6 +30,6 @@
   },
   "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\n// #region door.js\n// doors in hyperfy\n\nlet isOpen = false\nlet isMoving = false\nlet animationDuration = 1.0 // Duration in seconds\n\n// const config = app.config\n\n// Animation configurations\nconst DOOR_TYPES = {\n  SLIDING: 'sliding',\n  SALOON: 'saloon'\n}\n\n// Add timer constants at the top with other configurations\nconst DOOR_OPEN_TIME = 3.0  // Time in seconds door stays open\n\nconst DOOR_DIRECTIONS = {\n  INWARD: 'inward',\n  OUTWARD: 'outward'\n}\n\nconst doorConfig = {\n  type: DOOR_TYPES.SLIDING,\n  direction: DOOR_DIRECTIONS.OUTWARD, // Change to INWARD for inward-opening doors\n  slideDistance: 1.8,\n  speed: 2,\n  rotationSpeed: Math.PI,\n  maxRotation: Math.PI / 4\n}\n\nlet currentPosition = 0\nlet targetPosition = 0\n\n// Get door components\nconst doorFrame = app.get('Frame')\nconst doorR = app.get('LeftDoor')\nconst doorL = app.get('RightDoor')\n\n// Add timer variable with other state variables\nlet openTimer = 0\n\n\n// Door config ui\napp.configure(() => {\n  return [\n    {\n      key: 'solana',\n      type: 'section',\n      label: 'Solana Settings',\n    },\n    {\n      key: 'price',\n      type: 'number',\n      label: 'Price to Open'\n    },\n    {\n      key: 'network',\n      type: 'switch',\n      label: 'Network',\n      options: [\n        { label: 'mainnet', value: 'mainnet' },\n        { label: 'devnet', value: 'devnet' },\n      ],\n      defaultValue: 'devnet'\n    },\n    {\n      key: 'tokenMintMainnet',\n      type: 'text',\n      label: 'Mainnet Token Mint',\n      defaultValue: '8vBMibwpn8wpfYKbQ9xqzodymg3LjmYec2tSNGRy23K8',\n      placeholder: '8vBMibwpn8wpfYKbQ9xqzodymg3LjmYec2tSNGRy23K8'\n    },\n    {\n      key: 'tokenMintDevnet',\n      type: 'text',\n      label: 'Devnet Token Mint',\n      defaultValue: 'EkxY8gCiyxTfLnZpUvQs6UMSHYykfrUXQj4iQE1X2e41',\n      placeholder: 'EkxY8gCiyxTfLnZpUvQs6UMSHYykfrUXQj4iQE1X2e41'\n    },\n    {\n      key: 'door',\n      type: 'section',\n      label: 'Door Settings',\n    },\n    {\n      ",
   "asset_files": [
-    "PAY TO ENTER DOOR.glb"
+    "pay-to-enter-door.glb"
   ]
 }

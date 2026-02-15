@@ -17,8 +17,8 @@
   "asset_profile": "medium",
   "script_complexity": "high",
   "networking": "events",
-  "preview_url": "catalog/generated_previews/pve-sword-1354082561185288312.png",
-  "download_path": "v2-hyp/PvE_Sword.hyp",
+  "preview_url": "generated_previews/pve-sword-1354082561185288312.png",
+  "download_path": "https://raw.githubusercontent.com/madjin/hyperfy-apps/main/v2-hyp/PvE_Sword.hyp",
   "created_at": "2025-03-25T13:20:40.224Z",
   "props": {
     "attack": {
@@ -37,9 +37,9 @@
   },
   "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\napp.configure([\n  {\n    key: 'attack1',\n    type: 'file',\n    kind: 'emote',\n    label: 'Attack 1'\n  },\n  {\n    key: 'attack2',\n    type: 'file',\n    kind: 'emote',\n    label: 'Attack 2'\n  },\n  {\n    key: 'debug',\n    label: 'Debug',\n    type: 'switch',\n    options: [\n      { label: 'No', value: false },\n      { label: 'Yes', value: true },\n    ],\n    initial: false\n  },\n])\n\nconst forward = new Vector3(0, 0, -1)\nconst v1 = new Vector3()\nconst v2 = new Vector3()\nconst q1 = new Quaternion()\nconst q2 = new Quaternion()\nconst e1 = new Euler(0, 0, 0, 'YXZ')\nconst e2 = new Euler(0, 0, 0, 'YXZ')\nconst arr1 = []\n\nconst MIN_DMG = 20\nconst MAX_DMG = 30\nconst CRIT_CHANCE = 0.3\nconst CRIT_MULTIPLIER = 2\nconst HIT_RADIUS = 0.5\nconst HIT_DISTANCE = 1\n\nconst initialSword = app.get('Sword')\ninitialSword.type = 'kinematic'\nconst initialCollider = app.get('Sword_Collider')\ninitialCollider.trigger = true\n// initialSword.onTriggerEnter = e => {\n//   // console.log('HIT', e.playerId)\n// }\ninitialCollider.layer = 'tool'\n\n\nconst sphere = app.get('Sphere')\nsphere.parent.remove(sphere)\nsphere.scale.setScalar(HIT_RADIUS)\n\nconst src = initialSword.clone(true)\n\nconst debug = props.debug\n\nif (world.isServer) {\n  const overlapLayerMask = world.createLayerMask('environment')\n  const holders = new Map()\n  const state = app.state\n  state.holders = new Set()\n  state.ready = true\n  app.send('state', state)\n  app.on('take', playerId => {\n    if (state.holders.has(playerId)) return\n    const player = world.getPlayer(playerId)\n    if (!player) return\n    state.holders.add(playerId)\n    app.send('addHolder', playerId)\n    const sword = src.clone(true)\n    world.add(sword)\n    holders.set(playerId, { player, sword })\n  })\n  app.on('attack', data => {\n    const { playerId, pos } = data\n    const origin = v1.fromArray(pos)\n    const radius = HIT_RADIUS\n    const hits = world.overlapSphere(radius, origin, overlapLayerMask)\n    for (const hi",
   "asset_files": [
-    "PvE Sword.glb",
     "attack.glb",
     "attack1.glb",
-    "attack2.glb"
+    "attack2.glb",
+    "pve-sword.glb"
   ]
 }

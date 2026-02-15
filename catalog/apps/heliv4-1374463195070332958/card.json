@@ -14,8 +14,8 @@
   "asset_profile": "medium",
   "script_complexity": "medium",
   "networking": "none",
-  "preview_url": "catalog/generated_previews/heliv4-1374463195070332958.jpg",
-  "download_path": "v2-hyp/HELIv4.hyp",
+  "preview_url": "generated_previews/heliv4-1374463195070332958.jpg",
+  "download_path": "https://raw.githubusercontent.com/madjin/hyperfy-apps/main/v2-hyp/HELIv4.hyp",
   "created_at": "2025-05-20T19:06:01.996Z",
   "props": {
     "audio": {

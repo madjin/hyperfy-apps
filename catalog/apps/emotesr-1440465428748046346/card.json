@@ -13,8 +13,8 @@
   "asset_profile": "medium",
   "script_complexity": "medium",
   "networking": "none",
-  "preview_url": "catalog/generated_previews/emotesr-1440465428748046346.jpg",
-  "download_path": "v2-hyp/EmotesR.hyp",
+  "preview_url": "generated_previews/emotesr-1440465428748046346.jpg",
+  "download_path": "https://raw.githubusercontent.com/madjin/hyperfy-apps/main/v2-hyp/EmotesR.hyp",
   "created_at": "2025-11-18T22:15:20.767Z",
   "props": {
     "collision": true,

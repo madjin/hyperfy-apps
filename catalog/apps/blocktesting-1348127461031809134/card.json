@@ -14,8 +14,8 @@
   "asset_profile": "medium",
   "script_complexity": "low",
   "networking": "none",
-  "preview_url": "catalog/generated_previews/blocktesting-1348127461031809134.png",
-  "download_path": "v2-hyp/BlockTesting.hyp",
+  "preview_url": "generated_previews/blocktesting-1348127461031809134.png",
+  "download_path": "https://raw.githubusercontent.com/madjin/hyperfy-apps/main/v2-hyp/BlockTesting.hyp",
   "created_at": "2025-03-09T02:57:13.707Z",
   "props": {
     "block": {

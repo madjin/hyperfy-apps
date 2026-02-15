@@ -12,8 +12,8 @@
   "asset_profile": "light",
   "script_complexity": "low",
   "networking": "none",
-  "preview_url": "catalog/generated_previews/text-link-option-1426147798776152144.png",
-  "download_path": "v2-hyp/Text_link_option.hyp",
+  "preview_url": "generated_previews/text-link-option-1426147798776152144.png",
+  "download_path": "https://raw.githubusercontent.com/madjin/hyperfy-apps/main/v2-hyp/Text_link_option.hyp",
   "created_at": "2025-10-10T10:02:11.773Z",
   "props": {
     "width": 200,
@@ -32,7 +32,7 @@
   },
   "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\napp.configure([\n    {\n      key: 'text',\n      type: 'textarea',\n      label: 'Text',\n    },\n    {\n      key: 'size',\n      type: 'number',\n      label: 'Size',\n      initial: 12,\n    },\n    {\n      key: 'color',\n      type: 'text',\n      label: 'Color',\n      initial: 'white',\n    },\n    {\n      key: 'align',\n      type: 'switch',\n      label: 'Align',\n      options: [\n        { label: 'Left', value: 'left' },\n        { label: 'Center', value: 'center' },\n        { label: 'Right', value: 'right' },\n      ],\n      initial: 'center',\n    },\n    {\n      key: 'canvas',\n      type: 'section',\n      label: 'Canvas'\n    },\n    {\n      key: 'width',\n      type: 'number',\n      label: 'Width',\n      dp: 1,\n      step: 1,\n      bigStep: 10,\n      initial: 100,\n    },\n    {\n      key: 'height',\n      type: 'number',\n      label: 'Height',\n      dp: 1,\n      step: 1,\n      bigStep: 10,\n      initial: 100,\n    },\n    {\n      key: 'bg',\n      type: 'text',\n      label: 'Background',\n      initial: 'black',\n    },\n    {\n      key: 'padding',\n      type: 'number',\n      label: 'Padding',\n      initial: 10,\n    },\n    {\n      key: 'lit',\n      type: 'toggle',\n      label: 'Lit',\n    },\n    {\n      key: 'doubleside',\n      type: 'toggle',\n      label: 'Doubleside',\n    },\n    {\n      key: 'link',\n      type: 'text',\n      label: 'Link URL',\n      initial: '',\n      placeholder: 'optional',\n    },\n  ])\n  app.keepActive = true\n  \n  const text = props.text\n  const size = props.size\n  const color = props.color || 'white'\n  const align = props.align\n  const bg = props.bg\n  const width = props.width\n  const padding = props.padding\n  const height = props.height\n  const lit = props.lit\n  const doubleside = props.doubleside\n  const link = props.link\n  \n  const surface = app.get('Surface')\n  app.remove(surface)\n  \n  const $ui = app.create('ui', {\n    pivot: 'bottom-center',\n    width,\n    height,\n    backgroundColor: bg,\n   ",
   "asset_files": [
-    "Text (link option).glb",
-    "Text (link option)__image.png"
+    "text-link-option-2.glb",
+    "text-link-option-2__image.png"
   ]
 }

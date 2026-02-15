@@ -14,8 +14,8 @@
   "asset_profile": "light",
   "script_complexity": "medium",
   "networking": "none",
-  "preview_url": "catalog/discord/hyp_media/Super_Run_1445419285118976091/p0_super-run.mp4",
-  "download_path": "v2-hyp/Super_Run.hyp",
+  "preview_url": "discord/hyp_media/Super_Run_1445419285118976091/p0_super-run.mp4",
+  "download_path": "https://raw.githubusercontent.com/madjin/hyperfy-apps/main/v2-hyp/Super_Run.hyp",
   "created_at": "2025-12-02T14:20:12.164Z",
   "props": {
     "collision": true,
@@ -35,10 +35,10 @@
   },
   "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\napp.configure([\n  {\n    key: 'superRunEmote',\n    type: 'file',\n    kind: 'emote',\n    label: 'Super Run Emote',\n  },\n])\n\nconst PLAYER_HALF_HEIGHT = 0.8\nconst ACTIVATION_TIME = 1\nconst EXTRA_SPEED = 30\nconst DEACTIVATION_TIME = 0.5\nconst layerMask = world.createLayerMask('environment')\n\nif (world.isClient) {\n  const { superRunEmote } = app.props\n  const player = world.getPlayer()\n  const control = app.control()\n  let runTime = 0\n  let superActive = false\n\n  const tempVec = new Vector3()\n  const tempQuat = new Quaternion()\n  const tempEuler = new Euler(0, 0, 0, 'YXZ')\n\n  function getForwardDirection(outVec) {\n    tempEuler.setFromQuaternion(control.camera.quaternion)\n    tempEuler.x = 0\n    tempEuler.z = 0\n    tempQuat.setFromEuler(tempEuler)\n    return outVec.copy(new Vector3(0, 0, -1)).applyQuaternion(tempQuat)\n  }\n\n  function isGrounded() {\n    if (!player?.position) return true\n    const hit = world.raycast(\n      player.position.clone(),\n      new Vector3(0, -1, 0),\n      PLAYER_HALF_HEIGHT + 0.1,\n      layerMask\n    )\n    return hit !== null && hit.distance <= PLAYER_HALF_HEIGHT + 0.05\n  }\n\n  app.on('update', dt => {\n    const isSprintingForward =\n      control.keyW.down &&\n      ((control.shiftLeft.down && !control.shiftLeft.capture) ||\n        (control.shiftRight.down && !control.shiftRight.capture)) &&\n      isGrounded()\n\n    if (isSprintingForward) {\n      runTime += dt\n      if (runTime >= ACTIVATION_TIME && !superActive) {\n        superActive = true\n        player.applyEffect({\n          emote: superRunEmote?.url || '',\n          duration: null,\n          cancellable: false,\n        })\n      }\n    } else {\n      if (superActive) {\n        player.applyEffect({\n          emote: superRunEmote?.url || '',\n          duration: DEACTIVATION_TIME,\n          cancellable: true,\n        })\n        superActive = false\n      }\n      runTime = 0\n    }\n\n    if (superActive && isSprintingForward) {\n    ",
   "asset_files": [
-    "Super Run.glb",
-    "Super Run__image.png",
     "doubleJumpEmote.glb",
     "flipEmote.glb",
+    "super-run.glb",
+    "super-run__image.png",
     "superRunEmote.glb"
   ]
 }

@@ -102,7 +102,7 @@ function SourceModal({ app, onClose }) {
 
   const lang = activeTab === "script" ? "javascript" : "json";
 
-  const downloadHref = app.download_path ? `../${app.download_path}` : null;
+  const downloadHref = app.download_path || null;
   const dateStr = formatDate(app.created_at);
 
   return html`
@@ -175,14 +175,14 @@ function SourceModal({ app, onClose }) {
 // ---- AppCard ----
 
 function AppCard({ app, onTagClick, onSourceClick }) {
-  const previewSrc = app.preview_url ? `../${app.preview_url}` : null;
-  const downloadHref = app.download_path ? `../${app.download_path}` : null;
+  const previewSrc = app.preview_url || null;
+  const downloadHref = app.download_path || null;
   const dateStr = formatDate(app.created_at);
 
   const hypUrl = useMemo(() => {
     if (!app.download_path) return null;
     try {
-      return new URL(`../${app.download_path}`, window.location.href).href;
+      return new URL(app.download_path, window.location.href).href;
     } catch { return null; }
   }, [app.download_path]);
 

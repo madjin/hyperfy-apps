@@ -12,8 +12,8 @@
   "asset_profile": "light",
   "script_complexity": "low",
   "networking": "none",
-  "preview_url": "catalog/discord/hyp_media/monkey_head_1360004867166437467/m2_image.png",
-  "download_path": "v2-hyp/monkey_head.hyp",
+  "preview_url": "discord/hyp_media/monkey_head_1360004867166437467/m2_image.png",
+  "download_path": "https://raw.githubusercontent.com/madjin/hyperfy-apps/main/v2-hyp/monkey_head.hyp",
   "created_at": "2025-04-10T21:33:48.001Z",
   "props": {
     "jumpButtonImage": {

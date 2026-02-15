@@ -13,14 +13,14 @@
   "asset_profile": "light",
   "script_complexity": "low",
   "networking": "none",
-  "preview_url": "catalog/discord/hyp_media/Cube_1_1355371621468209172/m2_xyz-unlinked-uvscroll.mp4",
-  "download_path": "v2-hyp/Cube_1.hyp",
+  "preview_url": "discord/hyp_media/Cube_1_1355371621468209172/m2_xyz-unlinked-uvscroll.mp4",
+  "download_path": "https://raw.githubusercontent.com/madjin/hyperfy-apps/main/v2-hyp/Cube_1.hyp",
   "created_at": "2025-03-29T02:42:56.145Z",
   "props": {
     "speed": 1.1
   },
   "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\napp.configure([\n  {\n    key: 'speed',\n    type: 'range',\n    label: 'Speed',\n    min: 0,\n    max: 10,\n    step: 0.1,\n  }\n])\n\nconst mesh = app.get('Mesh')\nmesh.linked = false\n\napp.on('update', delta => {\n  mesh.material.textureX += props.speed * delta\n})\n}\n",
   "asset_files": [
-    "Cube 1.glb"
+    "cube-1.glb"
   ]
 }

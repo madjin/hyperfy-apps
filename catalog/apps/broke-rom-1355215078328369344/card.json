@@ -12,15 +12,7 @@
   "asset_profile": "light",
   "script_complexity": "low",
   "networking": "none",
-  "preview_url": "catalog/discord/hyp_media/broke-rom_1355215078328369344/p3_Screenshot_2025-03-28_at_9.28.05_AM.png",
-  "download_path": "v2-hyp/broke-rom.hyp",
-  "created_at": "2025-03-28T16:20:53.352Z",
-  "props": {
-    "rName": "broke",
-    "color": "0.2633"
-  },
-  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\n// =================================================================\n// Config\n// =================================================================\napp.configure([\n  {\n    key: 'rName',\n    type: 'text',\n    label: 'Rom Name',\n  },\n  {\n    key:'color',\n    type: 'dropdown',\n    label: 'Color',\n    options: [\n        {\n            label: 'Red',\n            value: '0.0957',\n        },\n        {\n            label: 'Orange',\n            value: '0',\n        },\n                {\n            label: 'Yellow',\n            value: '0.4824',\n        },\n                {\n            label: 'Green',\n            value: '0.2633',\n        },\n                {\n            label: 'Blue',\n            value: '0.389',\n        },\n                {\n            label: 'Indigo',\n            value: '0.1777',\n        },\n        {\n            label: 'Violet',\n            value: '0.5098',\n        },\n    ],\n    initial: '0',\n  }\n]);\n// =================================================================\n// Material Linking Bug\n// =================================================================\n\nconsole.log(\"-----begin-new-run----\")\n\n// get mesh to move uv's on\nconst mesh = app.get('hyper-rom-orange_mesh')\nconsole.log('root mesh: ', mesh)\n\n// unlink the mesh\nmesh.linked = false\n\n// get mesh after being unlinked\nconst unlinkedMesh = app.get ('hyper-rom-orange_mesh')\nconsole.log ('unlinked mesh: ', unlinkedMesh)\n\n// get material when linked and unlink\nconst matLinked = mesh.material\nconst matUnlinked = unlinkedMesh.material\nconsole.log('mat linked', matLinked)\nconsole.log('mat unlinked', matUnlinked)\n\n// unlink material on linked\nmatLinked.linked = false\nmatUnlinked.linked  = false\n\nconsole.log(matLinked)\n\n// handle y color cases\nif (props.color == 0.1777){\n  // indigo\n  mesh.textureY = 0.0684\n} else if (props.color == 0.0957){\n  // red\n  mesh.textureY = -0.0645\n} else if (props.color == 0.2633){\n  // green\n  mesh.textureY = -0.1772\n",
-  "asset_files": [
-    "broke-rom.glb"
-  ]
+  "preview_url": "discord/hyp_media/broke-rom_1355215078328369344/p3_Screenshot_2025-03-28_at_9.28.05_AM.png",
+  "download_path": "https://raw.githubusercontent.com/madjin/hyperfy-apps/main/v2-hyp/broke-rom.hyp",
+  "created_at": "2025-03-28T16:20:53.352Z"
 }

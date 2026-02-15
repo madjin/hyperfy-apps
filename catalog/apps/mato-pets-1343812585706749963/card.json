@@ -17,8 +17,8 @@
   "asset_profile": "medium",
   "script_complexity": "high",
   "networking": "events",
-  "preview_url": "catalog/discord/hyp_media/Mato_Pets_1343812585706749963/m1_LaunchPartyMP.png",
-  "download_path": "v2-hyp/Mato_Pets.hyp",
+  "preview_url": "discord/hyp_media/Mato_Pets_1343812585706749963/m1_LaunchPartyMP.png",
+  "download_path": "https://raw.githubusercontent.com/madjin/hyperfy-apps/main/v2-hyp/Mato_Pets.hyp",
   "created_at": "2025-02-25T05:11:27.263Z",
   "props": {
     "avoidance_distance": "4",
@@ -40,9 +40,9 @@
   },
   "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\n// -------------------------------------------------------------------\n// Title: Mato Pets\n// Author: MayD524\n// Github: https://github.com/MayD524\n// Date: 2/23/2025\n// Description: Networked pets for hyperfy v2\n// -------------------------------------------------------------------\n\n// -------------------------------------------------------------------\n// CONFIGURATION\n// -------------------------------------------------------------------\napp.configure([\n{\n  key: 'target',\n  label: 'Player Follow Target',\n  type: 'text'\n},\n{\n  key: 'avoidance_distance',\n  label: 'Avoidance Distance',\n  type: 'text',\n  initial: '4'\n},\n{\n  key: 'follow_speed',\n  label: 'Follow Speed',\n  type: 'text',\n  initial: '2.2'\n},\n{\n  key: 'rotation_speed',\n  label: 'Rotation Speed',\n  type: 'text',\n  initial: '2.2'\n},\n{\n  type: 'file',\n  key: 'emote_idle',\n  label: 'Idle Emote',\n  kind: 'emote'\n},\n{\n  type: 'file',\n  key: 'emote_walking',\n  label: 'Walking emote',\n  kind: 'emote',\n},\n{\n  type: 'file',\n  key: 'emote_sitting',\n  label: 'Sitting emote',\n  kind: 'emote'\n}]);\n\n\n\n// -------------------------------------------------------------------\n// CONSTANTS & GLOBALS\n// -------------------------------------------------------------------\nconst NUM_RAYS = 5; // Number of rays to cast\nconst FOV_ANGLE = Math.PI / 4; // 45-degree FOV\nconst BASE_DIRECTION = new Vector3(0, 0, -1); // Default forward direction\nconst SEND_RATE = 1 / 8;\nconst FOLLOW_SPEED = Number.parseFloat(props.follow_speed);\nconst AVOIDANCE_DISTANCE = Number.parseFloat(props.avoidance_distance);\nconst ROTATION_SPEED = Number.parseFloat(props.rotation_speed); // Used to slerp toward the target\nconst STOP_THRESHOLD = 3;\nconst MAX_PLAYER_DISTANCE = 100.0;\n\nconst STUCK_CHECK_INTERVAL = 2.0;\nconst STUCK_THRESHOLD = 0.2;\nconst STUCK_LIMIT = 3;\nlet lastCheckTime = 0;\nlet lastPosition = new Vector3();\nlet stuckCounter = 0;\n\nconst _direction = new Vector3();\nconst _forward =",
   "asset_files": [
-    "Mato Pets.vrm",
     "emote_idle.glb",
     "emote_sitting.glb",
-    "emote_walking.glb"
+    "emote_walking.glb",
+    "mato-pets.vrm"
   ]
 }

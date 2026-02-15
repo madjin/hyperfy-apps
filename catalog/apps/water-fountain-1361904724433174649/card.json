@@ -12,8 +12,8 @@
   "asset_profile": "light",
   "script_complexity": "low",
   "networking": "none",
-  "preview_url": "catalog/discord/hyp_media/Water_Fountain_1361904724433174649/m1_xyz-particle-demos_2_-_edit.mp4",
-  "download_path": "v2-hyp/Water_Fountain.hyp",
+  "preview_url": "discord/hyp_media/Water_Fountain_1361904724433174649/m1_xyz-particle-demos_2_-_edit.mp4",
+  "download_path": "https://raw.githubusercontent.com/madjin/hyperfy-apps/main/v2-hyp/Water_Fountain.hyp",
   "created_at": "2025-04-16T03:23:09.271Z",
   "props": {
     "image": {

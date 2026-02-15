@@ -14,8 +14,8 @@
   "asset_profile": "light",
   "script_complexity": "medium",
   "networking": "none",
-  "preview_url": "catalog/discord/hyp_media/Camera_Trigger_1428031026826842285/m1_IMG_0630.png",
-  "download_path": "v2-hyp/Camera_Trigger.hyp",
+  "preview_url": "discord/hyp_media/Camera_Trigger_1428031026826842285/m1_IMG_0630.png",
+  "download_path": "https://raw.githubusercontent.com/madjin/hyperfy-apps/main/v2-hyp/Camera_Trigger.hyp",
   "created_at": "2025-10-15T14:45:28.329Z",
   "props": {
     "prompt": "a sphere",
@@ -25,6 +25,6 @@
   },
   "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\napp.remove(app.get('Block'))\n\nconst triggerZone = app.create('prim', {\n  type: 'box',\n  size: [1, 0.2, 1], // 10x10x10 meters\n  position: [0, 0, 0], // centered, bottom on ground\n  opacity: 0.3, // semi-transparent\n  color: '#0000ff', // blue when idle\n  physics: 'static',\n  trigger: true, // treat as trigger\n  \n  onTriggerEnter: e => {\n    if (!e.isLocalPlayer) return\n    triggerZone.color = '#ff0000' // red when inside\n    enterTriggerCameraView()\n  },\n  onTriggerLeave: e => {\n    if (!e.isLocalPlayer) return\n    triggerZone.color = '#0000ff' // blue when outside\n    exitTriggerCameraView()\n  }\n})\n\nlet control = null\nconst transitionDuration = 0.5 // seconds\n\nfunction enterTriggerCameraView() {\n  if (world.isClient) {\n    control = app.control()\n    if (!control) return\n    control.camera.write = true\n    const targetPos = new Vector3(5, 5, 5) // high overlook: 5m above, 5m back from center\n    const lookAt = new Vector3(0, 2, 0) // look at trigger center\n    const lookDir = lookAt.clone().sub(targetPos).normalize()\n    const upVector = new Vector3(0, 1, 0)\n    const rotationMatrix = new Matrix4().lookAt(new Vector3(0, 0, 0), lookDir, upVector)\n    const targetRot = new Quaternion().setFromRotationMatrix(rotationMatrix)\n\n    let progress = 0\n    const update = delta => {\n      progress = Math.min(progress + delta / transitionDuration, 1)\n      control.camera.position.lerp(targetPos, progress)\n      control.camera.quaternion.slerp(targetRot, progress)\n      if (progress === 1) app.off('update', update)\n    }\n    app.on('update', update)\n  }\n}\n\nfunction exitTriggerCameraView() {\n  if (world.isClient && control) {\n    const player = world.getPlayer()\n    if (!player) return\n    const startPos = control.camera.position.clone()\n    const targetPos = new Vector3(player.position._x, player.position._y + 1.6, player.position._z) // player eye level\n\n    let progress = 0\n    const update = delta => {\n    ",
   "asset_files": [
-    "Camera Trigger.glb"
+    "camera-trigger.glb"
   ]
 }

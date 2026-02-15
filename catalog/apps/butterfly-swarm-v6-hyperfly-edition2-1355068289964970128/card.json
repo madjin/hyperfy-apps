@@ -14,8 +14,8 @@
   "asset_profile": "medium",
   "script_complexity": "medium",
   "networking": "none",
-  "preview_url": "catalog/discord/hyp_media/Butterfly_Swarm_V6_Hyperfly_edition2_1355068289964970128/p2_1092aa12-4c83-4fd9-bd55-6704eea2f06e.png",
-  "download_path": "v2-hyp/Butterfly_Swarm_V6_Hyperfly_edition2.hyp",
+  "preview_url": "discord/hyp_media/Butterfly_Swarm_V6_Hyperfly_edition2_1355068289964970128/p2_1092aa12-4c83-4fd9-bd55-6704eea2f06e.png",
+  "download_path": "https://raw.githubusercontent.com/madjin/hyperfy-apps/main/v2-hyp/Butterfly_Swarm_V6_Hyperfly_edition2.hyp",
   "created_at": "2025-03-28T06:37:36.279Z",
   "props": {
     "scale": 0.3,

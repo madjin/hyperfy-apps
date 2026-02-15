@@ -12,11 +12,7 @@
   "asset_profile": "light",
   "script_complexity": "medium",
   "networking": "none",
-  "preview_url": "catalog/generated_previews/m2-2-4-beacon-dev-1346629939817877556.jpg",
-  "download_path": "v2-hyp/m2-2-4-beacon-dev.hyp",
-  "created_at": "2025-03-04T23:46:36.827Z",
-  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\napp.configure(() => {\n  return [\n    {\n      type: 'text',\n      key: 'url',\n      label: 'Canonical URL',\n      placeholder: 'The canonical URL of your world.',\n      initial: '',\n    },\n    {\n      type: 'text',\n      key: 'name',\n      label: 'Name',\n      placeholder: 'The name of your world.',\n      initial: '',\n    },\n    {\n      type: 'text',\n      key: 'description',\n      label: 'Description',\n      placeholder: 'The description of your world.',\n      initial: '',\n    },\n    {\n      type: 'image',\n      key: 'image',\n      label: 'Preview Image',\n      placeholder: 'A preview image for your world.',\n      initial: '',\n    },\n    {\n      type: 'tags',\n      key: 'tags',\n      label: 'Tags',\n      placeholder: 'Comma-separated tags for your world.',\n      initial: '',\n    }\n  ]\n})\n\n// Set this to true once you've configured the relevant information below\nconst configured = false;\n\n// The canonical URL to your world\nconst url = \"<YOUR_SITE_URL>\";\n// The name of your world\nconst name = \"<YOUR_WORLD_NAME>\";\n// A description of your world.\nconst description = \"<YOUR_WORLD_DESCRIPTION>\";\n// A preview image of your world\nconst image = \"<YOUR_WORLD_PREVIEW_IMAGE>\";\n// A list of comma-separated keywords about your world (i.e. social,action,puzzle)\nconst tags = \"<comma,separated,keywords>\";\n\n// Relay-specific vars\nconst relay = 'https://relay.zesty.xyz';\nconst sessionId = uuid();\nlet sendHeartbeats = false;\n\n// Initial signal\n(async function() {\n  if (!configured) return;\n\n  try {\n    await fetch(`${relay}/beacon`, {\n      method: 'PUT',\n      body: JSON.stringify({\n        url,\n        name,\n        description,\n        active: true,\n        image,\n        adult: false,\n        tags,\n      }),\n      headers: {\n        'Content-Type': 'application/json'\n      }\n    });\n    sendHeartbeats = true;\n  } catch {\n    console.error(\"Failed to communicate with relay server!\");\n  }\n})()\n\n// Session Heartbeats",
-  "asset_files": [
-    "m2-2-4-beacon-dev.glb"
-  ]
+  "preview_url": "generated_previews/m2-2-4-beacon-dev-1346629939817877556.jpg",
+  "download_path": "https://raw.githubusercontent.com/madjin/hyperfy-apps/main/v2-hyp/m2-2-4-beacon-dev.hyp",
+  "created_at": "2025-03-04T23:46:36.827Z"
 }

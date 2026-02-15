@@ -16,41 +16,7 @@
   "asset_profile": "heavy",
   "script_complexity": "high",
   "networking": "events",
-  "preview_url": "catalog/generated_previews/saori-2-5-trump-agent-1346629939817877556.png",
-  "download_path": "v2-hyp/saori-2-5-trump-agent.hyp",
-  "created_at": "2025-03-04T23:46:36.827Z",
-  "props": {
-    "name": "Trump",
-    "context": "You are standing in a large open grassy field in the middle of the day with a nice blue sky. There is almost nothing else around except the whitehouse which is behind you.\n",
-    "emote0": {
-      "url": "assets/emote0.glb"
-    },
-    "emote": "4",
-    "emote1Name": "wave",
-    "emote1": {
-      "url": "assets/emote1.glb"
-    },
-    "emote2Name": "think",
-    "emote2": {
-      "url": "assets/emote2.glb"
-    },
-    "emote3Name": "cheer",
-    "emote3": {
-      "url": "assets/emote3.glb"
-    },
-    "emote4": {
-      "url": "assets/emote4.glb"
-    },
-    "emote4Name": "explain",
-    "url": ""
-  },
-  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\nconst BUBBLE_TIME = 5\nconst EMOTE_TIME = 2\nconst LOOK_TIME = 5\n\nconst UP = new Vector3(0, 1, 0)\n\nconst v1 = new Vector3()\nconst v2 = new Vector3()\nconst v3 = new Vector3()\nconst q1 = new Quaternion()\nconst q2 = new Quaternion()\nconst m1 = new Matrix4()\n\nconst vrm = app.get('avatar')\n\n// SERVER\n\nif (world.isServer) {\n  // send initial state\n  const state = {\n    ready: true,\n  }\n  app.state = state\n  app.send('state', state)\n  // spawn controller\n  const ctrl = app.create('controller')\n  ctrl.position.copy(app.position)\n  world.add(ctrl)\n  ctrl.quaternion.copy(app.quaternion)\n  ctrl.add(vrm)\n  // read emotes\n  const emoteUrls = {}\n  if (config.emote1Name && config.emote1?.url) {\n    emoteUrls[config.emote1Name] = config.emote1.url\n  }\n  if (config.emote2Name && config.emote2?.url) {\n    emoteUrls[config.emote2Name] = config.emote2.url\n  }\n  if (config.emote3Name && config.emote3?.url) {\n    emoteUrls[config.emote3Name] = config.emote3.url\n  }\n  if (config.emote4Name && config.emote4?.url) {\n    emoteUrls[config.emote4Name] = config.emote4.url\n  }\n  // observe environment\n  let changed = true\n  let notifying = false\n  const info = {\n    world: {\n      id: null, // todo\n      name: null, // todo\n      url: null, // todo\n      context: config.context || 'You are in a virtual world powered by Hyperfy',\n    },\n    you: {\n      id: app.instanceId,\n      name: config.name,\n    },\n    emotes: Object.keys(emoteUrls),\n    triggers: [],\n    events: [],\n  }\n  world.on('enter', player => {\n    info.events.push({\n      type: 'player-enter',\n      playerId: player.entityId,\n    })\n    changed = true\n  })\n  world.on('leave', player => {\n    info.events.push({\n      type: 'player-leave',\n      playerId: player.entityId,\n    })\n    changed = true\n  })\n  world.on('chat', msg => {\n    if (msg.fromId === app.instanceId) return\n    info.events.push({\n      type: 'chat',\n      ...msg,\n    })\n    if (info.events.length > 1",
-  "asset_files": [
-    "emote0.glb",
-    "emote1.glb",
-    "emote2.glb",
-    "emote3.glb",
-    "emote4.glb",
-    "saori-2-5-trump-agent.vrm"
-  ]
+  "preview_url": "generated_previews/saori-2-5-trump-agent-1346629939817877556.png",
+  "download_path": "https://raw.githubusercontent.com/madjin/hyperfy-apps/main/v2-hyp/saori-2-5-trump-agent.hyp",
+  "created_at": "2025-03-04T23:46:36.827Z"
 }
