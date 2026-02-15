@@ -104,6 +104,7 @@ function SourceModal({ app, onClose }) {
 
   const downloadHref = app.download_path || null;
   const dateStr = formatDate(app.created_at);
+  const previewSrc = app.preview_url || null;
 
   return html`
     <div className="modal-overlay" onClick=${(e) => { if (e.target === e.currentTarget) onClose(); }}>
@@ -112,6 +113,14 @@ function SourceModal({ app, onClose }) {
           <h2 className="modal-title">${app.name.replace(/_/g, " ")}</h2>
           <button className="modal-close-btn" onClick=${onClose}>Close</button>
         </div>
+
+        ${previewSrc ? html`
+          <div className="modal-preview">
+            ${app.preview_type === "video"
+              ? html`<video className="modal-preview-media" src=${previewSrc} muted loop autoplay playsinline />`
+              : html`<img className="modal-preview-media" src=${previewSrc} alt=${app.name} />`}
+          </div>
+        ` : null}
 
         <div className="modal-info">
           ${app.description ? html`<p className="modal-desc">${app.description}</p>` : null}
@@ -124,14 +133,11 @@ function SourceModal({ app, onClose }) {
               ${app.tags.map((tag) => html`<span key=${tag} className="modal-info-tag">${tag}</span>`)}
             </div>
           ` : null}
-          <div className="modal-info-actions">
-            ${downloadHref
-              ? html`<a className="modal-download-btn" href=${downloadHref} download=${app.hyp_filename}>Download .hyp</a>`
-              : null}
-            ${downloadHref
-              ? html`<span className="modal-drag-hint">Tip: You can drag the preview image from the card directly into Hyperfy</span>`
-              : null}
-          </div>
+          ${downloadHref
+            ? html`<div className="modal-info-actions">
+                <a className="modal-download-btn" href=${downloadHref} download=${app.hyp_filename}>Download .hyp</a>
+              </div>`
+            : null}
         </div>
 
         ${!loading && card ? html`
@@ -174,7 +180,7 @@ function SourceModal({ app, onClose }) {
 
 // ---- AppCard ----
 
-function AppCard({ app, onTagClick, onSourceClick }) {
+function AppCard({ app, onTagClick, onSourceClick, onAuthorClick }) {
   const previewSrc = app.preview_url || null;
   const downloadHref = app.download_path || null;
   const dateStr = formatDate(app.created_at);
@@ -225,7 +231,7 @@ function AppCard({ app, onTagClick, onSourceClick }) {
         </div>
 
         <div className="card-meta">
-          <span className="card-author">${app.author}</span>
+          <span className="card-author" onClick=${(e) => { e.stopPropagation(); onAuthorClick(app.author); }}>${app.author}</span>
           ${dateStr ? html`<span> · ${dateStr}</span>` : null}
         </div>
 
@@ -363,6 +369,10 @@ function Explorer() {
     setFilterMode("all");
   }, []);
 
+  const onAuthorClick = useCallback((author) => {
+    setQuery(author);
+  }, []);
+
   const filteredApps = useMemo(() => {
     if (!data?.apps) return [];
     const q = query.trim().toLowerCase();
@@ -453,10 +463,6 @@ function Explorer() {
               <span className="stat-label">apps</span>
             </div>
             <div className="stat">
-              <span className="stat-value">${data.counts.with_preview}</span>
-              <span className="stat-label">with preview</span>
-            </div>
-            <div className="stat">
               <span className="stat-value">${Object.keys(data.tag_index).length}</span>
               <span className="stat-label">tags</span>
             </div>
@@ -493,11 +499,6 @@ function Explorer() {
           </select>
 
           <button
-            className=${`filter-btn ${filterMode === "no-preview" ? "active" : ""}`}
-            onClick=${() => setFilterMode(filterMode === "no-preview" ? "all" : "no-preview")}
-          >Missing Preview</button>
-
-          <button
             className=${`filter-btn ${filterMode === "source" ? "active" : ""}`}
             onClick=${() => setFilterMode(filterMode === "source" ? "all" : "source")}
           >With Source</button>
@@ -531,7 +532,7 @@ function Explorer() {
           : html`
               <section className="grid">
                 ${filteredApps.map(
-                  (app) => html`<${AppCard} key=${app.id} app=${app} onTagClick=${onTagToggle} onSourceClick=${setSourceApp} />`
+                  (app) => html`<${AppCard} key=${app.id} app=${app} onTagClick=${onTagToggle} onSourceClick=${setSourceApp} onAuthorClick=${onAuthorClick} />`
                 )}
               </section>
             `}
