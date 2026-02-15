@@ -1,0 +1,27 @@
+{
+  "id": "0hugvnXYUS",
+  "version": 9,
+  "name": "aloe.glb",
+  "image": {
+    "type": "texture",
+    "name": "aloe.jpg",
+    "url": "asset://42816fe9b12043e5ddc4c7d0463d2aa5c74a18ae5c1936d2a743d22d6059e5cc.jpg"
+  },
+  "author": "Akerboom",
+  "url": null,
+  "desc": "Let Aloe Vera plants grow in a defined area, control the amount and the min/max size of the plants.",
+  "model": "asset://a3be9d4ee7178264bf0ef77d80328bef7788adb61e242e47fffc1e432c23e363.glb",
+  "script": "asset://74266ad2d09038084c8ab33517657f72fdff037296090d0adc3835dcf80e2ffe.js",
+  "props": {
+    "clone_count": 100,
+    "area_size": 10,
+    "min_size": 0.2,
+    "max_size": 2,
+    "area_size_x": 1,
+    "area_size_z": 10
+  },
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "unique": false
+}

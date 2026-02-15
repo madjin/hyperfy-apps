@@ -1,0 +1,16 @@
+{
+  "id": "9dMgc7llUs",
+  "version": 3,
+  "name": "eel_add_particles1",
+  "image": null,
+  "author": null,
+  "url": null,
+  "desc": null,
+  "model": "asset://61f91128c02f2adb4f4384accba19b2a4b0be80580e0bf8becb28dd01c05c056.glb",
+  "script": "asset://689197d812d9522bae998c7dcc55c0f0d631c2194a9951183440c8bba6bd0b88.js",
+  "props": {},
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "unique": false
+}

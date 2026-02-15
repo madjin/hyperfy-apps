@@ -1,0 +1,38 @@
+{
+  "id": "$scene",
+  "version": 274,
+  "name": "Alien Planet",
+  "image": null,
+  "author": null,
+  "url": null,
+  "desc": null,
+  "model": "asset://5e6d87532c3c3c29811431e74f68cb458b5c1725496e3d5cdfabccf16f2d43f4.glb",
+  "script": "asset://fb50c3aae07a14b6e944c263d7737d8b678d0bbf0084db1b4a9dbf8e2e7bd017.js",
+  "props": {
+    "hour": 4,
+    "period": "pm",
+    "intensity": 1,
+    "sky": {
+      "type": "texture",
+      "name": "Clear_08_4pm_LDR.2048.webp",
+      "url": "asset://02fc0d6335d6c1442158122b7bd4ae9540c5064c130b3c8a617618a19b3c62eb.webp"
+    },
+    "hdr": {
+      "type": "hdr",
+      "name": "Clear_08_4pm_LDR.hdr",
+      "url": "asset://62db0ffbcea86b5e9ba23fb5da739b160e8abfd3b390235fed5ac436750e1e2e.hdr"
+    },
+    "verticalRotation": 40,
+    "horizontalRotation": 230,
+    "rotationY": 0,
+    "fogNear": 450,
+    "fogFar": 1000,
+    "fogColor": "#00e8ff"
+  },
+  "preload": true,
+  "public": false,
+  "locked": false,
+  "unique": false,
+  "scene": true,
+  "disabled": false
+}

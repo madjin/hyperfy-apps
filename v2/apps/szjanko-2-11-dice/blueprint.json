@@ -1,0 +1,15 @@
+{
+  "id": "TTwsaZwtBc",
+  "version": 26,
+  "name": "dice",
+  "image": null,
+  "author": "szjanko",
+  "url": null,
+  "desc": null,
+  "model": "asset://311af40e321ccade1f2a8722a99e410917af4e8bba79beeb36acf62b4467a1d6.glb",
+  "script": "asset://926d8830c2716bb45ba302bc77f0efdbbcea2df79873faa747cafe7a2724a159.js",
+  "props": {},
+  "preload": false,
+  "public": false,
+  "locked": false
+}

@@ -1,0 +1,68 @@
+{
+  "id": "NuhqGhF0C3",
+  "version": 1,
+  "name": "NPC",
+  "image": null,
+  "author": "",
+  "url": null,
+  "desc": "",
+  "model": "asset://468eaa14d7fdc09b16c775d88253c74c2caa82c4866fb29e23d36779556288c1.vrm",
+  "script": "asset://c98ab8d8eb2024e09b950b5e5d6ed636eabde62c9a4ab8673573e3396350f01a.js",
+  "props": {
+    "emote": {
+      "type": "emote",
+      "name": "sit.glb",
+      "url": "asset://43aa6ecfccf3a111926b31a1865bc5875d22c9c54c7d3ad501aeb829082e7a08.glb"
+    },
+    "avatar": {
+      "type": "avatar",
+      "name": "cloneforce-male.vrm",
+      "url": "asset://268b12ee20dda8564f18e929924f60c164270e122884466908b1ce44d61d92e8.vrm"
+    },
+    "walk": {
+      "type": "emote",
+      "name": "Walking With A Swagger (1).glb",
+      "url": "asset://fb2ffd4513c0ef0fd3018b0454004908e4f6ca913309c0e76bc7f118fd217c83.glb"
+    },
+    "idle": {
+      "type": "emote",
+      "name": "emote-idle.glb",
+      "url": "asset://c56b4f79ae304b31ee0f81ebd66b8f5a906ff508d739bf9deeafe7b68484efbe.glb"
+    },
+    "talk": {
+      "type": "emote",
+      "name": "Looking With Hand Shading Eyes.glb",
+      "url": "asset://07b3242f54f8d99b830605de5dfa0d7a1e8ba34ab3949c0cb2a9cf9f6a8ca4a3.glb"
+    },
+    "run": {
+      "type": "emote",
+      "name": "emote-run.glb",
+      "url": "asset://3e5fc4f1109d342f59583561e21f843235801174052ec403fc32e47683941123.glb"
+    },
+    "refDistance": 5,
+    "maxDistance": 15,
+    "rolloffFactor": 5,
+    "distanceModel": "inverse",
+    "fireAudio": {
+      "type": "audio",
+      "name": "raptordouble.mp3",
+      "url": "asset://9024142f4ec60c732c9bd0af95ea6ad6076d56d6206f86b838ad6f7f7b3ff5d4.mp3"
+    },
+    "playbackRate": 1,
+    "pauseDuration": 2,
+    "raptorAudio": {
+      "type": "audio",
+      "name": "raptordouble.mp3",
+      "url": "asset://9024142f4ec60c732c9bd0af95ea6ad6076d56d6206f86b838ad6f7f7b3ff5d4.mp3"
+    },
+    "detectionRange": 15,
+    "fovAngle": 120,
+    "chasePlayer": true,
+    "followDistance": 3,
+    "memoryDuration": 5
+  },
+  "preload": true,
+  "public": false,
+  "locked": false,
+  "unique": true
+}

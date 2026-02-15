@@ -1,0 +1,33 @@
+{
+  "id": "2lJwUqV4Kb",
+  "version": 2,
+  "name": "Solar Panel",
+  "image": {
+    "type": "texture",
+    "name": "image.png",
+    "url": "asset://a89b198e301f183c89c7d92e9eb29d93cbff452404bb63d994a815b767e4195e.png"
+  },
+  "author": "Ashxn",
+  "desc": "A solar panel that obviously has control over the sky and sun",
+  "model": "asset://d7e74c6afd6bad54bd503971015d04713633afcf2bc536fd6533e639cbed2657.glb",
+  "script": "asset://620cd9175c1631be208b160f0f7203f2ec94bc3160cbf5e52560c25a9c2c0297.js",
+  "props": {
+    "sky": {
+      "type": "texture",
+      "name": "sundown2-4k.jpg",
+      "url": "asset://91a4557e7fe2cc3678f166852f558de98538ecd4e46018ca8c99ba9654adff1d.jpg"
+    },
+    "hdr": {
+      "type": "hdr",
+      "name": "sundown2.hdr",
+      "url": "asset://beed60f0c2b9d1291c12d0ff694763bdcce28e55c9886fc6be75b76ff02cc31b.hdr"
+    },
+    "hour": 3,
+    "period": "pm",
+    "hour2": 9,
+    "intensity": 1
+  },
+  "preload": true,
+  "public": true,
+  "locked": false
+}

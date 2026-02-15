@@ -1,0 +1,26 @@
+{
+  "id": "iSamDN6A6a",
+  "version": 61,
+  "name": "show chart",
+  "image": null,
+  "author": null,
+  "url": null,
+  "desc": null,
+  "model": "asset://3ea999563fe9141b0e0c7b23158594dc7711d8c20b54b2304b1a0b32eecfcda4.glb",
+  "script": "asset://08995e571136e0505d190d1e6ea585a7a7e4f3f2939f82b4ad2efa9122a9a822.js",
+  "props": {
+    "chartUrl": "https://cambrian.rickydata.com/plot_best_categories",
+    "refreshLabel": "Refresh Chart [E]",
+    "refreshRadius": 5,
+    "width": 640,
+    "height": 480,
+    "posX": 0,
+    "posY": 1.7,
+    "posZ": -3,
+    "imageFit": "fill"
+  },
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "unique": false
+}

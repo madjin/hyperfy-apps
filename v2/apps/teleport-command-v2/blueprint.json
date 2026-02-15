@@ -1,0 +1,29 @@
+{
+  "id": "3bFOXKFsvP",
+  "version": 5,
+  "name": "Teleport Command",
+  "image": {
+    "type": "texture",
+    "name": "Model.png",
+    "url": "asset://39ad1b405cbf41a90825dadf0b554f3c3baba634636bb94a1057dd8ec0784c86.png"
+  },
+  "author": "Hyperfy",
+  "url": null,
+  "desc": null,
+  "model": "asset://97fc7289a38b5b49357e6fbd74e7e77fc78493dbb1c0dbc850cb8e9db9fd2530.glb",
+  "script": "asset://e78f34a2ca35a2753b902d7820af57efc655b183f9c09d3c2e4e789deefdce94.js",
+  "props": {
+    "collision": true,
+    "emote": {
+      "type": "emote",
+      "name": "dance2.glb",
+      "url": "asset://9b55dac6a82f41cb61631b3e8c84607dcf0ff9a48d38639bc9c8715fdb15ea55.glb"
+    },
+    "cmd": "home"
+  },
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "unique": false,
+  "disabled": false
+}
