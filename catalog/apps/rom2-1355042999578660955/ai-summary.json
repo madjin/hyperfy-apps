@@ -1,43 +1,20 @@
 {
   "app_id": "rom2-1355042999578660955",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:48:07+00:00",
-  "one_liner": "rom2 displays a customizable ROM name label with color-adjustable mesh texture via a simple UI configuration.",
-  "primary_use_case": "Provides a UI overlay that shows the ROM name and changes mesh texture based on selected color, useful for labeling and visual customization in Hyperfy worlds.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-14T19:46:35+00:00",
+  "description": "A customizable 3D ROM cartridge display with configurable name label and rainbow color selection. Features a UI panel showing the ROM name with adjustable font and background, plus material color shifting via texture coordinate manipulation.",
   "feature_tags": [
     "ui",
-    "configurable",
-    "color",
-    "mesh",
-    "text",
-    "dropdown",
-    "script",
-    "model"
+    "3d-model",
+    "interaction",
+    "animation",
+    "building"
   ],
   "interaction_modes": [
     "ui",
     "passive"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "low",
-  "networking_profile": "none",
-  "preview_recommendation": "Use the provided PNG preview (m3_image.png) as the app thumbnail; consider replacing with a higher\u2011resolution author\u2011specific image for better visual fidelity.",
-  "manifest_quality_notes": [
-    "fallback image used",
-    "author confidence high",
-    "no networking code",
-    "script simple and self\u2011contained",
-    "preview flagged as any_author_fallback"
-  ],
-  "safety_or_runtime_flags": [
-    "media_fallback_any_author"
-  ],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message",
-    "hyp_file",
-    "v2_json",
-    "static_analysis",
-    "docs_snippets"
-  ]
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "none"
 }

@@ -44,6 +44,26 @@
     ],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-14T21:31:18+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "emote_rom_1-1362219850151231579",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:02:15+00:00",
+    "description": "Networked emote ROM enabling 10 configurable avatar animations triggered by numpad keys (0-9), with cross-client synchronization and floating emoji indicators above players.",
+    "feature_tags": [
+      "animation",
+      "multiplayer",
+      "ui",
+      "interaction"
+    ],
+    "interaction_modes": [
+      "action",
+      "ui",
+      "networked"
+    ],
+    "asset_profile": "medium",
+    "script_complexity": "medium",
+    "networking_profile": "events"
+  }
 }

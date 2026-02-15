@@ -1,0 +1,64 @@
+{
+  "name": "Framed_Image_v1.0",
+  "author": "Valiant",
+  "description": "A customizable framed image display app using primitives for the frame structure. Features adjustable dimensions, frame styling with glow effects, backboard options, multiple collider modes, and a disco mode for animated emissive lighting. Non-square images require manual width input.",
+  "tags": [
+    "media-player",
+    "ui",
+    "environment",
+    "animation",
+    "interaction",
+    "building"
+  ],
+  "interaction_modes": [
+    "ui",
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking": "none",
+  "preview_url": "catalog/discord/hyp_media/Framed_Image_v1.0_1434190157220806658/p0_FramedImage.jpg",
+  "download_path": "v2-hyp/Framed_Image_v1.0.hyp",
+  "created_at": "2025-11-01T14:39:39.446Z",
+  "props": {
+    "width": 0,
+    "height": 2,
+    "fit": "cover",
+    "image": null,
+    "transparent": true,
+    "lit": false,
+    "shadows": true,
+    "placeholder": {
+      "type": "image",
+      "url": "assets/placeholder.png"
+    },
+    "frameEnabled": true,
+    "frameThickness": 0.1,
+    "frameDepth": 0.2,
+    "frameInset": 0,
+    "frameZOffset": 0,
+    "frameColor": "#000000",
+    "frameCastShadow": true,
+    "frameReceiveShadow": false,
+    "frameBackboard": true,
+    "collider": true,
+    "colliderDepth": 0.2,
+    "frameGlow": false,
+    "frameGlowIntensity": 40.6,
+    "frameGlowColor": "#B91C1C",
+    "glowOnly": true,
+    "backboardColor": "#000000",
+    "backboardGlow": true,
+    "colliderMode": "both",
+    "panelThin": false,
+    "disco": false,
+    "discoSpeed": 0.2,
+    "discoTarget": "frame"
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\n// Image + Primitive Frame\n// + Frame/Backboard glow\n// + Collider modes: Off, Panel only, Frame only, Both\n// + Z-fighting fix: backboard slightly behind image; image transparency obeys toggle\n// + Collider depth: frame colliders use frameDepth; panel collider can optionally be thin (0.02m)\n// + Auto vertical offset = rim thickness (t) when frame is enabled (keeps bottom bar above ground)\n\napp.configure([\n  { key: 'placeholder', type: 'file', kind: 'image', label: 'Placeholder', hidden: true },\n  { key: 'image', type: 'file', kind: 'image', label: 'Image', hint: 'The image to display.' },\n\n  { key: 'surface', type: 'section', label: 'Surface' },\n  { key: 'width', type: 'number', label: 'Width', dp: 1, step: 0.1, bigStep: 1, initial: 0,\n    hint: '0 = auto from height & aspect' },\n  { key: 'height', type: 'number', label: 'Height', dp: 1, step: 0.1, bigStep: 1, initial: 1,\n    hint: '0 = auto from width & aspect' },\n  { key: 'fit', type: 'switch', label: 'Fit',\n    options: [\n      { label: 'Stretch', value: 'none' },\n      { label: 'Cover',  value: 'cover' },\n      { label: 'Contain',value: 'contain' },\n    ],\n    initial: 'none' },\n  { key: 'transparent', type: 'toggle', label: 'Transparent' },\n  { key: 'lit', type: 'toggle', label: 'Lit' },\n  { key: 'shadows', type: 'toggle', label: 'Shadows' },\n\n  { key: 'frame', type: 'section', label: 'Frame' },\n  { key: 'frameEnabled', type: 'toggle', label: 'Enable Frame', initial: true },\n  { key: 'frameThickness', type: 'number', label: 'Rim Thickness (m)', dp: 3, step: 0.005, bigStep: 0.05, initial: 0.1 },\n  { key: 'frameDepth', type: 'number', label: 'Depth (m)', dp: 3, step: 0.005, bigStep: 0.05, initial: 0.2 },\n  { key: 'frameZOffset', type: 'number', label: 'Z Offset (m)', dp: 3, step: 0.005, bigStep: 0.05, initial: 0.02 },\n  { key: 'frameColor', type: 'color', label: 'Frame Color', initial: '#000000' },\n  { key: 'frameCastShadow', type: 'toggle', la",
+  "asset_files": [
+    "Framed Image v1.0.glb",
+    "Framed Image v1.0__image.png",
+    "placeholder.png"
+  ]
+}

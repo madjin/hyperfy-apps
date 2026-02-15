@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-02-11T01:21:14+00:00",
+  "generated_at": "2026-02-15T07:17:42+00:00",
   "counts": {
     "apps": 179,
     "with_preview": 115,
@@ -15,31 +15,37 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/360_Video_Viewer_1360629006327873747/p2_image.png",
       "manifest_path": "catalog/apps/360-video-viewer-1360629006327873747/manifest.json",
-      "v2_app_dir": "v2/360-video-viewer",
+      "v2_app_dir": "v2/apps/360-video-viewer",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/360-video-viewer-1360629006327873747/ai-summary.json",
       "flags": []
     },
     {
-      "app_id": "360player_mono-1361648804113285242",
-      "app_slug": "360player_mono",
+      "app_id": "360player-mono-1361648804113285242",
+      "app_slug": "360player-mono",
       "app_name": "360Player_Mono",
       "author": "MetaRick",
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/360Player_Mono_1361648804113285242/m5_xyz-particle-spritesheets.mp4",
-      "manifest_path": "catalog/apps/360player_mono-1361648804113285242/manifest.json",
-      "v2_app_dir": "v2/360player_mono",
+      "manifest_path": "catalog/apps/360player-mono-1361648804113285242/manifest.json",
+      "v2_app_dir": "v2/apps/360player-mono",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/360player-mono-1361648804113285242/ai-summary.json",
       "flags": [
         "media_fallback_any_author"
       ]
     },
     {
-      "app_id": "alien_planet-1415309781345894431",
-      "app_slug": "alien_planet",
+      "app_id": "alien-planet-1415309781345894431",
+      "app_slug": "alien-planet",
       "app_name": "Alien_Planet",
       "author": "ash",
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Alien_Planet_1415309781345894431/m4_image.png",
-      "manifest_path": "catalog/apps/alien_planet-1415309781345894431/manifest.json",
-      "v2_app_dir": null,
+      "manifest_path": "catalog/apps/alien-planet-1415309781345894431/manifest.json",
+      "v2_app_dir": "v2/apps/alien-planet",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/alien-planet-1415309781345894431/ai-summary.json",
       "flags": [
         "media_fallback_any_author"
       ]
@@ -52,7 +58,9 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/alleysign-1341753324801626154/manifest.json",
-      "v2_app_dir": "v2/alleysign",
+      "v2_app_dir": "v2/apps/alleysign",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/alleysign-1341753324801626154/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -65,7 +73,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Amanita_1357382776709582919/m2_image.png",
       "manifest_path": "catalog/apps/amanita-1357382776709582919/manifest.json",
-      "v2_app_dir": "v2/amanita",
+      "v2_app_dir": "v2/apps/amanita",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/amanita-1357382776709582919/ai-summary.json",
       "flags": [
         "media_fallback_any_author"
       ]
@@ -78,7 +88,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/anybox_1354967082164424814/p0_image.png",
       "manifest_path": "catalog/apps/anybox-1354967082164424814/manifest.json",
-      "v2_app_dir": "v2/anybox",
+      "v2_app_dir": "v2/apps/anybox",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/anybox-1354967082164424814/ai-summary.json",
       "flags": []
     },
     {
@@ -89,7 +101,9 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/arrayvectorprops-1349553928085180437/manifest.json",
-      "v2_app_dir": "v2/arrayvectorprops",
+      "v2_app_dir": "v2/apps/arrayvectorprops",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/arrayvectorprops-1349553928085180437/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -102,7 +116,9 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/basicmp3player-1459296313840504887/manifest.json",
-      "v2_app_dir": "v2/basicmp3player",
+      "v2_app_dir": "v2/apps/basicmp3player",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/basicmp3player-1459296313840504887/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -115,18 +131,22 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Bats_v1_1354922630544621629/m2_image.png",
       "manifest_path": "catalog/apps/bats-v1-1354922630544621629/manifest.json",
-      "v2_app_dir": "v2/bats-v1",
+      "v2_app_dir": "v2/apps/bats-v1",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/bats-v1-1354922630544621629/ai-summary.json",
       "flags": []
     },
     {
-      "app_id": "bending_leaf_v1-1357269608360448000",
-      "app_slug": "bending_leaf_v1",
+      "app_id": "bending-leaf-v1-1357269608360448000",
+      "app_slug": "bending-leaf-v1",
       "app_name": "bending_leaf_V1",
       "author": "Gert-Jan Akerboom",
       "has_preview": false,
       "primary_preview": null,
-      "manifest_path": "catalog/apps/bending_leaf_v1-1357269608360448000/manifest.json",
-      "v2_app_dir": "v2/bending_leaf_v1",
+      "manifest_path": "catalog/apps/bending-leaf-v1-1357269608360448000/manifest.json",
+      "v2_app_dir": "v2/apps/bending-leaf-v1",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/bending-leaf-v1-1357269608360448000/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -139,7 +159,9 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/blocktesting-1348127461031809134/manifest.json",
-      "v2_app_dir": null,
+      "v2_app_dir": "v2/apps/blocktesting",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/blocktesting-1348127461031809134/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -152,7 +174,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Book_-_Flip_1427292873358971045/p1_knowledge.webp",
       "manifest_path": "catalog/apps/book-flip-1427292873358971045/manifest.json",
-      "v2_app_dir": "v2/book-flip",
+      "v2_app_dir": "v2/apps/book-flip",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/book-flip-1427292873358971045/ai-summary.json",
       "flags": []
     },
     {
@@ -163,7 +187,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Boombox_1459269670980030535/m5_image.png",
       "manifest_path": "catalog/apps/boombox-1459269670980030535/manifest.json",
-      "v2_app_dir": "v2/boombox",
+      "v2_app_dir": "v2/apps/boombox",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/boombox-1459269670980030535/ai-summary.json",
       "flags": [
         "media_fallback_any_author"
       ]
@@ -176,7 +202,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/broke-rom_1355215078328369344/p3_Screenshot_2025-03-28_at_9.28.05_AM.png",
       "manifest_path": "catalog/apps/broke-rom-1355215078328369344/manifest.json",
-      "v2_app_dir": "v2/broke-rom",
+      "v2_app_dir": "v2/apps/broke-rom",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/broke-rom-1355215078328369344/ai-summary.json",
       "flags": [
         "media_fallback_any_author"
       ]
@@ -189,7 +217,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Builder_Drone_1356446200907432129/m2_xyz-builder-drone-x501.mp4",
       "manifest_path": "catalog/apps/builder-drone-1356446200907432129/manifest.json",
-      "v2_app_dir": "v2/builder-drone",
+      "v2_app_dir": "v2/apps/builder-drone",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/builder-drone-1356446200907432129/ai-summary.json",
       "flags": [
         "media_fallback_any_author"
       ]
@@ -202,7 +232,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Builder_Drone_X501_1356441740357406801/p0_xyz-builder-drone-x501.mp4",
       "manifest_path": "catalog/apps/builder-drone-x501-1356441740357406801/manifest.json",
-      "v2_app_dir": "v2/builder-drone-x501",
+      "v2_app_dir": "v2/apps/builder-drone-x501",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/builder-drone-x501-1356441740357406801/ai-summary.json",
       "flags": []
     },
     {
@@ -213,7 +245,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Builder_Drone_X501_1356505487033499729/m2_7BF1F0C5-A1B7-4314-B897-43E2666AB7C8.png",
       "manifest_path": "catalog/apps/builder-drone-x501-1356505487033499729/manifest.json",
-      "v2_app_dir": "v2/builder-drone-x501",
+      "v2_app_dir": "v2/apps/builder-drone-x501",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/builder-drone-x501-1356505487033499729/ai-summary.json",
       "flags": [
         "media_fallback_any_author"
       ]
@@ -226,7 +260,9 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/builder-drone-x501-1356755805017215098/manifest.json",
-      "v2_app_dir": "v2/builder-drone-x501",
+      "v2_app_dir": "v2/apps/builder-drone-x501",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/builder-drone-x501-1356755805017215098/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -239,7 +275,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Butterfly_Swarm_V1_1350129252976168992/p0_5000.png",
       "manifest_path": "catalog/apps/butterfly-swarm-v1-1350129252976168992/manifest.json",
-      "v2_app_dir": "v2/butterfly-swarm-v1",
+      "v2_app_dir": "v2/apps/butterfly-swarm-v1",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/butterfly-swarm-v1-1350129252976168992/ai-summary.json",
       "flags": []
     },
     {
@@ -250,7 +288,9 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/butterfly-swarm-v2a-1349666213617336462/manifest.json",
-      "v2_app_dir": "v2/butterfly-swarm-v2a",
+      "v2_app_dir": "v2/apps/butterfly-swarm-v2a",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/butterfly-swarm-v2a-1349666213617336462/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -263,7 +303,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Butterfly_Swarm_V2a_1350129252976168992/p0_5000.png",
       "manifest_path": "catalog/apps/butterfly-swarm-v2a-1350129252976168992/manifest.json",
-      "v2_app_dir": "v2/butterfly-swarm-v2a",
+      "v2_app_dir": "v2/apps/butterfly-swarm-v2a",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/butterfly-swarm-v2a-1350129252976168992/ai-summary.json",
       "flags": []
     },
     {
@@ -274,7 +316,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Butterfly_Swarm_V3_1350145314677592157/m1_5000.png",
       "manifest_path": "catalog/apps/butterfly-swarm-v3-1350145314677592157/manifest.json",
-      "v2_app_dir": "v2/butterfly-swarm-v3",
+      "v2_app_dir": "v2/apps/butterfly-swarm-v3",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/butterfly-swarm-v3-1350145314677592157/ai-summary.json",
       "flags": []
     },
     {
@@ -285,7 +329,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Butterfly_Swarm_V3_1350145491001802873/m2_5000.png",
       "manifest_path": "catalog/apps/butterfly-swarm-v3-1350145491001802873/manifest.json",
-      "v2_app_dir": "v2/butterfly-swarm-v3",
+      "v2_app_dir": "v2/apps/butterfly-swarm-v3",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/butterfly-swarm-v3-1350145491001802873/ai-summary.json",
       "flags": []
     },
     {
@@ -296,7 +342,9 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/butterfly-swarm-v4-1354099791067611188/manifest.json",
-      "v2_app_dir": "v2/butterfly-swarm-v4",
+      "v2_app_dir": "v2/apps/butterfly-swarm-v4",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/butterfly-swarm-v4-1354099791067611188/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -309,7 +357,9 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/butterfly-swarm-v5-1354102502055743531/manifest.json",
-      "v2_app_dir": "v2/butterfly-swarm-v5",
+      "v2_app_dir": "v2/apps/butterfly-swarm-v5",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/butterfly-swarm-v5-1354102502055743531/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -322,7 +372,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Butterfly_Swarm_V6_1354772253396701385/p3_image.png",
       "manifest_path": "catalog/apps/butterfly-swarm-v6-1354772253396701385/manifest.json",
-      "v2_app_dir": "v2/butterfly-swarm-v6",
+      "v2_app_dir": "v2/apps/butterfly-swarm-v6",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/butterfly-swarm-v6-1354772253396701385/ai-summary.json",
       "flags": [
         "media_fallback_any_author"
       ]
@@ -335,31 +387,37 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Butterfly_Swarm_V6_Hyperfly_edition_1354809216753340639/p1_image.png",
       "manifest_path": "catalog/apps/butterfly-swarm-v6-hyperfly-edition-1354809216753340639/manifest.json",
-      "v2_app_dir": "v2/butterfly-swarm-v6-hyperfly-edition",
+      "v2_app_dir": "v2/apps/butterfly-swarm-v6-hyperfly-edition",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/butterfly-swarm-v6-hyperfly-edition-1354809216753340639/ai-summary.json",
       "flags": [
         "media_fallback_any_author"
       ]
     },
     {
-      "app_id": "butterfly-swarm-v6-hyperfly-edition-2-1355068289964970128",
-      "app_slug": "butterfly-swarm-v6-hyperfly-edition-2",
+      "app_id": "butterfly-swarm-v6-hyperfly-edition2-1355068289964970128",
+      "app_slug": "butterfly-swarm-v6-hyperfly-edition2",
       "app_name": "Butterfly_Swarm_V6_Hyperfly_edition2",
       "author": "Gert-Jan Akerboom",
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Butterfly_Swarm_V6_Hyperfly_edition2_1355068289964970128/p2_1092aa12-4c83-4fd9-bd55-6704eea2f06e.png",
-      "manifest_path": "catalog/apps/butterfly-swarm-v6-hyperfly-edition-2-1355068289964970128/manifest.json",
-      "v2_app_dir": "v2/butterfly-swarm-v6-hyperfly-edition-2",
+      "manifest_path": "catalog/apps/butterfly-swarm-v6-hyperfly-edition2-1355068289964970128/manifest.json",
+      "v2_app_dir": "v2/apps/butterfly-swarm-v6-hyperfly-edition2",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/butterfly-swarm-v6-hyperfly-edition2-1355068289964970128/ai-summary.json",
       "flags": []
     },
     {
-      "app_id": "butterfly_swarm_v6_hyperfly_edition2_bw-1355068613178167366",
-      "app_slug": "butterfly_swarm_v6_hyperfly_edition2_bw",
+      "app_id": "butterfly-swarm-v6-hyperfly-edition2-bw-1355068613178167366",
+      "app_slug": "butterfly-swarm-v6-hyperfly-edition2-bw",
       "app_name": "Butterfly_Swarm_V6_Hyperfly_edition2_BW",
       "author": "Gert-Jan Akerboom",
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Butterfly_Swarm_V6_Hyperfly_edition2_BW_1355068613178167366/p1_1092aa12-4c83-4fd9-bd55-6704eea2f06e.png",
-      "manifest_path": "catalog/apps/butterfly_swarm_v6_hyperfly_edition2_bw-1355068613178167366/manifest.json",
-      "v2_app_dir": null,
+      "manifest_path": "catalog/apps/butterfly-swarm-v6-hyperfly-edition2-bw-1355068613178167366/manifest.json",
+      "v2_app_dir": "v2/apps/butterfly-swarm-v6-hyperfly-edition2-bw",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/butterfly-swarm-v6-hyperfly-edition2-bw-1355068613178167366/ai-summary.json",
       "flags": []
     },
     {
@@ -370,7 +428,9 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/cam-raycast-action-bar-1348748294658195487/manifest.json",
-      "v2_app_dir": "v2/cam-raycast-action-bar",
+      "v2_app_dir": "v2/apps/cam-raycast-action-bar",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/cam-raycast-action-bar-1348748294658195487/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -383,7 +443,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Camera_Trigger_1428031026826842285/m1_IMG_0630.png",
       "manifest_path": "catalog/apps/camera-trigger-1428031026826842285/manifest.json",
-      "v2_app_dir": "v2/camera-trigger",
+      "v2_app_dir": "v2/apps/camera-trigger",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/camera-trigger-1428031026826842285/ai-summary.json",
       "flags": [
         "media_fallback_any_author"
       ]
@@ -396,7 +458,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/CameraLaser_1425737416207110174/p2_cannonballs.mp4",
       "manifest_path": "catalog/apps/camera-laser-1425737416207110174/manifest.json",
-      "v2_app_dir": "v2/camera-laser",
+      "v2_app_dir": "v2/apps/camera-laser",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/camera-laser-1425737416207110174/ai-summary.json",
       "flags": [
         "media_fallback_any_author"
       ]
@@ -409,7 +473,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/CameraManager_1352519146201419816/p0_CameraManagerTest.mp4",
       "manifest_path": "catalog/apps/camera-manager-1352519146201419816/manifest.json",
-      "v2_app_dir": "v2/camera-manager",
+      "v2_app_dir": "v2/apps/camera-manager",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/camera-manager-1352519146201419816/ai-summary.json",
       "flags": []
     },
     {
@@ -420,7 +486,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/CameraManagerTest_1352519146201419816/p0_CameraManagerTest.mp4",
       "manifest_path": "catalog/apps/camera-manager-test-1352519146201419816/manifest.json",
-      "v2_app_dir": "v2/camera-manager-test",
+      "v2_app_dir": "v2/apps/camera-manager-test",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/camera-manager-test-1352519146201419816/ai-summary.json",
       "flags": []
     },
     {
@@ -431,7 +499,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/car1_1353196235074441290/m6_susanequip.png",
       "manifest_path": "catalog/apps/car1-1353196235074441290/manifest.json",
-      "v2_app_dir": "v2/car1",
+      "v2_app_dir": "v2/apps/car1",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/car1-1353196235074441290/ai-summary.json",
       "flags": [
         "media_fallback_any_author"
       ]
@@ -444,7 +514,9 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/car1-v2-1353199999730581585/manifest.json",
-      "v2_app_dir": null,
+      "v2_app_dir": "v2/apps/car1-v2",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/car1-v2-1353199999730581585/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -457,7 +529,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Companion_v8_1354172080924397802/m1_updated_companion.mp4",
       "manifest_path": "catalog/apps/companion-v8-1354172080924397802/manifest.json",
-      "v2_app_dir": "v2/companion-v8",
+      "v2_app_dir": "v2/apps/companion-v8",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/companion-v8-1354172080924397802/ai-summary.json",
       "flags": []
     },
     {
@@ -468,7 +542,9 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/confettt-ppot-1402249836455264277/manifest.json",
-      "v2_app_dir": "v2/confettt-ppot",
+      "v2_app_dir": "v2/apps/confettt-ppot",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/confettt-ppot-1402249836455264277/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -481,7 +557,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Cube_1_1355371621468209172/m2_xyz-unlinked-uvscroll.mp4",
       "manifest_path": "catalog/apps/cube-1-1355371621468209172/manifest.json",
-      "v2_app_dir": "v2/cube-1",
+      "v2_app_dir": "v2/apps/cube-1",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/cube-1-1355371621468209172/ai-summary.json",
       "flags": []
     },
     {
@@ -492,7 +570,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Curved_Video_Viewer_1360630031814230229/p1_image.png",
       "manifest_path": "catalog/apps/curved-video-viewer-1360630031814230229/manifest.json",
-      "v2_app_dir": "v2/curved-video-viewer",
+      "v2_app_dir": "v2/apps/curved-video-viewer",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/curved-video-viewer-1360630031814230229/ai-summary.json",
       "flags": []
     },
     {
@@ -503,20 +583,24 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Curved_Video_Viewer_1363490690339831849/m2_UVscroll.mp4",
       "manifest_path": "catalog/apps/curved-video-viewer-1363490690339831849/manifest.json",
-      "v2_app_dir": "v2/curved-video-viewer",
+      "v2_app_dir": "v2/apps/curved-video-viewer",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/curved-video-viewer-1363490690339831849/ai-summary.json",
       "flags": [
         "media_fallback_any_author"
       ]
     },
     {
-      "app_id": "curvedvid_with_link_input-1363573773185450045",
-      "app_slug": "curvedvid_with_link_input",
+      "app_id": "curvedvid-with-link-input-1363573773185450045",
+      "app_slug": "curvedvid-with-link-input",
       "app_name": "CurvedVid_with_link_input",
       "author": "MetaRick",
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/CurvedVid_with_link_input_1363573773185450045/p1_Desktop_2025.04.20_-_20.18.43.04.mp4",
-      "manifest_path": "catalog/apps/curvedvid_with_link_input-1363573773185450045/manifest.json",
-      "v2_app_dir": null,
+      "manifest_path": "catalog/apps/curvedvid-with-link-input-1363573773185450045/manifest.json",
+      "v2_app_dir": "v2/apps/curvedvid-with-link-input",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/curvedvid-with-link-input-1363573773185450045/ai-summary.json",
       "flags": []
     },
     {
@@ -527,18 +611,22 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/dash_1356968685415301160/m2_image.png",
       "manifest_path": "catalog/apps/dash-1356968685415301160/manifest.json",
-      "v2_app_dir": "v2/dash",
+      "v2_app_dir": "v2/apps/dash",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/dash-1356968685415301160/ai-summary.json",
       "flags": []
     },
     {
-      "app_id": "day_night_weather_current-1364018271719919686",
-      "app_slug": "day_night_weather_current",
+      "app_id": "day-night-weather-current-1364018271719919686",
+      "app_slug": "day-night-weather-current",
       "app_name": "DAY_NIGHT_WEATHER_CURRENT",
       "author": "~/drdoge.eth",
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/DAY_NIGHT_WEATHER_CURRENT_1364018271719919686/m8_IMG_1182.png",
-      "manifest_path": "catalog/apps/day_night_weather_current-1364018271719919686/manifest.json",
-      "v2_app_dir": null,
+      "manifest_path": "catalog/apps/day-night-weather-current-1364018271719919686/manifest.json",
+      "v2_app_dir": "v2/apps/day-night-weather-current",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/day-night-weather-current-1364018271719919686/ai-summary.json",
       "flags": [
         "media_fallback_any_author"
       ]
@@ -551,7 +639,9 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/discord3-1421084209073885294/manifest.json",
-      "v2_app_dir": "v2/discord3",
+      "v2_app_dir": "v2/apps/discord3",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/discord3-1421084209073885294/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -564,57 +654,67 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/eagles-v1-1356075244355457266/manifest.json",
-      "v2_app_dir": "v2/eagles-v1",
+      "v2_app_dir": "v2/apps/eagles-v1",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/eagles-v1-1356075244355457266/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
     },
     {
-      "app_id": "eel_add_particles1-1362421603765325946",
-      "app_slug": "eel_add_particles1",
+      "app_id": "eel-add-particles1-1362421603765325946",
+      "app_slug": "eel-add-particles1",
       "app_name": "eel_add_particles1",
       "author": "Gert-Jan Akerboom",
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/eel_add_particles1_1362421603765325946/m1_eel_add_particles.mp4",
-      "manifest_path": "catalog/apps/eel_add_particles1-1362421603765325946/manifest.json",
-      "v2_app_dir": "v2/eel_add_particles1",
+      "manifest_path": "catalog/apps/eel-add-particles1-1362421603765325946/manifest.json",
+      "v2_app_dir": "v2/apps/eel-add-particles1",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/eel-add-particles1-1362421603765325946/ai-summary.json",
       "flags": []
     },
     {
-      "app_id": "eel_add_particles1_1-1362432359785304154",
-      "app_slug": "eel_add_particles1_1",
+      "app_id": "eel-add-particles1-1-1362432359785304154",
+      "app_slug": "eel-add-particles1-1",
       "app_name": "eel_add_particles1_1",
       "author": "ash",
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/eel_add_particles1_1_1362432359785304154/m5_eel_add_particles.mp4",
-      "manifest_path": "catalog/apps/eel_add_particles1_1-1362432359785304154/manifest.json",
-      "v2_app_dir": null,
+      "manifest_path": "catalog/apps/eel-add-particles1-1-1362432359785304154/manifest.json",
+      "v2_app_dir": "v2/apps/eel-add-particles1-1",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/eel-add-particles1-1-1362432359785304154/ai-summary.json",
       "flags": [
         "media_fallback_any_author"
       ]
     },
     {
-      "app_id": "emote_rom-1361914201701875788",
-      "app_slug": "emote_rom",
+      "app_id": "emote-rom-1361914201701875788",
+      "app_slug": "emote-rom",
       "app_name": "Emote_Rom",
       "author": "HowieDuhzit",
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Emote_Rom_1361914201701875788/p1_xyz-particle-fire-trails.mp4",
-      "manifest_path": "catalog/apps/emote_rom-1361914201701875788/manifest.json",
-      "v2_app_dir": "v2/emote_rom",
+      "manifest_path": "catalog/apps/emote-rom-1361914201701875788/manifest.json",
+      "v2_app_dir": "v2/apps/emote-rom",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/emote-rom-1361914201701875788/ai-summary.json",
       "flags": [
         "media_fallback_any_author"
       ]
     },
     {
-      "app_id": "emote_rom_1-1362219850151231579",
-      "app_slug": "emote_rom_1",
+      "app_id": "emote-rom-1-1362219850151231579",
+      "app_slug": "emote-rom-1",
       "app_name": "Emote_Rom_1",
       "author": "~/drdoge.eth",
       "has_preview": false,
       "primary_preview": null,
-      "manifest_path": "catalog/apps/emote_rom_1-1362219850151231579/manifest.json",
-      "v2_app_dir": null,
+      "manifest_path": "catalog/apps/emote-rom-1-1362219850151231579/manifest.json",
+      "v2_app_dir": "v2/apps/emote-rom-1",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/emote-rom-1-1362219850151231579/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -627,7 +727,9 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/emotesr-1440465428748046346/manifest.json",
-      "v2_app_dir": null,
+      "v2_app_dir": "v2/apps/emotesr",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/emotesr-1440465428748046346/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -640,7 +742,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Explosion_Sprites_1361904724433174649/m1_xyz-particle-demos_2_-_edit.mp4",
       "manifest_path": "catalog/apps/explosion-sprites-1361904724433174649/manifest.json",
-      "v2_app_dir": "v2/explosion-sprites",
+      "v2_app_dir": "v2/apps/explosion-sprites",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/explosion-sprites-1361904724433174649/ai-summary.json",
       "flags": []
     },
     {
@@ -651,7 +755,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Fire_1361904724433174649/m1_xyz-particle-demos_2_-_edit.mp4",
       "manifest_path": "catalog/apps/fire-1361904724433174649/manifest.json",
-      "v2_app_dir": "v2/fire",
+      "v2_app_dir": "v2/apps/fire",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/fire-1361904724433174649/ai-summary.json",
       "flags": []
     },
     {
@@ -662,7 +768,9 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/firsthyp-1364577095313002547/manifest.json",
-      "v2_app_dir": null,
+      "v2_app_dir": "v2/apps/firsthyp",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/firsthyp-1364577095313002547/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -675,7 +783,9 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/firsthypv2-1364604780420272199/manifest.json",
-      "v2_app_dir": null,
+      "v2_app_dir": "v2/apps/firsthypv2",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/firsthypv2-1364604780420272199/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -688,7 +798,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Fog_1361904724433174649/m1_xyz-particle-demos_2_-_edit.mp4",
       "manifest_path": "catalog/apps/fog-1361904724433174649/manifest.json",
-      "v2_app_dir": "v2/fog",
+      "v2_app_dir": "v2/apps/fog",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/fog-1361904724433174649/ai-summary.json",
       "flags": []
     },
     {
@@ -699,7 +811,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Forest_1443613740150034512/m1_forest-gen.mp4",
       "manifest_path": "catalog/apps/forest-1443613740150034512/manifest.json",
-      "v2_app_dir": "v2/forest",
+      "v2_app_dir": "v2/apps/forest",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/forest-1443613740150034512/ai-summary.json",
       "flags": []
     },
     {
@@ -710,20 +824,24 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/forest-1443613865295220818/manifest.json",
-      "v2_app_dir": "v2/forest",
+      "v2_app_dir": "v2/apps/forest",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/forest-1443613865295220818/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
     },
     {
-      "app_id": "framed-image-v1.0-1434190157220806658",
-      "app_slug": "framed-image-v1.0",
+      "app_id": "framed-image-v1-0-1434190157220806658",
+      "app_slug": "framed-image-v1-0",
       "app_name": "Framed_Image_v1.0",
       "author": "Valiant",
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Framed_Image_v1.0_1434190157220806658/p0_FramedImage.jpg",
-      "manifest_path": "catalog/apps/framed-image-v1.0-1434190157220806658/manifest.json",
-      "v2_app_dir": "v2/framed-image-v1.0",
+      "manifest_path": "catalog/apps/framed-image-v1-0-1434190157220806658/manifest.json",
+      "v2_app_dir": "v2/apps/framed-image-v1-0",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/framed-image-v1-0-1434190157220806658/ai-summary.json",
       "flags": []
     },
     {
@@ -734,7 +852,9 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/free-camera-1415049094363086848/manifest.json",
-      "v2_app_dir": "v2/free-camera",
+      "v2_app_dir": "v2/apps/free-camera",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/free-camera-1415049094363086848/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -747,7 +867,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/FTV_1361768826902941913/p0_ww.mp4",
       "manifest_path": "catalog/apps/ftv-1361768826902941913/manifest.json",
-      "v2_app_dir": null,
+      "v2_app_dir": "v2/apps/ftv",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/ftv-1361768826902941913/ai-summary.json",
       "flags": []
     },
     {
@@ -758,7 +880,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Game_Timer_1353704858338984058/p0_timer.mp4",
       "manifest_path": "catalog/apps/game-timer-1353704858338984058/manifest.json",
-      "v2_app_dir": "v2/game-timer",
+      "v2_app_dir": "v2/apps/game-timer",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/game-timer-1353704858338984058/ai-summary.json",
       "flags": []
     },
     {
@@ -769,7 +893,9 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/generate-monstera-v1-1357367597435191527/manifest.json",
-      "v2_app_dir": "v2/generate-monstera-v1",
+      "v2_app_dir": "v2/apps/generate-monstera-v1",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/generate-monstera-v1-1357367597435191527/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -782,7 +908,9 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/gert-2-1-aloe-1346629939817877556/manifest.json",
-      "v2_app_dir": null,
+      "v2_app_dir": "v2/apps/gert-2-1-aloe",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/gert-2-1-aloe-1346629939817877556/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -795,31 +923,37 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Glow_Dust_1361904724433174649/m1_xyz-particle-demos_2_-_edit.mp4",
       "manifest_path": "catalog/apps/glow-dust-1361904724433174649/manifest.json",
-      "v2_app_dir": "v2/glow-dust",
+      "v2_app_dir": "v2/apps/glow-dust",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/glow-dust-1361904724433174649/ai-summary.json",
       "flags": []
     },
     {
-      "app_id": "grass_v1-1359167521789448234",
-      "app_slug": "grass_v1",
+      "app_id": "grass-v1-1359167521789448234",
+      "app_slug": "grass-v1",
       "app_name": "Grass_V1",
       "author": "Gert-Jan Akerboom",
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Grass_V1_1359167521789448234/p4_image.png",
-      "manifest_path": "catalog/apps/grass_v1-1359167521789448234/manifest.json",
-      "v2_app_dir": "v2/grass_v1",
+      "manifest_path": "catalog/apps/grass-v1-1359167521789448234/manifest.json",
+      "v2_app_dir": "v2/apps/grass-v1",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/grass-v1-1359167521789448234/ai-summary.json",
       "flags": [
         "media_fallback_any_author"
       ]
     },
     {
-      "app_id": "grass_v3-1360243980150902917",
-      "app_slug": "grass_v3",
+      "app_id": "grass-v3-1360243980150902917",
+      "app_slug": "grass-v3",
       "app_name": "Grass_V3",
       "author": "Gert-Jan Akerboom",
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Grass_V3_1360243980150902917/m1_Play_-_Google_Chrome_11.04.2025_15_22_23.png",
-      "manifest_path": "catalog/apps/grass_v3-1360243980150902917/manifest.json",
-      "v2_app_dir": "v2/grass_v3",
+      "manifest_path": "catalog/apps/grass-v3-1360243980150902917/manifest.json",
+      "v2_app_dir": "v2/apps/grass-v3",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/grass-v3-1360243980150902917/ai-summary.json",
       "flags": []
     },
     {
@@ -830,7 +964,9 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/grid-floor-v2-1380533380520738816/manifest.json",
-      "v2_app_dir": "v2/grid-floor-v2",
+      "v2_app_dir": "v2/apps/grid-floor-v2",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/grid-floor-v2-1380533380520738816/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -843,7 +979,9 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/groupiev1-1426847075219275808/manifest.json",
-      "v2_app_dir": "v2/groupiev1",
+      "v2_app_dir": "v2/apps/groupiev1",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/groupiev1-1426847075219275808/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -856,7 +994,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Healing_Aura_1361904724433174649/m1_xyz-particle-demos_2_-_edit.mp4",
       "manifest_path": "catalog/apps/healing-aura-1361904724433174649/manifest.json",
-      "v2_app_dir": "v2/healing-aura",
+      "v2_app_dir": "v2/apps/healing-aura",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/healing-aura-1361904724433174649/ai-summary.json",
       "flags": []
     },
     {
@@ -867,7 +1007,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Health_1339121960759721996/p0_vt01.png",
       "manifest_path": "catalog/apps/health-1339121960759721996/manifest.json",
-      "v2_app_dir": "v2/health",
+      "v2_app_dir": "v2/apps/health",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/health-1339121960759721996/ai-summary.json",
       "flags": []
     },
     {
@@ -878,31 +1020,37 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/heliv4-1374463195070332958/manifest.json",
-      "v2_app_dir": null,
+      "v2_app_dir": "v2/apps/heliv4",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/heliv4-1374463195070332958/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
     },
     {
-      "app_id": "hexagonal_test_basic-1355683928421171290",
-      "app_slug": "hexagonal_test_basic",
+      "app_id": "hexagonal-test-basic-1355683928421171290",
+      "app_slug": "hexagonal-test-basic",
       "app_name": "hexagonal_test_basic",
       "author": "cru",
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/hexagonal_test_basic_1355683928421171290/p0_image.png",
-      "manifest_path": "catalog/apps/hexagonal_test_basic-1355683928421171290/manifest.json",
-      "v2_app_dir": null,
+      "manifest_path": "catalog/apps/hexagonal-test-basic-1355683928421171290/manifest.json",
+      "v2_app_dir": "v2/apps/hexagonal-test-basic",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/hexagonal-test-basic-1355683928421171290/ai-summary.json",
       "flags": []
     },
     {
-      "app_id": "hexagonal_test_networked-1355683928421171290",
-      "app_slug": "hexagonal_test_networked",
+      "app_id": "hexagonal-test-networked-1355683928421171290",
+      "app_slug": "hexagonal-test-networked",
       "app_name": "hexagonal_test_networked",
       "author": "cru",
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/hexagonal_test_networked_1355683928421171290/p0_image.png",
-      "manifest_path": "catalog/apps/hexagonal_test_networked-1355683928421171290/manifest.json",
-      "v2_app_dir": null,
+      "manifest_path": "catalog/apps/hexagonal-test-networked-1355683928421171290/manifest.json",
+      "v2_app_dir": "v2/apps/hexagonal-test-networked",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/hexagonal-test-networked-1355683928421171290/ai-summary.json",
       "flags": []
     },
     {
@@ -913,33 +1061,39 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/hover-cursor-test_1402653679030636655/m2_image.png",
       "manifest_path": "catalog/apps/hover-cursor-test-1402653679030636655/manifest.json",
-      "v2_app_dir": "v2/hover-cursor-test",
+      "v2_app_dir": "v2/apps/hover-cursor-test",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/hover-cursor-test-1402653679030636655/ai-summary.json",
       "flags": [
         "media_fallback_any_author"
       ]
     },
     {
-      "app_id": "hp-eliza-2-1-app_1-1346629939817877556",
-      "app_slug": "hp-eliza-2-1-app_1",
+      "app_id": "hp-eliza-2-1-app-1-1346629939817877556",
+      "app_slug": "hp-eliza-2-1-app-1",
       "app_name": "HP-eliza-2-1-app_1",
       "author": "0mka",
       "has_preview": false,
       "primary_preview": null,
-      "manifest_path": "catalog/apps/hp-eliza-2-1-app_1-1346629939817877556/manifest.json",
-      "v2_app_dir": "v2/hp-eliza-2-1-app_1",
+      "manifest_path": "catalog/apps/hp-eliza-2-1-app-1-1346629939817877556/manifest.json",
+      "v2_app_dir": "v2/apps/hp-eliza-2-1-app-1",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/hp-eliza-2-1-app-1-1346629939817877556/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
     },
     {
-      "app_id": "hyperbeacon_v2-1337234426395889747",
-      "app_slug": "hyperbeacon_v2",
+      "app_id": "hyperbeacon-v2-1337234426395889747",
+      "app_slug": "hyperbeacon-v2",
       "app_name": "HyperBeacon_v2",
       "author": "maximus",
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/HyperBeacon_v2_1337234426395889747/m1_spatial_relay_example.png",
-      "manifest_path": "catalog/apps/hyperbeacon_v2-1337234426395889747/manifest.json",
-      "v2_app_dir": null,
+      "manifest_path": "catalog/apps/hyperbeacon-v2-1337234426395889747/manifest.json",
+      "v2_app_dir": "v2/apps/hyperbeacon-v2",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/hyperbeacon-v2-1337234426395889747/ai-summary.json",
       "flags": []
     },
     {
@@ -950,7 +1104,9 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/hyperportal-with-set-1349789440293474304/manifest.json",
-      "v2_app_dir": "v2/hyperportal-with-set",
+      "v2_app_dir": "v2/apps/hyperportal-with-set",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/hyperportal-with-set-1349789440293474304/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -963,20 +1119,24 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/HyperPortal_with_Set_Manual_1352439458317865070/p1_image.png",
       "manifest_path": "catalog/apps/hyperportal-with-set-manual-1352439458317865070/manifest.json",
-      "v2_app_dir": "v2/hyperportal-with-set-manual",
+      "v2_app_dir": "v2/apps/hyperportal-with-set-manual",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/hyperportal-with-set-manual-1352439458317865070/ai-summary.json",
       "flags": [
         "media_fallback_any_author"
       ]
     },
     {
-      "app_id": "jukebox_ui-1354513817861750816",
-      "app_slug": "jukebox_ui",
+      "app_id": "jukebox-ui-1354513817861750816",
+      "app_slug": "jukebox-ui",
       "app_name": "JUKEBOX_UI",
       "author": "~/drdoge.eth",
       "has_preview": false,
       "primary_preview": null,
-      "manifest_path": "catalog/apps/jukebox_ui-1354513817861750816/manifest.json",
-      "v2_app_dir": "v2/jukebox_ui",
+      "manifest_path": "catalog/apps/jukebox-ui-1354513817861750816/manifest.json",
+      "v2_app_dir": "v2/apps/jukebox-ui",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/jukebox-ui-1354513817861750816/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -989,7 +1149,9 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/jumping-frog-1461059470972158002/manifest.json",
-      "v2_app_dir": "v2/jumping-frog",
+      "v2_app_dir": "v2/apps/jumping-frog",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/jumping-frog-1461059470972158002/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -1002,7 +1164,9 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/launchpad-1427685965249515723/manifest.json",
-      "v2_app_dir": "v2/launchpad",
+      "v2_app_dir": "v2/apps/launchpad",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/launchpad-1427685965249515723/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -1015,7 +1179,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Locationator_1363448335117193418/p0_image.png",
       "manifest_path": "catalog/apps/locationator-1363448335117193418/manifest.json",
-      "v2_app_dir": "v2/locationator",
+      "v2_app_dir": "v2/apps/locationator",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/locationator-1363448335117193418/ai-summary.json",
       "flags": []
     },
     {
@@ -1026,7 +1192,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Locationator_1363449445173432493/m1_image.png",
       "manifest_path": "catalog/apps/locationator-1363449445173432493/manifest.json",
-      "v2_app_dir": "v2/locationator",
+      "v2_app_dir": "v2/apps/locationator",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/locationator-1363449445173432493/ai-summary.json",
       "flags": []
     },
     {
@@ -1037,7 +1205,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Loot_1339121960759721996/p0_vt01.png",
       "manifest_path": "catalog/apps/loot-1339121960759721996/manifest.json",
-      "v2_app_dir": "v2/loot",
+      "v2_app_dir": "v2/apps/loot",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/loot-1339121960759721996/ai-summary.json",
       "flags": []
     },
     {
@@ -1048,7 +1218,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Loot-PlanetLava_1339121960759721996/p0_vt01.png",
       "manifest_path": "catalog/apps/loot-planetlava-1339121960759721996/manifest.json",
-      "v2_app_dir": "v2/loot-planetlava",
+      "v2_app_dir": "v2/apps/loot-planetlava",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/loot-planetlava-1339121960759721996/ai-summary.json",
       "flags": []
     },
     {
@@ -1059,7 +1231,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Loot-Ringed_Planet_1339121960759721996/p0_vt01.png",
       "manifest_path": "catalog/apps/loot-ringed-planet-1339121960759721996/manifest.json",
-      "v2_app_dir": "v2/loot-ringed-planet",
+      "v2_app_dir": "v2/apps/loot-ringed-planet",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/loot-ringed-planet-1339121960759721996/ai-summary.json",
       "flags": []
     },
     {
@@ -1070,7 +1244,9 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/m2-2-4-beacon-dev-1346629939817877556/manifest.json",
-      "v2_app_dir": "v2/m2-2-4-beacon-dev",
+      "v2_app_dir": "v2/apps/m2-2-4-beacon-dev",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/m2-2-4-beacon-dev-1346629939817877556/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -1083,18 +1259,22 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Machine_Gun_v8_1355977141862400300/p1_arena_test.mp4",
       "manifest_path": "catalog/apps/machine-gun-v8-1355977141862400300/manifest.json",
-      "v2_app_dir": "v2/machine-gun-v8",
+      "v2_app_dir": "v2/apps/machine-gun-v8",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/machine-gun-v8-1355977141862400300/ai-summary.json",
       "flags": []
     },
     {
-      "app_id": "machine_gun_with_animation-1349513227842879581",
-      "app_slug": "machine_gun_with_animation",
+      "app_id": "machine-gun-with-animation-1349513227842879581",
+      "app_slug": "machine-gun-with-animation",
       "app_name": "Machine_Gun_With_Animation",
       "author": "Saori",
       "has_preview": false,
       "primary_preview": null,
-      "manifest_path": "catalog/apps/machine_gun_with_animation-1349513227842879581/manifest.json",
-      "v2_app_dir": null,
+      "manifest_path": "catalog/apps/machine-gun-with-animation-1349513227842879581/manifest.json",
+      "v2_app_dir": "v2/apps/machine-gun-with-animation",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/machine-gun-with-animation-1349513227842879581/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -1107,7 +1287,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Mato_Pet_v2_1345214513477189663/p2_image.png",
       "manifest_path": "catalog/apps/mato-pet-v2-1345214513477189663/manifest.json",
-      "v2_app_dir": "v2/mato-pet-v2",
+      "v2_app_dir": "v2/apps/mato-pet-v2",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/mato-pet-v2-1345214513477189663/ai-summary.json",
       "flags": [
         "media_fallback_any_author"
       ]
@@ -1120,7 +1302,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Mato_Pets_1343812585706749963/m1_LaunchPartyMP.png",
       "manifest_path": "catalog/apps/mato-pets-1343812585706749963/manifest.json",
-      "v2_app_dir": "v2/mato-pets",
+      "v2_app_dir": "v2/apps/mato-pets",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/mato-pets-1343812585706749963/ai-summary.json",
       "flags": [
         "media_fallback_any_author"
       ]
@@ -1133,7 +1317,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/MINI-Nuke_1354185108835270728/m4_image.png",
       "manifest_path": "catalog/apps/mini-nuke-1354185108835270728/manifest.json",
-      "v2_app_dir": "v2/mini-nuke",
+      "v2_app_dir": "v2/apps/mini-nuke",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/mini-nuke-1354185108835270728/ai-summary.json",
       "flags": [
         "media_fallback_any_author"
       ]
@@ -1146,7 +1332,9 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/mini-nukeportal-1354506347751805090/manifest.json",
-      "v2_app_dir": "v2/mini-nukeportal",
+      "v2_app_dir": "v2/apps/mini-nukeportal",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/mini-nukeportal-1354506347751805090/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -1159,7 +1347,9 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/mini-nukeportal-1357785271864660153/manifest.json",
-      "v2_app_dir": "v2/mini-nukeportal",
+      "v2_app_dir": "v2/apps/mini-nukeportal",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/mini-nukeportal-1357785271864660153/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -1172,7 +1362,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Mob_-_Skelly_1355903733090750595/m6_xyz-skelly.mp4",
       "manifest_path": "catalog/apps/mob-skelly-1355903733090750595/manifest.json",
-      "v2_app_dir": "v2/mob-skelly",
+      "v2_app_dir": "v2/apps/mob-skelly",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/mob-skelly-1355903733090750595/ai-summary.json",
       "flags": [
         "media_fallback_any_author"
       ]
@@ -1185,20 +1377,24 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Model_1353698908353724480/p7_image.png",
       "manifest_path": "catalog/apps/model-1353698908353724480/manifest.json",
-      "v2_app_dir": "v2/model",
+      "v2_app_dir": "v2/apps/model",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/model-1353698908353724480/ai-summary.json",
       "flags": [
         "media_fallback_any_author"
       ]
     },
     {
-      "app_id": "monkey_head-1360004867166437467",
-      "app_slug": "monkey_head",
+      "app_id": "monkey-head-1360004867166437467",
+      "app_slug": "monkey-head",
       "app_name": "monkey_head",
       "author": ".hyp shaman",
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/monkey_head_1360004867166437467/m2_image.png",
-      "manifest_path": "catalog/apps/monkey_head-1360004867166437467/manifest.json",
-      "v2_app_dir": "v2/monkey_head",
+      "manifest_path": "catalog/apps/monkey-head-1360004867166437467/manifest.json",
+      "v2_app_dir": "v2/apps/monkey-head",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/monkey-head-1360004867166437467/ai-summary.json",
       "flags": []
     },
     {
@@ -1209,7 +1405,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/MoonJump_1406524288625807451/p1_image.png",
       "manifest_path": "catalog/apps/moonjump-1406524288625807451/manifest.json",
-      "v2_app_dir": "v2/moonjump",
+      "v2_app_dir": "v2/apps/moonjump",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/moonjump-1406524288625807451/ai-summary.json",
       "flags": [
         "media_fallback_any_author"
       ]
@@ -1222,31 +1420,37 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/n1-n1-05-1354230335344480448/manifest.json",
-      "v2_app_dir": "v2/n1-n1-05",
+      "v2_app_dir": "v2/apps/n1-n1-05",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/n1-n1-05-1354230335344480448/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
     },
     {
-      "app_id": "neon_1-1369282194895274065",
-      "app_slug": "neon_1",
+      "app_id": "neon-1-1369282194895274065",
+      "app_slug": "neon-1",
       "app_name": "NEON_1",
       "author": "Gert-Jan Akerboom",
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/NEON_1_1369282194895274065/p1_NEON.mp4",
-      "manifest_path": "catalog/apps/neon_1-1369282194895274065/manifest.json",
-      "v2_app_dir": "v2/neon_1",
+      "manifest_path": "catalog/apps/neon-1-1369282194895274065/manifest.json",
+      "v2_app_dir": "v2/apps/neon-1",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/neon-1-1369282194895274065/ai-summary.json",
       "flags": []
     },
     {
-      "app_id": "neon_2-1369292993667928145",
-      "app_slug": "neon_2",
+      "app_id": "neon-2-1369292993667928145",
+      "app_slug": "neon-2",
       "app_name": "NEON_2",
       "author": "Gert-Jan Akerboom",
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/NEON_2_1369292993667928145/m3_NEON.mp4",
-      "manifest_path": "catalog/apps/neon_2-1369292993667928145/manifest.json",
-      "v2_app_dir": "v2/neon_2",
+      "manifest_path": "catalog/apps/neon-2-1369292993667928145/manifest.json",
+      "v2_app_dir": "v2/apps/neon-2",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/neon-2-1369292993667928145/ai-summary.json",
       "flags": [
         "media_fallback_any_author"
       ]
@@ -1259,7 +1463,9 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/networked-grabbable-1349221803263922257/manifest.json",
-      "v2_app_dir": "v2/networked-grabbable",
+      "v2_app_dir": "v2/apps/networked-grabbable",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/networked-grabbable-1349221803263922257/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -1272,44 +1478,52 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/notifications-1376587859414356008/manifest.json",
-      "v2_app_dir": "v2/notifications",
+      "v2_app_dir": "v2/apps/notifications",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/notifications-1376587859414356008/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
     },
     {
-      "app_id": "npc_10-1354082561185288312",
-      "app_slug": "npc_10",
+      "app_id": "npc-10-1354082561185288312",
+      "app_slug": "npc-10",
       "app_name": "NPC_10",
       "author": "peezy",
       "has_preview": false,
       "primary_preview": null,
-      "manifest_path": "catalog/apps/npc_10-1354082561185288312/manifest.json",
-      "v2_app_dir": null,
+      "manifest_path": "catalog/apps/npc-10-1354082561185288312/manifest.json",
+      "v2_app_dir": "v2/apps/npc-10",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/npc-10-1354082561185288312/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
     },
     {
-      "app_id": "npc_9-1354068129944174592",
-      "app_slug": "npc_9",
+      "app_id": "npc-9-1354068129944174592",
+      "app_slug": "npc-9",
       "app_name": "NPC_9",
       "author": "peezy",
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/NPC_9_1354068129944174592/p2_image.png",
-      "manifest_path": "catalog/apps/npc_9-1354068129944174592/manifest.json",
-      "v2_app_dir": null,
+      "manifest_path": "catalog/apps/npc-9-1354068129944174592/manifest.json",
+      "v2_app_dir": "v2/apps/npc-9",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/npc-9-1354068129944174592/ai-summary.json",
       "flags": []
     },
     {
-      "app_id": "npc_prisoner-1426847075219275808",
-      "app_slug": "npc_prisoner",
+      "app_id": "npc-prisoner-1426847075219275808",
+      "app_slug": "npc-prisoner",
       "app_name": "NPC_Prisoner",
       "author": "b34k3r",
       "has_preview": false,
       "primary_preview": null,
-      "manifest_path": "catalog/apps/npc_prisoner-1426847075219275808/manifest.json",
-      "v2_app_dir": "v2/npc_prisoner",
+      "manifest_path": "catalog/apps/npc-prisoner-1426847075219275808/manifest.json",
+      "v2_app_dir": "v2/apps/npc-prisoner",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/npc-prisoner-1426847075219275808/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -1322,7 +1536,9 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/pay-to-enter-door-1349126914333478954/manifest.json",
-      "v2_app_dir": "v2/pay-to-enter-door",
+      "v2_app_dir": "v2/apps/pay-to-enter-door",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/pay-to-enter-door-1349126914333478954/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -1335,7 +1551,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Physics_-_Contacts_Tags_1354299208894648330/p0_xyz-physics-contacts--tags.mp4",
       "manifest_path": "catalog/apps/physics-contacts-tags-1354299208894648330/manifest.json",
-      "v2_app_dir": "v2/physics-contacts-tags",
+      "v2_app_dir": "v2/apps/physics-contacts-tags",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/physics-contacts-tags-1354299208894648330/ai-summary.json",
       "flags": []
     },
     {
@@ -1346,7 +1564,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Physics_-_Raycast_Tags_1354315974823776286/p0_xyz-physics-raycast-tags.mp4",
       "manifest_path": "catalog/apps/physics-raycast-tags-1354315974823776286/manifest.json",
-      "v2_app_dir": "v2/physics-raycast-tags",
+      "v2_app_dir": "v2/apps/physics-raycast-tags",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/physics-raycast-tags-1354315974823776286/ai-summary.json",
       "flags": []
     },
     {
@@ -1357,7 +1577,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Physics_-_Triggers_Tags_1354303006505435206/p0_xyz-physics-triggers--tags.mp4",
       "manifest_path": "catalog/apps/physics-triggers-tags-1354303006505435206/manifest.json",
-      "v2_app_dir": "v2/physics-triggers-tags",
+      "v2_app_dir": "v2/apps/physics-triggers-tags",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/physics-triggers-tags-1354303006505435206/ai-summary.json",
       "flags": []
     },
     {
@@ -1368,7 +1590,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/PingScriptFORcompanion_1354172080924397802/m1_updated_companion.mp4",
       "manifest_path": "catalog/apps/pingscriptforcompanion-1354172080924397802/manifest.json",
-      "v2_app_dir": "v2/pingscriptforcompanion",
+      "v2_app_dir": "v2/apps/pingscriptforcompanion",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/pingscriptforcompanion-1354172080924397802/ai-summary.json",
       "flags": []
     },
     {
@@ -1379,7 +1603,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Platforms_1437886474681979002/m2_image.png",
       "manifest_path": "catalog/apps/platforms-1437886474681979002/manifest.json",
-      "v2_app_dir": "v2/platforms",
+      "v2_app_dir": "v2/apps/platforms",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/platforms-1437886474681979002/ai-summary.json",
       "flags": [
         "media_fallback_any_author"
       ]
@@ -1392,7 +1618,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Player_Transforms_1425752169482551389/p0_player_transforms.mp4",
       "manifest_path": "catalog/apps/player-transforms-1425752169482551389/manifest.json",
-      "v2_app_dir": "v2/player-transforms",
+      "v2_app_dir": "v2/apps/player-transforms",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/player-transforms-1425752169482551389/ai-summary.json",
       "flags": []
     },
     {
@@ -1403,7 +1631,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/PlayerTag-UInew_1355704776373043221/p1_2025-03-29_21-41-34.mp4",
       "manifest_path": "catalog/apps/playertag-uinew-1355704776373043221/manifest.json",
-      "v2_app_dir": "v2/playertag-uinew",
+      "v2_app_dir": "v2/apps/playertag-uinew",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/playertag-uinew-1355704776373043221/ai-summary.json",
       "flags": [
         "media_fallback_any_author"
       ]
@@ -1416,7 +1646,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/position_1398154516133839002/p1_xyz-temp.mp4",
       "manifest_path": "catalog/apps/position-1398154516133839002/manifest.json",
-      "v2_app_dir": "v2/position",
+      "v2_app_dir": "v2/apps/position",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/position-1398154516133839002/ai-summary.json",
       "flags": [
         "media_fallback_any_author"
       ]
@@ -1429,7 +1661,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Prism_1355903733090750595/m6_xyz-skelly.mp4",
       "manifest_path": "catalog/apps/prism-1355903733090750595/manifest.json",
-      "v2_app_dir": "v2/prism",
+      "v2_app_dir": "v2/apps/prism",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/prism-1355903733090750595/ai-summary.json",
       "flags": [
         "media_fallback_any_author"
       ]
@@ -1442,7 +1676,9 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/pve-sword-1354082561185288312/manifest.json",
-      "v2_app_dir": "v2/pve-sword",
+      "v2_app_dir": "v2/apps/pve-sword",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/pve-sword-1354082561185288312/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -1455,7 +1691,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/PvP_Core_with_spawns_1355236590603075706/m2_image.png",
       "manifest_path": "catalog/apps/pvp-core-with-spawns-1355236590603075706/manifest.json",
-      "v2_app_dir": "v2/pvp-core-with-spawns",
+      "v2_app_dir": "v2/apps/pvp-core-with-spawns",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/pvp-core-with-spawns-1355236590603075706/ai-summary.json",
       "flags": []
     },
     {
@@ -1466,7 +1704,9 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/pvpblasterlatest-1354225264028291292/manifest.json",
-      "v2_app_dir": "v2/pvpblasterlatest",
+      "v2_app_dir": "v2/apps/pvpblasterlatest",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/pvpblasterlatest-1354225264028291292/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -1479,7 +1719,9 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/questitembasic-1396392921833410642/manifest.json",
-      "v2_app_dir": "v2/questitembasic",
+      "v2_app_dir": "v2/apps/questitembasic",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/questitembasic-1396392921833410642/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -1492,7 +1734,9 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/questitemui-1396392921833410642/manifest.json",
-      "v2_app_dir": "v2/questitemui",
+      "v2_app_dir": "v2/apps/questitemui",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/questitemui-1396392921833410642/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -1505,7 +1749,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Rain_1361904724433174649/m1_xyz-particle-demos_2_-_edit.mp4",
       "manifest_path": "catalog/apps/rain-1361904724433174649/manifest.json",
-      "v2_app_dir": "v2/rain",
+      "v2_app_dir": "v2/apps/rain",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/rain-1361904724433174649/ai-summary.json",
       "flags": []
     },
     {
@@ -1516,7 +1762,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/RainV3_1359812146199920650/m1_rainV3.mp4",
       "manifest_path": "catalog/apps/rainv3-1359812146199920650/manifest.json",
-      "v2_app_dir": "v2/rainv3",
+      "v2_app_dir": "v2/apps/rainv3",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/rainv3-1359812146199920650/ai-summary.json",
       "flags": []
     },
     {
@@ -1527,7 +1775,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/RainV3_1359821051999158272/m1_image.png",
       "manifest_path": "catalog/apps/rainv3-1359821051999158272/manifest.json",
-      "v2_app_dir": "v2/rainv3",
+      "v2_app_dir": "v2/apps/rainv3",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/rainv3-1359821051999158272/ai-summary.json",
       "flags": [
         "media_fallback_any_author"
       ]
@@ -1540,7 +1790,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/RainV4_1359839641754275921/m2_image.png",
       "manifest_path": "catalog/apps/rainv4-1359839641754275921/manifest.json",
-      "v2_app_dir": "v2/rainv4",
+      "v2_app_dir": "v2/apps/rainv4",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/rainv4-1359839641754275921/ai-summary.json",
       "flags": [
         "media_fallback_any_author"
       ]
@@ -1553,20 +1805,24 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/RainV4_1359841759248646274/m2_image.png",
       "manifest_path": "catalog/apps/rainv4-1359841759248646274/manifest.json",
-      "v2_app_dir": "v2/rainv4",
+      "v2_app_dir": "v2/apps/rainv4",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/rainv4-1359841759248646274/ai-summary.json",
       "flags": [
         "media_fallback_any_author"
       ]
     },
     {
-      "app_id": "raptor_random_loc-1364946963270991875",
-      "app_slug": "raptor_random_loc",
+      "app_id": "raptor-random-loc-1364946963270991875",
+      "app_slug": "raptor-random-loc",
       "app_name": "Raptor_random_loc",
       "author": "Gert-Jan Akerboom",
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Raptor_random_loc_1364946963270991875/p1_World_-_Google_Chrome_24.04.2025_14_53_08.png",
-      "manifest_path": "catalog/apps/raptor_random_loc-1364946963270991875/manifest.json",
-      "v2_app_dir": "v2/raptor_random_loc",
+      "manifest_path": "catalog/apps/raptor-random-loc-1364946963270991875/manifest.json",
+      "v2_app_dir": "v2/apps/raptor-random-loc",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/raptor-random-loc-1364946963270991875/ai-summary.json",
       "flags": []
     },
     {
@@ -1577,20 +1833,24 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/raycaster-1348748103104331778/manifest.json",
-      "v2_app_dir": "v2/raycaster",
+      "v2_app_dir": "v2/apps/raycaster",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/raycaster-1348748103104331778/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
     },
     {
-      "app_id": "ricky-3-2-show_chart-1346629939817877556",
-      "app_slug": "ricky-3-2-show_chart",
+      "app_id": "ricky-3-2-show-chart-1346629939817877556",
+      "app_slug": "ricky-3-2-show-chart",
       "app_name": "Ricky-3-2-show_chart",
       "author": "0mka",
       "has_preview": false,
       "primary_preview": null,
-      "manifest_path": "catalog/apps/ricky-3-2-show_chart-1346629939817877556/manifest.json",
-      "v2_app_dir": null,
+      "manifest_path": "catalog/apps/ricky-3-2-show-chart-1346629939817877556/manifest.json",
+      "v2_app_dir": "v2/apps/ricky-3-2-show-chart",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/ricky-3-2-show-chart-1346629939817877556/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -1603,7 +1863,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Rocket_Launcher_V3_1364972260766646293/m1_World_-_Google_Chrome_24.04.2025_14_53_08.png",
       "manifest_path": "catalog/apps/rocket-launcher-v3-1364972260766646293/manifest.json",
-      "v2_app_dir": "v2/rocket-launcher-v3",
+      "v2_app_dir": "v2/apps/rocket-launcher-v3",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/rocket-launcher-v3-1364972260766646293/ai-summary.json",
       "flags": []
     },
     {
@@ -1614,7 +1876,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/RocketGlobalColl_1398290694413746278/p1_image.png",
       "manifest_path": "catalog/apps/rocket-global-coll-1398290694413746278/manifest.json",
-      "v2_app_dir": "v2/rocket-global-coll",
+      "v2_app_dir": "v2/apps/rocket-global-coll",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/rocket-global-coll-1398290694413746278/ai-summary.json",
       "flags": [
         "media_fallback_any_author"
       ]
@@ -1627,7 +1891,9 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/rocket-global-coll-1437796842313355295/manifest.json",
-      "v2_app_dir": "v2/rocket-global-coll",
+      "v2_app_dir": "v2/apps/rocket-global-coll",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/rocket-global-coll-1437796842313355295/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -1640,7 +1906,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/rom2_1355042999578660955/m3_image.png",
       "manifest_path": "catalog/apps/rom2-1355042999578660955/manifest.json",
-      "v2_app_dir": "v2/rom2",
+      "v2_app_dir": "v2/apps/rom2",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/rom2-1355042999578660955/ai-summary.json",
       "flags": [
         "media_fallback_any_author"
       ]
@@ -1653,7 +1921,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Rover-LavaCargo_1339121960759721996/p0_vt01.png",
       "manifest_path": "catalog/apps/rover-lavacargo-1339121960759721996/manifest.json",
-      "v2_app_dir": "v2/rover-lavacargo",
+      "v2_app_dir": "v2/apps/rover-lavacargo",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/rover-lavacargo-1339121960759721996/ai-summary.json",
       "flags": []
     },
     {
@@ -1664,18 +1934,22 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Rover-RingedPlanet_1339121960759721996/p0_vt01.png",
       "manifest_path": "catalog/apps/rover-ringedplanet-1339121960759721996/manifest.json",
-      "v2_app_dir": "v2/rover-ringedplanet",
+      "v2_app_dir": "v2/apps/rover-ringedplanet",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/rover-ringedplanet-1339121960759721996/ai-summary.json",
       "flags": []
     },
     {
-      "app_id": "rover.2.11-1339121960759721996",
-      "app_slug": "rover.2.11",
+      "app_id": "rover-2-11-1339121960759721996",
+      "app_slug": "rover-2-11",
       "app_name": "Rover.2.11",
       "author": "maximus",
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Rover.2.11_1339121960759721996/p0_vt01.png",
-      "manifest_path": "catalog/apps/rover.2.11-1339121960759721996/manifest.json",
-      "v2_app_dir": null,
+      "manifest_path": "catalog/apps/rover-2-11-1339121960759721996/manifest.json",
+      "v2_app_dir": "v2/apps/rover-2-11",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/rover-2-11-1339121960759721996/ai-summary.json",
       "flags": []
     },
     {
@@ -1686,7 +1960,9 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/saori-2-5-trump-agent-1346629939817877556/manifest.json",
-      "v2_app_dir": "v2/saori-2-5-trump-agent",
+      "v2_app_dir": "v2/apps/saori-2-5-trump-agent",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/saori-2-5-trump-agent-1346629939817877556/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -1699,7 +1975,9 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/screen-1361324085598228530/manifest.json",
-      "v2_app_dir": "v2/screen",
+      "v2_app_dir": "v2/apps/screen",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/screen-1361324085598228530/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -1712,7 +1990,9 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/screen-ui-link-section-1385257861852168192/manifest.json",
-      "v2_app_dir": "v2/screen-ui-link-section",
+      "v2_app_dir": "v2/apps/screen-ui-link-section",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/screen-ui-link-section-1385257861852168192/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -1725,31 +2005,37 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/seat-v2-1391991885559631884/manifest.json",
-      "v2_app_dir": "v2/seat-v2",
+      "v2_app_dir": "v2/apps/seat-v2",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/seat-v2-1391991885559631884/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
     },
     {
-      "app_id": "simonsays_screen-1354675175769243730",
-      "app_slug": "simonsays_screen",
+      "app_id": "simonsays-screen-1354675175769243730",
+      "app_slug": "simonsays-screen",
       "app_name": "SimonSays_Screen",
       "author": "cru",
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/SimonSays_Screen_1354675175769243730/p0_2025-03-27_00-21-03_1.mp4",
-      "manifest_path": "catalog/apps/simonsays_screen-1354675175769243730/manifest.json",
-      "v2_app_dir": "v2/simonsays_screen",
+      "manifest_path": "catalog/apps/simonsays-screen-1354675175769243730/manifest.json",
+      "v2_app_dir": "v2/apps/simonsays-screen",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/simonsays-screen-1354675175769243730/ai-summary.json",
       "flags": []
     },
     {
-      "app_id": "simonsays_screen-2-1355352717488296077",
-      "app_slug": "simonsays_screen-2",
+      "app_id": "simonsays-screen-2-1355352717488296077",
+      "app_slug": "simonsays-screen-2",
       "app_name": "SimonSays_Screen_2",
       "author": "cru",
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/SimonSays_Screen_2_1355352717488296077/p0_2025-03-28_21-20-07.mp4",
-      "manifest_path": "catalog/apps/simonsays_screen-2-1355352717488296077/manifest.json",
-      "v2_app_dir": "v2/simonsays_screen-2",
+      "manifest_path": "catalog/apps/simonsays-screen-2-1355352717488296077/manifest.json",
+      "v2_app_dir": "v2/apps/simonsays-screen-2",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/simonsays-screen-2-1355352717488296077/ai-summary.json",
       "flags": []
     },
     {
@@ -1760,7 +2046,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/SimonSaysBoard_1354675175769243730/p0_2025-03-27_00-21-03_1.mp4",
       "manifest_path": "catalog/apps/simonsaysboard-1354675175769243730/manifest.json",
-      "v2_app_dir": "v2/simonsaysboard",
+      "v2_app_dir": "v2/apps/simonsaysboard",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/simonsaysboard-1354675175769243730/ai-summary.json",
       "flags": []
     },
     {
@@ -1771,7 +2059,9 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/sit-1351223744022183987/manifest.json",
-      "v2_app_dir": null,
+      "v2_app_dir": "v2/apps/sit",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/sit-1351223744022183987/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -1784,7 +2074,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Smoke_1361904724433174649/m1_xyz-particle-demos_2_-_edit.mp4",
       "manifest_path": "catalog/apps/smoke-1361904724433174649/manifest.json",
-      "v2_app_dir": "v2/smoke",
+      "v2_app_dir": "v2/apps/smoke",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/smoke-1361904724433174649/ai-summary.json",
       "flags": []
     },
     {
@@ -1795,7 +2087,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/SmolWrld_1356346677895626905/p5_Screenshot_2025-03-31_at_1.28.44_PM.png",
       "manifest_path": "catalog/apps/smolwrld-1356346677895626905/manifest.json",
-      "v2_app_dir": "v2/smolwrld",
+      "v2_app_dir": "v2/apps/smolwrld",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/smolwrld-1356346677895626905/ai-summary.json",
       "flags": [
         "media_fallback_any_author"
       ]
@@ -1808,20 +2102,24 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/solar-panel-1364018550179631196/manifest.json",
-      "v2_app_dir": "v2/solar-panel",
+      "v2_app_dir": "v2/apps/solar-panel",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/solar-panel-1364018550179631196/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
     },
     {
-      "app_id": "solar_panel_-_sundown-1356250138967932979",
-      "app_slug": "solar_panel_-_sundown",
+      "app_id": "solar-panel-sundown-1356250138967932979",
+      "app_slug": "solar-panel-sundown",
       "app_name": "Solar_Panel_-_sundown",
       "author": "ash",
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Solar_Panel_-_sundown_1356250138967932979/m5_xyz-skelly-200.mp4",
-      "manifest_path": "catalog/apps/solar_panel_-_sundown-1356250138967932979/manifest.json",
-      "v2_app_dir": null,
+      "manifest_path": "catalog/apps/solar-panel-sundown-1356250138967932979/manifest.json",
+      "v2_app_dir": "v2/apps/solar-panel-sundown",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/solar-panel-sundown-1356250138967932979/ai-summary.json",
       "flags": [
         "media_fallback_any_author"
       ]
@@ -1834,18 +2132,22 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/spawn_1355236590603075706/m2_image.png",
       "manifest_path": "catalog/apps/spawn-1355236590603075706/manifest.json",
-      "v2_app_dir": "v2/spawn",
+      "v2_app_dir": "v2/apps/spawn",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/spawn-1355236590603075706/ai-summary.json",
       "flags": []
     },
     {
-      "app_id": "speedtrail-v0.1-1361987355577421954",
-      "app_slug": "speedtrail-v0.1",
+      "app_id": "speedtrail-v0-1-1361987355577421954",
+      "app_slug": "speedtrail-v0-1",
       "app_name": "SpeedTrail_v0.1",
       "author": "Valiant",
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/SpeedTrail_v0.1_1361987355577421954/m1_2025-04-14_23-09-26_1.mp4",
-      "manifest_path": "catalog/apps/speedtrail-v0.1-1361987355577421954/manifest.json",
-      "v2_app_dir": "v2/speedtrail-v0.1",
+      "manifest_path": "catalog/apps/speedtrail-v0-1-1361987355577421954/manifest.json",
+      "v2_app_dir": "v2/apps/speedtrail-v0-1",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/speedtrail-v0-1-1361987355577421954/ai-summary.json",
       "flags": []
     },
     {
@@ -1856,7 +2158,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/SPICEXPortal_1354289316314087515/p1_brave_iUo8WLJkxq.mp4",
       "manifest_path": "catalog/apps/spicex-portal-1354289316314087515/manifest.json",
-      "v2_app_dir": "v2/spicex-portal",
+      "v2_app_dir": "v2/apps/spicex-portal",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/spicex-portal-1354289316314087515/ai-summary.json",
       "flags": []
     },
     {
@@ -1867,7 +2171,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/SplinePineV1_1346505141473382451/m1_splinepine0001-1000.mp4",
       "manifest_path": "catalog/apps/splinepinev1-1346505141473382451/manifest.json",
-      "v2_app_dir": "v2/splinepinev1",
+      "v2_app_dir": "v2/apps/splinepinev1",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/splinepinev1-1346505141473382451/ai-summary.json",
       "flags": []
     },
     {
@@ -1878,7 +2184,9 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/ss3-1362219892073435166/manifest.json",
-      "v2_app_dir": "v2/ss3",
+      "v2_app_dir": "v2/apps/ss3",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/ss3-1362219892073435166/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -1891,7 +2199,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Super_Run_1445419285118976091/p0_super-run.mp4",
       "manifest_path": "catalog/apps/super-run-1445419285118976091/manifest.json",
-      "v2_app_dir": "v2/super-run",
+      "v2_app_dir": "v2/apps/super-run",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/super-run-1445419285118976091/ai-summary.json",
       "flags": []
     },
     {
@@ -1902,20 +2212,24 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/szjanko-2-11-dice-1346629939817877556/manifest.json",
-      "v2_app_dir": null,
+      "v2_app_dir": "v2/apps/szjanko-2-11-dice",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/szjanko-2-11-dice-1346629939817877556/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
     },
     {
-      "app_id": "teleport_command_v2-1381127682699427880",
-      "app_slug": "teleport_command_v2",
+      "app_id": "teleport-command-v2-1381127682699427880",
+      "app_slug": "teleport-command-v2",
       "app_name": "Teleport_Command_v2",
       "author": "ash",
       "has_preview": false,
       "primary_preview": null,
-      "manifest_path": "catalog/apps/teleport_command_v2-1381127682699427880/manifest.json",
-      "v2_app_dir": null,
+      "manifest_path": "catalog/apps/teleport-command-v2-1381127682699427880/manifest.json",
+      "v2_app_dir": "v2/apps/teleport-command-v2",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/teleport-command-v2-1381127682699427880/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -1928,20 +2242,24 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/teleport-trigger-box-1431333007888748678/manifest.json",
-      "v2_app_dir": "v2/teleport-trigger-box",
+      "v2_app_dir": "v2/apps/teleport-trigger-box",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/teleport-trigger-box-1431333007888748678/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
     },
     {
-      "app_id": "test_level-1355236430376341764",
-      "app_slug": "test_level",
+      "app_id": "test-level-1355236430376341764",
+      "app_slug": "test-level",
       "app_name": "test_level",
       "author": "Saori",
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/test_level_1355236430376341764/m1_image.png",
-      "manifest_path": "catalog/apps/test_level-1355236430376341764/manifest.json",
-      "v2_app_dir": "v2/test_level",
+      "manifest_path": "catalog/apps/test-level-1355236430376341764/manifest.json",
+      "v2_app_dir": "v2/apps/test-level",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/test-level-1355236430376341764/ai-summary.json",
       "flags": []
     },
     {
@@ -1952,7 +2270,9 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/text-link-option-1426147798776152144/manifest.json",
-      "v2_app_dir": "v2/text-link-option",
+      "v2_app_dir": "v2/apps/text-link-option",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/text-link-option-1426147798776152144/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -1965,33 +2285,39 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Text_link_option_1426148371101651037/p3_IMG_1244.png",
       "manifest_path": "catalog/apps/text-link-option-1426148371101651037/manifest.json",
-      "v2_app_dir": "v2/text-link-option",
+      "v2_app_dir": "v2/apps/text-link-option",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/text-link-option-1426148371101651037/ai-summary.json",
       "flags": [
         "media_fallback_any_author"
       ]
     },
     {
-      "app_id": "the_grid-1415309781345894431",
-      "app_slug": "the_grid",
+      "app_id": "the-grid-1415309781345894431",
+      "app_slug": "the-grid",
       "app_name": "The_Grid",
       "author": "ash",
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/The_Grid_1415309781345894431/m4_image.png",
-      "manifest_path": "catalog/apps/the_grid-1415309781345894431/manifest.json",
-      "v2_app_dir": null,
+      "manifest_path": "catalog/apps/the-grid-1415309781345894431/manifest.json",
+      "v2_app_dir": "v2/apps/the-grid",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/the-grid-1415309781345894431/ai-summary.json",
       "flags": [
         "media_fallback_any_author"
       ]
     },
     {
-      "app_id": "the_meadow-1415309781345894431",
-      "app_slug": "the_meadow",
+      "app_id": "the-meadow-1415309781345894431",
+      "app_slug": "the-meadow",
       "app_name": "The_Meadow",
       "author": "ash",
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/The_Meadow_1415309781345894431/m4_image.png",
-      "manifest_path": "catalog/apps/the_meadow-1415309781345894431/manifest.json",
-      "v2_app_dir": null,
+      "manifest_path": "catalog/apps/the-meadow-1415309781345894431/manifest.json",
+      "v2_app_dir": "v2/apps/the-meadow",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/the-meadow-1415309781345894431/ai-summary.json",
       "flags": [
         "media_fallback_any_author"
       ]
@@ -2004,7 +2330,9 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/token-gate-1349126914333478954/manifest.json",
-      "v2_app_dir": "v2/token-gate",
+      "v2_app_dir": "v2/apps/token-gate",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/token-gate-1349126914333478954/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -2017,7 +2345,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Tornado_1361904724433174649/m1_xyz-particle-demos_2_-_edit.mp4",
       "manifest_path": "catalog/apps/tornado-1361904724433174649/manifest.json",
-      "v2_app_dir": "v2/tornado",
+      "v2_app_dir": "v2/apps/tornado",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/tornado-1361904724433174649/ai-summary.json",
       "flags": []
     },
     {
@@ -2028,7 +2358,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/TriggerZone_1440322008935301211/p1_triggerzone.mp4",
       "manifest_path": "catalog/apps/triggerzone-1440322008935301211/manifest.json",
-      "v2_app_dir": "v2/triggerzone",
+      "v2_app_dir": "v2/apps/triggerzone",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/triggerzone-1440322008935301211/ai-summary.json",
       "flags": []
     },
     {
@@ -2039,20 +2371,24 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/triggerzone-1440323116382556250/manifest.json",
-      "v2_app_dir": "v2/triggerzone",
+      "v2_app_dir": "v2/apps/triggerzone",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/triggerzone-1440323116382556250/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
     },
     {
-      "app_id": "uiimage_from_file-update1-1349800654129860670",
-      "app_slug": "uiimage_from_file-update1",
+      "app_id": "uiimage-from-file-update1-1349800654129860670",
+      "app_slug": "uiimage-from-file-update1",
       "app_name": "uiImage_from_File-update1",
       "author": "0mka",
       "has_preview": false,
       "primary_preview": null,
-      "manifest_path": "catalog/apps/uiimage_from_file-update1-1349800654129860670/manifest.json",
-      "v2_app_dir": null,
+      "manifest_path": "catalog/apps/uiimage-from-file-update1-1349800654129860670/manifest.json",
+      "v2_app_dir": "v2/apps/uiimage-from-file-update1",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/uiimage-from-file-update1-1349800654129860670/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -2065,7 +2401,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Vanguard_1355903733090750595/m6_xyz-skelly.mp4",
       "manifest_path": "catalog/apps/vanguard-1355903733090750595/manifest.json",
-      "v2_app_dir": "v2/vanguard",
+      "v2_app_dir": "v2/apps/vanguard",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/vanguard-1355903733090750595/ai-summary.json",
       "flags": [
         "media_fallback_any_author"
       ]
@@ -2078,7 +2416,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Video_Channel_Changer_1363859162676596797/m3_IMG_1182.png",
       "manifest_path": "catalog/apps/video-channel-changer-1363859162676596797/manifest.json",
-      "v2_app_dir": "v2/video-channel-changer",
+      "v2_app_dir": "v2/apps/video-channel-changer",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/video-channel-changer-1363859162676596797/ai-summary.json",
       "flags": [
         "media_fallback_any_author"
       ]
@@ -2091,7 +2431,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Video_with_player_UI_1447233812231880724/p0_video_player_ui.png",
       "manifest_path": "catalog/apps/video-with-player-ui-1447233812231880724/manifest.json",
-      "v2_app_dir": "v2/video-with-player-ui",
+      "v2_app_dir": "v2/apps/video-with-player-ui",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/video-with-player-ui-1447233812231880724/ai-summary.json",
       "flags": []
     },
     {
@@ -2103,6 +2445,8 @@
       "primary_preview": null,
       "manifest_path": "catalog/apps/videoenhanced-1433071172739928135/manifest.json",
       "v2_app_dir": null,
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/videoenhanced-1433071172739928135/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -2115,7 +2459,9 @@
       "has_preview": false,
       "primary_preview": null,
       "manifest_path": "catalog/apps/videoplayer-1425504776371830875/manifest.json",
-      "v2_app_dir": "v2/videoplayer",
+      "v2_app_dir": "v2/apps/videoplayer",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/videoplayer-1425504776371830875/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
@@ -2128,7 +2474,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Wall_Hang_1437891700369658059/p2_Desktop_2025.11.11_-_17.21.42.05.mp4",
       "manifest_path": "catalog/apps/wall-hang-1437891700369658059/manifest.json",
-      "v2_app_dir": "v2/wall-hang",
+      "v2_app_dir": "v2/apps/wall-hang",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/wall-hang-1437891700369658059/ai-summary.json",
       "flags": [
         "media_fallback_any_author"
       ]
@@ -2141,31 +2489,37 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Water_Fountain_1361904724433174649/m1_xyz-particle-demos_2_-_edit.mp4",
       "manifest_path": "catalog/apps/water-fountain-1361904724433174649/manifest.json",
-      "v2_app_dir": "v2/water-fountain",
+      "v2_app_dir": "v2/apps/water-fountain",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/water-fountain-1361904724433174649/ai-summary.json",
       "flags": []
     },
     {
-      "app_id": "weightpaint_screenui_test1-1395042221425819648",
-      "app_slug": "weightpaint_screenui_test1",
+      "app_id": "weightpaint-screenui-test1-1395042221425819648",
+      "app_slug": "weightpaint-screenui-test1",
       "app_name": "Weightpaint_ScreenUI_test1",
       "author": "Gert-Jan Akerboom",
       "has_preview": false,
       "primary_preview": null,
-      "manifest_path": "catalog/apps/weightpaint_screenui_test1-1395042221425819648/manifest.json",
-      "v2_app_dir": "v2/weightpaint_screenui_test1",
+      "manifest_path": "catalog/apps/weightpaint-screenui-test1-1395042221425819648/manifest.json",
+      "v2_app_dir": "v2/apps/weightpaint-screenui-test1",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/weightpaint-screenui-test1-1395042221425819648/ai-summary.json",
       "flags": [
         "no_media_found"
       ]
     },
     {
-      "app_id": "weightpaint_screenui_test1-1420742160474701966",
-      "app_slug": "weightpaint_screenui_test1",
+      "app_id": "weightpaint-screenui-test1-1420742160474701966",
+      "app_slug": "weightpaint-screenui-test1",
       "app_name": "Weightpaint_ScreenUI_test1",
       "author": "Gert-Jan Akerboom",
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Weightpaint_ScreenUI_test1_1420742160474701966/p4_coins.mp4",
-      "manifest_path": "catalog/apps/weightpaint_screenui_test1-1420742160474701966/manifest.json",
-      "v2_app_dir": "v2/weightpaint_screenui_test1",
+      "manifest_path": "catalog/apps/weightpaint-screenui-test1-1420742160474701966/manifest.json",
+      "v2_app_dir": "v2/apps/weightpaint-screenui-test1",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/weightpaint-screenui-test1-1420742160474701966/ai-summary.json",
       "flags": [
         "media_fallback_any_author"
       ]
@@ -2178,7 +2532,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/who_there_1397545277300412447/m1_image.png",
       "manifest_path": "catalog/apps/who-there-1397545277300412447/manifest.json",
-      "v2_app_dir": "v2/who-there",
+      "v2_app_dir": "v2/apps/who-there",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/who-there-1397545277300412447/ai-summary.json",
       "flags": []
     },
     {
@@ -2189,7 +2545,9 @@
       "has_preview": true,
       "primary_preview": "catalog/discord/hyp_media/Wolf_Maro_1356607622211440731/p4_image.png",
       "manifest_path": "catalog/apps/wolf-maro-1356607622211440731/manifest.json",
-      "v2_app_dir": "v2/wolf-maro",
+      "v2_app_dir": "v2/apps/wolf-maro",
+      "has_ai_summary": true,
+      "ai_summary_path": "catalog/apps/wolf-maro-1356607622211440731/ai-summary.json",
       "flags": [
         "media_fallback_any_author"
       ]

@@ -1,21 +1,20 @@
 {
   "name": "szjanko-2-11-dice",
   "author": "0mka",
-  "description": "ChatGPT iOS application",
+  "description": "An interactive 3D dice app that triggers a rolling animation with randomized rotation when clicked. Uses easing-based physics simulation for smooth deceleration. Suitable for tabletop games or chance-based interactions in virtual spaces.",
   "tags": [
-    "chat",
-    "npc",
-    "conversation",
-    "gpt",
-    "voice"
+    "3d-model",
+    "animation",
+    "interaction",
+    "physics"
   ],
   "interaction_modes": [
-    "ui",
-    "passive"
+    "action",
+    "trigger"
   ],
   "asset_profile": "light",
   "script_complexity": "low",
-  "networking": "shared_state",
+  "networking": "none",
   "preview_url": "catalog/generated_previews/szjanko-2-11-dice-1346629939817877556.png",
   "download_path": "v2-hyp/szjanko-2-11-dice.hyp",
   "created_at": "2025-03-04T23:46:36.827Z"

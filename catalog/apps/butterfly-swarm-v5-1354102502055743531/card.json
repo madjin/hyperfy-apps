@@ -1,20 +1,19 @@
 {
   "name": "Butterfly_Swarm_V5",
   "author": "Gert-Jan Akerboom",
-  "description": "Butterfly Swarm V5.hyp",
+  "description": "Configurable 3D butterfly swarm generator with animated wing flapping and flight patterns. Features UI controls for butterfly count (1-5000), random scaling, flap speed, and fly speed. Clones wing nodes to create varied ambient environmental effects.",
   "tags": [
+    "environment",
     "animation",
     "particles",
     "3d-model",
-    "configurable",
-    "client-side",
-    "visual-effects"
+    "ui"
   ],
   "interaction_modes": [
-    "ui",
-    "passive"
+    "passive",
+    "ui"
   ],
-  "asset_profile": "medium",
+  "asset_profile": "light",
   "script_complexity": "medium",
   "networking": "none",
   "preview_url": "catalog/generated_previews/butterfly-swarm-v5-1354102502055743531.jpg",

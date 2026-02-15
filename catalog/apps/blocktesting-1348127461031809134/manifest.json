@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": null,
-    "v2_json_path": null,
+    "v2_app_dir": "v2/apps/blocktesting",
+    "v2_json_path": "v2/apps/blocktesting/blueprint.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/BlockTesting.md"
   },
   "preview": {
@@ -44,6 +44,25 @@
     ],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "blocktesting-1348127461031809134",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-14T21:50:53+00:00",
+    "description": "A test app demonstrating a blocking mechanic using right-mouse input to apply/cancel emote animations on the player. Includes configurable block emote and input handling via app.control(). Used to reproduce a bug where players get stuck in block state.",
+    "feature_tags": [
+      "animation",
+      "interaction",
+      "combat",
+      "3d-model"
+    ],
+    "interaction_modes": [
+      "action",
+      "trigger"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "low",
+    "networking_profile": "none"
+  }
 }

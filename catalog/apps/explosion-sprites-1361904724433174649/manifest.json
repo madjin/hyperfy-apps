@@ -24,8 +24,8 @@
     "source_priority_used": "summary_excerpt"
   },
   "links": {
-    "v2_app_dir": "v2/explosion-sprites",
-    "v2_json_path": "v2/explosion-sprites/explosion-sprites.json",
+    "v2_app_dir": "v2/apps/explosion-sprites",
+    "v2_json_path": "v2/apps/explosion-sprites/Explosion Sprites.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Explosion_Sprites.md"
   },
   "preview": {
@@ -56,6 +56,26 @@
     "flags": [],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "explosion-sprites-1361904724433174649",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:02:42+00:00",
+    "description": "A reference particle system demonstrating explosion effects using sprite sheet animation. Features configurable textures, hemisphere emission shape, and 16-frame sprite animation. Designed as a documentation example for Hyperfy's particle API with support for up to 10k particles in world space.",
+    "feature_tags": [
+      "particles",
+      "animation",
+      "environment",
+      "ui",
+      "3d-model"
+    ],
+    "interaction_modes": [
+      "ui",
+      "passive"
+    ],
+    "asset_profile": "medium",
+    "script_complexity": "low",
+    "networking_profile": "none"
+  }
 }

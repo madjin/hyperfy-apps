@@ -24,8 +24,8 @@
     "source_priority_used": "summary_excerpt"
   },
   "links": {
-    "v2_app_dir": "v2/machine-gun-v8",
-    "v2_json_path": "v2/machine-gun-v8/machine-gun-v8.json",
+    "v2_app_dir": "v2/apps/machine-gun-v8",
+    "v2_json_path": "v2/apps/machine-gun-v8/Machine Gun v8.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Machine_Gun_v8.md"
   },
   "preview": {
@@ -69,6 +69,24 @@
     "flags": [],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "machine-gun-v8-1355977141862400300",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:08:30+00:00",
+    "description": "Example application metadata",
+    "feature_tags": [
+      "mobile",
+      "productivity",
+      "sync"
+    ],
+    "interaction_modes": [
+      "ui",
+      "networked"
+    ],
+    "asset_profile": "medium",
+    "script_complexity": "low",
+    "networking_profile": "shared_state"
+  }
 }

@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/rocket-global-coll",
-    "v2_json_path": "v2/rocket-global-coll/rocket-global-coll.json",
+    "v2_app_dir": "v2/apps/rocket-global-coll",
+    "v2_json_path": "v2/apps/rocket-global-coll/Rocket(Global+Coll).json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/RocketGlobalColl.md"
   },
   "preview": {
@@ -44,6 +44,28 @@
     ],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "rocket-global-coll-1437796842313355295",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-14T19:46:04+00:00",
+    "description": "An interactive networked rocket launcher with collision physics, particle exhaust effects, and synchronized launch/respawn animations controlled via action button.",
+    "feature_tags": [
+      "particles",
+      "animation",
+      "physics",
+      "interaction",
+      "multiplayer",
+      "3d-model"
+    ],
+    "interaction_modes": [
+      "action",
+      "networked",
+      "ui"
+    ],
+    "asset_profile": "medium",
+    "script_complexity": "high",
+    "networking_profile": "events"
+  }
 }

@@ -1,0 +1,29 @@
+{
+  "name": "CurvedVid_with_link_input",
+  "author": "MetaRick",
+  "description": "Curved video display supporting both file uploads and streaming URLs. Renders video onto curved geometry with proper aspect ratio handling and synchronized playback.",
+  "tags": [
+    "media-player",
+    "3d-model",
+    "ui",
+    "environment"
+  ],
+  "interaction_modes": [
+    "ui",
+    "passive"
+  ],
+  "asset_profile": "heavy",
+  "script_complexity": "medium",
+  "networking": "local",
+  "preview_url": "catalog/discord/hyp_media/CurvedVid_with_link_input_1363573773185450045/p1_Desktop_2025.04.20_-_20.18.43.04.mp4",
+  "download_path": "v2-hyp/CurvedVid_with_link_input.hyp",
+  "created_at": "2025-04-20T17:55:21.503Z",
+  "props": {
+    "video": {
+      "type": "video",
+      "name": "vj_1.mp4",
+      "url": "asset://27827da74c0e8c2b524260dcb95667573c55aaf4e104e4e23e957a3032d81b24.mp4"
+    },
+    "videoLink": "https://stream.vrcdn.live/live/uncannyalley.live.mp4"
+  }
+}

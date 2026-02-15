@@ -24,8 +24,8 @@
     "source_priority_used": "summary_excerpt"
   },
   "links": {
-    "v2_app_dir": "v2/tornado",
-    "v2_json_path": "v2/tornado/tornado.json",
+    "v2_app_dir": "v2/apps/tornado",
+    "v2_json_path": "v2/apps/tornado/Tornado.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Tornado.md"
   },
   "preview": {
@@ -56,6 +56,25 @@
     "flags": [],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "tornado-1361904724433174649",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:19:59+00:00",
+    "description": "A particle system reference app demonstrating a tornado vortex effect using Hyperfy's particles API. Features configurable texture, orbital/radial velocities, and alpha-over-lifetime fading. Intended as a code reference for particle implementation.",
+    "feature_tags": [
+      "particles",
+      "environment",
+      "reference",
+      "animation"
+    ],
+    "interaction_modes": [
+      "ui",
+      "passive"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "low",
+    "networking_profile": "none"
+  }
 }

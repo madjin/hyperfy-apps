@@ -24,8 +24,8 @@
     "source_priority_used": "summary_excerpt"
   },
   "links": {
-    "v2_app_dir": null,
-    "v2_json_path": null,
+    "v2_app_dir": "v2/apps/firsthypv2",
+    "v2_json_path": "v2/apps/firsthypv2/blueprint.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/firstHYPv2.md"
   },
   "preview": {
@@ -44,6 +44,23 @@
     ],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "firsthypv2-1364604780420272199",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-14T21:53:31+00:00",
+    "description": "Room decoration app with animated UV-scrolling texture effect. Continuously scrolls material textures on optimized plane geometry using frame-based UV offset updates. Lightweight visual element suitable for environmental ambiance.",
+    "feature_tags": [
+      "animation",
+      "environment",
+      "3d-model"
+    ],
+    "interaction_modes": [
+      "passive"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "low",
+    "networking_profile": "none"
+  }
 }

@@ -1,0 +1,22 @@
+{
+  "app_id": "machine-gun-with-animation-1349513227842879581",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-14T21:56:22+00:00",
+  "description": "A weapon animation override system that equips a machine gun with full directional movement animations. Players pick up the weapon to activate custom idle, walk, run, and sprint animations in all directions including diagonals and backward variants. Includes shooting mechanics with cooldown and scop",
+  "feature_tags": [
+    "animation",
+    "combat",
+    "interaction",
+    "3d-model",
+    "multiplayer",
+    "ui"
+  ],
+  "interaction_modes": [
+    "action",
+    "trigger",
+    "networked"
+  ],
+  "asset_profile": "heavy",
+  "script_complexity": "high",
+  "networking_profile": "shared_state"
+}

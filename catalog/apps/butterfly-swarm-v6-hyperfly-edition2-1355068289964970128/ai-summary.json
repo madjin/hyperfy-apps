@@ -1,0 +1,20 @@
+{
+  "app_id": "butterfly-swarm-v6-hyperfly-edition2-1355068289964970128",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-14T21:51:14+00:00",
+  "description": "A configurable butterfly swarm simulation spawning up to 5000 emissive butterflies with randomized scale, flap speed, and drift movement. Features procedural animation, configurable spawn areas, and real-time wing flapping via cloned GLB nodes.",
+  "feature_tags": [
+    "particles",
+    "animation",
+    "environment",
+    "3d-model",
+    "ui"
+  ],
+  "interaction_modes": [
+    "passive",
+    "ui"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "high",
+  "networking_profile": "none"
+}

@@ -44,6 +44,28 @@
     ],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-14T21:31:18+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "teleport_command_v2-1381127682699427880",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:19:08+00:00",
+    "description": "Configurable teleport system allowing admins to set destination coordinates via UI button, enabling players to teleport using chat commands (e.g., /home). Features persistent world-state storage, server-client synchronization, and customizable command triggers.",
+    "feature_tags": [
+      "teleport",
+      "ui",
+      "command",
+      "multiplayer",
+      "interaction"
+    ],
+    "interaction_modes": [
+      "ui",
+      "action",
+      "trigger",
+      "networked"
+    ],
+    "asset_profile": "medium",
+    "script_complexity": "medium",
+    "networking_profile": "shared_state"
+  }
 }

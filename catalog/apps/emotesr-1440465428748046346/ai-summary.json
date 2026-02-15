@@ -1,15 +1,22 @@
 {
   "app_id": "emotesr-1440465428748046346",
   "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T04:03:00+00:00",
-  "description": "Placeholder object due to missing input data",
+  "generated_at": "2026-02-14T21:55:07+00:00",
+  "description": "Circular emote selector UI displaying 6 configurable dance/emote buttons in a radial layout. Players trigger avatar animations via clickable buttons or hotkeys (B to open, 1-6 to select). Supports custom emote files, labels, icons, and gaze locking per slot.",
   "feature_tags": [
-    "unclassified"
+    "animation",
+    "ui",
+    "interaction",
+    "3d-model",
+    "multiplayer",
+    "avatar"
   ],
   "interaction_modes": [
+    "action",
+    "ui",
     "passive"
   ],
-  "asset_profile": "light",
-  "script_complexity": "low",
+  "asset_profile": "heavy",
+  "script_complexity": "medium",
   "networking_profile": "none"
 }

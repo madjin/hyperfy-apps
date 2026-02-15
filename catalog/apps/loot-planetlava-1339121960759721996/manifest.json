@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/loot-planetlava",
-    "v2_json_path": "v2/loot-planetlava/loot-planetlava.json",
+    "v2_app_dir": "v2/apps/loot-planetlava",
+    "v2_json_path": "v2/apps/loot-planetlava/Loot-PlanetLava.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Loot-PlanetLava.md"
   },
   "preview": {
@@ -82,6 +82,23 @@
     "flags": [],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "loot-planetlava-1339121960759721996",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:07:45+00:00",
+    "description": "In a recent international sports event, the total number of participants was 320. The ratio of male to female athletes was 5:3, and the ratio of swimmers to runners was 7:1. If there were 140 male swimmers, how many female runners were there? The answer is 15. Is that correct? Please reason step by ",
+    "feature_tags": [
+      "math",
+      "ratio",
+      "word_problem"
+    ],
+    "interaction_modes": [
+      "trigger"
+    ],
+    "asset_profile": "medium",
+    "script_complexity": "medium",
+    "networking_profile": "none"
+  }
 }

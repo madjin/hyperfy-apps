@@ -58,6 +58,25 @@
     ],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-14T21:31:18+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "the_meadow-1415309781345894431",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:20:14+00:00",
+    "description": "ACME Corp Internal Expense Tracker",
+    "feature_tags": [
+      "finance",
+      "reporting"
+    ],
+    "interaction_modes": [
+      "ui",
+      "trigger",
+      "trigger",
+      "trigger"
+    ],
+    "asset_profile": "medium",
+    "script_complexity": "low",
+    "networking_profile": "none"
+  }
 }

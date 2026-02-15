@@ -1,0 +1,34 @@
+{
+  "name": "monkey_head",
+  "author": ".hyp shaman",
+  "description": "A 3D monkey head avatar base with UI-configurable jump height and button texture. Features physics-ready rigidbody structure for interactive avatar use, though script implementation is minimal.",
+  "tags": [
+    "3d-model",
+    "avatar",
+    "ui",
+    "physics",
+    "interaction"
+  ],
+  "interaction_modes": [
+    "ui",
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking": "none",
+  "preview_url": "catalog/discord/hyp_media/monkey_head_1360004867166437467/m2_image.png",
+  "download_path": "v2-hyp/monkey_head.hyp",
+  "created_at": "2025-04-10T21:33:48.001Z",
+  "props": {
+    "jumpButtonImage": {
+      "type": "texture",
+      "url": "assets/jumpButtonImage.png"
+    },
+    "jumpHeight": 1
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\n\n}\n",
+  "asset_files": [
+    "jumpButtonImage.png",
+    "monkey_head.glb"
+  ]
+}

@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/builder-drone",
-    "v2_json_path": "v2/builder-drone/builder-drone.json",
+    "v2_app_dir": "v2/apps/builder-drone",
+    "v2_json_path": "v2/apps/builder-drone/Builder Drone.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Builder_Drone.md"
   },
   "preview": {
@@ -110,6 +110,28 @@
     ],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "builder-drone-1356446200907432129",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T03:56:24+00:00",
+    "description": "Configurable builder drone enabling first-person flying mode for construction. Hold custom keybind to pilot with WASD/Space/C controls while others see your avatar. Features networked physics sync and adjustable hold duration.",
+    "feature_tags": [
+      "vehicle",
+      "camera",
+      "physics",
+      "building",
+      "multiplayer",
+      "interaction"
+    ],
+    "interaction_modes": [
+      "action",
+      "ui",
+      "networked"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "medium",
+    "networking_profile": "shared_state"
+  }
 }

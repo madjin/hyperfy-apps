@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/alleysign",
-    "v2_json_path": "v2/alleysign/alleysign.json",
+    "v2_app_dir": "v2/apps/alleysign",
+    "v2_json_path": "v2/apps/alleysign/AlleySign.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/AlleySign.md"
   },
   "preview": {
@@ -44,6 +44,23 @@
     ],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "alleysign-1341753324801626154",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T03:54:39+00:00",
+    "description": "A continuously rotating 3D alley sign that spins on its Y-axis via script-based rotation rather than GLB animation. Lightweight decorative environment prop with passive animation.",
+    "feature_tags": [
+      "animation",
+      "3d-model",
+      "environment"
+    ],
+    "interaction_modes": [
+      "passive"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "low",
+    "networking_profile": "none"
+  }
 }

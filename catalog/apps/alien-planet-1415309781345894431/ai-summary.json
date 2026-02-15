@@ -1,0 +1,18 @@
+{
+  "app_id": "alien-planet-1415309781345894431",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-14T21:50:01+00:00",
+  "description": "Configurable alien planet environment scene with customizable HDRI sky textures, adjustable sun direction/elevation/intensity, and atmospheric fog controls. Replaces default world background.",
+  "feature_tags": [
+    "environment",
+    "ui",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "ui",
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none"
+}

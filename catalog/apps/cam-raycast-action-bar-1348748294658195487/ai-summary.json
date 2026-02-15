@@ -1,45 +1,23 @@
 {
   "app_id": "cam-raycast-action-bar-1348748294658195487",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:44:39+00:00",
-  "one_liner": "Adds a customizable on\u2011screen action bar with keybind icons and a raycast trigger for quick ability activation.",
-  "primary_use_case": "Provides Hyperfy worlds with a UI action bar for instant keybind activation and client\u2011to\u2011server raycast interaction.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-14T19:39:14+00:00",
+  "description": "WoW-style action bar UI with 10 ability slots (Q, E, F keys). Features camera-based raycasting that fires beams from player chest, with client-server networking. Includes customizable text, emojis, and attack emotes.",
   "feature_tags": [
     "ui",
-    "action-bar",
-    "keybinds",
-    "raycast",
-    "emotes",
-    "customizable",
-    "client-side",
-    "networked"
+    "combat",
+    "camera",
+    "multiplayer",
+    "interaction",
+    "animation"
   ],
   "interaction_modes": [
-    "ui",
     "action",
-    "trigger",
-    "networked"
+    "ui",
+    "networked",
+    "trigger"
   ],
   "asset_profile": "medium",
-  "script_complexity": "medium",
-  "networking_profile": "events",
-  "preview_recommendation": "Add a screenshot or short video showing the action bar UI and raycast effect to improve preview quality.",
-  "manifest_quality_notes": [
-    "no media found",
-    "high author confidence",
-    "script includes UI creation and keybind handling",
-    "client\u2011to\u2011server raycast event",
-    "multiple emoji and text props",
-    "requires client environment"
-  ],
-  "safety_or_runtime_flags": [
-    "no_media_found"
-  ],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord:author:Saori",
-    "discord:message:1348748103104331778",
-    "discord:channel:#\ud83c\udfa8\u2502showcase",
-    "discord:timestamp:2025-03-10T20:04:11.978Z"
-  ]
+  "script_complexity": "high",
+  "networking_profile": "events"
 }

@@ -24,8 +24,8 @@
     "source_priority_used": "summary_excerpt"
   },
   "links": {
-    "v2_app_dir": "v2/cube-1",
-    "v2_json_path": "v2/cube-1/cube-1.json",
+    "v2_app_dir": "v2/apps/cube-1",
+    "v2_json_path": "v2/apps/cube-1/Cube 1.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Cube_1.md"
   },
   "preview": {
@@ -56,6 +56,25 @@
     "flags": [],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "cube-1-1355371621468209172",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:00:13+00:00",
+    "description": "A configurable cube demonstrating unlinked mesh instances with independent texture scrolling animation. Features UI-controlled scroll speed and uses delta-time updates for smooth material offset animation.",
+    "feature_tags": [
+      "animation",
+      "3d-model",
+      "ui",
+      "interaction"
+    ],
+    "interaction_modes": [
+      "ui",
+      "passive"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "low",
+    "networking_profile": "none"
+  }
 }

@@ -1,21 +1,20 @@
 {
   "name": "car1-v2",
   "author": "ash",
-  "description": "ok added some better anti-roll to this",
+  "description": "A physics-based drivable car with improved anti-roll suspension. Features 4-wheel spring suspension, steering, acceleration/braking, and lateral grip simulation. Uses raycast-based wheel grounding with visual hub positioning.",
   "tags": [
-    "anti-roll",
-    "suspension",
-    "steering",
-    "acceleration",
+    "vehicle",
     "physics",
-    "wheel-grip"
+    "3d-model",
+    "interaction",
+    "animation"
   ],
   "interaction_modes": [
     "action",
     "passive"
   ],
   "asset_profile": "light",
-  "script_complexity": "medium",
+  "script_complexity": "high",
   "networking": "none",
   "preview_url": "catalog/generated_previews/car1-v2-1353199999730581585.jpg",
   "download_path": "v2-hyp/car1-v2.hyp",

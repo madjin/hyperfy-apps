@@ -1,17 +1,20 @@
 {
   "app_id": "sit-1351223744022183987",
   "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T04:17:18+00:00",
-  "description": "Ground inference API tool",
+  "generated_at": "2026-02-14T21:58:23+00:00",
+  "description": "A configurable seat app that allows players to sit with custom emotes. Features visibility toggle, networked seat occupancy state, and cancellable emote effects. Inspired by legacy v1 seat systems.",
   "feature_tags": [
-    "api",
-    "inference",
-    "grounding"
+    "interaction",
+    "animation",
+    "multiplayer",
+    "ui",
+    "3d-model"
   ],
   "interaction_modes": [
+    "action",
     "networked"
   ],
   "asset_profile": "medium",
-  "script_complexity": "high",
+  "script_complexity": "medium",
   "networking_profile": "shared_state"
 }

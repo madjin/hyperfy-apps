@@ -1,24 +1,54 @@
 {
   "name": "FTV",
   "author": "~/drdoge.eth",
-  "description": "A chat application that allows users to send and receive messages in real-time.",
+  "description": "A customizable multi-video TV player with spatial audio, UI controls, and playlist management. Supports up to 5 videos with autoplay, shuffle, and channel change sound effects. Features configurable screen mesh, aspect ratios, and audio falloff settings.",
   "tags": [
-    "real-time messaging",
-    "user authentication",
-    "file sharing",
-    "group chats",
-    "read receipts",
-    "encryption"
+    "media-player",
+    "ui",
+    "audio",
+    "interaction",
+    "3d-model"
   ],
   "interaction_modes": [
-    "passive",
+    "ui",
     "action",
-    "trigger"
+    "passive",
+    "networked"
   ],
-  "asset_profile": "medium",
+  "asset_profile": "light",
   "script_complexity": "high",
-  "networking": "local",
+  "networking": "events",
   "preview_url": "catalog/discord/hyp_media/FTV_1361768826902941913/p0_ww.mp4",
   "download_path": "v2-hyp/FTV.hyp",
-  "created_at": "2025-04-15T18:23:08.775Z"
+  "created_at": "2025-04-15T18:23:08.775Z",
+  "props": {
+    "video1Name": "Vault-Tec Presentation",
+    "video2Name": "Wasteland Documentary",
+    "video3Name": "Nuka-Cola Advertisement",
+    "video4Name": "RobCo Terminal Tutorial",
+    "video5Name": "Atomic Age Wonders",
+    "screenMeshName": "Screen",
+    "aspectRatio": 1.7777777777777777,
+    "defaultVolume": 15,
+    "autoplay": true,
+    "shuffle": false,
+    "controlColor": "#00aaff",
+    "isSpatial": false,
+    "minDistance": 15,
+    "maxDistance": 20,
+    "rolloffFactor": 2,
+    "showControls": false,
+    "video1": null,
+    "video2": null,
+    "video3": null,
+    "video4": null,
+    "showMiniControls": true,
+    "channelChangeSoundVolume": 1,
+    "video5": null,
+    "channelChangeSound": {
+      "type": "audio",
+      "name": "add.mp3",
+      "url": "asset://df1afd66ecf859e8f3ef64a88ae53eec4faf06df61454d7853ab5fce46d408b5.mp3"
+    }
+  }
 }

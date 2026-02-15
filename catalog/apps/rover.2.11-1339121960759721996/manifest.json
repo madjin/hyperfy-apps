@@ -82,6 +82,19 @@
     "flags": [],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-14T21:31:18+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "rover.2.11-1339121960759721996",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:16:13+00:00",
+    "description": "A Hyperfy app.",
+    "feature_tags": [
+      "unclassified"
+    ],
+    "interaction_modes": [],
+    "asset_profile": "light",
+    "script_complexity": "low",
+    "networking_profile": "none"
+  }
 }

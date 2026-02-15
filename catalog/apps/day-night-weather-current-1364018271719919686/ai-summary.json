@@ -1,0 +1,22 @@
+{
+  "app_id": "day-night-weather-current-1364018271719919686",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-14T21:51:21+00:00",
+  "description": "Environmental control app that manages day/night cycles, dynamic weather systems (rain, storm, fog, dust, nuclear fallout), and atmospheric effects including HDR skyboxes, volumetric fog, lightning, and ambient audio. Features real-time or configurable time progression with a Pip-Boy style HUD displ",
+  "feature_tags": [
+    "environment",
+    "particles",
+    "audio",
+    "ui",
+    "animation",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "ui",
+    "passive",
+    "networked"
+  ],
+  "asset_profile": "heavy",
+  "script_complexity": "high",
+  "networking_profile": "shared_state"
+}

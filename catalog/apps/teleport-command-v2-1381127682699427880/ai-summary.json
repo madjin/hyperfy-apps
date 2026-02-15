@@ -1,0 +1,20 @@
+{
+  "app_id": "teleport-command-v2-1381127682699427880",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-14T22:08:10+00:00",
+  "description": "A teleport command system that enables players to fast-travel to designated locations such as 'home'. Features persistent storage mechanics for saving locations, collision detection, and emote animations.",
+  "feature_tags": [
+    "teleport",
+    "interaction",
+    "animation",
+    "3d-model",
+    "ui"
+  ],
+  "interaction_modes": [
+    "action",
+    "trigger"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "events"
+}

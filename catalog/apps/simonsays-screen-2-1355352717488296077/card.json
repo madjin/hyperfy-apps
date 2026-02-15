@@ -1,0 +1,63 @@
+{
+  "name": "SimonSays_Screen_2",
+  "author": "cru",
+  "description": "Networked Simon Says game UI with scalable 3D interface. Features phased gameplay with color/signal logic, background audio tracks, and server-authoritative state management. Demonstrates performance issues with large UI elements.",
+  "tags": [
+    "ui",
+    "multiplayer",
+    "audio",
+    "game",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "ui",
+    "networked",
+    "passive"
+  ],
+  "asset_profile": "heavy",
+  "script_complexity": "high",
+  "networking": "shared_state",
+  "preview_url": "catalog/discord/hyp_media/SimonSays_Screen_2_1355352717488296077/p0_2025-03-28_21-20-07.mp4",
+  "download_path": "v2-hyp/SimonSays_Screen_2.hyp",
+  "created_at": "2025-03-29T01:27:49.085Z",
+  "props": {
+    "volume": 0.5,
+    "title": "SIMONSAYS",
+    "track1Name": "A town with an Ocean View",
+    "track2Name": "A walk through the Forest",
+    "track3Name": "Wheat fields at night",
+    "track4Name": "...",
+    "track5Name": "...",
+    "defaultVolume": 1,
+    "isSpatial": true,
+    "jukeboxColor": "#ff9d00",
+    "track1": {
+      "type": "audio",
+      "name": "A town with an Ocean View (Kikis Delivery Service) lofi version.mp3",
+      "url": "asset://f27e4aa9bcd9f9a31624f9737ce7e561ebd4af3aa0fa52eecc2dc0773e7cb0b4.mp3"
+    },
+    "track2": {
+      "type": "audio",
+      "name": "Lofi Breeze track 3.mp3",
+      "url": "asset://c408c69fc0db902e79865689cf0e7c20cd671b67556c438dccbfce817a395494.mp3"
+    },
+    "track3": {
+      "type": "audio",
+      "name": "Lofi Breeze track 4.mp3",
+      "url": "asset://97cec7881b4a2df79242b9bce8eecbf235529f5352ba18f984bd080841886ead.mp3"
+    },
+    "track4": {
+      "type": "audio",
+      "name": "Lofi Breeze track 5.mp3",
+      "url": "asset://e2016f5fcd3cb229f39088887d9422f9c7992f93d98279426a572c103c0965e2.mp3"
+    },
+    "track5": null,
+    "colorChannel": "SimonColor",
+    "resetChannel": "SimonReset",
+    "signalStrength": 1,
+    "threshold": 0.5,
+    "debug": "on",
+    "uiScale": 1.8,
+    "uiHeight": 18.7
+  }
+}

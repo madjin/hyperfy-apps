@@ -1,0 +1,69 @@
+{
+  "app_id": "teleport-command-v2-1381127682699427880",
+  "app_slug": "teleport-command-v2",
+  "app_name": "Teleport_Command_v2",
+  "source": {
+    "hyp_filename": "Teleport_Command_v2.hyp",
+    "discord_attachment_id": "1381127682380791808",
+    "discord_message_id": "1381127682699427880",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-06-08T04:28:19.667Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1346623562462527649/1381127682380791808/Teleport_Command_v2.hyp?ex=69799063&is=69783ee3&hm=bb87fe0a4ae59c5f3d05ca7577426e7e142c07ca7f027cc2b40afc2132b2e7e7&"
+  },
+  "author": {
+    "display_name": "ash",
+    "discord_user_id": "179546010303856640",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "Fixed the storage mechanic here",
+    "raw_message_content": "Fixed the storage mechanic here",
+    "summary_excerpt": "Teleport Command v2.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/teleport-command-v2",
+    "v2_json_path": "v2/apps/teleport-command-v2/blueprint.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Teleport_Command_v2.md"
+  },
+  "preview": {
+    "primary_media_path": null,
+    "media_type": null,
+    "selection_reason": null,
+    "is_fallback_any_author": false
+  },
+  "media": [],
+  "status": {
+    "has_preview": false,
+    "needs_media_review": true,
+    "needs_author_review": false,
+    "flags": [
+      "no_media_found"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "teleport-command-v2-1381127682699427880",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-14T22:08:10+00:00",
+    "description": "A teleport command system that enables players to fast-travel to designated locations such as 'home'. Features persistent storage mechanics for saving locations, collision detection, and emote animations.",
+    "feature_tags": [
+      "teleport",
+      "interaction",
+      "animation",
+      "3d-model",
+      "ui"
+    ],
+    "interaction_modes": [
+      "action",
+      "trigger"
+    ],
+    "asset_profile": "medium",
+    "script_complexity": "medium",
+    "networking_profile": "events"
+  }
+}

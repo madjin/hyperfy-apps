@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/model",
-    "v2_json_path": "v2/model/model.json",
+    "v2_app_dir": "v2/apps/model",
+    "v2_json_path": "v2/apps/model/Model.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Model.md"
   },
   "preview": {
@@ -58,6 +58,26 @@
     ],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "model-1353698908353724480",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:09:48+00:00",
+    "description": "Utility app that auto-enables physics collisions for imported GLB models. Features UI-configurable scale and collision toggle, dynamically generating rigidbodies and geometry colliders on placement.",
+    "feature_tags": [
+      "3d-model",
+      "physics",
+      "utility",
+      "ui",
+      "environment"
+    ],
+    "interaction_modes": [
+      "ui",
+      "passive"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "medium",
+    "networking_profile": "none"
+  }
 }

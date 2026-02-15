@@ -24,8 +24,8 @@
     "source_priority_used": "summary_excerpt"
   },
   "links": {
-    "v2_app_dir": "v2/fire",
-    "v2_json_path": "v2/fire/fire.json",
+    "v2_app_dir": "v2/apps/fire",
+    "v2_json_path": "v2/apps/fire/Fire.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Fire.md"
   },
   "preview": {
@@ -56,6 +56,26 @@
     "flags": [],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "fire-1361904724433174649",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:02:52+00:00",
+    "description": "A particle system visualization demonstrating fire effects with configurable textures. Features cone emission, additive blending, and color gradients over particle lifetime. Includes commented examples for advanced bursts and world-space spawning. Useful as a reference implementation for Hyperfy's p",
+    "feature_tags": [
+      "particles",
+      "environment",
+      "animation",
+      "3d-model",
+      "ui"
+    ],
+    "interaction_modes": [
+      "ui",
+      "passive"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "low",
+    "networking_profile": "none"
+  }
 }

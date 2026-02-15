@@ -1,0 +1,30 @@
+{
+  "name": "HyperBeacon_v2",
+  "author": "maximus",
+  "description": "A beacon system for listing Hyperfy worlds on Zesty Relay. Users configure world metadata (name, description, tags, image URL) through interactive UI props to broadcast their world to the decentralized relay network.",
+  "tags": [
+    "ui",
+    "multiplayer",
+    "interaction",
+    "media-player",
+    "environment"
+  ],
+  "interaction_modes": [
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking": "shared_state",
+  "preview_url": "catalog/discord/hyp_media/HyperBeacon_v2_1337234426395889747/m1_spatial_relay_example.png",
+  "download_path": "v2-hyp/HyperBeacon_v2.hyp",
+  "created_at": "2025-02-07T01:32:11.867Z",
+  "props": {
+    "url": "",
+    "description": "",
+    "name": "",
+    "tags": "",
+    "relay": "",
+    "image": ""
+  }
+}

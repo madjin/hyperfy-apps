@@ -1,0 +1,83 @@
+{
+  "app_id": "npc-9-1354068129944174592",
+  "app_slug": "npc-9",
+  "app_name": "NPC_9",
+  "source": {
+    "hyp_filename": "NPC_9.hyp",
+    "discord_attachment_id": "1354068129331810354",
+    "discord_message_id": "1354068129944174592",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-03-25T12:23:19.548Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1354068129331810354/NPC_9.hyp?ex=697956f7&is=69780577&hm=dd908a19a656e7920d1b1afa797c9c45f0b89b52fb84d9630f850b834cea903b&"
+  },
+  "author": {
+    "display_name": "peezy",
+    "discord_user_id": "169825031314997249",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "NPC 9.hyp",
+    "raw_message_content": "",
+    "summary_excerpt": "NPC 9.hyp",
+    "source_priority_used": "summary_excerpt"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/npc-9",
+    "v2_json_path": "v2/apps/npc-9/blueprint.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/NPC_9.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/NPC_9_1354068129944174592/p2_image.png",
+    "media_type": ".png",
+    "selection_reason": "same_author_nearby",
+    "is_fallback_any_author": false
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/NPC_9_1354068129944174592/p2_image.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": 2,
+      "same_author": true,
+      "selection_reason": "same_author_nearby",
+      "size_bytes": 3527,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1354068552398802955"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "npc-9-1354068129944174592",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-14T21:57:50+00:00",
+    "description": "A configurable NPC with combat capabilities including melee attack detection, animation states (idle/walk/run/sit/talk), and audio feedback. Features FOV-based player detection, chase behavior, and hit position calculation for sword combat integration.",
+    "feature_tags": [
+      "npc",
+      "combat",
+      "animation",
+      "audio",
+      "interaction",
+      "multiplayer"
+    ],
+    "interaction_modes": [
+      "action",
+      "trigger",
+      "networked"
+    ],
+    "asset_profile": "medium",
+    "script_complexity": "high",
+    "networking_profile": "events"
+  }
+}

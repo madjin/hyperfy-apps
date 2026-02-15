@@ -58,6 +58,25 @@
     ],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-14T21:31:18+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "solar_panel_-_sundown-1356250138967932979",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:18:14+00:00",
+    "description": "Google Analytics is a web analytics service offered by Google that tracks and reports website traffic.",
+    "feature_tags": [
+      "analytics",
+      "tracking",
+      "marketing",
+      "reporting"
+    ],
+    "interaction_modes": [
+      "action",
+      "trigger"
+    ],
+    "asset_profile": "medium",
+    "script_complexity": "high",
+    "networking_profile": "none"
+  }
 }

@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/rainv4",
-    "v2_json_path": "v2/rainv4/rainv4.json",
+    "v2_app_dir": "v2/apps/rainv4",
+    "v2_json_path": "v2/apps/rainv4/RainV4.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/RainV4.md"
   },
   "preview": {
@@ -58,6 +58,22 @@
     ],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "rainv4-1359839641754275921",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:14:26+00:00",
+    "description": "Fix was attempted but no invalid JSON content was provided in the BAD_OUTPUT field",
+    "feature_tags": [
+      "json_repair",
+      "error_handling"
+    ],
+    "interaction_modes": [
+      "networked"
+    ],
+    "asset_profile": "medium",
+    "script_complexity": "high",
+    "networking_profile": "none"
+  }
 }

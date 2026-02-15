@@ -1,37 +1,19 @@
 {
-  "app_id": "curvedvid_with_link_input-1363573773185450045",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:44:59+00:00",
-  "one_liner": "CurvedVid_with_link_input displays a video on a mesh, using either an uploaded file or a URL, with auto\u2011play, looping and 16:9 aspect.",
-  "primary_use_case": "Showcase video content on a screen mesh in a Hyperfy world, supporting direct upload or streaming link.",
+  "app_id": "curvedvid-with-link-input-1363573773185450045",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-14T19:39:04+00:00",
+  "description": "Curved video screen supporting both file uploads and external URLs. Maps video to 3D mesh geometry with auto-playback, looping, and configurable aspect ratio. Ideal for immersive displays and livestreams.",
   "feature_tags": [
-    "video",
-    "link",
-    "upload",
-    "loop",
-    "aspect_ratio",
-    "cover",
-    "mesh",
-    "HDR"
+    "media-player",
+    "ui",
+    "3d-model",
+    "environment"
   ],
   "interaction_modes": [
     "ui",
     "passive"
   ],
-  "asset_profile": "heavy",
+  "asset_profile": "medium",
   "script_complexity": "low",
-  "networking_profile": "none",
-  "preview_recommendation": "Use the provided MP4 preview to verify that the video loads, respects the mesh geometry, loops correctly, and that the UI fields accept both file uploads and URLs.",
-  "manifest_quality_notes": [
-    "Large video asset (~15\u202fMB) may affect client performance.",
-    "Fallback to videoLink works if no file is uploaded.",
-    "No server\u2011side logic; runs only on client."
-  ],
-  "safety_or_runtime_flags": [],
-  "confidence": "high",
-  "evidence_refs": [
-    "https://cdn.discordapp.com/attachments/994775534733115412/1363573772858429580/CurvedVid_with_link_input.hyp?ex=6979a4c9&is=69785349&hm=9b1d0682b5cdab640c91166f35bf3062db8a7cab72dba",
-    "Discord message ID 1363573773185450045 by MetaRick",
-    "Discord channel #\ud83d\udcbb\u2502developers"
-  ]
+  "networking_profile": "none"
 }

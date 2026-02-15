@@ -44,6 +44,24 @@
     ],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-14T21:31:18+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "uiimage_from_file-update1-1349800654129860670",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:21:03+00:00",
+    "description": "A mobile application",
+    "feature_tags": [
+      "ios",
+      "android",
+      "cross-platform"
+    ],
+    "interaction_modes": [
+      "trigger",
+      "action"
+    ],
+    "asset_profile": "medium",
+    "script_complexity": "low",
+    "networking_profile": "none"
+  }
 }

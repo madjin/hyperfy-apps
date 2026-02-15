@@ -1,20 +1,19 @@
 {
   "app_id": "szjanko-2-11-dice-1346629939817877556",
   "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T04:19:15+00:00",
-  "description": "ChatGPT iOS application",
+  "generated_at": "2026-02-14T21:58:47+00:00",
+  "description": "An interactive 3D dice app that triggers a rolling animation with randomized rotation when clicked. Uses easing-based physics simulation for smooth deceleration. Suitable for tabletop games or chance-based interactions in virtual spaces.",
   "feature_tags": [
-    "chat",
-    "npc",
-    "conversation",
-    "gpt",
-    "voice"
+    "3d-model",
+    "animation",
+    "interaction",
+    "physics"
   ],
   "interaction_modes": [
-    "ui",
-    "passive"
+    "action",
+    "trigger"
   ],
   "asset_profile": "light",
   "script_complexity": "low",
-  "networking_profile": "shared_state"
+  "networking_profile": "none"
 }

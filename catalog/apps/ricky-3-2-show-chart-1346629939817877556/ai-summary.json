@@ -1,0 +1,20 @@
+{
+  "app_id": "ricky-3-2-show-chart-1346629939817877556",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-14T21:58:11+00:00",
+  "description": "Configurable billboard display for web-based charts/images featuring interactive refresh via E-key action, cooldown management, and customizable positioning. Uses UI nodes for rendering external media URLs with cache-busting.",
+  "feature_tags": [
+    "ui",
+    "media-player",
+    "interaction",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "action",
+    "ui",
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "none"
+}

@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/discord3",
-    "v2_json_path": "v2/discord3/discord3.json",
+    "v2_app_dir": "v2/apps/discord3",
+    "v2_json_path": "v2/apps/discord3/Discord3.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Discord3.md"
   },
   "preview": {
@@ -44,6 +44,27 @@
     ],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "discord3-1421084209073885294",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:02:02+00:00",
+    "description": "Generate Complete PG with all required fields",
+    "feature_tags": [
+      "district_selection",
+      "address_geocode",
+      "property_type",
+      "vacancy_type",
+      "room_config",
+      "amenities"
+    ],
+    "interaction_modes": [
+      "ui",
+      "passive"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "medium",
+    "networking_profile": "none"
+  }
 }

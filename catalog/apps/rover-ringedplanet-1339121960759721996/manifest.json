@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/rover-ringedplanet",
-    "v2_json_path": "v2/rover-ringedplanet/rover-ringedplanet.json",
+    "v2_app_dir": "v2/apps/rover-ringedplanet",
+    "v2_json_path": "v2/apps/rover-ringedplanet/Rover-RingedPlanet.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Rover-RingedPlanet.md"
   },
   "preview": {
@@ -82,6 +82,29 @@
     "flags": [],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "rover-ringedplanet-1339121960759721996",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:15:53+00:00",
+    "description": "Remixed space trading sim based on Metamike's Rover+Loot. Features autonomous patrolling drone behavior with health/cargo stats, proximity detection, resource transfer mechanics, and floating UI. Collectron-style NPC with configurable perception, movement, and depletion/regen systems.",
+    "feature_tags": [
+      "vehicle",
+      "npc",
+      "ui",
+      "interaction",
+      "simulation",
+      "3d-model"
+    ],
+    "interaction_modes": [
+      "ui",
+      "passive",
+      "networked",
+      "action"
+    ],
+    "asset_profile": "medium",
+    "script_complexity": "high",
+    "networking_profile": "events"
+  }
 }

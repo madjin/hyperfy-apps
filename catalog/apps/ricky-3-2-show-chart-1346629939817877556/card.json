@@ -1,0 +1,33 @@
+{
+  "name": "Ricky-3-2-show_chart",
+  "author": "0mka",
+  "description": "Configurable billboard display for web-based charts/images featuring interactive refresh via E-key action, cooldown management, and customizable positioning. Uses UI nodes for rendering external media URLs with cache-busting.",
+  "tags": [
+    "ui",
+    "media-player",
+    "interaction",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "action",
+    "ui",
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking": "none",
+  "preview_url": null,
+  "download_path": "v2-hyp/Ricky-3-2-show_chart.hyp",
+  "created_at": "2025-03-04T23:46:36.827Z",
+  "props": {
+    "chartUrl": "https://cambrian.rickydata.com/plot_best_categories",
+    "refreshLabel": "Refresh Chart [E]",
+    "refreshRadius": 5,
+    "width": 640,
+    "height": 480,
+    "posX": 0,
+    "posY": 1.7,
+    "posZ": -3,
+    "imageFit": "fill"
+  }
+}

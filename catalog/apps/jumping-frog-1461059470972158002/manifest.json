@@ -24,8 +24,8 @@
     "source_priority_used": "summary_excerpt"
   },
   "links": {
-    "v2_app_dir": "v2/jumping-frog",
-    "v2_json_path": "v2/jumping-frog/jumping-frog.json",
+    "v2_app_dir": "v2/apps/jumping-frog",
+    "v2_json_path": "v2/apps/jumping-frog/Jumping Frog.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Jumping_Frog.md"
   },
   "preview": {
@@ -44,6 +44,24 @@
     ],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "jumping-frog-1461059470972158002",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:07:09+00:00",
+    "description": "A procedural animated frog character that continuously hops with squash-and-stretch physics, tongue-flicking animations, and randomized jump parameters. Built from geometric primitives with articulated legs and expressive eyes, serving as autonomous environmental decoration.",
+    "feature_tags": [
+      "animation",
+      "3d-model",
+      "npc",
+      "environment"
+    ],
+    "interaction_modes": [
+      "passive"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "medium",
+    "networking_profile": "none"
+  }
 }

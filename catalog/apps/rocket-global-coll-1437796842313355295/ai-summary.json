@@ -1,19 +1,22 @@
 {
   "app_id": "rocket-global-coll-1437796842313355295",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:48:11+00:00",
-  "one_liner": "No reliable one-line summary generated.",
-  "primary_use_case": "General Hyperfy app behavior.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-14T19:46:04+00:00",
+  "description": "An interactive networked rocket launcher with collision physics, particle exhaust effects, and synchronized launch/respawn animations controlled via action button.",
   "feature_tags": [
-    "unclassified"
+    "particles",
+    "animation",
+    "physics",
+    "interaction",
+    "multiplayer",
+    "3d-model"
   ],
-  "interaction_modes": [],
+  "interaction_modes": [
+    "action",
+    "networked",
+    "ui"
+  ],
   "asset_profile": "medium",
-  "script_complexity": "medium",
-  "networking_profile": "none",
-  "preview_recommendation": "",
-  "manifest_quality_notes": [],
-  "safety_or_runtime_flags": [],
-  "confidence": "medium",
-  "evidence_refs": []
+  "script_complexity": "high",
+  "networking_profile": "events"
 }

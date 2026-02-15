@@ -24,8 +24,8 @@
     "source_priority_used": "summary_excerpt"
   },
   "links": {
-    "v2_app_dir": "v2/physics-triggers-tags",
-    "v2_json_path": "v2/physics-triggers-tags/physics-triggers-tags.json",
+    "v2_app_dir": "v2/apps/physics-triggers-tags",
+    "v2_json_path": "v2/apps/physics-triggers-tags/Physics - Triggers & Tags.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Physics_-_Triggers__Tags.md"
   },
   "preview": {
@@ -56,6 +56,26 @@
     "flags": [],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "physics-triggers-tags-1354303006505435206",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:11:21+00:00",
+    "description": "A physics demonstration showcasing trigger zones and object tags. Features static and dynamic bodies with collision detection, displaying trigger entry/exit events via floating UI text. Useful for learning Hyperfy physics interactions and tag-based filtering.",
+    "feature_tags": [
+      "physics",
+      "ui",
+      "interaction",
+      "3d-model"
+    ],
+    "interaction_modes": [
+      "trigger",
+      "ui",
+      "passive"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "low",
+    "networking_profile": "none"
+  }
 }

@@ -1,0 +1,22 @@
+{
+  "app_id": "npc-9-1354068129944174592",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-14T21:57:50+00:00",
+  "description": "A configurable NPC with combat capabilities including melee attack detection, animation states (idle/walk/run/sit/talk), and audio feedback. Features FOV-based player detection, chase behavior, and hit position calculation for sword combat integration.",
+  "feature_tags": [
+    "npc",
+    "combat",
+    "animation",
+    "audio",
+    "interaction",
+    "multiplayer"
+  ],
+  "interaction_modes": [
+    "action",
+    "trigger",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "high",
+  "networking_profile": "events"
+}

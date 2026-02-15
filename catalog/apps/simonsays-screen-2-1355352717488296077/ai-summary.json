@@ -1,0 +1,21 @@
+{
+  "app_id": "simonsays-screen-2-1355352717488296077",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-14T21:58:38+00:00",
+  "description": "Networked Simon Says game UI with scalable 3D interface. Features phased gameplay with color/signal logic, background audio tracks, and server-authoritative state management. Demonstrates performance issues with large UI elements.",
+  "feature_tags": [
+    "ui",
+    "multiplayer",
+    "audio",
+    "game",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "ui",
+    "networked",
+    "passive"
+  ],
+  "asset_profile": "heavy",
+  "script_complexity": "high",
+  "networking_profile": "shared_state"
+}

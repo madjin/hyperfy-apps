@@ -1,0 +1,20 @@
+{
+  "app_id": "hyperbeacon-v2-1337234426395889747",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-14T22:07:15+00:00",
+  "description": "A beacon system for listing Hyperfy worlds on Zesty Relay. Users configure world metadata (name, description, tags, image URL) through interactive UI props to broadcast their world to the decentralized relay network.",
+  "feature_tags": [
+    "ui",
+    "multiplayer",
+    "interaction",
+    "media-player",
+    "environment"
+  ],
+  "interaction_modes": [
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "shared_state"
+}

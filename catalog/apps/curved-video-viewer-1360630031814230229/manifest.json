@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/curved-video-viewer",
-    "v2_json_path": "v2/curved-video-viewer/curved-video-viewer.json",
+    "v2_app_dir": "v2/apps/curved-video-viewer",
+    "v2_json_path": "v2/apps/curved-video-viewer/Curved Video Viewer.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Curved_Video_Viewer.md"
   },
   "preview": {
@@ -56,6 +56,24 @@
     "flags": [],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "curved-video-viewer-1360630031814230229",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:01:05+00:00",
+    "description": "Video streaming application with AI-powered content recommendations",
+    "feature_tags": [
+      "streaming",
+      "ai_recommendations",
+      "offline_mode"
+    ],
+    "interaction_modes": [
+      "passive",
+      "passive"
+    ],
+    "asset_profile": "heavy",
+    "script_complexity": "high",
+    "networking_profile": "events"
+  }
 }

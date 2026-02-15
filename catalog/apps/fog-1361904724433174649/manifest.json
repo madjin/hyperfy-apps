@@ -24,8 +24,8 @@
     "source_priority_used": "summary_excerpt"
   },
   "links": {
-    "v2_app_dir": "v2/fog",
-    "v2_json_path": "v2/fog/fog.json",
+    "v2_app_dir": "v2/apps/fog",
+    "v2_json_path": "v2/apps/fog/Fog.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Fog.md"
   },
   "preview": {
@@ -56,6 +56,25 @@
     "flags": [],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "fog-1361904724433174649",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:03:38+00:00",
+    "description": "JSON validation and correction service",
+    "feature_tags": [
+      "validation",
+      "json",
+      "schema"
+    ],
+    "interaction_modes": [
+      "passive",
+      "passive",
+      "passive"
+    ],
+    "asset_profile": "medium",
+    "script_complexity": "high",
+    "networking_profile": "local"
+  }
 }

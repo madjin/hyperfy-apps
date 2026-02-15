@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": null,
-    "v2_json_path": null,
+    "v2_app_dir": "v2/apps/emotesr",
+    "v2_json_path": "v2/apps/emotesr/blueprint.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/EmotesR.md"
   },
   "preview": {
@@ -44,6 +44,28 @@
     ],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "emotesr-1440465428748046346",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-14T21:55:07+00:00",
+    "description": "Circular emote selector UI displaying 6 configurable dance/emote buttons in a radial layout. Players trigger avatar animations via clickable buttons or hotkeys (B to open, 1-6 to select). Supports custom emote files, labels, icons, and gaze locking per slot.",
+    "feature_tags": [
+      "animation",
+      "ui",
+      "interaction",
+      "3d-model",
+      "multiplayer",
+      "avatar"
+    ],
+    "interaction_modes": [
+      "action",
+      "ui",
+      "passive"
+    ],
+    "asset_profile": "heavy",
+    "script_complexity": "medium",
+    "networking_profile": "none"
+  }
 }

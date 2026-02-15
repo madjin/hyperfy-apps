@@ -44,6 +44,23 @@
     ],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "videoenhanced-1433071172739928135",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:22:04+00:00",
+    "description": "Example application for demonstration purposes",
+    "feature_tags": [
+      "productivity",
+      "utilities"
+    ],
+    "interaction_modes": [
+      "passive",
+      "action"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "low",
+    "networking_profile": "none"
+  }
 }

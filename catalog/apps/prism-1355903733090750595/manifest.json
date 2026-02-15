@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/prism",
-    "v2_json_path": "v2/prism/prism.json",
+    "v2_app_dir": "v2/apps/prism",
+    "v2_json_path": "v2/apps/prism/Prism.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Prism.md"
   },
   "preview": {
@@ -71,6 +71,28 @@
     ],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "prism-1355903733090750595",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:12:38+00:00",
+    "description": "A class-based RPG combat system supporting PvPvE gameplay with avatar integration, skill-based attacks, and death/respawn mechanics. Features configurable classes with energy systems, damage floating text, and cross-app event networking for multiplayer dueling.",
+    "feature_tags": [
+      "combat",
+      "rpg",
+      "multiplayer",
+      "ui",
+      "avatar",
+      "animation"
+    ],
+    "interaction_modes": [
+      "action",
+      "ui",
+      "networked"
+    ],
+    "asset_profile": "medium",
+    "script_complexity": "high",
+    "networking_profile": "events"
+  }
 }

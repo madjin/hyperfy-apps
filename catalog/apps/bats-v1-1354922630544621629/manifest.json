@@ -24,8 +24,8 @@
     "source_priority_used": "summary_excerpt"
   },
   "links": {
-    "v2_app_dir": "v2/bats-v1",
-    "v2_json_path": "v2/bats-v1/bats-v1.json",
+    "v2_app_dir": "v2/apps/bats-v1",
+    "v2_json_path": "v2/apps/bats-v1/Bats v1.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Bats_v1.md"
   },
   "preview": {
@@ -56,6 +56,24 @@
     "flags": [],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "bats-v1-1354922630544621629",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T03:55:47+00:00",
+    "description": "Sandbox game",
+    "feature_tags": [
+      "survival",
+      "creative",
+      "multiplayer"
+    ],
+    "interaction_modes": [
+      "trigger",
+      "passive"
+    ],
+    "asset_profile": "heavy",
+    "script_complexity": "medium",
+    "networking_profile": "events"
+  }
 }

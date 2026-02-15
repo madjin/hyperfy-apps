@@ -1,40 +1,21 @@
 {
   "app_id": "dash-1356968685415301160",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:44:56+00:00",
-  "one_liner": "Dash app provides a quick forward charge ability with configurable color and UI, using an emote effect and no cooldown, making it highly spamable.",
-  "primary_use_case": "Enable players to perform a rapid forward dash with a visual charge effect, configurable via UI properties.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-14T19:39:10+00:00",
+  "description": "A player ability app that enables a dash movement mechanic. Press F to perform a directional dash with camera-relative movement, custom emote animation, and cooldown. Features configurable color variants and custom charge emote support.",
   "feature_tags": [
-    "movement",
-    "charge",
-    "configurable_color",
+    "animation",
+    "interaction",
+    "physics",
     "ui",
-    "emote"
+    "3d-model",
+    "combat"
   ],
   "interaction_modes": [
     "action",
-    "trigger",
     "ui"
   ],
   "asset_profile": "medium",
   "script_complexity": "medium",
-  "networking_profile": "none",
-  "preview_recommendation": "Use the provided PNG preview as it shows the UI layout and color configuration; no additional media needed.",
-  "manifest_quality_notes": [
-    "All required assets (model, script, emote) are present.",
-    "UI configuration defined via app.configure.",
-    "Potentially spamable due to lack of cooldown.",
-    "No author review required (confidence high).",
-    "Preview selected based on same author proximity."
-  ],
-  "safety_or_runtime_flags": [
-    "spamable",
-    "no_cooldown"
-  ],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message",
-    "hyp_file",
-    "static_analysis"
-  ]
+  "networking_profile": "local"
 }

@@ -24,8 +24,8 @@
     "source_priority_used": "summary_excerpt"
   },
   "links": {
-    "v2_app_dir": "v2/butterfly-swarm-v5",
-    "v2_json_path": "v2/butterfly-swarm-v5/butterfly-swarm-v5.json",
+    "v2_app_dir": "v2/apps/butterfly-swarm-v5",
+    "v2_json_path": "v2/apps/butterfly-swarm-v5/Butterfly Swarm V5.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Butterfly_Swarm_V5.md"
   },
   "preview": {
@@ -44,6 +44,26 @@
     ],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "butterfly-swarm-v5-1354102502055743531",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-14T19:37:23+00:00",
+    "description": "Configurable 3D butterfly swarm generator with animated wing flapping and flight patterns. Features UI controls for butterfly count (1-5000), random scaling, flap speed, and fly speed. Clones wing nodes to create varied ambient environmental effects.",
+    "feature_tags": [
+      "environment",
+      "animation",
+      "particles",
+      "3d-model",
+      "ui"
+    ],
+    "interaction_modes": [
+      "passive",
+      "ui"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "medium",
+    "networking_profile": "none"
+  }
 }

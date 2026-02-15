@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/mob-skelly",
-    "v2_json_path": "v2/mob-skelly/mob-skelly.json",
+    "v2_app_dir": "v2/apps/mob-skelly",
+    "v2_json_path": "v2/apps/mob-skelly/Mob - Skelly.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Mob_-_Skelly.md"
   },
   "preview": {
@@ -71,6 +71,21 @@
     ],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "mob-skelly-1355903733090750595",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:09:21+00:00",
+    "description": "PLACEHOLDER_FIX",
+    "feature_tags": [
+      "unclassified"
+    ],
+    "interaction_modes": [
+      "passive"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "low",
+    "networking_profile": "none"
+  }
 }

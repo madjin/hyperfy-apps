@@ -1,17 +1,75 @@
 {
   "name": "EmotesR",
   "author": "\ud835\udd7d\ud835\udd94\ud835\udd9a\ud835\udd98\ud835\udd99\ud835\udd86\ud835\udd93",
-  "description": "Placeholder object due to missing input data",
+  "description": "Circular emote selector UI displaying 6 configurable dance/emote buttons in a radial layout. Players trigger avatar animations via clickable buttons or hotkeys (B to open, 1-6 to select). Supports custom emote files, labels, icons, and gaze locking per slot.",
   "tags": [
-    "unclassified"
+    "animation",
+    "ui",
+    "interaction",
+    "3d-model",
+    "multiplayer",
+    "avatar"
   ],
   "interaction_modes": [
+    "action",
+    "ui",
     "passive"
   ],
-  "asset_profile": "light",
-  "script_complexity": "low",
+  "asset_profile": "heavy",
+  "script_complexity": "medium",
   "networking": "none",
   "preview_url": "catalog/generated_previews/emotesr-1440465428748046346.jpg",
   "download_path": "v2-hyp/EmotesR.hyp",
-  "created_at": "2025-11-18T22:15:20.767Z"
+  "created_at": "2025-11-18T22:15:20.767Z",
+  "props": {
+    "collision": true,
+    "emote0": {
+      "type": "emote",
+      "name": "raiseTHAroof.glb",
+      "url": "asset://083cee7ffd60b49774a01d1805e0264ff3901116952baee0d0528ef6fcee06de.glb"
+    },
+    "label0": "ThaRoof",
+    "emote1": {
+      "type": "emote",
+      "name": "SnakeHipHopDance.glb",
+      "url": "asset://74efa7754335339bb34009e1e2913b26863bcfb9070aaa0a494fdb85f93d0a84.glb"
+    },
+    "label1": "Snake",
+    "label2": "Belly",
+    "emote2": {
+      "type": "emote",
+      "name": "bellydance.glb",
+      "url": "asset://c4456436adb223a4642b565c42ba5bf2f5571a2ef9ec8d75d9a60258227c9f0f.glb"
+    },
+    "label3": "Headbob",
+    "emote3": {
+      "type": "emote",
+      "name": "listeningtomusic.glb",
+      "url": "asset://bee0c7a079ef5095c94927e98bd0ec758d884c401db2d65dd6d898f37e399e0e.glb"
+    },
+    "emote4": {
+      "type": "emote",
+      "name": "HipHopDancing2.glb",
+      "url": "asset://e2e8fd9c8a1f848fcb905bbcdd38eda2e1ee5fe24819de61d7999562c0796e94.glb"
+    },
+    "label4": "Hip Hop",
+    "emote5": {
+      "type": "emote",
+      "name": "GangnamStyle.glb",
+      "url": "asset://6ca7ea3661361d0eb8fe26cf2ec6981bb019c80b9dd7bee1b3f7efab273f84b5.glb"
+    },
+    "label5": "Gagnam",
+    "icon0": null,
+    "icon": {
+      "type": "image",
+      "name": "emote-dance-icon (1).png",
+      "url": "asset://6dbc2b4f46bc0c5ae96a2e9548fa27f8b5c700ec02b7b961135c88727da78bba.png"
+    },
+    "gaze0": true,
+    "gaze2": false,
+    "gaze3": true,
+    "gaze4": true,
+    "gaze5": false,
+    "hide": false
+  }
 }

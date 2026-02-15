@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/360-video-viewer",
-    "v2_json_path": "v2/360-video-viewer/360-video-viewer.json",
+    "v2_app_dir": "v2/apps/360-video-viewer",
+    "v2_json_path": "v2/apps/360-video-viewer/360 Video Viewer.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/360_Video_Viewer.md"
   },
   "preview": {
@@ -56,6 +56,26 @@
     "flags": [],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "360-video-viewer-1360629006327873747",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T03:54:25+00:00",
+    "description": "A 360-degree video player that renders immersive spherical video inside a sphere geometry. Users stand on a central platform while video plays on the inner surface. Supports local video files and m3u8 streaming sources.",
+    "feature_tags": [
+      "media-player",
+      "environment",
+      "ui",
+      "3d-model",
+      "interaction"
+    ],
+    "interaction_modes": [
+      "ui",
+      "passive"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "low",
+    "networking_profile": "none"
+  }
 }

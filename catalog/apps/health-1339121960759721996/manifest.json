@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/health",
-    "v2_json_path": "v2/health/health.json",
+    "v2_app_dir": "v2/apps/health",
+    "v2_json_path": "v2/apps/health/Health.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Health.md"
   },
   "preview": {
@@ -82,6 +82,27 @@
     "flags": [],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "health-1339121960759721996",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:05:59+00:00",
+    "description": "Configurable health pack collectible with idle rotation animation. Detects nearby collector entities via proximity checks and emits networking events upon pickup for inventory system integration. Supports custom display names and health values.",
+    "feature_tags": [
+      "interaction",
+      "animation",
+      "combat",
+      "ui",
+      "3d-model"
+    ],
+    "interaction_modes": [
+      "trigger",
+      "passive",
+      "networked"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "medium",
+    "networking_profile": "events"
+  }
 }

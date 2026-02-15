@@ -1,24 +1,22 @@
 {
   "name": "saori-2-5-trump-agent",
   "author": "0mka",
-  "description": "saori 2 5 trump agent.hyp",
+  "description": "AI-powered NPC agent with VRM avatar that connects to external APIs to respond to chat, perform emotes, and interact with players. Features speech bubbles, nametags, and real-time environmental awareness.",
   "tags": [
+    "npc",
     "avatar",
     "chat",
-    "animation",
-    "ui",
-    "multiplayer",
-    "webhook"
+    "agent",
+    "multiplayer"
   ],
   "interaction_modes": [
-    "ui",
-    "passive",
     "networked",
-    "trigger"
+    "passive",
+    "ui"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "medium",
-  "networking": "shared_state",
+  "asset_profile": "heavy",
+  "script_complexity": "high",
+  "networking": "events",
   "preview_url": "catalog/generated_previews/saori-2-5-trump-agent-1346629939817877556.png",
   "download_path": "v2-hyp/saori-2-5-trump-agent.hyp",
   "created_at": "2025-03-04T23:46:36.827Z",

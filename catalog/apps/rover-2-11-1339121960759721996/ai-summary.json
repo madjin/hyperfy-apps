@@ -1,0 +1,23 @@
+{
+  "app_id": "rover-2-11-1339121960759721996",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-14T21:58:21+00:00",
+  "description": "A space trading simulation remix of Metamike's Rover+Loot apps featuring autonomous patrol behavior, resource collection, health/loot stats management, and cross-app networking. Includes 3D vehicle model, dynamic UI status displays, and configurable perception/collection mechanics.",
+  "feature_tags": [
+    "vehicle",
+    "ui",
+    "npc",
+    "audio",
+    "3d-model",
+    "interaction"
+  ],
+  "interaction_modes": [
+    "action",
+    "ui",
+    "passive",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "high",
+  "networking_profile": "events"
+}

@@ -1,0 +1,81 @@
+{
+  "app_id": "speedtrail-v0-1-1361987355577421954",
+  "app_slug": "speedtrail-v0-1",
+  "app_name": "SpeedTrail_v0.1",
+  "source": {
+    "hyp_filename": "SpeedTrail_v0.1.hyp",
+    "discord_attachment_id": "1361987355212251279",
+    "discord_message_id": "1361987355577421954",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-04-16T08:51:30.071Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1361987355212251279/SpeedTrail_v0.1.hyp?ex=69792551&is=6977d3d1&hm=9b376449e36df683d6fc0a2c5c0413122334fabd8077479209862b9faa33a737&"
+  },
+  "author": {
+    "display_name": "Valiant",
+    "discord_user_id": "540822785371668480",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "if anyone wants to try it out. wip . supposed to be diff particle burst on landing but not working right. it does trigger, massively, on certain rates of descent when flying. client only just now so not visible to other players.",
+    "raw_message_content": "if anyone wants to try it out. wip . supposed to be diff particle burst on landing but not working right. it does trigger, massively, on certain rates of descent when flying. client only just now so not visible to other players.",
+    "summary_excerpt": "SpeedTrail v0.1.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/speedtrail-v0-1",
+    "v2_json_path": "v2/apps/speedtrail-v0-1/SpeedTrail v0.1.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/SpeedTrail_v0.1.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/SpeedTrail_v0.1_1361987355577421954/m1_2025-04-14_23-09-26_1.mp4",
+    "media_type": ".mp4",
+    "selection_reason": "same_author_nearby",
+    "is_fallback_any_author": false
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/SpeedTrail_v0.1_1361987355577421954/m1_2025-04-14_23-09-26_1.mp4",
+      "original_filename": "2025-04-14_23-09-26_1.mp4",
+      "content_type": "video/mp4",
+      "relative_index": -1,
+      "same_author": true,
+      "selection_reason": "same_author_nearby",
+      "size_bytes": 3480678,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1361970355131908157"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "speedtrail-v0-1-1361987355577421954",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-14T19:47:24+00:00",
+    "description": "Client-side player speed trail visualizer that spawns particle effects behind moving avatars. Features configurable trail density, landing burst effects, and speed-based scaling. Currently work-in-progress with known issues on landing detection.",
+    "feature_tags": [
+      "particles",
+      "animation",
+      "environment",
+      "ui",
+      "3d-model"
+    ],
+    "interaction_modes": [
+      "passive",
+      "ui"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "high",
+    "networking_profile": "none"
+  }
+}

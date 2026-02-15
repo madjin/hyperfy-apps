@@ -1,19 +1,30 @@
 {
   "name": "sit",
   "author": "Wilson",
-  "description": "Ground inference API tool",
+  "description": "A configurable seat app that allows players to sit with custom emotes. Features visibility toggle, networked seat occupancy state, and cancellable emote effects. Inspired by legacy v1 seat systems.",
   "tags": [
-    "api",
-    "inference",
-    "grounding"
+    "interaction",
+    "animation",
+    "multiplayer",
+    "ui",
+    "3d-model"
   ],
   "interaction_modes": [
+    "action",
     "networked"
   ],
   "asset_profile": "medium",
-  "script_complexity": "high",
+  "script_complexity": "medium",
   "networking": "shared_state",
   "preview_url": "catalog/generated_previews/sit-1351223744022183987.png",
   "download_path": "v2-hyp/sit.hyp",
-  "created_at": "2025-03-17T16:00:45.098Z"
+  "created_at": "2025-03-17T16:00:45.098Z",
+  "props": {
+    "emote": {
+      "type": "emote",
+      "name": "Sitting And Talking To Another Person.glb",
+      "url": "asset://ad0dc6273210096fa432edaddea494beaa855cc3f108f2e909c6d4242559a97a.glb"
+    },
+    "visibleType": "visible"
+  }
 }

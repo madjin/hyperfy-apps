@@ -1,19 +1,21 @@
 {
   "app_id": "gert-2-1-aloe-1346629939817877556",
   "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T04:05:12+00:00",
-  "description": "Quickly show and hide desktop icons",
+  "generated_at": "2026-02-14T21:56:14+00:00",
+  "description": "Procedurally distributes Aloe Vera plant clones within a configurable area. Users control clone count, area dimensions (X/Z), and min/max size randomization for natural-looking vegetation placement.",
   "feature_tags": [
-    "desktop",
-    "icons",
-    "toggle",
-    "visibility"
+    "environment",
+    "3d-model",
+    "ui",
+    "procedural",
+    "vegetation",
+    "building"
   ],
   "interaction_modes": [
-    "trigger",
-    "ui"
+    "ui",
+    "passive"
   ],
-  "asset_profile": "medium",
+  "asset_profile": "light",
   "script_complexity": "low",
   "networking_profile": "none"
 }

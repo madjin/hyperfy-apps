@@ -1,41 +1,20 @@
 {
   "app_id": "butterfly-swarm-v5-1354102502055743531",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:44:33+00:00",
-  "one_liner": "Butterfly Swarm V5 creates a dynamic swarm of animated butterflies with configurable amount, scale, flap and fly speeds, using a GLB model and client\u2011side animation.",
-  "primary_use_case": "Add a visually appealing, customizable butterfly swarm to a Hyperfy world for ambient animation.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-14T19:37:23+00:00",
+  "description": "Configurable 3D butterfly swarm generator with animated wing flapping and flight patterns. Features UI controls for butterfly count (1-5000), random scaling, flap speed, and fly speed. Clones wing nodes to create varied ambient environmental effects.",
   "feature_tags": [
+    "environment",
     "animation",
-    "swarm",
+    "particles",
     "3d-model",
-    "configurable",
-    "client-side",
-    "visual-effects",
-    "particles"
+    "ui"
   ],
   "interaction_modes": [
-    "ui",
-    "passive"
+    "passive",
+    "ui"
   ],
-  "asset_profile": "medium",
+  "asset_profile": "light",
   "script_complexity": "medium",
-  "networking_profile": "none",
-  "preview_recommendation": "Add a short looping video or GIF of the butterfly swarm for preview; otherwise the app will show a placeholder.",
-  "manifest_quality_notes": [
-    "No preview media found",
-    "Configurable UI present",
-    "Client\u2011side animation only",
-    "Ground clamp fix applied",
-    "Model includes wing nodes",
-    "Script uses randomization"
-  ],
-  "safety_or_runtime_flags": [
-    "no_media_found"
-  ],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message:1354102502055743531",
-    "discord_attachment:1354102502181703750",
-    "hyp_file:Butterfly_Swarm_V5.hyp"
-  ]
+  "networking_profile": "none"
 }

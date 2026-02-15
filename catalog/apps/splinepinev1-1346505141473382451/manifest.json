@@ -24,8 +24,8 @@
     "source_priority_used": "summary_excerpt"
   },
   "links": {
-    "v2_app_dir": "v2/splinepinev1",
-    "v2_json_path": "v2/splinepinev1/splinepinev1.json",
+    "v2_app_dir": "v2/apps/splinepinev1",
+    "v2_json_path": "v2/apps/splinepinev1/SplinePineV1.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/SplinePineV1.md"
   },
   "preview": {
@@ -56,6 +56,22 @@
     "flags": [],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "splinepinev1-1346505141473382451",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:18:26+00:00",
+    "description": "Procedural topiary pine tree generator placing cube segments along a sine curve with randomized scale and rotation. Creates stylized scalable vegetation for environment decoration.",
+    "feature_tags": [
+      "environment",
+      "3d-model"
+    ],
+    "interaction_modes": [
+      "passive"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "medium",
+    "networking_profile": "none"
+  }
 }

@@ -1,20 +1,20 @@
 {
   "app_id": "heliv4-1374463195070332958",
   "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T04:05:57+00:00",
-  "description": "Autonomous police helicopter that flies a continuous oval patrol path. Features animated rotor UV scrolling, spatial audio with configurable props, and realistic flight physics including pitch/yaw adjustments based on path curvature and speed variation.",
+  "generated_at": "2026-02-14T21:56:15+00:00",
+  "description": "Interactive 3D helicopter model (v4) featuring engine idle audio loop, drivable vehicle mechanics, and detailed aviation design for immersive flight experiences.",
   "feature_tags": [
     "vehicle",
-    "animation",
     "audio",
-    "environment",
-    "3d-model"
+    "3d-model",
+    "animation",
+    "interaction"
   ],
   "interaction_modes": [
-    "passive",
+    "action",
     "ui"
   ],
-  "asset_profile": "light",
-  "script_complexity": "high",
+  "asset_profile": "medium",
+  "script_complexity": "medium",
   "networking_profile": "none"
 }

@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/teleport-trigger-box",
-    "v2_json_path": "v2/teleport-trigger-box/teleport-trigger-box.json",
+    "v2_app_dir": "v2/apps/teleport-trigger-box",
+    "v2_json_path": "v2/apps/teleport-trigger-box/Teleport Trigger Box.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/TeleportTriggerBox.md"
   },
   "preview": {
@@ -44,6 +44,25 @@
     ],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "teleport-trigger-box-1431333007888748678",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:19:22+00:00",
+    "description": "A customizable 3D trigger box that teleports players to specified XYZ coordinates upon entry. Features configurable destination, visibility toggle, and scalable dimensions via the properties panel.",
+    "feature_tags": [
+      "teleport",
+      "interaction",
+      "physics",
+      "ui"
+    ],
+    "interaction_modes": [
+      "trigger",
+      "ui"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "low",
+    "networking_profile": "none"
+  }
 }

@@ -1,0 +1,20 @@
+{
+  "app_id": "neon-1-1369282194895274065",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-14T19:44:42+00:00",
+  "description": "Customizable 3D neon sign supporting alphanumeric and special characters. Features configurable text, spacing, scale, height, glow intensity, color, and alignment via UI panel.",
+  "feature_tags": [
+    "ui",
+    "environment",
+    "3d-model",
+    "animation",
+    "building"
+  ],
+  "interaction_modes": [
+    "ui",
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "none"
+}

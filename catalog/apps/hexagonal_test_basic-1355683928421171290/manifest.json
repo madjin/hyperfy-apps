@@ -56,6 +56,28 @@
     "flags": [],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-14T21:31:18+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "hexagonal_test_basic-1355683928421171290",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:06:19+00:00",
+    "description": "Interactive hexagonal floor panels that react to player contact by dipping down and cycling through UV color scrolls. Features idle oscillation, configurable movement speeds, and visual feedback for mini-game applications.",
+    "feature_tags": [
+      "interaction",
+      "animation",
+      "physics",
+      "environment",
+      "3d-model",
+      "ui"
+    ],
+    "interaction_modes": [
+      "trigger",
+      "ui",
+      "passive"
+    ],
+    "asset_profile": "medium",
+    "script_complexity": "medium",
+    "networking_profile": "none"
+  }
 }

@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/player-transforms",
-    "v2_json_path": "v2/player-transforms/player-transforms.json",
+    "v2_app_dir": "v2/apps/player-transforms",
+    "v2_json_path": "v2/apps/player-transforms/Player Transforms.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Player_Transforms.md"
   },
   "preview": {
@@ -56,6 +56,24 @@
     "flags": [],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "player-transforms-1425752169482551389",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:12:41+00:00",
+    "description": "Create a Kubernetes cluster with advanced networking capabilities",
+    "feature_tags": [
+      "kubernetes",
+      "multiplayer",
+      "infrastructure"
+    ],
+    "interaction_modes": [
+      "ui",
+      "trigger"
+    ],
+    "asset_profile": "medium",
+    "script_complexity": "high",
+    "networking_profile": "none"
+  }
 }

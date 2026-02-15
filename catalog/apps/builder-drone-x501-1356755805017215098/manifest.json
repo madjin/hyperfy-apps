@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/builder-drone-x501",
-    "v2_json_path": "v2/builder-drone-x501/builder-drone-x501.json",
+    "v2_app_dir": "v2/apps/builder-drone-x501",
+    "v2_json_path": "v2/apps/builder-drone-x501/Builder Drone X501.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Builder_Drone_X501.md"
   },
   "preview": {
@@ -44,6 +44,27 @@
     ],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "builder-drone-x501-1356755805017215098",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T03:57:16+00:00",
+    "description": "A controllable flying drone that players can pilot using WASD and mouse look. Features physics-based movement, animated rotors, and networked multiplayer support with ownership handoff.",
+    "feature_tags": [
+      "vehicle",
+      "physics",
+      "multiplayer",
+      "interaction",
+      "camera",
+      "animation"
+    ],
+    "interaction_modes": [
+      "action",
+      "networked"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "medium",
+    "networking_profile": "shared_state"
+  }
 }

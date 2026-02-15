@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/platforms",
-    "v2_json_path": "v2/platforms/platforms.json",
+    "v2_app_dir": "v2/apps/platforms",
+    "v2_json_path": "v2/apps/platforms/Platforms.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Platforms.md"
   },
   "preview": {
@@ -110,6 +110,25 @@
     ],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "platforms-1437886474681979002",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:12:15+00:00",
+    "description": "A personal scheduler that manages tasks, calendar events, and reminders in one place",
+    "feature_tags": [
+      "calendar",
+      "scheduling",
+      "reminders",
+      "productivity"
+    ],
+    "interaction_modes": [
+      "trigger",
+      "action"
+    ],
+    "asset_profile": "medium",
+    "script_complexity": "medium",
+    "networking_profile": "local"
+  }
 }

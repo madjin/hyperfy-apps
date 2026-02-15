@@ -1,0 +1,81 @@
+{
+  "app_id": "neon-1-1369282194895274065",
+  "app_slug": "neon-1",
+  "app_name": "NEON_1",
+  "source": {
+    "hyp_filename": "NEON_1.hyp",
+    "discord_attachment_id": "1369282194496819302",
+    "discord_message_id": "1369282194895274065",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-05-06T11:58:35.296Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1346623562462527649/1369282194496819302/NEON_1.hyp?ex=6979512b&is=6977ffab&hm=4c7d125f069fbaf310eecb2892a230b8608ef8c42ed7922cc0afe5a2a69fdc1c&"
+  },
+  "author": {
+    "display_name": "Gert-Jan Akerboom",
+    "discord_user_id": "601886221072990251",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "NEON 1.hyp",
+    "raw_message_content": "",
+    "summary_excerpt": "NEON 1.hyp",
+    "source_priority_used": "summary_excerpt"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/neon-1",
+    "v2_json_path": "v2/apps/neon-1/NEON_1.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/NEON_1.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/NEON_1_1369282194895274065/p1_NEON.mp4",
+    "media_type": ".mp4",
+    "selection_reason": "same_author_nearby",
+    "is_fallback_any_author": false
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/NEON_1_1369282194895274065/p1_NEON.mp4",
+      "original_filename": "NEON.mp4",
+      "content_type": "video/mp4",
+      "relative_index": 1,
+      "same_author": true,
+      "selection_reason": "same_author_nearby",
+      "size_bytes": 4280581,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1369282306526674985"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "neon-1-1369282194895274065",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-14T19:44:42+00:00",
+    "description": "Customizable 3D neon sign supporting alphanumeric and special characters. Features configurable text, spacing, scale, height, glow intensity, color, and alignment via UI panel.",
+    "feature_tags": [
+      "ui",
+      "environment",
+      "3d-model",
+      "animation",
+      "building"
+    ],
+    "interaction_modes": [
+      "ui",
+      "passive"
+    ],
+    "asset_profile": "medium",
+    "script_complexity": "medium",
+    "networking_profile": "none"
+  }
+}

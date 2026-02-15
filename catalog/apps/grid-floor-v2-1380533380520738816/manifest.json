@@ -24,8 +24,8 @@
     "source_priority_used": "summary_excerpt"
   },
   "links": {
-    "v2_app_dir": "v2/grid-floor-v2",
-    "v2_json_path": "v2/grid-floor-v2/grid-floor-v2.json",
+    "v2_app_dir": "v2/apps/grid-floor-v2",
+    "v2_json_path": "v2/apps/grid-floor-v2/Grid Floor v2.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Grid_Floor_v2.md"
   },
   "preview": {
@@ -44,6 +44,23 @@
     ],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "grid-floor-v2-1380533380520738816",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:05:22+00:00",
+    "description": "A lightweight grid floor asset positioned 0.03 units above ground to prevent z-fighting. Includes textured GLB model and minimal positioning script. Designed as a reusable environmental building block for Hyperfy worlds.",
+    "feature_tags": [
+      "environment",
+      "building",
+      "3d-model"
+    ],
+    "interaction_modes": [
+      "passive"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "low",
+    "networking_profile": "none"
+  }
 }

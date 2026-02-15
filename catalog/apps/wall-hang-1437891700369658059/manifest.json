@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/wall-hang",
-    "v2_json_path": "v2/wall-hang/wall-hang.json",
+    "v2_app_dir": "v2/apps/wall-hang",
+    "v2_json_path": "v2/apps/wall-hang/Wall Hang.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Wall_Hang.md"
   },
   "preview": {
@@ -110,6 +110,24 @@
     ],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "wall-hang-1437891700369658059",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:22:08+00:00",
+    "description": "Valid JSON placeholder",
+    "feature_tags": [
+      "json",
+      "validation",
+      "placeholder"
+    ],
+    "interaction_modes": [
+      "trigger",
+      "action"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "low",
+    "networking_profile": "none"
+  }
 }

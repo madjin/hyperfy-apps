@@ -24,8 +24,8 @@
     "source_priority_used": "summary_excerpt"
   },
   "links": {
-    "v2_app_dir": "v2/pvp-core-with-spawns",
-    "v2_json_path": "v2/pvp-core-with-spawns/pvp-core-with-spawns.json",
+    "v2_app_dir": "v2/apps/pvp-core-with-spawns",
+    "v2_json_path": "v2/apps/pvp-core-with-spawns/PvP Core (with spawns).json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/PvP_Core_with_spawns.md"
   },
   "preview": {
@@ -56,6 +56,26 @@
     "flags": [],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "pvp-core-with-spawns-1355236590603075706",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:13:15+00:00",
+    "description": "PvP combat core with configurable spawn points, death emote playback, heal-over-time, and floating damage numbers. Server monitors player health to trigger death effects and random respawns, while clients display damage UI.",
+    "feature_tags": [
+      "combat",
+      "multiplayer",
+      "ui",
+      "animation"
+    ],
+    "interaction_modes": [
+      "passive",
+      "ui",
+      "networked"
+    ],
+    "asset_profile": "medium",
+    "script_complexity": "high",
+    "networking_profile": "shared_state"
+  }
 }

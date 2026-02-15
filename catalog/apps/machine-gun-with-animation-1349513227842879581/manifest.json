@@ -1,0 +1,71 @@
+{
+  "app_id": "machine-gun-with-animation-1349513227842879581",
+  "app_slug": "machine-gun-with-animation",
+  "app_name": "Machine_Gun_With_Animation",
+  "source": {
+    "hyp_filename": "Machine_Gun_With_Animation.hyp",
+    "discord_attachment_id": "1349513227486105630",
+    "discord_message_id": "1349513227842879581",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-03-12T22:43:46.261Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1346623562462527649/1349513227486105630/Machine_Gun_With_Animation.hyp?ex=69793fa2&is=6977ee22&hm=24dde72192e255136f79463e0b2993e5e375b70afc1e81617dbfe61b588fc609&"
+  },
+  "author": {
+    "display_name": "Saori",
+    "discord_user_id": "1099579050378399806",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "Machine Gun With Animation.hyp",
+    "raw_message_content": "",
+    "summary_excerpt": "Machine Gun With Animation.hyp",
+    "source_priority_used": "summary_excerpt"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/machine-gun-with-animation",
+    "v2_json_path": "v2/apps/machine-gun-with-animation/blueprint.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Machine_Gun_With_Animation.md"
+  },
+  "preview": {
+    "primary_media_path": null,
+    "media_type": null,
+    "selection_reason": null,
+    "is_fallback_any_author": false
+  },
+  "media": [],
+  "status": {
+    "has_preview": false,
+    "needs_media_review": true,
+    "needs_author_review": false,
+    "flags": [
+      "no_media_found"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "machine-gun-with-animation-1349513227842879581",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-14T21:56:22+00:00",
+    "description": "A weapon animation override system that equips a machine gun with full directional movement animations. Players pick up the weapon to activate custom idle, walk, run, and sprint animations in all directions including diagonals and backward variants. Includes shooting mechanics with cooldown and scop",
+    "feature_tags": [
+      "animation",
+      "combat",
+      "interaction",
+      "3d-model",
+      "multiplayer",
+      "ui"
+    ],
+    "interaction_modes": [
+      "action",
+      "trigger",
+      "networked"
+    ],
+    "asset_profile": "heavy",
+    "script_complexity": "high",
+    "networking_profile": "shared_state"
+  }
+}

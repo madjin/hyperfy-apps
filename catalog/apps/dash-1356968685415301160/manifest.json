@@ -24,8 +24,8 @@
     "source_priority_used": "summary_excerpt"
   },
   "links": {
-    "v2_app_dir": "v2/dash",
-    "v2_json_path": "v2/dash/dash.json",
+    "v2_app_dir": "v2/apps/dash",
+    "v2_json_path": "v2/apps/dash/dash.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/dash.md"
   },
   "preview": {
@@ -56,6 +56,27 @@
     "flags": [],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "dash-1356968685415301160",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-14T19:39:10+00:00",
+    "description": "A player ability app that enables a dash movement mechanic. Press F to perform a directional dash with camera-relative movement, custom emote animation, and cooldown. Features configurable color variants and custom charge emote support.",
+    "feature_tags": [
+      "animation",
+      "interaction",
+      "physics",
+      "ui",
+      "3d-model",
+      "combat"
+    ],
+    "interaction_modes": [
+      "action",
+      "ui"
+    ],
+    "asset_profile": "medium",
+    "script_complexity": "medium",
+    "networking_profile": "local"
+  }
 }

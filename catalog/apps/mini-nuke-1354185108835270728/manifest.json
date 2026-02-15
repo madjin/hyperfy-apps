@@ -24,8 +24,8 @@
     "source_priority_used": "summary_excerpt"
   },
   "links": {
-    "v2_app_dir": "v2/mini-nuke",
-    "v2_json_path": "v2/mini-nuke/mini-nuke.json",
+    "v2_app_dir": "v2/apps/mini-nuke",
+    "v2_json_path": "v2/apps/mini-nuke/MINI-Nuke.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/MINI-Nuke.md"
   },
   "preview": {
@@ -84,6 +84,23 @@
     ],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "mini-nuke-1354185108835270728",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:09:14+00:00",
+    "description": "Example application description",
+    "feature_tags": [
+      "productivity",
+      "utilities"
+    ],
+    "interaction_modes": [
+      "action",
+      "action"
+    ],
+    "asset_profile": "medium",
+    "script_complexity": "low",
+    "networking_profile": "none"
+  }
 }

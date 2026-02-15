@@ -1,40 +1,20 @@
 {
   "app_id": "video-with-player-ui-1447233812231880724",
-  "model": "openrouter/aurora-alpha",
-  "generated_at": "2026-02-11T01:48:51+00:00",
-  "one_liner": "Adds optional UI controls (play, pause, reset) to the default video player with multiplayer sync.",
-  "primary_use_case": "Enable interactive video playback with simple world\u2011space UI buttons that can be toggled on or off.",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-14T19:48:34+00:00",
+  "description": "Video player with world-space UI controls allowing players to play, pause, and reset video playback. Features multiplayer synchronization and configurable surface dimensions.",
   "feature_tags": [
-    "video",
+    "media-player",
     "ui",
-    "playback",
     "multiplayer",
-    "sync",
-    "controls",
-    "reset",
-    "pause"
+    "interaction"
   ],
   "interaction_modes": [
     "ui",
-    "action",
-    "networked"
+    "networked",
+    "action"
   ],
   "asset_profile": "medium",
-  "script_complexity": "medium",
-  "networking_profile": "events",
-  "preview_recommendation": "Use the provided screenshot (p0_video_player_ui.png) as the primary preview; it clearly shows the video surface and the UI control buttons.",
-  "manifest_quality_notes": [
-    "All required assets are present",
-    "UI toggle functional",
-    "Multiplayer sync implemented via events",
-    "Preview image matches app functionality",
-    "No missing dependencies"
-  ],
-  "safety_or_runtime_flags": [],
-  "confidence": "high",
-  "evidence_refs": [
-    "discord_message_1447233812231880724",
-    "hyp_file_Video_with_player_UI.hyp",
-    "static_analysis_summary"
-  ]
+  "script_complexity": "high",
+  "networking_profile": "shared_state"
 }

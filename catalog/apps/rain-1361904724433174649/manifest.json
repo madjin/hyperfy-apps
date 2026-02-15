@@ -24,8 +24,8 @@
     "source_priority_used": "summary_excerpt"
   },
   "links": {
-    "v2_app_dir": "v2/rain",
-    "v2_json_path": "v2/rain/rain.json",
+    "v2_app_dir": "v2/apps/rain",
+    "v2_json_path": "v2/apps/rain/Rain.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Rain.md"
   },
   "preview": {
@@ -56,6 +56,26 @@
     "flags": [],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "rain-1361904724433174649",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:13:08+00:00",
+    "description": "A configurable particle system visualizing rain effects. Features a rectangle emitter with additive blending and alpha-over-life fading, positioned overhead. Includes a UI prop for custom raindrop textures. Intended as a reference implementation for Hyperfy's particle system.",
+    "feature_tags": [
+      "particles",
+      "environment",
+      "ui",
+      "animation",
+      "3d-model"
+    ],
+    "interaction_modes": [
+      "ui",
+      "passive"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "low",
+    "networking_profile": "none"
+  }
 }

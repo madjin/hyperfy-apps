@@ -24,8 +24,8 @@
     "source_priority_used": "summary_excerpt"
   },
   "links": {
-    "v2_app_dir": "v2/smoke",
-    "v2_json_path": "v2/smoke/smoke.json",
+    "v2_app_dir": "v2/apps/smoke",
+    "v2_json_path": "v2/apps/smoke/Smoke.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Smoke.md"
   },
   "preview": {
@@ -56,6 +56,23 @@
     "flags": [],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "smoke-1361904724433174649",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:17:35+00:00",
+    "description": "The previous model output was not valid JSON for the required schema. Fix it and return valid JSON only.",
+    "feature_tags": [
+      "json",
+      "data_transformation"
+    ],
+    "interaction_modes": [
+      "passive",
+      "trigger"
+    ],
+    "asset_profile": "medium",
+    "script_complexity": "low",
+    "networking_profile": "none"
+  }
 }

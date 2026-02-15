@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/mato-pet-v2",
-    "v2_json_path": "v2/mato-pet-v2/mato-pet-v2.json",
+    "v2_app_dir": "v2/apps/mato-pet-v2",
+    "v2_json_path": "v2/apps/mato-pet-v2/Mato Pet v2.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Mato_Pet_v2.md"
   },
   "preview": {
@@ -58,6 +58,23 @@
     ],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "mato-pet-v2-1345214513477189663",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:08:35+00:00",
+    "description": "Test application",
+    "feature_tags": [
+      "analytics",
+      "cloud_sync"
+    ],
+    "interaction_modes": [
+      "ui",
+      "trigger"
+    ],
+    "asset_profile": "medium",
+    "script_complexity": "low",
+    "networking_profile": "local"
+  }
 }

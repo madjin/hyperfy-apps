@@ -24,8 +24,8 @@
     "source_priority_used": "summary_excerpt"
   },
   "links": {
-    "v2_app_dir": "v2/solar-panel",
-    "v2_json_path": "v2/solar-panel/solar-panel.json",
+    "v2_app_dir": "v2/apps/solar-panel",
+    "v2_json_path": "v2/apps/solar-panel/Solar Panel.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Solar_Panel.md"
   },
   "preview": {
@@ -44,6 +44,25 @@
     ],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "solar-panel-1364018550179631196",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:17:56+00:00",
+    "description": "A configurable sky and lighting environment app that simulates time-of-day sun positioning. Features customizable sky textures, HDR backgrounds, and adjustable sun intensity with AM/PM time controls. Creates a dynamic sky node that calculates realistic sun direction based on hour input.",
+    "feature_tags": [
+      "environment",
+      "ui",
+      "3d-model",
+      "interaction"
+    ],
+    "interaction_modes": [
+      "ui",
+      "passive"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "low",
+    "networking_profile": "none"
+  }
 }

@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/camera-trigger",
-    "v2_json_path": "v2/camera-trigger/camera-trigger.json",
+    "v2_app_dir": "v2/apps/camera-trigger",
+    "v2_json_path": "v2/apps/camera-trigger/Camera Trigger.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Camera_Trigger.md"
   },
   "preview": {
@@ -71,6 +71,26 @@
     ],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "camera-trigger-1428031026826842285",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T03:59:02+00:00",
+    "description": "A physics trigger zone that smoothly transitions the camera to a configured overlook view when a player enters, and returns to first-person view on exit. Designed for museum or gallery environments to showcase specific viewing angles of exhibits.",
+    "feature_tags": [
+      "camera",
+      "interaction",
+      "animation",
+      "environment",
+      "3d-model"
+    ],
+    "interaction_modes": [
+      "trigger",
+      "passive"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "medium",
+    "networking_profile": "local"
+  }
 }

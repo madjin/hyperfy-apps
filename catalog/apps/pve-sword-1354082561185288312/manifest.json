@@ -24,8 +24,8 @@
     "source_priority_used": "summary_excerpt"
   },
   "links": {
-    "v2_app_dir": "v2/pve-sword",
-    "v2_json_path": "v2/pve-sword/pve-sword.json",
+    "v2_app_dir": "v2/apps/pve-sword",
+    "v2_json_path": "v2/apps/pve-sword/PvE Sword.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/PvE_Sword.md"
   },
   "preview": {
@@ -44,6 +44,29 @@
     ],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "pve-sword-1354082561185288312",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:12:50+00:00",
+    "description": "A multiplayer PvE melee combat system where players equip a sword to deal damage to others using physics-based hit detection. Features configurable attack emotes, server-authoritative damage calculation with critical hits, and pickup/drop mechanics synchronized across clients.",
+    "feature_tags": [
+      "combat",
+      "multiplayer",
+      "interaction",
+      "animation",
+      "physics",
+      "3d-model"
+    ],
+    "interaction_modes": [
+      "action",
+      "trigger",
+      "ui",
+      "networked"
+    ],
+    "asset_profile": "medium",
+    "script_complexity": "high",
+    "networking_profile": "shared_state"
+  }
 }

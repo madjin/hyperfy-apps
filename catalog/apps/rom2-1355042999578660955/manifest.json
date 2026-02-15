@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/rom2",
-    "v2_json_path": "v2/rom2/rom2.json",
+    "v2_app_dir": "v2/apps/rom2",
+    "v2_json_path": "v2/apps/rom2/rom2.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/rom2.md"
   },
   "preview": {
@@ -58,6 +58,26 @@
     ],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "rom2-1355042999578660955",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-14T19:46:35+00:00",
+    "description": "A customizable 3D ROM cartridge display with configurable name label and rainbow color selection. Features a UI panel showing the ROM name with adjustable font and background, plus material color shifting via texture coordinate manipulation.",
+    "feature_tags": [
+      "ui",
+      "3d-model",
+      "interaction",
+      "animation",
+      "building"
+    ],
+    "interaction_modes": [
+      "ui",
+      "passive"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "medium",
+    "networking_profile": "none"
+  }
 }

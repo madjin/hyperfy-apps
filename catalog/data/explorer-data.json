@@ -1,108 +1,148 @@
 {
   "version": 2,
-  "generated_at": "2026-02-14T18:42:56+00:00",
+  "generated_at": "2026-02-15T07:58:02+00:00",
   "counts": {
     "total": 179,
-    "with_preview": 179
+    "with_preview": 168
   },
   "tag_index": {
-    "ui": [
-      "360-video-viewer-1360629006327873747",
-      "360player_mono-1361648804113285242",
-      "alien_planet-1415309781345894431",
-      "basicmp3player-1459296313840504887",
-      "blocktesting-1348127461031809134",
-      "butterfly-swarm-v1-1350129252976168992",
-      "butterfly-swarm-v3-1350145314677592157",
-      "butterfly-swarm-v6-1354772253396701385",
-      "butterfly-swarm-v6-hyperfly-edition-1354809216753340639",
-      "butterfly-swarm-v6-hyperfly-edition-2-1355068289964970128",
-      "butterfly_swarm_v6_hyperfly_edition2_bw-1355068613178167366",
-      "cam-raycast-action-bar-1348748294658195487",
-      "cube-1-1355371621468209172",
-      "dash-1356968685415301160",
-      "eel_add_particles1-1362421603765325946",
-      "emote_rom_1-1362219850151231579",
-      "explosion-sprites-1361904724433174649",
-      "fire-1361904724433174649",
-      "framed-image-v1.0-1434190157220806658",
-      "grass_v1-1359167521789448234",
-      "health-1339121960759721996",
-      "hexagonal_test_basic-1355683928421171290",
-      "hover-cursor-test-1402653679030636655",
-      "hp-eliza-2-1-app_1-1346629939817877556",
-      "hyperportal-with-set-1349789440293474304",
-      "jukebox_ui-1354513817861750816",
-      "loot-1339121960759721996",
-      "model-1353698908353724480",
-      "monkey_head-1360004867166437467",
-      "npc_10-1354082561185288312",
-      "physics-triggers-tags-1354303006505435206",
-      "prism-1355903733090750595",
-      "pvp-core-with-spawns-1355236590603075706",
-      "rain-1361904724433174649",
-      "rainv3-1359812146199920650",
-      "rom2-1355042999578660955",
-      "rover-ringedplanet-1339121960759721996",
-      "saori-2-5-trump-agent-1346629939817877556",
-      "screen-ui-link-section-1385257861852168192",
-      "smolwrld-1356346677895626905",
-      "solar-panel-1364018550179631196",
-      "teleport_command_v2-1381127682699427880",
-      "teleport-trigger-box-1431333007888748678",
-      "video-with-player-ui-1447233812231880724",
-      "videoplayer-1425504776371830875",
-      "who-there-1397545277300412447"
-    ],
     "3d-model": [
       "360-video-viewer-1360629006327873747",
-      "360player_mono-1361648804113285242",
-      "alien_planet-1415309781345894431",
+      "360player-mono-1361648804113285242",
+      "alien-planet-1415309781345894431",
       "alleysign-1341753324801626154",
       "amanita-1357382776709582919",
       "basicmp3player-1459296313840504887",
-      "bending_leaf_v1-1357269608360448000",
+      "bending-leaf-v1-1357269608360448000",
       "blocktesting-1348127461031809134",
       "builder-drone-x501-1356505487033499729",
       "butterfly-swarm-v3-1350145314677592157",
       "butterfly-swarm-v5-1354102502055743531",
       "butterfly-swarm-v6-1354772253396701385",
       "butterfly-swarm-v6-hyperfly-edition-1354809216753340639",
-      "butterfly-swarm-v6-hyperfly-edition-2-1355068289964970128",
-      "butterfly_swarm_v6_hyperfly_edition2_bw-1355068613178167366",
+      "butterfly-swarm-v6-hyperfly-edition2-1355068289964970128",
+      "butterfly-swarm-v6-hyperfly-edition2-bw-1355068613178167366",
       "camera-trigger-1428031026826842285",
       "car1-1353196235074441290",
+      "car1-v2-1353199999730581585",
       "confettt-ppot-1402249836455264277",
       "cube-1-1355371621468209172",
-      "eel_add_particles1-1362421603765325946",
+      "curvedvid-with-link-input-1363573773185450045",
+      "dash-1356968685415301160",
+      "day-night-weather-current-1364018271719919686",
+      "eel-add-particles1-1362421603765325946",
+      "emote-rom-1-1362219850151231579",
+      "emotesr-1440465428748046346",
       "explosion-sprites-1361904724433174649",
       "fire-1361904724433174649",
-      "grass_v1-1359167521789448234",
+      "firsthyp-1364577095313002547",
+      "firsthypv2-1364604780420272199",
+      "ftv-1361768826902941913",
+      "gert-2-1-aloe-1346629939817877556",
+      "grass-v1-1359167521789448234",
       "grid-floor-v2-1380533380520738816",
       "health-1339121960759721996",
       "heliv4-1374463195070332958",
-      "hexagonal_test_basic-1355683928421171290",
+      "hexagonal-test-basic-1355683928421171290",
       "hover-cursor-test-1402653679030636655",
       "hyperportal-with-set-1349789440293474304",
-      "jukebox_ui-1354513817861750816",
+      "hyperportal-with-set-manual-1352439458317865070",
+      "jukebox-ui-1354513817861750816",
       "jumping-frog-1461059470972158002",
       "launchpad-1427685965249515723",
       "loot-1339121960759721996",
+      "machine-gun-with-animation-1349513227842879581",
       "model-1353698908353724480",
-      "monkey_head-1360004867166437467",
+      "monkey-head-1360004867166437467",
       "n1-n1-05-1354230335344480448",
+      "neon-1-1369282194895274065",
       "physics-triggers-tags-1354303006505435206",
       "pve-sword-1354082561185288312",
       "rain-1361904724433174649",
+      "ricky-3-2-show-chart-1346629939817877556",
+      "rocket-global-coll-1437796842313355295",
+      "rom2-1355042999578660955",
       "rover-ringedplanet-1339121960759721996",
+      "rover-2-11-1339121960759721996",
+      "simonsays-screen-2-1355352717488296077",
+      "sit-1351223744022183987",
       "smolwrld-1356346677895626905",
       "solar-panel-1364018550179631196",
+      "solar-panel-sundown-1356250138967932979",
+      "speedtrail-v0-1-1361987355577421954",
       "splinepinev1-1346505141473382451",
-      "test_level-1355236430376341764"
+      "szjanko-2-11-dice-1346629939817877556",
+      "teleport-command-v2-1381127682699427880",
+      "test-level-1355236430376341764",
+      "the-grid-1415309781345894431",
+      "the-meadow-1415309781345894431",
+      "uiimage-from-file-update1-1349800654129860670"
+    ],
+    "ui": [
+      "360-video-viewer-1360629006327873747",
+      "360player-mono-1361648804113285242",
+      "alien-planet-1415309781345894431",
+      "basicmp3player-1459296313840504887",
+      "butterfly-swarm-v1-1350129252976168992",
+      "butterfly-swarm-v3-1350145314677592157",
+      "butterfly-swarm-v5-1354102502055743531",
+      "butterfly-swarm-v6-1354772253396701385",
+      "butterfly-swarm-v6-hyperfly-edition-1354809216753340639",
+      "butterfly-swarm-v6-hyperfly-edition2-1355068289964970128",
+      "cam-raycast-action-bar-1348748294658195487",
+      "companion-v8-1354172080924397802",
+      "cube-1-1355371621468209172",
+      "curvedvid-with-link-input-1363573773185450045",
+      "dash-1356968685415301160",
+      "day-night-weather-current-1364018271719919686",
+      "eel-add-particles1-1362421603765325946",
+      "emote-rom-1-1362219850151231579",
+      "emotesr-1440465428748046346",
+      "explosion-sprites-1361904724433174649",
+      "fire-1361904724433174649",
+      "framed-image-v1-0-1434190157220806658",
+      "ftv-1361768826902941913",
+      "gert-2-1-aloe-1346629939817877556",
+      "grass-v1-1359167521789448234",
+      "health-1339121960759721996",
+      "hover-cursor-test-1402653679030636655",
+      "hp-eliza-2-1-app-1-1346629939817877556",
+      "hyperbeacon-v2-1337234426395889747",
+      "hyperportal-with-set-1349789440293474304",
+      "hyperportal-with-set-manual-1352439458317865070",
+      "jukebox-ui-1354513817861750816",
+      "loot-1339121960759721996",
+      "machine-gun-with-animation-1349513227842879581",
+      "model-1353698908353724480",
+      "monkey-head-1360004867166437467",
+      "neon-1-1369282194895274065",
+      "physics-triggers-tags-1354303006505435206",
+      "prism-1355903733090750595",
+      "pvp-core-with-spawns-1355236590603075706",
+      "rain-1361904724433174649",
+      "rainv3-1359812146199920650",
+      "ricky-3-2-show-chart-1346629939817877556",
+      "rom2-1355042999578660955",
+      "rover-ringedplanet-1339121960759721996",
+      "rover-2-11-1339121960759721996",
+      "screen-ui-link-section-1385257861852168192",
+      "simonsays-screen-2-1355352717488296077",
+      "sit-1351223744022183987",
+      "smolwrld-1356346677895626905",
+      "solar-panel-1364018550179631196",
+      "solar-panel-sundown-1356250138967932979",
+      "speedtrail-v0-1-1361987355577421954",
+      "teleport-command-v2-1381127682699427880",
+      "teleport-trigger-box-1431333007888748678",
+      "the-grid-1415309781345894431",
+      "uiimage-from-file-update1-1349800654129860670",
+      "video-with-player-ui-1447233812231880724",
+      "videoplayer-1425504776371830875",
+      "who-there-1397545277300412447"
     ],
     "animation": [
       "alleysign-1341753324801626154",
-      "bending_leaf_v1-1357269608360448000",
+      "bending-leaf-v1-1357269608360448000",
       "blocktesting-1348127461031809134",
       "builder-drone-x501-1356755805017215098",
       "butterfly-swarm-v1-1350129252976168992",
@@ -110,65 +150,98 @@
       "butterfly-swarm-v5-1354102502055743531",
       "butterfly-swarm-v6-1354772253396701385",
       "butterfly-swarm-v6-hyperfly-edition-1354809216753340639",
-      "butterfly-swarm-v6-hyperfly-edition-2-1355068289964970128",
-      "butterfly_swarm_v6_hyperfly_edition2_bw-1355068613178167366",
+      "butterfly-swarm-v6-hyperfly-edition2-1355068289964970128",
+      "butterfly-swarm-v6-hyperfly-edition2-bw-1355068613178167366",
       "cam-raycast-action-bar-1348748294658195487",
       "camera-trigger-1428031026826842285",
       "car1-1353196235074441290",
+      "car1-v2-1353199999730581585",
+      "companion-v8-1354172080924397802",
       "confettt-ppot-1402249836455264277",
       "cube-1-1355371621468209172",
       "dash-1356968685415301160",
-      "eel_add_particles1-1362421603765325946",
-      "emote_rom_1-1362219850151231579",
+      "day-night-weather-current-1364018271719919686",
+      "eel-add-particles1-1362421603765325946",
+      "eel-add-particles1-1-1362432359785304154",
+      "emote-rom-1-1362219850151231579",
+      "emotesr-1440465428748046346",
       "explosion-sprites-1361904724433174649",
       "fire-1361904724433174649",
-      "framed-image-v1.0-1434190157220806658",
-      "grass_v1-1359167521789448234",
+      "firsthyp-1364577095313002547",
+      "firsthypv2-1364604780420272199",
+      "framed-image-v1-0-1434190157220806658",
+      "grass-v1-1359167521789448234",
       "health-1339121960759721996",
       "heliv4-1374463195070332958",
-      "hexagonal_test_basic-1355683928421171290",
+      "hexagonal-test-basic-1355683928421171290",
+      "hexagonal-test-networked-1355683928421171290",
       "jumping-frog-1461059470972158002",
       "loot-1339121960759721996",
+      "machine-gun-with-animation-1349513227842879581",
+      "neon-1-1369282194895274065",
+      "npc-10-1354082561185288312",
+      "npc-9-1354068129944174592",
       "prism-1355903733090750595",
       "pve-sword-1354082561185288312",
       "pvp-core-with-spawns-1355236590603075706",
       "rain-1361904724433174649",
       "rainv3-1359812146199920650",
-      "saori-2-5-trump-agent-1346629939817877556",
+      "rocket-global-coll-1437796842313355295",
+      "rom2-1355042999578660955",
+      "sit-1351223744022183987",
+      "speedtrail-v0-1-1361987355577421954",
+      "szjanko-2-11-dice-1346629939817877556",
+      "teleport-command-v2-1381127682699427880",
+      "the-grid-1415309781345894431",
       "tornado-1361904724433174649"
     ],
     "environment": [
       "360-video-viewer-1360629006327873747",
-      "360player_mono-1361648804113285242",
-      "alien_planet-1415309781345894431",
+      "360player-mono-1361648804113285242",
+      "alien-planet-1415309781345894431",
       "alleysign-1341753324801626154",
       "amanita-1357382776709582919",
-      "bending_leaf_v1-1357269608360448000",
+      "bending-leaf-v1-1357269608360448000",
+      "butterfly-swarm-v1-1350129252976168992",
       "butterfly-swarm-v3-1350145314677592157",
+      "butterfly-swarm-v5-1354102502055743531",
       "butterfly-swarm-v6-1354772253396701385",
       "butterfly-swarm-v6-hyperfly-edition-1354809216753340639",
-      "butterfly-swarm-v6-hyperfly-edition-2-1355068289964970128",
-      "butterfly_swarm_v6_hyperfly_edition2_bw-1355068613178167366",
+      "butterfly-swarm-v6-hyperfly-edition2-1355068289964970128",
+      "butterfly-swarm-v6-hyperfly-edition2-bw-1355068613178167366",
       "camera-trigger-1428031026826842285",
+      "curvedvid-with-link-input-1363573773185450045",
+      "day-night-weather-current-1364018271719919686",
+      "eel-add-particles1-1-1362432359785304154",
       "explosion-sprites-1361904724433174649",
       "fire-1361904724433174649",
       "firsthyp-1364577095313002547",
-      "framed-image-v1.0-1434190157220806658",
-      "grass_v1-1359167521789448234",
+      "firsthypv2-1364604780420272199",
+      "framed-image-v1-0-1434190157220806658",
+      "gert-2-1-aloe-1346629939817877556",
+      "grass-v1-1359167521789448234",
       "grid-floor-v2-1380533380520738816",
-      "heliv4-1374463195070332958",
-      "hexagonal_test_basic-1355683928421171290",
+      "hexagonal-test-basic-1355683928421171290",
+      "hexagonal-test-networked-1355683928421171290",
+      "hyperbeacon-v2-1337234426395889747",
       "hyperportal-with-set-1349789440293474304",
+      "hyperportal-with-set-manual-1352439458317865070",
       "jumping-frog-1461059470972158002",
       "launchpad-1427685965249515723",
       "model-1353698908353724480",
+      "neon-1-1369282194895274065",
       "rain-1361904724433174649",
       "rainv3-1359812146199920650",
       "smolwrld-1356346677895626905",
       "solar-panel-1364018550179631196",
+      "solar-panel-sundown-1356250138967932979",
+      "speedtrail-v0-1-1361987355577421954",
       "splinepinev1-1346505141473382451",
-      "test_level-1355236430376341764",
+      "test-level-1355236430376341764",
+      "the-grid-1415309781345894431",
+      "the-meadow-1415309781345894431",
       "tornado-1361904724433174649",
+      "uiimage-from-file-update1-1349800654129860670",
       "videoplayer-1425504776371830875"
     ],
     "interaction": [
@@ -178,33 +251,124 @@
       "builder-drone-1356446200907432129",
       "builder-drone-x501-1356505487033499729",
       "builder-drone-x501-1356755805017215098",
+      "cam-raycast-action-bar-1348748294658195487",
       "camera-trigger-1428031026826842285",
       "car1-1353196235074441290",
+      "car1-v2-1353199999730581585",
+      "companion-v8-1354172080924397802",
       "confettt-ppot-1402249836455264277",
       "cube-1-1355371621468209172",
-      "emote_rom_1-1362219850151231579",
+      "dash-1356968685415301160",
+      "emote-rom-1-1362219850151231579",
+      "emotesr-1440465428748046346",
+      "framed-image-v1-0-1434190157220806658",
+      "ftv-1361768826902941913",
       "health-1339121960759721996",
-      "hexagonal_test_basic-1355683928421171290",
+      "heliv4-1374463195070332958",
+      "hexagonal-test-basic-1355683928421171290",
+      "hexagonal-test-networked-1355683928421171290",
       "hover-cursor-test-1402653679030636655",
+      "hyperbeacon-v2-1337234426395889747",
       "hyperportal-with-set-1349789440293474304",
+      "hyperportal-with-set-manual-1352439458317865070",
       "launchpad-1427685965249515723",
       "loot-1339121960759721996",
+      "machine-gun-with-animation-1349513227842879581",
       "mato-pets-1343812585706749963",
+      "monkey-head-1360004867166437467",
+      "npc-9-1354068129944174592",
       "physics-triggers-tags-1354303006505435206",
       "pve-sword-1354082561185288312",
+      "ricky-3-2-show-chart-1346629939817877556",
+      "rocket-global-coll-1437796842313355295",
+      "rom2-1355042999578660955",
       "rover-ringedplanet-1339121960759721996",
+      "rover-2-11-1339121960759721996",
       "screen-ui-link-section-1385257861852168192",
+      "sit-1351223744022183987",
       "solar-panel-1364018550179631196",
-      "teleport_command_v2-1381127682699427880",
+      "szjanko-2-11-dice-1346629939817877556",
+      "teleport-command-v2-1381127682699427880",
+      "teleport-trigger-box-1431333007888748678",
+      "uiimage-from-file-update1-1349800654129860670",
+      "video-with-player-ui-1447233812231880724"
+    ],
+    "multiplayer": [
+      "bats-v1-1354922630544621629",
+      "builder-drone-1356446200907432129",
+      "builder-drone-x501-1356505487033499729",
+      "builder-drone-x501-1356755805017215098",
+      "cam-raycast-action-bar-1348748294658195487",
+      "companion-v8-1354172080924397802",
+      "emote-rom-1-1362219850151231579",
+      "emotesr-1440465428748046346",
+      "hexagonal-test-networked-1355683928421171290",
+      "hyperbeacon-v2-1337234426395889747",
+      "hyperportal-with-set-1349789440293474304",
+      "hyperportal-with-set-manual-1352439458317865070",
+      "loot-1339121960759721996",
+      "machine-gun-with-animation-1349513227842879581",
+      "mato-pets-1343812585706749963",
+      "npc-9-1354068129944174592",
+      "player-transforms-1425752169482551389",
+      "prism-1355903733090750595",
+      "pve-sword-1354082561185288312",
+      "pvp-core-with-spawns-1355236590603075706",
+      "rocket-global-coll-1437796842313355295",
+      "saori-2-5-trump-agent-1346629939817877556",
+      "simonsays-screen-2-1355352717488296077",
+      "simonsaysboard-1354675175769243730",
+      "sit-1351223744022183987",
+      "video-with-player-ui-1447233812231880724",
+      "videoplayer-1425504776371830875"
+    ],
+    "physics": [
+      "builder-drone-1356446200907432129",
+      "builder-drone-x501-1356505487033499729",
+      "builder-drone-x501-1356755805017215098",
+      "car1-1353196235074441290",
+      "car1-v2-1353199999730581585",
+      "dash-1356968685415301160",
+      "hexagonal-test-basic-1355683928421171290",
+      "hexagonal-test-networked-1355683928421171290",
+      "launchpad-1427685965249515723",
+      "mato-pets-1343812585706749963",
+      "model-1353698908353724480",
+      "monkey-head-1360004867166437467",
+      "n1-n1-05-1354230335344480448",
+      "npc-10-1354082561185288312",
+      "physics-triggers-tags-1354303006505435206",
+      "pve-sword-1354082561185288312",
+      "rainv3-1359812146199920650",
+      "rocket-global-coll-1437796842313355295",
+      "szjanko-2-11-dice-1346629939817877556",
       "teleport-trigger-box-1431333007888748678"
+    ],
+    "particles": [
+      "amanita-1357382776709582919",
+      "butterfly-swarm-v1-1350129252976168992",
+      "butterfly-swarm-v3-1350145314677592157",
+      "butterfly-swarm-v5-1354102502055743531",
+      "butterfly-swarm-v6-1354772253396701385",
+      "butterfly-swarm-v6-hyperfly-edition-1354809216753340639",
+      "butterfly-swarm-v6-hyperfly-edition2-1355068289964970128",
+      "confettt-ppot-1402249836455264277",
+      "day-night-weather-current-1364018271719919686",
+      "eel-add-particles1-1362421603765325946",
+      "eel-add-particles1-1-1362432359785304154",
+      "explosion-sprites-1361904724433174649",
+      "fire-1361904724433174649",
+      "grass-v1-1359167521789448234",
+      "rain-1361904724433174649",
+      "rainv3-1359812146199920650",
+      "rocket-global-coll-1437796842313355295",
+      "speedtrail-v0-1-1361987355577421954",
+      "tornado-1361904724433174649"
     ],
     "unclassified": [
       "book-flip-1427292873358971045",
       "butterfly-swarm-v2a-1350129252976168992",
       "curved-video-viewer-1363490690339831849",
-      "day_night_weather_current-1364018271719919686",
-      "eel_add_particles1_1-1362432359785304154",
-      "emotesr-1440465428748046346",
       "forest-1443613865295220818",
       "groupiev1-1426847075219275808",
       "locationator-1363448335117193418",
@@ -215,118 +379,75 @@
       "playertag-uinew-1355704776373043221",
       "position-1398154516133839002",
       "rocket-global-coll-1398290694413746278",
-      "rocket-global-coll-1437796842313355295",
-      "rover.2.11-1339121960759721996",
       "seat-v2-1391991885559631884",
-      "simonsays_screen-1354675175769243730",
-      "weightpaint_screenui_test1-1395042221425819648",
+      "simonsays-screen-1354675175769243730",
+      "weightpaint-screenui-test1-1395042221425819648",
       "wolf-maro-1356607622211440731"
     ],
-    "multiplayer": [
-      "bats-v1-1354922630544621629",
-      "builder-drone-1356446200907432129",
-      "builder-drone-x501-1356505487033499729",
-      "builder-drone-x501-1356755805017215098",
-      "emote_rom_1-1362219850151231579",
-      "hyperportal-with-set-1349789440293474304",
-      "loot-1339121960759721996",
-      "mato-pets-1343812585706749963",
-      "player-transforms-1425752169482551389",
-      "prism-1355903733090750595",
-      "pve-sword-1354082561185288312",
-      "pvp-core-with-spawns-1355236590603075706",
-      "saori-2-5-trump-agent-1346629939817877556",
-      "simonsaysboard-1354675175769243730",
-      "teleport_command_v2-1381127682699427880",
+    "media-player": [
+      "360-video-viewer-1360629006327873747",
+      "360player-mono-1361648804113285242",
+      "basicmp3player-1459296313840504887",
+      "curvedvid-with-link-input-1363573773185450045",
+      "framed-image-v1-0-1434190157220806658",
+      "ftv-1361768826902941913",
+      "hyperbeacon-v2-1337234426395889747",
+      "jukebox-ui-1354513817861750816",
+      "ricky-3-2-show-chart-1346629939817877556",
+      "smolwrld-1356346677895626905",
+      "uiimage-from-file-update1-1349800654129860670",
       "video-with-player-ui-1447233812231880724",
       "videoplayer-1425504776371830875"
-    ],
-    "particles": [
-      "amanita-1357382776709582919",
-      "butterfly-swarm-v1-1350129252976168992",
-      "butterfly-swarm-v3-1350145314677592157",
-      "butterfly-swarm-v5-1354102502055743531",
-      "butterfly-swarm-v6-1354772253396701385",
-      "butterfly-swarm-v6-hyperfly-edition-1354809216753340639",
-      "butterfly-swarm-v6-hyperfly-edition-2-1355068289964970128",
-      "butterfly_swarm_v6_hyperfly_edition2_bw-1355068613178167366",
-      "confettt-ppot-1402249836455264277",
-      "eel_add_particles1-1362421603765325946",
-      "explosion-sprites-1361904724433174649",
-      "fire-1361904724433174649",
-      "grass_v1-1359167521789448234",
-      "rain-1361904724433174649",
-      "rainv3-1359812146199920650",
-      "tornado-1361904724433174649"
-    ],
-    "physics": [
-      "builder-drone-1356446200907432129",
-      "builder-drone-x501-1356505487033499729",
-      "builder-drone-x501-1356755805017215098",
-      "cam-raycast-action-bar-1348748294658195487",
-      "car1-1353196235074441290",
-      "car1-v2-1353199999730581585",
-      "hexagonal_test_basic-1355683928421171290",
-      "launchpad-1427685965249515723",
-      "mato-pets-1343812585706749963",
-      "model-1353698908353724480",
-      "n1-n1-05-1354230335344480448",
-      "physics-triggers-tags-1354303006505435206",
-      "pve-sword-1354082561185288312",
-      "rainv3-1359812146199920650",
-      "teleport-trigger-box-1431333007888748678"
     ],
     "placeholder": [
       "camera-laser-1425737416207110174",
       "game-timer-1353704858338984058",
-      "hyperbeacon_v2-1337234426395889747",
       "notifications-1376587859414356008",
       "physics-raycast-tags-1354315974823776286",
       "pingscriptforcompanion-1354172080924397802",
       "rainv3-1359821051999158272",
       "raycaster-1348748103104331778",
       "rover-lavacargo-1339121960759721996",
-      "speedtrail-v0.1-1361987355577421954",
       "triggerzone-1440322008935301211",
       "video-channel-changer-1363859162676596797",
       "wall-hang-1437891700369658059",
       "water-fountain-1361904724433174649"
     ],
+    "audio": [
+      "basicmp3player-1459296313840504887",
+      "confettt-ppot-1402249836455264277",
+      "day-night-weather-current-1364018271719919686",
+      "ftv-1361768826902941913",
+      "heliv4-1374463195070332958",
+      "jukebox-ui-1354513817861750816",
+      "npc-10-1354082561185288312",
+      "npc-9-1354068129944174592",
+      "rover-2-11-1339121960759721996",
+      "simonsays-screen-2-1355352717488296077",
+      "smolwrld-1356346677895626905"
+    ],
+    "combat": [
+      "blocktesting-1348127461031809134",
+      "cam-raycast-action-bar-1348748294658195487",
+      "dash-1356968685415301160",
+      "health-1339121960759721996",
+      "machine-gun-with-animation-1349513227842879581",
+      "npc-10-1354082561185288312",
+      "npc-9-1354068129944174592",
+      "prism-1355903733090750595",
+      "pve-sword-1354082561185288312",
+      "pvp-core-with-spawns-1355236590603075706"
+    ],
     "json": [
       "anybox-1354967082164424814",
       "arrayvectorprops-1349553928085180437",
       "camera-manager-1352519146201419816",
-      "companion-v8-1354172080924397802",
       "fog-1361904724433174649",
-      "grass_v3-1360243980150902917",
+      "grass-v3-1360243980150902917",
       "healing-aura-1361904724433174649",
       "smoke-1361904724433174649",
-      "speedtrail-v0.1-1361987355577421954",
       "video-channel-changer-1363859162676596797",
       "wall-hang-1437891700369658059"
-    ],
-    "productivity": [
-      "firsthypv2-1364604780420272199",
-      "generate-monstera-v1-1357367597435191527",
-      "hexagonal_test_networked-1355683928421171290",
-      "locationator-1363449445173432493",
-      "machine-gun-v8-1355977141862400300",
-      "mini-nuke-1354185108835270728",
-      "neon_2-1369292993667928145",
-      "platforms-1437886474681979002",
-      "super-run-1445419285118976091",
-      "videoenhanced-1433071172739928135"
-    ],
-    "media-player": [
-      "360-video-viewer-1360629006327873747",
-      "360player_mono-1361648804113285242",
-      "basicmp3player-1459296313840504887",
-      "curvedvid_with_link_input-1363573773185450045",
-      "framed-image-v1.0-1434190157220806658",
-      "jukebox_ui-1354513817861750816",
-      "smolwrld-1356346677895626905",
-      "video-with-player-ui-1447233812231880724",
-      "videoplayer-1425504776371830875"
     ],
     "vehicle": [
       "builder-drone-1356446200907432129",
@@ -334,124 +455,110 @@
       "builder-drone-x501-1356505487033499729",
       "builder-drone-x501-1356755805017215098",
       "car1-1353196235074441290",
+      "car1-v2-1353199999730581585",
       "heliv4-1374463195070332958",
-      "rover-ringedplanet-1339121960759721996"
+      "rover-ringedplanet-1339121960759721996",
+      "rover-2-11-1339121960759721996"
     ],
-    "combat": [
-      "blocktesting-1348127461031809134",
-      "health-1339121960759721996",
-      "machine_gun_with_animation-1349513227842879581",
-      "prism-1355903733090750595",
-      "pve-sword-1354082561185288312",
-      "pvp-core-with-spawns-1355236590603075706"
+    "npc": [
+      "companion-v8-1354172080924397802",
+      "emote-rom-1361914201701875788",
+      "jumping-frog-1461059470972158002",
+      "mato-pets-1343812585706749963",
+      "npc-10-1354082561185288312",
+      "npc-9-1354068129944174592",
+      "rover-ringedplanet-1339121960759721996",
+      "rover-2-11-1339121960759721996",
+      "saori-2-5-trump-agent-1346629939817877556"
+    ],
+    "productivity": [
+      "generate-monstera-v1-1357367597435191527",
+      "locationator-1363449445173432493",
+      "machine-gun-v8-1355977141862400300",
+      "mini-nuke-1354185108835270728",
+      "neon-2-1369292993667928145",
+      "platforms-1437886474681979002",
+      "super-run-1445419285118976091",
+      "videoenhanced-1433071172739928135"
     ],
     "camera": [
       "builder-drone-1356446200907432129",
       "builder-drone-x501-1356441740357406801",
       "builder-drone-x501-1356505487033499729",
       "builder-drone-x501-1356755805017215098",
+      "cam-raycast-action-bar-1348748294658195487",
       "camera-trigger-1428031026826842285",
       "car1-1353196235074441290"
     ],
-    "audio": [
-      "basicmp3player-1459296313840504887",
-      "confettt-ppot-1402249836455264277",
-      "heliv4-1374463195070332958",
-      "jukebox_ui-1354513817861750816",
-      "smolwrld-1356346677895626905"
-    ],
-    "missing_input": [
-      "broke-rom-1355215078328369344",
-      "eagles-v1-1356075244355457266",
-      "loot-ringed-planet-1339121960759721996",
-      "speedtrail-v0.1-1361987355577421954",
-      "weightpaint_screenui_test1-1420742160474701966"
-    ],
-    "npc": [
-      "emote_rom-1361914201701875788",
-      "jumping-frog-1461059470972158002",
-      "mato-pets-1343812585706749963",
-      "rover-ringedplanet-1339121960759721996",
-      "szjanko-2-11-dice-1346629939817877556"
-    ],
-    "utilities": [
-      "firsthypv2-1364604780420272199",
-      "generate-monstera-v1-1357367597435191527",
-      "mini-nuke-1354185108835270728",
-      "neon_2-1369292993667928145",
-      "videoenhanced-1433071172739928135"
-    ],
-    "fix": [
-      "anybox-1354967082164424814",
-      "arrayvectorprops-1349553928085180437",
-      "companion-v8-1354172080924397802",
-      "healing-aura-1361904724433174649"
+    "building": [
+      "builder-drone-1356446200907432129",
+      "builder-drone-x501-1356441740357406801",
+      "framed-image-v1-0-1434190157220806658",
+      "gert-2-1-aloe-1346629939817877556",
+      "grid-floor-v2-1380533380520738816",
+      "neon-1-1369282194895274065",
+      "rom2-1355042999578660955"
     ],
     "validation": [
       "anybox-1354967082164424814",
       "fog-1361904724433174649",
-      "grass_v3-1360243980150902917",
+      "grass-v3-1360243980150902917",
       "wall-hang-1437891700369658059"
     ],
     "error": [
       "broke-rom-1355215078328369344",
       "eagles-v1-1356075244355457266",
       "loot-ringed-planet-1339121960759721996",
-      "weightpaint_screenui_test1-1420742160474701966"
+      "weightpaint-screenui-test1-1420742160474701966"
+    ],
+    "missing_input": [
+      "broke-rom-1355215078328369344",
+      "eagles-v1-1356075244355457266",
+      "loot-ringed-planet-1339121960759721996",
+      "weightpaint-screenui-test1-1420742160474701966"
+    ],
+    "avatar": [
+      "emotesr-1440465428748046346",
+      "monkey-head-1360004867166437467",
+      "prism-1355903733090750595",
+      "saori-2-5-trump-agent-1346629939817877556"
+    ],
+    "utilities": [
+      "generate-monstera-v1-1357367597435191527",
+      "mini-nuke-1354185108835270728",
+      "neon-2-1369292993667928145",
+      "videoenhanced-1433071172739928135"
     ],
     "teleport": [
       "hyperportal-with-set-1349789440293474304",
       "hyperportal-with-set-manual-1352439458317865070",
-      "teleport_command_v2-1381127682699427880",
+      "teleport-command-v2-1381127682699427880",
       "teleport-trigger-box-1431333007888748678"
+    ],
+    "fix": [
+      "anybox-1354967082164424814",
+      "arrayvectorprops-1349553928085180437",
+      "healing-aura-1361904724433174649"
+    ],
+    "social": [
+      "butterfly-swarm-v4-1354099791067611188",
+      "hp-eliza-2-1-app-1-1346629939817877556",
+      "who-there-1397545277300412447"
     ],
     "error_handling": [
       "m2-2-4-beacon-dev-1346629939817877556",
       "rainv4-1359839641754275921",
-      "ricky-3-2-show_chart-1346629939817877556",
       "water-fountain-1361904724433174649"
     ],
     "json_validation": [
       "m2-2-4-beacon-dev-1346629939817877556",
       "networked-grabbable-1349221803263922257",
-      "raptor_random_loc-1364946963270991875",
-      "ricky-3-2-show_chart-1346629939817877556"
+      "raptor-random-loc-1364946963270991875"
     ],
     "analytics": [
       "mato-pet-v2-1345214513477189663",
-      "solar_panel_-_sundown-1356250138967932979",
       "ss3-1362219892073435166",
       "triggerzone-1440323116382556250"
-    ],
-    "building": [
-      "builder-drone-1356446200907432129",
-      "builder-drone-x501-1356441740357406801",
-      "grid-floor-v2-1380533380520738816"
-    ],
-    "customizable": [
-      "butterfly-swarm-v1-1350129252976168992",
-      "cam-raycast-action-bar-1348748294658195487",
-      "framed-image-v1.0-1434190157220806658"
-    ],
-    "social": [
-      "butterfly-swarm-v4-1354099791067611188",
-      "hp-eliza-2-1-app_1-1346629939817877556",
-      "who-there-1397545277300412447"
-    ],
-    "configurable": [
-      "butterfly-swarm-v5-1354102502055743531",
-      "hyperportal-with-set-manual-1352439458317865070",
-      "rom2-1355042999578660955"
-    ],
-    "example": [
-      "camera-manager-1352519146201419816",
-      "hyperbeacon_v2-1337234426395889747",
-      "triggerzone-1440322008935301211"
-    ],
-    "api": [
-      "firsthyp-1364577095313002547",
-      "grass_v3-1360243980150902917",
-      "sit-1351223744022183987"
     ],
     "schema": [
       "arrayvectorprops-1349553928085180437",
@@ -465,13 +572,9 @@
       "butterfly-swarm-v3-1350145491001802873",
       "ss3-1362219892073435166"
     ],
-    "encryption": [
-      "butterfly-swarm-v4-1354099791067611188",
-      "ftv-1361768826902941913"
-    ],
-    "visual-effects": [
-      "butterfly-swarm-v5-1354102502055743531",
-      "eel_add_particles1-1362421603765325946"
+    "example": [
+      "camera-manager-1352519146201419816",
+      "triggerzone-1440322008935301211"
     ],
     "production": [
       "camera-manager-test-1352519146201419816",
@@ -489,21 +592,13 @@
       "free-camera-1415049094363086848",
       "rainv4-1359841759248646274"
     ],
-    "authentication": [
-      "glow-dust-1361904724433174649",
-      "simonsays_screen-2-1355352717488296077"
-    ],
     "calendar": [
-      "hp-eliza-2-1-app_1-1346629939817877556",
+      "hp-eliza-2-1-app-1-1346629939817877556",
       "platforms-1437886474681979002"
     ],
     "mobile": [
       "machine-gun-v8-1355977141862400300",
       "pvpblasterlatest-1354225264028291292"
-    ],
-    "sync": [
-      "machine-gun-v8-1355977141862400300",
-      "video-with-player-ui-1447233812231880724"
     ],
     "utility": [
       "model-1353698908353724480",
@@ -511,30 +606,11 @@
     ],
     "schema_compliance": [
       "networked-grabbable-1349221803263922257",
-      "raptor_random_loc-1364946963270991875"
-    ],
-    "avatar": [
-      "prism-1355903733090750595",
-      "saori-2-5-trump-agent-1346629939817877556"
-    ],
-    "ios": [
-      "pvpblasterlatest-1354225264028291292",
-      "uiimage_from_file-update1-1349800654129860670"
-    ],
-    "chat": [
-      "saori-2-5-trump-agent-1346629939817877556",
-      "szjanko-2-11-dice-1346629939817877556"
-    ],
-    "reporting": [
-      "solar_panel_-_sundown-1356250138967932979",
-      "the_meadow-1415309781345894431"
+      "raptor-random-loc-1364946963270991875"
     ],
     "real-time": [
       "spawn-1355236590603075706",
       "who-there-1397545277300412447"
-    ],
-    "background": [
-      "alien_planet-1415309781345894431"
     ],
     "survival": [
       "bats-v1-1354922630544621629"
@@ -547,12 +623,6 @@
     ],
     "sample": [
       "boombox-1459269670980030535"
-    ],
-    "random": [
-      "butterfly-swarm-v1-1350129252976168992"
-    ],
-    "visual": [
-      "butterfly-swarm-v1-1350129252976168992"
     ],
     "nlp": [
       "butterfly-swarm-v2a-1349666213617336462"
@@ -578,17 +648,8 @@
     "cloud-sync": [
       "butterfly-swarm-v4-1354099791067611188"
     ],
-    "client-side": [
-      "butterfly-swarm-v5-1354102502055743531"
-    ],
-    "passive": [
-      "butterfly_swarm_v6_hyperfly_edition2_bw-1355068613178167366"
-    ],
-    "action-bar": [
-      "cam-raycast-action-bar-1348748294658195487"
-    ],
-    "keybinds": [
-      "cam-raycast-action-bar-1348748294658195487"
+    "encryption": [
+      "butterfly-swarm-v4-1354099791067611188"
     ],
     "corrected": [
       "camera-laser-1425737416207110174"
@@ -596,53 +657,11 @@
     "stable": [
       "camera-manager-test-1352519146201419816"
     ],
-    "anti-roll": [
-      "car1-v2-1353199999730581585"
-    ],
-    "suspension": [
-      "car1-v2-1353199999730581585"
-    ],
-    "steering": [
-      "car1-v2-1353199999730581585"
-    ],
-    "acceleration": [
-      "car1-v2-1353199999730581585"
-    ],
-    "wheel-grip": [
-      "car1-v2-1353199999730581585"
-    ],
-    "repair": [
-      "companion-v8-1354172080924397802"
-    ],
     "ai_recommendations": [
       "curved-video-viewer-1360630031814230229"
     ],
     "offline_mode": [
       "curved-video-viewer-1360630031814230229"
-    ],
-    "link": [
-      "curvedvid_with_link_input-1363573773185450045"
-    ],
-    "upload": [
-      "curvedvid_with_link_input-1363573773185450045"
-    ],
-    "loop": [
-      "curvedvid_with_link_input-1363573773185450045"
-    ],
-    "aspect_ratio": [
-      "curvedvid_with_link_input-1363573773185450045"
-    ],
-    "cover": [
-      "curvedvid_with_link_input-1363573773185450045"
-    ],
-    "movement": [
-      "dash-1356968685415301160"
-    ],
-    "charge": [
-      "dash-1356968685415301160"
-    ],
-    "configurable_color": [
-      "dash-1356968685415301160"
     ],
     "district_selection": [
       "discord3-1421084209073885294"
@@ -662,20 +681,20 @@
     "amenities": [
       "discord3-1421084209073885294"
     ],
+    "visual-effects": [
+      "eel-add-particles1-1362421603765325946"
+    ],
     "autocomplete": [
-      "emote_rom-1361914201701875788"
+      "emote-rom-1361914201701875788"
     ],
     "cli": [
-      "emote_rom-1361914201701875788"
+      "emote-rom-1361914201701875788"
     ],
     "shell": [
-      "emote_rom-1361914201701875788"
+      "emote-rom-1361914201701875788"
     ],
     "history": [
-      "emote_rom-1361914201701875788"
-    ],
-    "integration": [
-      "firsthyp-1364577095313002547"
+      "emote-rom-1361914201701875788"
     ],
     "monitoring": [
       "forest-1443613740150034512"
@@ -692,37 +711,13 @@
     "bottleneck": [
       "forest-1443613740150034512"
     ],
-    "3d": [
-      "framed-image-v1.0-1434190157220806658"
-    ],
     "device_management": [
       "free-camera-1415049094363086848"
     ],
-    "real-time messaging": [
-      "ftv-1361768826902941913"
-    ],
-    "user authentication": [
-      "ftv-1361768826902941913"
-    ],
-    "file sharing": [
-      "ftv-1361768826902941913"
-    ],
-    "group chats": [
-      "ftv-1361768826902941913"
-    ],
-    "read receipts": [
-      "ftv-1361768826902941913"
-    ],
-    "desktop": [
+    "procedural": [
       "gert-2-1-aloe-1346629939817877556"
     ],
-    "icons": [
-      "gert-2-1-aloe-1346629939817877556"
-    ],
-    "toggle": [
-      "gert-2-1-aloe-1346629939817877556"
-    ],
-    "visibility": [
+    "vegetation": [
       "gert-2-1-aloe-1346629939817877556"
     ],
     "rest_api": [
@@ -731,32 +726,20 @@
     "batch_processing": [
       "glow-dust-1361904724433174649"
     ],
+    "authentication": [
+      "glow-dust-1361904724433174649"
+    ],
     "rate_limiting": [
       "glow-dust-1361904724433174649"
     ],
     "multi_database": [
       "glow-dust-1361904724433174649"
     ],
+    "api": [
+      "grass-v3-1360243980150902917"
+    ],
     "validator": [
       "healing-aura-1361904724433174649"
-    ],
-    "task-management": [
-      "hexagonal_test_networked-1355683928421171290"
-    ],
-    "fixed_output": [
-      "hyperbeacon_v2-1337234426395889747"
-    ],
-    "position": [
-      "hyperportal-with-set-manual-1352439458317865070"
-    ],
-    "ui switch": [
-      "hyperportal-with-set-manual-1352439458317865070"
-    ],
-    "admin control": [
-      "hyperportal-with-set-manual-1352439458317865070"
-    ],
-    "server-client sync": [
-      "hyperportal-with-set-manual-1352439458317865070"
     ],
     "tools": [
       "locationator-1363449445173432493"
@@ -770,20 +753,8 @@
     "word_problem": [
       "loot-planetlava-1339121960759721996"
     ],
-    "machine gun": [
-      "machine_gun_with_animation-1349513227842879581"
-    ],
-    "animation override": [
-      "machine_gun_with_animation-1349513227842879581"
-    ],
-    "player movement": [
-      "machine_gun_with_animation-1349513227842879581"
-    ],
-    "pick-up": [
-      "machine_gun_with_animation-1349513227842879581"
-    ],
-    "drop": [
-      "machine_gun_with_animation-1349513227842879581"
+    "sync": [
+      "machine-gun-v8-1355977141862400300"
     ],
     "cloud_sync": [
       "mato-pet-v2-1345214513477189663"
@@ -800,59 +771,20 @@
     "metrics": [
       "mini-nukeportal-1354506347751805090"
     ],
-    "jumpbuttonimage": [
-      "monkey_head-1360004867166437467"
-    ],
-    "jumpheight": [
-      "monkey_head-1360004867166437467"
-    ],
-    "script": [
-      "monkey_head-1360004867166437467"
-    ],
-    "texture": [
-      "monkey_head-1360004867166437467"
-    ],
-    "json-repair": [
-      "neon_1-1369282194895274065"
-    ],
-    "schema-validation": [
-      "neon_1-1369282194895274065"
-    ],
-    "syntax-fixing": [
-      "neon_1-1369282194895274065"
-    ],
-    "recurring_events": [
-      "npc_10-1354082561185288312"
-    ],
-    "team_collaboration": [
-      "npc_10-1354082561185288312"
-    ],
-    "video_consultation": [
-      "npc_9-1354068129944174592"
-    ],
-    "appointment_scheduling": [
-      "npc_9-1354068129944174592"
-    ],
-    "patient_records": [
-      "npc_9-1354068129944174592"
-    ],
-    "prescription_management": [
-      "npc_9-1354068129944174592"
-    ],
     "jeu": [
-      "npc_prisoner-1426847075219275808"
+      "npc-prisoner-1426847075219275808"
     ],
     "casual": [
-      "npc_prisoner-1426847075219275808"
+      "npc-prisoner-1426847075219275808"
     ],
     "d\u00e9tente": [
-      "npc_prisoner-1426847075219275808"
+      "npc-prisoner-1426847075219275808"
     ],
     "arcade": [
-      "npc_prisoner-1426847075219275808"
+      "npc-prisoner-1426847075219275808"
     ],
     "offline": [
-      "npc_prisoner-1426847075219275808"
+      "npc-prisoner-1426847075219275808"
     ],
     "sms marketing": [
       "physics-contacts-tags-1354299208894648330"
@@ -886,6 +818,9 @@
     ],
     "rpg": [
       "prism-1355903733090750595"
+    ],
+    "ios": [
+      "pvpblasterlatest-1354225264028291292"
     ],
     "blockchain": [
       "questitembasic-1396392921833410642"
@@ -923,26 +858,11 @@
     "json_config": [
       "rainv4-1359841759248646274"
     ],
-    "input_missing": [
-      "ricky-3-2-show_chart-1346629939817877556"
-    ],
     "feature1": [
       "rocket-launcher-v3-1364972260766646293"
     ],
     "feature2": [
       "rocket-launcher-v3-1364972260766646293"
-    ],
-    "color": [
-      "rom2-1355042999578660955"
-    ],
-    "mesh": [
-      "rom2-1355042999578660955"
-    ],
-    "text": [
-      "rom2-1355042999578660955"
-    ],
-    "dropdown": [
-      "rom2-1355042999578660955"
     ],
     "fix_required": [
       "rover-lavacargo-1339121960759721996"
@@ -950,7 +870,10 @@
     "simulation": [
       "rover-ringedplanet-1339121960759721996"
     ],
-    "webhook": [
+    "chat": [
+      "saori-2-5-trump-agent-1346629939817877556"
+    ],
+    "agent": [
       "saori-2-5-trump-agent-1346629939817877556"
     ],
     "tag1": [
@@ -962,8 +885,8 @@
     "tag3": [
       "screen-1361324085598228530"
     ],
-    "user-management": [
-      "simonsays_screen-2-1355352717488296077"
+    "game": [
+      "simonsays-screen-2-1355352717488296077"
     ],
     "minigame": [
       "simonsaysboard-1354675175769243730"
@@ -974,23 +897,11 @@
     "elimination": [
       "simonsaysboard-1354675175769243730"
     ],
-    "inference": [
-      "sit-1351223744022183987"
-    ],
-    "grounding": [
-      "sit-1351223744022183987"
-    ],
     "data_transformation": [
       "smoke-1361904724433174649"
     ],
     "spatial": [
       "smolwrld-1356346677895626905"
-    ],
-    "tracking": [
-      "solar_panel_-_sundown-1356250138967932979"
-    ],
-    "marketing": [
-      "solar_panel_-_sundown-1356250138967932979"
     ],
     "audio-processing": [
       "spawn-1355236590603075706"
@@ -1013,18 +924,6 @@
     "api-enabled": [
       "ss3-1362219892073435166"
     ],
-    "conversation": [
-      "szjanko-2-11-dice-1346629939817877556"
-    ],
-    "gpt": [
-      "szjanko-2-11-dice-1346629939817877556"
-    ],
-    "voice": [
-      "szjanko-2-11-dice-1346629939817877556"
-    ],
-    "command": [
-      "teleport_command_v2-1381127682699427880"
-    ],
     "background-processing": [
       "text-link-option-1426147798776152144"
     ],
@@ -1046,23 +945,8 @@
     "roguelike": [
       "text-link-option-1426148371101651037"
     ],
-    "read and annotate pdf": [
-      "the_grid-1415309781345894431"
-    ],
-    "fill pdf forms": [
-      "the_grid-1415309781345894431"
-    ],
-    "sign documents": [
-      "the_grid-1415309781345894431"
-    ],
-    "sync with cloud storage": [
-      "the_grid-1415309781345894431"
-    ],
-    "pdf converter": [
-      "the_grid-1415309781345894431"
-    ],
-    "finance": [
-      "the_meadow-1415309781345894431"
+    "atmosphere": [
+      "the-meadow-1415309781345894431"
     ],
     "solana": [
       "token-gate-1349126914333478954"
@@ -1094,23 +978,11 @@
     "data-management": [
       "triggerzone-1440323116382556250"
     ],
-    "android": [
-      "uiimage_from_file-update1-1349800654129860670"
-    ],
-    "cross-platform": [
-      "uiimage_from_file-update1-1349800654129860670"
-    ],
     "feature_1": [
       "vanguard-1355903733090750595"
     ],
     "feature_2": [
       "vanguard-1355903733090750595"
-    ],
-    "playback": [
-      "video-with-player-ui-1447233812231880724"
-    ],
-    "controls": [
-      "video-with-player-ui-1447233812231880724"
     ],
     "players": [
       "who-there-1397545277300412447"
@@ -1146,8 +1018,8 @@
       "has_source": true
     },
     {
-      "id": "360player_mono-1361648804113285242",
-      "slug": "360player_mono",
+      "id": "360player-mono-1361648804113285242",
+      "slug": "360player-mono",
       "name": "360Player_Mono",
       "author": "MetaRick",
       "description": "Mono 360-degree video player for immersive environments. Features configurable video URL/upload, correct 16:9 aspect ratio for mono 360s, and sun visibility support. Maps video to spherical geometry for skybox-style backgrounds.",
@@ -1173,11 +1045,11 @@
       "has_source": true
     },
     {
-      "id": "alien_planet-1415309781345894431",
-      "slug": "alien_planet",
+      "id": "alien-planet-1415309781345894431",
+      "slug": "alien-planet",
       "name": "Alien_Planet",
       "author": "ash",
-      "description": "Configurable alien planet environment featuring dynamic skybox backgrounds, HDR lighting, directional sun controls with elevation/rotation settings, and customizable fog effects. Provides atmospheric scene configuration via UI props.",
+      "description": "Configurable alien planet environment scene with customizable HDRI sky textures, adjustable sun direction/elevation/intensity, and atmospheric fog controls. Replaces default world background.",
       "preview_url": "catalog/discord/hyp_media/Alien_Planet_1415309781345894431/m4_image.png",
       "preview_type": "image",
       "hyp_filename": "Alien_Planet.hyp",
@@ -1185,7 +1057,6 @@
       "created_at": "2025-09-10T12:15:47.057Z",
       "tags": [
         "environment",
-        "background",
         "ui",
         "3d-model"
       ],
@@ -1193,11 +1064,11 @@
         "ui",
         "passive"
       ],
-      "asset_profile": "medium",
+      "asset_profile": "light",
       "script_complexity": "low",
       "networking": "none",
       "has_preview": true,
-      "has_source": false
+      "has_source": true
     },
     {
       "id": "alleysign-1341753324801626154",
@@ -1355,13 +1226,13 @@
       "has_source": true
     },
     {
-      "id": "bending_leaf_v1-1357269608360448000",
-      "slug": "bending_leaf_v1",
+      "id": "bending-leaf-v1-1357269608360448000",
+      "slug": "bending-leaf-v1",
       "name": "bending_leaf_V1",
       "author": "Gert-Jan Akerboom",
       "description": "Animated 3D leaf using skinned mesh rigging. Plays a bending animation on load. Demonstrates skinned mesh animation playback and highlights interaction limitations with GPU-skinned meshes in Hyperfy.",
-      "preview_url": "catalog/generated_previews/bending_leaf_v1-1357269608360448000.png",
-      "preview_type": "image",
+      "preview_url": null,
+      "preview_type": "none",
       "hyp_filename": "bending_leaf_V1.hyp",
       "download_path": "v2-hyp/bending_leaf_V1.hyp",
       "created_at": "2025-04-03T08:24:51.483Z",
@@ -1376,7 +1247,7 @@
       "asset_profile": "light",
       "script_complexity": "low",
       "networking": "none",
-      "has_preview": true,
+      "has_preview": false,
       "has_source": true
     },
     {
@@ -1384,7 +1255,7 @@
       "slug": "blocktesting",
       "name": "BlockTesting",
       "author": "Shiffty",
-      "description": "Testing utility for blocking mechanics. Applies a configurable snare emote on right-mouse hold and clears it on release to debug player effect cancellation.",
+      "description": "A test app demonstrating a blocking mechanic using right-mouse input to apply/cancel emote animations on the player. Includes configurable block emote and input handling via app.control(). Used to reproduce a bug where players get stuck in block state.",
       "preview_url": "catalog/generated_previews/blocktesting-1348127461031809134.png",
       "preview_type": "image",
       "hyp_filename": "BlockTesting.hyp",
@@ -1394,18 +1265,17 @@
         "animation",
         "interaction",
         "combat",
-        "ui",
         "3d-model"
       ],
       "interaction_modes": [
         "action",
-        "ui"
+        "trigger"
       ],
-      "asset_profile": "medium",
+      "asset_profile": "light",
       "script_complexity": "low",
       "networking": "none",
       "has_preview": true,
-      "has_source": false
+      "has_source": true
     },
     {
       "id": "book-flip-1427292873358971045",
@@ -1598,25 +1468,23 @@
       "slug": "butterfly-swarm-v1",
       "name": "Butterfly_Swarm_V1",
       "author": "Gert-Jan Akerboom",
-      "description": "Butterfly swarm app with customizable count, scale, wing flap speed, and fly speed, generating a dynamic flock of animated butterflies. Create ambient butterfly swarms in Hyperfy worlds for visual decoration and dynamic scenery.",
+      "description": "Procedurally generates an animated swarm of butterflies with randomized flight patterns, scales, and wing flap speeds. Features UI controls for butterfly count, size ranges, and movement parameters. Ideal for ambient environment decoration.",
       "preview_url": "catalog/discord/hyp_media/Butterfly_Swarm_V1_1350129252976168992/p0_5000.png",
       "preview_type": "image",
       "hyp_filename": "Butterfly_Swarm_V1.hyp",
       "download_path": "v2-hyp/Butterfly_Swarm_V1.hyp",
       "created_at": "2025-03-14T15:31:38.098Z",
       "tags": [
-        "particles",
         "animation",
-        "customizable",
-        "ui",
-        "random",
-        "visual"
+        "environment",
+        "particles",
+        "ui"
       ],
       "interaction_modes": [
-        "ui",
-        "passive"
+        "passive",
+        "ui"
       ],
-      "asset_profile": "medium",
+      "asset_profile": "light",
       "script_complexity": "medium",
       "networking": "none",
       "has_preview": true,
@@ -1759,25 +1627,24 @@
       "slug": "butterfly-swarm-v5",
       "name": "Butterfly_Swarm_V5",
       "author": "Gert-Jan Akerboom",
-      "description": "Butterfly Swarm V5 creates a dynamic swarm of animated butterflies with configurable amount, scale, flap and fly speeds, using a GLB model and client\u2011side animation. Add a visually appealing, customizable butterfly swarm to a Hyperfy world for ambient animation.",
+      "description": "Configurable 3D butterfly swarm generator with animated wing flapping and flight patterns. Features UI controls for butterfly count (1-5000), random scaling, flap speed, and fly speed. Clones wing nodes to create varied ambient environmental effects.",
       "preview_url": "catalog/generated_previews/butterfly-swarm-v5-1354102502055743531.jpg",
       "preview_type": "image",
       "hyp_filename": "Butterfly_Swarm_V5.hyp",
       "download_path": "v2-hyp/Butterfly_Swarm_V5.hyp",
       "created_at": "2025-03-25T14:39:54.498Z",
       "tags": [
+        "environment",
         "animation",
         "particles",
         "3d-model",
-        "configurable",
-        "client-side",
-        "visual-effects"
+        "ui"
       ],
       "interaction_modes": [
-        "ui",
-        "passive"
+        "passive",
+        "ui"
       ],
-      "asset_profile": "medium",
+      "asset_profile": "light",
       "script_complexity": "medium",
       "networking": "none",
       "has_preview": true,
@@ -1837,14 +1704,14 @@
       "script_complexity": "medium",
       "networking": "none",
       "has_preview": true,
-      "has_source": false
+      "has_source": true
     },
     {
-      "id": "butterfly-swarm-v6-hyperfly-edition-2-1355068289964970128",
-      "slug": "butterfly-swarm-v6-hyperfly-edition-2",
+      "id": "butterfly-swarm-v6-hyperfly-edition2-1355068289964970128",
+      "slug": "butterfly-swarm-v6-hyperfly-edition2",
       "name": "Butterfly_Swarm_V6_Hyperfly_edition2",
       "author": "Gert-Jan Akerboom",
-      "description": "Spawns configurable swarms of animated butterflies with emissive cyan wings. Features random scaling, flapping animations, and flight patterns within defined 3D areas. Performance-optimized edition supporting up to 5000 instances with real-time configuration UI.",
+      "description": "A configurable butterfly swarm simulation spawning up to 5000 emissive butterflies with randomized scale, flap speed, and drift movement. Features procedural animation, configurable spawn areas, and real-time wing flapping via cloned GLB nodes.",
       "preview_url": "catalog/discord/hyp_media/Butterfly_Swarm_V6_Hyperfly_edition2_1355068289964970128/p2_1092aa12-4c83-4fd9-bd55-6704eea2f06e.png",
       "preview_type": "image",
       "hyp_filename": "Butterfly_Swarm_V6_Hyperfly_edition2.hyp",
@@ -1858,6 +1725,32 @@
         "ui"
       ],
       "interaction_modes": [
+        "passive",
+        "ui"
+      ],
+      "asset_profile": "medium",
+      "script_complexity": "high",
+      "networking": "none",
+      "has_preview": true,
+      "has_source": true
+    },
+    {
+      "id": "butterfly-swarm-v6-hyperfly-edition2-bw-1355068613178167366",
+      "slug": "butterfly-swarm-v6-hyperfly-edition2-bw",
+      "name": "Butterfly_Swarm_V6_Hyperfly_edition2_BW",
+      "author": "Gert-Jan Akerboom",
+      "description": "A configurable butterfly swarm simulation featuring black and white animated butterflies. Spawns up to 2000 butterflies with randomized flight paths, wing flapping animations, and emissive materials within a defined 3D area. Primarily used for environmental decoration and atmosphere.",
+      "preview_url": "catalog/discord/hyp_media/Butterfly_Swarm_V6_Hyperfly_edition2_BW_1355068613178167366/p1_1092aa12-4c83-4fd9-bd55-6704eea2f06e.png",
+      "preview_type": "image",
+      "hyp_filename": "Butterfly_Swarm_V6_Hyperfly_edition2_BW.hyp",
+      "download_path": "v2-hyp/Butterfly_Swarm_V6_Hyperfly_edition2_BW.hyp",
+      "created_at": "2025-03-28T06:38:53.339Z",
+      "tags": [
+        "animation",
+        "environment",
+        "3d-model"
+      ],
+      "interaction_modes": [
         "ui",
         "passive"
       ],
@@ -1865,43 +1758,14 @@
       "script_complexity": "medium",
       "networking": "none",
       "has_preview": true,
-      "has_source": false
-    },
-    {
-      "id": "butterfly_swarm_v6_hyperfly_edition2_bw-1355068613178167366",
-      "slug": "butterfly_swarm_v6_hyperfly_edition2_bw",
-      "name": "Butterfly_Swarm_V6_Hyperfly_edition2_BW",
-      "author": "Gert-Jan Akerboom",
-      "description": "Black and white edition of a configurable butterfly swarm environment. Spawns up to 5000 procedurally animated butterflies with randomized scale, flap speed, and flight patterns within a customizable 3D area. Features emissive cyan wing materials and real-time wing flapping. Includes UI configuratio",
-      "preview_url": "catalog/discord/hyp_media/Butterfly_Swarm_V6_Hyperfly_edition2_BW_1355068613178167366/p1_1092aa12-4c83-4fd9-bd55-6704eea2f06e.png",
-      "preview_type": "image",
-      "hyp_filename": "Butterfly_Swarm_V6_Hyperfly_edition2_BW.hyp",
-      "download_path": "v2-hyp/Butterfly_Swarm_V6_Hyperfly_edition2_BW.hyp",
-      "created_at": "2025-03-28T06:38:53.339Z",
-      "tags": [
-        "particles",
-        "animation",
-        "environment",
-        "3d-model",
-        "ui",
-        "passive"
-      ],
-      "interaction_modes": [
-        "ui",
-        "passive"
-      ],
-      "asset_profile": "light",
-      "script_complexity": "medium",
-      "networking": "none",
-      "has_preview": true,
-      "has_source": false
+      "has_source": true
     },
     {
       "id": "cam-raycast-action-bar-1348748294658195487",
       "slug": "cam-raycast-action-bar",
       "name": "cam_raycast_action_bar",
       "author": "Saori",
-      "description": "Adds a customizable on\u2011screen action bar with keybind icons and a raycast trigger for quick ability activation. Provides Hyperfy worlds with a UI action bar for instant keybind activation and client\u2011to\u2011server raycast interaction.",
+      "description": "WoW-style action bar UI with 10 ability slots (Q, E, F keys). Features camera-based raycasting that fires beams from player chest, with client-server networking. Includes customizable text, emojis, and attack emotes.",
       "preview_url": "catalog/generated_previews/cam-raycast-action-bar-1348748294658195487.jpg",
       "preview_type": "image",
       "hyp_filename": "cam_raycast_action_bar.hyp",
@@ -1909,20 +1773,20 @@
       "created_at": "2025-03-10T20:04:11.978Z",
       "tags": [
         "ui",
-        "action-bar",
-        "keybinds",
-        "physics",
-        "animation",
-        "customizable"
+        "combat",
+        "camera",
+        "multiplayer",
+        "interaction",
+        "animation"
       ],
       "interaction_modes": [
-        "ui",
         "action",
-        "trigger",
-        "networked"
+        "ui",
+        "networked",
+        "trigger"
       ],
       "asset_profile": "medium",
-      "script_complexity": "medium",
+      "script_complexity": "high",
       "networking": "events",
       "has_preview": true,
       "has_source": true
@@ -2065,54 +1929,55 @@
       "slug": "car1-v2",
       "name": "car1-v2",
       "author": "ash",
-      "description": "car1-v2 adds improved anti-roll suspension to a car model, providing realistic physics, steering, and acceleration controls. Vehicle physics simulation with enhanced anti-roll and suspension dynamics.",
+      "description": "A physics-based drivable car with improved anti-roll suspension. Features 4-wheel spring suspension, steering, acceleration/braking, and lateral grip simulation. Uses raycast-based wheel grounding with visual hub positioning.",
       "preview_url": "catalog/generated_previews/car1-v2-1353199999730581585.jpg",
       "preview_type": "image",
       "hyp_filename": "car1-v2.hyp",
       "download_path": "v2-hyp/car1-v2.hyp",
       "created_at": "2025-03-23T02:53:41.176Z",
       "tags": [
-        "anti-roll",
-        "suspension",
-        "steering",
-        "acceleration",
+        "vehicle",
         "physics",
-        "wheel-grip"
+        "3d-model",
+        "interaction",
+        "animation"
       ],
       "interaction_modes": [
         "action",
         "passive"
       ],
       "asset_profile": "light",
-      "script_complexity": "medium",
+      "script_complexity": "high",
       "networking": "none",
       "has_preview": true,
-      "has_source": false
+      "has_source": true
     },
     {
       "id": "companion-v8-1354172080924397802",
       "slug": "companion-v8",
       "name": "Companion_v8",
       "author": "~/drdoge.eth",
-      "description": "Repaired JSON output conforming to schema requirements.",
+      "description": "AI-powered NPC companion robot named Victor with cowboy personality. Features voice chat commands (follow, search, patrol), environment perception, HuggingFace LLM integration for contextual dialogue, and VRM avatar animations. Includes PingScript system for object detection and HUD/compass compatib",
       "preview_url": "catalog/discord/hyp_media/Companion_v8_1354172080924397802/m1_updated_companion.mp4",
       "preview_type": "video",
       "hyp_filename": "Companion_v8.hyp",
       "download_path": "v2-hyp/Companion_v8.hyp",
       "created_at": "2025-03-25T19:16:23.393Z",
       "tags": [
-        "json",
-        "fix",
-        "repair"
+        "npc",
+        "animation",
+        "interaction",
+        "multiplayer",
+        "ui"
       ],
       "interaction_modes": [
-        "trigger",
-        "passive",
-        "action"
+        "action",
+        "ui",
+        "networked"
       ],
       "asset_profile": "medium",
-      "script_complexity": "medium",
-      "networking": "none",
+      "script_complexity": "high",
+      "networking": "shared_state",
       "has_preview": true,
       "has_source": true
     },
@@ -2219,11 +2084,11 @@
       "has_source": true
     },
     {
-      "id": "curvedvid_with_link_input-1363573773185450045",
-      "slug": "curvedvid_with_link_input",
+      "id": "curvedvid-with-link-input-1363573773185450045",
+      "slug": "curvedvid-with-link-input",
       "name": "CurvedVid_with_link_input",
       "author": "MetaRick",
-      "description": "CurvedVid_with_link_input displays a video on a mesh, using either an uploaded file or a URL, with auto\u2011play, looping and 16:9 aspect. Showcase video content on a screen mesh in a Hyperfy world, supporting direct upload or streaming link.",
+      "description": "Curved video display supporting both file uploads and streaming URLs. Renders video onto curved geometry with proper aspect ratio handling and synchronized playback.",
       "preview_url": "catalog/discord/hyp_media/CurvedVid_with_link_input_1363573773185450045/p1_Desktop_2025.04.20_-_20.18.43.04.mp4",
       "preview_type": "video",
       "hyp_filename": "CurvedVid_with_link_input.hyp",
@@ -2231,71 +2096,78 @@
       "created_at": "2025-04-20T17:55:21.503Z",
       "tags": [
         "media-player",
-        "link",
-        "upload",
-        "loop",
-        "aspect_ratio",
-        "cover"
+        "3d-model",
+        "ui",
+        "environment"
       ],
       "interaction_modes": [
         "ui",
         "passive"
       ],
       "asset_profile": "heavy",
-      "script_complexity": "low",
-      "networking": "none",
+      "script_complexity": "medium",
+      "networking": "local",
       "has_preview": true,
-      "has_source": false
+      "has_source": true
     },
     {
       "id": "dash-1356968685415301160",
       "slug": "dash",
       "name": "dash",
       "author": "peezy",
-      "description": "Dash app provides a quick forward charge ability with configurable color and UI, using an emote effect and no cooldown, making it highly spamable. Enable players to perform a rapid forward dash with a visual charge effect, configurable via UI properties.",
+      "description": "A player ability app that enables a dash movement mechanic. Press F to perform a directional dash with camera-relative movement, custom emote animation, and cooldown. Features configurable color variants and custom charge emote support.",
       "preview_url": "catalog/discord/hyp_media/dash_1356968685415301160/m2_image.png",
       "preview_type": "image",
       "hyp_filename": "dash.hyp",
       "download_path": "v2-hyp/dash.hyp",
       "created_at": "2025-04-02T12:29:05.862Z",
       "tags": [
-        "movement",
-        "charge",
-        "configurable_color",
+        "animation",
+        "interaction",
+        "physics",
         "ui",
-        "animation"
+        "3d-model",
+        "combat"
       ],
       "interaction_modes": [
         "action",
-        "trigger",
         "ui"
       ],
       "asset_profile": "medium",
       "script_complexity": "medium",
-      "networking": "none",
+      "networking": "local",
       "has_preview": true,
       "has_source": true
     },
     {
-      "id": "day_night_weather_current-1364018271719919686",
-      "slug": "day_night_weather_current",
+      "id": "day-night-weather-current-1364018271719919686",
+      "slug": "day-night-weather-current",
       "name": "DAY_NIGHT_WEATHER_CURRENT",
       "author": "~/drdoge.eth",
-      "description": "A Hyperfy app.",
+      "description": "Environmental control app that manages day/night cycles, dynamic weather systems (rain, storm, fog, dust, nuclear fallout), and atmospheric effects including HDR skyboxes, volumetric fog, lightning, and ambient audio. Features real-time or configurable time progression with a Pip-Boy style HUD displ",
       "preview_url": "catalog/discord/hyp_media/DAY_NIGHT_WEATHER_CURRENT_1364018271719919686/m8_IMG_1182.png",
       "preview_type": "image",
       "hyp_filename": "DAY_NIGHT_WEATHER_CURRENT.hyp",
       "download_path": "v2-hyp/DAY_NIGHT_WEATHER_CURRENT.hyp",
       "created_at": "2025-04-21T23:21:38.212Z",
       "tags": [
-        "unclassified"
+        "environment",
+        "particles",
+        "audio",
+        "ui",
+        "animation",
+        "3d-model"
       ],
-      "interaction_modes": [],
-      "asset_profile": "medium",
-      "script_complexity": "low",
-      "networking": "none",
+      "interaction_modes": [
+        "ui",
+        "passive",
+        "networked"
+      ],
+      "asset_profile": "heavy",
+      "script_complexity": "high",
+      "networking": "shared_state",
       "has_preview": true,
-      "has_source": false
+      "has_source": true
     },
     {
       "id": "discord3-1421084209073885294",
@@ -2351,8 +2223,8 @@
       "has_source": true
     },
     {
-      "id": "eel_add_particles1-1362421603765325946",
-      "slug": "eel_add_particles1",
+      "id": "eel-add-particles1-1362421603765325946",
+      "slug": "eel-add-particles1",
       "name": "eel_add_particles1",
       "author": "Gert-Jan Akerboom",
       "description": "Attaches glow-dust particle effects to animated model bones. Tracks bone transforms in real-time to position and rotate particle emitters, creating visual effects that follow skeletal animation. Includes configurable particle texture upload.",
@@ -2379,33 +2251,34 @@
       "has_source": true
     },
     {
-      "id": "eel_add_particles1_1-1362432359785304154",
-      "slug": "eel_add_particles1_1",
+      "id": "eel-add-particles1-1-1362432359785304154",
+      "slug": "eel-add-particles1-1",
       "name": "eel_add_particles1_1",
       "author": "ash",
-      "description": "A simple student management system",
+      "description": "Spawns glow particle effects for ambient atmosphere or visual flair. Lightweight utility for adding atmospheric particle systems to Hyperfy worlds.",
       "preview_url": "catalog/discord/hyp_media/eel_add_particles1_1_1362432359785304154/m5_eel_add_particles.mp4",
       "preview_type": "video",
       "hyp_filename": "eel_add_particles1_1.hyp",
       "download_path": "v2-hyp/eel_add_particles1_1.hyp",
       "created_at": "2025-04-17T14:19:47.342Z",
       "tags": [
-        "unclassified"
+        "particles",
+        "environment",
+        "animation"
       ],
       "interaction_modes": [
-        "ui",
-        "trigger",
-        "action"
+        "passive",
+        "trigger"
       ],
-      "asset_profile": "medium",
+      "asset_profile": "light",
       "script_complexity": "low",
       "networking": "none",
       "has_preview": true,
-      "has_source": false
+      "has_source": true
     },
     {
-      "id": "emote_rom-1361914201701875788",
-      "slug": "emote_rom",
+      "id": "emote-rom-1361914201701875788",
+      "slug": "emote-rom",
       "name": "Emote_Rom",
       "author": "HowieDuhzit",
       "description": "Open source AI-powered interactive CLI autocomplete that suggests commands as you type based on your shell history",
@@ -2432,13 +2305,13 @@
       "has_source": true
     },
     {
-      "id": "emote_rom_1-1362219850151231579",
-      "slug": "emote_rom_1",
+      "id": "emote-rom-1-1362219850151231579",
+      "slug": "emote-rom-1",
       "name": "Emote_Rom_1",
       "author": "~/drdoge.eth",
-      "description": "Networked emote ROM enabling 10 configurable avatar animations triggered by numpad keys (0-9), with cross-client synchronization and floating emoji indicators above players.",
-      "preview_url": "catalog/generated_previews/emote_rom_1-1362219850151231579.jpg",
-      "preview_type": "image",
+      "description": "Networked emote player triggered by numpad keys 0-9. Displays emoji indicators above players and synchronizes animations across clients. Configurable emote slots with custom animations and duration.",
+      "preview_url": null,
+      "preview_type": "none",
       "hyp_filename": "Emote_Rom_1.hyp",
       "download_path": "v2-hyp/Emote_Rom_1.hyp",
       "created_at": "2025-04-17T00:15:21.097Z",
@@ -2446,7 +2319,8 @@
         "animation",
         "multiplayer",
         "ui",
-        "interaction"
+        "interaction",
+        "3d-model"
       ],
       "interaction_modes": [
         "action",
@@ -2456,31 +2330,38 @@
       "asset_profile": "medium",
       "script_complexity": "medium",
       "networking": "events",
-      "has_preview": true,
-      "has_source": false
+      "has_preview": false,
+      "has_source": true
     },
     {
       "id": "emotesr-1440465428748046346",
       "slug": "emotesr",
       "name": "EmotesR",
       "author": "\ud835\udd7d\ud835\udd94\ud835\udd9a\ud835\udd98\ud835\udd99\ud835\udd86\ud835\udd93",
-      "description": "Placeholder object due to missing input data",
+      "description": "Circular emote selector UI displaying 6 configurable dance/emote buttons in a radial layout. Players trigger avatar animations via clickable buttons or hotkeys (B to open, 1-6 to select). Supports custom emote files, labels, icons, and gaze locking per slot.",
       "preview_url": "catalog/generated_previews/emotesr-1440465428748046346.jpg",
       "preview_type": "image",
       "hyp_filename": "EmotesR.hyp",
       "download_path": "v2-hyp/EmotesR.hyp",
       "created_at": "2025-11-18T22:15:20.767Z",
       "tags": [
-        "unclassified"
+        "animation",
+        "ui",
+        "interaction",
+        "3d-model",
+        "multiplayer",
+        "avatar"
       ],
       "interaction_modes": [
+        "action",
+        "ui",
         "passive"
       ],
-      "asset_profile": "light",
-      "script_complexity": "low",
+      "asset_profile": "heavy",
+      "script_complexity": "medium",
       "networking": "none",
       "has_preview": true,
-      "has_source": false
+      "has_source": true
     },
     {
       "id": "explosion-sprites-1361904724433174649",
@@ -2543,51 +2424,50 @@
       "slug": "firsthyp",
       "name": "firstHYP",
       "author": "vox",
-      "description": "Fetches weather data from external API",
+      "description": "First-time Hyperfy app featuring a UV texture scrolling animation on a 3D model (ROOMERS4). Continuously animates the texture offset on a mesh named 'UVSCROLL' to create a scrolling visual effect. Lightweight demonstration of basic app scripting and material manipulation.",
       "preview_url": "catalog/generated_previews/firsthyp-1364577095313002547.jpg",
       "preview_type": "image",
       "hyp_filename": "firstHYP.hyp",
       "download_path": "v2-hyp/firstHYP.hyp",
       "created_at": "2025-04-23T12:22:12.139Z",
       "tags": [
-        "environment",
-        "api",
-        "integration"
+        "animation",
+        "3d-model",
+        "environment"
       ],
       "interaction_modes": [
-        "ui",
-        "trigger"
+        "passive"
       ],
-      "asset_profile": "medium",
-      "script_complexity": "high",
+      "asset_profile": "light",
+      "script_complexity": "low",
       "networking": "none",
       "has_preview": true,
-      "has_source": false
+      "has_source": true
     },
     {
       "id": "firsthypv2-1364604780420272199",
       "slug": "firsthypv2",
       "name": "firstHYPv2",
       "author": "vox",
-      "description": "Example application description",
+      "description": "Room decoration app with animated UV-scrolling texture effect. Continuously scrolls material textures on optimized plane geometry using frame-based UV offset updates. Lightweight visual element suitable for environmental ambiance.",
       "preview_url": "catalog/generated_previews/firsthypv2-1364604780420272199.jpg",
       "preview_type": "image",
       "hyp_filename": "firstHYPv2.hyp",
       "download_path": "v2-hyp/firstHYPv2.hyp",
       "created_at": "2025-04-23T14:12:12.783Z",
       "tags": [
-        "productivity",
-        "utilities"
+        "animation",
+        "environment",
+        "3d-model"
       ],
       "interaction_modes": [
-        "ui",
         "passive"
       ],
-      "asset_profile": "medium",
+      "asset_profile": "light",
       "script_complexity": "low",
       "networking": "none",
       "has_preview": true,
-      "has_source": false
+      "has_source": true
     },
     {
       "id": "fog-1361904724433174649",
@@ -2667,11 +2547,11 @@
       "has_source": true
     },
     {
-      "id": "framed-image-v1.0-1434190157220806658",
-      "slug": "framed-image-v1.0",
+      "id": "framed-image-v1-0-1434190157220806658",
+      "slug": "framed-image-v1-0",
       "name": "Framed_Image_v1.0",
       "author": "Valiant",
-      "description": "Image display app with customizable primitive frames. Features configurable dimensions, glow effects, backboards, collider modes, and disco lighting animation. Supports manual width adjustment for non-square aspect ratios.",
+      "description": "A customizable framed image display app using primitives for the frame structure. Features adjustable dimensions, frame styling with glow effects, backboard options, multiple collider modes, and a disco mode for animated emissive lighting. Non-square images require manual width input.",
       "preview_url": "catalog/discord/hyp_media/Framed_Image_v1.0_1434190157220806658/p0_FramedImage.jpg",
       "preview_type": "image",
       "hyp_filename": "Framed_Image_v1.0.hyp",
@@ -2680,18 +2560,18 @@
       "tags": [
         "media-player",
         "ui",
-        "3d",
+        "environment",
         "animation",
-        "customizable",
-        "environment"
+        "interaction",
+        "building"
       ],
       "interaction_modes": [
-        "passive",
-        "trigger"
+        "ui",
+        "passive"
       ],
-      "asset_profile": "medium",
+      "asset_profile": "light",
       "script_complexity": "medium",
-      "networking": "local",
+      "networking": "none",
       "has_preview": true,
       "has_source": true
     },
@@ -2726,30 +2606,30 @@
       "slug": "ftv",
       "name": "FTV",
       "author": "~/drdoge.eth",
-      "description": "A chat application that allows users to send and receive messages in real-time.",
+      "description": "A customizable multi-video TV player with spatial audio, UI controls, and playlist management. Supports up to 5 videos with autoplay, shuffle, and channel change sound effects. Features configurable screen mesh, aspect ratios, and audio falloff settings.",
       "preview_url": "catalog/discord/hyp_media/FTV_1361768826902941913/p0_ww.mp4",
       "preview_type": "video",
       "hyp_filename": "FTV.hyp",
       "download_path": "v2-hyp/FTV.hyp",
       "created_at": "2025-04-15T18:23:08.775Z",
       "tags": [
-        "real-time messaging",
-        "user authentication",
-        "file sharing",
-        "group chats",
-        "read receipts",
-        "encryption"
+        "media-player",
+        "ui",
+        "audio",
+        "interaction",
+        "3d-model"
       ],
       "interaction_modes": [
-        "passive",
+        "ui",
         "action",
-        "trigger"
+        "passive",
+        "networked"
       ],
-      "asset_profile": "medium",
+      "asset_profile": "light",
       "script_complexity": "high",
-      "networking": "local",
+      "networking": "events",
       "has_preview": true,
-      "has_source": false
+      "has_source": true
     },
     {
       "id": "game-timer-1353704858338984058",
@@ -2804,27 +2684,29 @@
       "slug": "gert-2-1-aloe",
       "name": "Gert-2-1-aloe",
       "author": "0mka",
-      "description": "Quickly show and hide desktop icons",
+      "description": "Procedurally distributes Aloe Vera plant clones within a configurable area. Users control clone count, area dimensions (X/Z), and min/max size randomization for natural-looking vegetation placement.",
       "preview_url": "catalog/generated_previews/gert-2-1-aloe-1346629939817877556.png",
       "preview_type": "image",
       "hyp_filename": "Gert-2-1-aloe.hyp",
       "download_path": "v2-hyp/Gert-2-1-aloe.hyp",
       "created_at": "2025-03-04T23:46:36.827Z",
       "tags": [
-        "desktop",
-        "icons",
-        "toggle",
-        "visibility"
+        "environment",
+        "3d-model",
+        "ui",
+        "procedural",
+        "vegetation",
+        "building"
       ],
       "interaction_modes": [
-        "trigger",
-        "ui"
+        "ui",
+        "passive"
       ],
-      "asset_profile": "medium",
+      "asset_profile": "light",
       "script_complexity": "low",
       "networking": "none",
       "has_preview": true,
-      "has_source": false
+      "has_source": true
     },
     {
       "id": "glow-dust-1361904724433174649",
@@ -2856,8 +2738,8 @@
       "has_source": true
     },
     {
-      "id": "grass_v1-1359167521789448234",
-      "slug": "grass_v1",
+      "id": "grass-v1-1359167521789448234",
+      "slug": "grass-v1",
       "name": "Grass_V1",
       "author": "Gert-Jan Akerboom",
       "description": "Grass particle system with wind animation and procedural clustering. Configurable density, area size, and grouping for realistic distribution. Supports 10,000+ instances at 60 FPS using instanced mesh cloning.",
@@ -2884,8 +2766,8 @@
       "has_source": true
     },
     {
-      "id": "grass_v3-1360243980150902917",
-      "slug": "grass_v3",
+      "id": "grass-v3-1360243980150902917",
+      "slug": "grass-v3",
       "name": "Grass_V3",
       "author": "Gert-Jan Akerboom",
       "description": "JSON validator service",
@@ -3014,7 +2896,7 @@
       "slug": "heliv4",
       "name": "HELIv4",
       "author": "vox",
-      "description": "Autonomous police helicopter that flies a continuous oval patrol path. Features animated rotor UV scrolling, spatial audio with configurable props, and realistic flight physics including pitch/yaw adjustments based on path curvature and speed variation.",
+      "description": "Interactive 3D helicopter model (v4) featuring engine idle audio loop, drivable vehicle mechanics, and detailed aviation design for immersive flight experiences.",
       "preview_url": "catalog/generated_previews/heliv4-1374463195070332958.jpg",
       "preview_type": "image",
       "hyp_filename": "HELIv4.hyp",
@@ -3022,27 +2904,27 @@
       "created_at": "2025-05-20T19:06:01.996Z",
       "tags": [
         "vehicle",
-        "animation",
         "audio",
-        "environment",
-        "3d-model"
+        "3d-model",
+        "animation",
+        "interaction"
       ],
       "interaction_modes": [
-        "passive",
+        "action",
         "ui"
       ],
-      "asset_profile": "light",
-      "script_complexity": "high",
+      "asset_profile": "medium",
+      "script_complexity": "medium",
       "networking": "none",
       "has_preview": true,
-      "has_source": false
+      "has_source": true
     },
     {
-      "id": "hexagonal_test_basic-1355683928421171290",
-      "slug": "hexagonal_test_basic",
+      "id": "hexagonal-test-basic-1355683928421171290",
+      "slug": "hexagonal-test-basic",
       "name": "hexagonal_test_basic",
       "author": "cru",
-      "description": "Interactive hexagonal floor panels that react to player contact by dipping down and cycling through UV color scrolls. Features idle oscillation, configurable movement speeds, and visual feedback for mini-game applications.",
+      "description": "Interactive hexagonal floor panels that react to player contact with physical depression, animated UV color transitions, and idle oscillation. Features configurable shift distance, speed, and oscillation parameters. Designed for mini-games.",
       "preview_url": "catalog/discord/hyp_media/hexagonal_test_basic_1355683928421171290/p0_image.png",
       "preview_type": "image",
       "hyp_filename": "hexagonal_test_basic.hyp",
@@ -3053,44 +2935,46 @@
         "animation",
         "physics",
         "environment",
-        "3d-model",
-        "ui"
+        "3d-model"
       ],
       "interaction_modes": [
         "trigger",
-        "ui",
         "passive"
       ],
       "asset_profile": "medium",
-      "script_complexity": "medium",
+      "script_complexity": "high",
       "networking": "none",
       "has_preview": true,
-      "has_source": false
+      "has_source": true
     },
     {
-      "id": "hexagonal_test_networked-1355683928421171290",
-      "slug": "hexagonal_test_networked",
+      "id": "hexagonal-test-networked-1355683928421171290",
+      "slug": "hexagonal-test-networked",
       "name": "hexagonal_test_networked",
       "author": "cru",
-      "description": "My App for tasks",
+      "description": "Interactive hexagonal floor panels that react to player contact with physics-based movement, UV scrolling effects, and networked state synchronization for multiplayer mini-games.",
       "preview_url": "catalog/discord/hyp_media/hexagonal_test_networked_1355683928421171290/p0_image.png",
       "preview_type": "image",
       "hyp_filename": "hexagonal_test_networked.hyp",
       "download_path": "v2-hyp/hexagonal_test_networked.hyp",
       "created_at": "2025-03-29T23:23:55.925Z",
       "tags": [
-        "task-management",
-        "productivity"
+        "interaction",
+        "physics",
+        "animation",
+        "multiplayer",
+        "environment"
       ],
       "interaction_modes": [
-        "ui",
-        "action"
+        "action",
+        "trigger",
+        "networked"
       ],
-      "asset_profile": "light",
-      "script_complexity": "low",
-      "networking": "none",
+      "asset_profile": "medium",
+      "script_complexity": "high",
+      "networking": "shared_state",
       "has_preview": true,
-      "has_source": false
+      "has_source": true
     },
     {
       "id": "hover-cursor-test-1402653679030636655",
@@ -3119,13 +3003,13 @@
       "has_source": true
     },
     {
-      "id": "hp-eliza-2-1-app_1-1346629939817877556",
-      "slug": "hp-eliza-2-1-app_1",
+      "id": "hp-eliza-2-1-app-1-1346629939817877556",
+      "slug": "hp-eliza-2-1-app-1",
       "name": "HP-eliza-2-1-app_1",
       "author": "0mka",
       "description": "An app to manage and organize club meetings and events.",
-      "preview_url": "catalog/generated_previews/hp-eliza-2-1-app_1-1346629939817877556.jpg",
-      "preview_type": "image",
+      "preview_url": null,
+      "preview_type": "none",
       "hyp_filename": "HP-eliza-2-1-app_1.hyp",
       "download_path": "v2-hyp/HP-eliza-2-1-app_1.hyp",
       "created_at": "2025-03-04T23:46:36.827Z",
@@ -3140,34 +3024,36 @@
       "asset_profile": "light",
       "script_complexity": "medium",
       "networking": "none",
-      "has_preview": true,
+      "has_preview": false,
       "has_source": true
     },
     {
-      "id": "hyperbeacon_v2-1337234426395889747",
-      "slug": "hyperbeacon_v2",
+      "id": "hyperbeacon-v2-1337234426395889747",
+      "slug": "hyperbeacon-v2",
       "name": "HyperBeacon_v2",
       "author": "maximus",
-      "description": "This is a sample schema-compliant JSON object generated because the previous bad output was empty or missing.",
+      "description": "A beacon system for listing Hyperfy worlds on Zesty Relay. Users configure world metadata (name, description, tags, image URL) through interactive UI props to broadcast their world to the decentralized relay network.",
       "preview_url": "catalog/discord/hyp_media/HyperBeacon_v2_1337234426395889747/m1_spatial_relay_example.png",
       "preview_type": "image",
       "hyp_filename": "HyperBeacon_v2.hyp",
       "download_path": "v2-hyp/HyperBeacon_v2.hyp",
       "created_at": "2025-02-07T01:32:11.867Z",
       "tags": [
-        "example",
-        "placeholder",
-        "fixed_output"
+        "ui",
+        "multiplayer",
+        "interaction",
+        "media-player",
+        "environment"
       ],
       "interaction_modes": [
         "ui",
         "networked"
       ],
-      "asset_profile": "medium",
-      "script_complexity": "low",
-      "networking": "none",
+      "asset_profile": "light",
+      "script_complexity": "medium",
+      "networking": "shared_state",
       "has_preview": true,
-      "has_source": false
+      "has_source": true
     },
     {
       "id": "hyperportal-with-set-1349789440293474304",
@@ -3204,7 +3090,7 @@
       "slug": "hyperportal-with-set-manual",
       "name": "HyperPortal_with_Set_Manual",
       "author": "0mka",
-      "description": "A teleportation portal that lets admins set a target position either automatically from the player\u2019s location or manually via UI coordinates. Teleport players to a predefined location using a portal, with admin\u2011controlled position setting.",
+      "description": "Teleport portal with dual configuration modes: 'Set' captures the admin's current position instantly, while 'Manual' allows precise coordinate input via XYZ fields. Features trigger-based teleportation, networked position sync, and admin-only destination controls.",
       "preview_url": "catalog/discord/hyp_media/HyperPortal_with_Set_Manual_1352439458317865070/p1_image.png",
       "preview_type": "image",
       "hyp_filename": "HyperPortal_with_Set_Manual.hyp",
@@ -3212,32 +3098,31 @@
       "created_at": "2025-03-21T00:31:33.973Z",
       "tags": [
         "teleport",
-        "position",
-        "ui switch",
-        "admin control",
-        "server-client sync",
-        "configurable"
+        "ui",
+        "interaction",
+        "multiplayer",
+        "environment",
+        "3d-model"
       ],
       "interaction_modes": [
         "ui",
         "trigger",
-        "action",
         "networked"
       ],
-      "asset_profile": "medium",
+      "asset_profile": "light",
       "script_complexity": "medium",
-      "networking": "events",
+      "networking": "shared_state",
       "has_preview": true,
       "has_source": true
     },
     {
-      "id": "jukebox_ui-1354513817861750816",
-      "slug": "jukebox_ui",
+      "id": "jukebox-ui-1354513817861750816",
+      "slug": "jukebox-ui",
       "name": "JUKEBOX_UI",
       "author": "~/drdoge.eth",
       "description": "Configurable 3D jukebox with spatial audio, playlist management (shuffle/loop), and interactive UI for up to 5 tracks. Features track visualization and customizable accent colors.",
-      "preview_url": "catalog/generated_previews/jukebox_ui-1354513817861750816.png",
-      "preview_type": "image",
+      "preview_url": null,
+      "preview_type": "none",
       "hyp_filename": "JUKEBOX_UI.hyp",
       "download_path": "v2-hyp/JUKEBOX_UI.hyp",
       "created_at": "2025-03-26T17:54:19.828Z",
@@ -3254,7 +3139,7 @@
       "asset_profile": "medium",
       "script_complexity": "medium",
       "networking": "none",
-      "has_preview": true,
+      "has_preview": false,
       "has_source": true
     },
     {
@@ -3485,33 +3370,34 @@
       "has_source": true
     },
     {
-      "id": "machine_gun_with_animation-1349513227842879581",
-      "slug": "machine_gun_with_animation",
+      "id": "machine-gun-with-animation-1349513227842879581",
+      "slug": "machine-gun-with-animation",
       "name": "Machine_Gun_With_Animation",
       "author": "Saori",
-      "description": "A machine gun weapon that overrides player animations based on movement state (idle, walk, run, sprint in all directions). Features pick-up/drop interaction, shooting mechanics with fire-rate cooldown, and networked synchronization of weapon holder and shooting events across clients.",
-      "preview_url": "catalog/generated_previews/machine_gun_with_animation-1349513227842879581.jpg",
-      "preview_type": "image",
+      "description": "A weapon animation override system that equips a machine gun with full directional movement animations. Players pick up the weapon to activate custom idle, walk, run, and sprint animations in all directions including diagonals and backward variants. Includes shooting mechanics with cooldown and scop",
+      "preview_url": null,
+      "preview_type": "none",
       "hyp_filename": "Machine_Gun_With_Animation.hyp",
       "download_path": "v2-hyp/Machine_Gun_With_Animation.hyp",
       "created_at": "2025-03-12T22:43:46.261Z",
       "tags": [
+        "animation",
         "combat",
-        "machine gun",
-        "animation override",
-        "player movement",
-        "pick-up",
-        "drop"
+        "interaction",
+        "3d-model",
+        "multiplayer",
+        "ui"
       ],
       "interaction_modes": [
         "action",
-        "trigger"
+        "trigger",
+        "networked"
       ],
-      "asset_profile": "medium",
+      "asset_profile": "heavy",
       "script_complexity": "high",
       "networking": "shared_state",
-      "has_preview": true,
-      "has_source": false
+      "has_preview": false,
+      "has_source": true
     },
     {
       "id": "mato-pet-v2-1345214513477189663",
@@ -3691,27 +3577,26 @@
       "has_source": true
     },
     {
-      "id": "monkey_head-1360004867166437467",
-      "slug": "monkey_head",
+      "id": "monkey-head-1360004867166437467",
+      "slug": "monkey-head",
       "name": "monkey_head",
       "author": ".hyp shaman",
-      "description": "A simple Hyperfy app featuring a monkey head model with a configurable jump button texture and jump height. Provides a basic interactive 3D character that can jump on user input, demonstrating UI props and networking basics.",
+      "description": "A 3D monkey head avatar base with UI-configurable jump height and button texture. Features physics-ready rigidbody structure for interactive avatar use, though script implementation is minimal.",
       "preview_url": "catalog/discord/hyp_media/monkey_head_1360004867166437467/m2_image.png",
       "preview_type": "image",
       "hyp_filename": "monkey_head.hyp",
       "download_path": "v2-hyp/monkey_head.hyp",
       "created_at": "2025-04-10T21:33:48.001Z",
       "tags": [
-        "jumpbuttonimage",
-        "jumpheight",
         "3d-model",
-        "script",
+        "avatar",
         "ui",
-        "texture"
+        "physics",
+        "interaction"
       ],
       "interaction_modes": [
         "ui",
-        "action"
+        "passive"
       ],
       "asset_profile": "light",
       "script_complexity": "low",
@@ -3767,34 +3652,36 @@
       "has_source": true
     },
     {
-      "id": "neon_1-1369282194895274065",
-      "slug": "neon_1",
+      "id": "neon-1-1369282194895274065",
+      "slug": "neon-1",
       "name": "NEON_1",
       "author": "Gert-Jan Akerboom",
-      "description": "JSON repair service",
+      "description": "Customizable 3D neon sign supporting alphanumeric and special characters. Features configurable text, spacing, scale, height, glow intensity, color, and alignment via UI panel.",
       "preview_url": "catalog/discord/hyp_media/NEON_1_1369282194895274065/p1_NEON.mp4",
       "preview_type": "video",
       "hyp_filename": "NEON_1.hyp",
       "download_path": "v2-hyp/NEON_1.hyp",
       "created_at": "2025-05-06T11:58:35.296Z",
       "tags": [
-        "json-repair",
-        "schema-validation",
-        "syntax-fixing"
+        "ui",
+        "environment",
+        "3d-model",
+        "animation",
+        "building"
       ],
       "interaction_modes": [
-        "passive",
-        "trigger"
+        "ui",
+        "passive"
       ],
-      "asset_profile": "light",
-      "script_complexity": "low",
+      "asset_profile": "medium",
+      "script_complexity": "medium",
       "networking": "none",
       "has_preview": true,
       "has_source": true
     },
     {
-      "id": "neon_2-1369292993667928145",
-      "slug": "neon_2",
+      "id": "neon-2-1369292993667928145",
+      "slug": "neon-2",
       "name": "NEON_2",
       "author": "Gert-Jan Akerboom",
       "description": "Example application description",
@@ -3865,67 +3752,73 @@
       "has_source": true
     },
     {
-      "id": "npc_10-1354082561185288312",
-      "slug": "npc_10",
+      "id": "npc-10-1354082561185288312",
+      "slug": "npc-10",
       "name": "NPC_10",
       "author": "peezy",
-      "description": "Daily stand-up meeting reminder for engineering team",
-      "preview_url": "catalog/generated_previews/npc_10-1354082561185288312.jpg",
-      "preview_type": "image",
+      "description": "An interactive NPC with combat AI that chases players, plays attack animations with hit detection, and features audio cues. Configurable walk/run/idle emotes with physics-based collision detection.",
+      "preview_url": null,
+      "preview_type": "none",
       "hyp_filename": "NPC_10.hyp",
       "download_path": "v2-hyp/NPC_10.hyp",
       "created_at": "2025-03-25T13:20:40.224Z",
       "tags": [
-        "recurring_events",
-        "team_collaboration",
-        "ui"
+        "npc",
+        "combat",
+        "animation",
+        "audio",
+        "physics"
       ],
       "interaction_modes": [
-        "passive",
-        "action"
+        "action",
+        "trigger",
+        "ui",
+        "networked"
       ],
-      "asset_profile": "medium",
-      "script_complexity": "low",
-      "networking": "none",
-      "has_preview": true,
-      "has_source": false
+      "asset_profile": "heavy",
+      "script_complexity": "high",
+      "networking": "events",
+      "has_preview": false,
+      "has_source": true
     },
     {
-      "id": "npc_9-1354068129944174592",
-      "slug": "npc_9",
+      "id": "npc-9-1354068129944174592",
+      "slug": "npc-9",
       "name": "NPC_9",
       "author": "peezy",
-      "description": "The previous output was empty or not provided. This is a placeholder valid JSON object.",
+      "description": "A configurable NPC with combat capabilities including melee attack detection, animation states (idle/walk/run/sit/talk), and audio feedback. Features FOV-based player detection, chase behavior, and hit position calculation for sword combat integration.",
       "preview_url": "catalog/discord/hyp_media/NPC_9_1354068129944174592/p2_image.png",
       "preview_type": "image",
       "hyp_filename": "NPC_9.hyp",
       "download_path": "v2-hyp/NPC_9.hyp",
       "created_at": "2025-03-25T12:23:19.548Z",
       "tags": [
-        "video_consultation",
-        "appointment_scheduling",
-        "patient_records",
-        "prescription_management"
+        "npc",
+        "combat",
+        "animation",
+        "audio",
+        "interaction",
+        "multiplayer"
       ],
       "interaction_modes": [
-        "ui",
-        "networked",
-        "passive"
+        "action",
+        "trigger",
+        "networked"
       ],
       "asset_profile": "medium",
-      "script_complexity": "low",
-      "networking": "shared_state",
+      "script_complexity": "high",
+      "networking": "events",
       "has_preview": true,
-      "has_source": false
+      "has_source": true
     },
     {
-      "id": "npc_prisoner-1426847075219275808",
-      "slug": "npc_prisoner",
+      "id": "npc-prisoner-1426847075219275808",
+      "slug": "npc-prisoner",
       "name": "NPC_Prisoner",
       "author": "b34k3r",
       "description": "L'application est un petit jeu de type catch-the-ball, tr\u00e8s bien adapt\u00e9 au temps de pause.",
-      "preview_url": "catalog/generated_previews/npc_prisoner-1426847075219275808.png",
-      "preview_type": "image",
+      "preview_url": null,
+      "preview_type": "none",
       "hyp_filename": "NPC_Prisoner.hyp",
       "download_path": "v2-hyp/NPC_Prisoner.hyp",
       "created_at": "2025-10-12T08:20:52.269Z",
@@ -3944,7 +3837,7 @@
       "asset_profile": "light",
       "script_complexity": "low",
       "networking": "none",
-      "has_preview": true,
+      "has_preview": false,
       "has_source": true
     },
     {
@@ -3996,7 +3889,7 @@
       "script_complexity": "medium",
       "networking": "shared_state",
       "has_preview": true,
-      "has_source": false
+      "has_source": true
     },
     {
       "id": "physics-raycast-tags-1354315974823776286",
@@ -4048,7 +3941,7 @@
       "script_complexity": "low",
       "networking": "none",
       "has_preview": true,
-      "has_source": false
+      "has_source": true
     },
     {
       "id": "pingscriptforcompanion-1354172080924397802",
@@ -4257,7 +4150,7 @@
       "script_complexity": "high",
       "networking": "shared_state",
       "has_preview": true,
-      "has_source": false
+      "has_source": true
     },
     {
       "id": "pvpblasterlatest-1354225264028291292",
@@ -4476,8 +4369,8 @@
       "has_source": true
     },
     {
-      "id": "raptor_random_loc-1364946963270991875",
-      "slug": "raptor_random_loc",
+      "id": "raptor-random-loc-1364946963270991875",
+      "slug": "raptor-random-loc",
       "name": "Raptor_random_loc",
       "author": "Gert-Jan Akerboom",
       "description": "The previous model output was empty or missing, so this placeholder JSON object is provided as a valid response.",
@@ -4523,29 +4416,32 @@
       "has_source": true
     },
     {
-      "id": "ricky-3-2-show_chart-1346629939817877556",
-      "slug": "ricky-3-2-show_chart",
+      "id": "ricky-3-2-show-chart-1346629939817877556",
+      "slug": "ricky-3-2-show-chart",
       "name": "Ricky-3-2-show_chart",
       "author": "0mka",
-      "description": "No bad output content was provided to fix",
-      "preview_url": "catalog/generated_previews/ricky-3-2-show_chart-1346629939817877556.png",
-      "preview_type": "image",
+      "description": "Configurable billboard display for web-based charts/images featuring interactive refresh via E-key action, cooldown management, and customizable positioning. Uses UI nodes for rendering external media URLs with cache-busting.",
+      "preview_url": null,
+      "preview_type": "none",
       "hyp_filename": "Ricky-3-2-show_chart.hyp",
       "download_path": "v2-hyp/Ricky-3-2-show_chart.hyp",
       "created_at": "2025-03-04T23:46:36.827Z",
       "tags": [
-        "json_validation",
-        "error_handling",
-        "input_missing"
+        "ui",
+        "media-player",
+        "interaction",
+        "3d-model"
       ],
       "interaction_modes": [
+        "action",
+        "ui",
         "passive"
       ],
       "asset_profile": "light",
-      "script_complexity": "low",
+      "script_complexity": "medium",
       "networking": "none",
-      "has_preview": true,
-      "has_source": false
+      "has_preview": false,
+      "has_source": true
     },
     {
       "id": "rocket-launcher-v3-1364972260766646293",
@@ -4591,35 +4487,44 @@
       "script_complexity": "low",
       "networking": "none",
       "has_preview": true,
-      "has_source": false
+      "has_source": true
     },
     {
       "id": "rocket-global-coll-1437796842313355295",
       "slug": "rocket-global-coll",
       "name": "RocketGlobalColl",
       "author": "Gert-Jan Akerboom",
-      "description": "No reliable one-line summary generated. General Hyperfy app behavior.",
+      "description": "An interactive networked rocket launcher with collision physics, particle exhaust effects, and synchronized launch/respawn animations controlled via action button.",
       "preview_url": "catalog/generated_previews/rocket-global-coll-1437796842313355295.png",
       "preview_type": "image",
       "hyp_filename": "RocketGlobalColl.hyp",
       "download_path": "v2-hyp/RocketGlobalColl.hyp",
       "created_at": "2025-11-11T13:31:20.181Z",
       "tags": [
-        "unclassified"
+        "particles",
+        "animation",
+        "physics",
+        "interaction",
+        "multiplayer",
+        "3d-model"
       ],
-      "interaction_modes": [],
+      "interaction_modes": [
+        "action",
+        "networked",
+        "ui"
+      ],
       "asset_profile": "medium",
-      "script_complexity": "medium",
-      "networking": "none",
+      "script_complexity": "high",
+      "networking": "events",
       "has_preview": true,
-      "has_source": false
+      "has_source": true
     },
     {
       "id": "rom2-1355042999578660955",
       "slug": "rom2",
       "name": "rom2",
       "author": "general hyper",
-      "description": "rom2 displays a customizable ROM name label with color-adjustable mesh texture via a simple UI configuration. Provides a UI overlay that shows the ROM name and changes mesh texture based on selected color, useful for labeling and visual customization in Hyperfy worlds.",
+      "description": "A customizable 3D ROM cartridge display with configurable name label and rainbow color selection. Features a UI panel showing the ROM name with adjustable font and background, plus material color shifting via texture coordinate manipulation.",
       "preview_url": "catalog/discord/hyp_media/rom2_1355042999578660955/m3_image.png",
       "preview_type": "image",
       "hyp_filename": "rom2.hyp",
@@ -4627,18 +4532,17 @@
       "created_at": "2025-03-28T04:57:06.581Z",
       "tags": [
         "ui",
-        "configurable",
-        "color",
-        "mesh",
-        "text",
-        "dropdown"
+        "3d-model",
+        "interaction",
+        "animation",
+        "building"
       ],
       "interaction_modes": [
         "ui",
         "passive"
       ],
-      "asset_profile": "medium",
-      "script_complexity": "low",
+      "asset_profile": "light",
+      "script_complexity": "medium",
       "networking": "none",
       "has_preview": true,
       "has_source": true
@@ -4699,54 +4603,62 @@
       "has_source": true
     },
     {
-      "id": "rover.2.11-1339121960759721996",
-      "slug": "rover.2.11",
+      "id": "rover-2-11-1339121960759721996",
+      "slug": "rover-2-11",
       "name": "Rover.2.11",
       "author": "maximus",
-      "description": "A Hyperfy app.",
+      "description": "A space trading simulation remix of Metamike's Rover+Loot apps featuring autonomous patrol behavior, resource collection, health/loot stats management, and cross-app networking. Includes 3D vehicle model, dynamic UI status displays, and configurable perception/collection mechanics.",
       "preview_url": "catalog/discord/hyp_media/Rover.2.11_1339121960759721996/p0_vt01.png",
       "preview_type": "image",
       "hyp_filename": "Rover.2.11.hyp",
       "download_path": "v2-hyp/Rover.2.11.hyp",
       "created_at": "2025-02-12T06:32:35.128Z",
       "tags": [
-        "unclassified"
+        "vehicle",
+        "ui",
+        "npc",
+        "audio",
+        "3d-model",
+        "interaction"
       ],
-      "interaction_modes": [],
-      "asset_profile": "light",
-      "script_complexity": "low",
-      "networking": "none",
+      "interaction_modes": [
+        "action",
+        "ui",
+        "passive",
+        "networked"
+      ],
+      "asset_profile": "medium",
+      "script_complexity": "high",
+      "networking": "events",
       "has_preview": true,
-      "has_source": false
+      "has_source": true
     },
     {
       "id": "saori-2-5-trump-agent-1346629939817877556",
       "slug": "saori-2-5-trump-agent",
       "name": "saori-2-5-trump-agent",
       "author": "0mka",
-      "description": "A Trump\u2011themed VRM avatar that chats, performs emotes, and looks at players, optionally driven by an external webhook. Interactive AI\u2011driven avatar for virtual worlds that can speak, animate, and respond to player actions via networked events.",
+      "description": "AI-powered NPC agent with VRM avatar that connects to external APIs to respond to chat, perform emotes, and interact with players. Features speech bubbles, nametags, and real-time environmental awareness.",
       "preview_url": "catalog/generated_previews/saori-2-5-trump-agent-1346629939817877556.png",
       "preview_type": "image",
       "hyp_filename": "saori-2-5-trump-agent.hyp",
       "download_path": "v2-hyp/saori-2-5-trump-agent.hyp",
       "created_at": "2025-03-04T23:46:36.827Z",
       "tags": [
+        "npc",
         "avatar",
         "chat",
-        "animation",
-        "ui",
-        "multiplayer",
-        "webhook"
+        "agent",
+        "multiplayer"
       ],
       "interaction_modes": [
-        "ui",
-        "passive",
         "networked",
-        "trigger"
+        "passive",
+        "ui"
       ],
-      "asset_profile": "medium",
-      "script_complexity": "medium",
-      "networking": "shared_state",
+      "asset_profile": "heavy",
+      "script_complexity": "high",
+      "networking": "events",
       "has_preview": true,
       "has_source": true
     },
@@ -4820,11 +4732,11 @@
       "script_complexity": "low",
       "networking": "none",
       "has_preview": true,
-      "has_source": false
+      "has_source": true
     },
     {
-      "id": "simonsays_screen-1354675175769243730",
-      "slug": "simonsays_screen",
+      "id": "simonsays-screen-1354675175769243730",
+      "slug": "simonsays-screen",
       "name": "SimonSays_Screen",
       "author": "cru",
       "description": "A Hyperfy app.",
@@ -4844,28 +4756,33 @@
       "has_source": true
     },
     {
-      "id": "simonsays_screen-2-1355352717488296077",
-      "slug": "simonsays_screen-2",
+      "id": "simonsays-screen-2-1355352717488296077",
+      "slug": "simonsays-screen-2",
       "name": "SimonSays_Screen_2",
       "author": "cru",
-      "description": "A simple user management application",
+      "description": "Networked Simon Says game UI with scalable 3D interface. Features phased gameplay with color/signal logic, background audio tracks, and server-authoritative state management. Demonstrates performance issues with large UI elements.",
       "preview_url": "catalog/discord/hyp_media/SimonSays_Screen_2_1355352717488296077/p0_2025-03-28_21-20-07.mp4",
       "preview_type": "video",
       "hyp_filename": "SimonSays_Screen_2.hyp",
       "download_path": "v2-hyp/SimonSays_Screen_2.hyp",
       "created_at": "2025-03-29T01:27:49.085Z",
       "tags": [
-        "user-management",
-        "authentication"
+        "ui",
+        "multiplayer",
+        "audio",
+        "game",
+        "3d-model"
       ],
       "interaction_modes": [
-        "ui"
+        "ui",
+        "networked",
+        "passive"
       ],
-      "asset_profile": "medium",
-      "script_complexity": "low",
-      "networking": "none",
+      "asset_profile": "heavy",
+      "script_complexity": "high",
+      "networking": "shared_state",
       "has_preview": true,
-      "has_source": false
+      "has_source": true
     },
     {
       "id": "simonsaysboard-1354675175769243730",
@@ -4899,25 +4816,28 @@
       "slug": "sit",
       "name": "sit",
       "author": "Wilson",
-      "description": "Ground inference API tool",
+      "description": "A configurable seat app that allows players to sit with custom emotes. Features visibility toggle, networked seat occupancy state, and cancellable emote effects. Inspired by legacy v1 seat systems.",
       "preview_url": "catalog/generated_previews/sit-1351223744022183987.png",
       "preview_type": "image",
       "hyp_filename": "sit.hyp",
       "download_path": "v2-hyp/sit.hyp",
       "created_at": "2025-03-17T16:00:45.098Z",
       "tags": [
-        "api",
-        "inference",
-        "grounding"
+        "interaction",
+        "animation",
+        "multiplayer",
+        "ui",
+        "3d-model"
       ],
       "interaction_modes": [
+        "action",
         "networked"
       ],
       "asset_profile": "medium",
-      "script_complexity": "high",
+      "script_complexity": "medium",
       "networking": "shared_state",
       "has_preview": true,
-      "has_source": false
+      "has_source": true
     },
     {
       "id": "smoke-1361904724433174649",
@@ -5001,31 +4921,30 @@
       "has_source": true
     },
     {
-      "id": "solar_panel_-_sundown-1356250138967932979",
-      "slug": "solar_panel_-_sundown",
+      "id": "solar-panel-sundown-1356250138967932979",
+      "slug": "solar-panel-sundown",
       "name": "Solar_Panel_-_sundown",
       "author": "ash",
-      "description": "Google Analytics is a web analytics service offered by Google that tracks and reports website traffic.",
+      "description": "A solar panel controller that manages sky backgrounds, HDRI lighting, and sun intensity with configurable time-of-day settings. Allows users to adjust sky textures, HDR environments, and sun positioning via a UI panel.",
       "preview_url": "catalog/discord/hyp_media/Solar_Panel_-_sundown_1356250138967932979/m5_xyz-skelly-200.mp4",
       "preview_type": "video",
       "hyp_filename": "Solar_Panel_-_sundown.hyp",
       "download_path": "v2-hyp/Solar_Panel_-_sundown.hyp",
       "created_at": "2025-03-31T12:53:51.039Z",
       "tags": [
-        "analytics",
-        "tracking",
-        "marketing",
-        "reporting"
+        "environment",
+        "ui",
+        "3d-model"
       ],
       "interaction_modes": [
-        "action",
-        "trigger"
+        "ui",
+        "passive"
       ],
       "asset_profile": "medium",
-      "script_complexity": "high",
+      "script_complexity": "medium",
       "networking": "none",
       "has_preview": true,
-      "has_source": false
+      "has_source": true
     },
     {
       "id": "spawn-1355236590603075706",
@@ -5053,26 +4972,29 @@
       "has_source": true
     },
     {
-      "id": "speedtrail-v0.1-1361987355577421954",
-      "slug": "speedtrail-v0.1",
+      "id": "speedtrail-v0-1-1361987355577421954",
+      "slug": "speedtrail-v0-1",
       "name": "SpeedTrail_v0.1",
       "author": "Valiant",
-      "description": "Valid JSON placeholder due to missing bad output content",
+      "description": "Client-side player speed trail visualizer that spawns particle effects behind moving avatars. Features configurable trail density, landing burst effects, and speed-based scaling. Currently work-in-progress with known issues on landing detection.",
       "preview_url": "catalog/discord/hyp_media/SpeedTrail_v0.1_1361987355577421954/m1_2025-04-14_23-09-26_1.mp4",
       "preview_type": "video",
       "hyp_filename": "SpeedTrail_v0.1.hyp",
       "download_path": "v2-hyp/SpeedTrail_v0.1.hyp",
       "created_at": "2025-04-16T08:51:30.071Z",
       "tags": [
-        "json",
-        "placeholder",
-        "missing_input"
+        "particles",
+        "animation",
+        "environment",
+        "ui",
+        "3d-model"
       ],
       "interaction_modes": [
-        "networked"
+        "passive",
+        "ui"
       ],
       "asset_profile": "light",
-      "script_complexity": "low",
+      "script_complexity": "high",
       "networking": "none",
       "has_preview": true,
       "has_source": true
@@ -5186,58 +5108,55 @@
       "slug": "szjanko-2-11-dice",
       "name": "szjanko-2-11-dice",
       "author": "0mka",
-      "description": "ChatGPT iOS application",
+      "description": "An interactive 3D dice app that triggers a rolling animation with randomized rotation when clicked. Uses easing-based physics simulation for smooth deceleration. Suitable for tabletop games or chance-based interactions in virtual spaces.",
       "preview_url": "catalog/generated_previews/szjanko-2-11-dice-1346629939817877556.png",
       "preview_type": "image",
       "hyp_filename": "szjanko-2-11-dice.hyp",
       "download_path": "v2-hyp/szjanko-2-11-dice.hyp",
       "created_at": "2025-03-04T23:46:36.827Z",
       "tags": [
-        "chat",
-        "npc",
-        "conversation",
-        "gpt",
-        "voice"
+        "3d-model",
+        "animation",
+        "interaction",
+        "physics"
       ],
       "interaction_modes": [
-        "ui",
-        "passive"
+        "action",
+        "trigger"
       ],
       "asset_profile": "light",
       "script_complexity": "low",
-      "networking": "shared_state",
+      "networking": "none",
       "has_preview": true,
-      "has_source": false
+      "has_source": true
     },
     {
-      "id": "teleport_command_v2-1381127682699427880",
-      "slug": "teleport_command_v2",
+      "id": "teleport-command-v2-1381127682699427880",
+      "slug": "teleport-command-v2",
       "name": "Teleport_Command_v2",
       "author": "ash",
-      "description": "Configurable teleport system allowing admins to set destination coordinates via UI button, enabling players to teleport using chat commands (e.g., /home). Features persistent world-state storage, server-client synchronization, and customizable command triggers.",
-      "preview_url": "catalog/generated_previews/teleport_command_v2-1381127682699427880.png",
-      "preview_type": "image",
+      "description": "A teleport command system that enables players to fast-travel to designated locations such as 'home'. Features persistent storage mechanics for saving locations, collision detection, and emote animations.",
+      "preview_url": null,
+      "preview_type": "none",
       "hyp_filename": "Teleport_Command_v2.hyp",
       "download_path": "v2-hyp/Teleport_Command_v2.hyp",
       "created_at": "2025-06-08T04:28:19.667Z",
       "tags": [
         "teleport",
-        "ui",
-        "command",
-        "multiplayer",
-        "interaction"
+        "interaction",
+        "animation",
+        "3d-model",
+        "ui"
       ],
       "interaction_modes": [
-        "ui",
         "action",
-        "trigger",
-        "networked"
+        "trigger"
       ],
       "asset_profile": "medium",
       "script_complexity": "medium",
-      "networking": "shared_state",
-      "has_preview": true,
-      "has_source": false
+      "networking": "events",
+      "has_preview": false,
+      "has_source": true
     },
     {
       "id": "teleport-trigger-box-1431333007888748678",
@@ -5267,8 +5186,8 @@
       "has_source": true
     },
     {
-      "id": "test_level-1355236430376341764",
-      "slug": "test_level",
+      "id": "test-level-1355236430376341764",
+      "slug": "test-level",
       "name": "test_level",
       "author": "Saori",
       "description": "A test level containing a 3D environment model (~3MB GLB). Appears to be a development or showcase piece for spatial environments with minimal scripting.",
@@ -5313,7 +5232,7 @@
       "script_complexity": "high",
       "networking": "shared_state",
       "has_preview": true,
-      "has_source": false
+      "has_source": true
     },
     {
       "id": "text-link-option-1426148371101651037",
@@ -5340,61 +5259,60 @@
       "script_complexity": "high",
       "networking": "none",
       "has_preview": true,
-      "has_source": false
+      "has_source": true
     },
     {
-      "id": "the_grid-1415309781345894431",
-      "slug": "the_grid",
+      "id": "the-grid-1415309781345894431",
+      "slug": "the-grid",
       "name": "The_Grid",
       "author": "ash",
-      "description": "Xodo PDF Reader & Editor is an all-in-one PDF reader and PDF annotator/editor. By downloading this free App, you can read, annotate, sign, and share PDFs and even fill in PDF forms. Furthermore, you can sync PDF files with Google Drive, Dropbox, and OneDrive.",
+      "description": "A configurable sky/environment scene app with dynamic sun positioning, HDRI lighting, and fog controls. Designed as a drop-in scene replacement for Hyperfy worlds with adjustable time-of-day lighting and atmospheric effects.",
       "preview_url": "catalog/discord/hyp_media/The_Grid_1415309781345894431/m4_image.png",
       "preview_type": "image",
       "hyp_filename": "The_Grid.hyp",
       "download_path": "v2-hyp/The_Grid.hyp",
       "created_at": "2025-09-10T12:15:47.057Z",
       "tags": [
-        "read and annotate pdf",
-        "fill pdf forms",
-        "sign documents",
-        "sync with cloud storage",
-        "pdf converter"
+        "environment",
+        "ui",
+        "3d-model",
+        "animation"
       ],
       "interaction_modes": [
+        "ui",
         "passive"
       ],
-      "asset_profile": "light",
-      "script_complexity": "low",
-      "networking": "shared_state",
+      "asset_profile": "medium",
+      "script_complexity": "medium",
+      "networking": "none",
       "has_preview": true,
-      "has_source": false
+      "has_source": true
     },
     {
-      "id": "the_meadow-1415309781345894431",
-      "slug": "the_meadow",
+      "id": "the-meadow-1415309781345894431",
+      "slug": "the-meadow",
       "name": "The_Meadow",
       "author": "ash",
-      "description": "ACME Corp Internal Expense Tracker",
+      "description": "A configurable sky and environment system featuring dynamic sun positioning, HDR sky backgrounds, atmospheric fog controls, and day/night lighting presets for immersive world building.",
       "preview_url": "catalog/discord/hyp_media/The_Meadow_1415309781345894431/m4_image.png",
       "preview_type": "image",
       "hyp_filename": "The_Meadow.hyp",
       "download_path": "v2-hyp/The_Meadow.hyp",
       "created_at": "2025-09-10T12:15:47.057Z",
       "tags": [
-        "finance",
-        "reporting"
+        "environment",
+        "3d-model",
+        "atmosphere"
       ],
       "interaction_modes": [
         "ui",
-        "trigger",
-        "trigger",
-        "trigger"
+        "passive"
       ],
       "asset_profile": "medium",
-      "script_complexity": "low",
+      "script_complexity": "medium",
       "networking": "none",
       "has_preview": true,
-      "has_source": false
+      "has_source": true
     },
     {
       "id": "token-gate-1349126914333478954",
@@ -5508,30 +5426,32 @@
       "has_source": true
     },
     {
-      "id": "uiimage_from_file-update1-1349800654129860670",
-      "slug": "uiimage_from_file-update1",
+      "id": "uiimage-from-file-update1-1349800654129860670",
+      "slug": "uiimage-from-file-update1",
       "name": "uiImage_from_File-update1",
       "author": "0mka",
-      "description": "A mobile application",
-      "preview_url": "catalog/generated_previews/uiimage_from_file-update1-1349800654129860670.png",
-      "preview_type": "image",
+      "description": "A configurable UI panel that displays images from file uploads or URLs with customizable dimensions, positioning, and styling. Supports various image fit modes (contain, cover, fill) and billboard rendering for 3D world placement.",
+      "preview_url": null,
+      "preview_type": "none",
       "hyp_filename": "uiImage_from_File-update1.hyp",
       "download_path": "v2-hyp/uiImage_from_File-update1.hyp",
       "created_at": "2025-03-13T17:45:54.028Z",
       "tags": [
-        "ios",
-        "android",
-        "cross-platform"
+        "ui",
+        "media-player",
+        "3d-model",
+        "interaction",
+        "environment"
       ],
       "interaction_modes": [
-        "trigger",
-        "action"
+        "ui",
+        "passive"
       ],
-      "asset_profile": "medium",
+      "asset_profile": "light",
       "script_complexity": "low",
       "networking": "none",
-      "has_preview": true,
-      "has_source": false
+      "has_preview": false,
+      "has_source": true
     },
     {
       "id": "vanguard-1355903733090750595",
@@ -5588,7 +5508,7 @@
       "slug": "video-with-player-ui",
       "name": "Video_with_player_UI",
       "author": "Gert-Jan Akerboom",
-      "description": "Adds optional UI controls (play, pause, reset) to the default video player with multiplayer sync. Enable interactive video playback with simple world\u2011space UI buttons that can be toggled on or off.",
+      "description": "Video player with world-space UI controls allowing players to play, pause, and reset video playback. Features multiplayer synchronization and configurable surface dimensions.",
       "preview_url": "catalog/discord/hyp_media/Video_with_player_UI_1447233812231880724/p0_video_player_ui.png",
       "preview_type": "image",
       "hyp_filename": "Video_with_player_UI.hyp",
@@ -5597,19 +5517,17 @@
       "tags": [
         "media-player",
         "ui",
-        "playback",
         "multiplayer",
-        "sync",
-        "controls"
+        "interaction"
       ],
       "interaction_modes": [
         "ui",
-        "action",
-        "networked"
+        "networked",
+        "action"
       ],
       "asset_profile": "medium",
-      "script_complexity": "medium",
-      "networking": "events",
+      "script_complexity": "high",
+      "networking": "shared_state",
       "has_preview": true,
       "has_source": true
     },
@@ -5718,13 +5636,13 @@
       "has_source": true
     },
     {
-      "id": "weightpaint_screenui_test1-1395042221425819648",
-      "slug": "weightpaint_screenui_test1",
+      "id": "weightpaint-screenui-test1-1395042221425819648",
+      "slug": "weightpaint-screenui-test1",
       "name": "Weightpaint_ScreenUI_test1",
       "author": "Gert-Jan Akerboom",
       "description": "No invalid JSON was provided in the BAD_OUTPUT field to fix",
-      "preview_url": "catalog/generated_previews/weightpaint_screenui_test1-1395042221425819648.png",
-      "preview_type": "image",
+      "preview_url": null,
+      "preview_type": "none",
       "hyp_filename": "Weightpaint_ScreenUI_test1.hyp",
       "download_path": "v2-hyp/Weightpaint_ScreenUI_test1.hyp",
       "created_at": "2025-07-16T13:59:44.219Z",
@@ -5735,12 +5653,12 @@
       "asset_profile": "medium",
       "script_complexity": "low",
       "networking": "none",
-      "has_preview": true,
+      "has_preview": false,
       "has_source": true
     },
     {
-      "id": "weightpaint_screenui_test1-1420742160474701966",
-      "slug": "weightpaint_screenui_test1",
+      "id": "weightpaint-screenui-test1-1420742160474701966",
+      "slug": "weightpaint-screenui-test1",
       "name": "Weightpaint_ScreenUI_test1",
       "author": "Gert-Jan Akerboom",
       "description": "BAD_OUTPUT content was not provided in the prompt",

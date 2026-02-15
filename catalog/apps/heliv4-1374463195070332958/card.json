@@ -1,22 +1,29 @@
 {
   "name": "HELIv4",
   "author": "vox",
-  "description": "Autonomous police helicopter that flies a continuous oval patrol path. Features animated rotor UV scrolling, spatial audio with configurable props, and realistic flight physics including pitch/yaw adjustments based on path curvature and speed variation.",
+  "description": "Interactive 3D helicopter model (v4) featuring engine idle audio loop, drivable vehicle mechanics, and detailed aviation design for immersive flight experiences.",
   "tags": [
     "vehicle",
-    "animation",
     "audio",
-    "environment",
-    "3d-model"
+    "3d-model",
+    "animation",
+    "interaction"
   ],
   "interaction_modes": [
-    "passive",
+    "action",
     "ui"
   ],
-  "asset_profile": "light",
-  "script_complexity": "high",
+  "asset_profile": "medium",
+  "script_complexity": "medium",
   "networking": "none",
   "preview_url": "catalog/generated_previews/heliv4-1374463195070332958.jpg",
   "download_path": "v2-hyp/HELIv4.hyp",
-  "created_at": "2025-05-20T19:06:01.996Z"
+  "created_at": "2025-05-20T19:06:01.996Z",
+  "props": {
+    "audio": {
+      "type": "audio",
+      "name": "IDLE-3-loop-MP3.mp3",
+      "url": "asset://106e351912176bb68cb49d49e2be83becec591bc4b7344fc4d497726a691b610.mp3"
+    }
+  }
 }

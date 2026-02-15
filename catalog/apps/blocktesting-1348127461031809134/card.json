@@ -1,22 +1,28 @@
 {
   "name": "BlockTesting",
   "author": "Shiffty",
-  "description": "Testing utility for blocking mechanics. Applies a configurable snare emote on right-mouse hold and clears it on release to debug player effect cancellation.",
+  "description": "A test app demonstrating a blocking mechanic using right-mouse input to apply/cancel emote animations on the player. Includes configurable block emote and input handling via app.control(). Used to reproduce a bug where players get stuck in block state.",
   "tags": [
     "animation",
     "interaction",
     "combat",
-    "ui",
     "3d-model"
   ],
   "interaction_modes": [
     "action",
-    "ui"
+    "trigger"
   ],
-  "asset_profile": "medium",
+  "asset_profile": "light",
   "script_complexity": "low",
   "networking": "none",
   "preview_url": "catalog/generated_previews/blocktesting-1348127461031809134.png",
   "download_path": "v2-hyp/BlockTesting.hyp",
-  "created_at": "2025-03-09T02:57:13.707Z"
+  "created_at": "2025-03-09T02:57:13.707Z",
+  "props": {
+    "block": {
+      "type": "emote",
+      "name": "Great Sword Blocking Idle.glb",
+      "url": "asset://82762c76d32ccfb43b56f15f048ead5399e2cef452bcab625d52897e9bcf50f7.glb"
+    }
+  }
 }

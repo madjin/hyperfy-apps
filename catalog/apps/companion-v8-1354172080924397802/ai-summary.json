@@ -1,19 +1,21 @@
 {
   "app_id": "companion-v8-1354172080924397802",
   "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T04:00:55+00:00",
-  "description": "Repaired JSON output conforming to schema requirements.",
+  "generated_at": "2026-02-14T21:24:30+00:00",
+  "description": "AI-powered NPC companion robot named Victor with cowboy personality. Features voice chat commands (follow, search, patrol), environment perception, HuggingFace LLM integration for contextual dialogue, and VRM avatar animations. Includes PingScript system for object detection and HUD/compass compatib",
   "feature_tags": [
-    "json",
-    "fix",
-    "repair"
+    "npc",
+    "animation",
+    "interaction",
+    "multiplayer",
+    "ui"
   ],
   "interaction_modes": [
-    "trigger",
-    "passive",
-    "action"
+    "action",
+    "ui",
+    "networked"
   ],
   "asset_profile": "medium",
-  "script_complexity": "medium",
-  "networking_profile": "none"
+  "script_complexity": "high",
+  "networking_profile": "shared_state"
 }

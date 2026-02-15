@@ -1,20 +1,18 @@
 {
   "name": "Butterfly_Swarm_V1",
   "author": "Gert-Jan Akerboom",
-  "description": "Butterfly swarm for Hyperfy V2\n\n\nToday i made version 3, the flying behavior is now better (pretty and random) \nI added UI inputs for:\n\nButterfly amount\nRandom butterfly scale min/max\nRandom wingflap-speed min/max\nRandom fly-speed min/max\n\nI would like to have the possibility for people to upload their own \u2018butterfly wing .png (not sure if this is possible though)\n\nFor now, if you like to create your own version of a butterfly swarm, you can use this blender file (change_wing_image.blend) to change the image in the wing_tex material and export as glb\n\nThen add the app version 3 to your world and change the model for your own.\n\nThings i want to add in later versions:\n- Toggle original glb on/off (so you can see where the center of the swarm is)\n- have users upload their own wing image\n- expose some more variables to the UI\n- prevent the butterflies from flying under the ground plane\n\nHave a fun weekend !",
+  "description": "Procedurally generates an animated swarm of butterflies with randomized flight patterns, scales, and wing flap speeds. Features UI controls for butterfly count, size ranges, and movement parameters. Ideal for ambient environment decoration.",
   "tags": [
-    "particles",
     "animation",
-    "customizable",
-    "ui",
-    "random",
-    "visual"
+    "environment",
+    "particles",
+    "ui"
   ],
   "interaction_modes": [
-    "ui",
-    "passive"
+    "passive",
+    "ui"
   ],
-  "asset_profile": "medium",
+  "asset_profile": "light",
   "script_complexity": "medium",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/Butterfly_Swarm_V1_1350129252976168992/p0_5000.png",

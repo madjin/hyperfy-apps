@@ -1,16 +1,16 @@
 {
   "name": "firstHYPv2",
   "author": "vox",
-  "description": "Example application description",
+  "description": "Room decoration app with animated UV-scrolling texture effect. Continuously scrolls material textures on optimized plane geometry using frame-based UV offset updates. Lightweight visual element suitable for environmental ambiance.",
   "tags": [
-    "productivity",
-    "utilities"
+    "animation",
+    "environment",
+    "3d-model"
   ],
   "interaction_modes": [
-    "ui",
     "passive"
   ],
-  "asset_profile": "medium",
+  "asset_profile": "light",
   "script_complexity": "low",
   "networking": "none",
   "preview_url": "catalog/generated_previews/firsthypv2-1364604780420272199.jpg",

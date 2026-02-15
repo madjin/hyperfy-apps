@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/butterfly-swarm-v1",
-    "v2_json_path": "v2/butterfly-swarm-v1/butterfly-swarm-v1.json",
+    "v2_app_dir": "v2/apps/butterfly-swarm-v1",
+    "v2_json_path": "v2/apps/butterfly-swarm-v1/Butterfly Swarm V1.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Butterfly_Swarm_V1.md"
   },
   "preview": {
@@ -56,6 +56,25 @@
     "flags": [],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "butterfly-swarm-v1-1350129252976168992",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-14T19:37:37+00:00",
+    "description": "Procedurally generates an animated swarm of butterflies with randomized flight patterns, scales, and wing flap speeds. Features UI controls for butterfly count, size ranges, and movement parameters. Ideal for ambient environment decoration.",
+    "feature_tags": [
+      "animation",
+      "environment",
+      "particles",
+      "ui"
+    ],
+    "interaction_modes": [
+      "passive",
+      "ui"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "medium",
+    "networking_profile": "none"
+  }
 }

@@ -1,0 +1,18 @@
+{
+  "app_id": "solar-panel-sundown-1356250138967932979",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-14T21:58:53+00:00",
+  "description": "A solar panel controller that manages sky backgrounds, HDRI lighting, and sun intensity with configurable time-of-day settings. Allows users to adjust sky textures, HDR environments, and sun positioning via a UI panel.",
+  "feature_tags": [
+    "environment",
+    "ui",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "ui",
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "none"
+}

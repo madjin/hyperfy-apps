@@ -1,0 +1,18 @@
+{
+  "app_id": "eel-add-particles1-1-1362432359785304154",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-14T21:52:35+00:00",
+  "description": "Spawns glow particle effects for ambient atmosphere or visual flair. Lightweight utility for adding atmospheric particle systems to Hyperfy worlds.",
+  "feature_tags": [
+    "particles",
+    "environment",
+    "animation"
+  ],
+  "interaction_modes": [
+    "passive",
+    "trigger"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none"
+}

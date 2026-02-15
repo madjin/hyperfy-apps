@@ -1,0 +1,19 @@
+{
+  "app_id": "curvedvid-with-link-input-1363573773185450045",
+  "model": "moonshotai/kimi-k2.5",
+  "generated_at": "2026-02-14T21:52:03+00:00",
+  "description": "Curved video display supporting both file uploads and streaming URLs. Renders video onto curved geometry with proper aspect ratio handling and synchronized playback.",
+  "feature_tags": [
+    "media-player",
+    "3d-model",
+    "ui",
+    "environment"
+  ],
+  "interaction_modes": [
+    "ui",
+    "passive"
+  ],
+  "asset_profile": "heavy",
+  "script_complexity": "medium",
+  "networking_profile": "local"
+}

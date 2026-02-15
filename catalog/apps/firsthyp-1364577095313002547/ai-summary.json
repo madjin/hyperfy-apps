@@ -1,18 +1,17 @@
 {
   "app_id": "firsthyp-1364577095313002547",
   "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T04:03:34+00:00",
-  "description": "Fetches weather data from external API",
+  "generated_at": "2026-02-14T21:53:28+00:00",
+  "description": "First-time Hyperfy app featuring a UV texture scrolling animation on a 3D model (ROOMERS4). Continuously animates the texture offset on a mesh named 'UVSCROLL' to create a scrolling visual effect. Lightweight demonstration of basic app scripting and material manipulation.",
   "feature_tags": [
-    "environment",
-    "api",
-    "integration"
+    "animation",
+    "3d-model",
+    "environment"
   ],
   "interaction_modes": [
-    "ui",
-    "trigger"
+    "passive"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "high",
+  "asset_profile": "light",
+  "script_complexity": "low",
   "networking_profile": "none"
 }

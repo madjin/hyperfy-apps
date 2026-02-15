@@ -1,20 +1,19 @@
 {
   "app_id": "blocktesting-1348127461031809134",
   "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T03:55:52+00:00",
-  "description": "Testing utility for blocking mechanics. Applies a configurable snare emote on right-mouse hold and clears it on release to debug player effect cancellation.",
+  "generated_at": "2026-02-14T21:50:53+00:00",
+  "description": "A test app demonstrating a blocking mechanic using right-mouse input to apply/cancel emote animations on the player. Includes configurable block emote and input handling via app.control(). Used to reproduce a bug where players get stuck in block state.",
   "feature_tags": [
     "animation",
     "interaction",
     "combat",
-    "ui",
     "3d-model"
   ],
   "interaction_modes": [
     "action",
-    "ui"
+    "trigger"
   ],
-  "asset_profile": "medium",
+  "asset_profile": "light",
   "script_complexity": "low",
   "networking_profile": "none"
 }

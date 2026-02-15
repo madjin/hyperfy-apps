@@ -24,8 +24,8 @@
     "source_priority_used": "summary_excerpt"
   },
   "links": {
-    "v2_app_dir": "v2/healing-aura",
-    "v2_json_path": "v2/healing-aura/healing-aura.json",
+    "v2_app_dir": "v2/apps/healing-aura",
+    "v2_json_path": "v2/apps/healing-aura/Healing Aura.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Healing_Aura.md"
   },
   "preview": {
@@ -56,6 +56,24 @@
     "flags": [],
     "notes": ""
   },
-  "generated_at": "2026-02-11T01:21:14+00:00",
-  "max_commit_size_bytes": 52428800
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "healing-aura-1361904724433174649",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:05:55+00:00",
+    "description": "Fixed JSON output - no content provided to fix",
+    "feature_tags": [
+      "json",
+      "fix",
+      "validator"
+    ],
+    "interaction_modes": [
+      "passive",
+      "passive"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "low",
+    "networking_profile": "none"
+  }
 }
