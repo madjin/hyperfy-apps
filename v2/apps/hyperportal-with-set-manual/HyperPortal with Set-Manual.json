@@ -9,9 +9,9 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/HyperPortal with Set-Manual.glb",
+  "model": "assets/hyperportal-with-set-manual.glb",
   "image": {
-    "url": "assets/HyperPortal with Set-Manual__image.png"
+    "url": "assets/hyperportal-with-set-manual__image.png"
   },
   "props": {
     "zone1": "1,0,0",

@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/Discord3.glb",
+  "model": "assets/discord3.glb",
   "image": null,
   "props": {
     "webhook": "https://discord.com/api/webhooks/1420401455269023917/PcnFDVPD1uWbWhNfGOebUn8ByUXs42NqFKjLdx01eYMa1ZRyNHdxLGH5guzgEptMz299",

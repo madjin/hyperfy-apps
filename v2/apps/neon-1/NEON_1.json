@@ -9,7 +9,7 @@
   "unique": true,
   "disabled": false,
   "scene": false,
-  "model": "assets/NEON_1.glb",
+  "model": "assets/neon_1.glb",
   "image": null,
   "props": {
     "text_input": "[ hyperfy_v2 ]",

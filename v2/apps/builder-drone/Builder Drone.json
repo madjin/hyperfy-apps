@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/Builder Drone.glb",
+  "model": "assets/builder-drone.glb",
   "image": null,
   "props": {
     "controlKey": "P",

@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/Weightpaint_ScreenUI_test1.glb",
+  "model": "assets/weightpaint_screenui_test1.glb",
   "image": null,
   "props": {},
   "scriptFormat": "module"

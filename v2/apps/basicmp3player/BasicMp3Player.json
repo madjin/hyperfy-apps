@@ -9,9 +9,9 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/BasicMp3Player.glb",
+  "model": "assets/basicmp3player.glb",
   "image": {
-    "url": "assets/BasicMp3Player__image.png"
+    "url": "assets/basicmp3player__image.png"
   },
   "props": {
     "collision": true,

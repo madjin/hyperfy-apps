@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/Healing Aura.glb",
+  "model": "assets/healing-aura.glb",
   "image": null,
   "props": {
     "image": {

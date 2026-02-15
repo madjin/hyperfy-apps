@@ -9,9 +9,9 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/Emote Command.glb",
+  "model": "assets/emote-command.glb",
   "image": {
-    "url": "assets/Emote Command__image.png"
+    "url": "assets/emote-command__image.png"
   },
   "props": {
     "collision": true,

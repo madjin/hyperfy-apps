@@ -9,7 +9,7 @@
   "unique": true,
   "disabled": false,
   "scene": false,
-  "model": "assets/Mato Pets.vrm",
+  "model": "assets/mato-pets.vrm",
   "image": null,
   "props": {
     "avoidance_distance": "4",

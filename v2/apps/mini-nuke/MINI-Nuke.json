@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/MINI-Nuke.glb",
+  "model": "assets/mini-nuke.glb",
   "image": null,
   "props": {
     "refDistance": 3,

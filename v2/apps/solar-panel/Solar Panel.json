@@ -9,9 +9,9 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/Solar Panel.glb",
+  "model": "assets/solar-panel.glb",
   "image": {
-    "url": "assets/Solar Panel__image.png"
+    "url": "assets/solar-panel__image.png"
   },
   "props": {
     "sky": {

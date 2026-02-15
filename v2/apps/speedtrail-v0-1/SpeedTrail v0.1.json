@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/SpeedTrail v0.1.glb",
+  "model": "assets/speedtrail-v0.1.glb",
   "image": null,
   "props": {
     "enabled": true

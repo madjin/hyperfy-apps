@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/Mob - Skelly.vrm",
+  "model": "assets/mob-skelly.vrm",
   "image": null,
   "props": {
     "avatar": {

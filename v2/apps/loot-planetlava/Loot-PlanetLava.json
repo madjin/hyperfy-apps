@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/Loot-PlanetLava.glb",
+  "model": "assets/loot-planetlava.glb",
   "image": null,
   "props": {
     "lootValue": 25,

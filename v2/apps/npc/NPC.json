@@ -9,7 +9,7 @@
   "unique": true,
   "disabled": false,
   "scene": false,
-  "model": "assets/NPC.vrm",
+  "model": "assets/npc.vrm",
   "image": null,
   "props": {
     "emote": {

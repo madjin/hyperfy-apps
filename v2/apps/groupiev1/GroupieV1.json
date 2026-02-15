@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/GroupieV1.vrm",
+  "model": "assets/groupiev1.vrm",
   "image": null,
   "props": {
     "armorValue": 25,

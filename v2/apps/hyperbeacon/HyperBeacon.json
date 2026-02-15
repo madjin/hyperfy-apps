@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/HyperBeacon.glb",
+  "model": "assets/hyperbeacon.glb",
   "image": null,
   "props": {
     "url": "",

@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/360Player_Mono.glb",
+  "model": "assets/360player_mono.glb",
   "image": null,
   "props": {
     "video": null,

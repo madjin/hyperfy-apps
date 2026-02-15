@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/SITING POSITION.glb",
+  "model": "assets/siting-position.glb",
   "image": null,
   "props": {
     "emote": {

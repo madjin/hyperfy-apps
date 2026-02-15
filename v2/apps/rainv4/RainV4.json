@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/RainV4.glb",
+  "model": "assets/rainv4.glb",
   "image": null,
   "props": {
     "fireType": "custom",

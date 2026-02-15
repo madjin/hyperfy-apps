@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/Loot-Ringed Planet.glb",
+  "model": "assets/loot-ringed-planet.glb",
   "image": null,
   "props": {
     "lootValue": 1,

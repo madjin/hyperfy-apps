@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/Companion v8.vrm",
+  "model": "assets/companion-v8.vrm",
   "image": null,
   "props": {
     "armorValue": 25,

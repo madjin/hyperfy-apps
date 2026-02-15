@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/Locationator.glb",
+  "model": "assets/locationator.glb",
   "image": null,
   "props": {},
   "scriptFormat": "module"

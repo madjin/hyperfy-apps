@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/show chart.glb",
+  "model": "assets/show-chart.glb",
   "image": null,
   "props": {
     "chartUrl": "https://cambrian.rickydata.com/plot_best_categories",

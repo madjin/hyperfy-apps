@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/PVPblasterLATEST.glb",
+  "model": "assets/pvpblasterlatest.glb",
   "image": null,
   "props": {
     "attack": {

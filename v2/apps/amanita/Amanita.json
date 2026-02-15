@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/Amanita.glb",
+  "model": "assets/amanita.glb",
   "image": null,
   "props": {
     "clone_count": 500,

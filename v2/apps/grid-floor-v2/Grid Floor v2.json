@@ -9,9 +9,9 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/Grid Floor v2.glb",
+  "model": "assets/grid-floor-v2.glb",
   "image": {
-    "url": "assets/Grid Floor v2__image.png"
+    "url": "assets/grid-floor-v2__image.png"
   },
   "props": {},
   "scriptFormat": "module"

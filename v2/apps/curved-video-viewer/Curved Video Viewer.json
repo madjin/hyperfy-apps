@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/Curved Video Viewer.glb",
+  "model": "assets/curved-video-viewer.glb",
   "image": null,
   "props": {
     "video": null,

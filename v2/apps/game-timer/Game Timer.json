@@ -9,7 +9,7 @@
   "unique": true,
   "disabled": false,
   "scene": false,
-  "model": "assets/Game Timer.glb",
+  "model": "assets/game-timer.glb",
   "image": null,
   "props": {
     "attack": {

@@ -9,7 +9,7 @@
   "unique": true,
   "disabled": false,
   "scene": false,
-  "model": "assets/who there.glb",
+  "model": "assets/who-there.glb",
   "image": null,
   "props": {
     "visible": "false"

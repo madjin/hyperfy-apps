@@ -9,9 +9,9 @@
   "unique": true,
   "disabled": false,
   "scene": false,
-  "model": "assets/Seat🪑v2.glb",
+  "model": "assets/seat-v2.glb",
   "image": {
-    "url": "assets/Seat🪑v2__image.webp"
+    "url": "assets/seat-v2__image.webp"
   },
   "props": {
     "emote": {

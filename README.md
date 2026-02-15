@@ -19,7 +19,7 @@ hyperfy-apps/
 
 40 React-based apps from the legacy Hyperfy SDK (2023-2026). Each directory contains `app.json`, `index.js`, and assets.
 
-**Notable:** `fixtures/` folder has 24 core V1 entity types (sky, fog, audio, image, text, spawn, portal, etc.)
+**Notable:** Core V1 entity apps are now in the `v1/` root (sky, fog, audio, image, text, spawn, portal, etc.).
 
 ## V2 Apps (Current)
 
@@ -29,22 +29,22 @@ hyperfy-apps/
 
 | Category | Apps |
 |----------|------|
-| **Core/World** | $scene, spawn, position, Avatar Station, HyperPortal (3 variants) |
-| **Media** | BasicMp3Player, VideoPlayer, Video with player UI, Video Channel Changer, 360 Video Viewer, 360Player_Mono, Curved Video Viewer, Boombox, JUKEBOX_UI, Screen (2 variants) |
+| **Core/World** | $scene, spawn, position, avatar-station, HyperPortal (3 variants) |
+| **Media** | BasicMp3Player, VideoPlayer, video-with-player-ui, video-channel-changer, 360-video-viewer, 360Player_Mono, curved-video-viewer, Boombox, JUKEBOX_UI, Screen (2 variants) |
 | **Vehicles** | car, car1, dash, Rover (3 variants) |
-| **NPCs/AI** | NPC, NPC_Prisoner, Companion v8, Mato Pets, Mato Pet v2, Wolf Maro, GroupieV1 |
-| **Creatures** | Butterfly Swarm (v1-v6 + Hyperfly editions), Bats v1, Eagles v1, Jumping Frog, Raptor_random_loc |
-| **Particles/Effects** | Fire, Smoke, Fog, Rain (3 versions), Snow, Tornado, Fireflies, Glow Dust, Explosion Sprites, CONFETTT PPOT, SpeedTrail, eel_add_particles1 |
-| **Environment** | Water Plane, Water Fountain, DAY-NIGHT-WEATHER, Alien_Planet, Forest, MoonJump, Solar Panel |
-| **Plants** | Amanita, bending_leaf_V1, generate monstera V1, Grass (v1, v3), SplinePineV1 |
-| **Combat/PvP** | Machine Gun v8, PVPblasterLATEST, PvE Sword, PvP Core (with spawns), Rocket Launcher V3, Health, Loot (3 variants), Mob - Skelly, Healing Aura, MINI-Nuke |
-| **Camera** | Camera Trigger, Camera Manager (2 variants), Camera Laser, Free Camera, Raycaster, cam raycast action bar |
-| **Movement** | Launchpad, Teleport Command, Teleport Trigger Box, Super Run, Wall Hang |
-| **Interaction** | Networked Grabbable, TOKEN GATE, PAY TO ENTER DOOR, dice, Book - Flip, SimonSays (2 variants) |
-| **UI** | Text (link option), Framed Image v1.0, uiImage from File, PlayerTag-UInew, Notifications, Game Timer, QuestItemUI, show chart |
-| **Building** | Grid Floor (2 variants), Builder Drone (2 variants), Cube 1, Prism, testcube, hexagonal_test |
-| **Utilities** | place, TriggerZone, HyperBeacon, Locationator, Emotes (4 variants), Seat v2, SITING POSITION |
-| **Physics** | Physics - Contacts & Tags, Physics - Raycast Tags, Physics - Triggers & Tags, anybox |
+| **NPCs/AI** | NPC, NPC_Prisoner, companion-v8, mato-pets, mato-pet-v2, wolf-maro, GroupieV1 |
+| **Creatures** | Butterfly Swarm (v1-v6 + Hyperfly editions), bats-v1, eagles-v1, jumping-frog, Raptor_random_loc |
+| **Particles/Effects** | Fire, Smoke, Fog, Rain (3 versions), Snow, Tornado, Fireflies, glow-dust, explosion-sprites, confettt-ppot, SpeedTrail, eel_add_particles1 |
+| **Environment** | water-plane, water-fountain, DAY-NIGHT-WEATHER, Alien_Planet, Forest, MoonJump, solar-panel |
+| **Plants** | Amanita, bending_leaf_V1, generate-monstera-v1, Grass (v1, v3), SplinePineV1 |
+| **Combat/PvP** | machine-gun-v8, PVPblasterLATEST, pve-sword, pvp-core-with-spawns, rocket-launcher-v3, Health, Loot (3 variants), mob-skelly, healing-aura, MINI-Nuke |
+| **Camera** | camera-trigger, camera-manager (2 variants), camera-laser, free-camera, Raycaster, cam-raycast-action-bar |
+| **Movement** | Launchpad, teleport-command, teleport-trigger-box, super-run, wall-hang |
+| **Interaction** | networked-grabbable, token-gate, pay-to-enter-door, dice, book-flip, SimonSays (2 variants) |
+| **UI** | text-link-option, framed-image-v1.0, uiimage-from-file, PlayerTag-UInew, Notifications, game-timer, QuestItemUI, show-chart |
+| **Building** | grid-floor (2 variants), builder-drone (2 variants), cube-1, Prism, testcube, hexagonal_test |
+| **Utilities** | place, TriggerZone, HyperBeacon, Locationator, Emotes (4 variants), Seat v2, siting-position |
+| **Physics** | physics-contacts-tags, physics-raycast-tags, physics-triggers-tags, anybox |
 | **Worlds** | SmolWrld, ROOMERS4, test_level, TEIL2 |
 
 ### Full App List
@@ -53,57 +53,57 @@ hyperfy-apps/
 <summary>All 158 V2 Apps (click to expand)</summary>
 
 - $scene
-- 360 Video Viewer
+- 360-video-viewer
 - 360Player_Mono
 - AlleySign
 - Amanita
 - anybox
 - ArrayVectorProps
-- Avatar Station
+- avatar-station
 - BasicMp3Player
-- Bats v1
+- bats-v1
 - bending_leaf_V1
-- Book - Flip
+- book-flip
 - Boombox
 - broke-rom
-- Builder Drone
-- Builder Drone X501
-- Butterfly Swarm V1-V6 (+ Hyperfly editions)
-- Camera Laser
-- Camera Manager
-- Camera Manager Test
-- Camera Trigger
-- cam raycast action bar
+- builder-drone
+- builder-drone-x501
+- butterfly-swarm-v1-V6 (+ Hyperfly editions)
+- camera-laser
+- camera-manager
+- camera-manager-test
+- camera-trigger
+- cam-raycast-action-bar
 - car
 - car1
-- Companion v8
-- CONFETTT PPOT
-- Cube 1
-- Curved Video Viewer
+- companion-v8
+- confettt-ppot
+- cube-1
+- curved-video-viewer
 - dash
 - DAY-NIGHT-WEATHER
 - dice
 - Discord3
-- Eagles v1
+- eagles-v1
 - eel_add_particles1
-- Emote Command
+- emote-command
 - Emote_Rom
 - Emotes
-- Explosion Sprites
+- explosion-sprites
 - Fire
 - Fog
 - Forest
 - FOTV
-- Framed Image v1.0
-- Free Camera
-- Game Timer
-- generate monstera V1
-- Glow Dust
+- framed-image-v1.0
+- free-camera
+- game-timer
+- generate-monstera-v1
+- glow-dust
 - Grass_V1
 - Grass_V3
-- Grid Floor (v1, v2)
+- grid-floor (v1, v2)
 - GroupieV1
-- Healing Aura
+- healing-aura
 - Health
 - hexagonal_test
 - hover-cursor-test
@@ -111,81 +111,81 @@ hyperfy-apps/
 - HyperBeacon
 - HyperPortal (+ Set variants)
 - JUKEBOX_UI
-- Jumping Frog
+- jumping-frog
 - Launchpad
 - Locationator
 - Loot (+ Planet variants)
 - m2-2-4-beacon-dev
-- Machine Gun v8
-- Mato Pets / Mato Pet v2
+- machine-gun-v8
+- mato-pets / mato-pet-v2
 - MINI-Nuke / MINI-NukePORTAL
-- Mob - Skelly
+- mob-skelly
 - Model
 - monkey_head
 - MoonJump
 - NEON_1 / NEON_2
-- Networked Grabbable
+- networked-grabbable
 - Notifications
 - NPC / NPC_Prisoner
-- PAY TO ENTER DOOR
-- Physics - Contacts & Tags
-- Physics - Raycast Tags
-- Physics - Triggers & Tags
+- pay-to-enter-door
+- physics-contacts-tags
+- physics-raycast-tags
+- physics-triggers-tags
 - PingScriptFORcompanion
 - place
 - Platforms
 - PlayerTag-UInew
-- Player Transforms
+- player-transforms
 - position
 - Prism
-- PvE Sword
+- pve-sword
 - PVPblasterLATEST
-- PvP Core (with spawns)
+- pvp-core-with-spawns
 - QuestItemBasic / QuestItemUI
 - Rain / RainV3 / RainV4
 - Raptor_random_loc
 - Raycaster
-- Rocket(Global+Coll)
-- Rocket Launcher V3
+- rocket-global-coll
+- rocket-launcher-v3
 - rom2
 - ROOMERS4
 - Rover (+ variants)
 - saori-2-5-trump-agent
-- Screen / Screen UI link section
+- Screen / screen-ui-link-section
 - Seat v2
-- show chart
+- show-chart
 - SimonSaysBoard / SimonSays_Screen
-- SITING POSITION
+- siting-position
 - Smoke
 - SmolWrld
-- Solar Panel
+- solar-panel
 - spawn
-- SpeedTrail v0.1
-- SPICEX Portal
+- speedtrail-v0.1
+- spicex-portal
 - SplinePineV1
 - SS3
-- Super Run
+- super-run
 - TEIL2
-- Teleport Command
-- Teleport Trigger Box
+- teleport-command
+- teleport-trigger-box
 - testcube
 - test_level
-- Text (link option)
-- TOKEN GATE
+- text-link-option
+- token-gate
 - Tornado
 - TriggerZone
-- uiImage from File
+- uiimage-from-file
 - Vanguard
-- Video Channel Changer
+- video-channel-changer
 - VideoPlayer
-- Video with player UI
-- Wall Hang
-- Water Fountain
-- Water Plane
-- Weapon Animation Override
+- video-with-player-ui
+- wall-hang
+- water-fountain
+- water-plane
+- weapon-animation-override
 - Weightpaint_ScreenUI_test1
-- who there
-- Wolf Maro
+- who-there
+- wolf-maro
 
 </details>
 

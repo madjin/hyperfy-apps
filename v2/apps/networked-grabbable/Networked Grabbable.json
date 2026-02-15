@@ -9,9 +9,9 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/Networked Grabbable.glb",
+  "model": "assets/networked-grabbable.glb",
   "image": {
-    "url": "assets/Networked Grabbable__image.png"
+    "url": "assets/networked-grabbable__image.png"
   },
   "props": {
     "walkAim": {

@@ -9,9 +9,9 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/Teleport Trigger Box.glb",
+  "model": "assets/teleport-trigger-box.glb",
   "image": {
-    "url": "assets/Teleport Trigger Box__image.png"
+    "url": "assets/teleport-trigger-box__image.png"
   },
   "props": {
     "collision": true,

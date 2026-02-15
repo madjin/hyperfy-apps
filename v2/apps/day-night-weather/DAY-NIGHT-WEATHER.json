@@ -9,9 +9,9 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/DAY-NIGHT-WEATHER.glb",
+  "model": "assets/day-night-weather.glb",
   "image": {
-    "url": "assets/DAY-NIGHT-WEATHER__image.png"
+    "url": "assets/day-night-weather__image.png"
   },
   "props": {
     "sky": {

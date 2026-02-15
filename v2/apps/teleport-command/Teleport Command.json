@@ -9,9 +9,9 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/Teleport Command.glb",
+  "model": "assets/teleport-command.glb",
   "image": {
-    "url": "assets/Teleport Command__image.png"
+    "url": "assets/teleport-command__image.png"
   },
   "props": {
     "collision": true,

@@ -9,7 +9,7 @@
   "unique": true,
   "disabled": false,
   "scene": false,
-  "model": "assets/SplinePineV1.glb",
+  "model": "assets/splinepinev1.glb",
   "image": null,
   "props": {},
   "scriptFormat": "module"

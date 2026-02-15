@@ -9,7 +9,7 @@
   "unique": true,
   "disabled": false,
   "scene": false,
-  "model": "assets/PAY TO ENTER DOOR.glb",
+  "model": "assets/pay-to-enter-door.glb",
   "image": null,
   "props": {
     "type": "1",

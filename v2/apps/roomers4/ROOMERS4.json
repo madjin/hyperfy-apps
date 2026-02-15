@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/ROOMERS4.glb",
+  "model": "assets/car1-2.glb",
   "image": null,
   "props": {},
   "scriptFormat": "module"

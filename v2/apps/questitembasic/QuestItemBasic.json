@@ -9,9 +9,9 @@
   "unique": true,
   "disabled": false,
   "scene": false,
-  "model": "assets/QuestItemBasic.glb",
+  "model": "assets/questitembasic.glb",
   "image": {
-    "url": "assets/QuestItemBasic__image.webp"
+    "url": "assets/questitembasic__image.webp"
   },
   "props": {
     "collision": true,

@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/NPC_Prisoner.vrm",
+  "model": "assets/npc_prisoner.vrm",
   "image": null,
   "props": {
     "emote": {

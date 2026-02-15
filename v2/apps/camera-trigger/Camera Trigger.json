@@ -9,7 +9,7 @@
   "unique": true,
   "disabled": false,
   "scene": false,
-  "model": "assets/Camera Trigger.glb",
+  "model": "assets/camera-trigger.glb",
   "image": null,
   "props": {
     "prompt": "a sphere",

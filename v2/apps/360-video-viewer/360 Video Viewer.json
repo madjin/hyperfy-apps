@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/360 Video Viewer.glb",
+  "model": "assets/360-video-viewer.glb",
   "image": null,
   "props": {
     "video": null

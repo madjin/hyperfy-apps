@@ -9,9 +9,9 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/Weapon Animation Override.glb",
+  "model": "assets/weapon-animation-override.glb",
   "image": {
-    "url": "assets/Weapon Animation Override__image.png"
+    "url": "assets/weapon-animation-override__image.png"
   },
   "props": {
     "walkAim": {

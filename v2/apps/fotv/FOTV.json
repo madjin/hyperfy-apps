@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/FOTV.glb",
+  "model": "assets/fotv.glb",
   "image": null,
   "props": {
     "video1Name": "Vault-Tec Presentation",

@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/Builder Drone X501.glb",
+  "model": "assets/builder-drone-x501.glb",
   "image": null,
   "props": {},
   "scriptFormat": "module"

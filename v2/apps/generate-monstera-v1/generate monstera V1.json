@@ -9,9 +9,9 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/generate monstera V1.glb",
+  "model": "assets/generate-monstera-v1.glb",
   "image": {
-    "url": "assets/generate monstera V1__image.png"
+    "url": "assets/generate-monstera-v1__image.png"
   },
   "props": {
     "clone_count": 10

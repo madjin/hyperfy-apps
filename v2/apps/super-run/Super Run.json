@@ -9,9 +9,9 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/Super Run.glb",
+  "model": "assets/super-run.glb",
   "image": {
-    "url": "assets/Super Run__image.png"
+    "url": "assets/super-run__image.png"
   },
   "props": {
     "collision": true,

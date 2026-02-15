@@ -9,9 +9,9 @@
   "unique": true,
   "disabled": false,
   "scene": false,
-  "model": "assets/Platforms.glb",
+  "model": "assets/platforms.glb",
   "image": {
-    "url": "assets/Platforms__image.jpg"
+    "url": "assets/platforms__image.jpg"
   },
   "props": {
     "spawnMode": "floating",

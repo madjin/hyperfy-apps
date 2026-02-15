@@ -9,9 +9,9 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/Wall Hang.glb",
+  "model": "assets/wall-hang.glb",
   "image": {
-    "url": "assets/Wall Hang__image.png"
+    "url": "assets/wall-hang__image.png"
   },
   "props": {
     "collision": true,

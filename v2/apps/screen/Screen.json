@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/Screen.glb",
+  "model": "assets/screen.glb",
   "image": null,
   "props": {
     "restricted": false

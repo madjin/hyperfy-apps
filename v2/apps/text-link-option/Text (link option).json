@@ -9,9 +9,9 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/Text (link option).glb",
+  "model": "assets/text-link-option-2.glb",
   "image": {
-    "url": "assets/Text (link option)__image.png"
+    "url": "assets/text-link-option-2__image.png"
   },
   "props": {
     "width": 200,

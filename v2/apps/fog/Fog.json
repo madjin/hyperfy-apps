@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/Fog.glb",
+  "model": "assets/fog.glb",
   "image": null,
   "props": {
     "image": {

@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/Prism.glb",
+  "model": "assets/prism.glb",
   "image": null,
   "props": {
     "avatar": {

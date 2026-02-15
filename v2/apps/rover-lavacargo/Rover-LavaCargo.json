@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/Rover-LavaCargo.glb",
+  "model": "assets/rover-lavacargo.glb",
   "image": null,
   "props": {
     "armorValue": 25,

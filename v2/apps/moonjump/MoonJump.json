@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/MoonJump.glb",
+  "model": "assets/moonjump.glb",
   "image": null,
   "props": {
     "collision": true

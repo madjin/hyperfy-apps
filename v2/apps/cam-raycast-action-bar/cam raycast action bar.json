@@ -9,7 +9,7 @@
   "unique": true,
   "disabled": false,
   "scene": false,
-  "model": "assets/cam raycast action bar.glb",
+  "model": "assets/cam-raycast-action-bar.glb",
   "image": null,
   "props": {
     "attack": {

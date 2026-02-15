@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/Bats v1.glb",
+  "model": "assets/bats-v1.glb",
   "image": null,
   "props": {
     "visible": "true",

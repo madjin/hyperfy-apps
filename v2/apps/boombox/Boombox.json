@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/Boombox.glb",
+  "model": "assets/boombox.glb",
   "image": null,
   "props": {
     "prompt": "old school boom box",

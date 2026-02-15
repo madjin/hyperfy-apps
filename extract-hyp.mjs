@@ -7,14 +7,18 @@ const args = process.argv.slice(2);
 //   node scripts/extract-hyp.mjs hyp/dir        -> process all .hyp in given dir
 //   node scripts/extract-hyp.mjs file.hyp       -> process a single file
 //   node scripts/extract-hyp.mjs <path> --project <projectDir>
+//   node scripts/extract-hyp.mjs <path> --project <projectDir> --preserve-names
 
 let inputPath = args[0] || "hyp";
 let projectRoot = ".";
+let preserveNames = false;
 for (let i = 1; i < args.length; i += 1) {
   const arg = args[i];
   if (arg === "--project") {
     projectRoot = args[i + 1] || projectRoot;
     i += 1;
+  } else if (arg === "--preserve-names") {
+    preserveNames = true;
   }
 }
 
@@ -64,7 +68,29 @@ function resolveExtension({ url, mime, name }) {
 
 function sanitizeName(value) {
   if (!value) return "app";
+  return value
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^A-Za-z0-9._-]+/g, "-")
+    .replace(/-+/g, "-")
+    .replace(/^-|-$/g, "")
+    .toLowerCase() || "app";
+}
+
+// Naming policy for extracted app folders/files:
+// - default: normalize to portable IDs (lowercase, ascii-safe)
+// - opt-out: pass --preserve-names to keep source blueprint names
+function toPortableAppId(value) {
+  return sanitizeName(value);
+}
+
+function toPreservedAppId(value) {
+  if (!value) return "app";
   return value.replace(/[\\/]/g, "-");
+}
+
+function deriveAppId(rawName) {
+  return preserveNames ? toPreservedAppId(rawName) : toPortableAppId(rawName);
 }
 
 function clonePropValue(value) {
@@ -73,9 +99,7 @@ function clonePropValue(value) {
 }
 async function extractHyp({ hypPath, projectAbs }) {
   const appsDir = path.join(projectAbs, "apps");
-  const assetsDir = path.join(projectAbs, "assets");
   await fs.ensureDir(appsDir);
-  await fs.ensureDir(assetsDir);
 
   const hypAbs = path.resolve(hypPath);
   const buffer = await fs.readFile(hypAbs);
@@ -96,9 +120,23 @@ async function extractHyp({ hypPath, projectAbs }) {
   const defaultName = path.parse(hypAbs).name;
   const appName = blueprint.scene
     ? "$scene"
-    : sanitizeName(blueprint.name || defaultName);
-  const appDir = path.join(appsDir, appName);
+    : deriveAppId(blueprint.name || defaultName);
+  let appDir = path.join(appsDir, appName);
+  let effectiveAppName = appName;
+  let suffix = 2;
+  while (await fs.pathExists(appDir)) {
+    effectiveAppName = `${appName}-${suffix}`;
+    appDir = path.join(appsDir, effectiveAppName);
+    suffix += 1;
+  }
+  if (effectiveAppName !== appName) {
+    console.warn(
+      `[extract-hyp] app name collision: "${appName}" -> "${effectiveAppName}"`,
+    );
+  }
   await fs.ensureDir(appDir);
+  const assetsDir = path.join(appDir, "assets");
+  await fs.ensureDir(assetsDir);
 
   const written = [];
   function recordWrite(filePath) {
@@ -175,7 +213,7 @@ async function extractHyp({ hypPath, projectAbs }) {
     console.warn(`[extract-hyp] failed to ensure wrapper for entry: ${entryPath}`, err?.message || err);
   }
 
-  const modelBase = blueprint.scene ? "-scene" : appName;
+  const modelBase = blueprint.scene ? "-scene" : effectiveAppName;
   const modelPath = blueprint.model
     ? await writeAsset(blueprint.model, modelBase)
     : null;
@@ -183,7 +221,7 @@ async function extractHyp({ hypPath, projectAbs }) {
   const imagePath = blueprint.image?.url
     ? await writeAsset(
         blueprint.image.url,
-        `${appName}\_\_image`,
+        `${effectiveAppName}\_\_image`,
         blueprint.image.name,
       )
     : null;
@@ -226,7 +264,7 @@ async function extractHyp({ hypPath, projectAbs }) {
   if (scriptFormat) appJson.scriptFormat = scriptFormat;
   if (scriptFiles && scriptEntry && scriptEntry !== "index.js") appJson.scriptEntry = scriptEntry;
 
-  const jsonName = `${appName}.json`;
+  const jsonName = `${effectiveAppName}.json`;
   const jsonPath = path.join(appDir, jsonName);
   await fs.writeFile(jsonPath, `${JSON.stringify(appJson, null, 2)}\n`);
   recordWrite(jsonPath);
@@ -246,7 +284,7 @@ async function main() {
     process.exit(1);
   }
   if (stat.isDirectory()) {
-    const entries = await fs.readdir(inputAbs);
+    const entries = (await fs.readdir(inputAbs)).sort((a, b) => a.localeCompare(b));
     const files = entries.filter((name) => name.toLowerCase().endsWith(".hyp"));
     if (files.length === 0) {
       console.log(`[extract-hyp] no .hyp files found in ${inputPath}`);

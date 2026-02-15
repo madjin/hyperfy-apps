@@ -9,7 +9,7 @@
   "unique": true,
   "disabled": false,
   "scene": false,
-  "model": "assets/Raptor_random_loc.vrm",
+  "model": "assets/raptor_random_loc.vrm",
   "image": null,
   "props": {
     "emote": {

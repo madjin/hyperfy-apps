@@ -9,7 +9,7 @@
   "unique": true,
   "disabled": false,
   "scene": false,
-  "model": "assets/TOKEN GATE.glb",
+  "model": "assets/token-gate.glb",
   "image": null,
   "props": {
     "type": "1",

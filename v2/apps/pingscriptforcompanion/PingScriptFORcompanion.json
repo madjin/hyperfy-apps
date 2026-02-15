@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/PingScriptFORcompanion.glb",
+  "model": "assets/pingscriptforcompanion.glb",
   "image": null,
   "props": {
     "name": "Train",

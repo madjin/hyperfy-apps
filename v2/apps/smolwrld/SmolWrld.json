@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/SmolWrld.glb",
+  "model": "assets/smolwrld.glb",
   "image": null,
   "props": {
     "volume": 7.6,

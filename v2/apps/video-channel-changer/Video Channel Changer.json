@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/Video Channel Changer.glb",
+  "model": "assets/video-channel-changer.glb",
   "image": null,
   "props": {
     "video": null,

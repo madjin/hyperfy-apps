@@ -9,9 +9,9 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/Player Transforms.glb",
+  "model": "assets/player-transforms.glb",
   "image": {
-    "url": "assets/Player Transforms__image.png"
+    "url": "assets/player-transforms__image.png"
   },
   "props": {
     "collision": true,

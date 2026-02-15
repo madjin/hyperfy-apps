@@ -9,7 +9,7 @@
   "unique": true,
   "disabled": false,
   "scene": false,
-  "model": "assets/ArrayVectorProps.glb",
+  "model": "assets/arrayvectorprops.glb",
   "image": null,
   "props": {
     "test": [

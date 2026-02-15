@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/Explosion Sprites.glb",
+  "model": "assets/explosion-sprites.glb",
   "image": null,
   "props": {
     "image": {

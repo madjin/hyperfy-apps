@@ -9,7 +9,7 @@
   "unique": true,
   "disabled": false,
   "scene": false,
-  "model": "assets/Rocket(Global+Coll).glb",
+  "model": "assets/rocket-global-coll.glb",
   "image": null,
   "props": {},
   "scriptFormat": "module"

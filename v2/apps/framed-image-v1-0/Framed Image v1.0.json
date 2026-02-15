@@ -9,9 +9,9 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/Framed Image v1.0.glb",
+  "model": "assets/framed-image-v1.0.glb",
   "image": {
-    "url": "assets/Framed Image v1.0__image.png"
+    "url": "assets/framed-image-v1.0__image.png"
   },
   "props": {
     "width": 0,

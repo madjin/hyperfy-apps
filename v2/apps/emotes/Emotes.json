@@ -9,9 +9,9 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/Emotes.glb",
+  "model": "assets/emotes.glb",
   "image": {
-    "url": "assets/Emotes__image.png"
+    "url": "assets/emotes__image.png"
   },
   "props": {
     "collision": true,

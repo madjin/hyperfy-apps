@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/SimonSays_Screen.glb",
+  "model": "assets/simonsays_screen.glb",
   "image": null,
   "props": {
     "volume": 0.5,

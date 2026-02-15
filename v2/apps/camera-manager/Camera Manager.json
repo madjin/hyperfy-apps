@@ -9,7 +9,7 @@
   "unique": true,
   "disabled": false,
   "scene": false,
-  "model": "assets/Camera Manager.glb",
+  "model": "assets/camera-manager.glb",
   "image": null,
   "props": {},
   "scriptFormat": "module"

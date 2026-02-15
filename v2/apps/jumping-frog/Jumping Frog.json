@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/Jumping Frog.glb",
+  "model": "assets/jumping-frog.glb",
   "image": null,
   "props": {
     "prompt": "make a weird jumping frog",

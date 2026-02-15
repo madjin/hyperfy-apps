@@ -9,7 +9,7 @@
   "unique": true,
   "disabled": false,
   "scene": false,
-  "model": "assets/Book - Flip.glb",
+  "model": "assets/book-flip.glb",
   "image": null,
   "props": {
     "prompt": "a closed book standing up vertically",

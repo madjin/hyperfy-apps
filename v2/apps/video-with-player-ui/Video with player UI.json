@@ -9,9 +9,9 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/Video with player UI.glb",
+  "model": "assets/video-with-player-ui.glb",
   "image": {
-    "url": "assets/Video with player UI__image.png"
+    "url": "assets/video-with-player-ui__image.png"
   },
   "props": {
     "width": 0,

@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/Fire.glb",
+  "model": "assets/rain.glb",
   "image": null,
   "props": {
     "image": {

@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/Eagles v1.glb",
+  "model": "assets/eagles-v1.glb",
   "image": null,
   "props": {
     "visible": "true",

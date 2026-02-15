@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/PlayerTag-UInew.glb",
+  "model": "assets/playertag-uinew.glb",
   "image": null,
   "props": {
     "uiWidth": 150,

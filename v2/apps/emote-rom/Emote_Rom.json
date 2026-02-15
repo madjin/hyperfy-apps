@@ -9,7 +9,7 @@
   "unique": true,
   "disabled": false,
   "scene": false,
-  "model": "assets/Emote_Rom.glb",
+  "model": "assets/emote_rom.glb",
   "image": null,
   "props": {
     "rName": "Emotes",

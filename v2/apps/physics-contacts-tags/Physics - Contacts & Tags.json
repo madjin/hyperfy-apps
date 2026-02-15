@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/Physics - Contacts & Tags.glb",
+  "model": "assets/physics-contacts-tags.glb",
   "image": null,
   "props": {},
   "scriptFormat": "module"

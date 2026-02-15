@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/Camera Laser.glb",
+  "model": "assets/camera-laser.glb",
   "image": null,
   "props": {},
   "scriptFormat": "module"

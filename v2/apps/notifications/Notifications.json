@@ -9,9 +9,9 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/Notifications.glb",
+  "model": "assets/notifications.glb",
   "image": {
-    "url": "assets/Notifications__image.png"
+    "url": "assets/notifications__image.png"
   },
   "props": {
     "collision": false,

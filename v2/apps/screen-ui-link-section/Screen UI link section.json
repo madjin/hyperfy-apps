@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/Screen UI link section.glb",
+  "model": "assets/screen-ui-link-section.glb",
   "image": null,
   "props": {
     "button_count": 14,

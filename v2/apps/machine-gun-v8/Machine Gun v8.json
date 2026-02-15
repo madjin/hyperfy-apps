@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/Machine Gun v8.glb",
+  "model": "assets/machine-gun-v8.glb",
   "image": null,
   "props": {
     "walkAim": {

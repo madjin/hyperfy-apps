@@ -9,7 +9,7 @@
   "unique": true,
   "disabled": false,
   "scene": false,
-  "model": "assets/Avatar Station.glb",
+  "model": "assets/avatar-station.glb",
   "image": null,
   "props": {
     "avatar": {

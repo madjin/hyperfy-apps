@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/Grass_V3.glb",
+  "model": "assets/grass_v3.glb",
   "image": null,
   "props": {
     "clone_count": 10000,

@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/SimonSaysBoard.glb",
+  "model": "assets/simonsaysboard.glb",
   "image": null,
   "props": {
     "title": "Simon Says Board"

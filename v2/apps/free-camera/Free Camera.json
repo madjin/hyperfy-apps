@@ -9,9 +9,9 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/Free Camera.glb",
+  "model": "assets/free-camera.glb",
   "image": {
-    "url": "assets/Free Camera__image.png"
+    "url": "assets/free-camera__image.png"
   },
   "props": {
     "collision": true,

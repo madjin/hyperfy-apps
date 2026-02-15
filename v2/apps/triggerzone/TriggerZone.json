@@ -9,7 +9,7 @@
   "unique": true,
   "disabled": false,
   "scene": false,
-  "model": "assets/TriggerZone.glb",
+  "model": "assets/triggerzone.glb",
   "image": null,
   "props": {
     "collision": true,

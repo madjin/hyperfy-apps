@@ -9,9 +9,9 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/VideoPlayer.glb",
+  "model": "assets/videoplayer.glb",
   "image": {
-    "url": "assets/VideoPlayer__image.png"
+    "url": "assets/videoplayer__image.png"
   },
   "props": {
     "width": 0,

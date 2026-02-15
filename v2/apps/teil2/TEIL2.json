@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/TEIL2.glb",
+  "model": "assets/teil2.glb",
   "image": null,
   "props": {
     "audio": {

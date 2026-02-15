@@ -9,7 +9,7 @@
   "unique": true,
   "disabled": false,
   "scene": false,
-  "model": "assets/uiImage from File.glb",
+  "model": "assets/uiimage-from-file.glb",
   "image": null,
   "props": {
     "showLabel": "open",

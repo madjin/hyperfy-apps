@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/Forest.glb",
+  "model": "assets/forest.glb",
   "image": null,
   "props": {
     "clone_count": 3000,

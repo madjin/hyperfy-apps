@@ -9,7 +9,7 @@
   "unique": true,
   "disabled": false,
   "scene": false,
-  "model": "assets/Model.glb",
+  "model": "assets/model.glb",
   "image": null,
   "props": {
     "collision": true,

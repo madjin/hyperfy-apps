@@ -9,9 +9,9 @@
   "unique": true,
   "disabled": false,
   "scene": false,
-  "model": "assets/Butterfly Swarm V6.glb",
+  "model": "assets/butterfly-swarm-v6.glb",
   "image": {
-    "url": "assets/Butterfly Swarm V6__image.jpg"
+    "url": "assets/butterfly-swarm-v6__image.jpg"
   },
   "props": {
     "scale": 0.3,

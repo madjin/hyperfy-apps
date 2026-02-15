@@ -9,7 +9,7 @@
   "unique": true,
   "disabled": false,
   "scene": false,
-  "model": "assets/Cube 1.glb",
+  "model": "assets/cube-1.glb",
   "image": null,
   "props": {
     "speed": 1.1

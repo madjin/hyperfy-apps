@@ -9,7 +9,7 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/Vanguard.glb",
+  "model": "assets/vanguard.glb",
   "image": null,
   "props": {
     "avatar": {

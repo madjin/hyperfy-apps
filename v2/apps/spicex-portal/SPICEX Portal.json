@@ -9,9 +9,9 @@
   "unique": false,
   "disabled": false,
   "scene": false,
-  "model": "assets/SPICEX Portal.glb",
+  "model": "assets/spicex-portal.glb",
   "image": {
-    "url": "assets/SPICEX Portal__image.jpg"
+    "url": "assets/spicex-portal__image.jpg"
   },
   "props": {
     "portalName": "Google",
