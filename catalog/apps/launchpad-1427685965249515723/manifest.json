@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/apps/launchpad",
-    "v2_json_path": "v2/apps/launchpad/Launchpad.json",
+    "v2_app_dir": "v2/launchpad",
+    "v2_json_path": "v2/launchpad/Launchpad.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Launchpad.md"
   },
   "preview": {

@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/apps/questitemui",
-    "v2_json_path": "v2/apps/questitemui/QuestItemUI.json",
+    "v2_app_dir": "v2/questitemui",
+    "v2_json_path": "v2/questitemui/QuestItemUI.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/QuestItemUI.md"
   },
   "preview": {

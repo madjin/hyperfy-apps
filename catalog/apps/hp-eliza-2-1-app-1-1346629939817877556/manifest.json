@@ -24,8 +24,8 @@
     "source_priority_used": "summary_excerpt"
   },
   "links": {
-    "v2_app_dir": "v2/apps/hp-eliza-2-1-app-1",
-    "v2_json_path": "v2/apps/hp-eliza-2-1-app-1/HP-eliza-2-1-app_1.json",
+    "v2_app_dir": "v2/hp-eliza-2-1-app-1",
+    "v2_json_path": "v2/hp-eliza-2-1-app-1/HP-eliza-2-1-app_1.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/HP-eliza-2-1-app_1.md"
   },
   "preview": {

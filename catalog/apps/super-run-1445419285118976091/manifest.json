@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/apps/super-run",
-    "v2_json_path": "v2/apps/super-run/Super Run.json",
+    "v2_app_dir": "v2/super-run",
+    "v2_json_path": "v2/super-run/Super Run.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Super_Run.md"
   },
   "preview": {

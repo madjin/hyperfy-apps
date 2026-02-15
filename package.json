@@ -4,9 +4,7 @@
   "description": "Hyperfy V1 and V2 app archive with extraction tools",
   "type": "module",
   "scripts": {
-    "extract": "node extract-hyp.mjs v2-hyp --project v2",
-    "extract:single": "node extract-hyp.mjs",
-    "catalog:build": "uv run python scripts/catalog/build_catalog.py",
+"catalog:build": "uv run python scripts/catalog/build_catalog.py",
     "catalog:dry-run": "uv run python scripts/catalog/build_catalog.py --dry-run",
     "catalog:context": "uv run python scripts/research/prepare_context_bundle.py",
     "catalog:summarize": "uv run python scripts/research/summarize_hyp_files_openrouter.py",

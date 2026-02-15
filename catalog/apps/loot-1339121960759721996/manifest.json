@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/apps/loot",
-    "v2_json_path": "v2/apps/loot/Loot.json",
+    "v2_app_dir": "v2/loot",
+    "v2_json_path": "v2/loot/Loot.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Loot.md"
   },
   "preview": {

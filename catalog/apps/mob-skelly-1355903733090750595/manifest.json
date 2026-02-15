@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/apps/mob-skelly",
-    "v2_json_path": "v2/apps/mob-skelly/Mob - Skelly.json",
+    "v2_app_dir": "v2/mob-skelly",
+    "v2_json_path": "v2/mob-skelly/Mob - Skelly.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Mob_-_Skelly.md"
   },
   "preview": {

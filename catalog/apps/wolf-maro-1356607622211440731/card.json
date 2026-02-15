@@ -15,9 +15,5 @@
   "networking": "none",
   "preview_url": "discord/hyp_media/Wolf_Maro_1356607622211440731/p4_image.png",
   "download_path": "https://raw.githubusercontent.com/madjin/hyperfy-apps/main/v2-hyp/Wolf_Maro.hyp",
-  "created_at": "2025-04-01T12:34:21.686Z",
-  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\nconst rig = app.get('Rig')\n\nconst anims = rig.anims\n\nconst pickRandomAnim = () => {\n  return anims[num(0, anims.length)]\n}\n\nrig.play({ name: 'idle' })\n\napp.onPointerDown = () => {\n  rig.play({ name: pickRandomAnim(), speed: 1.2, fade: 0.2 })\n}\n\n}\n",
-  "asset_files": [
-    "wolf-maro.glb"
-  ]
+  "created_at": "2025-04-01T12:34:21.686Z"
 }

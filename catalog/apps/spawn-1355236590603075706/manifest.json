@@ -24,8 +24,8 @@
     "source_priority_used": "summary_excerpt"
   },
   "links": {
-    "v2_app_dir": "v2/apps/spawn",
-    "v2_json_path": "v2/apps/spawn/spawn.json",
+    "v2_app_dir": "v2/spawn",
+    "v2_json_path": "v2/spawn/spawn.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/spawn.md"
   },
   "preview": {

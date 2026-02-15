@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/apps/token-gate",
-    "v2_json_path": "v2/apps/token-gate/TOKEN GATE.json",
+    "v2_app_dir": "v2/token-gate",
+    "v2_json_path": "v2/token-gate/TOKEN GATE.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/TOKEN_GATE.md"
   },
   "preview": {

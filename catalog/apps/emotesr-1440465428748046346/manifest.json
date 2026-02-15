@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/apps/emotesr",
-    "v2_json_path": "v2/apps/emotesr/blueprint.json",
+    "v2_app_dir": "v2/emotesr",
+    "v2_json_path": "v2/emotesr/blueprint.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/EmotesR.md"
   },
   "preview": {

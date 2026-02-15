@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/apps/prism",
-    "v2_json_path": "v2/apps/prism/Prism.json",
+    "v2_app_dir": "v2/prism",
+    "v2_json_path": "v2/prism/Prism.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Prism.md"
   },
   "preview": {

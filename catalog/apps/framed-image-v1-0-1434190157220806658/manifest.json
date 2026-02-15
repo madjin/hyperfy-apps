@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/apps/framed-image-v1-0",
-    "v2_json_path": "v2/apps/framed-image-v1-0/Framed Image v1.0.json",
+    "v2_app_dir": "v2/framed-image-v1-0",
+    "v2_json_path": "v2/framed-image-v1-0/Framed Image v1.0.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Framed_Image_v1.0.md"
   },
   "preview": {

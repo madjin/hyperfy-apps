@@ -24,8 +24,8 @@
     "source_priority_used": "summary_excerpt"
   },
   "links": {
-    "v2_app_dir": "v2/apps/m2-2-4-beacon-dev",
-    "v2_json_path": "v2/apps/m2-2-4-beacon-dev/m2-2-4-beacon-dev.json",
+    "v2_app_dir": "v2/m2-2-4-beacon-dev",
+    "v2_json_path": "v2/m2-2-4-beacon-dev/m2-2-4-beacon-dev.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/m2-2-4-beacon-dev.md"
   },
   "preview": {

@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/apps/anybox",
-    "v2_json_path": "v2/apps/anybox/anybox.json",
+    "v2_app_dir": "v2/anybox",
+    "v2_json_path": "v2/anybox/anybox.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/anybox.md"
   },
   "preview": {

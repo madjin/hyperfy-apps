@@ -18,5 +18,18 @@
   "networking": "none",
   "preview_url": "discord/hyp_media/dash_1356968685415301160/m2_image.png",
   "download_path": "https://raw.githubusercontent.com/madjin/hyperfy-apps/main/v2-hyp/dash.hyp",
-  "created_at": "2025-04-02T12:29:05.862Z"
+  "created_at": "2025-04-02T12:29:05.862Z",
+  "props": {
+    "rName": "dash",
+    "color": "0.0957",
+    "chargeEmote": {
+      "type": "emote",
+      "url": "assets/chargeEmote.glb"
+    }
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\n// =================================================================\n// Place your rom scrip below:\n// =================================================================\n\n\n\n// =================================================================\n// Config\n// =================================================================\napp.configure([\n  {\n    key: 'rName',\n    type: 'text',\n    label: 'Rom Name',\n  },\n  {\n    key: 'color',\n    type: 'dropdown',\n    label: 'Color',\n    options: [\n      {\n        label: 'Red',\n        value: '0.0957',\n      },\n      {\n        label: 'Orange',\n        value: '0',\n      },\n      {\n        label: 'Yellow',\n        value: '0.4824',\n      },\n      {\n        label: 'Green',\n        value: '0.2633',\n      },\n      {\n        label: 'Blue',\n        value: '0.389',\n      },\n      {\n        label: 'Indigo',\n        value: '0.1777',\n      },\n      {\n        label: 'Violet',\n        value: '0.5098',\n      },\n    ],\n    initial: '0',\n  },\n  {\n    key: 'chargeEmote',\n    type: 'file',\n    kind: 'emote',\n    label: 'Charge Emote',\n  },\n]);\n\nconst CLASS_NAME = 'Vanguard'\nconst DEBUG_PLAYER = null // 'NXaaL9PrK5'\nconst DEBUG_HITS = false\nconst FORWARD = new Vector3(0, 0, -1)\n\nconst ENERGY_RATE = 1\nconst ENERGY_RATE_AMOUNT = 10\nconst ENERGY_MAX = 100\n\nconst ATTACK_RADIUS = 1\nconst ATTACK_DISTANCE = 1\n\nconst SPECIAL_RADIUS = 2.5\n\nconst chargeEmote = props.chargeEmote?.url + '?l=0'\n\nconst v1 = new Vector3()\nconst q1 = new Quaternion()\nconst e1 = new Euler(0, 0, 0, 'YXZ')\n\n\nif (world.isClient) {\n  const player = world.getPlayer()\n  let control = app.control()\n  let canDash = true;\n\n  function getDirection(vec3) {\n    e1.setFromQuaternion(control.camera.quaternion)\n    e1.x = 0\n    e1.z = 0\n    q1.setFromEuler(e1)\n    const dir = vec3.copy(FORWARD).applyQuaternion(q1)\n    return dir\n  }\n\n  function charge() {\n    if (player.hasEffect()) return\n    if (!canDash) return\n    canDash = false\n\n ",
+  "asset_files": [
+    "chargeEmote.glb",
+    "dash.glb"
+  ]
 }

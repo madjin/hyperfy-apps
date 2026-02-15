@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/apps/player-transforms",
-    "v2_json_path": "v2/apps/player-transforms/Player Transforms.json",
+    "v2_app_dir": "v2/player-transforms",
+    "v2_json_path": "v2/player-transforms/Player Transforms.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Player_Transforms.md"
   },
   "preview": {

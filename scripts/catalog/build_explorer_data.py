@@ -8,7 +8,7 @@ Outputs:
 Inputs:
   catalog/manifests/apps-manifest.json
   catalog/apps/*/manifest.json + ai-summary.json
-  v2/apps/*/  (blueprint JSON, index.js, asset files)
+  v2/*/  (blueprint JSON, index.js, asset files)
 """
 
 from __future__ import annotations
@@ -26,7 +26,7 @@ CATALOG_ROOT = REPO_ROOT / "catalog"
 GLOBAL_MANIFEST = CATALOG_ROOT / "manifests" / "apps-manifest.json"
 EXPLORER_DATA_DIR = CATALOG_ROOT / "data"
 GENERATED_PREVIEWS_DIR = CATALOG_ROOT / "generated_previews"
-V2_APPS_DIR = REPO_ROOT / "v2" / "apps"
+V2_APPS_DIR = REPO_ROOT / "v2"
 V2_ASSETS_DIR = REPO_ROOT / "v2" / "assets"
 
 def detect_github_raw_base() -> str:
@@ -103,26 +103,13 @@ def extract_props(blueprint: dict[str, Any]) -> dict[str, Any]:
 
 
 def find_v2_app_dir(v2_app_dir_rel: str | None) -> Path | None:
-    """Resolve v2 app directory, handling the slug -> actual dir name mapping."""
+    """Resolve v2 app directory from manifest path like 'v2/<slug>'."""
     if not v2_app_dir_rel:
         return None
 
-    # Direct path from manifest links
     direct = REPO_ROOT / v2_app_dir_rel
     if direct.exists():
         return direct
-
-    # The v2_app_dir in manifest is like "v2/boombox" but actual dir might be "v2/apps/Boombox"
-    slug = v2_app_dir_rel.split("/")[-1] if "/" in v2_app_dir_rel else v2_app_dir_rel
-
-    # Try under v2/apps/ with case-insensitive match
-    if V2_APPS_DIR.exists():
-        slug_lower = slug.lower().replace("-", "").replace("_", "").replace(" ", "")
-        for d in V2_APPS_DIR.iterdir():
-            if d.is_dir():
-                name_lower = d.name.lower().replace("-", "").replace("_", "").replace(" ", "")
-                if name_lower == slug_lower:
-                    return d
 
     return None
 

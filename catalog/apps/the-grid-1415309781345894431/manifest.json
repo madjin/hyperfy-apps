@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/apps/the-grid",
-    "v2_json_path": "v2/apps/the-grid/blueprint.json",
+    "v2_app_dir": "v2/the-grid",
+    "v2_json_path": "v2/the-grid/blueprint.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/The_Grid.md"
   },
   "preview": {

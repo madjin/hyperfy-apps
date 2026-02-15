@@ -24,8 +24,8 @@
     "source_priority_used": "summary_excerpt"
   },
   "links": {
-    "v2_app_dir": "v2/apps/neon-2",
-    "v2_json_path": "v2/apps/neon-2/NEON_2.json",
+    "v2_app_dir": "v2/neon-2",
+    "v2_json_path": "v2/neon-2/NEON_2.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/NEON_2.md"
   },
   "preview": {

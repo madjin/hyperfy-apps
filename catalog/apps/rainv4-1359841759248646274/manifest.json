@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/apps/rainv4",
-    "v2_json_path": "v2/apps/rainv4/RainV4.json",
+    "v2_app_dir": "v2/rainv4",
+    "v2_json_path": "v2/rainv4/RainV4.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/RainV4.md"
   },
   "preview": {

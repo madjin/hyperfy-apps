@@ -7,11 +7,9 @@ Archive of Hyperfy virtual world apps preserved in human-readable format for ref
 ```
 hyperfy-apps/
 ├── v1/              # 40 V1 React-based apps (legacy platform)
-├── v2/
-│   ├── apps/        # 158 V2 apps (extracted, human-readable)
-│   └── assets/      # Shared assets (models, textures, audio)
+├── v2/              # ~200 V2 apps (extracted, human-readable)
+│   └── <slug>/      # Each app: blueprint JSON + index.js + assets/
 ├── v2-hyp/          # 174 original .hyp binary files
-├── extract-hyp.mjs  # Extraction tool
 └── package.json
 ```
 
@@ -197,18 +195,10 @@ hyperfy-apps/
 cat v1/hyperfy-alert/app.json
 
 # View V2 app script
-cat "v2/apps/Fire/index.js"
+cat "v2/fire/index.js"
 
 # View V2 app config
-cat "v2/apps/Fire/Fire.json"
-```
-
-**Extract new .hyp files:**
-```bash
-npm install
-node extract-hyp.mjs v2-hyp/NewApp.hyp --project v2
-# Or extract all:
-node extract-hyp.mjs v2-hyp --project v2
+cat "v2/fire/Fire.json"
 ```
 
 **Import to Hyperfy world:**

@@ -24,8 +24,8 @@
     "source_priority_used": "summary_excerpt"
   },
   "links": {
-    "v2_app_dir": "v2/apps/game-timer",
-    "v2_json_path": "v2/apps/game-timer/Game Timer.json",
+    "v2_app_dir": "v2/game-timer",
+    "v2_json_path": "v2/game-timer/Game Timer.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Game_Timer.md"
   },
   "preview": {

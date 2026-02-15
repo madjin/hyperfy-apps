@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/apps/butterfly-swarm-v2a",
-    "v2_json_path": "v2/apps/butterfly-swarm-v2a/Butterfly Swarm V2a.json",
+    "v2_app_dir": "v2/butterfly-swarm-v2a",
+    "v2_json_path": "v2/butterfly-swarm-v2a/Butterfly Swarm V2a.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Butterfly_Swarm_V2a.md"
   },
   "preview": {

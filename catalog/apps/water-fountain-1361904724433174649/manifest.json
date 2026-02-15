@@ -24,8 +24,8 @@
     "source_priority_used": "summary_excerpt"
   },
   "links": {
-    "v2_app_dir": "v2/apps/water-fountain",
-    "v2_json_path": "v2/apps/water-fountain/Water Fountain.json",
+    "v2_app_dir": "v2/water-fountain",
+    "v2_json_path": "v2/water-fountain/Water Fountain.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Water_Fountain.md"
   },
   "preview": {

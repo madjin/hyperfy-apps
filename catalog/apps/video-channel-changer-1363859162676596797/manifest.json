@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/apps/video-channel-changer",
-    "v2_json_path": "v2/apps/video-channel-changer/Video Channel Changer.json",
+    "v2_app_dir": "v2/video-channel-changer",
+    "v2_json_path": "v2/video-channel-changer/Video Channel Changer.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Video_Channel_Changer.md"
   },
   "preview": {

@@ -24,8 +24,8 @@
     "source_priority_used": "summary_excerpt"
   },
   "links": {
-    "v2_app_dir": "v2/apps/mini-nukeportal",
-    "v2_json_path": "v2/apps/mini-nukeportal/MINI-NukePORTAL.json",
+    "v2_app_dir": "v2/mini-nukeportal",
+    "v2_json_path": "v2/mini-nukeportal/MINI-NukePORTAL.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/MINI-NukePORTAL.md"
   },
   "preview": {

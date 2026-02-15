@@ -24,8 +24,8 @@
     "source_priority_used": "summary_excerpt"
   },
   "links": {
-    "v2_app_dir": "v2/apps/networked-grabbable",
-    "v2_json_path": "v2/apps/networked-grabbable/Networked Grabbable.json",
+    "v2_app_dir": "v2/networked-grabbable",
+    "v2_json_path": "v2/networked-grabbable/Networked Grabbable.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Networked_Grabbable.md"
   },
   "preview": {

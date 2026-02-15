@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/apps/mato-pets",
-    "v2_json_path": "v2/apps/mato-pets/Mato Pets.json",
+    "v2_app_dir": "v2/mato-pets",
+    "v2_json_path": "v2/mato-pets/Mato Pets.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Mato_Pets.md"
   },
   "preview": {

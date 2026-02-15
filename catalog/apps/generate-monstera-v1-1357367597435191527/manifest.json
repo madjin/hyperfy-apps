@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/apps/generate-monstera-v1",
-    "v2_json_path": "v2/apps/generate-monstera-v1/generate monstera V1.json",
+    "v2_app_dir": "v2/generate-monstera-v1",
+    "v2_json_path": "v2/generate-monstera-v1/generate monstera V1.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/generate_monstera_V1.md"
   },
   "preview": {

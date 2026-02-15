@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/apps/raptor-random-loc",
-    "v2_json_path": "v2/apps/raptor-random-loc/Raptor_random_loc.json",
+    "v2_app_dir": "v2/raptor-random-loc",
+    "v2_json_path": "v2/raptor-random-loc/Raptor_random_loc.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Raptor_random_loc.md"
   },
   "preview": {

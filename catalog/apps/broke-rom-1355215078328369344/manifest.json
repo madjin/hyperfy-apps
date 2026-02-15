@@ -24,8 +24,8 @@
     "source_priority_used": "summary_excerpt"
   },
   "links": {
-    "v2_app_dir": "v2/apps/broke-rom",
-    "v2_json_path": "v2/apps/broke-rom/broke-rom.json",
+    "v2_app_dir": "v2/broke-rom",
+    "v2_json_path": "v2/broke-rom/broke-rom.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/broke-rom.md"
   },
   "preview": {

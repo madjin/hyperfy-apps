@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/apps/monkey-head",
-    "v2_json_path": "v2/apps/monkey-head/monkey_head.json",
+    "v2_app_dir": "v2/monkey-head",
+    "v2_json_path": "v2/monkey-head/monkey_head.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/monkey_head.md"
   },
   "preview": {

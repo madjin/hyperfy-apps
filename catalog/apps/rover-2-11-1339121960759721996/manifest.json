@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/apps/rover-2-11",
-    "v2_json_path": "v2/apps/rover-2-11/blueprint.json",
+    "v2_app_dir": "v2/rover-2-11",
+    "v2_json_path": "v2/rover-2-11/blueprint.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Rover.2.11.md"
   },
   "preview": {

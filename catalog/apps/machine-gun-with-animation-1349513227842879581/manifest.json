@@ -24,8 +24,8 @@
     "source_priority_used": "summary_excerpt"
   },
   "links": {
-    "v2_app_dir": "v2/apps/machine-gun-with-animation",
-    "v2_json_path": "v2/apps/machine-gun-with-animation/blueprint.json",
+    "v2_app_dir": "v2/machine-gun-with-animation",
+    "v2_json_path": "v2/machine-gun-with-animation/blueprint.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Machine_Gun_With_Animation.md"
   },
   "preview": {

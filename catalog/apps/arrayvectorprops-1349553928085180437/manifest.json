@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/apps/arrayvectorprops",
-    "v2_json_path": "v2/apps/arrayvectorprops/ArrayVectorProps.json",
+    "v2_app_dir": "v2/arrayvectorprops",
+    "v2_json_path": "v2/arrayvectorprops/ArrayVectorProps.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/ArrayVectorProps.md"
   },
   "preview": {

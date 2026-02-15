@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/apps/wolf-maro",
-    "v2_json_path": "v2/apps/wolf-maro/Wolf Maro.json",
+    "v2_app_dir": "v2/wolf-maro",
+    "v2_json_path": "v2/wolf-maro/Wolf Maro.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Wolf_Maro.md"
   },
   "preview": {

@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/apps/physics-raycast-tags",
-    "v2_json_path": "v2/apps/physics-raycast-tags/Physics - Raycast Tags.json",
+    "v2_app_dir": "v2/physics-raycast-tags",
+    "v2_json_path": "v2/physics-raycast-tags/Physics - Raycast Tags.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Physics_-_Raycast_Tags.md"
   },
   "preview": {

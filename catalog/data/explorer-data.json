@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated_at": "2026-02-15T20:50:36+00:00",
+  "generated_at": "2026-02-15T22:42:11+00:00",
   "counts": {
     "total": 179,
     "with_preview": 179
@@ -841,7 +841,7 @@
       "script_complexity": "low",
       "networking": "none",
       "has_preview": true,
-      "has_source": false
+      "has_source": true
     },
     {
       "id": "arrayvectorprops-1349553928085180437",
@@ -1044,7 +1044,7 @@
       "script_complexity": "low",
       "networking": "none",
       "has_preview": true,
-      "has_source": false
+      "has_source": true
     },
     {
       "id": "builder-drone-1356446200907432129",
@@ -1604,7 +1604,7 @@
       "script_complexity": "high",
       "networking": "events",
       "has_preview": true,
-      "has_source": false
+      "has_source": true
     },
     {
       "id": "car1-v2-1353199999730581585",
@@ -1812,7 +1812,7 @@
       "script_complexity": "medium",
       "networking": "none",
       "has_preview": true,
-      "has_source": false
+      "has_source": true
     },
     {
       "id": "day-night-weather-current-1364018271719919686",
@@ -2633,7 +2633,7 @@
       "script_complexity": "low",
       "networking": "none",
       "has_preview": true,
-      "has_source": false
+      "has_source": true
     },
     {
       "id": "hp-eliza-2-1-app-1-1346629939817877556",
@@ -2967,7 +2967,7 @@
       "script_complexity": "medium",
       "networking": "none",
       "has_preview": true,
-      "has_source": false
+      "has_source": true
     },
     {
       "id": "machine-gun-v8-1355977141862400300",
@@ -3304,7 +3304,7 @@
       "script_complexity": "low",
       "networking": "none",
       "has_preview": true,
-      "has_source": false
+      "has_source": true
     },
     {
       "id": "neon-1-1369282194895274065",
@@ -3722,7 +3722,7 @@
       "script_complexity": "low",
       "networking": "none",
       "has_preview": true,
-      "has_source": false
+      "has_source": true
     },
     {
       "id": "prism-1355903733090750595",
@@ -4209,7 +4209,7 @@
       "script_complexity": "low",
       "networking": "none",
       "has_preview": true,
-      "has_source": false
+      "has_source": true
     },
     {
       "id": "rover-lavacargo-1339121960759721996",
@@ -4320,7 +4320,7 @@
       "script_complexity": "high",
       "networking": "events",
       "has_preview": true,
-      "has_source": false
+      "has_source": true
     },
     {
       "id": "screen-1361324085598228530",
@@ -4632,7 +4632,7 @@
       "script_complexity": "low",
       "networking": "events",
       "has_preview": true,
-      "has_source": false
+      "has_source": true
     },
     {
       "id": "speedtrail-v0-1-1361987355577421954",
@@ -5089,7 +5089,7 @@
       "script_complexity": "low",
       "networking": "none",
       "has_preview": true,
-      "has_source": true
+      "has_source": false
     },
     {
       "id": "vanguard-1355903733090750595",

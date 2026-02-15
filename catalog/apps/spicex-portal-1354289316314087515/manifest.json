@@ -24,8 +24,8 @@
     "source_priority_used": "summary_excerpt"
   },
   "links": {
-    "v2_app_dir": "v2/apps/spicex-portal",
-    "v2_json_path": "v2/apps/spicex-portal/SPICEX Portal.json",
+    "v2_app_dir": "v2/spicex-portal",
+    "v2_json_path": "v2/spicex-portal/SPICEX Portal.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/SPICEXPortal.md"
   },
   "preview": {

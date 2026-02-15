@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/apps/loot-planetlava",
-    "v2_json_path": "v2/apps/loot-planetlava/Loot-PlanetLava.json",
+    "v2_app_dir": "v2/loot-planetlava",
+    "v2_json_path": "v2/loot-planetlava/Loot-PlanetLava.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Loot-PlanetLava.md"
   },
   "preview": {

@@ -24,8 +24,8 @@
     "source_priority_used": "summary_excerpt"
   },
   "links": {
-    "v2_app_dir": "v2/apps/eel-add-particles1-1",
-    "v2_json_path": "v2/apps/eel-add-particles1-1/blueprint.json",
+    "v2_app_dir": "v2/eel-add-particles1-1",
+    "v2_json_path": "v2/eel-add-particles1-1/blueprint.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/eel_add_particles1_1.md"
   },
   "preview": {

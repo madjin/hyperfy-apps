@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/apps/rocket-launcher-v3",
-    "v2_json_path": "v2/apps/rocket-launcher-v3/Rocket Launcher V3.json",
+    "v2_app_dir": "v2/rocket-launcher-v3",
+    "v2_json_path": "v2/rocket-launcher-v3/Rocket Launcher V3.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Rocket_Launcher_V3.md"
   },
   "preview": {

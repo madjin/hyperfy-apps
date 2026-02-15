@@ -24,8 +24,8 @@
     "source_priority_used": "summary_excerpt"
   },
   "links": {
-    "v2_app_dir": "v2/apps/butterfly-swarm-v6-hyperfly-edition",
-    "v2_json_path": "v2/apps/butterfly-swarm-v6-hyperfly-edition/Butterfly Swarm V6 (Hyperfly edition).json",
+    "v2_app_dir": "v2/butterfly-swarm-v6-hyperfly-edition",
+    "v2_json_path": "v2/butterfly-swarm-v6-hyperfly-edition/Butterfly Swarm V6 (Hyperfly edition).json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Butterfly_Swarm_V6_Hyperfly_edition.md"
   },
   "preview": {

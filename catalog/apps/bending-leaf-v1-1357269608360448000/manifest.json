@@ -24,8 +24,8 @@
     "source_priority_used": "summary_excerpt"
   },
   "links": {
-    "v2_app_dir": "v2/apps/bending-leaf-v1",
-    "v2_json_path": "v2/apps/bending-leaf-v1/bending_leaf_V1.json",
+    "v2_app_dir": "v2/bending-leaf-v1",
+    "v2_json_path": "v2/bending-leaf-v1/bending_leaf_V1.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/bending_leaf_V1.md"
   },
   "preview": {

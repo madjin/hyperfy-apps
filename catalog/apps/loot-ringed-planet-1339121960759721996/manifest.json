@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/apps/loot-ringed-planet",
-    "v2_json_path": "v2/apps/loot-ringed-planet/Loot-Ringed Planet.json",
+    "v2_app_dir": "v2/loot-ringed-planet",
+    "v2_json_path": "v2/loot-ringed-planet/Loot-Ringed Planet.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Loot-Ringed_Planet.md"
   },
   "preview": {

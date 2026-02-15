@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/apps/blocktesting",
-    "v2_json_path": "v2/apps/blocktesting/blueprint.json",
+    "v2_app_dir": "v2/blocktesting",
+    "v2_json_path": "v2/blocktesting/blueprint.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/BlockTesting.md"
   },
   "preview": {

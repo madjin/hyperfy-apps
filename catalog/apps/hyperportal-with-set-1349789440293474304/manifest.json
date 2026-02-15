@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/apps/hyperportal-with-set",
-    "v2_json_path": "v2/apps/hyperportal-with-set/HyperPortal with Set.json",
+    "v2_app_dir": "v2/hyperportal-with-set",
+    "v2_json_path": "v2/hyperportal-with-set/HyperPortal with Set.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/HyperPortal_with_Set.md"
   },
   "preview": {

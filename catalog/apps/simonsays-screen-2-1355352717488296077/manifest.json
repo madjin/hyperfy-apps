@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/apps/simonsays-screen-2",
-    "v2_json_path": "v2/apps/simonsays-screen-2/blueprint.json",
+    "v2_app_dir": "v2/simonsays-screen-2",
+    "v2_json_path": "v2/simonsays-screen-2/blueprint.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/SimonSays_Screen_2.md"
   },
   "preview": {

@@ -24,8 +24,8 @@
     "source_priority_used": "summary_excerpt"
   },
   "links": {
-    "v2_app_dir": "v2/apps/healing-aura",
-    "v2_json_path": "v2/apps/healing-aura/Healing Aura.json",
+    "v2_app_dir": "v2/healing-aura",
+    "v2_json_path": "v2/healing-aura/Healing Aura.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/Healing_Aura.md"
   },
   "preview": {

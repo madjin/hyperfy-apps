@@ -358,9 +358,8 @@ def build_catalog_manifests(
 ):
     entries = json.loads(hyp_index_path.read_text(encoding="utf-8"))
     v2_root = repo_root / "v2"
-    v2_apps_dir = v2_root / "apps"
-    v2_slugs = {p.name for p in v2_apps_dir.iterdir() if p.is_dir()} if v2_apps_dir.exists() else set()
-    mappings = load_filename_mappings(repo_root / "filename-mappings.csv")
+    v2_slugs = {p.name for p in v2_root.iterdir() if p.is_dir()} if v2_root.exists() else set()
+    mappings = load_filename_mappings(repo_root / "tmp" / "filename-mappings.csv")
 
     apps_out_root = repo_root / "catalog" / "apps"
     manifests_out = repo_root / "catalog" / "manifests" / "apps-manifest.json"
@@ -381,7 +380,7 @@ def build_catalog_manifests(
         message_id = e.get("message_id") or e.get("attachment_id") or "unknown"
         app_id = f"{preferred_slug}-{message_id}"
 
-        v2_dir = repo_root / "v2" / "apps" / v2_slug if v2_slug else None
+        v2_dir = repo_root / "v2" / v2_slug if v2_slug else None
         v2_json = detect_v2_json(v2_dir) if v2_dir else None
         v2_json_data: dict[str, Any] = {}
         if v2_json and v2_json.exists():
@@ -473,7 +472,7 @@ def build_catalog_manifests(
                 "source_priority_used": desc_source,
             },
             "links": {
-                "v2_app_dir": f"v2/apps/{v2_slug}" if v2_slug else None,
+                "v2_app_dir": f"v2/{v2_slug}" if v2_slug else None,
                 "v2_json_path": str(v2_json.relative_to(repo_root)) if v2_json else None,
                 "hyp_summary_path": f"catalog/discord/hyp_summaries/{summary_rel}" if summary_rel else None,
             },
@@ -512,7 +511,7 @@ def build_catalog_manifests(
             "has_preview": primary is not None,
             "primary_preview": primary.get("catalog_path") if primary else None,
             "manifest_path": f"catalog/apps/{app_id}/manifest.json",
-            "v2_app_dir": f"v2/apps/{v2_slug}" if v2_slug else None,
+            "v2_app_dir": f"v2/{v2_slug}" if v2_slug else None,
             "has_ai_summary": bool(ai_summary),
             "ai_summary_path": f"catalog/apps/{app_id}/ai-summary.json" if ai_summary else None,
             "flags": sorted(flags),

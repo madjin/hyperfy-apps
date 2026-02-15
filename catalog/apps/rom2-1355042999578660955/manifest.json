@@ -24,8 +24,8 @@
     "source_priority_used": "discord_message"
   },
   "links": {
-    "v2_app_dir": "v2/apps/rom2",
-    "v2_json_path": "v2/apps/rom2/rom2.json",
+    "v2_app_dir": "v2/rom2",
+    "v2_json_path": "v2/rom2/rom2.json",
     "hyp_summary_path": "catalog/discord/hyp_summaries/rom2.md"
   },
   "preview": {
