@@ -55,6 +55,8 @@ body {
   flex-shrink: 0;
   scrollbar-width: thin;
   scrollbar-color: var(--border) transparent;
+  display: flex;
+  flex-direction: column;
 }
 
 .sidebar::-webkit-scrollbar {
@@ -83,6 +85,8 @@ body {
 
 .tag-list {
   padding: 0 8px;
+  flex: 1;
+  overflow-y: auto;
 }
 
 .tag-item {
@@ -118,6 +122,30 @@ body {
 
 .tag-item.active .tag-count {
   color: var(--accent);
+}
+
+.sidebar-footer {
+  padding: 12px 16px;
+  border-top: 1px solid var(--border-subtle);
+  margin-top: auto;
+  flex-shrink: 0;
+}
+
+.sidebar-footer-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.78rem;
+  color: var(--text-dim);
+  text-decoration: none;
+  padding: 6px 8px;
+  border-radius: var(--radius-xs);
+  transition: all 0.15s;
+}
+
+.sidebar-footer-link:hover {
+  color: var(--text-muted);
+  background: var(--surface);
 }
 
 /* ---- Main content ---- */
@@ -195,7 +223,8 @@ body {
   transform: translateY(-50%);
   color: var(--text-dim);
   pointer-events: none;
-  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
 }
 
 .search {
@@ -365,6 +394,35 @@ body {
   opacity: 0.3;
 }
 
+.preview-wrap[draggable="true"] {
+  cursor: grab;
+}
+
+.preview-wrap[draggable="true"]:active {
+  cursor: grabbing;
+}
+
+.drag-indicator {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 6px;
+  color: white;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+
+.preview-wrap:hover .drag-indicator {
+  opacity: 0.7;
+}
+
 .preview-badge {
   position: absolute;
   top: 8px;
@@ -450,35 +508,6 @@ body {
   background: var(--accent-soft);
   color: var(--accent-hover);
   border-color: rgba(139, 92, 246, 0.2);
-}
-
-/* ---- Card meta badges ---- */
-
-.card-badges {
-  display: flex;
-  gap: 6px;
-  flex-wrap: wrap;
-  margin-top: auto;
-}
-
-.meta-badge {
-  font-size: 0.7rem;
-  padding: 2px 7px;
-  border-radius: var(--radius-xs);
-  border: 1px solid var(--border-subtle);
-  color: var(--text-dim);
-}
-
-.meta-badge.complexity-high {
-  border-color: rgba(251, 191, 36, 0.3);
-  color: var(--yellow);
-  background: var(--yellow-soft);
-}
-
-.meta-badge.complexity-low {
-  border-color: rgba(52, 211, 153, 0.3);
-  color: var(--green);
-  background: var(--green-soft);
 }
 
 /* ---- Card actions ---- */
@@ -692,12 +721,95 @@ body {
   color: var(--green);
 }
 
+/* ---- Modal info section ---- */
+
+.modal-info {
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--border-subtle);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.modal-desc {
+  margin: 0;
+  font-size: 0.88rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+}
+
+.modal-info-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.8rem;
+  color: var(--text-dim);
+}
+
+.modal-info-author {
+  color: var(--accent-hover);
+}
+
+.modal-info-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.modal-info-tag {
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  background: var(--surface-2);
+  color: var(--text-muted);
+  border: 1px solid var(--border-subtle);
+}
+
+.modal-info-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.modal-download-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 16px;
+  border-radius: var(--radius-xs);
+  font-size: 0.82rem;
+  font-weight: 500;
+  text-decoration: none;
+  background: var(--accent);
+  color: white;
+  border: 1px solid var(--accent);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.modal-download-btn:hover {
+  background: var(--accent-hover);
+  border-color: var(--accent-hover);
+}
+
+.modal-drag-hint {
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  font-style: italic;
+}
+
 .modal-tabs {
   display: flex;
   gap: 0;
+  align-items: center;
   border-bottom: 1px solid var(--border-subtle);
   padding: 0 20px;
   flex-shrink: 0;
+}
+
+.modal-tabs .modal-copy-btn {
+  margin-left: auto;
 }
 
 .modal-tab {
