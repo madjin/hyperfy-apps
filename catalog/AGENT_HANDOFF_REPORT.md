@@ -1,172 +1,168 @@
-# Hyperfy Apps Catalog - Agent Handoff Report
+# Hyperfy Apps Catalog - Agent Handoff Report (Updated)
 
-Generated: 2026-02-11 (UTC)
+Generated: 2026-02-15 (UTC)
 Repo: `/home/jin/repo/hyperfy-apps`
+Branch: `explorer`
+HEAD: `cc7602a`
 
-## Scope and Goal
+## Purpose
 
-This workstream set up a catalog pipeline for `.hyp` app ingestion, Discord context/media linkage, AI summarization, and explorer-ready manifests for `hyperfy-apps`.
+This file is the operational handoff for an agent to finish the current migration/build state, create clean commits, and open a PR with clear scope.
 
-Primary goal: produce app metadata that is useful for explorer UI + programmatic ingestion, while reducing noisy fields over time (YAGNI).
+## Current Truth Snapshot
 
-## What Was Implemented
+1. Branch sync
+- `origin/explorer...HEAD`: `0 0` (no ahead/behind divergence)
 
-1. Catalog build pipeline script
-- File: `scripts/catalog/build_catalog.py`
-- Responsibilities:
-  - Copy research artifacts into `catalog/discord/`
-  - Optimize media into `catalog/discord/hyp_media/`
-  - Generate per-app manifests in `catalog/apps/<app-id>/manifest.json`
-  - Generate global index: `catalog/manifests/apps-manifest.json`
-  - Generate missing preview checklist: `catalog/issues/missing-media-checklist.md`
+2. High-impact recent commits (already on branch)
+- `cc7602a` Move explorer to `catalog/` root for cleaner URL
+- `f52f57d` Generate AI preview images for missing previews
+- `16b85e2` Add source code modal and re-run AI summaries with kimi-k2.5
+- `7f71215` Add app explorer with AI summaries, build pipeline, and dark UI
 
-2. Context bundle preparation script
-- File: `scripts/research/prepare_context_bundle.py`
-- Copies curated docs/references into:
-  - `catalog/context/source/`
-  - `catalog/context/snippets/`
-- Sources include Hyperfy docs + `hyperfy-archiver` references.
+3. Live artifact state
+- `catalog/manifests/apps-manifest.json`
+  - `generated_at`: `2026-02-15T07:17:42+00:00`
+  - counts: `apps=179`, `with_preview=115`, `missing_preview=64`
+- `catalog/data/explorer-data.json`
+  - `generated_at`: `2026-02-15T07:17:42+00:00`
+  - counts: `total=179`, `with_preview=168`
+- `catalog/manifests/ai-summary-report.json`
+  - `generated_at`: `2026-02-14T22:08:13+00:00`
+  - model: `moonshotai/kimi-k2.5`
+  - counts: `ok=5`, `skipped_existing=0`, `failed=0`
 
-3. OpenRouter summarization script (copied/ported + updated)
-- File: `scripts/research/summarize_hyp_files_openrouter.py`
-- Model default:
-  - `openrouter/aurora-alpha`
-- Output:
-  - `catalog/apps/<app-id>/ai-summary.json`
-  - `catalog/manifests/ai-summary-report.json`
+4. Current working tree risk profile
+- Total changed entries: `782`
+- Status mix:
+  - `D`: `349`
+  - `??`: `219`
+  - `M`: `214`
+- This is a rename/migration-heavy state with old+new slug variants coexisting in places.
 
-4. Structured output + robustness improvements
-- In `scripts/research/summarize_hyp_files_openrouter.py`:
-  - Added OpenRouter structured output JSON schema mode (`response_format.type = json_schema`)
-  - Added fallback mode (`--no-json-schema`) to use `json_object`
-  - Added repair pass for malformed model output
-  - Added failure dumps:
-    - `catalog/manifests/ai-summary-failures/<app-id>.txt`
+## What Changed Since Previous Handoff
 
-5. Static explorer scaffold
-- Files:
-  - `catalog/explorer/index.html`
-  - `catalog/explorer/app.js`
-  - `catalog/explorer/styles.css`
-  - `catalog/explorer/assets/missing-media.svg`
+The old report (2026-02-11) is partially stale. Key updates:
+- Explorer files are now rooted at `catalog/`:
+  - `catalog/index.html`, `catalog/app.js`, `catalog/styles.css`
+- Summarizer default model is now `moonshotai/kimi-k2.5`.
+- Manifest links now use `v2/apps/<slug>` conventions.
+- Additional generated layer exists:
+  - `catalog/data/explorer-data.json`
+  - `catalog/apps/*/card.json`
 
-## Current Data/Artifact Status (Observed)
+## Current Pipeline (Source of Truth)
 
-1. Global manifest
-- File: `catalog/manifests/apps-manifest.json`
-- Counts:
-  - apps: 179
-  - with preview: 115
-  - missing preview: 64
+1. Catalog build
+- Script: `scripts/catalog/build_catalog.py`
+- npm: `npm run catalog:build`
 
-2. AI summary report
-- File: `catalog/manifests/ai-summary-report.json`
-- Latest observed run:
-  - model: `openrouter/aurora-alpha`
-  - `ok: 33`
-  - `skipped_existing: 146`
-  - `failed: 0`
+2. Context bundle
+- Script: `scripts/research/prepare_context_bundle.py`
+- npm: `npm run catalog:context`
 
-3. Missing media checklist
-- File: `catalog/issues/missing-media-checklist.md`
-- Generated checklist exists with unchecked items for missing preview apps.
+3. AI summaries
+- Script: `scripts/research/summarize_hyp_files_openrouter.py`
+- npm: `npm run catalog:summarize`
 
-4. Media organization
-- Raw copied media:
-  - `catalog/discord/hyp_media_raw/`
-- Optimized media:
-  - `catalog/discord/hyp_media/`
-- Organized by source app/thread folder naming from research outputs.
+4. Explorer data build
+- Script: `scripts/catalog/build_explorer_data.py`
+- npm: `npm run explorer:build`
 
-## Important Note: YAGNI Manifest Simplification
+5. End-to-end local build (without media optimization)
+- npm: `npm run build:all`
 
-- A simplification pass to reduce per-app manifest fields was started but **not applied**.
-- Current `catalog/apps/*/manifest.json` is still the richer/verbose schema generated by `build_catalog.py`.
-- No lean one-manifest-per-app YAGNI schema has been finalized in code yet.
+## Commit + PR Execution Plan (Decision Complete)
 
-## What Failed Previously and Was Addressed
+Goal: avoid one giant mixed commit. Keep logic changes separate from mass-generated output and path migrations.
 
-1. Problem seen by user
-- Error during summarize runs:
-  - `Model output is not valid JSON`
+1. Commit A - script/tooling logic only
+- Stage only:
+  - `scripts/catalog/*.py`
+  - `scripts/research/*.py`
+  - `scripts/hyp_tool.py`
+  - `package.json` (if script wiring changed)
+  - `filename-mappings.csv` (if logic dependency)
+- Verify:
+  - `npm run catalog:dry-run`
+  - `npm run explorer:build`
 
-2. Mitigations now present
-- Structured outputs (`json_schema`)
-- Repair payload retry path
-- Failure dump files for debugging malformed responses
+2. Commit B - path/slug migration (structural)
+- Stage only structural app path transitions:
+  - `v2/apps/**` renames/adds/removals
+  - `catalog/apps/**` directory name normalization where applicable
+- Important: ensure there is one canonical path per app-id; remove duplicate underscore/hyphen parallel variants.
 
-## Runtime/Process Check
+3. Commit C - regenerated data artifacts
+- Stage generated outputs after one clean rebuild:
+  - `catalog/manifests/**`
+  - `catalog/data/explorer-data.json`
+  - `catalog/issues/missing-media-checklist.md`
+  - `catalog/apps/**/{manifest.json,ai-summary.json,card.json}`
+  - `catalog/generated_previews/**` (if intentionally tracked)
 
-At report creation, no active background process was detected for:
-- `summarize_hyp_files_openrouter.py`
-- `build_catalog.py`
-- `download_hyp_files.py`
-- `ffmpeg`
+4. Commit D - docs/handoff
+- Stage only docs:
+  - `catalog/AGENT_HANDOFF_REPORT.md`
+  - any README updates related to new flow/paths
 
-## Commands Used in This Workflow
+## Mandatory Validation Before PR
 
-From repo root `/home/jin/repo/hyperfy-apps`:
+1. Build checks
+- `npm run catalog:build`
+- `npm run explorer:build`
 
-1. Build/rebuild catalog:
-```bash
-npm run catalog:build
-```
+2. Data consistency checks
+- App counts align:
+  - `catalog/manifests/apps-manifest.json` apps == `catalog/data/explorer-data.json` total
+- Spot-check at least 10 random apps:
+  - `manifest.json` exists
+  - `ai-summary.json` exists (or intentional gap is documented)
+  - `card.json` exists
+  - preview/download/source fields resolve
 
-2. Build catalog dry-run:
-```bash
-npm run catalog:dry-run
-```
+3. Churn check
+- Re-run `npm run explorer:build` once and confirm no unexpected second-pass diff.
 
-3. Prepare context bundle:
-```bash
-npm run catalog:context
-```
+## PR Template Guidance
 
-4. Summarize apps with OpenRouter:
-```bash
-npm run catalog:summarize
-```
+Use this structure in the PR body:
 
-5. Summarize with lower concurrency (stability):
-```bash
-uv run python scripts/research/summarize_hyp_files_openrouter.py --concurrency 1 --max-retries 4
-```
+1. What changed
+- Explorer root layout under `catalog/`
+- Slug/path normalization (`v2/apps/<slug>`)
+- Summarization/model pipeline updates
+- Regenerated manifests/cards/explorer data
 
-6. Summarize without JSON schema mode (fallback):
-```bash
-uv run python scripts/research/summarize_hyp_files_openrouter.py --no-json-schema
-```
+2. Why
+- Make ingestion deterministic
+- Remove path inconsistencies and duplicate app identifiers
+- Improve agent-facing metadata quality
 
-## Recommended Next Actions for Checking Agent
+3. Risks
+- Rename-heavy diff can hide accidental deletions
+- Duplicate app-id variants (underscore/hyphen) if not fully normalized
+- Generated artifacts can obscure logic changes
 
-1. Validate current explorer uses `catalog/manifests/apps-manifest.json` and/or per-app manifests as intended.
-2. Implement the YAGNI manifest contract (lean per-app schema), then regenerate all manifests.
-3. Keep compatibility shim or migration script if explorer already consumes current verbose fields.
-4. Re-run `catalog:summarize` only for missing/outdated apps (`--force` selectively if needed).
-5. Triage `catalog/issues/missing-media-checklist.md` and backfill previews where possible.
-6. Confirm media optimization thresholds are acceptable for git hosting limits.
+4. Validation performed
+- List exact commands run and quick result summary
 
-## Suggested Lean Manifest Target (Not Yet Implemented)
+## Notes for Agent Triage
 
-Per-app `manifest.json` fields:
-- `id`
-- `slug`
-- `name`
-- `author`
-- `description`
-- `tags`
-- `created_at`
-- `hyp_file` (name/url)
-- `preview_media`
-- `media` (usable preview candidates only)
-- `source_messages` (message id/channel/raw text)
-- `files` (paths to summary/ai/v2 json)
-- `status` (has preview, needs review flags)
+1. Do not trust old path forms by default.
+- Prefer current canonical slugized paths.
 
-## Working Tree Snapshot (High-level)
+2. Treat `catalog/data/explorer-data.json` as explorer-facing contract.
+- `catalog/apps/*/card.json` is secondary per-app agent payload.
 
-Observed git status:
-- Modified: `.gitignore`, `package.json`
-- Untracked: `catalog/`, `scripts/`
+3. Keep commits small and reviewable.
+- If needed, split Commit B (migration) into smaller topical commits by directory prefix.
 
-This indicates the catalog/scripting work is present locally and not yet committed.
+## File references for this handoff
+- `catalog/AGENT_HANDOFF_REPORT.md`
+- `catalog/manifests/apps-manifest.json`
+- `catalog/manifests/ai-summary-report.json`
+- `catalog/data/explorer-data.json`
+- `scripts/catalog/build_catalog.py`
+- `scripts/catalog/build_explorer_data.py`
+- `scripts/research/summarize_hyp_files_openrouter.py`
