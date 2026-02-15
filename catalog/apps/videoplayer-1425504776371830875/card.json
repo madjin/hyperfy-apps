@@ -1,21 +1,20 @@
 {
   "name": "VideoPlayer",
   "author": "Valiant",
-  "description": "Enhanced video player supporting local files and HLS (.m3u8) live streams with multiplayer synchronization, configurable display surface, and audio controls.",
+  "description": "Plays video files or HLS (.m3u8) streams on a configurable surface node with adjustable width, height, fit, and volume. Syncs playback state across multiplayer clients using elapsed-time math for VOD and immediate play for live streams.",
   "tags": [
     "media-player",
+    "audio",
     "multiplayer",
-    "ui",
-    "environment"
+    "3d-model"
   ],
   "interaction_modes": [
-    "ui",
     "passive",
     "networked"
   ],
-  "asset_profile": "light",
+  "asset_profile": "medium",
   "script_complexity": "medium",
-  "networking": "shared_state",
+  "networking": "events",
   "preview_url": "catalog/generated_previews/videoplayer-1425504776371830875.png",
   "download_path": "v2-hyp/VideoPlayer.hyp",
   "created_at": "2025-10-08T15:27:03.285Z",

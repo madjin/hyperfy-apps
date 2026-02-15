@@ -1,16 +1,19 @@
 {
   "app_id": "rainv4-1359839641754275921",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T04:14:26+00:00",
-  "description": "Fix was attempted but no invalid JSON content was provided in the BAD_OUTPUT field",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:26:35+00:00",
+  "description": "Spawns up to 5000 raindrop particles that fall with configurable gravity and speed, then triggers ring-shaped splash effects on ground impact. A UI panel controls spawn rate, rain area radius, particle size, and toggles a grabbable cube for repositioning the rain emitter.",
   "feature_tags": [
-    "json_repair",
-    "error_handling"
+    "particles",
+    "ui",
+    "physics",
+    "environment",
+    "camera"
   ],
   "interaction_modes": [
-    "networked"
+    "passive"
   ],
-  "asset_profile": "medium",
+  "asset_profile": "light",
   "script_complexity": "high",
   "networking_profile": "none"
 }

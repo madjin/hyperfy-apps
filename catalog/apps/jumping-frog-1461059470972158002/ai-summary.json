@@ -1,18 +1,17 @@
 {
   "app_id": "jumping-frog-1461059470972158002",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T04:07:09+00:00",
-  "description": "A procedural animated frog character that continuously hops with squash-and-stretch physics, tongue-flicking animations, and randomized jump parameters. Built from geometric primitives with articulated legs and expressive eyes, serving as autonomous environmental decoration.",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:22:55+00:00",
+  "description": "Builds a procedural frog character from primitive spheres, cylinders, and boxes, then animates a looping hop cycle with squash-and-stretch scaling, hind-leg joint rotation, a red tongue flick at jump apex, and subtle eye bobbing on each frame.",
   "feature_tags": [
     "animation",
-    "3d-model",
-    "npc",
-    "environment"
+    "3d-model"
   ],
   "interaction_modes": [
-    "passive"
+    "passive",
+    "networked"
   ],
   "asset_profile": "light",
   "script_complexity": "medium",
-  "networking_profile": "none"
+  "networking_profile": "events"
 }

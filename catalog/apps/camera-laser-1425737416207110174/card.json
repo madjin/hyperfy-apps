@@ -1,18 +1,21 @@
 {
   "name": "CameraLaser",
   "author": "Shiffty",
-  "description": "This is a corrected placeholder JSON object since no actual bad output content was provided after the BAD_OUTPUT label.",
+  "description": "Equippable laser gun that shoots red laser beams from the camera direction. Players trigger an action to equip, then fire lasers on mouse click. Laser clones spawn via networked events, fade out over 3 seconds, and are cleaned up by the server.",
   "tags": [
-    "corrected",
-    "placeholder"
+    "combat",
+    "camera",
+    "interaction",
+    "multiplayer",
+    "3d-model"
   ],
   "interaction_modes": [
-    "passive",
-    "action"
+    "action",
+    "networked"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "low",
-  "networking": "none",
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking": "events",
   "preview_url": "catalog/discord/hyp_media/CameraLaser_1425737416207110174/p2_cannonballs.mp4",
   "download_path": "v2-hyp/CameraLaser.hyp",
   "created_at": "2025-10-09T06:51:28.944Z",

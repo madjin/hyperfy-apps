@@ -1,11 +1,14 @@
 {
   "name": "Curved_Video_Viewer",
   "author": "ash",
-  "description": "Input was empty - no JSON to fix",
+  "description": "Plays an MP4 or HLS video stream onto a curved 3D mesh by replacing the target mesh geometry with a video node. Supports configurable aspect ratio, cover/contain fit modes, looping, and double-sided rendering with shadow casting.",
   "tags": [
-    "unclassified"
+    "media-player",
+    "3d-model"
   ],
-  "interaction_modes": [],
+  "interaction_modes": [
+    "passive"
+  ],
   "asset_profile": "light",
   "script_complexity": "low",
   "networking": "none",

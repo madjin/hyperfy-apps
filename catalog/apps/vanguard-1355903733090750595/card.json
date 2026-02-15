@@ -1,18 +1,22 @@
 {
   "name": "Vanguard",
   "author": "ash",
-  "description": "My First App",
+  "description": "Class-based PvPvE combat character that equips a VRM avatar and sword weapon, triggers attack/charge/special emotes with audio, damages nearby players via overlapSphere hit detection, and renders an energy-based action bar UI with configurable crit damage.",
   "tags": [
-    "feature_1",
-    "feature_2"
+    "combat",
+    "audio",
+    "animation",
+    "ui",
+    "multiplayer",
+    "3d-model"
   ],
   "interaction_modes": [
     "ui",
     "networked"
   ],
-  "asset_profile": "light",
-  "script_complexity": "low",
-  "networking": "none",
+  "asset_profile": "heavy",
+  "script_complexity": "high",
+  "networking": "events",
   "preview_url": "catalog/discord/hyp_media/Vanguard_1355903733090750595/m6_xyz-skelly.mp4",
   "download_path": "v2-hyp/Vanguard.hyp",
   "created_at": "2025-03-30T13:57:21.442Z",

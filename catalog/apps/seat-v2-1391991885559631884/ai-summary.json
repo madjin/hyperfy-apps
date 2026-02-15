@@ -1,13 +1,21 @@
 {
   "app_id": "seat-v2-1391991885559631884",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T04:16:48+00:00",
-  "description": "Error: No malformed JSON content was provided after the BAD_OUTPUT label to fix. Please provide the invalid JSON that needs correction.",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:27:52+00:00",
+  "description": "Interactive seat that anchors a player to a configurable sitting position and triggers one of four selectable sitting emotes. Syncs occupancy state via server networking, displays a hover UI image on pointer enter, and supports both hold-action and click-pointer interaction modes with adjustable dis",
   "feature_tags": [
-    "unclassified"
+    "interaction",
+    "animation",
+    "ui",
+    "3d-model",
+    "multiplayer"
   ],
-  "interaction_modes": [],
-  "asset_profile": "light",
-  "script_complexity": "low",
-  "networking_profile": "none"
+  "interaction_modes": [
+    "action",
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "events"
 }

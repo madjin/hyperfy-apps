@@ -1,17 +1,13 @@
 {
   "app_id": "fire-1361904724433174649",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T04:02:52+00:00",
-  "description": "A particle system visualization demonstrating fire effects with configurable textures. Features cone emission, additive blending, and color gradients over particle lifetime. Includes commented examples for advanced bursts and world-space spawning. Useful as a reference implementation for Hyperfy's p",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:20:39+00:00",
+  "description": "Spawns a cone-shaped fire particle emitter using additive blending, with color transitioning from red to orange to black over lifetime. Renders particles with configurable texture image, size scaling, and rotation curves for a realistic flame effect.",
   "feature_tags": [
     "particles",
-    "environment",
-    "animation",
-    "3d-model",
-    "ui"
+    "3d-model"
   ],
   "interaction_modes": [
-    "ui",
     "passive"
   ],
   "asset_profile": "light",

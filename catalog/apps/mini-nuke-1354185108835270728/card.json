@@ -1,18 +1,24 @@
 {
   "name": "MINI-Nuke",
   "author": "~/drdoge.eth",
-  "description": "Example application description",
+  "description": "Interactive mini-nuke weapon that detonates on player action, spawning radiation particle clouds with \u2622 symbols, playing explosion and Geiger counter audio, and dealing periodic radiation damage to nearby players within a configurable blast radius.",
   "tags": [
-    "productivity",
-    "utilities"
+    "particles",
+    "audio",
+    "combat",
+    "interaction",
+    "ui",
+    "3d-model"
   ],
   "interaction_modes": [
     "action",
-    "action"
+    "trigger",
+    "ui",
+    "networked"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "low",
-  "networking": "none",
+  "asset_profile": "heavy",
+  "script_complexity": "high",
+  "networking": "events",
   "preview_url": "catalog/discord/hyp_media/MINI-Nuke_1354185108835270728/m4_image.png",
   "download_path": "v2-hyp/MINI-Nuke.hyp",
   "created_at": "2025-03-25T20:08:09.489Z",

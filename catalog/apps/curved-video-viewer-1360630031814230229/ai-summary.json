@@ -1,18 +1,16 @@
 {
   "app_id": "curved-video-viewer-1360630031814230229",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T04:01:05+00:00",
-  "description": "Video streaming application with AI-powered content recommendations",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:19:31+00:00",
+  "description": "Renders video onto a curved 3D mesh by replacing a named target object with a video node. Supports mp4 files and HLS (m3u8) streams, with configurable aspect ratio, fit mode (cover/contain/none), and loop toggle. Plays the video automatically on the client side.",
   "feature_tags": [
-    "streaming",
-    "ai_recommendations",
-    "offline_mode"
+    "media-player",
+    "3d-model"
   ],
   "interaction_modes": [
-    "passive",
     "passive"
   ],
-  "asset_profile": "heavy",
-  "script_complexity": "high",
-  "networking_profile": "events"
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none"
 }

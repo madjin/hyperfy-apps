@@ -1,21 +1,18 @@
 {
   "app_id": "rover-ringedplanet-1339121960759721996",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T04:15:53+00:00",
-  "description": "Remixed space trading sim based on Metamike's Rover+Loot. Features autonomous patrolling drone behavior with health/cargo stats, proximity detection, resource transfer mechanics, and floating UI. Collectron-style NPC with configurable perception, movement, and depletion/regen systems.",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:27:25+00:00",
+  "description": "Autonomous collectron ship that patrols a bounded area around a ringed planet, scans for nearby items via a perception system, and renders billboard UI stat bars tracking Ship Stability and Cargo Profitability as they deplete over time. Emits ping and resource-transfer events to coordinate with othe",
   "feature_tags": [
-    "vehicle",
     "npc",
     "ui",
+    "3d-model",
     "interaction",
-    "simulation",
-    "3d-model"
+    "environment"
   ],
   "interaction_modes": [
     "ui",
-    "passive",
-    "networked",
-    "action"
+    "networked"
   ],
   "asset_profile": "medium",
   "script_complexity": "high",

@@ -1,20 +1,16 @@
 {
   "app_id": "rom2-1355042999578660955",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-14T19:46:35+00:00",
-  "description": "A customizable 3D ROM cartridge display with configurable name label and rainbow color selection. Features a UI panel showing the ROM name with adjustable font and background, plus material color shifting via texture coordinate manipulation.",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:27:14+00:00",
+  "description": "Renders a configurable ROM cartridge 3D model with a UI text label displaying the rom name and adjusts material texture offsets to switch between seven color variants (Red, Orange, Yellow, Green, Blue, Indigo, Violet) via a dropdown prop.",
   "feature_tags": [
     "ui",
-    "3d-model",
-    "interaction",
-    "animation",
-    "building"
+    "3d-model"
   ],
   "interaction_modes": [
-    "ui",
-    "passive"
+    "ui"
   ],
   "asset_profile": "light",
-  "script_complexity": "medium",
+  "script_complexity": "low",
   "networking_profile": "none"
 }

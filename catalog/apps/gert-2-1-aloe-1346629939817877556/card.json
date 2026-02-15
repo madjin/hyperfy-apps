@@ -1,20 +1,16 @@
 {
   "name": "Gert-2-1-aloe",
   "author": "0mka",
-  "description": "Procedurally distributes Aloe Vera plant clones within a configurable area. Users control clone count, area dimensions (X/Z), and min/max size randomization for natural-looking vegetation placement.",
+  "description": "Spawns configurable Aloe Vera plant clones across a rectangular area, randomizing position, Y-axis rotation, and uniform scale for each 3D model instance. Users configure clone count, area width/depth, and min/max size through a UI panel.",
   "tags": [
-    "environment",
     "3d-model",
-    "ui",
-    "procedural",
-    "vegetation",
-    "building"
+    "environment",
+    "ui"
   ],
   "interaction_modes": [
-    "ui",
     "passive"
   ],
-  "asset_profile": "light",
+  "asset_profile": "medium",
   "script_complexity": "low",
   "networking": "none",
   "preview_url": "catalog/generated_previews/gert-2-1-aloe-1346629939817877556.png",

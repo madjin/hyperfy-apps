@@ -1,16 +1,18 @@
 {
   "name": "Notifications",
   "author": "Lastraum - theforgecore.xyz",
-  "description": "Placeholder valid JSON",
+  "description": "Renders a screen-space UI notification panel that animates slide-in/slide-out. Listens for world events via a configurable message key and queues incoming messages with optional color, fontSize, and timer. The panel auto-scales the 3D model to zero so nothing shows in-world.",
   "tags": [
-    "placeholder"
+    "ui",
+    "animation"
   ],
   "interaction_modes": [
-    "passive"
+    "ui",
+    "networked"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "low",
-  "networking": "local",
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking": "events",
   "preview_url": "catalog/generated_previews/notifications-1376587859414356008.png",
   "download_path": "v2-hyp/Notifications.hyp",
   "created_at": "2025-05-26T15:48:41.450Z",

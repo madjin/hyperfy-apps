@@ -1,22 +1,20 @@
 {
   "name": "RocketGlobalColl",
   "author": "Gert-Jan Akerboom",
-  "description": "An interactive networked rocket launcher with collision physics, particle exhaust effects, and synchronized launch/respawn animations controlled via action button.",
+  "description": "Interactive rocket launcher that triggers a globally synced launch sequence with additive exhaust particles. Players activate an action node to launch the rocket mesh skyward with quadratic easing, then it respawns by rising smoothly from underground after a timed delay.",
   "tags": [
     "particles",
     "animation",
-    "physics",
     "interaction",
     "multiplayer",
     "3d-model"
   ],
   "interaction_modes": [
     "action",
-    "networked",
-    "ui"
+    "networked"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "high",
+  "asset_profile": "light",
+  "script_complexity": "medium",
   "networking": "events",
   "preview_url": "catalog/generated_previews/rocket-global-coll-1437796842313355295.png",
   "download_path": "v2-hyp/RocketGlobalColl.hyp",

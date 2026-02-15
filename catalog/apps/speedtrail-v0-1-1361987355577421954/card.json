@@ -1,17 +1,13 @@
 {
   "name": "SpeedTrail_v0.1",
   "author": "Valiant",
-  "description": "Client-side player speed trail visualizer that spawns particle effects behind moving avatars. Features configurable trail density, landing burst effects, and speed-based scaling. Currently work-in-progress with known issues on landing detection.",
+  "description": "Spawns dust-like trail particles behind the local player when moving on the ground, and triggers a radial particle burst on landing. Uses raycasts to detect ground distance and fall velocity, with configurable speed thresholds, spread, zigzag motion, and lifetime. Client-only; not synced to other pl",
   "tags": [
     "particles",
-    "animation",
-    "environment",
-    "ui",
-    "3d-model"
+    "physics"
   ],
   "interaction_modes": [
-    "passive",
-    "ui"
+    "passive"
   ],
   "asset_profile": "light",
   "script_complexity": "high",

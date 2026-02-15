@@ -1,17 +1,14 @@
 {
   "name": "Model",
   "author": "ash",
-  "description": "Utility app that auto-enables physics collisions for imported GLB models. Features UI-configurable scale and collision toggle, dynamically generating rigidbodies and geometry colliders on placement.",
+  "description": "Loads a GLB 3D model and traverses its mesh nodes to create a rigidbody with geometry-based colliders for each mesh. Exposes configurable scale and a collision toggle switch via the app UI, enabling quick physics-ready placement of custom models.",
   "tags": [
     "3d-model",
     "physics",
-    "utility",
-    "ui",
-    "environment"
+    "ui"
   ],
   "interaction_modes": [
-    "ui",
-    "passive"
+    "trigger"
   ],
   "asset_profile": "light",
   "script_complexity": "medium",

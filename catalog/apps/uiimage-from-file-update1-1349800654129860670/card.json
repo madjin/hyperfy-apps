@@ -1,17 +1,13 @@
 {
   "name": "uiImage_from_File-update1",
   "author": "0mka",
-  "description": "A configurable UI panel that displays images from file uploads or URLs with customizable dimensions, positioning, and styling. Supports various image fit modes (contain, cover, fill) and billboard rendering for 3D world placement.",
+  "description": "Renders a configurable UI panel that displays a user-uploaded image file (jpg/png/webp) with adjustable width, height, object-fit mode, and 3D position. Creates uiview and uiimage nodes, supports billboard mode, and exposes range/number props for sizing and placement.",
   "tags": [
     "ui",
-    "media-player",
-    "3d-model",
-    "interaction",
-    "environment"
+    "3d-model"
   ],
   "interaction_modes": [
-    "ui",
-    "passive"
+    "ui"
   ],
   "asset_profile": "light",
   "script_complexity": "low",

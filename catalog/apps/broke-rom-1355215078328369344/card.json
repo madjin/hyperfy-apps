@@ -1,13 +1,13 @@
 {
   "name": "broke-rom",
   "author": "general hyper",
-  "description": "No bad output content was provided after 'BAD_OUTPUT:' to fix. Please provide the invalid JSON that needs correction.",
+  "description": "Renders a configurable 3D ROM cartridge model and shifts its mesh texture UV coordinates based on a color dropdown selection, unlinking the mesh and material to apply per-instance tinting across seven color options including red, green, blue, and violet.",
   "tags": [
-    "error",
-    "missing_input"
+    "3d-model",
+    "ui"
   ],
   "interaction_modes": [
-    "networked"
+    "passive"
   ],
   "asset_profile": "light",
   "script_complexity": "low",

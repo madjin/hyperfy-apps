@@ -1,17 +1,16 @@
 {
   "name": "VideoEnhanced",
   "author": "3rdEyeVisuals",
-  "description": "Example application for demonstration purposes",
+  "description": "Renders a video screen with configurable shape options (including oval) and a toggleable lit/unlit mode. Displays media on selectable geometric surfaces, allowing users to switch between shapes and lighting states via UI controls.",
   "tags": [
-    "productivity",
-    "utilities"
+    "media-player",
+    "ui",
+    "3d-model",
+    "interaction"
   ],
-  "interaction_modes": [
-    "passive",
-    "action"
-  ],
-  "asset_profile": "light",
-  "script_complexity": "low",
+  "interaction_modes": [],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
   "networking": "none",
   "preview_url": "catalog/generated_previews/videoenhanced-1433071172739928135.png",
   "download_path": "v2-hyp/VideoEnhanced.hyp",

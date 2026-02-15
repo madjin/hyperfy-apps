@@ -1,14 +1,21 @@
 {
   "name": "GroupieV1",
   "author": "b34k3r",
-  "description": "A Hyperfy app.",
+  "description": "Collectron NPC that patrols a configurable radius, detects nearby items, and follows players via chat commands. Animates idle, walk, and search states on a VRM avatar. Renders Pip-Boy-style UI bars tracking health and loot depletion over time, and responds to chat with status reports.",
   "tags": [
-    "unclassified"
+    "npc",
+    "animation",
+    "ui",
+    "interaction",
+    "3d-model"
   ],
-  "interaction_modes": [],
+  "interaction_modes": [
+    "ui",
+    "networked"
+  ],
   "asset_profile": "medium",
-  "script_complexity": "low",
-  "networking": "none",
+  "script_complexity": "high",
+  "networking": "events",
   "preview_url": "catalog/generated_previews/groupiev1-1426847075219275808.png",
   "download_path": "v2-hyp/GroupieV1.hyp",
   "created_at": "2025-10-12T08:20:52.269Z",

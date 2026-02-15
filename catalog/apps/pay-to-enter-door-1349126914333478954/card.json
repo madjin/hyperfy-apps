@@ -1,14 +1,21 @@
 {
   "name": "PAY_TO_ENTER_DOOR",
   "author": "peezy",
-  "description": "Missing content to fix. The BAD_OUTPUT field was empty in the request.",
+  "description": "Animated door that triggers open after a Solana SPL token payment. Supports sliding and swinging modes with configurable direction, distance, and swing angle. Renders a billboard UI panel showing the token price, checks wallet balance, and auto-closes the door after a timer expires.",
   "tags": [
-    "unclassified"
+    "ui",
+    "animation",
+    "interaction",
+    "3d-model"
   ],
-  "interaction_modes": [],
-  "asset_profile": "light",
-  "script_complexity": "low",
-  "networking": "none",
+  "interaction_modes": [
+    "action",
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "high",
+  "networking": "events",
   "preview_url": "catalog/generated_previews/pay-to-enter-door-1349126914333478954.jpg",
   "download_path": "v2-hyp/PAY_TO_ENTER_DOOR.hyp",
   "created_at": "2025-03-11T21:08:41.943Z",

@@ -1,20 +1,18 @@
 {
   "app_id": "butterfly-swarm-v5-1354102502055743531",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-14T19:37:23+00:00",
-  "description": "Configurable 3D butterfly swarm generator with animated wing flapping and flight patterns. Features UI controls for butterfly count (1-5000), random scaling, flap speed, and fly speed. Clones wing nodes to create varied ambient environmental effects.",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:18:17+00:00",
+  "description": "Spawns up to 5000 butterfly clones from a GLB wing model and animates their wing flapping, sinusoidal flight paths, and drift movement each frame. Configurable UI controls adjust butterfly count, random scale range, flap speed, and fly speed. Clamps Y position so butterflies never fly below ground.",
   "feature_tags": [
-    "environment",
     "animation",
-    "particles",
     "3d-model",
+    "environment",
     "ui"
   ],
   "interaction_modes": [
-    "passive",
-    "ui"
+    "passive"
   ],
-  "asset_profile": "light",
+  "asset_profile": "medium",
   "script_complexity": "medium",
   "networking_profile": "none"
 }

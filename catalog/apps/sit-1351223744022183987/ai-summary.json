@@ -1,14 +1,13 @@
 {
   "app_id": "sit-1351223744022183987",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-14T21:58:23+00:00",
-  "description": "A configurable seat app that allows players to sit with custom emotes. Features visibility toggle, networked seat occupancy state, and cancellable emote effects. Inspired by legacy v1 seat systems.",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:28:17+00:00",
+  "description": "Renders a seat 3D model with an action button that lets a player sit down by anchoring them and playing a sitting emote animation. Syncs seat occupancy between server and clients so only one player sits at a time, and supports toggling trigger visibility.",
   "feature_tags": [
     "interaction",
     "animation",
-    "multiplayer",
-    "ui",
-    "3d-model"
+    "3d-model",
+    "multiplayer"
   ],
   "interaction_modes": [
     "action",
@@ -16,5 +15,5 @@
   ],
   "asset_profile": "medium",
   "script_complexity": "medium",
-  "networking_profile": "shared_state"
+  "networking_profile": "events"
 }

@@ -1,17 +1,16 @@
 {
   "app_id": "text-link-option-1426147798776152144",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T04:20:06+00:00",
-  "description": "Background task for syncing user data with external CRM",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:29:37+00:00",
+  "description": "Renders a configurable UI text panel with customizable size, color, alignment, background, and padding. Triggers world.open to navigate to an optional URL on pointer down, turning the text surface into a clickable link.",
   "feature_tags": [
-    "background-processing",
-    "crm-integration",
-    "data-sync"
+    "ui",
+    "interaction"
   ],
   "interaction_modes": [
-    "passive"
+    "ui"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "high",
-  "networking_profile": "shared_state"
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none"
 }

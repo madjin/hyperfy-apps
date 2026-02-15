@@ -1,21 +1,19 @@
 {
-  "app_id": "npc_prisoner-1426847075219275808",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T04:11:04+00:00",
-  "description": "L'application est un petit jeu de type catch-the-ball, tr\u00e8s bien adapt\u00e9 au temps de pause.",
+  "app_id": "npc-prisoner-1426847075219275808",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:25:00+00:00",
+  "description": "Spawns a prisoner NPC with a VRM avatar that autonomously walks, idles, and talks using emote animations. A physics controller moves the character with gravity, pseudo-random direction changes, and smooth quaternion slerp rotation to face the current heading.",
   "feature_tags": [
-    "jeu",
-    "casual",
-    "d\u00e9tente",
-    "arcade",
-    "offline"
+    "npc",
+    "animation",
+    "physics",
+    "3d-model"
   ],
   "interaction_modes": [
-    "trigger",
-    "trigger",
-    "trigger"
+    "passive",
+    "networked"
   ],
-  "asset_profile": "light",
-  "script_complexity": "low",
-  "networking_profile": "none"
+  "asset_profile": "heavy",
+  "script_complexity": "medium",
+  "networking_profile": "events"
 }

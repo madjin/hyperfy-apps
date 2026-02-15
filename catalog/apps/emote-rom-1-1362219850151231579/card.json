@@ -1,16 +1,15 @@
 {
   "name": "Emote_Rom_1",
   "author": "~/drdoge.eth",
-  "description": "Networked emote player triggered by numpad keys 0-9. Displays emoji indicators above players and synchronizes animations across clients. Configurable emote slots with custom animations and duration.",
+  "description": "Emote player ROM that triggers up to 10 configurable emote animations via numpad keys, syncs playback across multiplayer clients using server broadcast, and renders a floating emoji UI billboard above each player during the emote duration.",
   "tags": [
     "animation",
-    "multiplayer",
     "ui",
+    "multiplayer",
     "interaction",
     "3d-model"
   ],
   "interaction_modes": [
-    "action",
     "ui",
     "networked"
   ],

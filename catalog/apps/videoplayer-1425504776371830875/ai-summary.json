@@ -1,20 +1,19 @@
 {
   "app_id": "videoplayer-1425504776371830875",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T04:21:33+00:00",
-  "description": "Enhanced video player supporting local files and HLS (.m3u8) live streams with multiplayer synchronization, configurable display surface, and audio controls.",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:30:39+00:00",
+  "description": "Plays video files or HLS (.m3u8) streams on a configurable surface node with adjustable width, height, fit, and volume. Syncs playback state across multiplayer clients using elapsed-time math for VOD and immediate play for live streams.",
   "feature_tags": [
     "media-player",
+    "audio",
     "multiplayer",
-    "ui",
-    "environment"
+    "3d-model"
   ],
   "interaction_modes": [
-    "ui",
     "passive",
     "networked"
   ],
-  "asset_profile": "light",
+  "asset_profile": "medium",
   "script_complexity": "medium",
-  "networking_profile": "shared_state"
+  "networking_profile": "events"
 }

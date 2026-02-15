@@ -1,16 +1,12 @@
 {
   "name": "360_Video_Viewer",
   "author": "ash",
-  "description": "A 360-degree video player that renders immersive spherical video inside a sphere geometry. Users stand on a central platform while video plays on the inner surface. Supports local video files and m3u8 streaming sources.",
+  "description": "Renders 360-degree video onto an inverted sphere mesh, allowing users to stand on a central platform and view immersive panoramic footage. Creates a video node mapped to the sphere's geometry with 2:1 aspect ratio and plays it in a looping mode. Supports uploaded files and m3u8 streams.",
   "tags": [
     "media-player",
-    "environment",
-    "ui",
-    "3d-model",
-    "interaction"
+    "3d-model"
   ],
   "interaction_modes": [
-    "ui",
     "passive"
   ],
   "asset_profile": "light",

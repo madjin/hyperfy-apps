@@ -1,18 +1,21 @@
 {
   "app_id": "builder-drone-x501-1356441740357406801",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T03:56:59+00:00",
-  "description": "A controllable drone that enables first-person flying mode for building. Players activate a 'Fly' action to pilot the drone with WASD/space controls while the camera follows, syncing position and rotation across the network.",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:17:16+00:00",
+  "description": "Flyable builder drone that captures keyboard and mouse input to let a player pilot a 3D drone model in first-person camera mode. Animates spinning rotors, syncs position and quaternion across clients via networked state, and releases control on disconnect or keypress.",
   "feature_tags": [
-    "vehicle",
     "camera",
-    "building"
+    "physics",
+    "animation",
+    "interaction",
+    "multiplayer",
+    "3d-model"
   ],
   "interaction_modes": [
-    "passive",
-    "passive"
+    "action",
+    "networked"
   ],
-  "asset_profile": "medium",
+  "asset_profile": "light",
   "script_complexity": "high",
-  "networking_profile": "shared_state"
+  "networking_profile": "events"
 }

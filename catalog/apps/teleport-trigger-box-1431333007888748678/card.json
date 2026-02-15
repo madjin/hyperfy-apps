@@ -1,19 +1,18 @@
 {
   "name": "TeleportTriggerBox",
   "author": "\ud835\udd7d\ud835\udd94\ud835\udd9a\ud835\udd98\ud835\udd99\ud835\udd86\ud835\udd93",
-  "description": "A customizable 3D trigger box that teleports players to specified XYZ coordinates upon entry. Features configurable destination, visibility toggle, and scalable dimensions via the properties panel.",
+  "description": "Spawns a customizable trigger zone that teleports players to a configurable X,Y,Z destination on entry. Creates a rigidbody with a geometry collider set as a trigger, and uses onTriggerEnter to call player.teleport. The box mesh can be toggled visible or hidden and scaled along each axis via props.",
   "tags": [
     "teleport",
-    "interaction",
     "physics",
-    "ui"
+    "interaction",
+    "3d-model"
   ],
   "interaction_modes": [
-    "trigger",
-    "ui"
+    "trigger"
   ],
   "asset_profile": "light",
-  "script_complexity": "low",
+  "script_complexity": "medium",
   "networking": "none",
   "preview_url": "catalog/generated_previews/teleport-trigger-box-1431333007888748678.jpg",
   "download_path": "v2-hyp/TeleportTriggerBox.hyp",

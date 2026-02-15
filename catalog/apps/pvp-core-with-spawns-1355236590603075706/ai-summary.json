@@ -1,20 +1,20 @@
 {
   "app_id": "pvp-core-with-spawns-1355236590603075706",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T04:13:15+00:00",
-  "description": "PvP combat core with configurable spawn points, death emote playback, heal-over-time, and floating damage numbers. Server monitors player health to trigger death effects and random respawns, while clients display damage UI.",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:25:57+00:00",
+  "description": "PvP combat core that watches player health events and triggers a death emote animation with freeze, then teleports the player to a random spawn point. Heals all players over time on the server and renders floating damage numbers as billboard UI text on the client, with crit styling in red.",
   "feature_tags": [
     "combat",
-    "multiplayer",
+    "animation",
     "ui",
-    "animation"
+    "teleport",
+    "multiplayer"
   ],
   "interaction_modes": [
-    "passive",
     "ui",
     "networked"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "high",
-  "networking_profile": "shared_state"
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "events"
 }

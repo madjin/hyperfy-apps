@@ -1,23 +1,20 @@
 {
   "name": "HyperPortal_with_Set",
   "author": "0mka",
-  "description": "A configurable teleportation portal. Place the entry point, walk to the desired exit location, and click 'Set' in the inspect pane to bind coordinates. Players entering the portal trigger are instantly teleported to the saved destination. Admin-only configuration.",
+  "description": "Portal trigger zone that teleports players to an admin-configurable destination. Admins click a 'Set' button in the inspect UI to store their current position on the server, and any player entering the portal collider is teleported to that saved location.",
   "tags": [
     "teleport",
-    "ui",
     "interaction",
-    "multiplayer",
-    "environment",
+    "ui",
     "3d-model"
   ],
   "interaction_modes": [
-    "trigger",
-    "ui",
+    "passive",
     "networked"
   ],
   "asset_profile": "light",
   "script_complexity": "medium",
-  "networking": "shared_state",
+  "networking": "events",
   "preview_url": "catalog/generated_previews/hyperportal-with-set-1349789440293474304.png",
   "download_path": "v2-hyp/HyperPortal_with_Set.hyp",
   "created_at": "2025-03-13T17:01:20.441Z",

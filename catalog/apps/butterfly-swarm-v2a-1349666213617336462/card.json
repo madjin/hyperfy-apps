@@ -1,16 +1,17 @@
 {
   "name": "Butterfly_Swarm_V2a",
   "author": "Gert-Jan Akerboom",
-  "description": "Classifies the user utterance into one of the supported intents",
+  "description": "Spawns a swarm of 100 butterfly clones by cloning wing GLB nodes, then animates each butterfly with randomized flapping, sinusoidal drifting, and positional movement on every update tick. Each clone receives random scale, speed, and drift parameters for organic flight behavior.",
   "tags": [
-    "nlp",
-    "text_classification"
+    "animation",
+    "3d-model",
+    "environment"
   ],
   "interaction_modes": [
-    "trigger"
+    "passive"
   ],
   "asset_profile": "medium",
-  "script_complexity": "low",
+  "script_complexity": "medium",
   "networking": "none",
   "preview_url": "catalog/generated_previews/butterfly-swarm-v2a-1349666213617336462.jpg",
   "download_path": "v2-hyp/Butterfly_Swarm_V2a.hyp",

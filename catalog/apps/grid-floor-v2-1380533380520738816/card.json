@@ -1,11 +1,10 @@
 {
   "name": "Grid_Floor_v2",
   "author": "ash",
-  "description": "A lightweight grid floor asset positioned 0.03 units above ground to prevent z-fighting. Includes textured GLB model and minimal positioning script. Designed as a reusable environmental building block for Hyperfy worlds.",
+  "description": "Renders a world-scale grid floor using a Kenney prototype texture on a GLB model and positions it slightly above the origin at y=0.03. Serves as a simple environment base tile for scene building.",
   "tags": [
-    "environment",
-    "building",
-    "3d-model"
+    "3d-model",
+    "environment"
   ],
   "interaction_modes": [
     "passive"

@@ -1,20 +1,17 @@
 {
   "name": "hexagonal_test_basic",
   "author": "cru",
-  "description": "Interactive hexagonal floor panels that react to player contact with physical depression, animated UV color transitions, and idle oscillation. Features configurable shift distance, speed, and oscillation parameters. Designed for mini-games.",
+  "description": "Hexagonal floor panels that react to player contact by oscillating vertically and scrolling UV offsets to cycle colors. Each panel shifts downward when stepped on and smoothly returns to an idle sine-wave oscillation when released, with configurable amplitude, frequency, and scroll speed.",
   "tags": [
-    "interaction",
     "animation",
-    "physics",
-    "environment",
+    "interaction",
     "3d-model"
   ],
   "interaction_modes": [
-    "trigger",
     "passive"
   ],
   "asset_profile": "medium",
-  "script_complexity": "high",
+  "script_complexity": "medium",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/hexagonal_test_basic_1355683928421171290/p0_image.png",
   "download_path": "v2-hyp/hexagonal_test_basic.hyp",

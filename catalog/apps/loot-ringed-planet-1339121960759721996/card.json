@@ -1,17 +1,19 @@
 {
   "name": "Loot-Ringed_Planet",
   "author": "maximus",
-  "description": "No invalid JSON was provided after 'BAD_OUTPUT:'. Please paste the malformed JSON content that requires correction.",
+  "description": "Renders a rotating ringed planet GLB model that acts as a collectible loot item in a space trading sim. Animates continuous Y-axis rotation on update, listens for proximity-check events to trigger collection by a collectron, and emits item-detected and pong events for cross-app communication.",
   "tags": [
-    "error",
-    "missing_input"
+    "3d-model",
+    "animation",
+    "interaction"
   ],
   "interaction_modes": [
+    "passive",
     "networked"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "low",
-  "networking": "shared_state",
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking": "events",
   "preview_url": "catalog/discord/hyp_media/Loot-Ringed_Planet_1339121960759721996/p0_vt01.png",
   "download_path": "v2-hyp/Loot-Ringed_Planet.hyp",
   "created_at": "2025-02-12T06:32:35.128Z",

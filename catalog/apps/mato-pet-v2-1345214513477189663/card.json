@@ -1,18 +1,21 @@
 {
   "name": "Mato_Pet_v2",
   "author": "~/MayD524/Hyperfy",
-  "description": "Test application",
+  "description": "Spawns a VRM pet companion that follows a target player using configurable follow speed and avoidance distance. Animates idle, walking, and sitting emotes via networked state sync. Uses a modular GameObject framework with lerped position/quaternion interpolation and ownership transfer across server ",
   "tags": [
-    "analytics",
-    "cloud_sync"
+    "npc",
+    "animation",
+    "multiplayer",
+    "3d-model",
+    "interaction"
   ],
   "interaction_modes": [
-    "ui",
-    "trigger"
+    "action",
+    "networked"
   ],
   "asset_profile": "medium",
-  "script_complexity": "low",
-  "networking": "local",
+  "script_complexity": "high",
+  "networking": "events",
   "preview_url": "catalog/discord/hyp_media/Mato_Pet_v2_1345214513477189663/p2_image.png",
   "download_path": "v2-hyp/Mato_Pet_v2.hyp",
   "created_at": "2025-03-01T02:02:12.890Z",

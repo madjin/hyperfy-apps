@@ -1,17 +1,21 @@
 {
   "app_id": "vanguard-1355903733090750595",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T04:21:13+00:00",
-  "description": "My First App",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:30:20+00:00",
+  "description": "Class-based PvPvE combat character that equips a VRM avatar and sword weapon, triggers attack/charge/special emotes with audio, damages nearby players via overlapSphere hit detection, and renders an energy-based action bar UI with configurable crit damage.",
   "feature_tags": [
-    "feature_1",
-    "feature_2"
+    "combat",
+    "audio",
+    "animation",
+    "ui",
+    "multiplayer",
+    "3d-model"
   ],
   "interaction_modes": [
     "ui",
     "networked"
   ],
-  "asset_profile": "light",
-  "script_complexity": "low",
-  "networking_profile": "none"
+  "asset_profile": "heavy",
+  "script_complexity": "high",
+  "networking_profile": "events"
 }

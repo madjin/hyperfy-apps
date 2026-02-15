@@ -1,16 +1,20 @@
 {
-  "app_id": "raptor_random_loc-1364946963270991875",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T04:14:37+00:00",
-  "description": "The previous model output was empty or missing, so this placeholder JSON object is provided as a valid response.",
+  "app_id": "raptor-random-loc-1364946963270991875",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:26:47+00:00",
+  "description": "Spawns an NPC raptor avatar that randomly transitions between walk, run, idle, and talk emote states. Each instance picks a unique random initial state and drifts direction with range-limiting logic. Renders a billboarded UI label displaying the controller's live world position and rotation coordina",
   "feature_tags": [
-    "json_validation",
-    "schema_compliance"
+    "npc",
+    "animation",
+    "ui",
+    "physics",
+    "3d-model"
   ],
   "interaction_modes": [
-    "passive"
+    "ui",
+    "networked"
   ],
-  "asset_profile": "light",
-  "script_complexity": "low",
-  "networking_profile": "none"
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "events"
 }

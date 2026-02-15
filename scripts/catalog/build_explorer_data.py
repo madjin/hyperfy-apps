@@ -29,23 +29,15 @@ GENERATED_PREVIEWS_DIR = CATALOG_ROOT / "generated_previews"
 V2_APPS_DIR = REPO_ROOT / "v2" / "apps"
 V2_ASSETS_DIR = REPO_ROOT / "v2" / "assets"
 
-# Import TAG_CANONICAL from summarize script for consistent normalization
+# Import ALLOWED_TAGS from summarize script for consistent tag filtering
 import sys
 sys.path.insert(0, str(REPO_ROOT / "scripts" / "research"))
-from summarize_hyp_files_openrouter import TAG_CANONICAL
+from summarize_hyp_files_openrouter import ALLOWED_TAGS
 
 
 def normalize_tags(tags: list[str]) -> list[str]:
-    """Normalize and deduplicate tags using canonical mappings."""
-    seen: set[str] = set()
-    result: list[str] = []
-    for tag in tags:
-        t = tag.strip().lower()
-        canonical = TAG_CANONICAL.get(t, t)
-        if canonical and canonical not in seen:
-            seen.add(canonical)
-            result.append(canonical)
-    return result[:6]
+    """Deduplicate tags, filtering to allowed set."""
+    return list(dict.fromkeys(t.strip() for t in tags if t.strip() in ALLOWED_TAGS))[:6]
 
 
 def now_iso() -> str:

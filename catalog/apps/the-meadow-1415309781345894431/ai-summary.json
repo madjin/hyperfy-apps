@@ -1,18 +1,16 @@
 {
   "app_id": "the-meadow-1415309781345894431",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-14T22:07:51+00:00",
-  "description": "A configurable sky and environment system featuring dynamic sun positioning, HDR sky backgrounds, atmospheric fog controls, and day/night lighting presets for immersive world building.",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:29:50+00:00",
+  "description": "Scene app that renders a meadow environment with configurable sky texture, HDR reflections, and fog. Calculates sun direction from elevation and horizontal rotation parameters, and applies sun intensity, color, and fog near/far distances to a sky node.",
   "feature_tags": [
     "environment",
-    "3d-model",
-    "atmosphere"
+    "3d-model"
   ],
   "interaction_modes": [
-    "ui",
     "passive"
   ],
   "asset_profile": "medium",
-  "script_complexity": "medium",
+  "script_complexity": "low",
   "networking_profile": "none"
 }

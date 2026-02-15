@@ -1,21 +1,21 @@
 {
   "name": "Emote_Rom",
   "author": "HowieDuhzit",
-  "description": "Open source AI-powered interactive CLI autocomplete that suggests commands as you type based on your shell history",
+  "description": "Binds up to 10 emote animations to number keys (0-9), triggers player emote effects with a floating emoji UI indicator above the avatar, and syncs playback across all clients via server broadcast so every player sees the animation and emoji in multiplayer.",
   "tags": [
-    "autocomplete",
-    "npc",
-    "cli",
-    "shell",
-    "history"
+    "animation",
+    "ui",
+    "multiplayer",
+    "interaction",
+    "3d-model"
   ],
   "interaction_modes": [
-    "passive",
-    "passive"
+    "ui",
+    "networked"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "low",
-  "networking": "none",
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking": "events",
   "preview_url": "catalog/discord/hyp_media/Emote_Rom_1361914201701875788/p1_xyz-particle-fire-trails.mp4",
   "download_path": "v2-hyp/Emote_Rom.hyp",
   "created_at": "2025-04-16T04:00:48.828Z",

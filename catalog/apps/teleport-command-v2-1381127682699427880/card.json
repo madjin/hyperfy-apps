@@ -1,19 +1,18 @@
 {
   "name": "Teleport_Command_v2",
   "author": "ash",
-  "description": "A teleport command system that enables players to fast-travel to designated locations such as 'home'. Features persistent storage mechanics for saving locations, collision detection, and emote animations.",
+  "description": "Teleports a player to a stored destination when they type a configurable slash command (e.g. /home). An admin clicks a button to set the destination position and rotation, which persists via world storage. The server syncs destination state to all clients via networked events.",
   "tags": [
     "teleport",
     "interaction",
-    "animation",
-    "3d-model",
-    "ui"
+    "ui",
+    "multiplayer"
   ],
   "interaction_modes": [
-    "action",
-    "trigger"
+    "passive",
+    "networked"
   ],
-  "asset_profile": "medium",
+  "asset_profile": "light",
   "script_complexity": "medium",
   "networking": "events",
   "preview_url": null,

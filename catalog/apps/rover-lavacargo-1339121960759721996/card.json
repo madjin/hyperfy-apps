@@ -1,17 +1,20 @@
 {
   "name": "Rover-LavaCargo",
   "author": "maximus",
-  "description": "The previous output was not provided, so this placeholder JSON object is returned to demonstrate valid JSON format. If you provide the invalid JSON output, I can fix it properly.",
+  "description": "Autonomous rover ship that patrols within a configurable radius, scans for nearby items via a perception system, and renders billboard UI panels displaying ship stability and cargo profitability stat bars that deplete over time. Emits ping and resource-transfer events to simulate a space trading sim",
   "tags": [
-    "placeholder",
-    "fix_required"
+    "npc",
+    "ui",
+    "interaction",
+    "3d-model"
   ],
   "interaction_modes": [
-    "passive"
+    "ui",
+    "networked"
   ],
   "asset_profile": "medium",
-  "script_complexity": "low",
-  "networking": "none",
+  "script_complexity": "high",
+  "networking": "events",
   "preview_url": "catalog/discord/hyp_media/Rover-LavaCargo_1339121960759721996/p0_vt01.png",
   "download_path": "v2-hyp/Rover-LavaCargo.hyp",
   "created_at": "2025-02-12T06:32:35.128Z",

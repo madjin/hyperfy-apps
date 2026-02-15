@@ -1,19 +1,23 @@
 {
   "name": "PVPblasterLATEST",
   "author": ".hyp shaman",
-  "description": "A sample application",
+  "description": "PVP blaster weapon that players equip with E and drop with Q. Fires raycasted projectiles dealing configurable damage with headshot multipliers, spawns lightning and muzzle flash particles, plays spatial impact and lightning audio, supports first-person camera mode, health regeneration, and networke",
   "tags": [
-    "ios",
-    "mobile",
-    "production"
+    "combat",
+    "particles",
+    "audio",
+    "camera",
+    "animation",
+    "ui"
   ],
   "interaction_modes": [
+    "action",
     "ui",
     "networked"
   ],
-  "asset_profile": "light",
-  "script_complexity": "medium",
-  "networking": "shared_state",
+  "asset_profile": "heavy",
+  "script_complexity": "high",
+  "networking": "events",
   "preview_url": "catalog/generated_previews/pvpblasterlatest-1354225264028291292.jpg",
   "download_path": "v2-hyp/PVPblasterLATEST.hyp",
   "created_at": "2025-03-25T22:47:43.233Z",

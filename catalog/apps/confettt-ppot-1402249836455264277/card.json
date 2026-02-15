@@ -1,21 +1,21 @@
 {
   "name": "CONFETTT_PPOT",
   "author": "Gert-Jan Akerboom",
-  "description": "Interactive confetti popper that spawns particle bursts with audio feedback when clicked. Features 8 configurable confetti textures, hover glow effects, and networked state synchronization between clients and server.",
+  "description": "Networked confetti popper that spawns randomized particle bursts from up to 8 customizable confetti textures when clicked. Plays spatial click and explosion audio, syncs cooldown state across clients, and animates emissive glow on hover.",
   "tags": [
     "particles",
     "audio",
     "interaction",
-    "animation",
+    "multiplayer",
     "3d-model"
   ],
   "interaction_modes": [
-    "action",
+    "passive",
     "networked"
   ],
   "asset_profile": "medium",
-  "script_complexity": "medium",
-  "networking": "shared_state",
+  "script_complexity": "high",
+  "networking": "events",
   "preview_url": "catalog/generated_previews/confettt-ppot-1402249836455264277.png",
   "download_path": "v2-hyp/CONFETTT_PPOT.hyp",
   "created_at": "2025-08-05T11:20:13.553Z",

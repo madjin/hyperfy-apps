@@ -1,19 +1,17 @@
 {
   "name": "Butterfly_Swarm_V6",
   "author": "Gert-Jan Akerboom",
-  "description": "Configurable 3D butterfly swarm generator with randomized flight patterns, wing flapping animations, and spawn area controls. Features UI for adjusting butterfly count, scale variance, flight speed, and spawn dimensions.",
+  "description": "Spawns up to 5000 butterfly clones from a GLB wing model and animates their wing-flapping and drifting flight paths each frame. A configurable UI panel controls spawn area, height, amount, scale range, flap-speed, and fly-speed for the swarm.",
   "tags": [
-    "particles",
     "animation",
-    "environment",
     "3d-model",
-    "ui"
+    "ui",
+    "environment"
   ],
   "interaction_modes": [
-    "ui",
     "passive"
   ],
-  "asset_profile": "light",
+  "asset_profile": "medium",
   "script_complexity": "medium",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/Butterfly_Swarm_V6_1354772253396701385/p3_image.png",

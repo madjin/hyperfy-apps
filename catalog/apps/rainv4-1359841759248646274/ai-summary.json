@@ -1,21 +1,19 @@
 {
   "app_id": "rainv4-1359841759248646274",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T04:14:49+00:00",
-  "description": "Configuration settings for the application",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:26:41+00:00",
+  "description": "Spawns up to 5000 billboard raindrop particles that fall with configurable gravity and speed, then triggers ring-shaped splash effects on ground impact. A UI panel toggles a grab cube for repositioning and exposes controls for spawn rate, area radius, and particle scale.",
   "feature_tags": [
-    "settings",
-    "config",
-    "json_config",
-    "configuration"
+    "particles",
+    "ui",
+    "physics",
+    "environment",
+    "camera"
   ],
   "interaction_modes": [
-    "passive",
-    "passive",
-    "passive",
     "passive"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "low",
+  "asset_profile": "light",
+  "script_complexity": "medium",
   "networking_profile": "none"
 }

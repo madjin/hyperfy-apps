@@ -1,7 +1,7 @@
 {
   "name": "BlockTesting",
   "author": "Shiffty",
-  "description": "A test app demonstrating a blocking mechanic using right-mouse input to apply/cancel emote animations on the player. Includes configurable block emote and input handling via app.control(). Used to reproduce a bug where players get stuck in block state.",
+  "description": "Captures right mouse button input to apply a blocking emote effect on the local player with snare and long duration, then clears the effect on release. Uses applyEffect to trigger a Great Sword Blocking Idle animation. Created as a bug report testing effect cancellation behavior.",
   "tags": [
     "animation",
     "interaction",
@@ -9,10 +9,9 @@
     "3d-model"
   ],
   "interaction_modes": [
-    "action",
-    "trigger"
+    "passive"
   ],
-  "asset_profile": "light",
+  "asset_profile": "medium",
   "script_complexity": "low",
   "networking": "none",
   "preview_url": "catalog/generated_previews/blocktesting-1348127461031809134.png",

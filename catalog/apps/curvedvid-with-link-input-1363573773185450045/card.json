@@ -1,20 +1,17 @@
 {
   "name": "CurvedVid_with_link_input",
   "author": "MetaRick",
-  "description": "Curved video display supporting both file uploads and streaming URLs. Renders video onto curved geometry with proper aspect ratio handling and synchronized playback.",
+  "description": "Renders a video stream onto a curved 3D screen mesh, supporting both uploaded video files and pasted URL links. Creates a video node that copies the mesh position and quaternion, then plays the video in a looped 16:9 aspect ratio with cover mode enabled.",
   "tags": [
     "media-player",
-    "3d-model",
-    "ui",
-    "environment"
+    "3d-model"
   ],
   "interaction_modes": [
-    "ui",
     "passive"
   ],
   "asset_profile": "heavy",
-  "script_complexity": "medium",
-  "networking": "local",
+  "script_complexity": "low",
+  "networking": "none",
   "preview_url": "catalog/discord/hyp_media/CurvedVid_with_link_input_1363573773185450045/p1_Desktop_2025.04.20_-_20.18.43.04.mp4",
   "download_path": "v2-hyp/CurvedVid_with_link_input.hyp",
   "created_at": "2025-04-20T17:55:21.503Z",

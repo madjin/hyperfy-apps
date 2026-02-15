@@ -1,19 +1,18 @@
 {
   "app_id": "who-there-1397545277300412447",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T04:23:03+00:00",
-  "description": "Screenspace UI widget displaying real-time player count and expandable list of all players currently in the world. Features a collapsible interface and search functionality.",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:31:03+00:00",
+  "description": "Renders a screenspace UI panel in the top-right corner that displays an online player count and toggles an expandable list showing all player names. Listens for enter/leave events and syncs the roster every two seconds to keep the UI current.",
   "feature_tags": [
     "ui",
-    "players",
-    "social",
-    "real-time"
+    "multiplayer",
+    "interaction"
   ],
   "interaction_modes": [
-    "passive",
-    "trigger"
+    "ui",
+    "networked"
   ],
   "asset_profile": "light",
-  "script_complexity": "low",
+  "script_complexity": "medium",
   "networking_profile": "events"
 }

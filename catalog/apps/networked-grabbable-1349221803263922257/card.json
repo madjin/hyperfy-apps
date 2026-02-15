@@ -1,18 +1,20 @@
 {
   "name": "Networked_Grabbable",
   "author": "Saori",
-  "description": "A valid JSON object must have properly quoted keys and string values, no trailing commas, and valid data types.",
+  "description": "Networked grabbable object (e.g. a gun) that players pick up via an action trigger within 3m. Attaches the 3D model to the holder's right hand bone transform each frame and syncs ownership state across clients. Press X to drop the item where you stand.",
   "tags": [
-    "json_validation",
-    "schema_compliance"
+    "interaction",
+    "multiplayer",
+    "3d-model",
+    "animation"
   ],
   "interaction_modes": [
-    "passive",
-    "trigger"
+    "action",
+    "networked"
   ],
-  "asset_profile": "light",
-  "script_complexity": "low",
-  "networking": "none",
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking": "events",
   "preview_url": "catalog/generated_previews/networked-grabbable-1349221803263922257.png",
   "download_path": "v2-hyp/Networked_Grabbable.hyp",
   "created_at": "2025-03-12T03:25:45.227Z",

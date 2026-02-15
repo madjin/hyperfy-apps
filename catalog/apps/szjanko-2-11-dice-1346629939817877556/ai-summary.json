@@ -1,17 +1,15 @@
 {
   "app_id": "szjanko-2-11-dice-1346629939817877556",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-14T21:58:47+00:00",
-  "description": "An interactive 3D dice app that triggers a rolling animation with randomized rotation when clicked. Uses easing-based physics simulation for smooth deceleration. Suitable for tabletop games or chance-based interactions in virtual spaces.",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:29:17+00:00",
+  "description": "Interactive dice app that animates a 3D dice model when clicked. Triggers a rolling animation on pointer down, rotating the cube with easing over a two-second duration using per-frame update deltas. The rotation decelerates smoothly to simulate a realistic dice roll.",
   "feature_tags": [
-    "3d-model",
     "animation",
     "interaction",
-    "physics"
+    "3d-model"
   ],
   "interaction_modes": [
-    "action",
-    "trigger"
+    "passive"
   ],
   "asset_profile": "light",
   "script_complexity": "low",

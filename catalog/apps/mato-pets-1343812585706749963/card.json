@@ -1,21 +1,22 @@
 {
   "name": "Mato_Pets",
   "author": "~/MayD524/Hyperfy",
-  "description": "Networked companion pet that follows players with physics-based avoidance. Features adoption system, configurable follow speeds, and synchronized emotes (idle/walk/sit). Uses raycasting for navigation and supports ownership transfer between players.",
+  "description": "Networked VRM pet that follows a target player using raycasting for obstacle avoidance. Players can adopt the pet via an interaction action. Animates idle, walking, and sitting emotes, and syncs position/quaternion across clients with interpolation.",
   "tags": [
     "npc",
+    "animation",
     "multiplayer",
     "interaction",
     "physics",
-    "companion"
+    "3d-model"
   ],
   "interaction_modes": [
-    "networked",
+    "action",
     "networked"
   ],
   "asset_profile": "medium",
-  "script_complexity": "medium",
-  "networking": "shared_state",
+  "script_complexity": "high",
+  "networking": "events",
   "preview_url": "catalog/discord/hyp_media/Mato_Pets_1343812585706749963/m1_LaunchPartyMP.png",
   "download_path": "v2-hyp/Mato_Pets.hyp",
   "created_at": "2025-02-25T05:11:27.263Z",

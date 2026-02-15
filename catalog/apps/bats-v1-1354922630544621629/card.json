@@ -1,19 +1,20 @@
 {
   "name": "Bats_v1",
   "author": "Valiant",
-  "description": "Sandbox game",
+  "description": "Spawns a configurable swarm of up to 5000 bat clones that animates wing-flapping and erratic flight paths each frame. Plays a looping spatial audio clip for the swarm ambience. Exposes UI controls for bat count, scale, wingbeat speed, fly speed, and sound toggle.",
   "tags": [
-    "survival",
-    "creative",
-    "multiplayer"
+    "animation",
+    "audio",
+    "3d-model",
+    "environment",
+    "ui"
   ],
   "interaction_modes": [
-    "trigger",
     "passive"
   ],
-  "asset_profile": "heavy",
+  "asset_profile": "light",
   "script_complexity": "medium",
-  "networking": "events",
+  "networking": "none",
   "preview_url": "catalog/discord/hyp_media/Bats_v1_1354922630544621629/m2_image.png",
   "download_path": "v2-hyp/Bats_v1.hyp",
   "created_at": "2025-03-27T20:58:48.367Z",

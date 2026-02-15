@@ -1,21 +1,19 @@
 {
   "name": "NPC_9",
   "author": "peezy",
-  "description": "A configurable NPC with combat capabilities including melee attack detection, animation states (idle/walk/run/sit/talk), and audio feedback. Features FOV-based player detection, chase behavior, and hit position calculation for sword combat integration.",
+  "description": "VRM-based NPC that animates idle, walk, run, and sit emotes, detects players within a configurable FOV and range, chases them, and triggers randomized attack animations with cooldown-based hit detection. Plays spatial raptor audio and syncs combat events across server and clients via networked messa",
   "tags": [
     "npc",
     "combat",
     "animation",
     "audio",
-    "interaction",
-    "multiplayer"
+    "interaction"
   ],
   "interaction_modes": [
-    "action",
-    "trigger",
+    "passive",
     "networked"
   ],
-  "asset_profile": "medium",
+  "asset_profile": "heavy",
   "script_complexity": "high",
   "networking": "events",
   "preview_url": "catalog/discord/hyp_media/NPC_9_1354068129944174592/p2_image.png",

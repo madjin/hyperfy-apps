@@ -1,18 +1,17 @@
 {
   "name": "Solar_Panel_-_sundown",
   "author": "ash",
-  "description": "A solar panel controller that manages sky backgrounds, HDRI lighting, and sun intensity with configurable time-of-day settings. Allows users to adjust sky textures, HDR environments, and sun positioning via a UI panel.",
+  "description": "Solar panel 3D model that configures the world sky node by setting a custom skybox texture, HDR environment map, sun direction based on hour/AM-PM input, and sun intensity. Calculates sun direction by rotating a vector around the X axis to simulate time-of-day lighting.",
   "tags": [
     "environment",
-    "ui",
-    "3d-model"
+    "3d-model",
+    "ui"
   ],
   "interaction_modes": [
-    "ui",
     "passive"
   ],
   "asset_profile": "medium",
-  "script_complexity": "medium",
+  "script_complexity": "low",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/Solar_Panel_-_sundown_1356250138967932979/m5_xyz-skelly-200.mp4",
   "download_path": "v2-hyp/Solar_Panel_-_sundown.hyp",

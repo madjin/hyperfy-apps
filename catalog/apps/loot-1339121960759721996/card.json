@@ -1,17 +1,14 @@
 {
   "name": "Loot",
   "author": "maximus",
-  "description": "Collectible loot pack with rotation animation and proximity-based collection. Emits world events for collector apps. Configurable value/name. Part of a space trading sim concept.",
+  "description": "Spawns a collectible loot pack GLB model that animates with continuous Y-axis rotation. Responds to proximity-check and ping events from a collectron, triggers item-detected and item-cleanup world events upon collection, then hides the 3D model. Part of a space trading sim prototype.",
   "tags": [
-    "interaction",
-    "multiplayer",
     "3d-model",
     "animation",
-    "ui"
+    "interaction"
   ],
   "interaction_modes": [
     "passive",
-    "trigger",
     "networked"
   ],
   "asset_profile": "light",

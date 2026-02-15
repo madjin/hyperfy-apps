@@ -1,18 +1,19 @@
 {
   "name": "Loot-PlanetLava",
   "author": "maximus",
-  "description": "In a recent international sports event, the total number of participants was 320. The ratio of male to female athletes was 5:3, and the ratio of swimmers to runners was 7:1. If there were 140 male swimmers, how many female runners were there? The answer is 15. Is that correct? Please reason step by ",
+  "description": "Renders a rotating lava planet GLB model as a collectible cargo loot pack. Listens for proximity-check and ping events, then emits item-detected when a collectron entity moves within range, supporting a space trading sim loop.",
   "tags": [
-    "math",
-    "ratio",
-    "word_problem"
+    "3d-model",
+    "animation",
+    "interaction"
   ],
   "interaction_modes": [
-    "trigger"
+    "passive",
+    "networked"
   ],
-  "asset_profile": "medium",
+  "asset_profile": "light",
   "script_complexity": "medium",
-  "networking": "none",
+  "networking": "events",
   "preview_url": "catalog/discord/hyp_media/Loot-PlanetLava_1339121960759721996/p0_vt01.png",
   "download_path": "v2-hyp/Loot-PlanetLava.hyp",
   "created_at": "2025-02-12T06:32:35.128Z",

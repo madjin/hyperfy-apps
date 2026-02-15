@@ -1,13 +1,17 @@
 {
   "app_id": "book-flip-1427292873358971045",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T03:56:08+00:00",
-  "description": "Converted from invalid JSON",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:16:55+00:00",
+  "description": "Spawns a procedural book object from box primitives with static physics colliders. Pressing F triggers a flip emote and pushes the player upward and forward using camera-relative impulse vectors, functioning as a double-jump launchpad.",
   "feature_tags": [
-    "unclassified"
+    "physics",
+    "animation",
+    "interaction"
   ],
-  "interaction_modes": [],
+  "interaction_modes": [
+    "passive"
+  ],
   "asset_profile": "light",
-  "script_complexity": "low",
-  "networking_profile": "local"
+  "script_complexity": "medium",
+  "networking_profile": "none"
 }

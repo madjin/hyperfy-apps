@@ -1,8 +1,8 @@
 {
   "app_id": "blocktesting-1348127461031809134",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-14T21:50:53+00:00",
-  "description": "A test app demonstrating a blocking mechanic using right-mouse input to apply/cancel emote animations on the player. Includes configurable block emote and input handling via app.control(). Used to reproduce a bug where players get stuck in block state.",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:16:50+00:00",
+  "description": "Captures right mouse button input to apply a blocking emote effect on the local player with snare and long duration, then clears the effect on release. Uses applyEffect to trigger a Great Sword Blocking Idle animation. Created as a bug report testing effect cancellation behavior.",
   "feature_tags": [
     "animation",
     "interaction",
@@ -10,10 +10,9 @@
     "3d-model"
   ],
   "interaction_modes": [
-    "action",
-    "trigger"
+    "passive"
   ],
-  "asset_profile": "light",
+  "asset_profile": "medium",
   "script_complexity": "low",
   "networking_profile": "none"
 }

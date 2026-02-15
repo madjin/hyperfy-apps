@@ -1,16 +1,19 @@
 {
   "name": "Raycaster",
   "author": "Saori",
-  "description": "No invalid JSON was provided to fix",
+  "description": "Performs a server-side raycast from a beam origin and direction, then spawns a scaled clone of a 3D model at the hit point. Uses networked events to relay hit data from server to client and removes the previous clone before placing a new one.",
   "tags": [
-    "placeholder"
+    "physics",
+    "interaction",
+    "3d-model"
   ],
   "interaction_modes": [
-    "passive"
+    "passive",
+    "networked"
   ],
   "asset_profile": "light",
   "script_complexity": "low",
-  "networking": "none",
+  "networking": "events",
   "preview_url": "catalog/generated_previews/raycaster-1348748103104331778.jpg",
   "download_path": "v2-hyp/Raycaster.hyp",
   "created_at": "2025-03-10T20:03:26.308Z",

@@ -1,13 +1,12 @@
 {
   "name": "Water_Fountain",
   "author": "ash",
-  "description": "Valid JSON object returned as no invalid content was provided to fix",
+  "description": "Spawns a cone-shaped particle emitter that simulates a water fountain arc, emitting 100 blue-to-cyan particles per second with gravity force pulling them downward. Supports a configurable texture image and loops continuously in world space atop a 3D fountain model.",
   "tags": [
-    "placeholder",
-    "error_handling"
+    "particles",
+    "3d-model"
   ],
   "interaction_modes": [
-    "networked",
     "passive"
   ],
   "asset_profile": "light",

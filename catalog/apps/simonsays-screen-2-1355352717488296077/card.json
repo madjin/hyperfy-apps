@@ -1,22 +1,21 @@
 {
   "name": "SimonSays_Screen_2",
   "author": "cru",
-  "description": "Networked Simon Says game UI with scalable 3D interface. Features phased gameplay with color/signal logic, background audio tracks, and server-authoritative state management. Demonstrates performance issues with large UI elements.",
+  "description": "Renders a scalable 3D UI screen that displays a networked Simon Says color-matching game. Syncs game state between server and clients, cycles through timed phases showing flashing color text and background changes, and emits color/reset signals to connected game boards via app.emit.",
   "tags": [
     "ui",
-    "multiplayer",
     "audio",
-    "game",
-    "3d-model"
+    "multiplayer",
+    "interaction"
   ],
   "interaction_modes": [
+    "action",
     "ui",
-    "networked",
-    "passive"
+    "networked"
   ],
   "asset_profile": "heavy",
   "script_complexity": "high",
-  "networking": "shared_state",
+  "networking": "events",
   "preview_url": "catalog/discord/hyp_media/SimonSays_Screen_2_1355352717488296077/p0_2025-03-28_21-20-07.mp4",
   "download_path": "v2-hyp/SimonSays_Screen_2.hyp",
   "created_at": "2025-03-29T01:27:49.085Z",

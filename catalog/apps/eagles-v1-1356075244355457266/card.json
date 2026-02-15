@@ -1,16 +1,19 @@
 {
   "name": "Eagles_v1",
   "author": "Valiant",
-  "description": "Error: No content provided after BAD_OUTPUT label to fix",
+  "description": "Spawns up to 6 soaring eagle clones from a GLB model and animates their wing flaps, circular flight paths, and thermal drift on each frame update. Plays spatial eagle call audio on random flap events. Exposes a configurable UI panel for eagle count, scale, wingbeat speed, soar speed, height range, a",
   "tags": [
-    "error",
-    "missing_input"
+    "animation",
+    "audio",
+    "3d-model",
+    "environment",
+    "ui"
   ],
   "interaction_modes": [
-    "networked"
+    "passive"
   ],
   "asset_profile": "medium",
-  "script_complexity": "low",
+  "script_complexity": "high",
   "networking": "none",
   "preview_url": "catalog/generated_previews/eagles-v1-1356075244355457266.jpg",
   "download_path": "v2-hyp/Eagles_v1.hyp",

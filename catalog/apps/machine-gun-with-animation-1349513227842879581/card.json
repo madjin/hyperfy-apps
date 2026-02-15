@@ -1,23 +1,21 @@
 {
   "name": "Machine_Gun_With_Animation",
   "author": "Saori",
-  "description": "A weapon animation override system that equips a machine gun with full directional movement animations. Players pick up the weapon to activate custom idle, walk, run, and sprint animations in all directions including diagonals and backward variants. Includes shooting mechanics with cooldown and scop",
+  "description": "Equippable machine gun weapon that overrides player locomotion animations with rifle-specific emotes for idle, walk, sprint, and directional movement. Players triggers a pick-up action, and the script syncs shooting and drop events across client and server via networked messages.",
   "tags": [
-    "animation",
     "combat",
+    "animation",
     "interaction",
     "3d-model",
-    "multiplayer",
-    "ui"
+    "multiplayer"
   ],
   "interaction_modes": [
     "action",
-    "trigger",
     "networked"
   ],
   "asset_profile": "heavy",
-  "script_complexity": "high",
-  "networking": "shared_state",
+  "script_complexity": "medium",
+  "networking": "events",
   "preview_url": null,
   "download_path": "v2-hyp/Machine_Gun_With_Animation.hyp",
   "created_at": "2025-03-12T22:43:46.261Z",

@@ -1,19 +1,20 @@
 {
   "app_id": "token-gate-1349126914333478954",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T04:20:24+00:00",
-  "description": "A Solana token-gated door that opens when players hold a minimum balance of specified SPL tokens. Features configurable sliding or swinging animations, customizable minimum balance thresholds, and support for any SPL token mint.",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:29:56+00:00",
+  "description": "Token-gated door that checks a player's Solana SPL token balance and animates a sliding or swinging door open when the minimum threshold is met. Renders UI panels displaying required token amount and live wallet balance. Auto-closes after a configurable timer. Requires external Solana mod.",
   "feature_tags": [
-    "solana",
-    "token-gate",
-    "access-control",
-    "spl-token"
+    "ui",
+    "animation",
+    "interaction",
+    "3d-model"
   ],
   "interaction_modes": [
+    "action",
     "ui",
-    "trigger"
+    "networked"
   ],
   "asset_profile": "medium",
-  "script_complexity": "medium",
-  "networking_profile": "shared_state"
+  "script_complexity": "high",
+  "networking_profile": "events"
 }

@@ -1,17 +1,16 @@
 {
   "name": "m2-2-4-beacon-dev",
   "author": "0mka",
-  "description": "Invalid or missing input data. Please provide the content to be converted to JSON.",
+  "description": "Beacon app that registers world metadata (name, URL, description, image, tags) to the Zesty relay server and sends periodic session heartbeat signals via fetch on each update tick. Renders a small 3D model as a visual anchor in the scene.",
   "tags": [
-    "error_handling",
-    "json_validation"
+    "3d-model",
+    "ui"
   ],
   "interaction_modes": [
-    "passive",
-    "action"
+    "passive"
   ],
   "asset_profile": "light",
-  "script_complexity": "low",
+  "script_complexity": "medium",
   "networking": "none",
   "preview_url": "catalog/generated_previews/m2-2-4-beacon-dev-1346629939817877556.jpg",
   "download_path": "v2-hyp/m2-2-4-beacon-dev.hyp",

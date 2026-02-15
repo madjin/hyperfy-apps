@@ -1,19 +1,18 @@
 {
   "name": "Screen",
   "author": "ash",
-  "description": "Description of the application functionality",
+  "description": "Renders a TV screen that triggers screensharing via a player action button. Creates a 16:9 video node linked to the display geometry and supports an admin-restricted toggle to control who can share their screen within a 5-unit interaction distance.",
   "tags": [
-    "tag1",
-    "tag2",
-    "tag3"
+    "media-player",
+    "interaction",
+    "3d-model"
   ],
   "interaction_modes": [
-    "action",
-    "networked"
+    "action"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "medium",
-  "networking": "local",
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking": "none",
   "preview_url": "catalog/generated_previews/screen-1361324085598228530.jpg",
   "download_path": "v2-hyp/Screen.hyp",
   "created_at": "2025-04-14T12:55:54.185Z",

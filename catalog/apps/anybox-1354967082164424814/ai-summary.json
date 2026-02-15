@@ -1,15 +1,15 @@
 {
   "app_id": "anybox-1354967082164424814",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T03:55:12+00:00",
-  "description": "Fixed JSON output",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:16:25+00:00",
+  "description": "A reusable container box that plays a configurable looping background audio track at low volume and renders a floating UI label reading 'Background Audio' above the 3D model. Designed as an organizational shell for logic-based apps.",
   "feature_tags": [
-    "json",
-    "fix",
-    "validation"
+    "audio",
+    "ui",
+    "3d-model"
   ],
   "interaction_modes": [
-    "passive"
+    "ui"
   ],
   "asset_profile": "medium",
   "script_complexity": "low",

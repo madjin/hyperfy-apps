@@ -1,22 +1,17 @@
 {
   "app_id": "emotesr-1440465428748046346",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-14T21:55:07+00:00",
-  "description": "Circular emote selector UI displaying 6 configurable dance/emote buttons in a radial layout. Players trigger avatar animations via clickable buttons or hotkeys (B to open, 1-6 to select). Supports custom emote files, labels, icons, and gaze locking per slot.",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:20:31+00:00",
+  "description": "Emote wheel that renders a radial UI menu on screen, triggered by pressing B. Players select from six dance emote animations (ThaRoof, Snake, Belly, Headbob, Hip Hop, Gangnam) arranged in a circle, which applies the chosen emote to the avatar via applyEffect.",
   "feature_tags": [
-    "animation",
     "ui",
-    "interaction",
-    "3d-model",
-    "multiplayer",
-    "avatar"
+    "animation",
+    "interaction"
   ],
   "interaction_modes": [
-    "action",
-    "ui",
-    "passive"
+    "ui"
   ],
-  "asset_profile": "heavy",
+  "asset_profile": "medium",
   "script_complexity": "medium",
   "networking_profile": "none"
 }

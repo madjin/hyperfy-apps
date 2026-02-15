@@ -1,15 +1,13 @@
 {
   "name": "Cube_1",
   "author": "ash",
-  "description": "A configurable cube demonstrating unlinked mesh instances with independent texture scrolling animation. Features UI-controlled scroll speed and uses delta-time updates for smooth material offset animation.",
+  "description": "Scrolls a cube mesh's texture along the X axis each frame using a configurable speed prop. Sets the mesh to unlinked mode so each unique app instance animates its textureX offset independently, enabling per-instance UV scroll control.",
   "tags": [
     "animation",
     "3d-model",
-    "ui",
-    "interaction"
+    "ui"
   ],
   "interaction_modes": [
-    "ui",
     "passive"
   ],
   "asset_profile": "light",

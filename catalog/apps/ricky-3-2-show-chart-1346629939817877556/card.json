@@ -1,17 +1,15 @@
 {
   "name": "Ricky-3-2-show_chart",
   "author": "0mka",
-  "description": "Configurable billboard display for web-based charts/images featuring interactive refresh via E-key action, cooldown management, and customizable positioning. Uses UI nodes for rendering external media URLs with cache-busting.",
+  "description": "Renders a remote chart image on a billboard UI panel fetched from a configurable URL. Triggers a cache-busting refresh when the player presses the action button within a configurable radius, with a cooldown timer to prevent spam.",
   "tags": [
     "ui",
-    "media-player",
     "interaction",
     "3d-model"
   ],
   "interaction_modes": [
     "action",
-    "ui",
-    "passive"
+    "ui"
   ],
   "asset_profile": "light",
   "script_complexity": "medium",

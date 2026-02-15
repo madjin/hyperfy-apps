@@ -1,22 +1,21 @@
 {
   "name": "dash",
   "author": "peezy",
-  "description": "A player ability app that enables a dash movement mechanic. Press F to perform a directional dash with camera-relative movement, custom emote animation, and cooldown. Features configurable color variants and custom charge emote support.",
+  "description": "Spammable dash ability that pushes the player forward in the camera direction when pressing F, triggers a charge emote animation for 0.4 seconds, and renders a configurable color-tinted 3D rom model with a UI label displaying the rom name.",
   "tags": [
     "animation",
-    "interaction",
-    "physics",
     "ui",
-    "3d-model",
-    "combat"
+    "camera",
+    "physics",
+    "interaction",
+    "3d-model"
   ],
   "interaction_modes": [
-    "action",
     "ui"
   ],
-  "asset_profile": "medium",
+  "asset_profile": "light",
   "script_complexity": "medium",
-  "networking": "local",
+  "networking": "none",
   "preview_url": "catalog/discord/hyp_media/dash_1356968685415301160/m2_image.png",
   "download_path": "v2-hyp/dash.hyp",
   "created_at": "2025-04-02T12:29:05.862Z",

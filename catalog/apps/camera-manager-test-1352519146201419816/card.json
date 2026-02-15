@@ -1,18 +1,21 @@
 {
   "name": "CameraManagerTest",
   "author": "Shiffty",
-  "description": "Production environment configuration",
+  "description": "Test rig that spawns animated cubes moving in circle, bounce, and figure-8 patterns, then cycles through follow, orbit, static, and default camera modes via keyboard input. Emits camera:follow, camera:orbit, camera:shake, and camera:reset events and renders a screen-space UI panel showing the active",
   "tags": [
-    "stable",
-    "production"
+    "camera",
+    "ui",
+    "animation",
+    "interaction",
+    "3d-model"
   ],
   "interaction_modes": [
     "ui",
-    "passive"
+    "networked"
   ],
   "asset_profile": "light",
   "script_complexity": "medium",
-  "networking": "shared_state",
+  "networking": "events",
   "preview_url": "catalog/discord/hyp_media/CameraManagerTest_1352519146201419816/p0_CameraManagerTest.mp4",
   "download_path": "v2-hyp/CameraManagerTest.hyp",
   "created_at": "2025-03-21T05:48:13.045Z",

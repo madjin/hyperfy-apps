@@ -1,19 +1,16 @@
 {
   "app_id": "fog-1361904724433174649",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T04:03:38+00:00",
-  "description": "JSON validation and correction service",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:20:52+00:00",
+  "description": "Spawns a box-shaped particle emitter that renders slow-drifting, semi-transparent fog across a 20x20 area. Uses a configurable texture image and alphaOverLife curve to fade particles in and out, creating an atmospheric fog layer in the environment.",
   "feature_tags": [
-    "validation",
-    "json",
-    "schema"
+    "particles",
+    "environment"
   ],
   "interaction_modes": [
-    "passive",
-    "passive",
     "passive"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "high",
-  "networking_profile": "local"
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none"
 }

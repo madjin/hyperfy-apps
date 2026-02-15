@@ -1,18 +1,17 @@
 {
   "name": "saori-2-5-trump-agent",
   "author": "0mka",
-  "description": "AI-powered NPC agent with VRM avatar that connects to external APIs to respond to chat, perform emotes, and interact with players. Features speech bubbles, nametags, and real-time environmental awareness.",
+  "description": "AI-driven NPC agent using a VRM avatar that listens for chat messages and player enter/leave events, sends world state to an external endpoint, and renders speech bubble UI responses. Triggers configurable emotes (wave, think, cheer, explain) and rotates to look at targeted players.",
   "tags": [
     "npc",
-    "avatar",
-    "chat",
-    "agent",
-    "multiplayer"
+    "ui",
+    "animation",
+    "interaction",
+    "3d-model"
   ],
   "interaction_modes": [
-    "networked",
-    "passive",
-    "ui"
+    "ui",
+    "networked"
   ],
   "asset_profile": "heavy",
   "script_complexity": "high",

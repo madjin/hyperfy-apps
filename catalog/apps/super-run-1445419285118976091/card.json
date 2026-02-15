@@ -1,17 +1,18 @@
 {
   "name": "Super_Run",
   "author": "Dhin",
-  "description": "A sample application",
+  "description": "Detects sustained sprinting via keyboard input and ground raycast, then pushes the player forward at boosted speed (30 units/s) and triggers a custom super-run emote animation. Deactivates with a short cooldown when the player stops running.",
   "tags": [
-    "utility",
-    "productivity"
+    "physics",
+    "animation",
+    "interaction",
+    "camera"
   ],
   "interaction_modes": [
-    "passive",
-    "action"
+    "passive"
   ],
   "asset_profile": "light",
-  "script_complexity": "low",
+  "script_complexity": "medium",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/Super_Run_1445419285118976091/p0_super-run.mp4",
   "download_path": "v2-hyp/Super_Run.hyp",

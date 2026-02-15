@@ -1,15 +1,18 @@
 {
   "app_id": "moonjump-1406524288625807451",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T04:10:19+00:00",
-  "description": "No bad output was provided to fix. Please provide the invalid JSON that needs to be corrected.",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:24:21+00:00",
+  "description": "Tracks player grounded state via world.raycast and pushes an upward force vector to grant an automatic double jump when airborne. Resets jump state on landing and manages per-player state maps for multiplayer support.",
   "feature_tags": [
-    "unclassified"
+    "physics",
+    "multiplayer",
+    "3d-model"
   ],
   "interaction_modes": [
-    "passive"
+    "passive",
+    "networked"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "low",
-  "networking_profile": "none"
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "events"
 }

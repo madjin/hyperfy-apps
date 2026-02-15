@@ -1,17 +1,21 @@
 {
   "name": "Raptor_random_loc",
   "author": "Gert-Jan Akerboom",
-  "description": "The previous model output was empty or missing, so this placeholder JSON object is provided as a valid response.",
+  "description": "Spawns an NPC raptor avatar that randomly transitions between walk, run, idle, and talk emote states. Each instance picks a unique random initial state and drifts direction with range-limiting logic. Renders a billboarded UI label displaying the controller's live world position and rotation coordina",
   "tags": [
-    "json_validation",
-    "schema_compliance"
+    "npc",
+    "animation",
+    "ui",
+    "physics",
+    "3d-model"
   ],
   "interaction_modes": [
-    "passive"
+    "ui",
+    "networked"
   ],
-  "asset_profile": "light",
-  "script_complexity": "low",
-  "networking": "none",
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking": "events",
   "preview_url": "catalog/discord/hyp_media/Raptor_random_loc_1364946963270991875/p1_World_-_Google_Chrome_24.04.2025_14_53_08.png",
   "download_path": "v2-hyp/Raptor_random_loc.hyp",
   "created_at": "2025-04-24T12:51:55.532Z",

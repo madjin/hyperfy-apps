@@ -1,18 +1,16 @@
 {
   "app_id": "basicmp3player-1459296313840504887",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T03:55:12+00:00",
-  "description": "Minimal clickable MP3 player supporting file upload or URL input. Features play/pause on click, volume/loop/spatial controls, and auto-play for uploaded files. Uses a basic cube mesh as the visual interface.",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:16:33+00:00",
+  "description": "Minimal clickable MP3 player that plays and pauses an audio node when the user clicks a GLB cube mesh. Supports uploaded files or pasted URLs, with configurable volume, loop, spatial/global mode, and auto-play on upload.",
   "feature_tags": [
     "audio",
-    "media-player",
     "interaction",
-    "ui",
+    "media-player",
     "3d-model"
   ],
   "interaction_modes": [
-    "action",
-    "ui"
+    "passive"
   ],
   "asset_profile": "light",
   "script_complexity": "low",

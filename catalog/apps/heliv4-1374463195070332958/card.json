@@ -1,17 +1,15 @@
 {
   "name": "HELIv4",
   "author": "vox",
-  "description": "Interactive 3D helicopter model (v4) featuring engine idle audio loop, drivable vehicle mechanics, and detailed aviation design for immersive flight experiences.",
+  "description": "Helicopter that flies an oval path with curvature-based speed adjustment, scrolls UV textures on a rotor mesh to simulate spinning blades, and plays a looping spatial idle engine audio that tracks the helicopter position. Interpolates yaw and pitch for smooth banking turns.",
   "tags": [
     "vehicle",
     "audio",
-    "3d-model",
     "animation",
-    "interaction"
+    "3d-model"
   ],
   "interaction_modes": [
-    "action",
-    "ui"
+    "passive"
   ],
   "asset_profile": "medium",
   "script_complexity": "medium",

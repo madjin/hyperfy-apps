@@ -1,19 +1,16 @@
 {
   "name": "Text_link_option",
   "author": "Gert-Jan Akerboom",
-  "description": "A browser based Pok\u00e9mon fangame",
+  "description": "Renders a configurable world-space UI text panel with customizable size, color, alignment, and background. Triggers world.open to navigate to an optional URL when the user clicks the panel via onPointerDown.",
   "tags": [
-    "fangame",
-    "pokemon",
-    "browser-game",
-    "roguelike"
+    "ui",
+    "interaction"
   ],
   "interaction_modes": [
-    "ui",
-    "passive"
+    "ui"
   ],
-  "asset_profile": "heavy",
-  "script_complexity": "high",
+  "asset_profile": "light",
+  "script_complexity": "low",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/Text_link_option_1426148371101651037/p3_IMG_1244.png",
   "download_path": "v2-hyp/Text_link_option.hyp",

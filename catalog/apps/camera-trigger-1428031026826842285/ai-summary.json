@@ -1,20 +1,18 @@
 {
   "app_id": "camera-trigger-1428031026826842285",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T03:59:02+00:00",
-  "description": "A physics trigger zone that smoothly transitions the camera to a configured overlook view when a player enters, and returns to first-person view on exit. Designed for museum or gallery environments to showcase specific viewing angles of exhibits.",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:18:48+00:00",
+  "description": "Creates a trigger zone collider that detects when the local player steps on it and smoothly lerps the camera to a fixed overlook position. On exit, the camera transitions back to the player's eye level. Ideal for museum or gallery camera control.",
   "feature_tags": [
     "camera",
+    "physics",
     "interaction",
-    "animation",
-    "environment",
-    "3d-model"
+    "animation"
   ],
   "interaction_modes": [
-    "trigger",
     "passive"
   ],
   "asset_profile": "light",
   "script_complexity": "medium",
-  "networking_profile": "local"
+  "networking_profile": "none"
 }

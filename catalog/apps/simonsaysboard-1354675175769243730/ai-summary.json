@@ -1,19 +1,18 @@
 {
   "app_id": "simonsaysboard-1354675175769243730",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T04:17:27+00:00",
-  "description": "A Simon Says-inspired multiplayer minigame where players jump to colored blocks matching the displayed color. Last player standing wins. Features difficulty scaling and competitive gameplay.",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:28:12+00:00",
+  "description": "Simon Says minigame board that displays a target color and toggles visibility of six colored cubes (RED, ORANGE, YELLOW, GREEN, BLUE, PURPLE) via color-update and reset events. Players must jump to the matching block in time. Work-in-progress prototype for a last-player-standing arena game.",
   "feature_tags": [
-    "multiplayer",
-    "minigame",
-    "reaction-based",
-    "elimination"
+    "interaction",
+    "ui",
+    "3d-model"
   ],
   "interaction_modes": [
-    "action",
-    "ui"
+    "passive",
+    "networked"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "medium",
-  "networking_profile": "shared_state"
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "events"
 }

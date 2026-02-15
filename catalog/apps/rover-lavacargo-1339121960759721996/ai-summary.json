@@ -1,16 +1,19 @@
 {
   "app_id": "rover-lavacargo-1339121960759721996",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T04:16:05+00:00",
-  "description": "The previous output was not provided, so this placeholder JSON object is returned to demonstrate valid JSON format. If you provide the invalid JSON output, I can fix it properly.",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:27:19+00:00",
+  "description": "Autonomous rover ship that patrols within a configurable radius, scans for nearby items via a perception system, and renders billboard UI panels displaying ship stability and cargo profitability stat bars that deplete over time. Emits ping and resource-transfer events to simulate a space trading sim",
   "feature_tags": [
-    "placeholder",
-    "fix_required"
+    "npc",
+    "ui",
+    "interaction",
+    "3d-model"
   ],
   "interaction_modes": [
-    "passive"
+    "ui",
+    "networked"
   ],
   "asset_profile": "medium",
-  "script_complexity": "low",
-  "networking_profile": "none"
+  "script_complexity": "high",
+  "networking_profile": "events"
 }

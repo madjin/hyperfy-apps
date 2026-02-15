@@ -1,19 +1,17 @@
 {
   "name": "Curved_Video_Viewer",
   "author": "ash",
-  "description": "Video streaming application with AI-powered content recommendations",
+  "description": "Renders video onto a curved 3D mesh by replacing a named target object with a video node. Supports mp4 files and HLS (m3u8) streams, with configurable aspect ratio, fit mode (cover/contain/none), and loop toggle. Plays the video automatically on the client side.",
   "tags": [
-    "streaming",
-    "ai_recommendations",
-    "offline_mode"
+    "media-player",
+    "3d-model"
   ],
   "interaction_modes": [
-    "passive",
     "passive"
   ],
-  "asset_profile": "heavy",
-  "script_complexity": "high",
-  "networking": "events",
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking": "none",
   "preview_url": "catalog/discord/hyp_media/Curved_Video_Viewer_1360630031814230229/p1_image.png",
   "download_path": "v2-hyp/Curved_Video_Viewer.hyp",
   "created_at": "2025-04-12T14:57:58.868Z",

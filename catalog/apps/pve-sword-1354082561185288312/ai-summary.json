@@ -1,23 +1,21 @@
 {
   "app_id": "pve-sword-1354082561185288312",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T04:12:50+00:00",
-  "description": "A multiplayer PvE melee combat system where players equip a sword to deal damage to others using physics-based hit detection. Features configurable attack emotes, server-authoritative damage calculation with critical hits, and pickup/drop mechanics synchronized across clients.",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:25:52+00:00",
+  "description": "PvE melee sword that players pick up and attach to their right hand via bone tracking. Left-click triggers randomized attack emotes and fires an overlapSphere hit check that damages nearby players with critical hit chance. Syncs sword holders across server and clients, and drops on Q press or discon",
   "feature_tags": [
     "combat",
-    "multiplayer",
-    "interaction",
     "animation",
-    "physics",
-    "3d-model"
+    "interaction",
+    "multiplayer",
+    "3d-model",
+    "physics"
   ],
   "interaction_modes": [
     "action",
-    "trigger",
-    "ui",
     "networked"
   ],
   "asset_profile": "medium",
   "script_complexity": "high",
-  "networking_profile": "shared_state"
+  "networking_profile": "events"
 }

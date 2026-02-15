@@ -1,20 +1,18 @@
 {
   "app_id": "butterfly-swarm-v3-1350145314677592157",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T03:57:53+00:00",
-  "description": "Configurable 3D butterfly swarm particle system with randomized flight paths, wing flapping animations, and scalable density. Features UI controls for butterfly count, size variation, flap speed, and flight velocity. Uses cloned GLB wing geometry with per-instance randomization.",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:18:02+00:00",
+  "description": "Spawns up to 5000 butterfly clones from a GLB wing model and animates their wing-flapping and oscillatory flight paths each frame. A configurable UI panel exposes butterfly amount, random scale range, flap-speed range, and fly-speed range for tuning swarm behavior.",
   "feature_tags": [
-    "particles",
-    "environment",
     "animation",
+    "3d-model",
     "ui",
-    "3d-model"
+    "environment"
   ],
   "interaction_modes": [
-    "passive",
-    "ui"
+    "passive"
   ],
-  "asset_profile": "light",
+  "asset_profile": "medium",
   "script_complexity": "medium",
   "networking_profile": "none"
 }

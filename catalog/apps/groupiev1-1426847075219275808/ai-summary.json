@@ -1,13 +1,20 @@
 {
   "app_id": "groupiev1-1426847075219275808",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T04:06:01+00:00",
-  "description": "A Hyperfy app.",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:21:57+00:00",
+  "description": "Collectron NPC that patrols a configurable radius, detects nearby items, and follows players via chat commands. Animates idle, walk, and search states on a VRM avatar. Renders Pip-Boy-style UI bars tracking health and loot depletion over time, and responds to chat with status reports.",
   "feature_tags": [
-    "unclassified"
+    "npc",
+    "animation",
+    "ui",
+    "interaction",
+    "3d-model"
   ],
-  "interaction_modes": [],
+  "interaction_modes": [
+    "ui",
+    "networked"
+  ],
   "asset_profile": "medium",
-  "script_complexity": "low",
-  "networking_profile": "none"
+  "script_complexity": "high",
+  "networking_profile": "events"
 }

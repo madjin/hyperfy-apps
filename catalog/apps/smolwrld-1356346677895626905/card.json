@@ -1,17 +1,14 @@
 {
   "name": "SmolWrld",
   "author": ".hyp shaman",
-  "description": "Spatial audio environment with configurable background/foreground tracks, distance attenuation, and sound cones. Features multi-zone audio placement, animated sky rotation, and water texture scrolling.",
+  "description": "Miniature nature scene that plays six spatial audio sources (water and ambient music) attached to lake and waterfall reference nodes, rotates the sky dome, and scrolls water material texture each frame. Configurable volume, distance model, rolloff, and cone settings via UI panels.",
   "tags": [
     "audio",
-    "spatial",
     "environment",
-    "ui",
-    "media-player",
+    "animation",
     "3d-model"
   ],
   "interaction_modes": [
-    "ui",
     "passive"
   ],
   "asset_profile": "heavy",

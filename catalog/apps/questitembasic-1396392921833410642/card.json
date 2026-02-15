@@ -1,20 +1,21 @@
 {
   "name": "QuestItemBasic",
   "author": "0mka",
-  "description": "IOST-based decentralized application for digital asset management",
+  "description": "Collectible quest item that animates a 3D model with configurable rotation and bobbing, triggers a rigidbody collider to detect player overlap, plays a collection sound on pickup, hides the mesh, and emits a custom event signal for use with a companion QuestItemUI app.",
   "tags": [
-    "blockchain",
-    "wallet",
-    "defi"
+    "audio",
+    "animation",
+    "physics",
+    "interaction",
+    "3d-model"
   ],
   "interaction_modes": [
     "trigger",
-    "action",
-    "passive"
+    "networked"
   ],
   "asset_profile": "medium",
-  "script_complexity": "low",
-  "networking": "local",
+  "script_complexity": "medium",
+  "networking": "events",
   "preview_url": "catalog/generated_previews/questitembasic-1396392921833410642.png",
   "download_path": "v2-hyp/QuestItemBasic.hyp",
   "created_at": "2025-07-20T07:26:56.291Z",

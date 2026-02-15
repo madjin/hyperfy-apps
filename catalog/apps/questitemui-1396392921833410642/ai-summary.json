@@ -1,21 +1,18 @@
 {
   "app_id": "questitemui-1396392921833410642",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T04:13:41+00:00",
-  "description": "Mouse click automation utility for macOS with configurable hotkeys and settings",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:26:13+00:00",
+  "description": "Renders a configurable screen-space UI panel that tracks collected quest items. Listens for emit signals from collectible item apps, increments a counter, and syncs the count via persistent server storage across sessions. Supports customizable position, border style, text sizing, and display modes.",
   "feature_tags": [
-    "mouse_automation",
-    "hotkey_config",
-    "system_tray",
-    "launch_at_login",
-    "accessibility_api"
+    "ui",
+    "interaction",
+    "multiplayer"
   ],
   "interaction_modes": [
     "ui",
-    "trigger",
-    "action"
+    "networked"
   ],
-  "asset_profile": "medium",
+  "asset_profile": "light",
   "script_complexity": "medium",
-  "networking_profile": "none"
+  "networking_profile": "events"
 }

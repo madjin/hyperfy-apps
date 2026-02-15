@@ -1,21 +1,19 @@
 {
   "app_id": "framed-image-v1-0-1434190157220806658",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-14T19:41:28+00:00",
-  "description": "A customizable framed image display app using primitives for the frame structure. Features adjustable dimensions, frame styling with glow effects, backboard options, multiple collider modes, and a disco mode for animated emissive lighting. Non-square images require manual width input.",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:21:08+00:00",
+  "description": "Renders a customizable framed image using box primitives for the frame, with configurable rim thickness, depth, color, emissive glow, backboard, and a disco mode that animates hue-cycling on frame or backboard. Spawns box colliders in multiple modes and supports transparent image panels with shadow ",
   "feature_tags": [
-    "media-player",
     "ui",
     "environment",
-    "animation",
-    "interaction",
-    "building"
+    "physics",
+    "3d-model"
   ],
   "interaction_modes": [
-    "ui",
-    "passive"
+    "trigger",
+    "networked"
   ],
   "asset_profile": "light",
-  "script_complexity": "medium",
-  "networking_profile": "none"
+  "script_complexity": "high",
+  "networking_profile": "events"
 }

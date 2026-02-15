@@ -1,18 +1,16 @@
 {
   "name": "Player_Transforms",
   "author": "Gert-Jan Akerboom",
-  "description": "Create a Kubernetes cluster with advanced networking capabilities",
+  "description": "Renders a screenspace UI panel that reads the local player's position, body quaternion, and camera direction each frame, then displays live XYZ coordinates and Euler rotation angles as color-coded text elements toggled by a showUI prop.",
   "tags": [
-    "kubernetes",
-    "multiplayer",
-    "infrastructure"
+    "ui",
+    "camera"
   ],
   "interaction_modes": [
-    "ui",
-    "trigger"
+    "ui"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "high",
+  "asset_profile": "light",
+  "script_complexity": "medium",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/Player_Transforms_1425752169482551389/p0_player_transforms.mp4",
   "download_path": "v2-hyp/Player_Transforms.hyp",

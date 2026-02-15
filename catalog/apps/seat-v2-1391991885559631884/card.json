@@ -1,14 +1,22 @@
 {
   "name": "Seatv2",
   "author": "0mka",
-  "description": "Error: No malformed JSON content was provided after the BAD_OUTPUT label to fix. Please provide the invalid JSON that needs correction.",
+  "description": "Interactive seat that anchors a player to a configurable sitting position and triggers one of four selectable sitting emotes. Syncs occupancy state via server networking, displays a hover UI image on pointer enter, and supports both hold-action and click-pointer interaction modes with adjustable dis",
   "tags": [
-    "unclassified"
+    "interaction",
+    "animation",
+    "ui",
+    "3d-model",
+    "multiplayer"
   ],
-  "interaction_modes": [],
-  "asset_profile": "light",
-  "script_complexity": "low",
-  "networking": "none",
+  "interaction_modes": [
+    "action",
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking": "events",
   "preview_url": "catalog/generated_previews/seat-v2-1391991885559631884.jpg",
   "download_path": "v2-hyp/Seatv2.hyp",
   "created_at": "2025-07-08T03:58:47.476Z",

@@ -1,17 +1,21 @@
 {
   "name": "Weightpaint_ScreenUI_test1",
   "author": "Gert-Jan Akerboom",
-  "description": "BAD_OUTPUT content was not provided in the prompt",
+  "description": "Renders a 10x10 screen-space UI grid that lets players paint squares by clicking and dragging. On mouse release, clones a flower/grass 3D model at corresponding world positions. The UI grid toggles visibility based on player distance (10m threshold) and supports right-click to reset all placed objec",
   "tags": [
-    "error",
-    "missing_input"
+    "ui",
+    "interaction",
+    "3d-model",
+    "environment",
+    "building"
   ],
   "interaction_modes": [
+    "ui",
     "networked"
   ],
   "asset_profile": "light",
-  "script_complexity": "low",
-  "networking": "none",
+  "script_complexity": "medium",
+  "networking": "events",
   "preview_url": "catalog/discord/hyp_media/Weightpaint_ScreenUI_test1_1420742160474701966/p4_coins.mp4",
   "download_path": "v2-hyp/Weightpaint_ScreenUI_test1.hyp",
   "created_at": "2025-09-25T12:02:07.170Z",

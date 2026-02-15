@@ -1,21 +1,19 @@
 {
   "name": "RainV4",
   "author": "Gert-Jan Akerboom",
-  "description": "Configuration settings for the application",
+  "description": "Spawns up to 5000 billboard raindrop particles that fall with configurable gravity and speed, then triggers ring-shaped splash effects on ground impact. A UI panel toggles a grab cube for repositioning and exposes controls for spawn rate, area radius, and particle scale.",
   "tags": [
-    "settings",
-    "config",
-    "json_config",
-    "configuration"
+    "particles",
+    "ui",
+    "physics",
+    "environment",
+    "camera"
   ],
   "interaction_modes": [
-    "passive",
-    "passive",
-    "passive",
     "passive"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "low",
+  "asset_profile": "light",
+  "script_complexity": "medium",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/RainV4_1359841759248646274/m2_image.png",
   "download_path": "v2-hyp/RainV4.hyp",

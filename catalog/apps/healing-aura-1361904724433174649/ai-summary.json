@@ -1,15 +1,13 @@
 {
   "app_id": "healing-aura-1361904724433174649",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T04:05:55+00:00",
-  "description": "Fixed JSON output - no content provided to fix",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:22:02+00:00",
+  "description": "Spawns two green particle emitters in a circular aura pattern: small rising dots with orbital velocity and larger additive-blended lines that fade over their lifetime. Configurable textures allow customizing particle images. Serves as a reference demo for the Hyperfy particles API.",
   "feature_tags": [
-    "json",
-    "fix",
-    "validator"
+    "particles",
+    "3d-model"
   ],
   "interaction_modes": [
-    "passive",
     "passive"
   ],
   "asset_profile": "light",

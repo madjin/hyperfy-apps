@@ -1,14 +1,14 @@
 {
   "name": "anybox",
   "author": "ash",
-  "description": "Fixed JSON output",
+  "description": "A reusable container box that plays a configurable looping background audio track at low volume and renders a floating UI label reading 'Background Audio' above the 3D model. Designed as an organizational shell for logic-based apps.",
   "tags": [
-    "json",
-    "fix",
-    "validation"
+    "audio",
+    "ui",
+    "3d-model"
   ],
   "interaction_modes": [
-    "passive"
+    "ui"
   ],
   "asset_profile": "medium",
   "script_complexity": "low",

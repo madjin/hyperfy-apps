@@ -1,14 +1,14 @@
 {
   "app_id": "broke-rom-1355215078328369344",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T03:57:14+00:00",
-  "description": "No bad output content was provided after 'BAD_OUTPUT:' to fix. Please provide the invalid JSON that needs correction.",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:17:06+00:00",
+  "description": "Renders a configurable 3D ROM cartridge model and shifts its mesh texture UV coordinates based on a color dropdown selection, unlinking the mesh and material to apply per-instance tinting across seven color options including red, green, blue, and violet.",
   "feature_tags": [
-    "error",
-    "missing_input"
+    "3d-model",
+    "ui"
   ],
   "interaction_modes": [
-    "networked"
+    "passive"
   ],
   "asset_profile": "light",
   "script_complexity": "low",

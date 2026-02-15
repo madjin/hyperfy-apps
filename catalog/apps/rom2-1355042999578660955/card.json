@@ -1,20 +1,16 @@
 {
   "name": "rom2",
   "author": "general hyper",
-  "description": "A customizable 3D ROM cartridge display with configurable name label and rainbow color selection. Features a UI panel showing the ROM name with adjustable font and background, plus material color shifting via texture coordinate manipulation.",
+  "description": "Renders a configurable ROM cartridge 3D model with a UI text label displaying the rom name and adjusts material texture offsets to switch between seven color variants (Red, Orange, Yellow, Green, Blue, Indigo, Violet) via a dropdown prop.",
   "tags": [
     "ui",
-    "3d-model",
-    "interaction",
-    "animation",
-    "building"
+    "3d-model"
   ],
   "interaction_modes": [
-    "ui",
-    "passive"
+    "ui"
   ],
   "asset_profile": "light",
-  "script_complexity": "medium",
+  "script_complexity": "low",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/rom2_1355042999578660955/m3_image.png",
   "download_path": "v2-hyp/rom2.hyp",

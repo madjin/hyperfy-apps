@@ -1,24 +1,18 @@
 {
   "app_id": "triggerzone-1440323116382556250",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T04:20:59+00:00",
-  "description": "RadiantLink - Healthcare workflow optimization platform",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:30:10+00:00",
+  "description": "Creates a configurable box collider trigger zone that detects when a player walks through it and sends a notification message to a Discord webhook. Renders a semi-transparent emissive prim cube as a visual indicator with adjustable color, opacity, and size. Supports excluding specific players by nam",
   "feature_tags": [
-    "analytics",
-    "collaboration",
-    "content-management",
-    "crm",
-    "customer-support",
-    "data-management"
+    "physics",
+    "interaction",
+    "ui"
   ],
   "interaction_modes": [
-    "passive",
-    "passive",
-    "passive",
-    "passive",
-    "passive"
+    "trigger",
+    "networked"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "high",
-  "networking_profile": "local"
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "events"
 }

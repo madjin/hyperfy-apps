@@ -1,16 +1,20 @@
 {
   "name": "PlayerTag-UInew",
   "author": "~/drdoge.eth",
-  "description": "Invalid or missing input data - no bad output was provided to fix",
+  "description": "Renders a customizable overhead player tag UI with Fallout-themed color presets, animated text glow effects, configurable badge icons, and a keyboard toggle key. Creates billboard-anchored uitext nodes for name, level, and faction badges above the player.",
   "tags": [
-    "unclassified"
+    "ui",
+    "animation",
+    "interaction",
+    "3d-model"
   ],
   "interaction_modes": [
-    "passive"
+    "ui",
+    "networked"
   ],
-  "asset_profile": "light",
-  "script_complexity": "low",
-  "networking": "none",
+  "asset_profile": "medium",
+  "script_complexity": "high",
+  "networking": "events",
   "preview_url": "catalog/discord/hyp_media/PlayerTag-UInew_1355704776373043221/p1_2025-03-29_21-41-34.mp4",
   "download_path": "v2-hyp/PlayerTag-UInew.hyp",
   "created_at": "2025-03-30T00:46:46.464Z",

@@ -1,16 +1,14 @@
 {
-  "app_id": "360player_mono-1361648804113285242",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T03:54:46+00:00",
-  "description": "Mono 360-degree video player for immersive environments. Features configurable video URL/upload, correct 16:9 aspect ratio for mono 360s, and sun visibility support. Maps video to spherical geometry for skybox-style backgrounds.",
+  "app_id": "360player-mono-1361648804113285242",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:16:06+00:00",
+  "description": "Renders a 360-degree mono video onto a sphere mesh, playing it as a looping skybox. Accepts an uploaded video file or a pasted URL link via configurable props, and maps the video texture with 16:9 aspect ratio to the sphere geometry on the client side.",
   "feature_tags": [
     "media-player",
-    "environment",
-    "ui",
-    "3d-model"
+    "3d-model",
+    "environment"
   ],
   "interaction_modes": [
-    "ui",
     "passive"
   ],
   "asset_profile": "light",

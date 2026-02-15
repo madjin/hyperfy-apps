@@ -1,16 +1,17 @@
 {
   "name": "Rocket_Launcher_V3",
   "author": "Gert-Jan Akerboom",
-  "description": "This app does something useful",
+  "description": "Interactive rocket launcher that triggers a launch sequence when the player holds an action button. Spawns additive exhaust particles on the rocket mesh, animates it skyward with quadratic easing to 500 units, then respawns it by rising smoothly from underground.",
   "tags": [
-    "feature1",
-    "feature2"
+    "particles",
+    "animation",
+    "interaction",
+    "3d-model"
   ],
   "interaction_modes": [
-    "ui",
-    "networked"
+    "action"
   ],
-  "asset_profile": "medium",
+  "asset_profile": "light",
   "script_complexity": "medium",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/Rocket_Launcher_V3_1364972260766646293/m1_World_-_Google_Chrome_24.04.2025_14_53_08.png",

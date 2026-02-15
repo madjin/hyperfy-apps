@@ -1,11 +1,10 @@
 {
   "name": "bending_leaf_V1",
   "author": "Gert-Jan Akerboom",
-  "description": "Animated 3D leaf using skinned mesh rigging. Plays a bending animation on load. Demonstrates skinned mesh animation playback and highlights interaction limitations with GPU-skinned meshes in Hyperfy.",
+  "description": "Loads a skinned-mesh leaf 3D model and plays a looping 'bend' animation on its rig. Demonstrates skeletal animation on a simple organic object, though skinned meshes lack click interaction without an invisible collider box.",
   "tags": [
     "animation",
-    "3d-model",
-    "environment"
+    "3d-model"
   ],
   "interaction_modes": [
     "passive"

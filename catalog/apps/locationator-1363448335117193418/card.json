@@ -1,11 +1,14 @@
 {
   "name": "Locationator",
   "author": "MetaRick",
-  "description": "Original output was not provided. Please include the invalid JSON content after 'BAD_OUTPUT:' to allow proper conversion to valid JSON.",
+  "description": "Renders a billboarded UI text label above a placed 3D model that displays live world position (X, Y, Z) and rotation (RX, RY, RZ) coordinates, updating each frame to help builders identify exact teleport destinations.",
   "tags": [
-    "unclassified"
+    "ui",
+    "3d-model"
   ],
-  "interaction_modes": [],
+  "interaction_modes": [
+    "ui"
+  ],
   "asset_profile": "light",
   "script_complexity": "low",
   "networking": "none",

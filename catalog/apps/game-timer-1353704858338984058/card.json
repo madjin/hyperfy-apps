@@ -1,14 +1,14 @@
 {
   "name": "Game_Timer",
   "author": "0mka",
-  "description": "Default valid JSON object since no bad output was provided",
+  "description": "Renders a configurable countdown timer as an on-screen UI panel that ticks down each second from a user-defined minute value. Displays MM:SS formatted text and stops at 00:00. Colors, alpha, and duration are customizable via app.configure fields.",
   "tags": [
-    "placeholder"
+    "ui"
   ],
   "interaction_modes": [
-    "passive"
+    "ui"
   ],
-  "asset_profile": "medium",
+  "asset_profile": "light",
   "script_complexity": "low",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/Game_Timer_1353704858338984058/p0_timer.mp4",

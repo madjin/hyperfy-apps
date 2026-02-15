@@ -1,23 +1,20 @@
 {
   "name": "DAY_NIGHT_WEATHER_CURRENT",
   "author": "~/drdoge.eth",
-  "description": "Environmental control app that manages day/night cycles, dynamic weather systems (rain, storm, fog, dust, nuclear fallout), and atmospheric effects including HDR skyboxes, volumetric fog, lightning, and ambient audio. Features real-time or configurable time progression with a Pip-Boy style HUD displ",
+  "description": "Solar panel controller that rotates the sun and sky through a real-time day/night cycle, spawns weather particle systems (rain, dust storms, lightning, fog, nuclear ash), and plays thunder and rain audio. Renders a Pip-Boy-style UI displaying current time and days passed.",
   "tags": [
-    "environment",
     "particles",
     "audio",
     "ui",
-    "animation",
+    "environment",
     "3d-model"
   ],
   "interaction_modes": [
-    "ui",
-    "passive",
-    "networked"
+    "ui"
   ],
   "asset_profile": "heavy",
   "script_complexity": "high",
-  "networking": "shared_state",
+  "networking": "none",
   "preview_url": "catalog/discord/hyp_media/DAY_NIGHT_WEATHER_CURRENT_1364018271719919686/m8_IMG_1182.png",
   "download_path": "v2-hyp/DAY_NIGHT_WEATHER_CURRENT.hyp",
   "created_at": "2025-04-21T23:21:38.212Z",

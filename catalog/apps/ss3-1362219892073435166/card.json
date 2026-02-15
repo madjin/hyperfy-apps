@@ -1,23 +1,19 @@
 {
   "name": "SS3",
   "author": "~/drdoge.eth",
-  "description": "Enterprise resource planning application",
+  "description": "Spawns a configurable particle aura effect around a 3D model with multiple color themes (nuka, plasma, quantum, fire, ghost, toxic) and effect styles (flame, energy, mist, sparkle, storm). Renders primary, secondary, and glow particle layers with customizable emission rates, lifetime, scale, cone an",
   "tags": [
-    "cloud",
-    "scalable",
-    "api-enabled",
-    "analytics"
+    "particles",
+    "3d-model",
+    "ui"
   ],
   "interaction_modes": [
-    "ui",
-    "trigger",
-    "action",
-    "trigger",
-    "action"
+    "passive",
+    "networked"
   ],
   "asset_profile": "medium",
   "script_complexity": "high",
-  "networking": "none",
+  "networking": "events",
   "preview_url": "catalog/generated_previews/ss3-1362219892073435166.jpg",
   "download_path": "v2-hyp/SS3.hyp",
   "created_at": "2025-04-17T00:15:31.092Z",

@@ -1,12 +1,16 @@
 {
   "name": "Wolf_Maro",
   "author": "ash",
-  "description": "No bad output content was provided in the prompt to fix. Please provide the invalid JSON that needs to be corrected.",
+  "description": "Renders a skinned wolf character mesh that plays an idle animation by default and triggers a random animation from the rig's animation list on pointer click, with configurable speed and crossfade blending.",
   "tags": [
-    "unclassified"
+    "3d-model",
+    "animation",
+    "interaction"
   ],
-  "interaction_modes": [],
-  "asset_profile": "light",
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "medium",
   "script_complexity": "low",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/Wolf_Maro_1356607622211440731/p4_image.png",

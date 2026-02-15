@@ -1,21 +1,21 @@
 {
   "name": "car1",
   "author": "ash",
-  "description": "Client-side vehicle physics demo featuring a drivable car with raycast-based suspension, spring physics, and WASD controls. Simulates realistic wheel forces, steering, and acceleration with dynamic visual wheel positioning. Experimental prototype intended for future server-side simulation.",
+  "description": "Client-side drivable car that simulates raycast suspension, steering, and acceleration forces per wheel during fixedUpdate. Players anchor into the vehicle body and control it with WASD keys, while tire hubs animate rotation and lateral grip using physics raycasts against the ground.",
   "tags": [
     "vehicle",
     "physics",
-    "interaction",
-    "3d-model",
     "animation",
-    "camera"
+    "interaction",
+    "3d-model"
   ],
   "interaction_modes": [
-    "action"
+    "passive",
+    "networked"
   ],
   "asset_profile": "light",
   "script_complexity": "high",
-  "networking": "local",
+  "networking": "events",
   "preview_url": "catalog/discord/hyp_media/car1_1353196235074441290/m6_susanequip.png",
   "download_path": "v2-hyp/car1.hyp",
   "created_at": "2025-03-23T02:38:43.612Z",

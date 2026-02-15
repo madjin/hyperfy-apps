@@ -1,24 +1,22 @@
 {
   "name": "PvE_Sword",
   "author": "peezy",
-  "description": "A multiplayer PvE melee combat system where players equip a sword to deal damage to others using physics-based hit detection. Features configurable attack emotes, server-authoritative damage calculation with critical hits, and pickup/drop mechanics synchronized across clients.",
+  "description": "PvE melee sword that players pick up and attach to their right hand via bone tracking. Left-click triggers randomized attack emotes and fires an overlapSphere hit check that damages nearby players with critical hit chance. Syncs sword holders across server and clients, and drops on Q press or discon",
   "tags": [
     "combat",
-    "multiplayer",
-    "interaction",
     "animation",
-    "physics",
-    "3d-model"
+    "interaction",
+    "multiplayer",
+    "3d-model",
+    "physics"
   ],
   "interaction_modes": [
     "action",
-    "trigger",
-    "ui",
     "networked"
   ],
   "asset_profile": "medium",
   "script_complexity": "high",
-  "networking": "shared_state",
+  "networking": "events",
   "preview_url": "catalog/generated_previews/pve-sword-1354082561185288312.png",
   "download_path": "v2-hyp/PvE_Sword.hyp",
   "created_at": "2025-03-25T13:20:40.224Z",

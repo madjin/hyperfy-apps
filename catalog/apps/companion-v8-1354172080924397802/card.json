@@ -1,22 +1,21 @@
 {
   "name": "Companion_v8",
   "author": "~/drdoge.eth",
-  "description": "AI-powered NPC companion robot named Victor with cowboy personality. Features voice chat commands (follow, search, patrol), environment perception, HuggingFace LLM integration for contextual dialogue, and VRM avatar animations. Includes PingScript system for object detection and HUD/compass compatib",
+  "description": "AI-powered VRM companion NPC named Victor that follows players, patrols within a configurable radius, scans nearby objects, and responds to chat commands via HuggingFace API with a cowboy Securitron personality. Animates idle and walk cycles on the avatar using emote assets.",
   "tags": [
     "npc",
     "animation",
     "interaction",
-    "multiplayer",
-    "ui"
+    "ui",
+    "3d-model"
   ],
   "interaction_modes": [
-    "action",
     "ui",
     "networked"
   ],
-  "asset_profile": "medium",
+  "asset_profile": "heavy",
   "script_complexity": "high",
-  "networking": "shared_state",
+  "networking": "events",
   "preview_url": "catalog/discord/hyp_media/Companion_v8_1354172080924397802/m1_updated_companion.mp4",
   "download_path": "v2-hyp/Companion_v8.hyp",
   "created_at": "2025-03-25T19:16:23.393Z",

@@ -1,16 +1,14 @@
 {
   "name": "Butterfly_Swarm_V1",
   "author": "Gert-Jan Akerboom",
-  "description": "Procedurally generates an animated swarm of butterflies with randomized flight patterns, scales, and wing flap speeds. Features UI controls for butterfly count, size ranges, and movement parameters. Ideal for ambient environment decoration.",
+  "description": "Spawns a swarm of 50 butterfly clones with randomized scale, position, and flap speed. Animates wing rotation and vertical floating movement each frame using sinusoidal math on the update loop, creating a gentle ambient butterfly swarm from a single GLB model.",
   "tags": [
     "animation",
-    "environment",
-    "particles",
-    "ui"
+    "3d-model",
+    "environment"
   ],
   "interaction_modes": [
-    "passive",
-    "ui"
+    "passive"
   ],
   "asset_profile": "light",
   "script_complexity": "medium",

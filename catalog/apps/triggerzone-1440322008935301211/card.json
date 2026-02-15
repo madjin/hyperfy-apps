@@ -1,17 +1,19 @@
 {
   "name": "TriggerZone",
   "author": "Gert-Jan Akerboom",
-  "description": "An example application",
+  "description": "Creates a configurable box collider trigger zone that detects when players enter and sends a notification message to a Discord webhook. Renders a semi-transparent emissive prim cube as a visual indicator with adjustable color, opacity, and size. Supports excluding specific player names from triggeri",
   "tags": [
-    "example",
-    "placeholder"
+    "physics",
+    "interaction",
+    "ui",
+    "environment"
   ],
   "interaction_modes": [
-    "ui",
+    "trigger",
     "networked"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "low",
+  "asset_profile": "light",
+  "script_complexity": "medium",
   "networking": "events",
   "preview_url": "catalog/discord/hyp_media/TriggerZone_1440322008935301211/p1_triggerzone.mp4",
   "download_path": "v2-hyp/TriggerZone.hyp",

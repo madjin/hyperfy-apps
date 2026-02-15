@@ -1,16 +1,12 @@
 {
   "name": "monkey_head",
   "author": ".hyp shaman",
-  "description": "A 3D monkey head avatar base with UI-configurable jump height and button texture. Features physics-ready rigidbody structure for interactive avatar use, though script implementation is minimal.",
+  "description": "Renders a monkey head 3D model with a jump button texture and configurable jumpHeight prop. The script is empty, serving as a minimal template to demonstrate app structure with a GLB model and texture asset loaded into the scene.",
   "tags": [
     "3d-model",
-    "avatar",
-    "ui",
-    "physics",
-    "interaction"
+    "ui"
   ],
   "interaction_modes": [
-    "ui",
     "passive"
   ],
   "asset_profile": "light",

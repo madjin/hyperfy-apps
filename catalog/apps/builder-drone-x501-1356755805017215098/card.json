@@ -1,22 +1,22 @@
 {
   "name": "Builder_Drone_X501",
   "author": "ash",
-  "description": "A controllable flying drone that players can pilot using WASD and mouse look. Features physics-based movement, animated rotors, and networked multiplayer support with ownership handoff.",
+  "description": "Flyable builder drone with spinning rotors that a player triggers via an action prompt. Syncs position and quaternion across server and clients using networked events, attaches the camera to the drone view, and releases control on disconnect or key press.",
   "tags": [
     "vehicle",
-    "physics",
-    "multiplayer",
-    "interaction",
     "camera",
-    "animation"
+    "physics",
+    "animation",
+    "interaction",
+    "multiplayer"
   ],
   "interaction_modes": [
     "action",
     "networked"
   ],
-  "asset_profile": "light",
-  "script_complexity": "medium",
-  "networking": "shared_state",
+  "asset_profile": "medium",
+  "script_complexity": "high",
+  "networking": "events",
   "preview_url": "catalog/generated_previews/builder-drone-x501-1356755805017215098.jpg",
   "download_path": "v2-hyp/Builder_Drone_X501.hyp",
   "created_at": "2025-04-01T22:23:11.220Z",

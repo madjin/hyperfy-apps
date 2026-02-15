@@ -1,17 +1,21 @@
 {
   "app_id": "spicex-portal-1354289316314087515",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T04:18:45+00:00",
-  "description": "Web browser",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:28:50+00:00",
+  "description": "Configurable portal gate that spawns chaotic particles around a spinning rim, plays spatial audio, renders a billboard UI with destination name and subtitle, and opens a target world URL via trigger collider when a player enters the box zone.",
   "feature_tags": [
-    "web",
-    "browser",
-    "internet"
+    "particles",
+    "audio",
+    "physics",
+    "ui",
+    "teleport",
+    "3d-model"
   ],
   "interaction_modes": [
-    "trigger"
+    "trigger",
+    "ui"
   ],
-  "asset_profile": "heavy",
-  "script_complexity": "medium",
+  "asset_profile": "medium",
+  "script_complexity": "high",
   "networking_profile": "none"
 }

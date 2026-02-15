@@ -1,21 +1,16 @@
 {
   "name": "EmotesR",
   "author": "\ud835\udd7d\ud835\udd94\ud835\udd9a\ud835\udd98\ud835\udd99\ud835\udd86\ud835\udd93",
-  "description": "Circular emote selector UI displaying 6 configurable dance/emote buttons in a radial layout. Players trigger avatar animations via clickable buttons or hotkeys (B to open, 1-6 to select). Supports custom emote files, labels, icons, and gaze locking per slot.",
+  "description": "Emote wheel that renders a radial UI menu on screen, triggered by pressing B. Players select from six dance emote animations (ThaRoof, Snake, Belly, Headbob, Hip Hop, Gangnam) arranged in a circle, which applies the chosen emote to the avatar via applyEffect.",
   "tags": [
-    "animation",
     "ui",
-    "interaction",
-    "3d-model",
-    "multiplayer",
-    "avatar"
+    "animation",
+    "interaction"
   ],
   "interaction_modes": [
-    "action",
-    "ui",
-    "passive"
+    "ui"
   ],
-  "asset_profile": "heavy",
+  "asset_profile": "medium",
   "script_complexity": "medium",
   "networking": "none",
   "preview_url": "catalog/generated_previews/emotesr-1440465428748046346.jpg",

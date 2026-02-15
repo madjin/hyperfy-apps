@@ -1,18 +1,17 @@
 {
   "name": "Text_link_option",
   "author": "Gert-Jan Akerboom",
-  "description": "Background task for syncing user data with external CRM",
+  "description": "Renders a configurable UI text panel with customizable size, color, alignment, background, and padding. Triggers world.open to navigate to an optional URL on pointer down, turning the text surface into a clickable link.",
   "tags": [
-    "background-processing",
-    "crm-integration",
-    "data-sync"
+    "ui",
+    "interaction"
   ],
   "interaction_modes": [
-    "passive"
+    "ui"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "high",
-  "networking": "shared_state",
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking": "none",
   "preview_url": "catalog/generated_previews/text-link-option-1426147798776152144.png",
   "download_path": "v2-hyp/Text_link_option.hyp",
   "created_at": "2025-10-10T10:02:11.773Z",

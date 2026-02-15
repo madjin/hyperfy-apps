@@ -1,14 +1,13 @@
 {
   "name": "generate_monstera_V1",
   "author": "Agent12",
-  "description": "Example application description",
+  "description": "Procedural plant generator that clones a monstera leaf GLB model 3-30 times, stacking clones vertically with randomized spacing, rotation, and linearly interpolated scale so each instance renders a unique monstera plant arrangement in the scene.",
   "tags": [
-    "productivity",
-    "utilities"
+    "3d-model",
+    "environment"
   ],
   "interaction_modes": [
-    "trigger",
-    "action"
+    "passive"
   ],
   "asset_profile": "light",
   "script_complexity": "low",

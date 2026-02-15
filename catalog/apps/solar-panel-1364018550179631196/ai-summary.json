@@ -1,19 +1,17 @@
 {
   "app_id": "solar-panel-1364018550179631196",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T04:17:56+00:00",
-  "description": "A configurable sky and lighting environment app that simulates time-of-day sun positioning. Features customizable sky textures, HDR backgrounds, and adjustable sun intensity with AM/PM time controls. Creates a dynamic sky node that calculates realistic sun direction based on hour input.",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:28:31+00:00",
+  "description": "A solar panel 3D model that controls the world sky node by configuring sun direction, intensity, HDR lighting, and sky texture. Calculates sun position by rotating a direction vector based on configurable hour and AM/PM period settings.",
   "feature_tags": [
     "environment",
-    "ui",
     "3d-model",
-    "interaction"
+    "ui"
   ],
   "interaction_modes": [
-    "ui",
     "passive"
   ],
-  "asset_profile": "light",
+  "asset_profile": "medium",
   "script_complexity": "low",
   "networking_profile": "none"
 }

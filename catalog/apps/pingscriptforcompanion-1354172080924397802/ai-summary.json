@@ -1,15 +1,18 @@
 {
   "app_id": "pingscriptforcompanion-1354172080924397802",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T04:12:00+00:00",
-  "description": "No input provided to fix",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:25:23+00:00",
+  "description": "Responds to ping events from a companion or minimap system by calculating distance via Math.hypot and emitting pong events with the object's configurable display name, type, and position. Attach to any 3D model to make it scannable as a landmark.",
   "feature_tags": [
-    "placeholder"
+    "interaction",
+    "ui",
+    "3d-model"
   ],
   "interaction_modes": [
+    "passive",
     "networked"
   ],
-  "asset_profile": "light",
+  "asset_profile": "medium",
   "script_complexity": "low",
-  "networking_profile": "none"
+  "networking_profile": "events"
 }

@@ -1,23 +1,19 @@
 {
   "name": "cam_raycast_action_bar",
   "author": "Saori",
-  "description": "WoW-style action bar UI with 10 ability slots (Q, E, F keys). Features camera-based raycasting that fires beams from player chest, with client-server networking. Includes customizable text, emojis, and attack emotes.",
+  "description": "Renders a 10-slot action bar UI at the bottom of the screen with keybind labels and WoW-style spell icons. Triggers a camera-based raycast on key press (Q) that sends the ray direction and origin to the server via networked events for server-side hit detection.",
   "tags": [
     "ui",
-    "combat",
     "camera",
-    "multiplayer",
-    "interaction",
-    "animation"
+    "combat",
+    "interaction"
   ],
   "interaction_modes": [
-    "action",
     "ui",
-    "networked",
-    "trigger"
+    "networked"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "high",
+  "asset_profile": "light",
+  "script_complexity": "medium",
   "networking": "events",
   "preview_url": "catalog/generated_previews/cam-raycast-action-bar-1348748294658195487.jpg",
   "download_path": "v2-hyp/cam_raycast_action_bar.hyp",

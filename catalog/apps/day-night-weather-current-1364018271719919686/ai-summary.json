@@ -1,22 +1,19 @@
 {
   "app_id": "day-night-weather-current-1364018271719919686",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-14T21:51:21+00:00",
-  "description": "Environmental control app that manages day/night cycles, dynamic weather systems (rain, storm, fog, dust, nuclear fallout), and atmospheric effects including HDR skyboxes, volumetric fog, lightning, and ambient audio. Features real-time or configurable time progression with a Pip-Boy style HUD displ",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:19:57+00:00",
+  "description": "Solar panel controller that rotates the sun and sky through a real-time day/night cycle, spawns weather particle systems (rain, dust storms, lightning, fog, nuclear ash), and plays thunder and rain audio. Renders a Pip-Boy-style UI displaying current time and days passed.",
   "feature_tags": [
-    "environment",
     "particles",
     "audio",
     "ui",
-    "animation",
+    "environment",
     "3d-model"
   ],
   "interaction_modes": [
-    "ui",
-    "passive",
-    "networked"
+    "ui"
   ],
   "asset_profile": "heavy",
   "script_complexity": "high",
-  "networking_profile": "shared_state"
+  "networking_profile": "none"
 }

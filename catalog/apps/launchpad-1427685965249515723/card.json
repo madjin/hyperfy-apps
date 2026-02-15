@@ -1,15 +1,14 @@
 {
   "name": "Launchpad",
   "author": "Dhin",
-  "description": "A physics-based launchpad that propels players upward when stepped on. Uses trigger collision detection to apply vertical force via player push mechanics, enabling jump boosts or trampoline-like behavior in worlds.",
+  "description": "Trampoline-style launchpad that detects player entry via a trigger zone on a 3D model and pushes the player upward with a vertical force vector, acting as a bouncy jump pad for traversal.",
   "tags": [
     "physics",
     "interaction",
-    "environment",
     "3d-model"
   ],
   "interaction_modes": [
-    "trigger"
+    "passive"
   ],
   "asset_profile": "light",
   "script_complexity": "low",

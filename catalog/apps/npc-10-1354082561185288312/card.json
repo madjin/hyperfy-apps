@@ -1,18 +1,17 @@
 {
   "name": "NPC_10",
   "author": "peezy",
-  "description": "An interactive NPC with combat AI that chases players, plays attack animations with hit detection, and features audio cues. Configurable walk/run/idle emotes with physics-based collision detection.",
+  "description": "VRM-based NPC that detects players within a configurable FOV and range, chases them using walk/run animations, and triggers melee attack combos with hit detection via rigidbody colliders. Plays raptor audio on attack and emits networked npc:attack events with calculated hit positions for combat dama",
   "tags": [
     "npc",
     "combat",
     "animation",
     "audio",
-    "physics"
+    "physics",
+    "interaction"
   ],
   "interaction_modes": [
-    "action",
     "trigger",
-    "ui",
     "networked"
   ],
   "asset_profile": "heavy",

@@ -1,7 +1,7 @@
 {
   "name": "n1-n1-05",
   "author": "ash",
-  "description": "Configures a GLB model's collider to use precise trimesh collision (convex=false) instead of convex hull, demonstrating physics collision setup for accurate mesh boundaries.",
+  "description": "Loads a GLB model and sets its collider to trimesh mode by disabling convex on the collider node, enabling precise collision detection that matches the exact mesh geometry rather than a simplified convex hull.",
   "tags": [
     "physics",
     "3d-model"

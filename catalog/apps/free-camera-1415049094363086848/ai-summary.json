@@ -1,18 +1,17 @@
 {
   "app_id": "free-camera-1415049094363086848",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T04:04:33+00:00",
-  "description": "Configuration and settings management application for Creature devices",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:21:13+00:00",
+  "description": "Toggles a freecam or orbit camera mode via configurable hotkeys, letting users fly freely or orbit around a target position. Renders an in-world UI panel with stepper controls to adjust move speed, look speed, lerp, radius, and height in real time.",
   "feature_tags": [
-    "settings",
-    "configuration",
-    "device_management"
+    "camera",
+    "ui",
+    "interaction"
   ],
   "interaction_modes": [
-    "ui",
-    "trigger"
+    "ui"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "low",
-  "networking_profile": "local"
+  "asset_profile": "light",
+  "script_complexity": "high",
+  "networking_profile": "none"
 }

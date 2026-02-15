@@ -1,17 +1,14 @@
 {
-  "app_id": "eel_add_particles1-1362421603765325946",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T04:02:26+00:00",
-  "description": "Attaches glow-dust particle effects to animated model bones. Tracks bone transforms in real-time to position and rotate particle emitters, creating visual effects that follow skeletal animation. Includes configurable particle texture upload.",
+  "app_id": "eel-add-particles1-1362421603765325946",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:20:11+00:00",
+  "description": "Spawns additive glow-dust particles that track a skeleton bone position each frame using getBoneTransform. Plays a 'flow' animation on the rig and allows configuring a custom particle texture via app properties.",
   "feature_tags": [
     "particles",
     "animation",
-    "3d-model",
-    "ui",
-    "visual-effects"
+    "3d-model"
   ],
   "interaction_modes": [
-    "ui",
     "passive"
   ],
   "asset_profile": "medium",

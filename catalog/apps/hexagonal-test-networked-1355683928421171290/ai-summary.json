@@ -1,21 +1,20 @@
 {
   "app_id": "hexagonal-test-networked-1355683928421171290",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-14T21:56:53+00:00",
-  "description": "Interactive hexagonal floor panels that react to player contact with physics-based movement, UV scrolling effects, and networked state synchronization for multiplayer mini-games.",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:22:21+00:00",
+  "description": "Networked hexagonal floor panels that detect player contact and react by shifting downward and scrolling UV offsets to cycle colors. The server simulates oscillation, dip movement, and UV state transitions, then broadcasts panel state to all clients for synchronized visuals.",
   "feature_tags": [
     "interaction",
-    "physics",
     "animation",
     "multiplayer",
-    "environment"
+    "physics",
+    "3d-model"
   ],
   "interaction_modes": [
-    "action",
-    "trigger",
+    "passive",
     "networked"
   ],
   "asset_profile": "medium",
   "script_complexity": "high",
-  "networking_profile": "shared_state"
+  "networking_profile": "events"
 }

@@ -1,20 +1,17 @@
 {
   "name": "Fog",
   "author": "ash",
-  "description": "JSON validation and correction service",
+  "description": "Spawns a box-shaped particle emitter that renders slow-drifting, semi-transparent fog across a 20x20 area. Uses a configurable texture image and alphaOverLife curve to fade particles in and out, creating an atmospheric fog layer in the environment.",
   "tags": [
-    "validation",
-    "json",
-    "schema"
+    "particles",
+    "environment"
   ],
   "interaction_modes": [
-    "passive",
-    "passive",
     "passive"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "high",
-  "networking": "local",
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking": "none",
   "preview_url": "catalog/discord/hyp_media/Fog_1361904724433174649/m1_xyz-particle-demos_2_-_edit.mp4",
   "download_path": "v2-hyp/Fog.hyp",
   "created_at": "2025-04-16T03:23:09.271Z",

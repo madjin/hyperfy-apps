@@ -1,19 +1,23 @@
 {
   "app_id": "mini-nukeportal-1354506347751805090",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T04:09:16+00:00",
-  "description": "Application configuration",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:23:57+00:00",
+  "description": "Interactive mini-nuke that detonates on player action, spawns radiation particle clouds with \u2622 symbols, plays explosion and Geiger counter audio, damages nearby players via hyperfy:dmg events, and triggers a portal to a configurable destination world URL after a timed delay.",
   "feature_tags": [
-    "auth",
-    "logging",
-    "metrics"
+    "particles",
+    "audio",
+    "combat",
+    "ui",
+    "interaction",
+    "teleport"
   ],
   "interaction_modes": [
     "action",
-    "networked",
-    "passive"
+    "trigger",
+    "ui",
+    "networked"
   ],
-  "asset_profile": "medium",
+  "asset_profile": "heavy",
   "script_complexity": "high",
-  "networking_profile": "shared_state"
+  "networking_profile": "events"
 }

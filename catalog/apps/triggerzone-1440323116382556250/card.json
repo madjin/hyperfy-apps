@@ -1,25 +1,19 @@
 {
   "name": "TriggerZone",
   "author": "Gert-Jan Akerboom",
-  "description": "RadiantLink - Healthcare workflow optimization platform",
+  "description": "Creates a configurable box collider trigger zone that detects when a player walks through it and sends a notification message to a Discord webhook. Renders a semi-transparent emissive prim cube as a visual indicator with adjustable color, opacity, and size. Supports excluding specific players by nam",
   "tags": [
-    "analytics",
-    "collaboration",
-    "content-management",
-    "crm",
-    "customer-support",
-    "data-management"
+    "physics",
+    "interaction",
+    "ui"
   ],
   "interaction_modes": [
-    "passive",
-    "passive",
-    "passive",
-    "passive",
-    "passive"
+    "trigger",
+    "networked"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "high",
-  "networking": "local",
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking": "events",
   "preview_url": "catalog/generated_previews/triggerzone-1440323116382556250.png",
   "download_path": "v2-hyp/TriggerZone.hyp",
   "created_at": "2025-11-18T12:49:50.855Z",

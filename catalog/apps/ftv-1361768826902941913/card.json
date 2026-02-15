@@ -1,21 +1,19 @@
 {
   "name": "FTV",
   "author": "~/drdoge.eth",
-  "description": "A customizable multi-video TV player with spatial audio, UI controls, and playlist management. Supports up to 5 videos with autoplay, shuffle, and channel change sound effects. Features configurable screen mesh, aspect ratios, and audio falloff settings.",
+  "description": "In-world TV media player that plays up to five configurable video channels on a 3D model screen mesh. Triggers a channel-change sound effect when switching videos, supports autoplay, shuffle, spatial audio falloff, and renders mini UI controls for playback.",
   "tags": [
     "media-player",
-    "ui",
     "audio",
-    "interaction",
-    "3d-model"
+    "ui",
+    "3d-model",
+    "interaction"
   ],
   "interaction_modes": [
     "ui",
-    "action",
-    "passive",
     "networked"
   ],
-  "asset_profile": "light",
+  "asset_profile": "medium",
   "script_complexity": "high",
   "networking": "events",
   "preview_url": "catalog/discord/hyp_media/FTV_1361768826902941913/p0_ww.mp4",

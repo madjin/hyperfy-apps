@@ -1,16 +1,16 @@
 {
   "name": "SplinePineV1",
   "author": "Gert-Jan Akerboom",
-  "description": "Procedural topiary pine tree generator placing cube segments along a sine curve with randomized scale and rotation. Creates stylized scalable vegetation for environment decoration.",
+  "description": "Spawns 30 cloned pine-part meshes along a sine-curve spline, scaling each piece smaller toward the top to procedurally generate a curved pine tree from a single lightweight 50kb GLB model. Randomizes global scale and Y-rotation on each load for natural variation.",
   "tags": [
-    "environment",
-    "3d-model"
+    "3d-model",
+    "environment"
   ],
   "interaction_modes": [
     "passive"
   ],
   "asset_profile": "light",
-  "script_complexity": "medium",
+  "script_complexity": "low",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/SplinePineV1_1346505141473382451/m1_splinepine0001-1000.mp4",
   "download_path": "v2-hyp/SplinePineV1.hyp",

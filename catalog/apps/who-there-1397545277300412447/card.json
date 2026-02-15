@@ -1,19 +1,18 @@
 {
   "name": "who_there",
   "author": "Gert-Jan Akerboom",
-  "description": "Screenspace UI widget displaying real-time player count and expandable list of all players currently in the world. Features a collapsible interface and search functionality.",
+  "description": "Renders a screenspace UI panel in the top-right corner that displays an online player count and toggles an expandable list showing all player names. Listens for enter/leave events and syncs the roster every two seconds to keep the UI current.",
   "tags": [
     "ui",
-    "players",
-    "social",
-    "real-time"
+    "multiplayer",
+    "interaction"
   ],
   "interaction_modes": [
-    "passive",
-    "trigger"
+    "ui",
+    "networked"
   ],
   "asset_profile": "light",
-  "script_complexity": "low",
+  "script_complexity": "medium",
   "networking": "events",
   "preview_url": "catalog/discord/hyp_media/who_there_1397545277300412447/m1_image.png",
   "download_path": "v2-hyp/who_there.hyp",

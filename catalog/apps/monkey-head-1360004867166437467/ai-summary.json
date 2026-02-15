@@ -1,17 +1,13 @@
 {
   "app_id": "monkey-head-1360004867166437467",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-14T19:43:54+00:00",
-  "description": "A 3D monkey head avatar base with UI-configurable jump height and button texture. Features physics-ready rigidbody structure for interactive avatar use, though script implementation is minimal.",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:24:17+00:00",
+  "description": "Renders a monkey head 3D model with a jump button texture and configurable jumpHeight prop. The script is empty, serving as a minimal template to demonstrate app structure with a GLB model and texture asset loaded into the scene.",
   "feature_tags": [
     "3d-model",
-    "avatar",
-    "ui",
-    "physics",
-    "interaction"
+    "ui"
   ],
   "interaction_modes": [
-    "ui",
     "passive"
   ],
   "asset_profile": "light",

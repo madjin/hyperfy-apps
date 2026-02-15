@@ -1,19 +1,19 @@
 {
-  "app_id": "jukebox_ui-1354513817861750816",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T04:07:12+00:00",
-  "description": "Configurable 3D jukebox with spatial audio, playlist management (shuffle/loop), and interactive UI for up to 5 tracks. Features track visualization and customizable accent colors.",
+  "app_id": "jukebox-ui-1354513817861750816",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:22:50+00:00",
+  "description": "Multi-track jukebox that plays up to five configurable audio tracks with spatial 3D sound. Renders an in-world UI panel displaying track name, playback status, elapsed time, and animated visualizer bars. Supports shuffle, loop, next/prev navigation, and configurable volume and accent color.",
   "feature_tags": [
     "audio",
-    "media-player",
     "ui",
-    "3d-model"
+    "3d-model",
+    "interaction"
   ],
   "interaction_modes": [
     "ui",
-    "passive"
+    "networked"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "medium",
-  "networking_profile": "none"
+  "asset_profile": "heavy",
+  "script_complexity": "high",
+  "networking_profile": "events"
 }

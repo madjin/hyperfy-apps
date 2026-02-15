@@ -1,17 +1,15 @@
 {
   "name": "BasicMp3Player",
   "author": "Valiant",
-  "description": "Minimal clickable MP3 player supporting file upload or URL input. Features play/pause on click, volume/loop/spatial controls, and auto-play for uploaded files. Uses a basic cube mesh as the visual interface.",
+  "description": "Minimal clickable MP3 player that plays and pauses an audio node when the user clicks a GLB cube mesh. Supports uploaded files or pasted URLs, with configurable volume, loop, spatial/global mode, and auto-play on upload.",
   "tags": [
     "audio",
-    "media-player",
     "interaction",
-    "ui",
+    "media-player",
     "3d-model"
   ],
   "interaction_modes": [
-    "action",
-    "ui"
+    "passive"
   ],
   "asset_profile": "light",
   "script_complexity": "low",

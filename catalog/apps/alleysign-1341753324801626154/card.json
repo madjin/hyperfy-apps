@@ -1,11 +1,10 @@
 {
   "name": "AlleySign",
   "author": "MetaRick",
-  "description": "A continuously rotating 3D alley sign that spins on its Y-axis via script-based rotation rather than GLB animation. Lightweight decorative environment prop with passive animation.",
+  "description": "Loads an alley sign GLB model and rotates it continuously around its Y-axis at a configurable speed using the per-frame update loop. A simple demonstration of scripted object rotation without triggering GLB animations.",
   "tags": [
-    "animation",
     "3d-model",
-    "environment"
+    "animation"
   ],
   "interaction_modes": [
     "passive"

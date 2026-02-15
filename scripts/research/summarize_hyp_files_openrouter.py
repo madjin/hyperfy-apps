@@ -9,7 +9,7 @@ Inputs:
   - catalog/apps/*/manifest.json
   - catalog/discord/hyp_index.raw.json
   - catalog/discord/hyp_summaries/*.md
-  - catalog/context/snippets/*.snippet.txt
+  - catalog/context/snippets/*.snippet.txt (conditionally)
 """
 
 from __future__ import annotations
@@ -37,115 +37,32 @@ REPORT_PATH = CATALOG_ROOT / "manifests" / "ai-summary-report.json"
 FAILURE_DUMP_DIR = CATALOG_ROOT / "manifests" / "ai-summary-failures"
 
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
-MODEL_DEFAULT = "moonshotai/kimi-k2.5"
-JUDGE_MODEL = "minimax/minimax-m2.5"
+MODEL_DEFAULT = "anthropic/claude-opus-4.6"
 
 ALLOWED_COMPLEXITY = {"low", "medium", "high"}
 ALLOWED_PROFILE = {"light", "medium", "heavy"}
 ALLOWED_NETWORKING = {"none", "local", "shared_state", "events"}
 ALLOWED_INTERACTION = {"action", "trigger", "ui", "passive", "networked"}
 
-TAG_CANONICAL: dict[str, str] = {
-    "particle": "particles",
-    "particle effect": "particles",
-    "particle effects": "particles",
-    "particle system": "particles",
-    "3d model": "3d-model",
-    "3d models": "3d-model",
-    "3d-models": "3d-model",
-    "model": "3d-model",
-    "glb": "3d-model",
-    "spatial audio": "audio",
-    "sound": "audio",
-    "music": "audio",
-    "audio playback": "audio",
-    "npc ai": "npc",
-    "ai npc": "npc",
-    "ai": "npc",
-    "vehicle control": "vehicle",
-    "vehicles": "vehicle",
-    "driving": "vehicle",
-    "helicopter": "vehicle",
-    "car": "vehicle",
-    "pvp": "combat",
-    "weapon": "combat",
-    "weapons": "combat",
-    "gun": "combat",
-    "shooting": "combat",
-    "camera control": "camera",
-    "camera system": "camera",
-    "camera controls": "camera",
-    "ui controls": "ui",
-    "user interface": "ui",
-    "gui": "ui",
-    "hud": "ui",
-    "notification": "ui",
-    "notifications": "ui",
-    "environment design": "environment",
-    "world design": "environment",
-    "scene": "environment",
-    "sky": "environment",
-    "weather": "environment",
-    "terrain": "environment",
-    "landscape": "environment",
-    "animated": "animation",
-    "animations": "animation",
-    "animate": "animation",
-    "emote": "animation",
-    "emotes": "animation",
-    "interactive": "interaction",
-    "interactivity": "interaction",
-    "click": "interaction",
-    "action": "interaction",
-    "trigger": "interaction",
-    "building tool": "building",
-    "builder": "building",
-    "placement": "building",
-    "spawn": "building",
-    "teleportation": "teleport",
-    "portal": "teleport",
-    "portals": "teleport",
-    "media playback": "media-player",
-    "video player": "media-player",
-    "video": "media-player",
-    "image viewer": "media-player",
-    "physics simulation": "physics",
-    "rigidbody": "physics",
-    "collision": "physics",
-    "raycast": "physics",
-    "networking": "multiplayer",
-    "networked state": "multiplayer",
-    "multiplayer sync": "multiplayer",
-    "networked": "multiplayer",
-    "pet": "npc",
-    "pets": "npc",
-    "creature": "npc",
-    "butterfly": "particles",
-    "butterflies": "particles",
-    "swarm": "particles",
-    "fire": "particles",
-    "smoke": "particles",
-    "confetti": "particles",
-    "explosion": "particles",
-    "glow": "particles",
-    "dust": "particles",
-    "grass": "environment",
-    "tree": "environment",
-    "trees": "environment",
-    "forest": "environment",
-    "neon": "environment",
-    "lighting": "environment",
-    "light": "environment",
-    "loot": "combat",
-    "health": "combat",
-    "damage": "combat",
+ALLOWED_TAGS = {
+    "particles", "audio", "vehicle", "npc", "combat", "camera",
+    "physics", "ui", "environment", "animation", "interaction",
+    "building", "teleport", "media-player", "multiplayer", "3d-model",
 }
 
 TAG_SUGGESTED = (
-    "Use broad reusable tags like: particles, audio, vehicle, npc, combat, camera, "
-    "physics, ui, environment, animation, interaction, building, teleport, media-player, "
-    "multiplayer, 3d-model. Prefer these canonical tags over app-specific terms. Max 6 tags."
+    "feature_tags must be from the schema enum: particles, audio, vehicle, npc, combat, "
+    "camera, physics, ui, environment, animation, interaction, building, teleport, "
+    "media-player, multiplayer, 3d-model. Max 6 tags."
 )
+
+FORBIDDEN_PHRASES = [
+    "does something useful", "application functionality", "provides features",
+    "production environment", "configuration management", "rest api",
+    "high-performance application", "placeholder", "no bad output",
+    "example application", "valid json", "classifies the user utterance",
+    "student management", "data processing with support",
+]
 
 
 def now_iso() -> str:
@@ -187,7 +104,11 @@ def clip(s: str, n: int) -> str:
 
 
 def build_structured_json_schema() -> dict[str, Any]:
-    """OpenRouter structured output schema (json_schema mode)."""
+    """OpenRouter structured output schema (json_schema mode).
+
+    Only asks the LLM for: app_id, description, feature_tags, asset_profile, script_complexity.
+    networking_profile and interaction_modes are derived deterministically from static analysis.
+    """
     return {
         "name": "hyperfy_app_summary",
         "strict": True,
@@ -196,45 +117,98 @@ def build_structured_json_schema() -> dict[str, Any]:
             "properties": {
                 "app_id": {"type": "string"},
                 "description": {"type": "string"},
-                "feature_tags": {"type": "array", "items": {"type": "string"}},
-                "interaction_modes": {
+                "feature_tags": {
                     "type": "array",
                     "items": {
                         "type": "string",
-                        "enum": ["action", "trigger", "ui", "passive", "networked"],
+                        "enum": [
+                            "particles", "audio", "vehicle", "npc", "combat", "camera",
+                            "physics", "ui", "environment", "animation", "interaction",
+                            "building", "teleport", "media-player", "multiplayer", "3d-model",
+                        ],
                     },
                 },
                 "asset_profile": {"type": "string", "enum": ["light", "medium", "heavy"]},
                 "script_complexity": {"type": "string", "enum": ["low", "medium", "high"]},
-                "networking_profile": {
-                    "type": "string",
-                    "enum": ["none", "local", "shared_state", "events"],
-                },
             },
             "required": [
                 "app_id",
                 "description",
                 "feature_tags",
-                "interaction_modes",
                 "asset_profile",
                 "script_complexity",
-                "networking_profile",
             ],
             "additionalProperties": False,
         },
     }
 
 
-def load_context_snippets(max_chars_per_file: int = 3000, max_files: int = 8) -> str:
+def select_relevant_snippets(hyp_summary_md: str) -> str:
+    """Only include doc snippets relevant to the app's detected features."""
     if not SNIPPETS_DIR.exists():
         return ""
 
+    md_lower = hyp_summary_md.lower()
     parts = []
-    files = sorted(SNIPPETS_DIR.glob("*.snippet.txt"))[:max_files]
-    for p in files:
-        text = p.read_text(encoding="utf-8", errors="ignore")
-        parts.append(f"### {p.name}\n{text[:max_chars_per_file]}")
-    return "\n\n".join(parts)
+
+    # Always include the short scripting readme
+    readme = SNIPPETS_DIR / "docs__scripting__readme.snippet.txt"
+    if readme.exists():
+        parts.append(readme.read_text(encoding="utf-8", errors="ignore")[:2000])
+
+    # Networking docs only if networking signals present
+    if any(kw in md_lower for kw in ["app.send", "app.emit", "world.on", "world.emit", "events listened", "events emitted"]):
+        net = SNIPPETS_DIR / "docs__scripting__networking.snippet.txt"
+        if net.exists():
+            parts.append(net.read_text(encoding="utf-8", errors="ignore")[:2000])
+
+    # Entity/node details only if complex node usage
+    if any(kw in md_lower for kw in ["collider", "rigidbody", "particles", "audio", "uitext"]):
+        ent = SNIPPETS_DIR / "refs__references__entity-details.snippet.txt"
+        if ent.exists():
+            parts.append(ent.read_text(encoding="utf-8", errors="ignore")[:3000])
+
+    return "\n\n".join(parts) if parts else ""
+
+
+def derive_from_static_analysis(hyp_summary_md: str) -> dict[str, Any]:
+    """Deterministically derive networking_profile and interaction_modes from static analysis."""
+    md_lower = hyp_summary_md.lower()
+
+    # Networking: look for app.send, app.emit, world.on, world.emit, or custom events
+    networking_signals = ["app.send", "app.emit", "world.on", "world.emit"]
+    has_networking = any(sig in md_lower for sig in networking_signals)
+
+    # Check for custom events (not just "update" which is the game loop)
+    events_match = re.search(r"\*\*events listened\*\*:?\s*(.+)", md_lower)
+    events_str = events_match.group(1).strip() if events_match else ""
+    has_custom_events = bool(events_str) and events_str != "`update`"
+
+    emitted_match = re.search(r"\*\*events emitted\*\*:?\s*(.+)", md_lower)
+    has_emitted = bool(emitted_match and emitted_match.group(1).strip())
+
+    networking_profile = "events" if (has_networking or has_custom_events or has_emitted) else "none"
+
+    # Interaction modes from Nodes Created
+    nodes_match = re.search(r"\*\*nodes created\*\*:?\s*(.+)", md_lower)
+    nodes = nodes_match.group(1) if nodes_match else ""
+
+    modes: list[str] = []
+    if "action" in nodes:
+        modes.append("action")
+    if any(x in nodes for x in ["collider", "trigger"]):
+        modes.append("trigger")
+    if any(x in nodes for x in ["ui", "uitext"]):
+        modes.append("ui")
+    if not modes:
+        modes.append("passive")
+    if networking_profile != "none":
+        modes.append("networked")
+
+    return {
+        "networking_profile": networking_profile,
+        "interaction_modes": modes,
+    }
 
 
 def find_hyp_index_entry(hyp_index_entries: list[dict[str, Any]], manifest: dict[str, Any]) -> dict[str, Any] | None:
@@ -257,75 +231,18 @@ def read_optional(path: Path | None, max_chars: int = 6000) -> str:
     return path.read_text(encoding="utf-8", errors="ignore")[:max_chars]
 
 
-def normalize_tag(tag: str) -> str:
-    """Normalize a tag to its canonical form."""
-    t = tag.strip().lower()
-    return TAG_CANONICAL.get(t, t)
+def check_description_quality(description: str) -> str | None:
+    """Return a rejection reason, or None if OK."""
+    desc_lower = description.lower()
+    for phrase in FORBIDDEN_PHRASES:
+        if phrase in desc_lower:
+            return f"contains forbidden phrase: '{phrase}'"
+    if len(description) < 80:
+        return f"too short ({len(description)} chars, minimum 80)"
+    return None
 
 
-def judge_description_suspicious(
-    app_id: str,
-    app_name: str,
-    description: str,
-    source_excerpt: str,
-    api_key: str,
-    max_retries: int = 2,
-) -> bool:
-    """Use LLM judge to determine if a description is broken/generic/hallucinated.
-
-    Returns True if suspicious, False if it looks like a real summary.
-    """
-    system = (
-        "You are a quality-control judge for AI-generated app summaries in a Hyperfy "
-        "(3D virtual world) app catalog. You will be given an app's name, ID, source "
-        "code excerpt, and an AI-generated description. Determine if the description "
-        "actually describes this specific app, or if it is broken/generic/hallucinated.\n\n"
-        "A SUSPICIOUS description might:\n"
-        "- Describe a completely unrelated app (e.g. 'student management system' for a 3D game)\n"
-        "- Be a meta-comment about JSON repair or schema conformance\n"
-        "- Be a generic placeholder with no app-specific detail\n"
-        "- Reference technologies or features not present in the source code\n"
-        "- Be extremely short with no meaningful information\n\n"
-        "A GOOD description will reference concepts, features, or behaviors actually "
-        "present in the source code.\n\n"
-        "Respond with ONLY a JSON object: {\"suspicious\": true, \"reason\": \"...\"} "
-        "or {\"suspicious\": false}"
-    )
-    user = (
-        f"App ID: {app_id}\n"
-        f"App Name: {app_name}\n\n"
-        f"Source code excerpt (first ~4000 chars):\n"
-        f"{source_excerpt[:4000]}\n\n"
-        f"AI-generated description:\n{description}\n\n"
-        "Is this description suspicious?"
-    )
-    payload = {
-        "model": JUDGE_MODEL,
-        "temperature": 0.0,
-        "max_tokens": 100,
-        "messages": [
-            {"role": "system", "content": system},
-            {"role": "user", "content": user},
-        ],
-        "response_format": {"type": "json_object"},
-    }
-    try:
-        response = call_openrouter(payload, api_key=api_key, max_retries=max_retries)
-        content = (
-            response.get("choices", [{}])[0]
-            .get("message", {})
-            .get("content", "")
-        )
-        parsed = extract_json_object(content)
-        if parsed:
-            return bool(parsed.get("suspicious", False))
-    except Exception as e:
-        print(f"    judge warning for {app_id}: {e}")
-    return False
-
-
-def validate_summary(data: dict[str, Any], app_id: str, model: str) -> dict[str, Any]:
-    # Merge one_liner + primary_use_case into description if old schema
+def validate_summary(data: dict[str, Any], app_id: str, model: str, hyp_summary_md: str = "") -> dict[str, Any]:
     desc = data.get("description", "")
     if not desc:
         one_liner = data.get("one_liner", "")
@@ -335,16 +252,9 @@ def validate_summary(data: dict[str, Any], app_id: str, model: str) -> dict[str,
         else:
             desc = one_liner or primary
 
-    # Normalize and deduplicate tags
-    raw_tags = [clip(str(x), 40) for x in (data.get("feature_tags") or [])[:8]]
-    seen: set[str] = set()
-    normalized_tags: list[str] = []
-    for tag in raw_tags:
-        canonical = normalize_tag(tag)
-        if canonical and canonical not in seen:
-            seen.add(canonical)
-            normalized_tags.append(canonical)
-    normalized_tags = normalized_tags[:6]
+    # Deduplicate tags, filter to allowed set
+    raw_tags = [str(x).strip() for x in (data.get("feature_tags") or [])]
+    normalized_tags = list(dict.fromkeys(t for t in raw_tags if t in ALLOWED_TAGS))[:6]
 
     out = {
         "app_id": app_id,
@@ -358,11 +268,17 @@ def validate_summary(data: dict[str, Any], app_id: str, model: str) -> dict[str,
         "networking_profile": data.get("networking_profile") if data.get("networking_profile") in ALLOWED_NETWORKING else "none",
     }
 
+    # Override networking + interaction from static analysis if available
+    if hyp_summary_md:
+        derived = derive_from_static_analysis(hyp_summary_md)
+        out["networking_profile"] = derived["networking_profile"]
+        out["interaction_modes"] = derived["interaction_modes"]
+
     # hard minima to prevent blank noisy output
     if not out["description"]:
         out["description"] = "A Hyperfy app."
     if not out["feature_tags"]:
-        out["feature_tags"] = ["unclassified"]
+        out["feature_tags"] = ["3d-model"]
 
     return out
 
@@ -413,9 +329,7 @@ def build_prompt_payload(
     hyp_entry: dict[str, Any] | None,
     hyp_summary_md: str,
     app_files_context: dict[str, Any],
-    context_snippets: str,
     model: str,
-    use_json_schema: bool = True,
 ) -> dict[str, Any]:
     app_facts = {
         "app_id": app_manifest.get("app_id"),
@@ -437,19 +351,29 @@ def build_prompt_payload(
 
     schema = {
         "app_id": "string",
-        "description": "string <=300 chars - a concise summary of what this app does and its primary use case",
-        "feature_tags": "string[] max 6",
-        "interaction_modes": "enum[] subset of [action,trigger,ui,passive,networked]",
+        "description": "string 140-300 chars - what this app does, with concrete verbs and nouns from the source",
+        "feature_tags": "string[] max 6, from enum: [particles, audio, vehicle, npc, combat, camera, physics, ui, environment, animation, interaction, building, teleport, media-player, multiplayer, 3d-model]",
         "asset_profile": "enum: light|medium|heavy",
         "script_complexity": "enum: low|medium|high",
-        "networking_profile": "enum: none|local|shared_state|events",
     }
 
     system = (
-        "You are a Hyperfy app archivist assistant. Return ONLY valid JSON object with the exact requested schema. "
-        "Be concise, remove noise, avoid speculative claims. "
-        "Do not include markdown fences or extra keys."
+        "You are a Hyperfy Script SDK catalog summarizer.\n\n"
+        "Return ONLY a single JSON object matching the provided schema (no markdown, no extra keys).\n\n"
+        "Description requirements (must satisfy ALL):\n"
+        "- 140-300 characters (aim ~200).\n"
+        "- Must include 1-2 concrete verbs (e.g. spawns/plays/renders/syncs/teleports/triggers/animates/damages).\n"
+        "- Must include 1-2 concrete nouns/entities from the inputs (e.g. rocket projectile, explosion, "
+        "trigger zone, portal, audio, UI panel, collider, particles, camera).\n"
+        "- Must reflect evidence from the inputs (code excerpt and/or static analysis). "
+        "If evidence is thin, describe only what is visible.\n"
+        '- Forbidden phrases: "does something useful", "application functionality", "enhances", '
+        '"provides features", "various", "etc", "placeholder", "production environment", '
+        '"configuration management", "REST API", "high-performance".\n\n'
+        "Tags: feature_tags must come from the enum in the schema. Do not invent tags."
     )
+
+    context_snippets = select_relevant_snippets(hyp_summary_md)
 
     user = (
         "Summarize this Hyperfy app into a lean manifest-enrichment JSON.\n\n"
@@ -461,14 +385,23 @@ def build_prompt_payload(
         f"{json.dumps(discord_ctx, indent=2)}\n\n"
         "STATIC_ANALYSIS_SUMMARY_MD (truncated):\n"
         f"{hyp_summary_md[:8000]}\n\n"
-        "HYPERFY_DOC_SNIPPETS (curated):\n"
-        f"{context_snippets[:12000]}\n\n"
+    )
+    if context_snippets:
+        user += (
+            "HYPERFY_DOC_SNIPPETS (relevant only):\n"
+            f"{context_snippets}\n\n"
+        )
+    user += (
         "OUTPUT_SCHEMA:\n"
         f"{json.dumps(schema, indent=2)}\n\n"
         "Rules:\n"
         "- Keep arrays short and non-duplicative.\n"
         "- Use enums exactly as specified.\n"
         f"- {TAG_SUGGESTED}\n"
+        "- Examples:\n"
+        '  BAD description: "This app does something useful."\n'
+        '  GOOD description: "Rocket launcher weapon that fires physics projectiles, triggers explosion '
+        'particles + audio, and applies AoE damage via networked events."\n'
         "- Return JSON only."
     )
 
@@ -481,74 +414,10 @@ def build_prompt_payload(
             {"role": "user", "content": user},
         ],
     }
-    if use_json_schema:
-        payload["response_format"] = {
-            "type": "json_schema",
-            "json_schema": build_structured_json_schema(),
-        }
-    else:
-        payload["response_format"] = {"type": "json_object"}
-    return payload
-
-
-def build_repair_payload(
-    model: str,
-    bad_content: str,
-    app_facts: dict[str, Any],
-    app_files_context: dict[str, Any],
-    use_json_schema: bool = True,
-) -> dict[str, Any]:
-    schema = {
-        "app_id": "string",
-        "description": "string <=300 chars - a concise summary of what this app does and its primary use case",
-        "feature_tags": "string[] max 6",
-        "interaction_modes": "enum[] subset of [action,trigger,ui,passive,networked]",
-        "asset_profile": "enum: light|medium|heavy",
-        "script_complexity": "enum: low|medium|high",
-        "networking_profile": "enum: none|local|shared_state|events",
+    payload["response_format"] = {
+        "type": "json_schema",
+        "json_schema": build_structured_json_schema(),
     }
-
-    system = (
-        "You are a Hyperfy app archivist assistant. The previous attempt to summarize "
-        "this app produced invalid JSON output. Using the app context below, generate "
-        "a valid JSON summary. Return ONLY one JSON object and nothing else."
-    )
-
-    user_parts = [
-        "Summarize this Hyperfy app into a lean manifest-enrichment JSON.\n",
-        "APP_FACTS:\n" + json.dumps(app_facts, indent=2) + "\n",
-        "APP_FILES_CONTEXT:\n" + json.dumps(app_files_context, indent=2) + "\n",
-    ]
-    if bad_content and bad_content.strip():
-        user_parts.append(
-            "PREVIOUS_BAD_OUTPUT (for reference only, may be malformed):\n"
-            + bad_content[:4000] + "\n"
-        )
-    user_parts.extend([
-        "OUTPUT_SCHEMA:\n" + json.dumps(schema, indent=2) + "\n",
-        "Rules:\n"
-        "- Keep arrays short and non-duplicative.\n"
-        "- Use enums exactly as specified.\n"
-        f"- {TAG_SUGGESTED}\n"
-        "- Return JSON only.",
-    ])
-
-    payload = {
-        "model": model,
-        "temperature": 0.1,
-        "max_tokens": 1200,
-        "messages": [
-            {"role": "system", "content": system},
-            {"role": "user", "content": "\n".join(user_parts)},
-        ],
-    }
-    if use_json_schema:
-        payload["response_format"] = {
-            "type": "json_schema",
-            "json_schema": build_structured_json_schema(),
-        }
-    else:
-        payload["response_format"] = {"type": "json_object"}
     return payload
 
 
@@ -560,8 +429,6 @@ def process_one(
     force: bool,
     dry_run: bool,
     hyp_index_entries: list[dict[str, Any]],
-    context_snippets: str,
-    use_json_schema: bool,
 ) -> dict[str, Any]:
     app_manifest_path = REPO_ROOT / app_row["manifest_path"]
     app_dir = app_manifest_path.parent
@@ -609,111 +476,55 @@ def process_one(
             "has_hyp_summary": bool(hyp_summary_md),
         }
 
-    # Build app_facts here so it's available for both primary and repair calls
-    app_facts = {
-        "app_id": app_manifest.get("app_id"),
-        "app_name": app_manifest.get("app_name"),
-        "app_slug": app_manifest.get("app_slug"),
-        "author": app_manifest.get("author", {}),
-        "source": app_manifest.get("source", {}),
-        "description": app_manifest.get("description", {}),
-    }
-
     payload = build_prompt_payload(
         app_manifest,
         hyp_entry,
         hyp_summary_md,
         app_files_context,
-        context_snippets,
         model,
-        use_json_schema=use_json_schema,
     )
 
-    # Step 1: Primary LLM call
-    response = call_openrouter(payload, api_key=api_key, max_retries=max_retries)
-    content = (
-        response.get("choices", [{}])[0]
-        .get("message", {})
-        .get("content", "")
-    )
-
-    # Step 2: If empty content, retry primary once after a short sleep
-    if not content or not content.strip():
-        time.sleep(2)
+    # Simple retry loop: call LLM up to 3 times, parse JSON
+    parsed = None
+    last_content = ""
+    for attempt in range(3):
+        if attempt > 0:
+            time.sleep(2)
         response = call_openrouter(payload, api_key=api_key, max_retries=max_retries)
-        content = (
+        last_content = (
             response.get("choices", [{}])[0]
             .get("message", {})
             .get("content", "")
         )
-
-    # Step 3: Parse JSON; if fail, context-aware repair call
-    parsed = extract_json_object(content)
-    if not parsed:
-        repair_payload = build_repair_payload(
-            model=model,
-            bad_content=content,
-            app_facts=app_facts,
-            app_files_context=app_files_context,
-            use_json_schema=use_json_schema,
+        parsed = extract_json_object(last_content)
+        if parsed:
+            break
+    else:
+        # All 3 attempts failed to produce parseable JSON
+        FAILURE_DUMP_DIR.mkdir(parents=True, exist_ok=True)
+        dump_path = FAILURE_DUMP_DIR / f"{app_row['app_id']}.txt"
+        dump_path.write_text(
+            f"LAST_OUTPUT (attempt 3):\n{last_content}",
+            encoding="utf-8",
         )
-        repair_response = call_openrouter(repair_payload, api_key=api_key, max_retries=max_retries)
-        repair_content = (
-            repair_response.get("choices", [{}])[0]
-            .get("message", {})
-            .get("content", "")
-        )
-        parsed = extract_json_object(repair_content)
-        if not parsed:
-            FAILURE_DUMP_DIR.mkdir(parents=True, exist_ok=True)
-            dump_path = FAILURE_DUMP_DIR / f"{app_row['app_id']}.txt"
-            dump_path.write_text(
-                "PRIMARY_OUTPUT:\n"
-                + content
-                + "\n\nREPAIR_OUTPUT:\n"
-                + repair_content,
-                encoding="utf-8",
-            )
-            raise RuntimeError(f"Model output is not valid JSON (dumped: {dump_path})")
+        raise RuntimeError(f"Model output is not valid JSON after 3 attempts (dumped: {dump_path})")
 
-    # Step 4: Validate structure
-    summary = validate_summary(parsed, app_id=app_row["app_id"], model=model)
+    summary = validate_summary(parsed, app_id=app_row["app_id"], model=model, hyp_summary_md=hyp_summary_md)
 
-    # Step 5: LLM judge check — if suspicious, retry full primary prompt once
-    source_excerpt = app_files_context.get("index_js_excerpt", "")
-    app_name = app_manifest.get("app_name", app_row["app_id"])
-    if judge_description_suspicious(
-        app_id=app_row["app_id"],
-        app_name=app_name,
-        description=summary["description"],
-        source_excerpt=source_excerpt,
-        api_key=api_key,
-    ):
-        print(f"    {app_row['app_id']}: judge flagged description, retrying primary...")
+    # Quality gate: reject generic/garbage descriptions, retry once
+    rejection = check_description_quality(summary["description"])
+    if rejection:
+        print(f"    {app_row['app_id']}: quality gate: {rejection}, retrying...")
         time.sleep(2)
-        retry_response = call_openrouter(payload, api_key=api_key, max_retries=max_retries)
-        retry_content = (
-            retry_response.get("choices", [{}])[0]
-            .get("message", {})
-            .get("content", "")
-        )
-        retry_parsed = extract_json_object(retry_content)
+        response = call_openrouter(payload, api_key=api_key, max_retries=max_retries)
+        content = response.get("choices", [{}])[0].get("message", {}).get("content", "")
+        retry_parsed = extract_json_object(content)
         if retry_parsed:
-            retry_summary = validate_summary(retry_parsed, app_id=app_row["app_id"], model=model)
-            # Step 6: If still suspicious after retry, fail
-            if judge_description_suspicious(
-                app_id=app_row["app_id"],
-                app_name=app_name,
-                description=retry_summary["description"],
-                source_excerpt=source_excerpt,
-                api_key=api_key,
-            ):
-                raise RuntimeError(
-                    f"Description still suspicious after retry: {retry_summary['description'][:100]}"
-                )
-            summary = retry_summary
+            summary = validate_summary(retry_parsed, app_id=app_row["app_id"], model=model, hyp_summary_md=hyp_summary_md)
+            rejection = check_description_quality(summary["description"])
+        if rejection:
+            print(f"    WARNING: {app_row['app_id']}: quality gate still failed after retry: {rejection}")
 
-    # Step 7: Write ai-summary.json
     app_dir.mkdir(parents=True, exist_ok=True)
     ai_summary_path.write_text(json.dumps(summary, indent=2), encoding="utf-8")
 
@@ -734,16 +545,6 @@ def main() -> int:
     parser.add_argument("--fail-fast", action="store_true")
     parser.add_argument("--max-retries", type=int, default=3)
     parser.add_argument("--concurrency", type=int, default=3)
-    parser.add_argument(
-        "--no-json-schema",
-        action="store_true",
-        help="Disable structured outputs json_schema and fall back to json_object mode",
-    )
-    parser.add_argument(
-        "--broken-only",
-        action="store_true",
-        help="Only re-run apps whose descriptions the LLM judge flags as suspicious/broken",
-    )
 
     args = parser.parse_args()
 
@@ -755,16 +556,9 @@ def main() -> int:
         print(f"Error: missing {HYP_INDEX_RAW}")
         return 1
 
-    if not SNIPPETS_DIR.exists():
-        print(f"Error: missing context snippets at {SNIPPETS_DIR}")
-        print("Run: python scripts/research/prepare_context_bundle.py")
-        return 1
-
     api_key = os.environ.get("OPENROUTER_API_KEY", "").strip()
-    if not api_key and (not args.dry_run or args.broken_only):
+    if not api_key and not args.dry_run:
         print("Error: OPENROUTER_API_KEY is required")
-        if args.broken_only:
-            print("  (--broken-only needs the API key for the LLM judge even in dry-run)")
         return 1
 
     global_manifest = read_json(GLOBAL_MANIFEST)
@@ -778,65 +572,6 @@ def main() -> int:
         app_rows = app_rows[: args.limit]
 
     hyp_index_entries = json.loads(HYP_INDEX_RAW.read_text(encoding="utf-8"))
-    context_snippets = load_context_snippets()
-
-    # --broken-only: use LLM judge to filter to only apps with suspicious descriptions
-    if args.broken_only:
-        args.force = True  # implies --force so existing summaries get regenerated
-        print(f"Scanning {len(app_rows)} apps with LLM judge ({JUDGE_MODEL})...")
-        broken_ids: list[str] = []
-
-        def _check_app(app_row: dict[str, Any]) -> tuple[str, bool, str]:
-            app_id = app_row["app_id"]
-            manifest_path = REPO_ROOT / app_row["manifest_path"]
-            ai_summary_path = manifest_path.parent / "ai-summary.json"
-            if not ai_summary_path.exists():
-                return app_id, True, "no ai-summary.json"
-
-            try:
-                summary = read_json(ai_summary_path)
-            except Exception:
-                return app_id, True, "unreadable ai-summary.json"
-
-            description = summary.get("description", "")
-            if not description or not description.strip():
-                return app_id, True, "empty description"
-
-            # Load source excerpt for context
-            app_manifest = read_json(manifest_path)
-            source_excerpt = ""
-            v2_dir_rel = app_manifest.get("links", {}).get("v2_app_dir")
-            if v2_dir_rel:
-                index_js = REPO_ROOT / v2_dir_rel / "index.js"
-                if index_js.exists():
-                    source_excerpt = index_js.read_text(
-                        encoding="utf-8", errors="ignore"
-                    )[:4000]
-
-            app_name = app_manifest.get("app_name", app_id)
-            suspicious = judge_description_suspicious(
-                app_id=app_id,
-                app_name=app_name,
-                description=description,
-                source_excerpt=source_excerpt,
-                api_key=api_key,
-            )
-            return app_id, suspicious, description[:80] if suspicious else ""
-
-        with ThreadPoolExecutor(max_workers=max(1, args.concurrency)) as ex:
-            futures = {ex.submit(_check_app, row): row for row in app_rows}
-            for fut in as_completed(futures):
-                app_id, suspicious, reason = fut.result()
-                if suspicious:
-                    broken_ids.append(app_id)
-                    print(f"  BROKEN: {app_id} — {reason}")
-
-        broken_set = set(broken_ids)
-        app_rows = [a for a in app_rows if a["app_id"] in broken_set]
-        print(f"Found {len(app_rows)} broken apps to re-run.")
-        if not app_rows:
-            print("Nothing to do.")
-            return 0
 
     print(f"Apps to summarize: {len(app_rows)}")
     print(f"Model: {args.model}")
@@ -856,8 +591,6 @@ def main() -> int:
                 args.force,
                 args.dry_run,
                 hyp_index_entries,
-                context_snippets,
-                not args.no_json_schema,
             ): app
             for app in app_rows
         }

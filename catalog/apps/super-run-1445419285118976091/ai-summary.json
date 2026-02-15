@@ -1,17 +1,18 @@
 {
   "app_id": "super-run-1445419285118976091",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T04:19:11+00:00",
-  "description": "A sample application",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:29:12+00:00",
+  "description": "Detects sustained sprinting via keyboard input and ground raycast, then pushes the player forward at boosted speed (30 units/s) and triggers a custom super-run emote animation. Deactivates with a short cooldown when the player stops running.",
   "feature_tags": [
-    "utility",
-    "productivity"
+    "physics",
+    "animation",
+    "interaction",
+    "camera"
   ],
   "interaction_modes": [
-    "passive",
-    "action"
+    "passive"
   ],
   "asset_profile": "light",
-  "script_complexity": "low",
+  "script_complexity": "medium",
   "networking_profile": "none"
 }

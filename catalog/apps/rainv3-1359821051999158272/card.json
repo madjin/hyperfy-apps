@@ -1,17 +1,19 @@
 {
   "name": "RainV3",
   "author": "Gert-Jan Akerboom",
-  "description": "This object serves as a placeholder to fulfill the requirement of returning valid JSON when no specific content was provided to fix.",
+  "description": "Spawns up to 5000 billboard raindrop particles that fall with configurable gravity, speed, and spawn radius, then triggers ring-shaped splash effects on ground impact. Uses a pooled particle system with camera-facing rotation and UI controls for rain area, scale, and physics.",
   "tags": [
-    "placeholder",
-    "empty-fix"
+    "particles",
+    "physics",
+    "environment",
+    "camera",
+    "ui"
   ],
   "interaction_modes": [
-    "passive",
-    "action"
+    "passive"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "low",
+  "asset_profile": "light",
+  "script_complexity": "medium",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/RainV3_1359821051999158272/m1_image.png",
   "download_path": "v2-hyp/RainV3.hyp",

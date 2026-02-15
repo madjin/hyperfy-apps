@@ -1,18 +1,16 @@
 {
   "name": "The_Meadow",
   "author": "ash",
-  "description": "A configurable sky and environment system featuring dynamic sun positioning, HDR sky backgrounds, atmospheric fog controls, and day/night lighting presets for immersive world building.",
+  "description": "Scene app that renders a meadow environment with configurable sky texture, HDR reflections, and fog. Calculates sun direction from elevation and horizontal rotation parameters, and applies sun intensity, color, and fog near/far distances to a sky node.",
   "tags": [
     "environment",
-    "3d-model",
-    "atmosphere"
+    "3d-model"
   ],
   "interaction_modes": [
-    "ui",
     "passive"
   ],
   "asset_profile": "medium",
-  "script_complexity": "medium",
+  "script_complexity": "low",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/The_Meadow_1415309781345894431/m4_image.png",
   "download_path": "v2-hyp/The_Meadow.hyp",

@@ -1,17 +1,16 @@
 {
   "app_id": "firsthyp-1364577095313002547",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-14T21:53:28+00:00",
-  "description": "First-time Hyperfy app featuring a UV texture scrolling animation on a 3D model (ROOMERS4). Continuously animates the texture offset on a mesh named 'UVSCROLL' to create a scrolling visual effect. Lightweight demonstration of basic app scripting and material manipulation.",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:20:43+00:00",
+  "description": "Loads a GLB room model named ROOMERS4 and scrolls UV texture offsets on a mesh named UVSCROLL each frame, animating the material along the Y-axis at a configurable speed for a seamless looping effect on gold element plane textures.",
   "feature_tags": [
-    "animation",
     "3d-model",
-    "environment"
+    "animation"
   ],
   "interaction_modes": [
     "passive"
   ],
-  "asset_profile": "light",
+  "asset_profile": "medium",
   "script_complexity": "low",
   "networking_profile": "none"
 }

@@ -1,20 +1,20 @@
 {
   "app_id": "video-with-player-ui-1447233812231880724",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-14T19:48:34+00:00",
-  "description": "Video player with world-space UI controls allowing players to play, pause, and reset video playback. Features multiplayer synchronization and configurable surface dimensions.",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:30:30+00:00",
+  "description": "Renders a video surface with world-space Play, Pause, and Reset UI buttons that players can click to control playback. Syncs video state across multiplayer via client-server messaging, supports looping, configurable dimensions, volume, and fit modes.",
   "feature_tags": [
     "media-player",
     "ui",
     "multiplayer",
-    "interaction"
+    "interaction",
+    "audio"
   ],
   "interaction_modes": [
     "ui",
-    "networked",
-    "action"
+    "networked"
   ],
   "asset_profile": "medium",
-  "script_complexity": "high",
-  "networking_profile": "shared_state"
+  "script_complexity": "medium",
+  "networking_profile": "events"
 }

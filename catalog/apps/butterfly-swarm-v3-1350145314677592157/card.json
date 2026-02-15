@@ -1,19 +1,17 @@
 {
   "name": "Butterfly_Swarm_V3",
   "author": "Gert-Jan Akerboom",
-  "description": "Configurable 3D butterfly swarm particle system with randomized flight paths, wing flapping animations, and scalable density. Features UI controls for butterfly count, size variation, flap speed, and flight velocity. Uses cloned GLB wing geometry with per-instance randomization.",
+  "description": "Spawns up to 5000 butterfly clones from a GLB wing model and animates their wing-flapping and oscillatory flight paths each frame. A configurable UI panel exposes butterfly amount, random scale range, flap-speed range, and fly-speed range for tuning swarm behavior.",
   "tags": [
-    "particles",
-    "environment",
     "animation",
+    "3d-model",
     "ui",
-    "3d-model"
+    "environment"
   ],
   "interaction_modes": [
-    "passive",
-    "ui"
+    "passive"
   ],
-  "asset_profile": "light",
+  "asset_profile": "medium",
   "script_complexity": "medium",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/Butterfly_Swarm_V3_1350145314677592157/m1_5000.png",

@@ -1,21 +1,16 @@
 {
   "app_id": "glow-dust-1361904724433174649",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T04:05:28+00:00",
-  "description": "This application provides a REST API interface for data processing with support for real-time streaming and batch operations. It integrates with multiple database backends and includes authentication and rate limiting features.",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:21:36+00:00",
+  "description": "Spawns a glowing additive particle system inside a box-shaped volume, emitting 200 small dust particles per second with configurable texture image. Uses alphaOverLife curves to fade particles in and out, creating an ambient glow dust effect.",
   "feature_tags": [
-    "rest_api",
-    "streaming",
-    "batch_processing",
-    "authentication",
-    "rate_limiting",
-    "multi_database"
+    "particles",
+    "environment"
   ],
   "interaction_modes": [
-    "passive",
     "passive"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "high",
-  "networking_profile": "events"
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none"
 }

@@ -1,23 +1,20 @@
 {
   "name": "HyperPortal_with_Set_Manual",
   "author": "0mka",
-  "description": "Teleport portal with dual configuration modes: 'Set' captures the admin's current position instantly, while 'Manual' allows precise coordinate input via XYZ fields. Features trigger-based teleportation, networked position sync, and admin-only destination controls.",
+  "description": "Portal that teleports players to a stored destination when they enter a trigger zone. Admins configure the target position via a UI switch: 'Set' captures the player's current location, while 'Manual' allows typing exact X/Y/Z coordinates. Position syncs from server to all clients.",
   "tags": [
     "teleport",
-    "ui",
     "interaction",
-    "multiplayer",
-    "environment",
+    "ui",
     "3d-model"
   ],
   "interaction_modes": [
-    "ui",
-    "trigger",
+    "passive",
     "networked"
   ],
   "asset_profile": "light",
   "script_complexity": "medium",
-  "networking": "shared_state",
+  "networking": "events",
   "preview_url": "catalog/discord/hyp_media/HyperPortal_with_Set_Manual_1352439458317865070/p1_image.png",
   "download_path": "v2-hyp/HyperPortal_with_Set_Manual.hyp",
   "created_at": "2025-03-21T00:31:33.973Z",

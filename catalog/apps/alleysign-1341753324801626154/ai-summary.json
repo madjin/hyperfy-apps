@@ -1,12 +1,11 @@
 {
   "app_id": "alleysign-1341753324801626154",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T03:54:39+00:00",
-  "description": "A continuously rotating 3D alley sign that spins on its Y-axis via script-based rotation rather than GLB animation. Lightweight decorative environment prop with passive animation.",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:16:15+00:00",
+  "description": "Loads an alley sign GLB model and rotates it continuously around its Y-axis at a configurable speed using the per-frame update loop. A simple demonstration of scripted object rotation without triggering GLB animations.",
   "feature_tags": [
-    "animation",
     "3d-model",
-    "environment"
+    "animation"
   ],
   "interaction_modes": [
     "passive"

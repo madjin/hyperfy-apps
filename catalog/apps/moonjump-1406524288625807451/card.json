@@ -1,16 +1,19 @@
 {
   "name": "MoonJump",
   "author": "0mka",
-  "description": "No bad output was provided to fix. Please provide the invalid JSON that needs to be corrected.",
+  "description": "Tracks player grounded state via world.raycast and pushes an upward force vector to grant an automatic double jump when airborne. Resets jump state on landing and manages per-player state maps for multiplayer support.",
   "tags": [
-    "unclassified"
+    "physics",
+    "multiplayer",
+    "3d-model"
   ],
   "interaction_modes": [
-    "passive"
+    "passive",
+    "networked"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "low",
-  "networking": "none",
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking": "events",
   "preview_url": "catalog/discord/hyp_media/MoonJump_1406524288625807451/p1_image.png",
   "download_path": "v2-hyp/MoonJump.hyp",
   "created_at": "2025-08-17T06:25:22.366Z",

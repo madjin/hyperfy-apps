@@ -1,21 +1,21 @@
 {
   "app_id": "builder-drone-x501-1356755805017215098",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T03:57:16+00:00",
-  "description": "A controllable flying drone that players can pilot using WASD and mouse look. Features physics-based movement, animated rotors, and networked multiplayer support with ownership handoff.",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:17:26+00:00",
+  "description": "Flyable builder drone with spinning rotors that a player triggers via an action prompt. Syncs position and quaternion across server and clients using networked events, attaches the camera to the drone view, and releases control on disconnect or key press.",
   "feature_tags": [
     "vehicle",
-    "physics",
-    "multiplayer",
-    "interaction",
     "camera",
-    "animation"
+    "physics",
+    "animation",
+    "interaction",
+    "multiplayer"
   ],
   "interaction_modes": [
     "action",
     "networked"
   ],
-  "asset_profile": "light",
-  "script_complexity": "medium",
-  "networking_profile": "shared_state"
+  "asset_profile": "medium",
+  "script_complexity": "high",
+  "networking_profile": "events"
 }

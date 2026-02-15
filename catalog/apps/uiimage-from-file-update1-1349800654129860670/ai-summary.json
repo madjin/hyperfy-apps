@@ -1,18 +1,14 @@
 {
   "app_id": "uiimage-from-file-update1-1349800654129860670",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-14T21:58:57+00:00",
-  "description": "A configurable UI panel that displays images from file uploads or URLs with customizable dimensions, positioning, and styling. Supports various image fit modes (contain, cover, fill) and billboard rendering for 3D world placement.",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:30:15+00:00",
+  "description": "Renders a configurable UI panel that displays a user-uploaded image file (jpg/png/webp) with adjustable width, height, object-fit mode, and 3D position. Creates uiview and uiimage nodes, supports billboard mode, and exposes range/number props for sizing and placement.",
   "feature_tags": [
     "ui",
-    "media-player",
-    "3d-model",
-    "interaction",
-    "environment"
+    "3d-model"
   ],
   "interaction_modes": [
-    "ui",
-    "passive"
+    "ui"
   ],
   "asset_profile": "light",
   "script_complexity": "low",

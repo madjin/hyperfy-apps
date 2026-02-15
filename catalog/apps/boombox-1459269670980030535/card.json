@@ -1,19 +1,20 @@
 {
   "name": "Boombox",
   "author": "Dhin",
-  "description": "A sample application for demonstration purposes",
+  "description": "Renders a detailed old-school boombox built from primitive shapes (speakers, cassette deck, knobs, antenna) and plays looping spatial audio with configurable volume, distance, and rolloff. Syncs play/pause state between server and clients via networked events, toggled by a clickable action button wi",
   "tags": [
-    "demo",
-    "sample",
-    "test"
+    "audio",
+    "interaction",
+    "physics",
+    "multiplayer"
   ],
   "interaction_modes": [
-    "ui",
+    "action",
     "networked"
   ],
   "asset_profile": "medium",
-  "script_complexity": "low",
-  "networking": "none",
+  "script_complexity": "high",
+  "networking": "events",
   "preview_url": "catalog/discord/hyp_media/Boombox_1459269670980030535/m5_image.png",
   "download_path": "v2-hyp/Boombox.hyp",
   "created_at": "2026-01-09T19:36:41.481Z",

@@ -1,16 +1,14 @@
 {
   "name": "Health",
   "author": "maximus",
-  "description": "Configurable health pack collectible with idle rotation animation. Detects nearby collector entities via proximity checks and emits networking events upon pickup for inventory system integration. Supports custom display names and health values.",
+  "description": "Spawns a collectible health pack GLB model that animates with continuous Y-axis rotation. Responds to proximity-check and ping events, triggers item-detected and item-cleanup emissions when a collectron collects it within range, then hides the mesh.",
   "tags": [
-    "interaction",
+    "3d-model",
     "animation",
-    "combat",
-    "ui",
-    "3d-model"
+    "interaction",
+    "combat"
   ],
   "interaction_modes": [
-    "trigger",
     "passive",
     "networked"
   ],

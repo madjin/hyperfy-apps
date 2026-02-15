@@ -1,16 +1,14 @@
 {
   "name": "RainV3",
   "author": "Gert-Jan Akerboom",
-  "description": "Realistic rain particle system with customizable physics, splash effects, and particle pooling. Features configurable spawn rates, gravity, wind direction, and visual parameters via UI panel.",
+  "description": "Spawns up to 5000 billboard raindrop particles that fall with configurable gravity and speed, then triggers ring-shaped splash effects on ground contact. Uses a pooled particle system with camera-facing rotation and adjustable spawn radius, scale, and spawn rate.",
   "tags": [
     "particles",
     "environment",
-    "animation",
-    "physics",
-    "ui"
+    "camera",
+    "physics"
   ],
   "interaction_modes": [
-    "ui",
     "passive"
   ],
   "asset_profile": "light",

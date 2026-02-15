@@ -1,17 +1,21 @@
 {
   "name": "SPICEXPortal",
   "author": ".hyp shaman",
-  "description": "Web browser",
+  "description": "Configurable portal gate that spawns chaotic particles around a spinning rim, plays spatial audio, renders a billboard UI with destination name and subtitle, and opens a target world URL via trigger collider when a player enters the box zone.",
   "tags": [
-    "web",
-    "browser",
-    "internet"
+    "particles",
+    "audio",
+    "physics",
+    "ui",
+    "teleport",
+    "3d-model"
   ],
   "interaction_modes": [
-    "trigger"
+    "trigger",
+    "ui"
   ],
-  "asset_profile": "heavy",
-  "script_complexity": "medium",
+  "asset_profile": "medium",
+  "script_complexity": "high",
   "networking": "none",
   "preview_url": "catalog/discord/hyp_media/SPICEXPortal_1354289316314087515/p1_brave_iUo8WLJkxq.mp4",
   "download_path": "v2-hyp/SPICEXPortal.hyp",

@@ -1,14 +1,13 @@
 {
   "name": "Butterfly_Swarm_V6_Hyperfly_edition2_BW",
   "author": "Gert-Jan Akerboom",
-  "description": "A configurable butterfly swarm simulation featuring black and white animated butterflies. Spawns up to 2000 butterflies with randomized flight paths, wing flapping animations, and emissive materials within a defined 3D area. Primarily used for environmental decoration and atmosphere.",
+  "description": "Spawns up to 5000 black-and-white butterfly clones with randomized scale, flap speed, and fly speed. Animates wing rotation each frame using sinusoidal flapping and drifting within a configurable 3D spawn area. Clones GLB wing nodes into group containers with emissive materials.",
   "tags": [
     "animation",
-    "environment",
-    "3d-model"
+    "3d-model",
+    "environment"
   ],
   "interaction_modes": [
-    "ui",
     "passive"
   ],
   "asset_profile": "medium",

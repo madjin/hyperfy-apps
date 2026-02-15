@@ -1,23 +1,22 @@
 {
   "name": "Builder_Drone",
   "author": "devbyte",
-  "description": "Configurable builder drone enabling first-person flying mode for construction. Hold custom keybind to pilot with WASD/Space/C controls while others see your avatar. Features networked physics sync and adjustable hold duration.",
+  "description": "Spawns a flyable builder drone with spinning rotors that a player controls via a configurable hold-key keybind. Syncs position and quaternion across server and clients using networked events, and overrides the camera to a first-person drone view for building in flight mode.",
   "tags": [
     "vehicle",
     "camera",
     "physics",
-    "building",
+    "animation",
     "multiplayer",
-    "interaction"
+    "3d-model"
   ],
   "interaction_modes": [
-    "action",
-    "ui",
+    "passive",
     "networked"
   ],
   "asset_profile": "light",
-  "script_complexity": "medium",
-  "networking": "shared_state",
+  "script_complexity": "high",
+  "networking": "events",
   "preview_url": "catalog/discord/hyp_media/Builder_Drone_1356446200907432129/m2_xyz-builder-drone-x501.mp4",
   "download_path": "v2-hyp/Builder_Drone.hyp",
   "created_at": "2025-04-01T01:52:55.848Z",

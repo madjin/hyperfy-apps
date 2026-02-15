@@ -1,7 +1,7 @@
 {
   "name": "test_level",
   "author": "Saori",
-  "description": "A test level containing a 3D environment model (~3MB GLB). Appears to be a development or showcase piece for spatial environments with minimal scripting.",
+  "description": "Renders a static 3D test level model (~3 MB GLB) as an environment scene. The script exports an empty main function, so no runtime logic executes beyond loading and displaying the level geometry.",
   "tags": [
     "3d-model",
     "environment"

@@ -1,18 +1,17 @@
 {
   "app_id": "amanita-1357382776709582919",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T03:54:50+00:00",
-  "description": "Configurable particle system that distributes amanita mushroom models across a defined area with random scale and rotation. Designed for environmental ground cover decoration, adaptable for grass or similar foliage.",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:16:21+00:00",
+  "description": "Clones a mushroom 3D model up to 500 times and scatters them randomly across a configurable rectangular area with randomized rotation and scale. Spawns an Amanita particle-like field useful for ground cover like grass or fungi.",
   "feature_tags": [
+    "3d-model",
     "environment",
-    "particles",
-    "3d-model"
+    "ui"
   ],
   "interaction_modes": [
-    "ui",
     "passive"
   ],
-  "asset_profile": "light",
+  "asset_profile": "medium",
   "script_complexity": "low",
   "networking_profile": "none"
 }

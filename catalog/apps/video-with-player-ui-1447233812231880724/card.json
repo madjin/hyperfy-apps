@@ -1,21 +1,21 @@
 {
   "name": "Video_with_player_UI",
   "author": "Gert-Jan Akerboom",
-  "description": "Video player with world-space UI controls allowing players to play, pause, and reset video playback. Features multiplayer synchronization and configurable surface dimensions.",
+  "description": "Renders a video surface with world-space Play, Pause, and Reset UI buttons that players can click to control playback. Syncs video state across multiplayer via client-server messaging, supports looping, configurable dimensions, volume, and fit modes.",
   "tags": [
     "media-player",
     "ui",
     "multiplayer",
-    "interaction"
+    "interaction",
+    "audio"
   ],
   "interaction_modes": [
     "ui",
-    "networked",
-    "action"
+    "networked"
   ],
   "asset_profile": "medium",
-  "script_complexity": "high",
-  "networking": "shared_state",
+  "script_complexity": "medium",
+  "networking": "events",
   "preview_url": "catalog/discord/hyp_media/Video_with_player_UI_1447233812231880724/p0_video_player_ui.png",
   "download_path": "v2-hyp/Video_with_player_UI.hyp",
   "created_at": "2025-12-07T14:30:29.140Z",

@@ -1,16 +1,18 @@
 {
   "app_id": "loot-ringed-planet-1339121960759721996",
-  "model": "moonshotai/kimi-k2.5",
-  "generated_at": "2026-02-11T04:08:28+00:00",
-  "description": "No invalid JSON was provided after 'BAD_OUTPUT:'. Please paste the malformed JSON content that requires correction.",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:23:22+00:00",
+  "description": "Renders a rotating ringed planet GLB model that acts as a collectible loot item in a space trading sim. Animates continuous Y-axis rotation on update, listens for proximity-check events to trigger collection by a collectron, and emits item-detected and pong events for cross-app communication.",
   "feature_tags": [
-    "error",
-    "missing_input"
+    "3d-model",
+    "animation",
+    "interaction"
   ],
   "interaction_modes": [
+    "passive",
     "networked"
   ],
-  "asset_profile": "medium",
-  "script_complexity": "low",
-  "networking_profile": "shared_state"
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "events"
 }

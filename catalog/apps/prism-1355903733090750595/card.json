@@ -1,21 +1,20 @@
 {
   "name": "Prism",
   "author": "ash",
-  "description": "A class-based RPG combat system supporting PvPvE gameplay with avatar integration, skill-based attacks, and death/respawn mechanics. Features configurable classes with energy systems, damage floating text, and cross-app event networking for multiplayer dueling.",
+  "description": "Class-based PvPvE combat system that damages players on hit events, triggers death emotes with freeze effects, teleports defeated players to configurable respawn locations, heals survivors over time, and renders floating damage numbers as billboard UI text on clients.",
   "tags": [
     "combat",
-    "rpg",
-    "multiplayer",
+    "animation",
+    "teleport",
     "ui",
-    "avatar",
-    "animation"
+    "audio",
+    "multiplayer"
   ],
   "interaction_modes": [
-    "action",
     "ui",
     "networked"
   ],
-  "asset_profile": "medium",
+  "asset_profile": "heavy",
   "script_complexity": "high",
   "networking": "events",
   "preview_url": "catalog/discord/hyp_media/Prism_1355903733090750595/m6_xyz-skelly.mp4",
