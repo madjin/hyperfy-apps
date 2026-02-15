@@ -1,0 +1,79 @@
+{
+  "app_id": "weightpaint-screenui-test1-1420742160474701966",
+  "app_slug": "weightpaint-screenui-test1",
+  "app_name": "Weightpaint_ScreenUI_test1",
+  "source": {
+    "hyp_filename": "Weightpaint_ScreenUI_test1.hyp",
+    "discord_attachment_id": "1420742160076111984",
+    "discord_message_id": "1420742160474701966",
+    "discord_channel": "\u26a1\u2502general",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-09-25T12:02:07.170Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/958209074045026327/1420742160076111984/Weightpaint_ScreenUI_test1.hyp?ex=68d7d23f&is=68d680bf&hm=d56f64296a8df2eea9aa0c1bcf481f0d9a2a3c4af886cb9383dfcaed61667e51&"
+  },
+  "author": {
+    "display_name": "Gert-Jan Akerboom",
+    "discord_user_id": "601886221072990251",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "Have you see this? i haven't really worked on it since the initial test. The idea was to be able to just 'paint' a Forrest (sort of like weight painting particles in blender)",
+    "raw_message_content": "Have you see this? i haven't really worked on it since the initial test. The idea was to be able to just 'paint' a Forrest (sort of like weight painting particles in blender)",
+    "summary_excerpt": "Weightpaint ScreenUI test1.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/weightpaint-screenui-test1",
+    "v2_json_path": "v2/apps/weightpaint-screenui-test1/Weightpaint_ScreenUI_test1.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Weightpaint_ScreenUI_test1.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/Weightpaint_ScreenUI_test1_1420742160474701966/p4_coins.mp4",
+    "media_type": ".mp4",
+    "selection_reason": "any_author_fallback",
+    "is_fallback_any_author": true
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/Weightpaint_ScreenUI_test1_1420742160474701966/p4_coins.mp4",
+      "original_filename": "coins.mp4",
+      "content_type": "video/mp4",
+      "relative_index": 4,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 669483,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1420762332530868346"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [
+      "media_fallback_any_author"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "weightpaint_screenui_test1-1420742160474701966",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:22:34+00:00",
+    "description": "BAD_OUTPUT content was not provided in the prompt",
+    "feature_tags": [
+      "error",
+      "missing_input"
+    ],
+    "interaction_modes": [
+      "networked"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "low",
+    "networking_profile": "none"
+  }
+}

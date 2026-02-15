@@ -1,0 +1,26 @@
+{
+  "name": "car1",
+  "author": "ash",
+  "description": "Client-side drivable car that simulates raycast suspension, steering, and acceleration forces per wheel during fixedUpdate. Players anchor into the vehicle body and control it with WASD keys, while tire hubs animate rotation and lateral grip using physics raycasts against the ground.",
+  "tags": [
+    "vehicle",
+    "physics",
+    "animation",
+    "interaction",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "high",
+  "networking": "events",
+  "preview_url": "catalog/discord/hyp_media/car1_1353196235074441290/m6_susanequip.png",
+  "download_path": "v2-hyp/car1.hyp",
+  "created_at": "2025-03-23T02:38:43.612Z",
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\n\n\nconst body = app.get('Body')\nconst cMass = app.get('CenterOfMass')\nconst collider = app.get('Collider')\nconst springFL = app.get('SpringFL')\nconst springFR = app.get('SpringFR')\nconst springBR = app.get('SpringBR')\nconst springBL = app.get('SpringBL')\nconst tireFL = app.get('TireFL')\nconst tireFR = app.get('TireFR')\nconst tireBR = app.get('TireBR')\nconst tireBL = app.get('TireBL')\nconst springs = [springFL, springFR, springBR, springBL]\nconst springRestLengths = [\n  springFL.position.y - tireFL.position.y,\n  springFR.position.y - tireFR.position.y,\n  springBR.position.y - tireBR.position.y,\n  springBL.position.y - tireBL.position.y,\n]\nconst tires = [tireFL, tireFR, tireBR, tireBL]\nconst tireRadii = [tireFL.position.y, tireFR.position.y, tireBR.position.y, tireBL.position.y]\nconst turns = [true, true, false, false]\nconst powered = [true, true, false, false]\nconst lefts = [true, false, false, true]\nconst hubs = []\nfor (let i = 0; i < 4; i++) {\n  const hub = app.create('group')\n  const tire = tires[i]\n  hub.position.copy(tire.position)\n  hub.add(tire)\n  tire.position.set(0,0,0)\n  body.add(hub)\n  hubs.push(hub)\n}\n\nbody.setCenterOfMass(cMass.position)\nbody.linearDamping = 0.3 // todo: drag prop\nbody.angularDamping = 3 // todo: angular drag prop\n\nworld.attach(body)\n\nconst UP = new Vector3(0, 1, 0)\nconst DOWN = new Vector3(0, -1, 0)\nconst FORWARD = new Vector3(0, 0, -1)\nconst LEFT = new Vector3(-1, 0, 0)\nconst RIGHT = new Vector3(1, 0, 0)\n\nconst _v1 = new Vector3()\nconst _v2 = new Vector3()\nconst _v3 = new Vector3()\nconst _v4 = new Vector3()\nconst _v5 = new Vector3()\nconst _v6 = new Vector3()\nconst _q1 = new Quaternion()\nconst _q2 = new Quaternion()\nconst _q3 = new Quaternion()\nconst _q4 = new Quaternion()\nconst _q5 = new Quaternion()\nconst _q6 = new Quaternion()\nconst _m1 = new Matrix4()\nconst _m2 = new Matrix4()\n\n// Steering\nconst steerMaxAngle = 35\nconst steerMinAngle = -35\nconst steerSpeed = 100\nlet",
+  "asset_files": [
+    "car1.glb"
+  ]
+}

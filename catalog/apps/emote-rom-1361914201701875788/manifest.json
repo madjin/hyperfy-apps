@@ -1,0 +1,109 @@
+{
+  "app_id": "emote-rom-1361914201701875788",
+  "app_slug": "emote-rom",
+  "app_name": "Emote_Rom",
+  "source": {
+    "hyp_filename": "Emote_Rom.hyp",
+    "discord_attachment_id": "1361914201643417661",
+    "discord_message_id": "1361914201701875788",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-04-16T04:00:48.828Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1361914201643417661/Emote_Rom.hyp?ex=697989f0&is=69783870&hm=68ef57f44a2fc8da4c30cdaf2ab2f8a10a0821b1cb4d2eb9feafd61b84e9cb4d&"
+  },
+  "author": {
+    "display_name": "HowieDuhzit",
+    "discord_user_id": "161613961605677058",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "its not a wheel but its a start, this binds emotes and emojis to the number keys",
+    "raw_message_content": "its not a wheel but its a start, this binds emotes and emojis to the number keys",
+    "summary_excerpt": "Emote Rom.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/emote-rom",
+    "v2_json_path": "v2/apps/emote-rom/Emote_Rom.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Emote_Rom.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/Emote_Rom_1361914201701875788/p1_xyz-particle-fire-trails.mp4",
+    "media_type": ".mp4",
+    "selection_reason": "any_author_fallback",
+    "is_fallback_any_author": true
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/Emote_Rom_1361914201701875788/m7_VBSprite2.png",
+      "original_filename": "VBSprite2.png",
+      "content_type": "image/png",
+      "relative_index": -7,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 91053,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1361907345382178947"
+    },
+    {
+      "catalog_path": "catalog/discord/hyp_media/Emote_Rom_1361914201701875788/p1_xyz-particle-fire-trails.mp4",
+      "original_filename": "xyz-particle-fire-trails.mp4",
+      "content_type": "video/mp4",
+      "relative_index": 1,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 2991414,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1361923412360036352"
+    },
+    {
+      "catalog_path": "catalog/discord/hyp_media/Emote_Rom_1361914201701875788/p5_xyz-particles-by-distance.mp4",
+      "original_filename": "xyz-particles-by-distance.mp4",
+      "content_type": "video/mp4",
+      "relative_index": 5,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 4843063,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1361929608030851184"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [
+      "media_fallback_any_author"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "emote_rom-1361914201701875788",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:02:36+00:00",
+    "description": "Open source AI-powered interactive CLI autocomplete that suggests commands as you type based on your shell history",
+    "feature_tags": [
+      "autocomplete",
+      "npc",
+      "cli",
+      "shell",
+      "history"
+    ],
+    "interaction_modes": [
+      "passive",
+      "passive"
+    ],
+    "asset_profile": "medium",
+    "script_complexity": "low",
+    "networking_profile": "none"
+  }
+}

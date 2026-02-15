@@ -1,0 +1,23 @@
+{
+  "name": "hover-cursor-test",
+  "author": "Gert-Jan Akerboom",
+  "description": "Renders a screen-space white circle UI cursor that toggles visibility when the user hovers over a Cube mesh, using onPointerEnter and onPointerLeave events to activate and deactivate the fake cursor overlay.",
+  "tags": [
+    "ui",
+    "interaction",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "ui"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "low",
+  "networking": "none",
+  "preview_url": "catalog/discord/hyp_media/hover-cursor-test_1402653679030636655/m2_image.png",
+  "download_path": "v2-hyp/hover-cursor-test.hyp",
+  "created_at": "2025-08-06T14:04:57.126Z",
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\n\n// Create a white circle with just a border as a fake cursor\nconst fakeCursor = app.create('ui', {\n  width: 20,\n  height: 20,\n  position: [0.5, 0.5, 0],\n  space: 'screen',\n  pivot: 'center',\n  backgroundColor: 'transparent',\n  borderWidth: 2,\n  borderColor: '#ffffff',\n  borderRadius: 10,\n  pointerEvents: false,\n  active: false // Start hidden\n});\n\napp.add(fakeCursor);\n\n// Get the Cube mesh\nconst cube = app.get('Cube');\nif (cube) {\n  cube.onPointerEnter = () => {\n    fakeCursor.active = true;\n  };\n  \n  cube.onPointerLeave = () => {\n    fakeCursor.active = false;\n  };\n}\n\n}\n",
+  "asset_files": [
+    "hover-cursor-test.glb"
+  ]
+}

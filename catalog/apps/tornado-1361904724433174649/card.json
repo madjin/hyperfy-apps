@@ -1,0 +1,29 @@
+{
+  "name": "Tornado",
+  "author": "ash",
+  "description": "Spawns a tornado-style particle system using a circular emitter with orbital, linear, and radial velocity to create a swirling upward vortex. Supports a configurable texture image prop and renders up to 10,000 particles with alpha-over-life fade curves.",
+  "tags": [
+    "particles",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking": "none",
+  "preview_url": "catalog/discord/hyp_media/Tornado_1361904724433174649/m1_xyz-particle-demos_2_-_edit.mp4",
+  "download_path": "v2-hyp/Tornado.hyp",
+  "created_at": "2025-04-16T03:23:09.271Z",
+  "props": {
+    "image": {
+      "type": "texture",
+      "url": "assets/image.png"
+    }
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\napp.configure([\n  {\n    key: 'image',\n    type: 'file',\n    kind: 'texture',\n    label: 'Image'\n  }\n])\n\n\nconst particles = app.create('particles', {\n  image: props.image?.url,\n  shape: ['circle', 0.2, 0, true],\n  direction: 0,\n  rate: 100,\n  duration: 5,\n  max: 10000,\n  space: 'world',\n  life: '4',\n  speed: '1',\n  alpha: '1',\n  size: '2',\n  // blending: 'additive',\n  velocityOrbital: new Vector3(0, 3, 0),\n  velocityLinear: new Vector3(0, 2, 1),\n  velocityRadial: 0.3,\n  alphaOverLife: '0,0|0.2,1|0.5,1|1,0'\n})\napp.add(particles)\nparticles.position.y =1 \n\n\n\n\n\n// function spawn() {\n//   const particles = app.create('particles', {\n//     shape: ['box', 1, 50, 1, 1, 'volume', true],\n//     direction: 0,\n//     rate: 1000,\n//     // bursts: [\n//     //   { time: 0, count: 100 },\n//     //   { time: 0.5, count: 500 },\n//     //   { time: 1, count: 10000 },\n//     // ],\n//     duration: 5,\n//     // loop: false,\n//     max: 10000,\n//     space: 'world',\n//     life: '5',\n//     speed: '0.1',\n//     size: '1',\n//     rotate: '0~360',\n//     // color: 'blue',\n//     alpha: '1',\n//     // emissive: '10',\n//     lit: false,\n//     blending: 'normal'\n//   })\n//   particles.position.set(num(-100, 100, 2), 0, num(-100, 100, 2))\n//   world.add(particles)\n//   setTimeout(()=> {\n//     world.remove(particles)\n//   }, 3000)\n// }\n\n// let elapsed = 0\n// app.on('update', delta => {\n//   elapsed += delta\n//   if (elapsed > 0.1) {\n//     elapsed = 0\n//     spawn()\n//     spawn()\n//   }\n// })\n}\n",
+  "asset_files": [
+    "Tornado.glb",
+    "image.png"
+  ]
+}

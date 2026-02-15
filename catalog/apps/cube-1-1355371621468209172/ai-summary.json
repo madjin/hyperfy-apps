@@ -1,0 +1,17 @@
+{
+  "app_id": "cube-1-1355371621468209172",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:19:26+00:00",
+  "description": "Scrolls a cube mesh's texture along the X axis each frame using a configurable speed prop. Sets the mesh to unlinked mode so each unique app instance animates its textureX offset independently, enabling per-instance UV scroll control.",
+  "feature_tags": [
+    "animation",
+    "3d-model",
+    "ui"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none"
+}

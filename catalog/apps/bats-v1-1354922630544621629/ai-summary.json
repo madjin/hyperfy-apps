@@ -1,0 +1,19 @@
+{
+  "app_id": "bats-v1-1354922630544621629",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:16:40+00:00",
+  "description": "Spawns a configurable swarm of up to 5000 bat clones that animates wing-flapping and erratic flight paths each frame. Plays a looping spatial audio clip for the swarm ambience. Exposes UI controls for bat count, scale, wingbeat speed, fly speed, and sound toggle.",
+  "feature_tags": [
+    "animation",
+    "audio",
+    "3d-model",
+    "environment",
+    "ui"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "none"
+}

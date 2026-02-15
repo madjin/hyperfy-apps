@@ -1,0 +1,32 @@
+{
+  "name": "Free_Camera",
+  "author": "vox",
+  "description": "Toggles a freecam or orbit camera mode via configurable hotkeys, letting users fly freely or orbit around a target position. Renders an in-world UI panel with stepper controls to adjust move speed, look speed, lerp, radius, and height in real time.",
+  "tags": [
+    "camera",
+    "ui",
+    "interaction"
+  ],
+  "interaction_modes": [
+    "ui"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "high",
+  "networking": "none",
+  "preview_url": "catalog/generated_previews/free-camera-1415049094363086848.jpg",
+  "download_path": "v2-hyp/Free_Camera.hyp",
+  "created_at": "2025-09-09T18:59:54.437Z",
+  "props": {
+    "collision": true,
+    "keyUIPanel": "j",
+    "keyFreecam": "k",
+    "keyOrbit": "l",
+    "keyFreeCamMoveSpeedUp": "[",
+    "keyFreeCamMoveSpeedDown": "]"
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\n// FreeCam.js - Self-contained camera script with Freecam and Orbit modes\n// ---------------------------------------------------------------\n// Controls (client-side only):\n//   C  \u2013 Toggle Freecam on/off\n//   O  \u2013 Toggle Orbit camera around the local player on/off\n//   U  \u2013 Toggle camera configuration panel\n// ---------------------------------------------------------------\n// Config parameters are defined inside this script. Adjust as needed.\n\n// Expose hotkeys so builders can change them in the inspector\napp.configure([\n  { key: 'keyUIPanel', type: 'text', label: 'UI Panel Toggle Key', default: 'U' },\n  { key: 'keyFreecam', type: 'text', label: 'Freecam Toggle Key', default: 'C' },\n  { key: 'keyOrbit',   type: 'text', label: 'Orbit Toggle Key',   default: 'O' },\n])\n\nif (world.isClient) {\n// =========================\n// Configuration\n// =========================\nconst CONFIG = {\n  // Orbit parameters\n  ORBIT_RADIUS: 5,\n  ORBIT_HEIGHT: 2,\n  ORBIT_MOVE_SPEED: 0.3,\n  ORBIT_MOVE_LERP: 0.2,\n  ORBIT_LOOK_SPEED: 0.9,\n  ORBIT_LOOK_LERP: 0.2,\n  ORBIT_TARGET_MOVE_SPEED: 1.0,\n\n  // Freecam parameters (normalized speed 0-1)\n  FREECAM_MOVE_SPEED: 0.3,\n  FREECAM_MOVE_LERP: 0.05,\n  FREECAM_LOOK_SPEED: 0.5,\n  FREECAM_LOOK_LERP: 0.05,\n}\n\n// Physical ranges used for mappings\nconst RANGES = {\n  FREECAM_MOVE_SPEED: { min: 0.05, max: 1.0 },\n  ORBIT_MOVE_SPEED: { min: 0.01, max: 4 },\n  ORBIT_RADIUS: { min: 0.1, max: 9999 },\n  ORBIT_HEIGHT: { min: -999, max: 999 },\n  FREECAM_LOOK_SPEED: { min: 0.0005, max: 0.005 },\n  ORBIT_LOOK_SPEED: { min: 0, max: 1 },\n  FREECAM_MOVE_LERP: { min: 0.01, max: 0.25 },\n  FREECAM_LOOK_LERP: { min: 0.01, max: 0.25 },\n  ORBIT_MOVE_LERP: { min: 0.01, max: 0.25 },\n  ORBIT_LOOK_LERP: { min: 0.01, max: 0.25 }\n}\n\napp.keepActive = true\n\n// =========================\n// State\n// =========================\nconst STATES = { DEFAULT: 'default', FREECAM: 'freecam', ORBIT: 'orbit' }\nlet currentState = STA",
+  "asset_files": [
+    "Free Camera.glb",
+    "Free Camera__image.png"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Butterfly_Swarm_V6_Hyperfly_edition2_BW",
+  "author": "Gert-Jan Akerboom",
+  "description": "Spawns up to 5000 black-and-white butterfly clones with randomized scale, flap speed, and fly speed. Animates wing rotation each frame using sinusoidal flapping and drifting within a configurable 3D spawn area. Clones GLB wing nodes into group containers with emissive materials.",
+  "tags": [
+    "animation",
+    "3d-model",
+    "environment"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking": "none",
+  "preview_url": "catalog/discord/hyp_media/Butterfly_Swarm_V6_Hyperfly_edition2_BW_1355068613178167366/p1_1092aa12-4c83-4fd9-bd55-6704eea2f06e.png",
+  "download_path": "v2-hyp/Butterfly_Swarm_V6_Hyperfly_edition2_BW.hyp",
+  "created_at": "2025-03-28T06:38:53.339Z",
+  "props": {
+    "scale": 0.3,
+    "startX": 0,
+    "startY": 5,
+    "startZ": 0,
+    "flapSpeed": 10,
+    "maxFlap": 60,
+    "moveSpeed": 0.4,
+    "moveRange": 2,
+    "driftSpeed": 0.3,
+    "driftRange": 1,
+    "baseStartX": 10,
+    "baseStartY": 5,
+    "baseStartZ": 0,
+    "areaWidth": 10,
+    "areaDepth": 10,
+    "clone_count": 20,
+    "area_size_x": 10,
+    "area_size_z": 10,
+    "min_size": 0.2,
+    "max_size": 2,
+    "butterfly_amount": 2000,
+    "scale_min": 0.1,
+    "scale_max": 0.2,
+    "flapspeed_min": 5,
+    "flapspeed_max": 20,
+    "flyspeed_min": 0.3,
+    "flyspeed_max": 0.5,
+    "og_onoff": "no",
+    "og_visible": "false",
+    "visible": "true",
+    "areaXZ": 1,
+    "how_high": 100
+  }
+}

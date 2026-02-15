@@ -1,0 +1,23 @@
+{
+  "id": "KeVGqDT7Sn",
+  "version": 0,
+  "name": "Curved Video Viewer",
+  "image": null,
+  "author": null,
+  "url": null,
+  "desc": null,
+  "model": "asset://5e68ee6bd1db8b495bbf5478a697f17206f45351124c9de74a5528eb8c05b03b.glb",
+  "script": "asset://4d4198fa5fa10936b298eb9abea78d869d0a11a08f088062c47716c8b7adf639.js",
+  "props": {
+    "video": {
+      "type": "video",
+      "name": "vj_1.mp4",
+      "url": "asset://27827da74c0e8c2b524260dcb95667573c55aaf4e104e4e23e957a3032d81b24.mp4"
+    },
+    "videoLink": "https://stream.vrcdn.live/live/uncannyalley.live.mp4"
+  },
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "unique": false
+}

@@ -1,0 +1,140 @@
+{
+  "name": "Machine_Gun_v8",
+  "author": "Saori",
+  "description": "Pickupable machine gun that fires raycasts on mouse click, plays spatial gunfire audio, and renders a pulsing overheat UI bar. Features server-validated overheat/cooldown, scope zoom with eased transitions, and 19 directional movement emote animations for the holder.",
+  "tags": [
+    "combat",
+    "audio",
+    "ui",
+    "animation",
+    "interaction",
+    "camera"
+  ],
+  "interaction_modes": [
+    "action",
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "heavy",
+  "script_complexity": "high",
+  "networking": "events",
+  "preview_url": "catalog/discord/hyp_media/Machine_Gun_v8_1355977141862400300/p1_arena_test.mp4",
+  "download_path": "v2-hyp/Machine_Gun_v8.hyp",
+  "created_at": "2025-03-30T18:49:03.457Z",
+  "props": {
+    "walkAim": {
+      "type": "emote",
+      "url": "assets/walkAim.glb"
+    },
+    "idle": {
+      "type": "emote",
+      "url": "assets/idle.glb"
+    },
+    "walk": {
+      "type": "emote",
+      "url": "assets/walk.glb"
+    },
+    "run": {
+      "type": "emote",
+      "url": "assets/run.glb"
+    },
+    "walkBack": {
+      "type": "emote",
+      "url": "assets/walkBack.glb"
+    },
+    "walkLeft": {
+      "type": "emote",
+      "url": "assets/walkLeft.glb"
+    },
+    "walkRight": {
+      "type": "emote",
+      "url": "assets/walkRight.glb"
+    },
+    "walkBackLeft": {
+      "type": "emote",
+      "url": "assets/walkBackLeft.glb"
+    },
+    "walkBackRight": {
+      "type": "emote",
+      "url": "assets/walkBackRight.glb"
+    },
+    "sprintBackright": {
+      "type": "emote",
+      "url": "assets/sprintBackright.glb"
+    },
+    "sprintBackRight": {
+      "type": "emote",
+      "url": "assets/sprintBackRight.glb"
+    },
+    "sprintBackLeft": {
+      "type": "emote",
+      "url": "assets/sprintBackLeft.glb"
+    },
+    "walkForwardLeft": {
+      "type": "emote",
+      "url": "assets/walkForwardLeft.glb"
+    },
+    "walkForwardRight": {
+      "type": "emote",
+      "url": "assets/walkForwardRight.glb"
+    },
+    "sprintForwardRight": {
+      "type": "emote",
+      "url": "assets/sprintForwardRight.glb"
+    },
+    "sprintForwardLeft": {
+      "type": "emote",
+      "url": "assets/sprintForwardLeft.glb"
+    },
+    "sprintBackward": {
+      "type": "emote",
+      "url": "assets/sprintBackward.glb"
+    },
+    "sprintLeft": {
+      "type": "emote",
+      "url": "assets/sprintLeft.glb"
+    },
+    "sprintRight": {
+      "type": "emote",
+      "url": "assets/sprintRight.glb"
+    },
+    "jump": {
+      "type": "emote",
+      "url": "assets/jump.glb"
+    },
+    "reload": {
+      "type": "emote",
+      "url": "assets/reload.glb"
+    },
+    "audio": {
+      "type": "audio",
+      "url": "assets/audio.mp3"
+    }
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\nconst animations = [\n  'idle', 'run', 'walk', 'jump', 'walkBack', 'walkLeft', 'walkRight',\n  'sprintLeft', 'sprintRight', 'walkBackLeft', 'walkBackRight',\n  'sprintBackRight', 'sprintBackLeft', 'walkForwardLeft', 'walkForwardRight',\n  'sprintForwardRight', 'sprintForwardLeft', 'sprintBackward', 'reload'\n];\n\nconst animationConfig = animations.map(animation => {\n  const label = animation.replace(/([A-Z])/g, ' $1').replace(/^./, str => str.toUpperCase());\n  return {\n    key: animation,\n    type: 'file',\n    kind: 'emote',\n    label: `${label} Animation`\n  };\n});\n\nanimationConfig.push({\n  key: 'audio',\n  type: 'file',\n  kind: 'audio',\n  label: 'Audio'\n})\n\napp.configure(animationConfig);\n\nif (world.isClient) {\n  let overheatStatus\n  let pulseTime = 0;\n  let isPulsing = false;\n\n  const OVERHEAT_CONFIG = {\n    width: 80,\n    height: 10,\n    padding: 2,\n    borderRadius: 4,\n    backgroundColor: 'rgba(0, 0, 0, 0.5)',\n    overheatColor: 'rgba(255, 50, 50, 0.9)',\n    maxOverheat: 100,\n    currentOverheat: 0,\n    pulseSpeed: 5,\n    pulseMinOpacity: 0.4,\n    pulseMaxOpacity: 0.9\n  }\n\n  const overheatBarContainer = app.create('ui', {\n    width: OVERHEAT_CONFIG.width,\n    height: OVERHEAT_CONFIG.height,\n    alignSelf: 'center',\n    position: [0.5, 1, 0],\n    offset: [0, -35, 0],\n    space: 'screen',\n    anchorPoint: [0.5, 1],\n    backgroundColor: OVERHEAT_CONFIG.backgroundColor,\n    borderRadius: OVERHEAT_CONFIG.borderRadius,\n    padding: OVERHEAT_CONFIG.padding,\n    pointerEvents: false,\n  });\n\n  const overheatFill = app.create('uiview', {\n    width: 0,\n    height: OVERHEAT_CONFIG.height - (OVERHEAT_CONFIG.padding * 2),\n    backgroundColor: OVERHEAT_CONFIG.overheatColor,\n    borderRadius: OVERHEAT_CONFIG.borderRadius / 2,\n    pointerEvents: false,\n  });\n  overheatBarContainer.add(overheatFill);\n\n  app.on('overheatStatus', (data) => {\n    overheatStatus = data\n    updateOverheat(data.overheat, data.coolingDown)\n ",
+  "asset_files": [
+    "Machine Gun v8.glb",
+    "audio.mp3",
+    "idle.glb",
+    "jump.glb",
+    "reload.glb",
+    "run.glb",
+    "sprintBackLeft.glb",
+    "sprintBackRight.glb",
+    "sprintBackright.glb",
+    "sprintBackward.glb",
+    "sprintForwardLeft.glb",
+    "sprintForwardRight.glb",
+    "sprintLeft.glb",
+    "sprintRight.glb",
+    "walk.glb",
+    "walkAim.glb",
+    "walkBack.glb",
+    "walkBackLeft.glb",
+    "walkBackRight.glb",
+    "walkForwardLeft.glb",
+    "walkForwardRight.glb",
+    "walkLeft.glb",
+    "walkRight.glb"
+  ]
+}

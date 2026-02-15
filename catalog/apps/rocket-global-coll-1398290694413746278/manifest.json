@@ -1,0 +1,76 @@
+{
+  "app_id": "rocket-global-coll-1398290694413746278",
+  "app_slug": "rocket-global-coll",
+  "app_name": "RocketGlobalColl",
+  "source": {
+    "hyp_filename": "RocketGlobalColl.hyp",
+    "discord_attachment_id": "1398290694040326214",
+    "discord_message_id": "1398290694413746278",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-07-25T13:08:00.533Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1346623562462527649/1398290694040326214/RocketGlobalColl.hyp?ex=69796170&is=69780ff0&hm=2ec4b62570686e54ce7148a539b8b5c9ad0f3fb02b57bacc25bdf007450ce443&"
+  },
+  "author": {
+    "display_name": "Gert-Jan Akerboom",
+    "discord_user_id": "601886221072990251",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "Rocket is now networked and has collision : )",
+    "raw_message_content": "Rocket is now networked and has collision : )",
+    "summary_excerpt": "RocketGlobalColl.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/rocket-global-coll",
+    "v2_json_path": "v2/apps/rocket-global-coll/Rocket(Global+Coll).json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/RocketGlobalColl.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/RocketGlobalColl_1398290694413746278/p1_image.png",
+    "media_type": ".png",
+    "selection_reason": "any_author_fallback",
+    "is_fallback_any_author": true
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/RocketGlobalColl_1398290694413746278/p1_image.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": 1,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 91750,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1398296617500803202"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [
+      "media_fallback_any_author"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "rocket-global-coll-1398290694413746278",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:15:28+00:00",
+    "description": "No invalid JSON was provided after the BAD_OUTPUT label to fix",
+    "feature_tags": [
+      "unclassified"
+    ],
+    "interaction_modes": [],
+    "asset_profile": "medium",
+    "script_complexity": "low",
+    "networking_profile": "none"
+  }
+}

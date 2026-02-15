@@ -1,0 +1,33 @@
+{
+  "name": "HyperPortal_with_Set_Manual",
+  "author": "0mka",
+  "description": "Portal that teleports players to a stored destination when they enter a trigger zone. Admins configure the target position via a UI switch: 'Set' captures the player's current location, while 'Manual' allows typing exact X/Y/Z coordinates. Position syncs from server to all clients.",
+  "tags": [
+    "teleport",
+    "interaction",
+    "ui",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking": "events",
+  "preview_url": "catalog/discord/hyp_media/HyperPortal_with_Set_Manual_1352439458317865070/p1_image.png",
+  "download_path": "v2-hyp/HyperPortal_with_Set_Manual.hyp",
+  "created_at": "2025-03-21T00:31:33.973Z",
+  "props": {
+    "zone1": "1,0,0",
+    "positionMode": "set",
+    "positionX": 1,
+    "positionY": 1,
+    "positionZ": 1
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\napp.configure([\n    {\n        key: 'btns',\n        type: 'buttons',\n        label: 'Position',\n        buttons: [\n            { \n                label: 'Set', \n                onClick: () => {\n                    if (app.props.positionMode === 'set') {\n                        const position = world.getPlayer().position.toArray();\n                        app.send('position', position);\n                    }\n                }\n            }\n        ]\n    },\n    {\n        type: 'switch',\n        key: 'positionMode',\n        label: 'Position Mode',\n        options: [\n            { label: 'Set', value: 'set' },\n            { label: 'Manual', value: 'manual' }\n        ],\n        initial: 'set'\n    },\n    {\n        type: 'number',\n        key: 'positionX',\n        label: 'X Coordinate',\n        min: -Infinity,\n        max: Infinity,\n        step: 1,\n        initial: 0,\n        visible: () => app.props.positionMode === 'manual'\n    },\n    {\n        type: 'number',\n        key: 'positionY',\n        label: 'Y Coordinate',\n        min: -Infinity,\n        max: Infinity,\n        step: 1,\n        initial: 0,\n        visible: () => app.props.positionMode === 'manual'\n    },\n    {\n        type: 'number',\n        key: 'positionZ',\n        label: 'Z Coordinate',\n        min: -Infinity,\n        max: Infinity,\n        step: 1,\n        initial: 0,\n        visible: () => app.props.positionMode === 'manual'\n    },\n    {\n        type: 'button',\n        key: 'manualSetBtn',\n        label: 'Set Position',\n        onClick: () => {\n            if (app.props.positionMode === 'manual') {\n                const position = [app.props.positionX, app.props.positionY, app.props.positionZ];\n                app.send('position', position);\n            }\n        },\n        visible: () => app.props.positionMode === 'manual'\n    }\n]);\n\nif (world.isServer) {\n    const key = `${app.instanceId}:position`;\n    let position = world.get(key);\n   ",
+  "asset_files": [
+    "HyperPortal with Set-Manual.glb",
+    "HyperPortal with Set-Manual__image.png"
+  ]
+}

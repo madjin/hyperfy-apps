@@ -1,0 +1,109 @@
+{
+  "app_id": "butterfly-swarm-v6-hyperfly-edition-1354809216753340639",
+  "app_slug": "butterfly-swarm-v6-hyperfly-edition",
+  "app_name": "Butterfly_Swarm_V6_Hyperfly_edition",
+  "source": {
+    "hyp_filename": "Butterfly_Swarm_V6_Hyperfly_edition.hyp",
+    "discord_attachment_id": "1354809216379916318",
+    "discord_message_id": "1354809216753340639",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-03-27T13:28:08.412Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1350129252976168992/1354809216379916318/Butterfly_Swarm_V6_Hyperfly_edition.hyp?ex=69796628&is=697814a8&hm=04d58ee0e18c26d180e80b0771b621c41b7c5f46e5097985cc9004d9fa88de61&"
+  },
+  "author": {
+    "display_name": "Gert-Jan Akerboom",
+    "discord_user_id": "601886221072990251",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "Butterfly Swarm V6 Hyperfly edition.hyp",
+    "raw_message_content": "",
+    "summary_excerpt": "Butterfly Swarm V6 Hyperfly edition.hyp",
+    "source_priority_used": "summary_excerpt"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/butterfly-swarm-v6-hyperfly-edition",
+    "v2_json_path": "v2/apps/butterfly-swarm-v6-hyperfly-edition/Butterfly Swarm V6 (Hyperfly edition).json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Butterfly_Swarm_V6_Hyperfly_edition.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/Butterfly_Swarm_V6_Hyperfly_edition_1354809216753340639/p1_image.png",
+    "media_type": ".png",
+    "selection_reason": "any_author_fallback",
+    "is_fallback_any_author": true
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/Butterfly_Swarm_V6_Hyperfly_edition_1354809216753340639/p1_image.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": 1,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 102333,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1354867765554712586"
+    },
+    {
+      "catalog_path": "catalog/discord/hyp_media/Butterfly_Swarm_V6_Hyperfly_edition_1354809216753340639/p2_image.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": 2,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 388285,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1354870556830466262"
+    },
+    {
+      "catalog_path": "catalog/discord/hyp_media/Butterfly_Swarm_V6_Hyperfly_edition_1354809216753340639/p3_image.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": 3,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 69066,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1354872920438079758"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [
+      "media_fallback_any_author"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "butterfly-swarm-v6-hyperfly-edition-1354809216753340639",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T03:58:31+00:00",
+    "description": "Configurable butterfly swarm simulation spawning up to 5000 animated butterflies with randomized scale, flap speed, and flight patterns within a defined 3D area. Features real-time wing animation and drift movement for ambient environmental decoration.",
+    "feature_tags": [
+      "environment",
+      "animation",
+      "particles",
+      "ui",
+      "3d-model"
+    ],
+    "interaction_modes": [
+      "ui",
+      "passive"
+    ],
+    "asset_profile": "medium",
+    "script_complexity": "medium",
+    "networking_profile": "none"
+  }
+}

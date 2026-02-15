@@ -1,0 +1,20 @@
+{
+  "app_id": "ftv-1361768826902941913",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:21:18+00:00",
+  "description": "In-world TV media player that plays up to five configurable video channels on a 3D model screen mesh. Triggers a channel-change sound effect when switching videos, supports autoplay, shuffle, spatial audio falloff, and renders mini UI controls for playback.",
+  "feature_tags": [
+    "media-player",
+    "audio",
+    "ui",
+    "3d-model",
+    "interaction"
+  ],
+  "interaction_modes": [
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "high",
+  "networking_profile": "events"
+}

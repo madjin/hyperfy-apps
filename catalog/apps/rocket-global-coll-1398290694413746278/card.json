@@ -1,0 +1,26 @@
+{
+  "name": "RocketGlobalColl",
+  "author": "Gert-Jan Akerboom",
+  "description": "Networked rocket launcher that triggers a launch sequence with additive exhaust particles when a player activates an action node. The rocket animates skyward with quadratic easing, then respawns by rising smoothly from underground. Server syncs launch, cancel, and respawn events to all clients.",
+  "tags": [
+    "particles",
+    "animation",
+    "interaction",
+    "multiplayer",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "action",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking": "events",
+  "preview_url": "catalog/discord/hyp_media/RocketGlobalColl_1398290694413746278/p1_image.png",
+  "download_path": "v2-hyp/RocketGlobalColl.hyp",
+  "created_at": "2025-07-25T13:08:00.533Z",
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\n// Get the rocket mesh\nconst rocket = app.get('rocket')\nif (!rocket) {\n  return\n}\n\n// Store original position\nconst originalPosition = rocket.position.clone()\n// Set the resting height to 0.8\nconst restingHeight = 0.8\n\n// Initialize app state for global rocket status\nif (!app.state.rocketLaunching) {\n  app.state.rocketLaunching = false\n}\n\nif (!app.state.rocketLaunchTime) {\n  app.state.rocketLaunchTime = 0\n}\n\n// Create the particle system\nconst particles = app.create('particles', {\n  image: props.image?.url,\n  shape: ['point'],\n  direction: 1,\n  speed: '0.1~0.5',\n  spread: '0.2',\n  size: '0.02~0.5',\n  rate: 0, // Start with 0 rate\n  rateOverDistance: 100,\n  blending: 'additive',\n  emissive: '10~20',\n  alphaOverLife: '0,0|0.1,0.5|0.9,0.5|1,0',\n  active: false,\n  max: 1000,\n  life: '1~3',\n  rotate: '0~360'\n})\n\n// Add particles to the rocket\nrocket.add(particles)\n\n// Create the action node\nconst action = app.create('action', {\n  label: 'Launch Rocket',\n  distance: 8,\n  duration: 1,\n  onStart: () => {\n    if (world.isClient) {\n      // Send start command to server\n      app.send('rocketStart', {})\n    }\n  },\n  onTrigger: () => {\n    if (world.isClient) {\n      // Send launch command to server\n      app.send('rocketLaunch', {})\n    }\n    // Hide the UI\n    action.active = false\n  },\n  onCancel: () => {\n    if (world.isClient) {\n      // Send cancel command to server\n      app.send('rocketCancel', {})\n    }\n  }\n})\n\n// Add the action to the rocket\nrocket.add(action)\n\n// Make sure the action is positioned correctly relative to the rocket\naction.position.set(0, 1, 0)\n\n// Set initial position\nrocket.position.y = restingHeight\n\n// Client-side event handlers\nif (world.isClient) {\n  // Listen for rocket start from server\n  app.on('rocketStart', () => {\n    particles.active = true\n    particles.rate = 400\n  })\n\n  // Listen for rocket launch from server\n  app.on('rocketLaunch', (data) => {\n    app.state.rocketLaun",
+  "asset_files": [
+    "Rocket(Global+Coll).glb"
+  ]
+}

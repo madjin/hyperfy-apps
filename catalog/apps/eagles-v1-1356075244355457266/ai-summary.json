@@ -1,0 +1,19 @@
+{
+  "app_id": "eagles-v1-1356075244355457266",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:20:06+00:00",
+  "description": "Spawns up to 6 soaring eagle clones from a GLB model and animates their wing flaps, circular flight paths, and thermal drift on each frame update. Plays spatial eagle call audio on random flap events. Exposes a configurable UI panel for eagle count, scale, wingbeat speed, soar speed, height range, a",
+  "feature_tags": [
+    "animation",
+    "audio",
+    "3d-model",
+    "environment",
+    "ui"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "high",
+  "networking_profile": "none"
+}

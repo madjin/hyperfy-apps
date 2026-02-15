@@ -1,0 +1,70 @@
+{
+  "app_id": "saori-2-5-trump-agent-1346629939817877556",
+  "app_slug": "saori-2-5-trump-agent",
+  "app_name": "saori-2-5-trump-agent",
+  "source": {
+    "hyp_filename": "saori-2-5-trump-agent.hyp",
+    "discord_attachment_id": "1346629937737502720",
+    "discord_message_id": "1346629939817877556",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-03-04T23:46:36.827Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1346623562462527649/1346629937737502720/saori-2-5-trump-agent.hyp?ex=69794e5c&is=6977fcdc&hm=a8a34d3f8ef51a604611bd23725fdb3a712cd386b74a1441ec16bb3801445813&"
+  },
+  "author": {
+    "display_name": "0mka",
+    "discord_user_id": "783416470205497394",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "saori 2 5 trump agent.hyp",
+    "raw_message_content": "",
+    "summary_excerpt": "saori 2 5 trump agent.hyp",
+    "source_priority_used": "summary_excerpt"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/saori-2-5-trump-agent",
+    "v2_json_path": "v2/apps/saori-2-5-trump-agent/saori-2-5-trump-agent.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/saori-2-5-trump-agent.md"
+  },
+  "preview": {
+    "primary_media_path": null,
+    "media_type": null,
+    "selection_reason": null,
+    "is_fallback_any_author": false
+  },
+  "media": [],
+  "status": {
+    "has_preview": false,
+    "needs_media_review": true,
+    "needs_author_review": false,
+    "flags": [
+      "no_media_found"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "saori-2-5-trump-agent-1346629939817877556",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-14T19:46:43+00:00",
+    "description": "AI-powered NPC agent with VRM avatar that connects to external APIs to respond to chat, perform emotes, and interact with players. Features speech bubbles, nametags, and real-time environmental awareness.",
+    "feature_tags": [
+      "npc",
+      "avatar",
+      "chat",
+      "agent",
+      "multiplayer"
+    ],
+    "interaction_modes": [
+      "networked",
+      "passive",
+      "ui"
+    ],
+    "asset_profile": "heavy",
+    "script_complexity": "high",
+    "networking_profile": "events"
+  }
+}

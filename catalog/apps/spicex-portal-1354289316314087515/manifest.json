@@ -1,0 +1,78 @@
+{
+  "app_id": "spicex-portal-1354289316314087515",
+  "app_slug": "spicex-portal",
+  "app_name": "SPICEXPortal",
+  "source": {
+    "hyp_filename": "SPICEXPortal.hyp",
+    "discord_attachment_id": "1354289315990995035",
+    "discord_message_id": "1354289316314087515",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-03-26T03:02:14.488Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1346623562462527649/1354289315990995035/SPICEXPortal.hyp?ex=69797c36&is=69782ab6&hm=e4398dac5a436026907a8a17bf817d612fb6f0614e75581cf8442c7dbb63c940&"
+  },
+  "author": {
+    "display_name": ".hyp shaman",
+    "discord_user_id": "297290503181959169",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "SPICEXPortal.hyp",
+    "raw_message_content": "",
+    "summary_excerpt": "SPICEXPortal.hyp",
+    "source_priority_used": "summary_excerpt"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/spicex-portal",
+    "v2_json_path": "v2/apps/spicex-portal/SPICEX Portal.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/SPICEXPortal.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/SPICEXPortal_1354289316314087515/p1_brave_iUo8WLJkxq.mp4",
+    "media_type": ".mp4",
+    "selection_reason": "same_author_nearby",
+    "is_fallback_any_author": false
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/SPICEXPortal_1354289316314087515/p1_brave_iUo8WLJkxq.mp4",
+      "original_filename": "brave_iUo8WLJkxq.mp4",
+      "content_type": "video/mp4",
+      "relative_index": 1,
+      "same_author": true,
+      "selection_reason": "same_author_nearby",
+      "size_bytes": 930552,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1354289507909763113"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "spicex-portal-1354289316314087515",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:18:45+00:00",
+    "description": "Web browser",
+    "feature_tags": [
+      "web",
+      "browser",
+      "internet"
+    ],
+    "interaction_modes": [
+      "trigger"
+    ],
+    "asset_profile": "heavy",
+    "script_complexity": "medium",
+    "networking_profile": "none"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "app_id": "free-camera-1415049094363086848",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:21:13+00:00",
+  "description": "Toggles a freecam or orbit camera mode via configurable hotkeys, letting users fly freely or orbit around a target position. Renders an in-world UI panel with stepper controls to adjust move speed, look speed, lerp, radius, and height in real time.",
+  "feature_tags": [
+    "camera",
+    "ui",
+    "interaction"
+  ],
+  "interaction_modes": [
+    "ui"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "high",
+  "networking_profile": "none"
+}

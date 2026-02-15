@@ -1,0 +1,20 @@
+{
+  "app_id": "pvp-core-with-spawns-1355236590603075706",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:25:57+00:00",
+  "description": "PvP combat core that watches player health events and triggers a death emote animation with freeze, then teleports the player to a random spawn point. Heals all players over time on the server and renders floating damage numbers as billboard UI text on the client, with crit styling in red.",
+  "feature_tags": [
+    "combat",
+    "animation",
+    "ui",
+    "teleport",
+    "multiplayer"
+  ],
+  "interaction_modes": [
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "events"
+}

@@ -1,0 +1,17 @@
+{
+  "app_id": "hyperbeacon-v2-1337234426395889747",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:22:36+00:00",
+  "description": "Beacon app that registers a world with a Zesty spatial relay by sending a PUT request on load and transmits session heartbeat signals every 4.5 seconds via fetch. Animates a rotating 3D model (ring and hyper mesh) on each update frame to indicate active beacon status.",
+  "feature_tags": [
+    "3d-model",
+    "animation",
+    "ui"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "none"
+}

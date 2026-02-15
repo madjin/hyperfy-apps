@@ -1,0 +1,76 @@
+{
+  "app_id": "game-timer-1353704858338984058",
+  "app_slug": "game-timer",
+  "app_name": "Game_Timer",
+  "source": {
+    "hyp_filename": "Game_Timer.hyp",
+    "discord_attachment_id": "1353704856690360340",
+    "discord_message_id": "1353704858338984058",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-03-24T12:19:48.848Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1353704856690360340/Game_Timer.hyp?ex=69795624&is=697804a4&hm=6ecb0f6afc63470a91d94f5e66842bcb55db7f12eb5b5c8f3b9422d4377ef618&"
+  },
+  "author": {
+    "display_name": "0mka",
+    "discord_user_id": "783416470205497394",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "Game Timer.hyp",
+    "raw_message_content": "",
+    "summary_excerpt": "Game Timer.hyp",
+    "source_priority_used": "summary_excerpt"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/game-timer",
+    "v2_json_path": "v2/apps/game-timer/Game Timer.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Game_Timer.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/Game_Timer_1353704858338984058/p0_timer.mp4",
+    "media_type": ".mp4",
+    "selection_reason": "same_message",
+    "is_fallback_any_author": false
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/Game_Timer_1353704858338984058/p0_timer.mp4",
+      "original_filename": "timer.mp4",
+      "content_type": "video/mp4",
+      "relative_index": 0,
+      "same_author": true,
+      "selection_reason": "same_message",
+      "size_bytes": 172136,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1353704857265246218"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "game-timer-1353704858338984058",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:04:42+00:00",
+    "description": "Default valid JSON object since no bad output was provided",
+    "feature_tags": [
+      "placeholder"
+    ],
+    "interaction_modes": [
+      "passive"
+    ],
+    "asset_profile": "medium",
+    "script_complexity": "low",
+    "networking_profile": "none"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "app_id": "pve-sword-1354082561185288312",
+  "app_slug": "pve-sword",
+  "app_name": "PvE_Sword",
+  "source": {
+    "hyp_filename": "PvE_Sword.hyp",
+    "discord_attachment_id": "1354082560329650176",
+    "discord_message_id": "1354082561185288312",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-03-25T13:20:40.224Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1354082560329650176/PvE_Sword.hyp?ex=69796468&is=697812e8&hm=99fc7ad645f42b7903b3b7380a9fffaa7de7f008e5b2048c7f3bbbafdaee65c0&"
+  },
+  "author": {
+    "display_name": "peezy",
+    "discord_user_id": "169825031314997249",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "PvE Sword.hyp",
+    "raw_message_content": "",
+    "summary_excerpt": "PvE Sword.hyp",
+    "source_priority_used": "summary_excerpt"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/pve-sword",
+    "v2_json_path": "v2/apps/pve-sword/PvE Sword.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/PvE_Sword.md"
+  },
+  "preview": {
+    "primary_media_path": null,
+    "media_type": null,
+    "selection_reason": null,
+    "is_fallback_any_author": false
+  },
+  "media": [],
+  "status": {
+    "has_preview": false,
+    "needs_media_review": true,
+    "needs_author_review": false,
+    "flags": [
+      "no_media_found"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "pve-sword-1354082561185288312",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:12:50+00:00",
+    "description": "A multiplayer PvE melee combat system where players equip a sword to deal damage to others using physics-based hit detection. Features configurable attack emotes, server-authoritative damage calculation with critical hits, and pickup/drop mechanics synchronized across clients.",
+    "feature_tags": [
+      "combat",
+      "multiplayer",
+      "interaction",
+      "animation",
+      "physics",
+      "3d-model"
+    ],
+    "interaction_modes": [
+      "action",
+      "trigger",
+      "ui",
+      "networked"
+    ],
+    "asset_profile": "medium",
+    "script_complexity": "high",
+    "networking_profile": "shared_state"
+  }
+}

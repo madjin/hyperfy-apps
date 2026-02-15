@@ -1,0 +1,53 @@
+{
+  "name": "NEON_2",
+  "author": "Gert-Jan Akerboom",
+  "description": "Renders a customizable neon sign by cloning glowing letter meshes from a GLB model based on user-typed text. Supports configurable spacing, scale, height, color, glow intensity, and alignment. Plays looping spatial audio with adjustable volume, distance, and rolloff settings via a UI panel.",
+  "tags": [
+    "audio",
+    "ui",
+    "3d-model",
+    "environment"
+  ],
+  "interaction_modes": [
+    "passive",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking": "events",
+  "preview_url": "catalog/discord/hyp_media/NEON_2_1369292993667928145/m3_NEON.mp4",
+  "download_path": "v2-hyp/NEON_2.hyp",
+  "created_at": "2025-05-06T12:41:29.924Z",
+  "props": {
+    "text_input": "** hyperfy **",
+    "letter_spacing": 2.5,
+    "letter_scale": 1,
+    "emission_r": 0.30000000000000004,
+    "emission_g": 0.7000000000000001,
+    "emission_b": 0.4,
+    "emission_intensity": 20,
+    ".emissiveIntensity: 5": 3.2,
+    "showchars": "true",
+    "visible": "false",
+    "alignment": "center",
+    "scale": 0.8,
+    "height": 2.3000000000000003,
+    "uvcolor": 0.45,
+    "defaultVolume": 1,
+    "isSpatial": true,
+    "audioType": "music",
+    "minDistance": 5,
+    "maxDistance": 20,
+    "rolloffFactor": 4,
+    "audio": {
+      "type": "audio",
+      "url": "assets/audio.mp3"
+    },
+    "audioPlayback": "stop"
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\n/**\n * neon_letters.js\n * \n * This file contains the implementation for neon letter effects.\n */\napp.keepActive = true\n// Configure the UI input\napp.configure([\n\t// #region TEXT\n\t\t{\n\t\ttype: 'section',\n\t\tkey: 'Settings',\n\t\tlabel: 'Settings'\n\t},\n\t{\n\t\tkey: \"text_input\",\n\t\tlabel: \"Enter Text\",\n\t\ttype: \"text\",\n\t\tinitial: \"HELLO\",\n\t\tplaceholder: \"Type your text here...\"\n\t},\n\t{\n\t\tkey: \"letter_spacing\",\n\t\tlabel: \"Letter Spacing\",\n\t\ttype: \"range\",\n\t\tinitial: 1.5,\n\t\tmin: 0.1,\n\t\tmax: 5,\n\t\tstep: 0.1,\n\t\tdp: 1\n\t},\n\t{\n\t\tkey: \"scale\",\n\t\tlabel: \"Scale\",\n\t\ttype: \"range\",\n\t\tinitial: 1,\n\t\tmin: 0.1,\n\t\tmax: 5,\n\t\tstep: 0.1,\n\t\tdp: 1\n\t},\n\t{\n\t\tkey: \"height\",\n\t\tlabel: \"Height\",\n\t\ttype: \"range\",\n\t\tinitial: 1,\n\t\tmin: 1,\n\t\tmax: 10,\n\t\tstep: 0.1,\n\t\tdp: 1\n\t},\n\t{\n\t\tkey: \"emission_intensity\",\n\t\tlabel: \"Glow Intensity\",\n\t\ttype: \"range\",\n\t\tinitial: 1,\n\t\tmin: 0,\n\t\tmax: 20,\n\t\tstep: 0.1,\n\t\tdp: 1\n\t},\n\t{\n\t\tkey: \"uvcolor\",\n\t\tlabel: \"Color\",\n\t\ttype: \"range\",\n\t\tinitial: 0.5,\n\t\tmin: 0,\n\t\tmax: 1,\n\t\tstep: 0.01,\n\t\tdp: 2\n\t},\n\t{\n\t\ttype: 'dropdown',\n\t\tkey: 'alignment',\n\t\tlabel: 'Text Alignment',\n\t\toptions: [\n\t\t\t{ label: 'Left', value: 'left' },\n\t\t\t{ label: 'Center', value: 'center' },\n\t\t\t{ label: 'Right', value: 'right' }\n\t\t],\n\t\tinitial: 'center',\n\t},\n\t{\n\t\ttype: 'switch',\n\t\tkey: 'visible',\n\t\tlabel: 'Show/Hide all characters',\n\t\toptions: [\n\t\t\t{ label: 'Show', value: 'true' },\n\t\t\t{ label: 'Hide', value: 'false' }\n\t\t],\n\t\tinitial: 'true',\n\t},\n\t// #endregion\n\t// #region AUDIO\n\t{\n\t\ttype: 'section',\n\t\tkey: 'audioSection',\n\t\tlabel: 'Audio Settings'\n\t},\n\t{\n\t\ttype: 'file',\n\t\tkey: 'audio',\n\t\tkind: 'audio',\n\t\tlabel: 'Audio File'\n\t},\n\t{\n\t\tkey: 'defaultVolume',\n\t\ttype: 'switch',\n\t\tlabel: 'Default Volume',\n\t\toptions: [\n\t\t\t{ label: 'Low', value: 1 },\n\t\t\t{ label: 'Medium', value: 5 },\n\t\t\t{ label: 'High', value: 8 }\n\t\t],\n\t\tinitial: 1\n\t},\n\t{\n\t\tkey: 'isSpatial',\n\t\ttype: 'switch',\n\t\tlabel: 'Audio Type',\n\t\toptions: [\n\t\t\t{ label: 'Spatial (3D)', value: true },\n\t\t\t{ label:",
+  "asset_files": [
+    "NEON_2.glb",
+    "audio.mp3"
+  ]
+}

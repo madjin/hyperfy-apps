@@ -1,0 +1,19 @@
+{
+  "app_id": "neon-2-1369292993667928145",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:24:34+00:00",
+  "description": "Renders a customizable neon sign by cloning glowing letter meshes from a GLB model based on user-typed text. Supports configurable spacing, scale, height, color, glow intensity, and alignment. Plays looping spatial audio with adjustable volume, distance, and rolloff settings via a UI panel.",
+  "feature_tags": [
+    "audio",
+    "ui",
+    "3d-model",
+    "environment"
+  ],
+  "interaction_modes": [
+    "passive",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "events"
+}

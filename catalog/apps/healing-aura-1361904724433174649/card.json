@@ -1,0 +1,34 @@
+{
+  "name": "Healing_Aura",
+  "author": "ash",
+  "description": "Spawns two green particle emitters in a circular aura pattern: small rising dots with orbital velocity and larger additive-blended lines that fade over their lifetime. Configurable textures allow customizing particle images. Serves as a reference demo for the Hyperfy particles API.",
+  "tags": [
+    "particles",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking": "none",
+  "preview_url": "catalog/discord/hyp_media/Healing_Aura_1361904724433174649/m1_xyz-particle-demos_2_-_edit.mp4",
+  "download_path": "v2-hyp/Healing_Aura.hyp",
+  "created_at": "2025-04-16T03:23:09.271Z",
+  "props": {
+    "image": {
+      "type": "texture",
+      "url": "assets/image.png"
+    },
+    "image2": {
+      "type": "texture",
+      "url": "assets/image2.png"
+    }
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\napp.configure([\n  {\n    key: 'image',\n    type: 'file',\n    kind: 'texture',\n    label: 'Image'\n  },\n  {\n    key: 'image2',\n    type: 'file',\n    kind: 'texture',\n    label: 'Image2'\n  }\n])\n\n\nconst dots = app.create('particles', {\n  image: props.image?.url,\n  shape: ['circle', 2, 1],\n  direction: 1,\n  speed: '1',\n  size: '0.03',\n  rate: 30,\n  life: '4',\n  // blending: 'additive',\n  // alpha: '0.8',\n  emissive: '100',\n  // alpha: '0.01~0.03',\n  // size: '5',\n  // rotate: '0~360',\n  color: 'green',\n  alphaOverLife: '0,0|0.1,1|0.9,1|1,0',\n  velocityOrbital: new Vector3(0, 0.2, 0),\n  velocityLinear: new Vector3(0, 1, 0),\n  // velocityRadial: -0.1\n\n})\napp.add(dots)\n\nconst lines = app.create('particles', {\n  image: props.image2?.url,\n  shape: ['circle', 2, 1],\n  // direction: 1,\n  speed: '2',\n  size: '0.8',\n  rate: 10,\n  life: '2',\n  blending: 'additive',\n  alpha: '0.4',\n  emissive: '100',\n  // alpha: '0.01~0.03',\n  // size: '5',\n  // rotate: '0~360',\n  color: 'green',\n  alphaOverLife: '0,0|0.5,1|0.5,1|1,0',\n  // velocityOrbital: new Vector3(0, 0.2, 0),\n  // velocityLinear: new Vector3(0, 1, 0),\n  // velocityRadial: -0.1\n})\napp.add(lines)\n\n\n\n\n\n// function spawn() {\n//   const particles = app.create('particles', {\n//     shape: ['box', 1, 50, 1, 1, 'volume', true],\n//     direction: 0,\n//     rate: 1000,\n//     // bursts: [\n//     //   { time: 0, count: 100 },\n//     //   { time: 0.5, count: 500 },\n//     //   { time: 1, count: 10000 },\n//     // ],\n//     duration: 5,\n//     // loop: false,\n//     max: 10000,\n//     space: 'world',\n//     life: '5',\n//     speed: '0.1',\n//     size: '1',\n//     rotate: '0~360',\n//     // color: 'blue',\n//     alpha: '1',\n//     // emissive: '10',\n//     lit: false,\n//     blending: 'normal'\n//   })\n//   particles.position.set(num(-100, 100, 2), 0, num(-100, 100, 2))\n//   world.add(particles)\n//   setTimeout(()=> {\n//     world.remove(particles)\n//   }, 3000)\n// }\n\n// let",
+  "asset_files": [
+    "Healing Aura.glb",
+    "image.png",
+    "image2.png"
+  ]
+}

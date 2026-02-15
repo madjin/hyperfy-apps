@@ -1,0 +1,20 @@
+{
+  "app_id": "npc-9-1354068129944174592",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:24:54+00:00",
+  "description": "VRM-based NPC that animates idle, walk, run, and sit emotes, detects players within a configurable FOV and range, chases them, and triggers randomized attack animations with cooldown-based hit detection. Plays spatial raptor audio and syncs combat events across server and clients via networked messa",
+  "feature_tags": [
+    "npc",
+    "combat",
+    "animation",
+    "audio",
+    "interaction"
+  ],
+  "interaction_modes": [
+    "passive",
+    "networked"
+  ],
+  "asset_profile": "heavy",
+  "script_complexity": "high",
+  "networking_profile": "events"
+}

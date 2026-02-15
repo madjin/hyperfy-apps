@@ -1,0 +1,16 @@
+{
+  "app_id": "generate-monstera-v1-1357367597435191527",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:21:27+00:00",
+  "description": "Procedural plant generator that clones a monstera leaf GLB model 3-30 times, stacking clones vertically with randomized spacing, rotation, and linearly interpolated scale so each instance renders a unique monstera plant arrangement in the scene.",
+  "feature_tags": [
+    "3d-model",
+    "environment"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none"
+}

@@ -1,0 +1,20 @@
+{
+  "app_id": "rover-2-11-1339121960759721996",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:27:31+00:00",
+  "description": "Autonomous collectron rover that patrols within a configurable radius, detects nearby items via perception scans, and depletes health/loot stats over time. Renders a billboard UI panel displaying status, target info, and stat bars. Emits proximity-check and resource-transfer events to coordinate wit",
+  "feature_tags": [
+    "npc",
+    "ui",
+    "interaction",
+    "3d-model",
+    "environment"
+  ],
+  "interaction_modes": [
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "high",
+  "networking_profile": "events"
+}

@@ -1,0 +1,16 @@
+{
+  "app_id": "curved-video-viewer-1363490690339831849",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:19:34+00:00",
+  "description": "Plays an MP4 or HLS video stream onto a curved 3D mesh by replacing the target mesh geometry with a video node. Supports configurable aspect ratio, cover/contain fit modes, looping, and double-sided rendering with shadow casting.",
+  "feature_tags": [
+    "media-player",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none"
+}

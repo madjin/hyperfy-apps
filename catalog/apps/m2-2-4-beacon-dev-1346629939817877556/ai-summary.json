@@ -1,0 +1,16 @@
+{
+  "app_id": "m2-2-4-beacon-dev-1346629939817877556",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:23:27+00:00",
+  "description": "Beacon app that registers world metadata (name, URL, description, image, tags) to the Zesty relay server and sends periodic session heartbeat signals via fetch on each update tick. Renders a small 3D model as a visual anchor in the scene.",
+  "feature_tags": [
+    "3d-model",
+    "ui"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "none"
+}

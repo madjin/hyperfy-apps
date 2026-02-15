@@ -1,0 +1,17 @@
+{
+  "app_id": "hexagonal-test-basic-1355683928421171290",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:22:16+00:00",
+  "description": "Hexagonal floor panels that react to player contact by oscillating vertically and scrolling UV offsets to cycle colors. Each panel shifts downward when stepped on and smoothly returns to an idle sine-wave oscillation when released, with configurable amplitude, frequency, and scroll speed.",
+  "feature_tags": [
+    "animation",
+    "interaction",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "none"
+}

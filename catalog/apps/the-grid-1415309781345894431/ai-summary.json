@@ -1,0 +1,17 @@
+{
+  "app_id": "the-grid-1415309781345894431",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:29:45+00:00",
+  "description": "Scene app that renders a configurable sky node with HDR lighting, calculates sun direction from elevation and horizontal rotation angles, and applies fog near/far distances and color. Supports swappable sky textures and adjustable sun intensity via a configure panel.",
+  "feature_tags": [
+    "environment",
+    "ui",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "low",
+  "networking_profile": "none"
+}

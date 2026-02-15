@@ -1,0 +1,21 @@
+{
+  "app_id": "seat-v2-1391991885559631884",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:27:52+00:00",
+  "description": "Interactive seat that anchors a player to a configurable sitting position and triggers one of four selectable sitting emotes. Syncs occupancy state via server networking, displays a hover UI image on pointer enter, and supports both hold-action and click-pointer interaction modes with adjustable dis",
+  "feature_tags": [
+    "interaction",
+    "animation",
+    "ui",
+    "3d-model",
+    "multiplayer"
+  ],
+  "interaction_modes": [
+    "action",
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "events"
+}

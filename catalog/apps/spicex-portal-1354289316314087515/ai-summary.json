@@ -1,0 +1,21 @@
+{
+  "app_id": "spicex-portal-1354289316314087515",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:28:50+00:00",
+  "description": "Configurable portal gate that spawns chaotic particles around a spinning rim, plays spatial audio, renders a billboard UI with destination name and subtitle, and opens a target world URL via trigger collider when a player enters the box zone.",
+  "feature_tags": [
+    "particles",
+    "audio",
+    "physics",
+    "ui",
+    "teleport",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "trigger",
+    "ui"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "high",
+  "networking_profile": "none"
+}

@@ -1,0 +1,22 @@
+{
+  "app_id": "pvpblasterlatest-1354225264028291292",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:26:03+00:00",
+  "description": "PVP blaster weapon that players equip with E and drop with Q. Fires raycasted projectiles dealing configurable damage with headshot multipliers, spawns lightning and muzzle flash particles, plays spatial impact and lightning audio, supports first-person camera mode, health regeneration, and networke",
+  "feature_tags": [
+    "combat",
+    "particles",
+    "audio",
+    "camera",
+    "animation",
+    "ui"
+  ],
+  "interaction_modes": [
+    "action",
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "heavy",
+  "script_complexity": "high",
+  "networking_profile": "events"
+}

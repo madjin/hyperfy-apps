@@ -1,0 +1,20 @@
+{
+  "app_id": "dash-1356968685415301160",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:19:51+00:00",
+  "description": "Spammable dash ability that pushes the player forward in the camera direction when pressing F, triggers a charge emote animation for 0.4 seconds, and renders a configurable color-tinted 3D rom model with a UI label displaying the rom name.",
+  "feature_tags": [
+    "animation",
+    "ui",
+    "camera",
+    "physics",
+    "interaction",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "ui"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "none"
+}

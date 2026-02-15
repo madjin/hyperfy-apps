@@ -1,0 +1,80 @@
+{
+  "app_id": "who-there-1397545277300412447",
+  "app_slug": "who-there",
+  "app_name": "who_there",
+  "source": {
+    "hyp_filename": "who_there.hyp",
+    "discord_attachment_id": "1397545276981641236",
+    "discord_message_id": "1397545277300412447",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-07-23T11:45:59.244Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1346623562462527649/1397545276981641236/who_there.hyp?ex=69794e37&is=6977fcb7&hm=03d398a921790100303cc3824f7343182529737fa780065d7c4509eee4c8d7ca&"
+  },
+  "author": {
+    "display_name": "Gert-Jan Akerboom",
+    "discord_user_id": "601886221072990251",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "who there.hyp",
+    "raw_message_content": "",
+    "summary_excerpt": "who there.hyp",
+    "source_priority_used": "summary_excerpt"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/who-there",
+    "v2_json_path": "v2/apps/who-there/who there.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/who_there.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/who_there_1397545277300412447/m1_image.png",
+    "media_type": ".png",
+    "selection_reason": "same_author_nearby",
+    "is_fallback_any_author": false
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/who_there_1397545277300412447/m1_image.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": -1,
+      "same_author": true,
+      "selection_reason": "same_author_nearby",
+      "size_bytes": 390272,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1397543725764182109"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "who-there-1397545277300412447",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:23:03+00:00",
+    "description": "Screenspace UI widget displaying real-time player count and expandable list of all players currently in the world. Features a collapsible interface and search functionality.",
+    "feature_tags": [
+      "ui",
+      "players",
+      "social",
+      "real-time"
+    ],
+    "interaction_modes": [
+      "passive",
+      "trigger"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "low",
+    "networking_profile": "events"
+  }
+}

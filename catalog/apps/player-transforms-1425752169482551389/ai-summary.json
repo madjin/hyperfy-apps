@@ -1,0 +1,16 @@
+{
+  "app_id": "player-transforms-1425752169482551389",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:25:33+00:00",
+  "description": "Renders a screenspace UI panel that reads the local player's position, body quaternion, and camera direction each frame, then displays live XYZ coordinates and Euler rotation angles as color-coded text elements toggled by a showUI prop.",
+  "feature_tags": [
+    "ui",
+    "camera"
+  ],
+  "interaction_modes": [
+    "ui"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "none"
+}

@@ -1,0 +1,17 @@
+{
+  "app_id": "neon-1-1369282194895274065",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:24:30+00:00",
+  "description": "Renders customizable neon sign text by cloning 3D letter meshes and positioning them with configurable spacing, scale, height, glow intensity, color, and alignment. Supports A-Z, 0-9, and special characters via a UI panel for real-time text input.",
+  "feature_tags": [
+    "3d-model",
+    "ui",
+    "environment"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "none"
+}

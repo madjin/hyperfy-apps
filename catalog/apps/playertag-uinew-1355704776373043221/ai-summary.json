@@ -1,0 +1,19 @@
+{
+  "app_id": "playertag-uinew-1355704776373043221",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:25:38+00:00",
+  "description": "Renders a customizable overhead player tag UI with Fallout-themed color presets, animated text glow effects, configurable badge icons, and a keyboard toggle key. Creates billboard-anchored uitext nodes for name, level, and faction badges above the player.",
+  "feature_tags": [
+    "ui",
+    "animation",
+    "interaction",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "high",
+  "networking_profile": "events"
+}

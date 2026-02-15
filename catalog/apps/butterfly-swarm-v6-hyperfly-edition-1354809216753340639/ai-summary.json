@@ -1,0 +1,18 @@
+{
+  "app_id": "butterfly-swarm-v6-hyperfly-edition-1354809216753340639",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:18:28+00:00",
+  "description": "Spawns up to 5000 butterfly clones with emissive cyan wing materials across a configurable 3D area. Animates wing flapping and sinusoidal drift movement per-frame on the client. Configurable scale, flap speed, fly speed, spawn height, and area size via UI panel.",
+  "feature_tags": [
+    "animation",
+    "3d-model",
+    "environment",
+    "ui"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "none"
+}

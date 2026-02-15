@@ -1,0 +1,20 @@
+{
+  "app_id": "weightpaint-screenui-test1-1420742160474701966",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:30:59+00:00",
+  "description": "Renders a 10x10 screen-space UI grid that lets players paint squares by clicking and dragging. On mouse release, clones a flower/grass 3D model at corresponding world positions. The UI grid toggles visibility based on player distance (10m threshold) and supports right-click to reset all placed objec",
+  "feature_tags": [
+    "ui",
+    "interaction",
+    "3d-model",
+    "environment",
+    "building"
+  ],
+  "interaction_modes": [
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "events"
+}

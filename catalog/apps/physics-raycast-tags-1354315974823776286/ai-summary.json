@@ -1,0 +1,17 @@
+{
+  "app_id": "physics-raycast-tags-1354315974823776286",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:25:14+00:00",
+  "description": "Demonstrates physics raycasting with tagged rigidbodies. Casts a ray from a laser node each frame using world.raycast, detects hits on a dynamic blue collider, and renders the hit tag as billboard UI text. Supports cross-app raycasting between multiple instances.",
+  "feature_tags": [
+    "physics",
+    "ui",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "ui"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none"
+}

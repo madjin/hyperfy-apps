@@ -1,0 +1,20 @@
+{
+  "app_id": "mato-pet-v2-1345214513477189663",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:23:43+00:00",
+  "description": "Spawns a VRM pet companion that follows a target player using configurable follow speed and avoidance distance. Animates idle, walking, and sitting emotes via networked state sync. Uses a modular GameObject framework with lerped position/quaternion interpolation and ownership transfer across server ",
+  "feature_tags": [
+    "npc",
+    "animation",
+    "multiplayer",
+    "3d-model",
+    "interaction"
+  ],
+  "interaction_modes": [
+    "action",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "high",
+  "networking_profile": "events"
+}

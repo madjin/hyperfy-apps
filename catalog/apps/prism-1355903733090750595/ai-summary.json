@@ -1,0 +1,21 @@
+{
+  "app_id": "prism-1355903733090750595",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:25:47+00:00",
+  "description": "Class-based PvPvE combat system that damages players on hit events, triggers death emotes with freeze effects, teleports defeated players to configurable respawn locations, heals survivors over time, and renders floating damage numbers as billboard UI text on clients.",
+  "feature_tags": [
+    "combat",
+    "animation",
+    "teleport",
+    "ui",
+    "audio",
+    "multiplayer"
+  ],
+  "interaction_modes": [
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "heavy",
+  "script_complexity": "high",
+  "networking_profile": "events"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "PvP_Core_with_spawns",
+  "author": "Saori",
+  "description": "PvP combat core that watches player health events and triggers a death emote animation with freeze, then teleports the player to a random spawn point. Heals all players over time on the server and renders floating damage numbers as billboard UI text on the client, with crit styling in red.",
+  "tags": [
+    "combat",
+    "animation",
+    "ui",
+    "teleport",
+    "multiplayer"
+  ],
+  "interaction_modes": [
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking": "events",
+  "preview_url": "catalog/discord/hyp_media/PvP_Core_with_spawns_1355236590603075706/m2_image.png",
+  "download_path": "v2-hyp/PvP_Core_with_spawns.hyp",
+  "created_at": "2025-03-28T17:46:22.278Z",
+  "props": {
+    "death": {
+      "type": "emote",
+      "url": "assets/death.glb"
+    },
+    "spawn": 1,
+    "spawns": 3
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\napp.configure([\n  {\n    key: 'death',\n    type: 'file',\n    kind: 'emote',\n    label: 'Death'\n  },\n  {\n    key: 'spawns',\n    type: 'number',\n    initial: 1,\n    min: 1,\n    step: 1,\n    label: 'spawns'\n  }\n])\n\nconst v1 = new Vector3()\n\nlet deathEmote = null\nif (props.death?.url) {\n  deathEmote = props.death.url + '?l=0' // loop=false\n}\n\n// =============\n// DEATH WATCHER\n// =============\nif (world.isServer) {\n  world.on('health', ({ playerId, health }) => {\n    if (health === 0) {\n      const spawn = Math.floor(Math.random() * props.spawns) + 1;\n      console.log('spawning at', spawn)\n      const player = world.getPlayer(playerId)\n      player.applyEffect({\n        emote: deathEmote,\n        duration: 5,\n        freeze: true,\n        onEnd: () => {\n          app.emit(`spawn:${spawn}`, playerId)\n          player.heal()\n        }\n      })\n    }\n  })\n}\n\n// ==============\n// HEAL OVER TIME\n// ==============\nif (world.isServer) {\n  const HOT_INTERVAL = 2\n  const HOT_AMOUNT = 10\n  let elapsed = 0\n  app.on('update', (delta) => {\n    elapsed += delta\n    if (elapsed < HOT_INTERVAL) return\n    elapsed = 0\n    const players = world.getPlayers()\n    for (const player of players) {\n      if (player.health < 100) {\n        player.heal(HOT_AMOUNT)\n      }\n    }\n  })\n  world.on('hyperfy:dmg', (data) => {\n    app.send('hyperfy:dmg', data)\n  })\n}\n\n// ==============\n// DAMAGE NUMBERS\n// ==============\nif (world.isClient) {\n  const DMG_VISIBLE_DISTANCE = 20\n  const localPlayer = world.getPlayer()\n  app.on('hyperfy:dmg', ({ playerId, amount, crit }) => {\n    showDamage(playerId, amount, crit)\n  })\n  function showDamage(playerId, amount, crit) {\n    const player = world.getPlayer(playerId)\n    if (!player) return\n    const distance = localPlayer.position.distanceTo(player.position)\n    if (distance > DMG_VISIBLE_DISTANCE) return\n    const ui = app.create('ui', {\n      width: crit ? 30 : 15,\n      height: crit ? 30 : 15",
+  "asset_files": [
+    "PvP Core (with spawns).glb",
+    "death.glb"
+  ]
+}

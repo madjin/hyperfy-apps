@@ -1,0 +1,82 @@
+{
+  "app_id": "dash-1356968685415301160",
+  "app_slug": "dash",
+  "app_name": "dash",
+  "source": {
+    "hyp_filename": "dash.hyp",
+    "discord_attachment_id": "1356968685037682848",
+    "discord_message_id": "1356968685415301160",
+    "discord_channel": "\ud83e\uddca\u25023d-design",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-04-02T12:29:05.862Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1031058655581323324/1356968685037682848/dash.hyp?ex=69795851&is=697806d1&hm=131bd6893e315f0577add7ff4a7b5b5c7194fa8cd13a732b9ce8b094a84a8e44&"
+  },
+  "author": {
+    "display_name": "peezy",
+    "discord_user_id": "169825031314997249",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "dash.hyp",
+    "raw_message_content": "",
+    "summary_excerpt": "dash.hyp",
+    "source_priority_used": "summary_excerpt"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/dash",
+    "v2_json_path": "v2/apps/dash/dash.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/dash.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/dash_1356968685415301160/m2_image.png",
+    "media_type": ".png",
+    "selection_reason": "same_author_nearby",
+    "is_fallback_any_author": false
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/dash_1356968685415301160/m2_image.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": -2,
+      "same_author": true,
+      "selection_reason": "same_author_nearby",
+      "size_bytes": 30064,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1356968361795256461"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "dash-1356968685415301160",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-14T19:39:10+00:00",
+    "description": "A player ability app that enables a dash movement mechanic. Press F to perform a directional dash with camera-relative movement, custom emote animation, and cooldown. Features configurable color variants and custom charge emote support.",
+    "feature_tags": [
+      "animation",
+      "interaction",
+      "physics",
+      "ui",
+      "3d-model",
+      "combat"
+    ],
+    "interaction_modes": [
+      "action",
+      "ui"
+    ],
+    "asset_profile": "medium",
+    "script_complexity": "medium",
+    "networking_profile": "local"
+  }
+}

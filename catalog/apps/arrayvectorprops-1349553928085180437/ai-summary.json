@@ -1,0 +1,16 @@
+{
+  "app_id": "arrayvectorprops-1349553928085180437",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:16:29+00:00",
+  "description": "Demonstrates custom array and vector3 prop types by configuring arrayFile, arrayNumber, arrayRange, and vector3 props via app.configure(), then logs each prop value on the client. Requires the Bitmato ArrayProps mod to render extended property editors for emote files and numeric ranges.",
+  "feature_tags": [
+    "3d-model",
+    "animation"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "low",
+  "networking_profile": "none"
+}

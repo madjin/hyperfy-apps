@@ -1,0 +1,80 @@
+{
+  "app_id": "butterfly-swarm-v3-1350145491001802873",
+  "app_slug": "butterfly-swarm-v3",
+  "app_name": "Butterfly_Swarm_V3",
+  "source": {
+    "hyp_filename": "Butterfly_Swarm_V3.hyp",
+    "discord_attachment_id": "1350145490674782309",
+    "discord_message_id": "1350145491001802873",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-03-14T16:36:09.545Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1350129252976168992/1350145490674782309/Butterfly_Swarm_V3.hyp?ex=69799239&is=697840b9&hm=8e0ff2769871010af280e018fa69fbd38429dce2f34ad353ca10d3ff75e84e17&"
+  },
+  "author": {
+    "display_name": "Gert-Jan Akerboom",
+    "discord_user_id": "601886221072990251",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "the latest version",
+    "raw_message_content": "the latest version",
+    "summary_excerpt": "Butterfly Swarm V3.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/butterfly-swarm-v3",
+    "v2_json_path": "v2/apps/butterfly-swarm-v3/Butterfly Swarm V3.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Butterfly_Swarm_V3.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/Butterfly_Swarm_V3_1350145491001802873/m2_5000.png",
+    "media_type": ".png",
+    "selection_reason": "same_author_nearby",
+    "is_fallback_any_author": false
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/Butterfly_Swarm_V3_1350145491001802873/m2_5000.png",
+      "original_filename": "5000.png",
+      "content_type": "image/png",
+      "relative_index": -2,
+      "same_author": true,
+      "selection_reason": "same_author_nearby",
+      "size_bytes": 903875,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1350130188687642774"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "butterfly-swarm-v3-1350145491001802873",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T03:58:18+00:00",
+    "description": "High-performance application server",
+    "feature_tags": [
+      "scalable",
+      "reliable",
+      "fast"
+    ],
+    "interaction_modes": [
+      "passive",
+      "trigger",
+      "trigger"
+    ],
+    "asset_profile": "medium",
+    "script_complexity": "low",
+    "networking_profile": "shared_state"
+  }
+}

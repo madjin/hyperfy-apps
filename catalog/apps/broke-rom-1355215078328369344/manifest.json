@@ -1,0 +1,105 @@
+{
+  "app_id": "broke-rom-1355215078328369344",
+  "app_slug": "broke-rom",
+  "app_name": "broke-rom",
+  "source": {
+    "hyp_filename": "broke-rom.hyp",
+    "discord_attachment_id": "1355215077946560562",
+    "discord_message_id": "1355215078328369344",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-03-28T16:20:53.352Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1355215077946560562/broke-rom.hyp?ex=69798ea5&is=69783d25&hm=c52b9f3db85f731ba5e76960c2f328a0096106751d3b12be79b65eb68b07448e&"
+  },
+  "author": {
+    "display_name": "general hyper",
+    "discord_user_id": "675111548829564951",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "broke rom.hyp",
+    "raw_message_content": "",
+    "summary_excerpt": "broke rom.hyp",
+    "source_priority_used": "summary_excerpt"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/broke-rom",
+    "v2_json_path": "v2/apps/broke-rom/broke-rom.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/broke-rom.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/broke-rom_1355215078328369344/p3_Screenshot_2025-03-28_at_9.28.05_AM.png",
+    "media_type": ".png",
+    "selection_reason": "any_author_fallback",
+    "is_fallback_any_author": true
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/broke-rom_1355215078328369344/p3_Screenshot_2025-03-28_at_9.28.05_AM.png",
+      "original_filename": "Screenshot_2025-03-28_at_9.28.05_AM.png",
+      "content_type": "image/png",
+      "relative_index": 3,
+      "same_author": true,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 26297,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1355216979799048302"
+    },
+    {
+      "catalog_path": "catalog/discord/hyp_media/broke-rom_1355215078328369344/p4_Screenshot_2025-03-28_at_9.28.16_AM.png",
+      "original_filename": "Screenshot_2025-03-28_at_9.28.16_AM.png",
+      "content_type": "image/png",
+      "relative_index": 4,
+      "same_author": true,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 20478,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1355217004059037890"
+    },
+    {
+      "catalog_path": "catalog/discord/hyp_media/broke-rom_1355215078328369344/p6_hyper-server-alpha.mov",
+      "original_filename": "hyper-server-alpha.mov",
+      "content_type": "video/quicktime",
+      "relative_index": 6,
+      "same_author": true,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 2744993,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1355222172997648404"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [
+      "media_fallback_any_author"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "broke-rom-1355215078328369344",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T03:57:14+00:00",
+    "description": "No bad output content was provided after 'BAD_OUTPUT:' to fix. Please provide the invalid JSON that needs correction.",
+    "feature_tags": [
+      "error",
+      "missing_input"
+    ],
+    "interaction_modes": [
+      "networked"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "low",
+    "networking_profile": "none"
+  }
+}

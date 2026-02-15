@@ -1,0 +1,15 @@
+{
+  "app_id": "game-timer-1353704858338984058",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:21:23+00:00",
+  "description": "Renders a configurable countdown timer as an on-screen UI panel that ticks down each second from a user-defined minute value. Displays MM:SS formatted text and stops at 00:00. Colors, alpha, and duration are customizable via app.configure fields.",
+  "feature_tags": [
+    "ui"
+  ],
+  "interaction_modes": [
+    "ui"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none"
+}

@@ -1,0 +1,52 @@
+{
+  "name": "FTV",
+  "author": "~/drdoge.eth",
+  "description": "In-world TV media player that plays up to five configurable video channels on a 3D model screen mesh. Triggers a channel-change sound effect when switching videos, supports autoplay, shuffle, spatial audio falloff, and renders mini UI controls for playback.",
+  "tags": [
+    "media-player",
+    "audio",
+    "ui",
+    "3d-model",
+    "interaction"
+  ],
+  "interaction_modes": [
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "high",
+  "networking": "events",
+  "preview_url": "catalog/discord/hyp_media/FTV_1361768826902941913/p0_ww.mp4",
+  "download_path": "v2-hyp/FTV.hyp",
+  "created_at": "2025-04-15T18:23:08.775Z",
+  "props": {
+    "video1Name": "Vault-Tec Presentation",
+    "video2Name": "Wasteland Documentary",
+    "video3Name": "Nuka-Cola Advertisement",
+    "video4Name": "RobCo Terminal Tutorial",
+    "video5Name": "Atomic Age Wonders",
+    "screenMeshName": "Screen",
+    "aspectRatio": 1.7777777777777777,
+    "defaultVolume": 15,
+    "autoplay": true,
+    "shuffle": false,
+    "controlColor": "#00aaff",
+    "isSpatial": false,
+    "minDistance": 15,
+    "maxDistance": 20,
+    "rolloffFactor": 2,
+    "showControls": false,
+    "video1": null,
+    "video2": null,
+    "video3": null,
+    "video4": null,
+    "showMiniControls": true,
+    "channelChangeSoundVolume": 1,
+    "video5": null,
+    "channelChangeSound": {
+      "type": "audio",
+      "name": "add.mp3",
+      "url": "asset://df1afd66ecf859e8f3ef64a88ae53eec4faf06df61454d7853ab5fce46d408b5.mp3"
+    }
+  }
+}

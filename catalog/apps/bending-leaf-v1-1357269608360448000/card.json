@@ -1,0 +1,22 @@
+{
+  "name": "bending_leaf_V1",
+  "author": "Gert-Jan Akerboom",
+  "description": "Loads a skinned-mesh leaf 3D model and plays a looping 'bend' animation on its rig. Demonstrates skeletal animation on a simple organic object, though skinned meshes lack click interaction without an invisible collider box.",
+  "tags": [
+    "animation",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking": "none",
+  "preview_url": "catalog/generated_previews/bending-leaf-v1-1357269608360448000.png",
+  "download_path": "v2-hyp/bending_leaf_V1.hyp",
+  "created_at": "2025-04-03T08:24:51.483Z",
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\nconst rig = app.get('rig')\n\nrig.play({ name: 'bend' })\n}\n",
+  "asset_files": [
+    "bending_leaf_V1.glb"
+  ]
+}

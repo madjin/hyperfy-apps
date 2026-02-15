@@ -1,0 +1,16 @@
+{
+  "app_id": "alien-planet-1415309781345894431",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:16:10+00:00",
+  "description": "Scene app that renders an alien planet environment by configuring a sky node with a custom texture, HDR lighting, sun direction/intensity calculated from elevation and azimuth angles, and cyan-tinted fog with adjustable near/far distances.",
+  "feature_tags": [
+    "environment",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "low",
+  "networking_profile": "none"
+}

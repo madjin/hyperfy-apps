@@ -1,0 +1,27 @@
+{
+  "name": "BlockTesting",
+  "author": "Shiffty",
+  "description": "Captures right mouse button input to apply a blocking emote effect on the local player with snare and long duration, then clears the effect on release. Uses applyEffect to trigger a Great Sword Blocking Idle animation. Created as a bug report testing effect cancellation behavior.",
+  "tags": [
+    "animation",
+    "interaction",
+    "combat",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "low",
+  "networking": "none",
+  "preview_url": "catalog/generated_previews/blocktesting-1348127461031809134.png",
+  "download_path": "v2-hyp/BlockTesting.hyp",
+  "created_at": "2025-03-09T02:57:13.707Z",
+  "props": {
+    "block": {
+      "type": "emote",
+      "name": "Great Sword Blocking Idle.glb",
+      "url": "asset://82762c76d32ccfb43b56f15f048ead5399e2cef452bcab625d52897e9bcf50f7.glb"
+    }
+  }
+}

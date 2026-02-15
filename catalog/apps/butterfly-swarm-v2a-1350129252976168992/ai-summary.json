@@ -1,0 +1,17 @@
+{
+  "app_id": "butterfly-swarm-v2a-1350129252976168992",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:17:57+00:00",
+  "description": "Spawns a swarm of 100 butterfly clones from a GLB model, animates wing flapping via sinusoidal rotation, and drifts each butterfly along randomized 3D paths with per-instance scale, speed, and position offsets updated every frame.",
+  "feature_tags": [
+    "animation",
+    "3d-model",
+    "environment"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "none"
+}

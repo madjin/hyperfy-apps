@@ -1,0 +1,62 @@
+{
+  "app_id": "seat-v2-1391991885559631884",
+  "app_slug": "seat-v2",
+  "app_name": "Seatv2",
+  "source": {
+    "hyp_filename": "Seatv2.hyp",
+    "discord_attachment_id": "1391991885396180992",
+    "discord_message_id": "1391991885559631884",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-07-08T03:58:47.476Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1346623562462527649/1391991885396180992/Seatv2.hyp?ex=69798977&is=697837f7&hm=3f13df2dfbd0b131ff89c2663e2b5549a583406b61e99405dbb8d6ff10feff26&"
+  },
+  "author": {
+    "display_name": "0mka",
+    "discord_user_id": "783416470205497394",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "Seatv2.hyp",
+    "raw_message_content": "",
+    "summary_excerpt": "Seatv2.hyp",
+    "source_priority_used": "summary_excerpt"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/seat-v2",
+    "v2_json_path": "v2/apps/seat-v2/Seat\ud83e\ude91v2.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Seatv2.md"
+  },
+  "preview": {
+    "primary_media_path": null,
+    "media_type": null,
+    "selection_reason": null,
+    "is_fallback_any_author": false
+  },
+  "media": [],
+  "status": {
+    "has_preview": false,
+    "needs_media_review": true,
+    "needs_author_review": false,
+    "flags": [
+      "no_media_found"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "seat-v2-1391991885559631884",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:16:48+00:00",
+    "description": "Error: No malformed JSON content was provided after the BAD_OUTPUT label to fix. Please provide the invalid JSON that needs correction.",
+    "feature_tags": [
+      "unclassified"
+    ],
+    "interaction_modes": [],
+    "asset_profile": "light",
+    "script_complexity": "low",
+    "networking_profile": "none"
+  }
+}

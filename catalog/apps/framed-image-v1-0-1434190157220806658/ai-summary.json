@@ -1,0 +1,19 @@
+{
+  "app_id": "framed-image-v1-0-1434190157220806658",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:21:08+00:00",
+  "description": "Renders a customizable framed image using box primitives for the frame, with configurable rim thickness, depth, color, emissive glow, backboard, and a disco mode that animates hue-cycling on frame or backboard. Spawns box colliders in multiple modes and supports transparent image panels with shadow ",
+  "feature_tags": [
+    "ui",
+    "environment",
+    "physics",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "trigger",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "high",
+  "networking_profile": "events"
+}

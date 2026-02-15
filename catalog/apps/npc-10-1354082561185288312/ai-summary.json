@@ -1,0 +1,21 @@
+{
+  "app_id": "npc-10-1354082561185288312",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:24:48+00:00",
+  "description": "VRM-based NPC that detects players within a configurable FOV and range, chases them using walk/run animations, and triggers melee attack combos with hit detection via rigidbody colliders. Plays raptor audio on attack and emits networked npc:attack events with calculated hit positions for combat dama",
+  "feature_tags": [
+    "npc",
+    "combat",
+    "animation",
+    "audio",
+    "physics",
+    "interaction"
+  ],
+  "interaction_modes": [
+    "trigger",
+    "networked"
+  ],
+  "asset_profile": "heavy",
+  "script_complexity": "high",
+  "networking_profile": "events"
+}

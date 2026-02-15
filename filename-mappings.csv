@@ -1,72 +1,144 @@
 old_name,new_name
-"360 Video Viewer","360-video-viewer"
-"Avatar Station","avatar-station"
-"Bats v1","bats-v1"
-"Book - Flip","book-flip"
-"Builder Drone","builder-drone"
-"Builder Drone X501","builder-drone-x501"
-"Butterfly Swarm V1","butterfly-swarm-v1"
-"Butterfly Swarm V2a","butterfly-swarm-v2a"
-"Butterfly Swarm V3","butterfly-swarm-v3"
-"Butterfly Swarm V4","butterfly-swarm-v4"
-"Butterfly Swarm V5","butterfly-swarm-v5"
-"Butterfly Swarm V6","butterfly-swarm-v6"
-"Butterfly Swarm V6 (Hyperfly edition)","butterfly-swarm-v6-hyperfly-edition"
-"CONFETTT PPOT","confettt-ppot"
-"Camera Laser","camera-laser"
-"Camera Manager","camera-manager"
-"Camera Manager Test","camera-manager-test"
-"Camera Trigger","camera-trigger"
-"Companion v8","companion-v8"
-"Cube 1","cube-1"
-"Curved Video Viewer","curved-video-viewer"
-"Eagles v1","eagles-v1"
-"Emote Command","emote-command"
-"Explosion Sprites","explosion-sprites"
-"Framed Image v1.0","framed-image-v1.0"
-"Free Camera","free-camera"
-"Game Timer","game-timer"
-"Glow Dust","glow-dust"
-"Grid Floor","grid-floor"
-"Grid Floor v2","grid-floor-v2"
-"Healing Aura","healing-aura"
-"HyperPortal with Set","hyperportal-with-set"
-"HyperPortal with Set-Manual","hyperportal-with-set-manual"
-"Jumping Frog","jumping-frog"
-"Loot-Ringed Planet","loot-ringed-planet"
-"Machine Gun v8","machine-gun-v8"
-"Mato Pet v2","mato-pet-v2"
-"Mato Pets","mato-pets"
-"Mob - Skelly","mob-skelly"
-"Networked Grabbable","networked-grabbable"
-"PAY TO ENTER DOOR","pay-to-enter-door"
-"Physics - Contacts & Tags","physics-contacts-tags"
-"Physics - Raycast Tags","physics-raycast-tags"
-"Physics - Triggers & Tags","physics-triggers-tags"
-"Player Transforms","player-transforms"
-"PvE Sword","pve-sword"
-"PvP Core (with spawns)","pvp-core-with-spawns"
-"Rocket Launcher V3","rocket-launcher-v3"
-"Rocket(Global+Coll)","rocket-global-coll"
-"SITING POSITION","siting-position"
-"SPICEX Portal","spicex-portal"
-"Screen UI link section","screen-ui-link-section"
-"Solar Panel","solar-panel"
-"SpeedTrail v0.1","speedtrail-v0.1"
-"Super Run","super-run"
-"TOKEN GATE","token-gate"
-"Teleport Command","teleport-command"
-"Teleport Trigger Box","teleport-trigger-box"
-"Text (link option)","text-link-option"
-"Video Channel Changer","video-channel-changer"
-"Video with player UI","video-with-player-ui"
-"Wall Hang","wall-hang"
-"Water Fountain","water-fountain"
-"Water Plane","water-plane"
-"Weapon Animation Override","weapon-animation-override"
-"Wolf Maro","wolf-maro"
-"cam raycast action bar","cam-raycast-action-bar"
-"generate monstera V1","generate-monstera-v1"
-"show chart","show-chart"
-"uiImage from File","uiimage-from-file"
-"who there","who-there"
+$scene,scene
+360 Video Viewer,360-video-viewer
+360Player_Mono,360player-mono
+AlleySign,alleysign
+Amanita,amanita
+ArrayVectorProps,arrayvectorprops
+Avatar Station,avatar-station
+BasicMp3Player,basicmp3player
+Bats v1,bats-v1
+Book - Flip,book-flip
+Boombox,boombox
+Builder Drone,builder-drone
+Builder Drone X501,builder-drone-x501
+Butterfly Swarm V1,butterfly-swarm-v1
+Butterfly Swarm V2a,butterfly-swarm-v2a
+Butterfly Swarm V3,butterfly-swarm-v3
+Butterfly Swarm V4,butterfly-swarm-v4
+Butterfly Swarm V5,butterfly-swarm-v5
+Butterfly Swarm V6,butterfly-swarm-v6
+Butterfly Swarm V6 (Hyperfly edition),butterfly-swarm-v6-hyperfly-edition
+CONFETTT PPOT,confettt-ppot
+Camera Laser,camera-laser
+Camera Manager,camera-manager
+Camera Manager Test,camera-manager-test
+Camera Trigger,camera-trigger
+Companion v8,companion-v8
+Cube 1,cube-1
+Curved Video Viewer,curved-video-viewer
+DAY-NIGHT-WEATHER,day-night-weather
+Discord3,discord3
+Eagles v1,eagles-v1
+Emote Command,emote-command
+Emote_Rom,emote-rom
+Emotes,emotes
+Explosion Sprites,explosion-sprites
+FOTV,fotv
+Fire,fire
+Fog,fog
+Forest,forest
+Framed Image v1.0,framed-image-v1-0
+Free Camera,free-camera
+Game Timer,game-timer
+Glow Dust,glow-dust
+Grass_V1,grass-v1
+Grass_V3,grass-v3
+Grid Floor,grid-floor
+Grid Floor v2,grid-floor-v2
+GroupieV1,groupiev1
+HP-eliza-2-1-app_1,hp-eliza-2-1-app-1
+Healing Aura,healing-aura
+Health,health
+HyperBeacon,hyperbeacon
+HyperPortal,hyperportal
+HyperPortal with Set,hyperportal-with-set
+HyperPortal with Set-Manual,hyperportal-with-set-manual
+JUKEBOX_UI,jukebox-ui
+Jumping Frog,jumping-frog
+Launchpad,launchpad
+Locationator,locationator
+Loot,loot
+Loot-PlanetLava,loot-planetlava
+Loot-Ringed Planet,loot-ringed-planet
+MINI-Nuke,mini-nuke
+MINI-NukePORTAL,mini-nukeportal
+Machine Gun v8,machine-gun-v8
+Mato Pet v2,mato-pet-v2
+Mato Pets,mato-pets
+Mob - Skelly,mob-skelly
+Model,model
+MoonJump,moonjump
+NEON_1,neon-1
+NEON_2,neon-2
+NPC,npc
+NPC_Prisoner,npc-prisoner
+Networked Grabbable,networked-grabbable
+Notifications,notifications
+PAY TO ENTER DOOR,pay-to-enter-door
+PVPblasterLATEST,pvpblasterlatest
+Physics - Contacts & Tags,physics-contacts-tags
+Physics - Raycast Tags,physics-raycast-tags
+Physics - Triggers & Tags,physics-triggers-tags
+PingScriptFORcompanion,pingscriptforcompanion
+Platforms,platforms
+Player Transforms,player-transforms
+PlayerTag-UInew,playertag-uinew
+Prism,prism
+PvE Sword,pve-sword
+PvP Core (with spawns),pvp-core-with-spawns
+QuestItemBasic,questitembasic
+QuestItemUI,questitemui
+ROOMERS4,roomers4
+Rain,rain
+RainV3,rainv3
+RainV4,rainv4
+Raptor_random_loc,raptor-random-loc
+Raycaster,raycaster
+Rocket Launcher V3,rocket-launcher-v3
+Rocket(Global+Coll),rocket-global-coll
+Rover,rover
+Rover-LavaCargo,rover-lavacargo
+Rover-RingedPlanet,rover-ringedplanet
+SITING POSITION,siting-position
+SPICEX Portal,spicex-portal
+SS3,ss3
+Screen,screen
+Screen UI link section,screen-ui-link-section
+Seat🪑v2,seat-v2
+SimonSaysBoard,simonsaysboard
+SimonSays_Screen,simonsays-screen
+Smoke,smoke
+SmolWrld,smolwrld
+Solar Panel,solar-panel
+SpeedTrail v0.1,speedtrail-v0-1
+SplinePineV1,splinepinev1
+Super Run,super-run
+TEIL2,teil2
+TOKEN GATE,token-gate
+Teleport Command,teleport-command
+Teleport Trigger Box,teleport-trigger-box
+Text (link option),text-link-option
+Tornado,tornado
+TriggerZone,triggerzone
+Vanguard,vanguard
+Video Channel Changer,video-channel-changer
+Video with player UI,video-with-player-ui
+VideoPlayer,videoplayer
+Wall Hang,wall-hang
+Water Fountain,water-fountain
+Water Plane,water-plane
+Weapon Animation Override,weapon-animation-override
+Weightpaint_ScreenUI_test1,weightpaint-screenui-test1
+Wolf Maro,wolf-maro
+aloe.glb,aloe-glb
+bending_leaf_V1,bending-leaf-v1
+cam raycast action bar,cam-raycast-action-bar
+eel_add_particles1,eel-add-particles1
+generate monstera V1,generate-monstera-v1
+hexagonal_test,hexagonal-test
+monkey_head,monkey-head
+show chart,show-chart
+test_level,test-level
+uiImage from File,uiimage-from-file
+who there,who-there

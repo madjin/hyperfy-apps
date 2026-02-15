@@ -1,0 +1,21 @@
+{
+  "name": "car1-v2",
+  "author": "ash",
+  "description": "Drivable car with raycast suspension that simulates spring forces, lateral grip, and anti-roll stabilization per wheel. Players steer and accelerate via WASD controls, and an anchor node seats the driver. Uses fixedUpdate physics with world.raycast to ground each tire and apply forces at local posit",
+  "tags": [
+    "vehicle",
+    "physics",
+    "interaction",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "high",
+  "networking": "events",
+  "preview_url": "catalog/generated_previews/car1-v2-1353199999730581585.jpg",
+  "download_path": "v2-hyp/car1-v2.hyp",
+  "created_at": "2025-03-23T02:53:41.176Z"
+}

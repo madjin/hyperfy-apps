@@ -1,0 +1,133 @@
+{
+  "id": "WKCwy1MBV8",
+  "version": 537,
+  "name": "DAY/NIGHT/WEATHER",
+  "image": {
+    "type": "texture",
+    "name": "image.png",
+    "url": "asset://a89b198e301f183c89c7d92e9eb29d93cbff452404bb63d994a815b767e4195e.png"
+  },
+  "author": "HiveMind",
+  "desc": "A solar panel that obviously has control over the sky and sun",
+  "model": "asset://acdf8fa51fdb8b4e726b2fd502dce23a3a6010d37aabbe9209cd0958ed92fba5.glb",
+  "script": "asset://52f9fe83b66eb1fed1b0273f212cd990e1d2d0a4d9e472c1fbdc970f0bd7164a.js",
+  "props": {
+    "sky": {
+      "type": "texture",
+      "name": "dusk1-4k.jpg",
+      "url": "asset://ec7fdf804dcca54904e4ebd480c1b574a040439bc2543010d640f303f35126ee.jpg"
+    },
+    "hdr": {
+      "type": "hdr",
+      "name": "dusk1.hdr",
+      "url": "asset://3bd5de5a2bf09b581b4be89763bf3261bf65a9c6aee8a3ba99d960c405857b7e.hdr"
+    },
+    "hour": 1,
+    "period": "pm",
+    "hour2": 9,
+    "intensity": 5,
+    "autoRotate": false,
+    "cycleSpeed": 1,
+    "timeOfDay": 5.4,
+    "autoTime": false,
+    "manualTime": 0,
+    "useRealTime": true,
+    "tod_autoRotate": true,
+    "tod_timeOfDay": 12,
+    "tod_intensity": 3,
+    "sky_texture": {
+      "type": "texture",
+      "name": "hrdibogiejpg.jpg",
+      "url": "asset://39d25b8b27606488c25e0a5f3d94cce7befa80b8e4599961ac94622a41550cd3.jpg"
+    },
+    "sky_hdr": {
+      "type": "hdr",
+      "name": "dikhololo_night_1k.hdr",
+      "url": "asset://6861489f983cdc0c22435b781a3487171bd25f25f9cc52c46ac402d48e08249e.hdr"
+    },
+    "daynight_timeOfDay": 18.4,
+    "daynight_intensity": 1,
+    "daynight_autoRotate": true,
+    "daynight_timeofday": 12,
+    "sun_timeOfDay": 23.4,
+    "sun_intensity": 1,
+    "sun_autoRotate": true,
+    "fogNear": 0,
+    "fogFar": 1000,
+    "fogColor": "#D4B59F",
+    "fogDensity": 0.2,
+    "sunColor": "#BDC9E5",
+    "fogHeight": 0,
+    "fogFalloff": 1,
+    "sunTextureScale": 1,
+    "skyRotationEnabled": true,
+    "sunTexture": null,
+    "fogPositionX": 0,
+    "fogPositionY": -15,
+    "fogPositionZ": 0,
+    "fogAnimation": false,
+    "fogAnimationSpeed": 2,
+    "randomWeather": false,
+    "weatherType": "clear",
+    "particleDensity": 25,
+    "rainTexture": {
+      "type": "texture",
+      "name": "trace_07.png",
+      "url": "asset://4e5f177b7717d291464f01538756eb2f471961b09b39ea82ea72447210af7110.png"
+    },
+    "dustTexture": {
+      "type": "texture",
+      "name": "dirt_01.png",
+      "url": "asset://6827a0a32a293ec9570fb98d63963b8dd6e6aaba9e1096afad932e93a378bea9.png"
+    },
+    "radstormTexture": {
+      "type": "texture",
+      "name": "light_03.png",
+      "url": "asset://b68627734d08aab3eaf3f94718521553628c75aace1de6c74de28501c1a4c147.png"
+    },
+    "fogParticleTexture": {
+      "type": "texture",
+      "name": "smoke_08.png",
+      "url": "asset://eae1d92c205a2654254281d470ee70cce86cf4e8e849db29e4d5edff0f67c695.png"
+    },
+    "ashTexture": {
+      "type": "texture",
+      "name": "star_05.png",
+      "url": "asset://1e8ab968178e507824ab28353c0ffffa918ae3adbcf89513d3db50a17b7bc8a2.png"
+    },
+    "cloudTexture": {
+      "type": "texture",
+      "name": "cloud2.png",
+      "url": "asset://3cb3237277e41f89b8c7a3be9a2106606a6fe229358dd7b78bfb5ca905545aca.png"
+    },
+    "lightningTexture": {
+      "type": "texture",
+      "name": "spark_06.png",
+      "url": "asset://fe6d473393d3b9350c7a654b7cb5fbd343766b5b5b11d3e4aba476832d4a6d3f.png"
+    },
+    "thunderSound": {
+      "type": "audio",
+      "name": "thunder-sounds-long.mp3",
+      "url": "asset://b8002fbc9f6429e5daefbd05921826260682812f2969d4551f38eccc89badebf.mp3"
+    },
+    "rainSound": {
+      "type": "audio",
+      "name": "heavy-rain-nature-sounds.mp3",
+      "url": "asset://61c92c476b9ffaa6f25191b2974d7a4459163c0e01a69aac2a3e87ec34166c39.mp3"
+    },
+    "defaultParticleTexture": {
+      "type": "texture",
+      "name": "trace_03.png",
+      "url": "asset://a8c05800698cd502c3416a1f2335292544d52b3c8624c3c829a534c52b364860.png"
+    },
+    "lightningHeight": 1000,
+    "lightningStartHeight": 50,
+    "rainColor": "#6495ED",
+    "stormRainColor": "#4682B4",
+    "lightningColor": "#f8f8ff",
+    "lightningEmissive": 40
+  },
+  "preload": true,
+  "public": false,
+  "locked": false
+}

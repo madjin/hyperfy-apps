@@ -1,0 +1,19 @@
+{
+  "app_id": "day-night-weather-current-1364018271719919686",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:19:57+00:00",
+  "description": "Solar panel controller that rotates the sun and sky through a real-time day/night cycle, spawns weather particle systems (rain, dust storms, lightning, fog, nuclear ash), and plays thunder and rain audio. Renders a Pip-Boy-style UI displaying current time and days passed.",
+  "feature_tags": [
+    "particles",
+    "audio",
+    "ui",
+    "environment",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "ui"
+  ],
+  "asset_profile": "heavy",
+  "script_complexity": "high",
+  "networking_profile": "none"
+}

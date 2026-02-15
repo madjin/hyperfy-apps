@@ -1,0 +1,66 @@
+{
+  "app_id": "videoenhanced-1433071172739928135",
+  "app_slug": "videoenhanced",
+  "app_name": "VideoEnhanced",
+  "source": {
+    "hyp_filename": "VideoEnhanced.hyp",
+    "discord_attachment_id": "1433071172295200809",
+    "discord_message_id": "1433071172739928135",
+    "discord_channel": "\ud83e\uddca\u25023d-design",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-10-29T12:33:12.756Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1031058655581323324/1433071172295200809/VideoEnhanced.hyp?ex=6904ac88&is=69035b08&hm=90a4edbe7498440bf754df6ee2a3b93cfe1992a2e89236f0e2012ccd546cc660&"
+  },
+  "author": {
+    "display_name": "3rdEyeVisuals",
+    "discord_user_id": "902399329661243404",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "",
+    "raw_message_content": "",
+    "summary_excerpt": "",
+    "source_priority_used": "empty"
+  },
+  "links": {
+    "v2_app_dir": null,
+    "v2_json_path": null,
+    "hyp_summary_path": "catalog/discord/hyp_summaries/VideoEnhanced.md"
+  },
+  "preview": {
+    "primary_media_path": null,
+    "media_type": null,
+    "selection_reason": null,
+    "is_fallback_any_author": false
+  },
+  "media": [],
+  "status": {
+    "has_preview": false,
+    "needs_media_review": true,
+    "needs_author_review": false,
+    "flags": [
+      "no_media_found"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "videoenhanced-1433071172739928135",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:22:04+00:00",
+    "description": "Example application for demonstration purposes",
+    "feature_tags": [
+      "productivity",
+      "utilities"
+    ],
+    "interaction_modes": [
+      "passive",
+      "action"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "low",
+    "networking_profile": "none"
+  }
+}

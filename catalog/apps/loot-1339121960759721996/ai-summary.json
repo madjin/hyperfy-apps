@@ -1,0 +1,18 @@
+{
+  "app_id": "loot-1339121960759721996",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:23:12+00:00",
+  "description": "Spawns a collectible loot pack GLB model that animates with continuous Y-axis rotation. Responds to proximity-check and ping events from a collectron, triggers item-detected and item-cleanup world events upon collection, then hides the 3D model. Part of a space trading sim prototype.",
+  "feature_tags": [
+    "3d-model",
+    "animation",
+    "interaction"
+  ],
+  "interaction_modes": [
+    "passive",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "events"
+}

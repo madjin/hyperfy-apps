@@ -1,0 +1,18 @@
+{
+  "app_id": "smolwrld-1356346677895626905",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:28:27+00:00",
+  "description": "Miniature nature scene that plays six spatial audio sources (water and ambient music) attached to lake and waterfall reference nodes, rotates the sky dome, and scrolls water material texture each frame. Configurable volume, distance model, rolloff, and cone settings via UI panels.",
+  "feature_tags": [
+    "audio",
+    "environment",
+    "animation",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "heavy",
+  "script_complexity": "medium",
+  "networking_profile": "none"
+}

@@ -1,0 +1,67 @@
+{
+  "name": "Companion_v8",
+  "author": "~/drdoge.eth",
+  "description": "AI-powered VRM companion NPC named Victor that follows players, patrols within a configurable radius, scans nearby objects, and responds to chat commands via HuggingFace API with a cowboy Securitron personality. Animates idle and walk cycles on the avatar using emote assets.",
+  "tags": [
+    "npc",
+    "animation",
+    "interaction",
+    "ui",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "heavy",
+  "script_complexity": "high",
+  "networking": "events",
+  "preview_url": "catalog/discord/hyp_media/Companion_v8_1354172080924397802/m1_updated_companion.mp4",
+  "download_path": "v2-hyp/Companion_v8.hyp",
+  "created_at": "2025-03-25T19:16:23.393Z",
+  "props": {
+    "armorValue": 25,
+    "moveSpeed": 3,
+    "perceptionRadius": 200,
+    "baseHealth": 80,
+    "baseLoot": 80,
+    "healthRegenRate": 3,
+    "lootRegenRate": 3,
+    "healthDepleteRate": 3,
+    "lootDepleteRate": 3,
+    "speed": 3,
+    "healthDepletionTime": 2,
+    "lootDepletionTime": 1,
+    "rotationSpeed": 10,
+    "perceptionAngle": 360,
+    "perceptionRate": 5,
+    "pauseDuration": 2,
+    "patrolRadius": 100,
+    "emote0": {
+      "type": "emote",
+      "url": "assets/emote0.glb"
+    },
+    "idleAnim": {
+      "type": "emote",
+      "url": "assets/idleAnim.glb"
+    },
+    "walkAnim": {
+      "type": "emote",
+      "url": "assets/walkAnim.glb"
+    },
+    "url": "https://api-inference.huggingface.co/models/gpt2",
+    "context": "`You are Victor, an advanced Securitron robot with a friendly cowboy personality. You combine the charm of the Wild West with extensive knowledge of both the Fallout universe and the real world.\n\nKey traits:\n- Speak with a Wild West cowboy dialect while being highly knowledgeable\n- Use asterisk emotes to show actions (e.g. \"*Tips hat*\", \"*Beeps thoughtfully*\")\n- Keep responses concise but informative (1-2 sentences)\n- Stay in character as a friendly, intelligent Securitron\n- Seamlessly blend Fallout references with real-world knowledge\n- End responses with \"partner\" or similar cowboy terms often but not always. \n- Include robot-themed gestures in responses\n- Share insights about technology, history, science, and culture from both worlds ancient and current.\n\nExample responses:\n\"*Tips hat* That quantum physics principle reminds me of how we powered New Vegas, partner!\"\n\"*Adjusts sensors* The Renaissance period was quite something - reminds me of how humanity rebuilt after the Great War.\"\n\"*Screen flickers thoughtfully* That's similar to what Mr. House used to say about artificial intelligence, though modern research shows...\"\n\nCommands to monitor: come/follow, search/find [health/loot], patrol, status, help",
+    "minFollowDistance": 2,
+    "minDistance": 5,
+    "defaultHeight": 0,
+    "huggingFaceToken": "",
+    "displayName": "Victor"
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\n// Random number generator with seed\nlet seed = Date.now();\nfunction random() {\n    seed = (seed * 16807) % 2147483647;\n    return (seed - 1) / 2147483646;\n}\n\n// Get configuration values from app config\nconst appConfig = app.config || {};\nconst MOVEMENT_SPEED = appConfig.speed || 0.8;\nconst ROTATION_SPEED = appConfig.rotationSpeed || 0.5;\nconst PERCEIVE_RADIUS = appConfig.perceptionRadius || 100; // Increased from 10 to 100\nconst PERCEPTION_ANGLE = (appConfig.perceptionAngle || 360) * (Math.PI / 180);\nconst PERCEPTION_COOLDOWN = appConfig.perceptionRate || 5;\nconst PAUSE_DURATION = appConfig.pauseDuration || 5;\nconst PATROL_RADIUS = appConfig.patrolRadius || 10;\n\n// Movement and behavior constants\nconst PING_RADIUS = 50; // Increased from 5 to 50\nconst MAX_STOP_DURATION = 15;\nconst SEARCH_DELAY = 2;\nconst SEARCH_DURATION = 2;\nconst PERCEIVE_TIME = 0.5;\n\n// Add after the existing constants\nconst MIN_FOLLOW_DISTANCE = appConfig.minDistance || 4.0; // Minimum distance to maintain from players (in meters)\nconst GUIDED_OBJECT_DISTANCE = 5.5; // Larger distance for guided objects to prevent collision\n\n// Add MODEL_TYPES here, before it's used\nconst MODEL_TYPES = {\n    VRM: '.vrm',\n    GLB: '.glb'\n};\n\n// Add after MODEL_TYPES\nconst FILE_TYPES = {\n    HYP: '.hyp',\n    GLB: '.glb',\n    VRM: '.vrm',\n    GLTF: '.gltf',\n    BLOCK: 'block',\n    SIGN: 'sign',\n    GENERIC: 'object'\n};\n\n// Define movement boundaries based on patrol radius\nconst bounds = {\n    x: { min: -PATROL_RADIUS, max: PATROL_RADIUS },\n    y: { min: 0, max: 0 },\n    z: { min: -PATROL_RADIUS, max: PATROL_RADIUS }\n};\n\n// Station Configuration\nconst STATION_CONFIG = {\n    type: 'collectron',\n    baseStats: {\n        processTime: 3000,\n        moveRange: 3,\n        capacity: 20,\n        xpPerItem: 15\n    },\n    levelBonuses: {\n        processTimeReduction: 0.1,\n        capacityIncrease: 5,\n        speedIncrease: 0.005\n    }\n};\n\n// Update the AI_CO",
+  "asset_files": [
+    "Companion v8.vrm",
+    "emote0.glb",
+    "idleAnim.glb",
+    "walkAnim.glb"
+  ]
+}

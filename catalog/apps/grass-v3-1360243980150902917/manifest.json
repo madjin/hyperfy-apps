@@ -1,0 +1,78 @@
+{
+  "app_id": "grass-v3-1360243980150902917",
+  "app_slug": "grass-v3",
+  "app_name": "Grass_V3",
+  "source": {
+    "hyp_filename": "Grass_V3.hyp",
+    "discord_attachment_id": "1360243980234784839",
+    "discord_message_id": "1360243980150902917",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-04-11T13:23:56.979Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1346623562462527649/1360243980234784839/Grass_V3.hyp?ex=6979652c&is=697813ac&hm=29cd588efe641122ae0cbb4c416fa20d2de22bcee29a8ec81cdb775cd31f84c1&"
+  },
+  "author": {
+    "display_name": "Gert-Jan Akerboom",
+    "discord_user_id": "601886221072990251",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "Grass V3.hyp",
+    "raw_message_content": "",
+    "summary_excerpt": "Grass V3.hyp",
+    "source_priority_used": "summary_excerpt"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/grass-v3",
+    "v2_json_path": "v2/apps/grass-v3/Grass_V3.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Grass_V3.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/Grass_V3_1360243980150902917/m1_Play_-_Google_Chrome_11.04.2025_15_22_23.png",
+    "media_type": ".png",
+    "selection_reason": "same_author_nearby",
+    "is_fallback_any_author": false
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/Grass_V3_1360243980150902917/m1_Play_-_Google_Chrome_11.04.2025_15_22_23.png",
+      "original_filename": "Play_-_Google_Chrome_11.04.2025_15_22_23.png",
+      "content_type": "image/png",
+      "relative_index": -1,
+      "same_author": true,
+      "selection_reason": "same_author_nearby",
+      "size_bytes": 502226,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1360243950144852108"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "grass_v3-1360243980150902917",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:06:00+00:00",
+    "description": "JSON validator service",
+    "feature_tags": [
+      "api",
+      "json",
+      "validation"
+    ],
+    "interaction_modes": [
+      "action"
+    ],
+    "asset_profile": "medium",
+    "script_complexity": "low",
+    "networking_profile": "none"
+  }
+}

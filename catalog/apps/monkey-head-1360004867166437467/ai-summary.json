@@ -1,0 +1,16 @@
+{
+  "app_id": "monkey-head-1360004867166437467",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:24:17+00:00",
+  "description": "Renders a monkey head 3D model with a jump button texture and configurable jumpHeight prop. The script is empty, serving as a minimal template to demonstrate app structure with a GLB model and texture asset loaded into the scene.",
+  "feature_tags": [
+    "3d-model",
+    "ui"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none"
+}

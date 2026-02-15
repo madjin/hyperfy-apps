@@ -1,0 +1,20 @@
+{
+  "app_id": "simonsays-screen-2-1355352717488296077",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:28:02+00:00",
+  "description": "Renders a scalable 3D UI screen that displays a networked Simon Says color-matching game. Syncs game state between server and clients, cycles through timed phases showing flashing color text and background changes, and emits color/reset signals to connected game boards via app.emit.",
+  "feature_tags": [
+    "ui",
+    "audio",
+    "multiplayer",
+    "interaction"
+  ],
+  "interaction_modes": [
+    "action",
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "heavy",
+  "script_complexity": "high",
+  "networking_profile": "events"
+}

@@ -1,0 +1,16 @@
+{
+  "app_id": "bending-leaf-v1-1357269608360448000",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:16:46+00:00",
+  "description": "Loads a skinned-mesh leaf 3D model and plays a looping 'bend' animation on its rig. Demonstrates skeletal animation on a simple organic object, though skinned meshes lack click interaction without an invisible collider box.",
+  "feature_tags": [
+    "animation",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none"
+}

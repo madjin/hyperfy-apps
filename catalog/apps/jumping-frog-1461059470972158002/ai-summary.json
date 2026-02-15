@@ -1,0 +1,17 @@
+{
+  "app_id": "jumping-frog-1461059470972158002",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:22:55+00:00",
+  "description": "Builds a procedural frog character from primitive spheres, cylinders, and boxes, then animates a looping hop cycle with squash-and-stretch scaling, hind-leg joint rotation, a red tongue flick at jump apex, and subtle eye bobbing on each frame.",
+  "feature_tags": [
+    "animation",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "events"
+}

@@ -1,0 +1,20 @@
+{
+  "app_id": "hexagonal-test-networked-1355683928421171290",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:22:21+00:00",
+  "description": "Networked hexagonal floor panels that detect player contact and react by shifting downward and scrolling UV offsets to cycle colors. The server simulates oscillation, dip movement, and UV state transitions, then broadcasts panel state to all clients for synchronized visuals.",
+  "feature_tags": [
+    "interaction",
+    "animation",
+    "multiplayer",
+    "physics",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "high",
+  "networking_profile": "events"
+}

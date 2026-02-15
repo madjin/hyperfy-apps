@@ -1,0 +1,33 @@
+{
+  "name": "TeleportTriggerBox",
+  "author": "\ud835\udd7d\ud835\udd94\ud835\udd9a\ud835\udd98\ud835\udd99\ud835\udd86\ud835\udd93",
+  "description": "Spawns a customizable trigger zone that teleports players to a configurable X,Y,Z destination on entry. Creates a rigidbody with a geometry collider set as a trigger, and uses onTriggerEnter to call player.teleport. The box mesh can be toggled visible or hidden and scaled along each axis via props.",
+  "tags": [
+    "teleport",
+    "physics",
+    "interaction",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "trigger"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking": "none",
+  "preview_url": "catalog/generated_previews/teleport-trigger-box-1431333007888748678.jpg",
+  "download_path": "v2-hyp/TeleportTriggerBox.hyp",
+  "created_at": "2025-10-24T17:26:21.962Z",
+  "props": {
+    "collision": true,
+    "destination": "10,0,10",
+    "visible": true,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\n// Working Teleport Trigger - Based on Hyperfy patterns\nconsole.log('\ud83d\udeaa Working Teleport Starting...');\n\napp.configure([\n  {\n    key: 'destination',\n    type: 'text',\n    label: 'Teleport To (X,Y,Z)',\n    initial: '0,0,10'\n  },\n  {\n    key: 'visible',\n    type: 'toggle',\n    label: 'Visible',\n    initial: true\n  },\n  {\n    key: 'scaleX',\n    type: 'number',\n    label: 'Width',\n    initial: 2\n  },\n  {\n    key: 'scaleY',\n    type: 'number',\n    label: 'Height',\n    initial: 2\n  },\n  {\n    key: 'scaleZ',\n    type: 'number',\n    label: 'Depth',\n    initial: 2\n  }\n]);\n\nconsole.log('[TELEPORT] Destination:', props.destination);\nconsole.log('[TELEPORT] Visible:', props.visible);\nconsole.log('[TELEPORT] Scale:', props.scaleX, 'x', props.scaleY, 'x', props.scaleZ);\n\n// Parse coordinates helper\nconst parseCoords = (coordString) => {\n  try {\n    const [x, y, z] = coordString.split(',').map(num => parseFloat(num.trim()));\n    return new Vector3(x, y, z);\n  } catch (err) {\n    console.log('[TELEPORT] Error parsing coordinates:', coordString);\n    return new Vector3(0, 0, 10);\n  }\n};\n\n// Configure the default Hyperfy mesh (the black box)\napp.traverse(node => {\n  // Look for the default mesh that Hyperfy creates\n  if (node.isMesh || (node.geometry && node.material)) {\n    console.log('[TELEPORT] Found default mesh, configuring...');\n    console.log('[TELEPORT] Mesh name:', node.name);\n    console.log('[TELEPORT] Mesh type:', node.type);\n    \n    // Apply scale\n    node.scale.set(props.scaleX, props.scaleY, props.scaleZ);\n    console.log('[TELEPORT] Set mesh scale to:', props.scaleX, 'x', props.scaleY, 'x', props.scaleZ);\n    \n    // Make it visible and colored\n    if (node.material) {\n      node.material.color.set('#00ff00');\n      node.material.transparent = true;\n      node.material.opacity = props.visible ? 0.5 : 0;\n    }\n    \n    // Actually hide/show the mesh\n    node.visible = props.visible;\n    console.log(",
+  "asset_files": [
+    "Teleport Trigger Box.glb",
+    "Teleport Trigger Box__image.png"
+  ]
+}

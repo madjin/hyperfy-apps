@@ -1,0 +1,16 @@
+{
+  "app_id": "grid-floor-v2-1380533380520738816",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:21:52+00:00",
+  "description": "Renders a world-scale grid floor using a Kenney prototype texture on a GLB model and positions it slightly above the origin at y=0.03. Serves as a simple environment base tile for scene building.",
+  "feature_tags": [
+    "3d-model",
+    "environment"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none"
+}

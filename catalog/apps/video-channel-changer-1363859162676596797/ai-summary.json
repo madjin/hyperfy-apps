@@ -1,0 +1,17 @@
+{
+  "app_id": "video-channel-changer-1363859162676596797",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:30:25+00:00",
+  "description": "Plays a video atlas on a target mesh and cycles through 16 UV-based channels on pointer click. Supports mp4 files or HLS streams with configurable aspect ratio, fit mode, and looping. Replaces the original mesh geometry with a video node at the same transform.",
+  "feature_tags": [
+    "media-player",
+    "interaction",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "none"
+}

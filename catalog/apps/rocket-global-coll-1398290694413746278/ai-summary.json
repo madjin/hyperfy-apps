@@ -1,0 +1,20 @@
+{
+  "app_id": "rocket-global-coll-1398290694413746278",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:27:05+00:00",
+  "description": "Networked rocket launcher that triggers a launch sequence with additive exhaust particles when a player activates an action node. The rocket animates skyward with quadratic easing, then respawns by rising smoothly from underground. Server syncs launch, cancel, and respawn events to all clients.",
+  "feature_tags": [
+    "particles",
+    "animation",
+    "interaction",
+    "multiplayer",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "action",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "events"
+}

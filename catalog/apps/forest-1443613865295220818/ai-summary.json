@@ -1,0 +1,18 @@
+{
+  "app_id": "forest-1443613865295220818",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:21:03+00:00",
+  "description": "Procedural forest generator that clones up to 10,000 tree 3D models from a GLB file and scatters them across configurable rectangular or circular areas. Supports cluster-based distribution, random rotation, and min/max scale via a UI panel with conditional inputs.",
+  "feature_tags": [
+    "environment",
+    "3d-model",
+    "ui",
+    "building"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "heavy",
+  "script_complexity": "medium",
+  "networking_profile": "none"
+}

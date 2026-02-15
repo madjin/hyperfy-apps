@@ -1,0 +1,22 @@
+{
+  "id": "JPomN86Pys",
+  "version": 2,
+  "name": "testcube",
+  "image": null,
+  "author": null,
+  "url": null,
+  "desc": null,
+  "model": "asset://4bd5e491a03f3c6e19e593cc8151320a70edefef9377ddff9dccd50157ec8939.glb",
+  "script": "asset://8df1869b1979d55db6a466d6fd0d8db2c142273e604922ede8ec79a5e7a2fc2a.js",
+  "props": {
+    "block": {
+      "type": "emote",
+      "name": "Great Sword Blocking Idle.glb",
+      "url": "asset://82762c76d32ccfb43b56f15f048ead5399e2cef452bcab625d52897e9bcf50f7.glb"
+    }
+  },
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "unique": false
+}

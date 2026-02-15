@@ -1,0 +1,20 @@
+{
+  "app_id": "rover-ringedplanet-1339121960759721996",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:27:25+00:00",
+  "description": "Autonomous collectron ship that patrols a bounded area around a ringed planet, scans for nearby items via a perception system, and renders billboard UI stat bars tracking Ship Stability and Cargo Profitability as they deplete over time. Emits ping and resource-transfer events to coordinate with othe",
+  "feature_tags": [
+    "npc",
+    "ui",
+    "3d-model",
+    "interaction",
+    "environment"
+  ],
+  "interaction_modes": [
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "high",
+  "networking_profile": "events"
+}

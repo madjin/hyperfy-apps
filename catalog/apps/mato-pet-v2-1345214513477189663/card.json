@@ -1,0 +1,47 @@
+{
+  "name": "Mato_Pet_v2",
+  "author": "~/MayD524/Hyperfy",
+  "description": "Spawns a VRM pet companion that follows a target player using configurable follow speed and avoidance distance. Animates idle, walking, and sitting emotes via networked state sync. Uses a modular GameObject framework with lerped position/quaternion interpolation and ownership transfer across server ",
+  "tags": [
+    "npc",
+    "animation",
+    "multiplayer",
+    "3d-model",
+    "interaction"
+  ],
+  "interaction_modes": [
+    "action",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "high",
+  "networking": "events",
+  "preview_url": "catalog/discord/hyp_media/Mato_Pet_v2_1345214513477189663/p2_image.png",
+  "download_path": "v2-hyp/Mato_Pet_v2.hyp",
+  "created_at": "2025-03-01T02:02:12.890Z",
+  "props": {
+    "avoidance_distance": "4",
+    "follow_speed": "2.2",
+    "rotation_speed": "2.2",
+    "emote_idle": {
+      "type": "emote",
+      "url": "assets/emote_idle.glb"
+    },
+    "emote_walking": {
+      "type": "emote",
+      "url": "assets/emote_walking.glb"
+    },
+    "emote_sitting": {
+      "type": "emote",
+      "url": "assets/emote_sitting.glb"
+    },
+    "target": ""
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\nprops;\n(function () {\n  'use strict';\n\n  // WorldObject.js\n  class WorldObject {\n    constructor() {\n      return new Proxy({}, {\n        get(target, prop, receiver) {\n          // Coercion: if used as a primitive, return app.\n          if (prop === Symbol.toPrimitive || prop === 'valueOf' || prop === 'toString') {\n            return () => app;\n          }\n          // If app has an own property for this key, return it.\n          if (prop in app) {\n            return app[prop];\n          }\n          // Otherwise, fallback to app.get('<prop>')\n          return app.get(prop);\n        },\n        set(target, prop, value, receiver) {\n          // If app already has a property, assign directly.\n          if (prop in app) {\n            app[prop] = value;\n            return true;\n          }\n          // Otherwise, if app has a setter function, use it.\n          if (typeof app.set === 'function') {\n            app.set(prop, value);\n            return true;\n          }\n          return false;\n        },\n        ownKeys(target) {\n          return Reflect.ownKeys(app);\n        },\n        getOwnPropertyDescriptor(target, prop) {\n          let descriptor = Object.getOwnPropertyDescriptor(app, prop);\n          if (descriptor) {\n            return descriptor;\n          }\n          return {\n            configurable: true,\n            enumerable: true,\n            value: app.get(prop)\n          };\n        }\n      });\n    }\n  }\n\n  const SEND_RATE = 1 / 8;\n\n  class GameObject {\n    constructor(sendRate = SEND_RATE, lerpConfig = {}, runSendState=true) {\n      this.sendRate = sendRate;\n      this.root = new WorldObject();\n\n      \n      this.lastSent = 0;\n      this.ownerId = null;\n      this.worldId = app.instanceId;\n      \n      // State stored as a Map for advanced state handling.\n      this.state = new Map();\n      \n      // For custom event callbacks.\n      this.customEvents = new Map();\n      \n      // Store regis",
+  "asset_files": [
+    "Mato Pet v2.vrm",
+    "emote_idle.glb",
+    "emote_sitting.glb",
+    "emote_walking.glb"
+  ]
+}

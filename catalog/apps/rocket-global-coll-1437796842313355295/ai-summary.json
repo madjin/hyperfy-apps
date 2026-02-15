@@ -1,0 +1,20 @@
+{
+  "app_id": "rocket-global-coll-1437796842313355295",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:27:09+00:00",
+  "description": "Interactive rocket launcher that triggers a globally synced launch sequence with additive exhaust particles. Players activate an action node to launch the rocket mesh skyward with quadratic easing, then it respawns by rising smoothly from underground after a timed delay.",
+  "feature_tags": [
+    "particles",
+    "animation",
+    "interaction",
+    "multiplayer",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "action",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "events"
+}

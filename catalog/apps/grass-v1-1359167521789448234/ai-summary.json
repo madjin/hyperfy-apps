@@ -1,0 +1,19 @@
+{
+  "app_id": "grass-v1-1359167521789448234",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:21:41+00:00",
+  "description": "Spawns up to 10,000 grass clones across a configurable area, distributing them in randomized clusters with adjustable density and radius. Clones wind-animated 3D grass models with random rotation and scale to simulate a natural breeze across the terrain.",
+  "feature_tags": [
+    "particles",
+    "environment",
+    "animation",
+    "3d-model",
+    "ui"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "none"
+}

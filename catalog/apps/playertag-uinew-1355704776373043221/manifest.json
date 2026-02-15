@@ -1,0 +1,91 @@
+{
+  "app_id": "playertag-uinew-1355704776373043221",
+  "app_slug": "playertag-uinew",
+  "app_name": "PlayerTag-UInew",
+  "source": {
+    "hyp_filename": "PlayerTag-UInew.hyp",
+    "discord_attachment_id": "1355704775940771850",
+    "discord_message_id": "1355704776373043221",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-03-30T00:46:46.464Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1355704775940771850/PlayerTag-UInew.hyp?ex=69795c76&is=69780af6&hm=61d5472ad74f8f419c46da789934fb6f3ea62b7c9db31e7070fc73f7e533c178&"
+  },
+  "author": {
+    "display_name": "~/drdoge.eth",
+    "discord_user_id": "357905702926286858",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "PlayerTag UInew.hyp",
+    "raw_message_content": "",
+    "summary_excerpt": "PlayerTag UInew.hyp",
+    "source_priority_used": "summary_excerpt"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/playertag-uinew",
+    "v2_json_path": "v2/apps/playertag-uinew/PlayerTag-UInew.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/PlayerTag-UInew.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/PlayerTag-UInew_1355704776373043221/p1_2025-03-29_21-41-34.mp4",
+    "media_type": ".mp4",
+    "selection_reason": "any_author_fallback",
+    "is_fallback_any_author": true
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/PlayerTag-UInew_1355704776373043221/m2_image.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": -2,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 108839,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1356052602332381276"
+    },
+    {
+      "catalog_path": "catalog/discord/hyp_media/PlayerTag-UInew_1355704776373043221/p1_2025-03-29_21-41-34.mp4",
+      "original_filename": "2025-03-29_21-41-34.mp4",
+      "content_type": "video/mp4",
+      "relative_index": 1,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 1574811,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1355719023995654314"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [
+      "media_fallback_any_author"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "playertag-uinew-1355704776373043221",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:12:31+00:00",
+    "description": "Invalid or missing input data - no bad output was provided to fix",
+    "feature_tags": [
+      "unclassified"
+    ],
+    "interaction_modes": [
+      "passive"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "low",
+    "networking_profile": "none"
+  }
+}

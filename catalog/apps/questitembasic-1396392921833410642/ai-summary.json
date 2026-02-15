@@ -1,0 +1,20 @@
+{
+  "app_id": "questitembasic-1396392921833410642",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:26:08+00:00",
+  "description": "Collectible quest item that animates a 3D model with configurable rotation and bobbing, triggers a rigidbody collider to detect player overlap, plays a collection sound on pickup, hides the mesh, and emits a custom event signal for use with a companion QuestItemUI app.",
+  "feature_tags": [
+    "audio",
+    "animation",
+    "physics",
+    "interaction",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "trigger",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "events"
+}

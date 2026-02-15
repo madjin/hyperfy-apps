@@ -1,0 +1,74 @@
+{
+  "app_id": "locationator-1363448335117193418",
+  "app_slug": "locationator",
+  "app_name": "Locationator",
+  "source": {
+    "hyp_filename": "Locationator.hyp",
+    "discord_attachment_id": "1363448334857015467",
+    "discord_message_id": "1363448335117193418",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-04-20T09:36:54.737Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1363448334857015467/Locationator.hyp?ex=69792ff6&is=6977de76&hm=370ab390a50ecf0ea1a47f09e9103b3a6ee0d56c4912f4ea44d8469867e3557e&"
+  },
+  "author": {
+    "display_name": "MetaRick",
+    "discord_user_id": "612945510810255390",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "heres a handy app that will just display the location when you place it, helpful for figuring out where you wanna teleport things  to.",
+    "raw_message_content": "heres a handy app that will just display the location when you place it, helpful for figuring out where you wanna teleport things  to.",
+    "summary_excerpt": "Locationator.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/locationator",
+    "v2_json_path": "v2/apps/locationator/Locationator.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Locationator.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/Locationator_1363448335117193418/p0_image.png",
+    "media_type": ".png",
+    "selection_reason": "same_message",
+    "is_fallback_any_author": false
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/Locationator_1363448335117193418/p0_image.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": 0,
+      "same_author": true,
+      "selection_reason": "same_message",
+      "size_bytes": 832327,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1363448334567739392"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "locationator-1363448335117193418",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:07:41+00:00",
+    "description": "Original output was not provided. Please include the invalid JSON content after 'BAD_OUTPUT:' to allow proper conversion to valid JSON.",
+    "feature_tags": [
+      "unclassified"
+    ],
+    "interaction_modes": [],
+    "asset_profile": "light",
+    "script_complexity": "low",
+    "networking_profile": "none"
+  }
+}

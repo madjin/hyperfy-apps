@@ -1,0 +1,79 @@
+{
+  "app_id": "butterfly-swarm-v6-hyperfly-edition2-bw-1355068613178167366",
+  "app_slug": "butterfly-swarm-v6-hyperfly-edition2-bw",
+  "app_name": "Butterfly_Swarm_V6_Hyperfly_edition2_BW",
+  "source": {
+    "hyp_filename": "Butterfly_Swarm_V6_Hyperfly_edition2_BW.hyp",
+    "discord_attachment_id": "1355068612871716865",
+    "discord_message_id": "1355068613178167366",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-03-28T06:38:53.339Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1350129252976168992/1355068612871716865/Butterfly_Swarm_V6_Hyperfly_edition2_BW.hyp?ex=6979063d&is=6977b4bd&hm=30d6b242c9dc224a54f4d6e36ec33994405d3dd5add2ebbae9de9482f9ef5599&"
+  },
+  "author": {
+    "display_name": "Gert-Jan Akerboom",
+    "discord_user_id": "601886221072990251",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "and a black and white edition : )",
+    "raw_message_content": "and a black and white edition : )",
+    "summary_excerpt": "Butterfly Swarm V6 Hyperfly edition2 BW.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/butterfly-swarm-v6-hyperfly-edition2-bw",
+    "v2_json_path": "v2/apps/butterfly-swarm-v6-hyperfly-edition2-bw/blueprint.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Butterfly_Swarm_V6_Hyperfly_edition2_BW.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/Butterfly_Swarm_V6_Hyperfly_edition2_BW_1355068613178167366/p1_1092aa12-4c83-4fd9-bd55-6704eea2f06e.png",
+    "media_type": ".png",
+    "selection_reason": "same_author_nearby",
+    "is_fallback_any_author": false
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/Butterfly_Swarm_V6_Hyperfly_edition2_BW_1355068613178167366/p1_1092aa12-4c83-4fd9-bd55-6704eea2f06e.png",
+      "original_filename": "1092aa12-4c83-4fd9-bd55-6704eea2f06e.png",
+      "content_type": "image/png",
+      "relative_index": 1,
+      "same_author": true,
+      "selection_reason": "same_author_nearby",
+      "size_bytes": 1042491,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1355093782277787708"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "butterfly-swarm-v6-hyperfly-edition2-bw-1355068613178167366",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-14T21:50:56+00:00",
+    "description": "A configurable butterfly swarm simulation featuring black and white animated butterflies. Spawns up to 2000 butterflies with randomized flight paths, wing flapping animations, and emissive materials within a defined 3D area. Primarily used for environmental decoration and atmosphere.",
+    "feature_tags": [
+      "animation",
+      "environment",
+      "3d-model"
+    ],
+    "interaction_modes": [
+      "ui",
+      "passive"
+    ],
+    "asset_profile": "medium",
+    "script_complexity": "medium",
+    "networking_profile": "none"
+  }
+}

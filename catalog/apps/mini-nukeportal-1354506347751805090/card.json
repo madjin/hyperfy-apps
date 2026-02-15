@@ -1,0 +1,55 @@
+{
+  "name": "MINI-NukePORTAL",
+  "author": "~/drdoge.eth",
+  "description": "Interactive mini-nuke that detonates on player action, spawns radiation particle clouds with \u2622 symbols, plays explosion and Geiger counter audio, damages nearby players via hyperfy:dmg events, and triggers a portal to a configurable destination world URL after a timed delay.",
+  "tags": [
+    "particles",
+    "audio",
+    "combat",
+    "ui",
+    "interaction",
+    "teleport"
+  ],
+  "interaction_modes": [
+    "action",
+    "trigger",
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "heavy",
+  "script_complexity": "high",
+  "networking": "events",
+  "preview_url": "catalog/generated_previews/mini-nukeportal-1354506347751805090.png",
+  "download_path": "v2-hyp/MINI-NukePORTAL.hyp",
+  "created_at": "2025-03-26T17:24:38.815Z",
+  "props": {
+    "refDistance": 3,
+    "maxDistance": 20,
+    "rolloffFactor": 1.5,
+    "distanceModel": "inverse",
+    "explosionDuration": 60,
+    "explosionRadius": 30,
+    "explosionAudio": {
+      "type": "audio",
+      "url": "assets/explosionAudio.mp3"
+    },
+    "radiationAudio": {
+      "type": "audio",
+      "url": "assets/radiationAudio.mp3"
+    },
+    "explosionSfx": {
+      "type": "audio",
+      "url": "assets/explosionSfx.mp3"
+    },
+    "newTab": false,
+    "portalDelay": 50,
+    "worldUrl": "https://nuked.tattedalien.club/"
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\n// Import important dependencies at the top\n// Configure the app with audio options\napp.configure([\n\t{\n\t\tkey: 'radiationAudio',\n\t\ttype: 'file',\n\t\tkind: 'audio',\n\t\tlabel: 'Radiation Sound',\n\t\tdescription: 'Upload an MP3 file for the radiation cloud ambience'\n\t},\n\t{\n\t\tkey: 'geigerAudio',\n\t\ttype: 'file',\n\t\tkind: 'audio',\n\t\tlabel: 'Geiger Counter Sound',\n\t\tdescription: 'Upload an MP3 file for Geiger counter clicks (should be a short sound)'\n\t},\n\t{\n\t\tkey: 'damageSfx',\n\t\ttype: 'file',\n\t\tkind: 'audio',\n\t\tlabel: 'Radiation Damage SFX',\n\t\tdescription: 'Upload an MP3 file for radiation damage sound effect'\n\t},\n\t{\n\t\tkey: 'warningSfx',\n\t\ttype: 'file',\n\t\tkind: 'audio',\n\t\tlabel: 'Radiation Warning SFX',\n\t\tdescription: 'Upload an MP3 file for radiation zone entry warning'\n\t},\n\t{\n\t\tkey: 'explosionSfx',\n\t\ttype: 'file',\n\t\tkind: 'audio',\n\t\tlabel: 'Explosion Sound',\n\t\tdescription: 'Upload an MP3 file for the initial nuke explosion'\n\t},\n\t{\n\t\tkey: 'refDistance',\n\t\ttype: 'number',\n\t\tlabel: 'Reference Distance',\n\t\tdescription: 'Distance at which the radiation sound is at full volume (in meters)',\n\t\tinitial: 3,\n\t\tmin: 0.5,\n\t\tmax: 10,\n\t\tstep: 0.5\n\t},\n\t{\n\t\tkey: 'maxDistance',\n\t\ttype: 'number',\n\t\tlabel: 'Maximum Distance',\n\t\tdescription: 'Distance at which the radiation sound becomes inaudible (in meters)',\n\t\tinitial: 20,\n\t\tmin: 5,\n\t\tmax: 50,\n\t\tstep: 1\n\t},\n\t{\n\t\tkey: 'rolloffFactor',\n\t\ttype: 'number',\n\t\tlabel: 'Rolloff Factor',\n\t\tdescription: 'How quickly the radiation sound fades with distance (higher = faster falloff)',\n\t\tinitial: 1.5,\n\t\tmin: 0.5,\n\t\tmax: 5,\n\t\tstep: 0.1\n\t},\n\t{\n\t\tkey: 'distanceModel',\n\t\ttype: 'switch',\n\t\tlabel: 'Distance Model',\n\t\tdescription: 'How radiation sound volume decreases with distance',\n\t\toptions: [\n\t\t\t{ label: 'Linear', value: 'linear' },\n\t\t\t{ label: 'Inverse', value: 'inverse' },\n\t\t\t{ label: 'Exponential', value: 'exponential' }\n\t\t],\n\t\tinitial: 'inverse'\n\t},\n\t// Portal configuration\n\t{\n\t\ttype: 'sec",
+  "asset_files": [
+    "MINI-NukePORTAL.glb",
+    "explosionAudio.mp3",
+    "explosionSfx.mp3",
+    "radiationAudio.mp3"
+  ]
+}

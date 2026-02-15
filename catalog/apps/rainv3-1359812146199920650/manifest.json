@@ -1,0 +1,81 @@
+{
+  "app_id": "rainv3-1359812146199920650",
+  "app_slug": "rainv3",
+  "app_name": "RainV3",
+  "source": {
+    "hyp_filename": "RainV3.hyp",
+    "discord_attachment_id": "1359812145839083520",
+    "discord_message_id": "1359812146199920650",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-04-10T08:47:59.742Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1359812145839083520/RainV3.hyp?ex=6979247f&is=6977d2ff&hm=188f9e0b2801d5786b7932a9dda7679008535127c7b3a88ca3837a74b61bd2c1&"
+  },
+  "author": {
+    "display_name": "Gert-Jan Akerboom",
+    "discord_user_id": "601886221072990251",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "if anyone wants to try it out",
+    "raw_message_content": "if anyone wants to try it out",
+    "summary_excerpt": "RainV3.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/rainv3",
+    "v2_json_path": "v2/apps/rainv3/RainV3.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/RainV3.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/RainV3_1359812146199920650/m1_rainV3.mp4",
+    "media_type": ".mp4",
+    "selection_reason": "same_author_nearby",
+    "is_fallback_any_author": false
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/RainV3_1359812146199920650/m1_rainV3.mp4",
+      "original_filename": "rainV3.mp4",
+      "content_type": "video/mp4",
+      "relative_index": -1,
+      "same_author": true,
+      "selection_reason": "same_author_nearby",
+      "size_bytes": 2793055,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1359812001651757106"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "rainv3-1359812146199920650",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:13:57+00:00",
+    "description": "Realistic rain particle system with customizable physics, splash effects, and particle pooling. Features configurable spawn rates, gravity, wind direction, and visual parameters via UI panel.",
+    "feature_tags": [
+      "particles",
+      "environment",
+      "animation",
+      "physics",
+      "ui"
+    ],
+    "interaction_modes": [
+      "ui",
+      "passive"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "medium",
+    "networking_profile": "none"
+  }
+}

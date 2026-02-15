@@ -1,0 +1,22 @@
+{
+  "app_id": "machine-gun-v8-1355977141862400300",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:23:32+00:00",
+  "description": "Pickupable machine gun that fires raycasts on mouse click, plays spatial gunfire audio, and renders a pulsing overheat UI bar. Features server-validated overheat/cooldown, scope zoom with eased transitions, and 19 directional movement emote animations for the holder.",
+  "feature_tags": [
+    "combat",
+    "audio",
+    "ui",
+    "animation",
+    "interaction",
+    "camera"
+  ],
+  "interaction_modes": [
+    "action",
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "heavy",
+  "script_complexity": "high",
+  "networking_profile": "events"
+}

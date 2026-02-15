@@ -1,0 +1,20 @@
+{
+  "app_id": "hp-eliza-2-1-app-1-1346629939817877556",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:22:31+00:00",
+  "description": "Spawns an AI-driven NPC agent using a VRM avatar that listens for chat messages and player enter/leave events, sends them to an external Eliza endpoint, and renders speech bubble UI responses. The agent triggers configurable emotes and rotates to look at nearby players.",
+  "feature_tags": [
+    "npc",
+    "ui",
+    "animation",
+    "interaction",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "heavy",
+  "script_complexity": "high",
+  "networking_profile": "events"
+}

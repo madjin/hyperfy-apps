@@ -1,0 +1,82 @@
+{
+  "app_id": "hexagonal-test-networked-1355683928421171290",
+  "app_slug": "hexagonal-test-networked",
+  "app_name": "hexagonal_test_networked",
+  "source": {
+    "hyp_filename": "hexagonal_test_networked.hyp",
+    "discord_attachment_id": "1355683927712600184",
+    "discord_message_id": "1355683928421171290",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-03-29T23:23:55.925Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1346623562462527649/1355683927712600184/hexagonal_test_networked.hyp?ex=6979490b&is=6977f78b&hm=7325560aa6eddcdca558c04f26f84aa8b6c14c7d82fe3e7f92b466ebdc1c5049&"
+  },
+  "author": {
+    "display_name": "cru",
+    "discord_user_id": "735663632356212887",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "interesting hexagonal panels that react to player and change color \nmade em for a mini-game project",
+    "raw_message_content": "interesting hexagonal panels that react to player and change color \nmade em for a mini-game project",
+    "summary_excerpt": "hexagonal test networked.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/hexagonal-test-networked",
+    "v2_json_path": "v2/apps/hexagonal-test-networked/blueprint.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/hexagonal_test_networked.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/hexagonal_test_networked_1355683928421171290/p0_image.png",
+    "media_type": ".png",
+    "selection_reason": "same_message",
+    "is_fallback_any_author": false
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/hexagonal_test_networked_1355683928421171290/p0_image.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": 0,
+      "same_author": true,
+      "selection_reason": "same_message",
+      "size_bytes": 385735,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1355683928199004232"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "hexagonal-test-networked-1355683928421171290",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-14T21:56:53+00:00",
+    "description": "Interactive hexagonal floor panels that react to player contact with physics-based movement, UV scrolling effects, and networked state synchronization for multiplayer mini-games.",
+    "feature_tags": [
+      "interaction",
+      "physics",
+      "animation",
+      "multiplayer",
+      "environment"
+    ],
+    "interaction_modes": [
+      "action",
+      "trigger",
+      "networked"
+    ],
+    "asset_profile": "medium",
+    "script_complexity": "high",
+    "networking_profile": "shared_state"
+  }
+}

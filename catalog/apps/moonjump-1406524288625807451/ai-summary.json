@@ -1,0 +1,18 @@
+{
+  "app_id": "moonjump-1406524288625807451",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:24:21+00:00",
+  "description": "Tracks player grounded state via world.raycast and pushes an upward force vector to grant an automatic double jump when airborne. Resets jump state on landing and manages per-player state maps for multiplayer support.",
+  "feature_tags": [
+    "physics",
+    "multiplayer",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "events"
+}

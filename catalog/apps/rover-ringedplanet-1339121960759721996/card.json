@@ -1,0 +1,45 @@
+{
+  "name": "Rover-RingedPlanet",
+  "author": "maximus",
+  "description": "Autonomous collectron ship that patrols a bounded area around a ringed planet, scans for nearby items via a perception system, and renders billboard UI stat bars tracking Ship Stability and Cargo Profitability as they deplete over time. Emits ping and resource-transfer events to coordinate with othe",
+  "tags": [
+    "npc",
+    "ui",
+    "3d-model",
+    "interaction",
+    "environment"
+  ],
+  "interaction_modes": [
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "high",
+  "networking": "events",
+  "preview_url": "catalog/discord/hyp_media/Rover-RingedPlanet_1339121960759721996/p0_vt01.png",
+  "download_path": "v2-hyp/Rover-RingedPlanet.hyp",
+  "created_at": "2025-02-12T06:32:35.128Z",
+  "props": {
+    "armorValue": 25,
+    "moveSpeed": 3,
+    "perceptionRadius": 100,
+    "baseHealth": 80,
+    "baseLoot": 80,
+    "healthRegenRate": 3,
+    "lootRegenRate": 3,
+    "healthDepleteRate": 3,
+    "lootDepleteRate": 3,
+    "speed": 5,
+    "healthDepletionTime": 2,
+    "lootDepletionTime": 1,
+    "rotationSpeed": 10,
+    "perceptionAngle": 360,
+    "perceptionRate": 10,
+    "pauseDuration": 2,
+    "patrolRadius": 100
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\napp.scale.x = .210\napp.scale.y = .210\napp.scale.z = .210\n\n// Random number generator with seed\nlet seed = Date.now();\nfunction random() {\n    seed = (seed * 16807) % 2147483647;\n    return (seed - 1) / 2147483646;\n}\n\napp.position.set(-10,100,-20)\n\n// Get configuration values from app config\nconst appConfig = app.config || {};\nconst MOVEMENT_SPEED = appConfig.speed || 0.01;\nconst ROTATION_SPEED = appConfig.rotationSpeed || 0.5;\nconst PERCEIVE_RADIUS = appConfig.perceptionRadius || 100;\nconst PERCEPTION_ANGLE = (appConfig.perceptionAngle || 360) * (Math.PI / 180);\nconst PERCEPTION_COOLDOWN = appConfig.perceptionRate || 3;\nconst PAUSE_DURATION = appConfig.pauseDuration || 5;\nconst PATROL_RADIUS = appConfig.patrolRadius || 10;\n\n// Movement and behavior constants\nconst PING_RADIUS = 5;\nconst MAX_STOP_DURATION = 15;\nconst SEARCH_DELAY = 2;\nconst SEARCH_DURATION = 2;\nconst PERCEIVE_TIME = 2;\n\n// Define movement boundaries based on patrol radius\nconst bounds = {\n    x: { min: -PATROL_RADIUS, max: PATROL_RADIUS },\n    y: { min: 5, max: 10 },\n    z: { min: -PATROL_RADIUS, max: PATROL_RADIUS }\n};\n\n// Station Configuration\nconst STATION_CONFIG = {\n    type: 'collectron',\n    baseStats: {\n        processTime: 3000,\n        moveRange: 3,\n        capacity: 20,\n        xpPerItem: 15\n    },\n    levelBonuses: {\n        processTimeReduction: 0.1,\n        capacityIncrease: 5,\n        speedIncrease: 0.005\n    }\n};\n\n// Stats Configuration\nconst STATS_CONFIG = {\n    health: {\n        name: 'Ship Stability',\n        max: 100,\n        regenRate: 0, // No auto regen\n        depleteRate: 5 / ((appConfig.healthDepletionTime || 5) * 60), // Deplete to 0 in configured minutes\n        color: '#f54242'\n    },\n    ringedPlanet: {\n        name: 'Profitability',\n        max: 100,\n        regenRate: 0, // No auto regen\n        depleteRate: 35 / ((appConfig.ringedDepletionTime || 1) * 60), // Deplete to 0 in configured minutes\n       ",
+  "asset_files": [
+    "Rover-RingedPlanet.glb"
+  ]
+}

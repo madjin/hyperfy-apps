@@ -1,0 +1,19 @@
+{
+  "app_id": "triggerzone-1440322008935301211",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:30:05+00:00",
+  "description": "Creates a configurable box collider trigger zone that detects when players enter and sends a notification message to a Discord webhook. Renders a semi-transparent emissive prim cube as a visual indicator with adjustable color, opacity, and size. Supports excluding specific player names from triggeri",
+  "feature_tags": [
+    "physics",
+    "interaction",
+    "ui",
+    "environment"
+  ],
+  "interaction_modes": [
+    "trigger",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "events"
+}

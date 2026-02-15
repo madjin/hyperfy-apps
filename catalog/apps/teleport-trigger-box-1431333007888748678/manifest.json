@@ -1,0 +1,68 @@
+{
+  "app_id": "teleport-trigger-box-1431333007888748678",
+  "app_slug": "teleport-trigger-box",
+  "app_name": "TeleportTriggerBox",
+  "source": {
+    "hyp_filename": "TeleportTriggerBox.hyp",
+    "discord_attachment_id": "1431333007783886849",
+    "discord_message_id": "1431333007888748678",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-10-24T17:26:21.962Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1431333007783886849/TeleportTriggerBox.hyp?ex=68fe59bd&is=68fd083d&hm=8f27fdd820ee1765f06f45c7ed3602d9901afe2cbc3709a40211e3ce9985e4b9&"
+  },
+  "author": {
+    "display_name": "\ud835\udd7d\ud835\udd94\ud835\udd9a\ud835\udd98\ud835\udd99\ud835\udd86\ud835\udd93",
+    "discord_user_id": "722481129449586739",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "I made a simple customizable teleport trigger box. my first .hyp file \ud83d\ude0e",
+    "raw_message_content": "I made a simple customizable teleport trigger box. my first .hyp file \ud83d\ude0e",
+    "summary_excerpt": "TeleportTriggerBox.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/teleport-trigger-box",
+    "v2_json_path": "v2/apps/teleport-trigger-box/Teleport Trigger Box.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/TeleportTriggerBox.md"
+  },
+  "preview": {
+    "primary_media_path": null,
+    "media_type": null,
+    "selection_reason": null,
+    "is_fallback_any_author": false
+  },
+  "media": [],
+  "status": {
+    "has_preview": false,
+    "needs_media_review": true,
+    "needs_author_review": false,
+    "flags": [
+      "no_media_found"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "teleport-trigger-box-1431333007888748678",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:19:22+00:00",
+    "description": "A customizable 3D trigger box that teleports players to specified XYZ coordinates upon entry. Features configurable destination, visibility toggle, and scalable dimensions via the properties panel.",
+    "feature_tags": [
+      "teleport",
+      "interaction",
+      "physics",
+      "ui"
+    ],
+    "interaction_modes": [
+      "trigger",
+      "ui"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "low",
+    "networking_profile": "none"
+  }
+}

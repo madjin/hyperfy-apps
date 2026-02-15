@@ -1,0 +1,16 @@
+{
+  "app_id": "water-fountain-1361904724433174649",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:30:47+00:00",
+  "description": "Spawns a cone-shaped particle emitter that simulates a water fountain arc, emitting 100 blue-to-cyan particles per second with gravity force pulling them downward. Supports a configurable texture image and loops continuously in world space atop a 3D fountain model.",
+  "feature_tags": [
+    "particles",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none"
+}

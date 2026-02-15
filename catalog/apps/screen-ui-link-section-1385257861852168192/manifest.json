@@ -1,0 +1,66 @@
+{
+  "app_id": "screen-ui-link-section-1385257861852168192",
+  "app_slug": "screen-ui-link-section",
+  "app_name": "Screen_UI_link_section",
+  "source": {
+    "hyp_filename": "Screen_UI_link_section.hyp",
+    "discord_attachment_id": "1385257861516492912",
+    "discord_message_id": "1385257861852168192",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-06-19T14:00:11.112Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1346623562462527649/1385257861516492912/Screen_UI_link_section.hyp?ex=69796dab&is=69781c2b&hm=cebcab584b656d7b93db9654c3c14726a704d013fd0a9a246d16ad6a8ce4ff6e&"
+  },
+  "author": {
+    "display_name": "Gert-Jan Akerboom",
+    "discord_user_id": "601886221072990251",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "add (download) links to your world",
+    "raw_message_content": "add (download) links to your world",
+    "summary_excerpt": "Screen UI link section.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/screen-ui-link-section",
+    "v2_json_path": "v2/apps/screen-ui-link-section/Screen UI link section.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Screen_UI_link_section.md"
+  },
+  "preview": {
+    "primary_media_path": null,
+    "media_type": null,
+    "selection_reason": null,
+    "is_fallback_any_author": false
+  },
+  "media": [],
+  "status": {
+    "has_preview": false,
+    "needs_media_review": true,
+    "needs_author_review": false,
+    "flags": [
+      "no_media_found"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "screen-ui-link-section-1385257861852168192",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:16:04+00:00",
+    "description": "A configurable screen-space UI panel that adds up to 14 download link buttons to your world. Features a toggleable interface with customizable header text and individual button labels that open URLs in new tabs when clicked.",
+    "feature_tags": [
+      "ui",
+      "interaction"
+    ],
+    "interaction_modes": [
+      "ui",
+      "action"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "medium",
+    "networking_profile": "none"
+  }
+}

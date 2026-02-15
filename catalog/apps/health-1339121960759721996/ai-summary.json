@@ -1,0 +1,19 @@
+{
+  "app_id": "health-1339121960759721996",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:22:07+00:00",
+  "description": "Spawns a collectible health pack GLB model that animates with continuous Y-axis rotation. Responds to proximity-check and ping events, triggers item-detected and item-cleanup emissions when a collectron collects it within range, then hides the mesh.",
+  "feature_tags": [
+    "3d-model",
+    "animation",
+    "interaction",
+    "combat"
+  ],
+  "interaction_modes": [
+    "passive",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "events"
+}

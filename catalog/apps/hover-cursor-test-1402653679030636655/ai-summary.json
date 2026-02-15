@@ -1,0 +1,17 @@
+{
+  "app_id": "hover-cursor-test-1402653679030636655",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:22:25+00:00",
+  "description": "Renders a screen-space white circle UI cursor that toggles visibility when the user hovers over a Cube mesh, using onPointerEnter and onPointerLeave events to activate and deactivate the fake cursor overlay.",
+  "feature_tags": [
+    "ui",
+    "interaction",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "ui"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "low",
+  "networking_profile": "none"
+}

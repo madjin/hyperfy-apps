@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-02-11T01:43:33+00:00",
+  "copied_count": 8,
+  "missing_count": 0,
+  "files": [
+    {
+      "source": "/home/jin/.codex/skills/hyperfy-archiver/references/research-tools.md",
+      "copied_path": "catalog/context/source/refs__references__research-tools.md",
+      "snippet_path": "catalog/context/snippets/refs__references__research-tools.snippet.txt",
+      "chars": 5187
+    },
+    {
+      "source": "/home/jin/.codex/skills/hyperfy-archiver/references/data-structures.md",
+      "copied_path": "catalog/context/source/refs__references__data-structures.md",
+      "snippet_path": "catalog/context/snippets/refs__references__data-structures.snippet.txt",
+      "chars": 3319
+    },
+    {
+      "source": "/home/jin/.codex/skills/hyperfy-archiver/references/entity-details.md",
+      "copied_path": "catalog/context/source/refs__references__entity-details.md",
+      "snippet_path": "catalog/context/snippets/refs__references__entity-details.snippet.txt",
+      "chars": 8023
+    },
+    {
+      "source": "/home/jin/repo/hyperfy/docs/scripting/README.md",
+      "copied_path": "catalog/context/source/docs__scripting__README.md",
+      "snippet_path": "catalog/context/snippets/docs__scripting__readme.snippet.txt",
+      "chars": 1859
+    },
+    {
+      "source": "/home/jin/repo/hyperfy/docs/scripting/app/App.md",
+      "copied_path": "catalog/context/source/docs__app__App.md",
+      "snippet_path": "catalog/context/snippets/docs__app__app.snippet.txt",
+      "chars": 2916
+    },
+    {
+      "source": "/home/jin/repo/hyperfy/docs/scripting/world/World.md",
+      "copied_path": "catalog/context/source/docs__world__World.md",
+      "snippet_path": "catalog/context/snippets/docs__world__world.snippet.txt",
+      "chars": 1646
+    },
+    {
+      "source": "/home/jin/repo/hyperfy/docs/scripting/Networking.md",
+      "copied_path": "catalog/context/source/docs__scripting__Networking.md",
+      "snippet_path": "catalog/context/snippets/docs__scripting__networking.snippet.txt",
+      "chars": 1828
+    },
+    {
+      "source": "/home/jin/repo/hyperfy/docs/supported-files/hyp-format.md",
+      "copied_path": "catalog/context/source/docs__supported-files__hyp-format.md",
+      "snippet_path": "catalog/context/snippets/docs__supported-files__hyp-format.snippet.txt",
+      "chars": 2623
+    }
+  ],
+  "missing": []
+}

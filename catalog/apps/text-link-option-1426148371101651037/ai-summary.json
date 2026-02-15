@@ -1,0 +1,16 @@
+{
+  "app_id": "text-link-option-1426148371101651037",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:29:41+00:00",
+  "description": "Renders a configurable world-space UI text panel with customizable size, color, alignment, and background. Triggers world.open to navigate to an optional URL when the user clicks the panel via onPointerDown.",
+  "feature_tags": [
+    "ui",
+    "interaction"
+  ],
+  "interaction_modes": [
+    "ui"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none"
+}

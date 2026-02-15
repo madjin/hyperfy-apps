@@ -1,0 +1,70 @@
+{
+  "app_id": "discord3-1421084209073885294",
+  "app_slug": "discord3",
+  "app_name": "Discord3",
+  "source": {
+    "hyp_filename": "Discord3.hyp",
+    "discord_attachment_id": "1421084208608055326",
+    "discord_message_id": "1421084209073885294",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-09-26T10:41:17.911Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1346623562462527649/1421084208608055326/Discord3.hyp?ex=69793f0d&is=6977ed8d&hm=9f98ac0b080bbfe40a48b2ad72564e85e329c7c7f2da3f7a1da2d9ab98fff5d2&"
+  },
+  "author": {
+    "display_name": "Gert-Jan Akerboom",
+    "discord_user_id": "601886221072990251",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "Added some features to the discord app.\n- shows how long players were in the world.\n- optional screen UI ping when someone enters\n- Exclude player names from the discord notifications (yourself for instance)\n- Logo visibility on/off",
+    "raw_message_content": "Added some features to the discord app.\n- shows how long players were in the world.\n- optional screen UI ping when someone enters\n- Exclude player names from the discord notifications (yourself for instance)\n- Logo visibility on/off",
+    "summary_excerpt": "Discord3.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/discord3",
+    "v2_json_path": "v2/apps/discord3/Discord3.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Discord3.md"
+  },
+  "preview": {
+    "primary_media_path": null,
+    "media_type": null,
+    "selection_reason": null,
+    "is_fallback_any_author": false
+  },
+  "media": [],
+  "status": {
+    "has_preview": false,
+    "needs_media_review": true,
+    "needs_author_review": false,
+    "flags": [
+      "no_media_found"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "discord3-1421084209073885294",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:02:02+00:00",
+    "description": "Generate Complete PG with all required fields",
+    "feature_tags": [
+      "district_selection",
+      "address_geocode",
+      "property_type",
+      "vacancy_type",
+      "room_config",
+      "amenities"
+    ],
+    "interaction_modes": [
+      "ui",
+      "passive"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "medium",
+    "networking_profile": "none"
+  }
+}

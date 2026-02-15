@@ -1,0 +1,67 @@
+{
+  "app_id": "free-camera-1415049094363086848",
+  "app_slug": "free-camera",
+  "app_name": "Free_Camera",
+  "source": {
+    "hyp_filename": "Free_Camera.hyp",
+    "discord_attachment_id": "1415049093872619600",
+    "discord_message_id": "1415049094363086848",
+    "discord_channel": "\u26a1\u2502general",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-09-09T18:59:54.437Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/958209074045026327/1415049093872619600/Free_Camera.hyp?ex=68c31c2a&is=68c1caaa&hm=abcb1a43d8b2eb0faf56817fdf3151748d3957cf013f82deed3a5a8eb62e4333&"
+  },
+  "author": {
+    "display_name": "vox",
+    "discord_user_id": "415262868217266177",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "Free Camera.hyp",
+    "raw_message_content": "",
+    "summary_excerpt": "Free Camera.hyp",
+    "source_priority_used": "summary_excerpt"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/free-camera",
+    "v2_json_path": "v2/apps/free-camera/Free Camera.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Free_Camera.md"
+  },
+  "preview": {
+    "primary_media_path": null,
+    "media_type": null,
+    "selection_reason": null,
+    "is_fallback_any_author": false
+  },
+  "media": [],
+  "status": {
+    "has_preview": false,
+    "needs_media_review": true,
+    "needs_author_review": false,
+    "flags": [
+      "no_media_found"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "free-camera-1415049094363086848",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:04:33+00:00",
+    "description": "Configuration and settings management application for Creature devices",
+    "feature_tags": [
+      "settings",
+      "configuration",
+      "device_management"
+    ],
+    "interaction_modes": [
+      "ui",
+      "trigger"
+    ],
+    "asset_profile": "medium",
+    "script_complexity": "low",
+    "networking_profile": "local"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "app_id": "companion-v8-1354172080924397802",
+  "app_slug": "companion-v8",
+  "app_name": "Companion_v8",
+  "source": {
+    "hyp_filename": "Companion_v8.hyp",
+    "discord_attachment_id": "1354172080479928431",
+    "discord_message_id": "1354172080924397802",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-03-25T19:16:23.393Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1354172080479928431/Companion_v8.hyp?ex=69790f07&is=6977bd87&hm=dbc49c8fc5a15880534501efedc6995856a896257039860f720848397436f1cd&"
+  },
+  "author": {
+    "display_name": "~/drdoge.eth",
+    "discord_user_id": "357905702926286858",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "Companion v8.hyp",
+    "raw_message_content": "",
+    "summary_excerpt": "Companion v8.hyp",
+    "source_priority_used": "summary_excerpt"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/companion-v8",
+    "v2_json_path": "v2/apps/companion-v8/Companion v8.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Companion_v8.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/Companion_v8_1354172080924397802/m1_updated_companion.mp4",
+    "media_type": ".mp4",
+    "selection_reason": "same_author_nearby",
+    "is_fallback_any_author": false
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/Companion_v8_1354172080924397802/m1_updated_companion.mp4",
+      "original_filename": "updated_companion.mp4",
+      "content_type": "video/mp4",
+      "relative_index": -1,
+      "same_author": true,
+      "selection_reason": "same_author_nearby",
+      "size_bytes": 16144952,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1354172022875361411"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "companion-v8-1354172080924397802",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-14T21:24:30+00:00",
+    "description": "AI-powered NPC companion robot named Victor with cowboy personality. Features voice chat commands (follow, search, patrol), environment perception, HuggingFace LLM integration for contextual dialogue, and VRM avatar animations. Includes PingScript system for object detection and HUD/compass compatib",
+    "feature_tags": [
+      "npc",
+      "animation",
+      "interaction",
+      "multiplayer",
+      "ui"
+    ],
+    "interaction_modes": [
+      "action",
+      "ui",
+      "networked"
+    ],
+    "asset_profile": "medium",
+    "script_complexity": "high",
+    "networking_profile": "shared_state"
+  }
+}

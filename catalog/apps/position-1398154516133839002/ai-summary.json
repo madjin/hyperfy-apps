@@ -1,0 +1,15 @@
+{
+  "app_id": "position-1398154516133839002",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:25:42+00:00",
+  "description": "Renders a screen-space UI panel at the center of the display that reads the local player's position each frame and updates a text element showing live X, Y, Z coordinates. Built as a debug tool to pinpoint locations in a world.",
+  "feature_tags": [
+    "ui"
+  ],
+  "interaction_modes": [
+    "ui"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none"
+}

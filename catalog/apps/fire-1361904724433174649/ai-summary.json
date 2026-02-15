@@ -1,0 +1,16 @@
+{
+  "app_id": "fire-1361904724433174649",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:20:39+00:00",
+  "description": "Spawns a cone-shaped fire particle emitter using additive blending, with color transitioning from red to orange to black over lifetime. Renders particles with configurable texture image, size scaling, and rotation curves for a realistic flame effect.",
+  "feature_tags": [
+    "particles",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none"
+}

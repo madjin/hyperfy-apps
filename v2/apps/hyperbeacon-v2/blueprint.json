@@ -1,0 +1,26 @@
+{
+  "id": "OSUX6q5sCz",
+  "version": 6,
+  "name": "HyperBeacon",
+  "image": {
+    "type": "texture",
+    "name": "hyperfy-social-2.png",
+    "url": "asset://d60648b9091c00e460545dce3cef7b88c0d643d0a864424f715a878c2ad3661a.png"
+  },
+  "author": "hyperfy",
+  "url": "https://hyperfy.xyz",
+  "desc": "List your world on Zesty Relay",
+  "model": "asset://890216369d38c1e650b68eed0b175f5f3e10826b9cf98db2d103279286d40fd2.glb",
+  "script": "asset://179030a263489d85dd54f242b94a2ae788ec598c7c360b9ac9ddf5e4f189f279.js",
+  "props": {
+    "url": "",
+    "description": "",
+    "name": "",
+    "tags": "",
+    "relay": "",
+    "image": ""
+  },
+  "preload": true,
+  "public": false,
+  "locked": false
+}

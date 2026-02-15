@@ -1,0 +1,76 @@
+{
+  "app_id": "pingscriptforcompanion-1354172080924397802",
+  "app_slug": "pingscriptforcompanion",
+  "app_name": "PingScriptFORcompanion",
+  "source": {
+    "hyp_filename": "PingScriptFORcompanion.hyp",
+    "discord_attachment_id": "1354172080849162445",
+    "discord_message_id": "1354172080924397802",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-03-25T19:16:23.393Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1354172080849162445/PingScriptFORcompanion.hyp?ex=69790f07&is=6977bd87&hm=b25a6e777dcf2f40601dfafe0caecb74798e04dea31e2a9443920fbcc8eaa16b&"
+  },
+  "author": {
+    "display_name": "~/drdoge.eth",
+    "discord_user_id": "357905702926286858",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "PingScriptFORcompanion.hyp",
+    "raw_message_content": "",
+    "summary_excerpt": "PingScriptFORcompanion.hyp",
+    "source_priority_used": "summary_excerpt"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/pingscriptforcompanion",
+    "v2_json_path": "v2/apps/pingscriptforcompanion/PingScriptFORcompanion.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/PingScriptFORcompanion.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/PingScriptFORcompanion_1354172080924397802/m1_updated_companion.mp4",
+    "media_type": ".mp4",
+    "selection_reason": "same_author_nearby",
+    "is_fallback_any_author": false
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/PingScriptFORcompanion_1354172080924397802/m1_updated_companion.mp4",
+      "original_filename": "updated_companion.mp4",
+      "content_type": "video/mp4",
+      "relative_index": -1,
+      "same_author": true,
+      "selection_reason": "same_author_nearby",
+      "size_bytes": 16144952,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1354172022875361411"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "pingscriptforcompanion-1354172080924397802",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:12:00+00:00",
+    "description": "No input provided to fix",
+    "feature_tags": [
+      "placeholder"
+    ],
+    "interaction_modes": [
+      "networked"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "low",
+    "networking_profile": "none"
+  }
+}

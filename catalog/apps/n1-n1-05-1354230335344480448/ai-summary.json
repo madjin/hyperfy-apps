@@ -1,0 +1,16 @@
+{
+  "app_id": "n1-n1-05-1354230335344480448",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:24:25+00:00",
+  "description": "Loads a GLB model and sets its collider to trimesh mode by disabling convex on the collider node, enabling precise collision detection that matches the exact mesh geometry rather than a simplified convex hull.",
+  "feature_tags": [
+    "physics",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none"
+}

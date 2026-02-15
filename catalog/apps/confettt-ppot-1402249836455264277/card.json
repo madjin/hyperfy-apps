@@ -1,0 +1,78 @@
+{
+  "name": "CONFETTT_PPOT",
+  "author": "Gert-Jan Akerboom",
+  "description": "Networked confetti popper that spawns randomized particle bursts from up to 8 customizable confetti textures when clicked. Plays spatial click and explosion audio, syncs cooldown state across clients, and animates emissive glow on hover.",
+  "tags": [
+    "particles",
+    "audio",
+    "interaction",
+    "multiplayer",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "high",
+  "networking": "events",
+  "preview_url": "catalog/generated_previews/confettt-ppot-1402249836455264277.png",
+  "download_path": "v2-hyp/CONFETTT_PPOT.hyp",
+  "created_at": "2025-08-05T11:20:13.553Z",
+  "props": {
+    "confettiImage1": {
+      "type": "texture",
+      "url": "assets/confettiImage1.png"
+    },
+    "confettiImage2": {
+      "type": "texture",
+      "url": "assets/confettiImage2.png"
+    },
+    "confettiImage3": {
+      "type": "texture",
+      "url": "assets/confettiImage3.png"
+    },
+    "confettiImage4": {
+      "type": "texture",
+      "url": "assets/confettiImage4.png"
+    },
+    "confettiImage5": {
+      "type": "texture",
+      "url": "assets/confettiImage5.png"
+    },
+    "confettiImage6": {
+      "type": "texture",
+      "url": "assets/confettiImage6.png"
+    },
+    "confettiImage7": {
+      "type": "texture",
+      "url": "assets/confettiImage7.png"
+    },
+    "confettiImage8": {
+      "type": "texture",
+      "url": "assets/confettiImage8.png"
+    },
+    "clickSound": {
+      "type": "audio",
+      "url": "assets/clickSound.mp3"
+    },
+    "explosionSound": {
+      "type": "audio",
+      "url": "assets/explosionSound.mp3"
+    }
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\n/**\n * Confetti Popper - Hyperfy App\n * Creates confetti particles that spawn when the popper mesh is clicked\n * \n * @author Gert-Jan Akerboom\n * @license MIT\n */\n\n// Particle size constants\nconst MIN_PARTICLE_SIZE = 0.01\nconst MAX_PARTICLE_SIZE = 0.1\n\n// Configure the app to accept confetti particle images and audio\napp.configure([\n    {\n      key: 'confettiImage1',\n      type: 'file',\n      kind: 'texture',\n      label: 'Confetti Image 1'\n    },\n    {\n      key: 'confettiImage2',\n      type: 'file',\n      kind: 'texture',\n      label: 'Confetti Image 2'\n    },\n    {\n      key: 'confettiImage3',\n      type: 'file',\n      kind: 'texture',\n      label: 'Confetti Image 3'\n    },\n    {\n      key: 'confettiImage4',\n      type: 'file',\n      kind: 'texture',\n      label: 'Confetti Image 4'\n    },\n    {\n      key: 'confettiImage5',\n      type: 'file',\n      kind: 'texture',\n      label: 'Confetti Image 5'\n    },\n    {\n      key: 'confettiImage6',\n      type: 'file',\n      kind: 'texture',\n      label: 'Confetti Image 6'\n    },\n    {\n      key: 'confettiImage7',\n      type: 'file',\n      kind: 'texture',\n      label: 'Confetti Image 7'\n    },\n    {\n      key: 'confettiImage8',\n      type: 'file',\n      kind: 'texture',\n      label: 'Confetti Image 8'\n    },\n    {\n      key: 'clickSound',\n      type: 'file',\n      kind: 'audio',\n      label: 'Click Sound'\n    },\n    {\n      key: 'explosionSound',\n      type: 'file',\n      kind: 'audio',\n      label: 'Explosion Sound'\n    }\n])\n\n// Initialize app state\nif (!app.state.confettiActive) {\n    app.state.confettiActive = false\n}\n\n// Force reset confetti active state on startup\nif (world.isClient) {\n    app.state.confettiActive = false\n}\n\nif (world.isServer) {\n    app.state.confettiActive = false\n    app.send('setConfettiActive', false)\n}\n\n// Function to get a random confetti image from the uploaded ones\nfunction getRandomConfettiImage() {\n    const confettiImages ",
+  "asset_files": [
+    "CONFETTT PPOT.glb",
+    "clickSound.mp3",
+    "confettiImage1.png",
+    "confettiImage2.png",
+    "confettiImage3.png",
+    "confettiImage4.png",
+    "confettiImage5.png",
+    "confettiImage6.png",
+    "confettiImage7.png",
+    "confettiImage8.png",
+    "explosionSound.mp3"
+  ]
+}

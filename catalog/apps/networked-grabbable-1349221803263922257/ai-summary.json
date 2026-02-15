@@ -1,0 +1,19 @@
+{
+  "app_id": "networked-grabbable-1349221803263922257",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:24:38+00:00",
+  "description": "Networked grabbable object (e.g. a gun) that players pick up via an action trigger within 3m. Attaches the 3D model to the holder's right hand bone transform each frame and syncs ownership state across clients. Press X to drop the item where you stand.",
+  "feature_tags": [
+    "interaction",
+    "multiplayer",
+    "3d-model",
+    "animation"
+  ],
+  "interaction_modes": [
+    "action",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "events"
+}

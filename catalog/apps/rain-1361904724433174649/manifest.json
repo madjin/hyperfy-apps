@@ -1,0 +1,81 @@
+{
+  "app_id": "rain-1361904724433174649",
+  "app_slug": "rain",
+  "app_name": "Rain",
+  "source": {
+    "hyp_filename": "Rain.hyp",
+    "discord_attachment_id": "1361904723086807211",
+    "discord_message_id": "1361904724433174649",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-04-16T03:23:09.271Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1361904723086807211/Rain.hyp?ex=6979811c&is=69782f9c&hm=019ac6e479de2e4163b606bcca5e79df44e002ab59c07531d28429f1d774c893&"
+  },
+  "author": {
+    "display_name": "ash",
+    "discord_user_id": "179546010303856640",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "Rain.hyp",
+    "raw_message_content": "",
+    "summary_excerpt": "Rain.hyp",
+    "source_priority_used": "summary_excerpt"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/rain",
+    "v2_json_path": "v2/apps/rain/Rain.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Rain.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/Rain_1361904724433174649/m1_xyz-particle-demos_2_-_edit.mp4",
+    "media_type": ".mp4",
+    "selection_reason": "same_author_nearby",
+    "is_fallback_any_author": false
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/Rain_1361904724433174649/m1_xyz-particle-demos_2_-_edit.mp4",
+      "original_filename": "xyz-particle-demos_2_-_edit.mp4",
+      "content_type": "video/mp4",
+      "relative_index": -1,
+      "same_author": true,
+      "selection_reason": "same_author_nearby",
+      "size_bytes": 22376201,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1361903616788664400"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "rain-1361904724433174649",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:13:08+00:00",
+    "description": "A configurable particle system visualizing rain effects. Features a rectangle emitter with additive blending and alpha-over-life fading, positioned overhead. Includes a UI prop for custom raindrop textures. Intended as a reference implementation for Hyperfy's particle system.",
+    "feature_tags": [
+      "particles",
+      "environment",
+      "ui",
+      "animation",
+      "3d-model"
+    ],
+    "interaction_modes": [
+      "ui",
+      "passive"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "low",
+    "networking_profile": "none"
+  }
+}

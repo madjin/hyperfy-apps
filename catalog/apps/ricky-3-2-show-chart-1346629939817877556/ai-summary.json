@@ -1,0 +1,18 @@
+{
+  "app_id": "ricky-3-2-show-chart-1346629939817877556",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:26:55+00:00",
+  "description": "Renders a remote chart image on a billboard UI panel fetched from a configurable URL. Triggers a cache-busting refresh when the player presses the action button within a configurable radius, with a cooldown timer to prevent spam.",
+  "feature_tags": [
+    "ui",
+    "interaction",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "action",
+    "ui"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "none"
+}

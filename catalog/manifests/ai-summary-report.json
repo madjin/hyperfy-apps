@@ -1,0 +1,909 @@
+{
+  "generated_at": "2026-02-15T19:31:07+00:00",
+  "model": "anthropic/claude-opus-4.6",
+  "dry_run": false,
+  "duration_seconds": 925.34,
+  "counts": {
+    "ok": 179,
+    "skipped_existing": 0,
+    "dry_run": 0,
+    "failed": 0
+  },
+  "results": [
+    {
+      "app_id": "360-video-viewer-1360629006327873747",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/360-video-viewer-1360629006327873747/ai-summary.json"
+    },
+    {
+      "app_id": "360player-mono-1361648804113285242",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/360player-mono-1361648804113285242/ai-summary.json"
+    },
+    {
+      "app_id": "alien-planet-1415309781345894431",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/alien-planet-1415309781345894431/ai-summary.json"
+    },
+    {
+      "app_id": "alleysign-1341753324801626154",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/alleysign-1341753324801626154/ai-summary.json"
+    },
+    {
+      "app_id": "amanita-1357382776709582919",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/amanita-1357382776709582919/ai-summary.json"
+    },
+    {
+      "app_id": "anybox-1354967082164424814",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/anybox-1354967082164424814/ai-summary.json"
+    },
+    {
+      "app_id": "arrayvectorprops-1349553928085180437",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/arrayvectorprops-1349553928085180437/ai-summary.json"
+    },
+    {
+      "app_id": "basicmp3player-1459296313840504887",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/basicmp3player-1459296313840504887/ai-summary.json"
+    },
+    {
+      "app_id": "bats-v1-1354922630544621629",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/bats-v1-1354922630544621629/ai-summary.json"
+    },
+    {
+      "app_id": "bending-leaf-v1-1357269608360448000",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/bending-leaf-v1-1357269608360448000/ai-summary.json"
+    },
+    {
+      "app_id": "blocktesting-1348127461031809134",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/blocktesting-1348127461031809134/ai-summary.json"
+    },
+    {
+      "app_id": "book-flip-1427292873358971045",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/book-flip-1427292873358971045/ai-summary.json"
+    },
+    {
+      "app_id": "boombox-1459269670980030535",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/boombox-1459269670980030535/ai-summary.json"
+    },
+    {
+      "app_id": "broke-rom-1355215078328369344",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/broke-rom-1355215078328369344/ai-summary.json"
+    },
+    {
+      "app_id": "builder-drone-1356446200907432129",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/builder-drone-1356446200907432129/ai-summary.json"
+    },
+    {
+      "app_id": "builder-drone-x501-1356441740357406801",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/builder-drone-x501-1356441740357406801/ai-summary.json"
+    },
+    {
+      "app_id": "builder-drone-x501-1356505487033499729",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/builder-drone-x501-1356505487033499729/ai-summary.json"
+    },
+    {
+      "app_id": "builder-drone-x501-1356755805017215098",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/builder-drone-x501-1356755805017215098/ai-summary.json"
+    },
+    {
+      "app_id": "butterfly-swarm-v1-1350129252976168992",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/butterfly-swarm-v1-1350129252976168992/ai-summary.json"
+    },
+    {
+      "app_id": "butterfly-swarm-v2a-1349666213617336462",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/butterfly-swarm-v2a-1349666213617336462/ai-summary.json"
+    },
+    {
+      "app_id": "butterfly-swarm-v2a-1350129252976168992",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/butterfly-swarm-v2a-1350129252976168992/ai-summary.json"
+    },
+    {
+      "app_id": "butterfly-swarm-v3-1350145314677592157",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/butterfly-swarm-v3-1350145314677592157/ai-summary.json"
+    },
+    {
+      "app_id": "butterfly-swarm-v3-1350145491001802873",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/butterfly-swarm-v3-1350145491001802873/ai-summary.json"
+    },
+    {
+      "app_id": "butterfly-swarm-v4-1354099791067611188",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/butterfly-swarm-v4-1354099791067611188/ai-summary.json"
+    },
+    {
+      "app_id": "butterfly-swarm-v5-1354102502055743531",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/butterfly-swarm-v5-1354102502055743531/ai-summary.json"
+    },
+    {
+      "app_id": "butterfly-swarm-v6-1354772253396701385",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/butterfly-swarm-v6-1354772253396701385/ai-summary.json"
+    },
+    {
+      "app_id": "butterfly-swarm-v6-hyperfly-edition-1354809216753340639",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/butterfly-swarm-v6-hyperfly-edition-1354809216753340639/ai-summary.json"
+    },
+    {
+      "app_id": "butterfly-swarm-v6-hyperfly-edition2-1355068289964970128",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/butterfly-swarm-v6-hyperfly-edition2-1355068289964970128/ai-summary.json"
+    },
+    {
+      "app_id": "butterfly-swarm-v6-hyperfly-edition2-bw-1355068613178167366",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/butterfly-swarm-v6-hyperfly-edition2-bw-1355068613178167366/ai-summary.json"
+    },
+    {
+      "app_id": "cam-raycast-action-bar-1348748294658195487",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/cam-raycast-action-bar-1348748294658195487/ai-summary.json"
+    },
+    {
+      "app_id": "camera-trigger-1428031026826842285",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/camera-trigger-1428031026826842285/ai-summary.json"
+    },
+    {
+      "app_id": "camera-laser-1425737416207110174",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/camera-laser-1425737416207110174/ai-summary.json"
+    },
+    {
+      "app_id": "camera-manager-1352519146201419816",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/camera-manager-1352519146201419816/ai-summary.json"
+    },
+    {
+      "app_id": "camera-manager-test-1352519146201419816",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/camera-manager-test-1352519146201419816/ai-summary.json"
+    },
+    {
+      "app_id": "car1-1353196235074441290",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/car1-1353196235074441290/ai-summary.json"
+    },
+    {
+      "app_id": "car1-v2-1353199999730581585",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/car1-v2-1353199999730581585/ai-summary.json"
+    },
+    {
+      "app_id": "companion-v8-1354172080924397802",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/companion-v8-1354172080924397802/ai-summary.json"
+    },
+    {
+      "app_id": "confettt-ppot-1402249836455264277",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/confettt-ppot-1402249836455264277/ai-summary.json"
+    },
+    {
+      "app_id": "cube-1-1355371621468209172",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/cube-1-1355371621468209172/ai-summary.json"
+    },
+    {
+      "app_id": "curved-video-viewer-1360630031814230229",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/curved-video-viewer-1360630031814230229/ai-summary.json"
+    },
+    {
+      "app_id": "curved-video-viewer-1363490690339831849",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/curved-video-viewer-1363490690339831849/ai-summary.json"
+    },
+    {
+      "app_id": "curvedvid-with-link-input-1363573773185450045",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/curvedvid-with-link-input-1363573773185450045/ai-summary.json"
+    },
+    {
+      "app_id": "dash-1356968685415301160",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/dash-1356968685415301160/ai-summary.json"
+    },
+    {
+      "app_id": "day-night-weather-current-1364018271719919686",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/day-night-weather-current-1364018271719919686/ai-summary.json"
+    },
+    {
+      "app_id": "discord3-1421084209073885294",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/discord3-1421084209073885294/ai-summary.json"
+    },
+    {
+      "app_id": "eagles-v1-1356075244355457266",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/eagles-v1-1356075244355457266/ai-summary.json"
+    },
+    {
+      "app_id": "eel-add-particles1-1362421603765325946",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/eel-add-particles1-1362421603765325946/ai-summary.json"
+    },
+    {
+      "app_id": "eel-add-particles1-1-1362432359785304154",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/eel-add-particles1-1-1362432359785304154/ai-summary.json"
+    },
+    {
+      "app_id": "emote-rom-1361914201701875788",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/emote-rom-1361914201701875788/ai-summary.json"
+    },
+    {
+      "app_id": "emote-rom-1-1362219850151231579",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/emote-rom-1-1362219850151231579/ai-summary.json"
+    },
+    {
+      "app_id": "emotesr-1440465428748046346",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/emotesr-1440465428748046346/ai-summary.json"
+    },
+    {
+      "app_id": "explosion-sprites-1361904724433174649",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/explosion-sprites-1361904724433174649/ai-summary.json"
+    },
+    {
+      "app_id": "fire-1361904724433174649",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/fire-1361904724433174649/ai-summary.json"
+    },
+    {
+      "app_id": "firsthyp-1364577095313002547",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/firsthyp-1364577095313002547/ai-summary.json"
+    },
+    {
+      "app_id": "firsthypv2-1364604780420272199",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/firsthypv2-1364604780420272199/ai-summary.json"
+    },
+    {
+      "app_id": "fog-1361904724433174649",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/fog-1361904724433174649/ai-summary.json"
+    },
+    {
+      "app_id": "forest-1443613740150034512",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/forest-1443613740150034512/ai-summary.json"
+    },
+    {
+      "app_id": "forest-1443613865295220818",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/forest-1443613865295220818/ai-summary.json"
+    },
+    {
+      "app_id": "framed-image-v1-0-1434190157220806658",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/framed-image-v1-0-1434190157220806658/ai-summary.json"
+    },
+    {
+      "app_id": "free-camera-1415049094363086848",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/free-camera-1415049094363086848/ai-summary.json"
+    },
+    {
+      "app_id": "ftv-1361768826902941913",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/ftv-1361768826902941913/ai-summary.json"
+    },
+    {
+      "app_id": "game-timer-1353704858338984058",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/game-timer-1353704858338984058/ai-summary.json"
+    },
+    {
+      "app_id": "generate-monstera-v1-1357367597435191527",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/generate-monstera-v1-1357367597435191527/ai-summary.json"
+    },
+    {
+      "app_id": "gert-2-1-aloe-1346629939817877556",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/gert-2-1-aloe-1346629939817877556/ai-summary.json"
+    },
+    {
+      "app_id": "glow-dust-1361904724433174649",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/glow-dust-1361904724433174649/ai-summary.json"
+    },
+    {
+      "app_id": "grass-v1-1359167521789448234",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/grass-v1-1359167521789448234/ai-summary.json"
+    },
+    {
+      "app_id": "grass-v3-1360243980150902917",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/grass-v3-1360243980150902917/ai-summary.json"
+    },
+    {
+      "app_id": "grid-floor-v2-1380533380520738816",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/grid-floor-v2-1380533380520738816/ai-summary.json"
+    },
+    {
+      "app_id": "groupiev1-1426847075219275808",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/groupiev1-1426847075219275808/ai-summary.json"
+    },
+    {
+      "app_id": "healing-aura-1361904724433174649",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/healing-aura-1361904724433174649/ai-summary.json"
+    },
+    {
+      "app_id": "health-1339121960759721996",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/health-1339121960759721996/ai-summary.json"
+    },
+    {
+      "app_id": "heliv4-1374463195070332958",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/heliv4-1374463195070332958/ai-summary.json"
+    },
+    {
+      "app_id": "hexagonal-test-basic-1355683928421171290",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/hexagonal-test-basic-1355683928421171290/ai-summary.json"
+    },
+    {
+      "app_id": "hexagonal-test-networked-1355683928421171290",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/hexagonal-test-networked-1355683928421171290/ai-summary.json"
+    },
+    {
+      "app_id": "hover-cursor-test-1402653679030636655",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/hover-cursor-test-1402653679030636655/ai-summary.json"
+    },
+    {
+      "app_id": "hp-eliza-2-1-app-1-1346629939817877556",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/hp-eliza-2-1-app-1-1346629939817877556/ai-summary.json"
+    },
+    {
+      "app_id": "hyperbeacon-v2-1337234426395889747",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/hyperbeacon-v2-1337234426395889747/ai-summary.json"
+    },
+    {
+      "app_id": "hyperportal-with-set-1349789440293474304",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/hyperportal-with-set-1349789440293474304/ai-summary.json"
+    },
+    {
+      "app_id": "hyperportal-with-set-manual-1352439458317865070",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/hyperportal-with-set-manual-1352439458317865070/ai-summary.json"
+    },
+    {
+      "app_id": "jukebox-ui-1354513817861750816",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/jukebox-ui-1354513817861750816/ai-summary.json"
+    },
+    {
+      "app_id": "jumping-frog-1461059470972158002",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/jumping-frog-1461059470972158002/ai-summary.json"
+    },
+    {
+      "app_id": "launchpad-1427685965249515723",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/launchpad-1427685965249515723/ai-summary.json"
+    },
+    {
+      "app_id": "locationator-1363448335117193418",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/locationator-1363448335117193418/ai-summary.json"
+    },
+    {
+      "app_id": "locationator-1363449445173432493",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/locationator-1363449445173432493/ai-summary.json"
+    },
+    {
+      "app_id": "loot-1339121960759721996",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/loot-1339121960759721996/ai-summary.json"
+    },
+    {
+      "app_id": "loot-planetlava-1339121960759721996",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/loot-planetlava-1339121960759721996/ai-summary.json"
+    },
+    {
+      "app_id": "loot-ringed-planet-1339121960759721996",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/loot-ringed-planet-1339121960759721996/ai-summary.json"
+    },
+    {
+      "app_id": "m2-2-4-beacon-dev-1346629939817877556",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/m2-2-4-beacon-dev-1346629939817877556/ai-summary.json"
+    },
+    {
+      "app_id": "machine-gun-v8-1355977141862400300",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/machine-gun-v8-1355977141862400300/ai-summary.json"
+    },
+    {
+      "app_id": "machine-gun-with-animation-1349513227842879581",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/machine-gun-with-animation-1349513227842879581/ai-summary.json"
+    },
+    {
+      "app_id": "mato-pet-v2-1345214513477189663",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/mato-pet-v2-1345214513477189663/ai-summary.json"
+    },
+    {
+      "app_id": "mato-pets-1343812585706749963",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/mato-pets-1343812585706749963/ai-summary.json"
+    },
+    {
+      "app_id": "mini-nuke-1354185108835270728",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/mini-nuke-1354185108835270728/ai-summary.json"
+    },
+    {
+      "app_id": "mini-nukeportal-1354506347751805090",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/mini-nukeportal-1354506347751805090/ai-summary.json"
+    },
+    {
+      "app_id": "mini-nukeportal-1357785271864660153",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/mini-nukeportal-1357785271864660153/ai-summary.json"
+    },
+    {
+      "app_id": "mob-skelly-1355903733090750595",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/mob-skelly-1355903733090750595/ai-summary.json"
+    },
+    {
+      "app_id": "model-1353698908353724480",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/model-1353698908353724480/ai-summary.json"
+    },
+    {
+      "app_id": "monkey-head-1360004867166437467",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/monkey-head-1360004867166437467/ai-summary.json"
+    },
+    {
+      "app_id": "moonjump-1406524288625807451",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/moonjump-1406524288625807451/ai-summary.json"
+    },
+    {
+      "app_id": "n1-n1-05-1354230335344480448",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/n1-n1-05-1354230335344480448/ai-summary.json"
+    },
+    {
+      "app_id": "neon-1-1369282194895274065",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/neon-1-1369282194895274065/ai-summary.json"
+    },
+    {
+      "app_id": "neon-2-1369292993667928145",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/neon-2-1369292993667928145/ai-summary.json"
+    },
+    {
+      "app_id": "networked-grabbable-1349221803263922257",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/networked-grabbable-1349221803263922257/ai-summary.json"
+    },
+    {
+      "app_id": "notifications-1376587859414356008",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/notifications-1376587859414356008/ai-summary.json"
+    },
+    {
+      "app_id": "npc-10-1354082561185288312",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/npc-10-1354082561185288312/ai-summary.json"
+    },
+    {
+      "app_id": "npc-9-1354068129944174592",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/npc-9-1354068129944174592/ai-summary.json"
+    },
+    {
+      "app_id": "npc-prisoner-1426847075219275808",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/npc-prisoner-1426847075219275808/ai-summary.json"
+    },
+    {
+      "app_id": "pay-to-enter-door-1349126914333478954",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/pay-to-enter-door-1349126914333478954/ai-summary.json"
+    },
+    {
+      "app_id": "physics-contacts-tags-1354299208894648330",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/physics-contacts-tags-1354299208894648330/ai-summary.json"
+    },
+    {
+      "app_id": "physics-raycast-tags-1354315974823776286",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/physics-raycast-tags-1354315974823776286/ai-summary.json"
+    },
+    {
+      "app_id": "physics-triggers-tags-1354303006505435206",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/physics-triggers-tags-1354303006505435206/ai-summary.json"
+    },
+    {
+      "app_id": "pingscriptforcompanion-1354172080924397802",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/pingscriptforcompanion-1354172080924397802/ai-summary.json"
+    },
+    {
+      "app_id": "platforms-1437886474681979002",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/platforms-1437886474681979002/ai-summary.json"
+    },
+    {
+      "app_id": "player-transforms-1425752169482551389",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/player-transforms-1425752169482551389/ai-summary.json"
+    },
+    {
+      "app_id": "playertag-uinew-1355704776373043221",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/playertag-uinew-1355704776373043221/ai-summary.json"
+    },
+    {
+      "app_id": "position-1398154516133839002",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/position-1398154516133839002/ai-summary.json"
+    },
+    {
+      "app_id": "prism-1355903733090750595",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/prism-1355903733090750595/ai-summary.json"
+    },
+    {
+      "app_id": "pve-sword-1354082561185288312",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/pve-sword-1354082561185288312/ai-summary.json"
+    },
+    {
+      "app_id": "pvp-core-with-spawns-1355236590603075706",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/pvp-core-with-spawns-1355236590603075706/ai-summary.json"
+    },
+    {
+      "app_id": "pvpblasterlatest-1354225264028291292",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/pvpblasterlatest-1354225264028291292/ai-summary.json"
+    },
+    {
+      "app_id": "questitembasic-1396392921833410642",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/questitembasic-1396392921833410642/ai-summary.json"
+    },
+    {
+      "app_id": "questitemui-1396392921833410642",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/questitemui-1396392921833410642/ai-summary.json"
+    },
+    {
+      "app_id": "rain-1361904724433174649",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/rain-1361904724433174649/ai-summary.json"
+    },
+    {
+      "app_id": "rainv3-1359812146199920650",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/rainv3-1359812146199920650/ai-summary.json"
+    },
+    {
+      "app_id": "rainv3-1359821051999158272",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/rainv3-1359821051999158272/ai-summary.json"
+    },
+    {
+      "app_id": "rainv4-1359839641754275921",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/rainv4-1359839641754275921/ai-summary.json"
+    },
+    {
+      "app_id": "rainv4-1359841759248646274",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/rainv4-1359841759248646274/ai-summary.json"
+    },
+    {
+      "app_id": "raptor-random-loc-1364946963270991875",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/raptor-random-loc-1364946963270991875/ai-summary.json"
+    },
+    {
+      "app_id": "raycaster-1348748103104331778",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/raycaster-1348748103104331778/ai-summary.json"
+    },
+    {
+      "app_id": "ricky-3-2-show-chart-1346629939817877556",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/ricky-3-2-show-chart-1346629939817877556/ai-summary.json"
+    },
+    {
+      "app_id": "rocket-launcher-v3-1364972260766646293",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/rocket-launcher-v3-1364972260766646293/ai-summary.json"
+    },
+    {
+      "app_id": "rocket-global-coll-1398290694413746278",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/rocket-global-coll-1398290694413746278/ai-summary.json"
+    },
+    {
+      "app_id": "rocket-global-coll-1437796842313355295",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/rocket-global-coll-1437796842313355295/ai-summary.json"
+    },
+    {
+      "app_id": "rom2-1355042999578660955",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/rom2-1355042999578660955/ai-summary.json"
+    },
+    {
+      "app_id": "rover-lavacargo-1339121960759721996",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/rover-lavacargo-1339121960759721996/ai-summary.json"
+    },
+    {
+      "app_id": "rover-ringedplanet-1339121960759721996",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/rover-ringedplanet-1339121960759721996/ai-summary.json"
+    },
+    {
+      "app_id": "rover-2-11-1339121960759721996",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/rover-2-11-1339121960759721996/ai-summary.json"
+    },
+    {
+      "app_id": "saori-2-5-trump-agent-1346629939817877556",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/saori-2-5-trump-agent-1346629939817877556/ai-summary.json"
+    },
+    {
+      "app_id": "screen-1361324085598228530",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/screen-1361324085598228530/ai-summary.json"
+    },
+    {
+      "app_id": "screen-ui-link-section-1385257861852168192",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/screen-ui-link-section-1385257861852168192/ai-summary.json"
+    },
+    {
+      "app_id": "seat-v2-1391991885559631884",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/seat-v2-1391991885559631884/ai-summary.json"
+    },
+    {
+      "app_id": "simonsays-screen-1354675175769243730",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/simonsays-screen-1354675175769243730/ai-summary.json"
+    },
+    {
+      "app_id": "simonsays-screen-2-1355352717488296077",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/simonsays-screen-2-1355352717488296077/ai-summary.json"
+    },
+    {
+      "app_id": "simonsaysboard-1354675175769243730",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/simonsaysboard-1354675175769243730/ai-summary.json"
+    },
+    {
+      "app_id": "sit-1351223744022183987",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/sit-1351223744022183987/ai-summary.json"
+    },
+    {
+      "app_id": "smoke-1361904724433174649",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/smoke-1361904724433174649/ai-summary.json"
+    },
+    {
+      "app_id": "smolwrld-1356346677895626905",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/smolwrld-1356346677895626905/ai-summary.json"
+    },
+    {
+      "app_id": "solar-panel-1364018550179631196",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/solar-panel-1364018550179631196/ai-summary.json"
+    },
+    {
+      "app_id": "solar-panel-sundown-1356250138967932979",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/solar-panel-sundown-1356250138967932979/ai-summary.json"
+    },
+    {
+      "app_id": "spawn-1355236590603075706",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/spawn-1355236590603075706/ai-summary.json"
+    },
+    {
+      "app_id": "speedtrail-v0-1-1361987355577421954",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/speedtrail-v0-1-1361987355577421954/ai-summary.json"
+    },
+    {
+      "app_id": "spicex-portal-1354289316314087515",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/spicex-portal-1354289316314087515/ai-summary.json"
+    },
+    {
+      "app_id": "splinepinev1-1346505141473382451",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/splinepinev1-1346505141473382451/ai-summary.json"
+    },
+    {
+      "app_id": "ss3-1362219892073435166",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/ss3-1362219892073435166/ai-summary.json"
+    },
+    {
+      "app_id": "super-run-1445419285118976091",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/super-run-1445419285118976091/ai-summary.json"
+    },
+    {
+      "app_id": "szjanko-2-11-dice-1346629939817877556",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/szjanko-2-11-dice-1346629939817877556/ai-summary.json"
+    },
+    {
+      "app_id": "teleport-command-v2-1381127682699427880",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/teleport-command-v2-1381127682699427880/ai-summary.json"
+    },
+    {
+      "app_id": "teleport-trigger-box-1431333007888748678",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/teleport-trigger-box-1431333007888748678/ai-summary.json"
+    },
+    {
+      "app_id": "test-level-1355236430376341764",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/test-level-1355236430376341764/ai-summary.json"
+    },
+    {
+      "app_id": "text-link-option-1426147798776152144",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/text-link-option-1426147798776152144/ai-summary.json"
+    },
+    {
+      "app_id": "text-link-option-1426148371101651037",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/text-link-option-1426148371101651037/ai-summary.json"
+    },
+    {
+      "app_id": "the-grid-1415309781345894431",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/the-grid-1415309781345894431/ai-summary.json"
+    },
+    {
+      "app_id": "the-meadow-1415309781345894431",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/the-meadow-1415309781345894431/ai-summary.json"
+    },
+    {
+      "app_id": "token-gate-1349126914333478954",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/token-gate-1349126914333478954/ai-summary.json"
+    },
+    {
+      "app_id": "tornado-1361904724433174649",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/tornado-1361904724433174649/ai-summary.json"
+    },
+    {
+      "app_id": "triggerzone-1440322008935301211",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/triggerzone-1440322008935301211/ai-summary.json"
+    },
+    {
+      "app_id": "triggerzone-1440323116382556250",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/triggerzone-1440323116382556250/ai-summary.json"
+    },
+    {
+      "app_id": "uiimage-from-file-update1-1349800654129860670",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/uiimage-from-file-update1-1349800654129860670/ai-summary.json"
+    },
+    {
+      "app_id": "vanguard-1355903733090750595",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/vanguard-1355903733090750595/ai-summary.json"
+    },
+    {
+      "app_id": "video-channel-changer-1363859162676596797",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/video-channel-changer-1363859162676596797/ai-summary.json"
+    },
+    {
+      "app_id": "video-with-player-ui-1447233812231880724",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/video-with-player-ui-1447233812231880724/ai-summary.json"
+    },
+    {
+      "app_id": "videoenhanced-1433071172739928135",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/videoenhanced-1433071172739928135/ai-summary.json"
+    },
+    {
+      "app_id": "videoplayer-1425504776371830875",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/videoplayer-1425504776371830875/ai-summary.json"
+    },
+    {
+      "app_id": "wall-hang-1437891700369658059",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/wall-hang-1437891700369658059/ai-summary.json"
+    },
+    {
+      "app_id": "water-fountain-1361904724433174649",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/water-fountain-1361904724433174649/ai-summary.json"
+    },
+    {
+      "app_id": "weightpaint-screenui-test1-1395042221425819648",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/weightpaint-screenui-test1-1395042221425819648/ai-summary.json"
+    },
+    {
+      "app_id": "weightpaint-screenui-test1-1420742160474701966",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/weightpaint-screenui-test1-1420742160474701966/ai-summary.json"
+    },
+    {
+      "app_id": "who-there-1397545277300412447",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/who-there-1397545277300412447/ai-summary.json"
+    },
+    {
+      "app_id": "wolf-maro-1356607622211440731",
+      "status": "ok",
+      "path": "/home/jin/repo/hyperfy-apps/catalog/apps/wolf-maro-1356607622211440731/ai-summary.json"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Rocket_Launcher_V3",
+  "author": "Gert-Jan Akerboom",
+  "description": "Interactive rocket launcher that triggers a launch sequence when the player holds an action button. Spawns additive exhaust particles on the rocket mesh, animates it skyward with quadratic easing to 500 units, then respawns it by rising smoothly from underground.",
+  "tags": [
+    "particles",
+    "animation",
+    "interaction",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "action"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking": "none",
+  "preview_url": "catalog/discord/hyp_media/Rocket_Launcher_V3_1364972260766646293/m1_World_-_Google_Chrome_24.04.2025_14_53_08.png",
+  "download_path": "v2-hyp/Rocket_Launcher_V3.hyp",
+  "created_at": "2025-04-24T14:32:26.925Z",
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\n// Get the rocket mesh\nconst rocket = app.get('rocket')\nif (!rocket) {\n  console.error('Rocket mesh not found!')\n  return\n}\n\n// Store original position\nconst originalPosition = rocket.position.clone()\n// Set the resting height to 0.2\nconst restingHeight = 0.8\n\n// Create the particle system\nconst particles = app.create('particles', {\n  image: props.image?.url,\n  shape: ['point'],\n  direction: 1,\n  speed: '0.1~0.5', // Increased speed range for more variation\n  spread: '0.2', // Add spread to make particles move outward\n  size: '0.02~0.5', // Random size between 0.02 and 0.5\n  rate: 400,\n  rateOverDistance: 100, // Emit 50 particles per unit of distance traveled\n  blending: 'additive',\n  emissive: '10~20', // Lower emissive range\n  alphaOverLife: '0,0|0.1,0.5|0.9,0.5|1,0', // More transparent particles\n  active: false,\n  max: 1000,\n  life: '1~3', // Random lifetime between 1 and 3 seconds\n  rotate: '0~360' // Add random rotation\n})\n\n// Add particles to the rocket\nrocket.add(particles)\n\n// Create the action node\nconst action = app.create('action', {\n  label: 'Launch Rocket',\n  distance: 8, // Distance in meters to show the UI\n  duration: 1, // Hold E for 3 seconds to trigger\n  onStart: () => {\n    console.log('Starting rocket launch...')\n    // Start particles when E is first pressed\n    particles.active = true\n    particles.rate = 400 // Ensure rate is set when starting\n  },\n  onTrigger: () => {\n    console.log('Rocket launched!')\n    // Start launch sequence\n    action.launching = true\n    action.launchStartTime = world.getTime()\n    // Hide the UI\n    action.active = false\n  },\n  onCancel: () => {\n    console.log('Launch sequence cancelled')\n    // Reset position and stop particles\n    rocket.position.y = restingHeight\n    particles.rate = 0 // Stop emitting new particles\n  }\n})\n\n// Add the action to the rocket\nrocket.add(action)\n\n// Make sure the action is positioned correctly relative to the rock",
+  "asset_files": [
+    "Rocket Launcher V3.glb"
+  ]
+}

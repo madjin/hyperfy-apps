@@ -1,0 +1,18 @@
+{
+  "app_id": "heliv4-1374463195070332958",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:22:12+00:00",
+  "description": "Helicopter that flies an oval path with curvature-based speed adjustment, scrolls UV textures on a rotor mesh to simulate spinning blades, and plays a looping spatial idle engine audio that tracks the helicopter position. Interpolates yaw and pitch for smooth banking turns.",
+  "feature_tags": [
+    "vehicle",
+    "audio",
+    "animation",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "none"
+}

@@ -1,0 +1,23 @@
+{
+  "app_id": "mini-nukeportal-1354506347751805090",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:23:57+00:00",
+  "description": "Interactive mini-nuke that detonates on player action, spawns radiation particle clouds with \u2622 symbols, plays explosion and Geiger counter audio, damages nearby players via hyperfy:dmg events, and triggers a portal to a configurable destination world URL after a timed delay.",
+  "feature_tags": [
+    "particles",
+    "audio",
+    "combat",
+    "ui",
+    "interaction",
+    "teleport"
+  ],
+  "interaction_modes": [
+    "action",
+    "trigger",
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "heavy",
+  "script_complexity": "high",
+  "networking_profile": "events"
+}

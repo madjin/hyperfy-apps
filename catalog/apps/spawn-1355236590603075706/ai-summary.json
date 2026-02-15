@@ -1,0 +1,18 @@
+{
+  "app_id": "spawn-1355236590603075706",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:28:39+00:00",
+  "description": "Configurable spawn point that listens for a server-side spawn event keyed by a numeric ID and teleports the requesting player to the app's position. Uses world.on and player.teleport for cross-app spawn coordination.",
+  "feature_tags": [
+    "teleport",
+    "multiplayer",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "events"
+}

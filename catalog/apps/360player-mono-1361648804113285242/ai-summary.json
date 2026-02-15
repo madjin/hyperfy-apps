@@ -1,0 +1,17 @@
+{
+  "app_id": "360player-mono-1361648804113285242",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:16:06+00:00",
+  "description": "Renders a 360-degree mono video onto a sphere mesh, playing it as a looping skybox. Accepts an uploaded video file or a pasted URL link via configurable props, and maps the video texture with 16:9 aspect ratio to the sphere geometry on the client side.",
+  "feature_tags": [
+    "media-player",
+    "3d-model",
+    "environment"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none"
+}

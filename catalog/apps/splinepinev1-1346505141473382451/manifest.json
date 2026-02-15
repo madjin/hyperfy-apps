@@ -1,0 +1,77 @@
+{
+  "app_id": "splinepinev1-1346505141473382451",
+  "app_slug": "splinepinev1",
+  "app_name": "SplinePineV1",
+  "source": {
+    "hyp_filename": "SplinePineV1.hyp",
+    "discord_attachment_id": "1346505141418725539",
+    "discord_message_id": "1346505141473382451",
+    "discord_channel": "\ud83c\udf06\u2502share",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-03-04T15:30:42.583Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/999870741069692958/1346505141418725539/SplinePineV1.hyp?ex=697982e2&is=69783162&hm=0b0623b85e1e56d8f7e875e48e944809ce4baaa92352f7eb832e7f08917a8691&"
+  },
+  "author": {
+    "display_name": "Gert-Jan Akerboom",
+    "discord_user_id": "601886221072990251",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "SplinePineV1.hyp",
+    "raw_message_content": "",
+    "summary_excerpt": "SplinePineV1.hyp",
+    "source_priority_used": "summary_excerpt"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/splinepinev1",
+    "v2_json_path": "v2/apps/splinepinev1/SplinePineV1.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/SplinePineV1.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/SplinePineV1_1346505141473382451/m1_splinepine0001-1000.mp4",
+    "media_type": ".mp4",
+    "selection_reason": "same_author_nearby",
+    "is_fallback_any_author": false
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/SplinePineV1_1346505141473382451/m1_splinepine0001-1000.mp4",
+      "original_filename": "splinepine0001-1000.mp4",
+      "content_type": "video/mp4",
+      "relative_index": -1,
+      "same_author": true,
+      "selection_reason": "same_author_nearby",
+      "size_bytes": 15421926,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1346505116660006956"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "splinepinev1-1346505141473382451",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:18:26+00:00",
+    "description": "Procedural topiary pine tree generator placing cube segments along a sine curve with randomized scale and rotation. Creates stylized scalable vegetation for environment decoration.",
+    "feature_tags": [
+      "environment",
+      "3d-model"
+    ],
+    "interaction_modes": [
+      "passive"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "medium",
+    "networking_profile": "none"
+  }
+}

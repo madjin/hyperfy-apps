@@ -1,0 +1,16 @@
+{
+  "app_id": "tornado-1361904724433174649",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:30:00+00:00",
+  "description": "Spawns a tornado-style particle system using a circular emitter with orbital, linear, and radial velocity to create a swirling upward vortex. Supports a configurable texture image prop and renders up to 10,000 particles with alpha-over-life fade curves.",
+  "feature_tags": [
+    "particles",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none"
+}

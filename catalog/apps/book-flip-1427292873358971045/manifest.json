@@ -1,0 +1,74 @@
+{
+  "app_id": "book-flip-1427292873358971045",
+  "app_slug": "book-flip",
+  "app_name": "Book_-_Flip",
+  "source": {
+    "hyp_filename": "Book_-_Flip.hyp",
+    "discord_attachment_id": "1427292872750661694",
+    "discord_message_id": "1427292873358971045",
+    "discord_channel": "\ud83e\uddca\u25023d-design",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-10-13T13:52:18.828Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1031058655581323324/1427292872750661694/Book_-_Flip.hyp?ex=68efa712&is=68ee5592&hm=aab160d9f32bf1f517e7f01e8727f99fc7a3d4d83749739127e97263e34073a0&"
+  },
+  "author": {
+    "display_name": "Dhin",
+    "discord_user_id": "235754161377902593",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "Plop this book down and press F to do a flip or use as a double jump.",
+    "raw_message_content": "Plop this book down and press F to do a flip or use as a double jump.",
+    "summary_excerpt": "Book Flip.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/book-flip",
+    "v2_json_path": "v2/apps/book-flip/Book - Flip.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Book_-_Flip.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/Book_-_Flip_1427292873358971045/p1_knowledge.webp",
+    "media_type": ".webp",
+    "selection_reason": "same_author_nearby",
+    "is_fallback_any_author": false
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/Book_-_Flip_1427292873358971045/p1_knowledge.webp",
+      "original_filename": "knowledge.webp",
+      "content_type": "image/webp",
+      "relative_index": 1,
+      "same_author": true,
+      "selection_reason": "same_author_nearby",
+      "size_bytes": 21970,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1427292962483605564"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "book-flip-1427292873358971045",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T03:56:08+00:00",
+    "description": "Converted from invalid JSON",
+    "feature_tags": [
+      "unclassified"
+    ],
+    "interaction_modes": [],
+    "asset_profile": "light",
+    "script_complexity": "low",
+    "networking_profile": "local"
+  }
+}

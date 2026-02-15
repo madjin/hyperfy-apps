@@ -1,0 +1,17 @@
+{
+  "app_id": "firsthypv2-1364604780420272199",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:20:47+00:00",
+  "description": "Renders a room environment (ROOMERS4) with a GLB model and scrolls UV texture offsets on a mesh named UVSCROLL each frame, animating the Y-axis at 0.5 speed using material textureX/textureY properties for seamless looping.",
+  "feature_tags": [
+    "3d-model",
+    "animation",
+    "environment"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "low",
+  "networking_profile": "none"
+}

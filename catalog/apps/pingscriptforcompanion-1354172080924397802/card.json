@@ -1,0 +1,32 @@
+{
+  "name": "PingScriptFORcompanion",
+  "author": "~/drdoge.eth",
+  "description": "Responds to ping events from a companion or minimap system by calculating distance via Math.hypot and emitting pong events with the object's configurable display name, type, and position. Attach to any 3D model to make it scannable as a landmark.",
+  "tags": [
+    "interaction",
+    "ui",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "low",
+  "networking": "events",
+  "preview_url": "catalog/discord/hyp_media/PingScriptFORcompanion_1354172080924397802/m1_updated_companion.mp4",
+  "download_path": "v2-hyp/PingScriptFORcompanion.hyp",
+  "created_at": "2025-03-25T19:16:23.393Z",
+  "props": {
+    "name": "Train",
+    "type": "Train",
+    "description": "A scannable object in the world",
+    "tags": "Landmark",
+    "displayName": "Train",
+    "objectType": "LandMark"
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\n// Configure UI controls in App panel\napp.configure(() => [\n    {\n        key: 'displayName',\n        type: 'text',\n        label: 'Display Name',\n        value: app.name || 'Unknown Object'\n    },\n    {\n        key: 'objectType',\n        type: 'text',\n        label: 'Object Type', \n        value: app.type || 'scannable'\n    }\n]);\n\n// Handle pings with no storage\nworld.on('ping', ([position, radius, entityId]) => {\n    if (app.instanceId !== entityId && \n        Math.hypot(position.x - app.position.x, position.z - app.position.z) <= radius) {\n        world.emit('pong', [entityId, {\n            entityId: app.instanceId,\n            name: app.config?.displayName || \"Unknown Object\",\n            type: app.config?.objectType || \"scannable\",\n            position: app.position\n        }]);\n    }\n});\n}\n",
+  "asset_files": [
+    "PingScriptFORcompanion.glb"
+  ]
+}

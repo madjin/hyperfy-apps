@@ -1,0 +1,16 @@
+{
+  "app_id": "splinepinev1-1346505141473382451",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:28:58+00:00",
+  "description": "Spawns 30 cloned pine-part meshes along a sine-curve spline, scaling each piece smaller toward the top to procedurally generate a curved pine tree from a single lightweight 50kb GLB model. Randomizes global scale and Y-rotation on each load for natural variation.",
+  "feature_tags": [
+    "3d-model",
+    "environment"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none"
+}

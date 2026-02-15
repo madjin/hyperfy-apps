@@ -1,0 +1,19 @@
+{
+  "app_id": "rover-lavacargo-1339121960759721996",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:27:19+00:00",
+  "description": "Autonomous rover ship that patrols within a configurable radius, scans for nearby items via a perception system, and renders billboard UI panels displaying ship stability and cargo profitability stat bars that deplete over time. Emits ping and resource-transfer events to simulate a space trading sim",
+  "feature_tags": [
+    "npc",
+    "ui",
+    "interaction",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "high",
+  "networking_profile": "events"
+}

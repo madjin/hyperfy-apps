@@ -1,0 +1,16 @@
+{
+  "app_id": "test-level-1355236430376341764",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:29:32+00:00",
+  "description": "Renders a static 3D test level model (~3 MB GLB) as an environment scene. The script exports an empty main function, so no runtime logic executes beyond loading and displaying the level geometry.",
+  "feature_tags": [
+    "3d-model",
+    "environment"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "heavy",
+  "script_complexity": "low",
+  "networking_profile": "none"
+}

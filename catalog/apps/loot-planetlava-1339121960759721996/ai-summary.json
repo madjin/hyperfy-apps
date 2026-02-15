@@ -1,0 +1,18 @@
+{
+  "app_id": "loot-planetlava-1339121960759721996",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:23:18+00:00",
+  "description": "Renders a rotating lava planet GLB model as a collectible cargo loot pack. Listens for proximity-check and ping events, then emits item-detected when a collectron entity moves within range, supporting a space trading sim loop.",
+  "feature_tags": [
+    "3d-model",
+    "animation",
+    "interaction"
+  ],
+  "interaction_modes": [
+    "passive",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "events"
+}

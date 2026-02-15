@@ -1,0 +1,29 @@
+{
+  "name": "sit",
+  "author": "Wilson",
+  "description": "Renders a seat 3D model with an action button that lets a player sit down by anchoring them and playing a sitting emote animation. Syncs seat occupancy between server and clients so only one player sits at a time, and supports toggling trigger visibility.",
+  "tags": [
+    "interaction",
+    "animation",
+    "3d-model",
+    "multiplayer"
+  ],
+  "interaction_modes": [
+    "action",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking": "events",
+  "preview_url": "catalog/generated_previews/sit-1351223744022183987.png",
+  "download_path": "v2-hyp/sit.hyp",
+  "created_at": "2025-03-17T16:00:45.098Z",
+  "props": {
+    "emote": {
+      "type": "emote",
+      "name": "Sitting And Talking To Another Person.glb",
+      "url": "asset://ad0dc6273210096fa432edaddea494beaa855cc3f108f2e909c6d4242559a97a.glb"
+    },
+    "visibleType": "visible"
+  }
+}

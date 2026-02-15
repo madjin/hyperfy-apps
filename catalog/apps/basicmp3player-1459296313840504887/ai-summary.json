@@ -1,0 +1,18 @@
+{
+  "app_id": "basicmp3player-1459296313840504887",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:16:33+00:00",
+  "description": "Minimal clickable MP3 player that plays and pauses an audio node when the user clicks a GLB cube mesh. Supports uploaded files or pasted URLs, with configurable volume, loop, spatial/global mode, and auto-play on upload.",
+  "feature_tags": [
+    "audio",
+    "interaction",
+    "media-player",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none"
+}

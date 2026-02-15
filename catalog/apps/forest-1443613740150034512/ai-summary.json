@@ -1,0 +1,18 @@
+{
+  "app_id": "forest-1443613740150034512",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:20:58+00:00",
+  "description": "Procedural forest generator that clones up to 10,000 tree models across configurable circle or rectangle distribution shapes. Spawns clustered and scattered trees with randomized scale and rotation using a UI panel for clone count, cluster density, inner radius, and area size.",
+  "feature_tags": [
+    "environment",
+    "ui",
+    "3d-model",
+    "building"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "heavy",
+  "script_complexity": "medium",
+  "networking_profile": "none"
+}

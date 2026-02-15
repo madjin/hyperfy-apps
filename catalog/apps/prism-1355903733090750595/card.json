@@ -1,0 +1,101 @@
+{
+  "name": "Prism",
+  "author": "ash",
+  "description": "Class-based PvPvE combat system that damages players on hit events, triggers death emotes with freeze effects, teleports defeated players to configurable respawn locations, heals survivors over time, and renders floating damage numbers as billboard UI text on clients.",
+  "tags": [
+    "combat",
+    "animation",
+    "teleport",
+    "ui",
+    "audio",
+    "multiplayer"
+  ],
+  "interaction_modes": [
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "heavy",
+  "script_complexity": "high",
+  "networking": "events",
+  "preview_url": "catalog/discord/hyp_media/Prism_1355903733090750595/m6_xyz-skelly.mp4",
+  "download_path": "v2-hyp/Prism.hyp",
+  "created_at": "2025-03-30T13:57:21.442Z",
+  "props": {
+    "avatar": {
+      "type": "avatar",
+      "url": "assets/avatar.vrm"
+    },
+    "weapon": {
+      "type": "model",
+      "url": "assets/weapon.glb"
+    },
+    "attack1": {
+      "type": "emote",
+      "url": "assets/attack1.glb"
+    },
+    "attack2": {
+      "type": "emote",
+      "url": "assets/attack2.glb"
+    },
+    "attackEmote1": {
+      "type": "emote",
+      "url": "assets/attackEmote1.glb"
+    },
+    "attackEmote2": {
+      "type": "emote",
+      "url": "assets/attackEmote2.glb"
+    },
+    "attackSound": {
+      "type": "audio",
+      "url": "assets/attackSound.mp3"
+    },
+    "chargeEmote": {
+      "type": "emote",
+      "url": "assets/chargeEmote.glb"
+    },
+    "chargeIcon": {
+      "type": "texture",
+      "url": "assets/chargeIcon.png"
+    },
+    "chargeCost": 30,
+    "specialEmote": {
+      "type": "emote",
+      "url": "assets/specialEmote.glb"
+    },
+    "specialIcon": {
+      "type": "texture",
+      "url": "assets/specialIcon.png"
+    },
+    "specialCost": 50,
+    "attackIcon": {
+      "type": "texture",
+      "url": "assets/attackIcon.png"
+    },
+    "attackCost": 1,
+    "enabled": true,
+    "deathDuration": 5,
+    "healInterval": 2,
+    "healAmount": 10,
+    "deathEmote": {
+      "type": "emote",
+      "url": "assets/deathEmote.glb"
+    }
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\napp.configure([\n  {\n    key: 'enabled',\n    type: 'toggle',\n    label: 'Enabled',\n    initial: true,\n  },\n  {\n    key: 'deathEmote',\n    type: 'file',\n    kind: 'emote',\n    label: 'Death Emote',\n  },\n  {\n    key: 'deathDuration',\n    type: 'number',\n    label: 'Death Duration',\n    initial: 5,\n  },\n  {\n    key: 'healInterval',\n    type: 'number',\n    label: 'Heal Interval',\n    initial: 2,\n  },\n  {\n    key: 'healAmount',\n    type: 'number',\n    label: 'Heal Amount',\n    initial: 10,\n  },\n  {\n    key: 'add',\n    type: 'button',\n    label: 'Add Location',\n    onClick: () => app.send('add'),\n  },\n  {\n    key: 'clear',\n    type: 'button',\n    label: 'Clear Locations',\n    onClick: () => app.send('clear'),\n  },\n])\n\nconst LOCATIONS_KEY = 'prism:respawn_locations'\n\nconst v1 = new Vector3()\nconst v2 = new Vector3()\nconst q1 = new Quaternion()\nconst q2 = new Quaternion()\n\nconst enabled = props.enabled\nconst deathEmote = props.deathEmote ? props.deathEmote.url + '?l=0' : null\nconst deathDuration = props.deathDuration\nconst healInterval = props.healInterval\nconst healAmount = props.healAmount\n\nif (!enabled) return\n\n/**\n * Server Logic\n */\n\nif (world.isServer) {\n  const dead = new Set() \n  let locations = world.get(LOCATIONS_KEY) || []\n  if (!locations.length) addDefaultLocation()\n  function addDefaultLocation() {\n    // 1m in front of box\n    const origin = app.position.clone()\n    const dir = new Vector3(0, 0, 1).applyQuaternion(app.quaternion)\n    const projected = dir.clone().multiplyScalar(1)\n    const position = origin.clone().add(projected)\n    locations.push({\n      position: position.toArray(),\n      quaternion: [0, 0, 0, 1],\n      isDefault: true,\n    })\n  }\n  function removeDefaultLocation() {\n    locations = locations.filter(loc => !loc.isDefault)\n  }\n  function saveLocations() {\n    world.set(LOCATIONS_KEY, locations)\n  }\n  function getLocation() {\n    const location = locations[num(0, locations.",
+  "asset_files": [
+    "Prism.glb",
+    "attack1.glb",
+    "attack2.glb",
+    "attackEmote1.glb",
+    "attackEmote2.glb",
+    "attackIcon.png",
+    "attackSound.mp3",
+    "avatar.vrm",
+    "chargeEmote.glb",
+    "chargeIcon.png",
+    "deathEmote.glb",
+    "specialEmote.glb",
+    "specialIcon.png",
+    "weapon.glb"
+  ]
+}

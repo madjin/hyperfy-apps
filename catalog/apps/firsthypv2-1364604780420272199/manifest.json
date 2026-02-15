@@ -1,0 +1,66 @@
+{
+  "app_id": "firsthypv2-1364604780420272199",
+  "app_slug": "firsthypv2",
+  "app_name": "firstHYPv2",
+  "source": {
+    "hyp_filename": "firstHYPv2.hyp",
+    "discord_attachment_id": "1364604780135186543",
+    "discord_message_id": "1364604780420272199",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-04-23T14:12:12.783Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1346623562462527649/1364604780135186543/firstHYPv2.hyp?ex=6979707c&is=69781efc&hm=dac87070ed84dc989b11baf5dd1b6f61cda0aed990e7c17eb7a2fb40cea6ed52&"
+  },
+  "author": {
+    "display_name": "vox",
+    "discord_user_id": "415262868217266177",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "firstHYPv2.hyp",
+    "raw_message_content": "",
+    "summary_excerpt": "firstHYPv2.hyp",
+    "source_priority_used": "summary_excerpt"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/firsthypv2",
+    "v2_json_path": "v2/apps/firsthypv2/blueprint.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/firstHYPv2.md"
+  },
+  "preview": {
+    "primary_media_path": null,
+    "media_type": null,
+    "selection_reason": null,
+    "is_fallback_any_author": false
+  },
+  "media": [],
+  "status": {
+    "has_preview": false,
+    "needs_media_review": true,
+    "needs_author_review": false,
+    "flags": [
+      "no_media_found"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "firsthypv2-1364604780420272199",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-14T21:53:31+00:00",
+    "description": "Room decoration app with animated UV-scrolling texture effect. Continuously scrolls material textures on optimized plane geometry using frame-based UV offset updates. Lightweight visual element suitable for environmental ambiance.",
+    "feature_tags": [
+      "animation",
+      "environment",
+      "3d-model"
+    ],
+    "interaction_modes": [
+      "passive"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "low",
+    "networking_profile": "none"
+  }
+}

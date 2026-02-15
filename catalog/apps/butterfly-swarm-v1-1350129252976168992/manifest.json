@@ -1,0 +1,80 @@
+{
+  "app_id": "butterfly-swarm-v1-1350129252976168992",
+  "app_slug": "butterfly-swarm-v1",
+  "app_name": "Butterfly_Swarm_V1",
+  "source": {
+    "hyp_filename": "Butterfly_Swarm_V1.hyp",
+    "discord_attachment_id": "1350129253861167114",
+    "discord_message_id": "1350129252976168992",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-03-14T15:31:38.098Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1350129252976168992/1350129253861167114/Butterfly_Swarm_V1.hyp?ex=6979831a&is=6978319a&hm=5bb4eec2fc22d8800c3b3cce6d7b619bbd4a524a7760481f3e4a9895573c5ec3&"
+  },
+  "author": {
+    "display_name": "Gert-Jan Akerboom",
+    "discord_user_id": "601886221072990251",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "Butterfly swarm for Hyperfy V2\n\n\nToday i made version 3, the flying behavior is now better (pretty and random) \nI added UI inputs for:\n\nButterfly amount\nRandom butterfly scale min/max\nRandom wingflap-speed min/max\nRandom fly-speed min/max\n\nI would like to have the possibility for people to upload their own \u2018butterfly wing .png (not sure if this is possible though)\n\nFor now, if you like to create your own version of a butterfly swarm, you can use this blender file (change_wing_image.blend) to change the image in the wing_tex material and export as glb\n\nThen add the app version 3 to your world and change the model for your own.\n\nThings i want to add in later versions:\n- Toggle original glb on/off (so you can see where the center of the swarm is)\n- have users upload their own wing image\n- expose some more variables to the UI\n- prevent the butterflies from flying under the ground plane\n\nHave a fun weekend !",
+    "raw_message_content": "Butterfly swarm for Hyperfy V2\n\n\nToday i made version 3, the flying behavior is now better (pretty and random) \nI added UI inputs for:\n\nButterfly amount\nRandom butterfly scale min/max\nRandom wingflap-speed min/max\nRandom fly-speed min/max\n\nI would like to have the possibility for people to upload their own \u2018butterfly wing .png (not sure if this is possible though)\n\nFor now, if you like to create your own version of a butterfly swarm, you can use this blender file (change_wing_image.blend) to change the image in the wing_tex material and export as glb\n\nThen add the app version 3 to your world and change the model for your own.\n\nThings i want to add in later versions:\n- Toggle original glb on/off (so you can see where the center of the swarm is)\n- have users upload their own wing image\n- expose some more variables to the UI\n- prevent the butterflies from flying under the ground plane\n\nHave a fun weekend !",
+    "summary_excerpt": "Butterfly Swarm V1.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/butterfly-swarm-v1",
+    "v2_json_path": "v2/apps/butterfly-swarm-v1/Butterfly Swarm V1.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Butterfly_Swarm_V1.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/Butterfly_Swarm_V1_1350129252976168992/p0_5000.png",
+    "media_type": ".png",
+    "selection_reason": "same_message",
+    "is_fallback_any_author": false
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/Butterfly_Swarm_V1_1350129252976168992/p0_5000.png",
+      "original_filename": "5000.png",
+      "content_type": "image/png",
+      "relative_index": 0,
+      "same_author": true,
+      "selection_reason": "same_message",
+      "size_bytes": 903875,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1350130188687642774"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "butterfly-swarm-v1-1350129252976168992",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-14T19:37:37+00:00",
+    "description": "Procedurally generates an animated swarm of butterflies with randomized flight patterns, scales, and wing flap speeds. Features UI controls for butterfly count, size ranges, and movement parameters. Ideal for ambient environment decoration.",
+    "feature_tags": [
+      "animation",
+      "environment",
+      "particles",
+      "ui"
+    ],
+    "interaction_modes": [
+      "passive",
+      "ui"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "medium",
+    "networking_profile": "none"
+  }
+}

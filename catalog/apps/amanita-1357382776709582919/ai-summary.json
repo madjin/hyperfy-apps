@@ -1,0 +1,17 @@
+{
+  "app_id": "amanita-1357382776709582919",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:16:21+00:00",
+  "description": "Clones a mushroom 3D model up to 500 times and scatters them randomly across a configurable rectangular area with randomized rotation and scale. Spawns an Amanita particle-like field useful for ground cover like grass or fungi.",
+  "feature_tags": [
+    "3d-model",
+    "environment",
+    "ui"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "low",
+  "networking_profile": "none"
+}

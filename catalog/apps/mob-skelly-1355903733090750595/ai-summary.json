@@ -1,0 +1,22 @@
+{
+  "app_id": "mob-skelly-1355903733090750595",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:24:09+00:00",
+  "description": "Skeleton mob NPC that spawns with a VRM avatar, chases players within an aggro radius, damages them with melee attacks, and respawns after death. Uses a threat table to track targets, animates idle/run/attack/dead emotes, and syncs state across server and clients via networked events in the Prism Pv",
+  "feature_tags": [
+    "npc",
+    "combat",
+    "animation",
+    "physics",
+    "audio",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "trigger",
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "heavy",
+  "script_complexity": "high",
+  "networking_profile": "events"
+}

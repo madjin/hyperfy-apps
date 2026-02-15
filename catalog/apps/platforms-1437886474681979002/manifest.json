@@ -1,0 +1,134 @@
+{
+  "app_id": "platforms-1437886474681979002",
+  "app_slug": "platforms",
+  "app_name": "Platforms",
+  "source": {
+    "hyp_filename": "Platforms.hyp",
+    "discord_attachment_id": "1437886474300166304",
+    "discord_message_id": "1437886474681979002",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-11-11T19:27:30.203Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1437886474300166304/Platforms.hyp?ex=69163122&is=6914dfa2&hm=16f1500b67b9adb7505b7200255893a4ef81b2b4de5e4afa1456848869f55506&"
+  },
+  "author": {
+    "display_name": ".hyp shaman",
+    "discord_user_id": "297290503181959169",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "have fun",
+    "raw_message_content": "have fun",
+    "summary_excerpt": "Platforms.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/platforms",
+    "v2_json_path": "v2/apps/platforms/Platforms.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Platforms.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/Platforms_1437886474681979002/m2_image.png",
+    "media_type": ".png",
+    "selection_reason": "any_author_fallback",
+    "is_fallback_any_author": true
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/Platforms_1437886474681979002/m7_Desktop_2025.11.11_-_10.41.47.01.mp4",
+      "original_filename": "Desktop_2025.11.11_-_10.41.47.01.mp4",
+      "content_type": "video/mp4",
+      "relative_index": -7,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 718000,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1437829987230154834"
+    },
+    {
+      "catalog_path": "catalog/discord/hyp_media/Platforms_1437886474681979002/m6_image.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": -6,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 340225,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1437865947137446109"
+    },
+    {
+      "catalog_path": "catalog/discord/hyp_media/Platforms_1437886474681979002/m3_image.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": -3,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 577117,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1437868142708916324"
+    },
+    {
+      "catalog_path": "catalog/discord/hyp_media/Platforms_1437886474681979002/m2_image.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": -2,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 432421,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1437872177583100055"
+    },
+    {
+      "catalog_path": "catalog/discord/hyp_media/Platforms_1437886474681979002/p3_Desktop_2025.11.11_-_17.21.42.05.mp4",
+      "original_filename": "Desktop_2025.11.11_-_17.21.42.05.mp4",
+      "content_type": "video/mp4",
+      "relative_index": 3,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 1893114,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1437930608952213644"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [
+      "media_fallback_any_author"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "platforms-1437886474681979002",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:12:15+00:00",
+    "description": "A personal scheduler that manages tasks, calendar events, and reminders in one place",
+    "feature_tags": [
+      "calendar",
+      "scheduling",
+      "reminders",
+      "productivity"
+    ],
+    "interaction_modes": [
+      "trigger",
+      "action"
+    ],
+    "asset_profile": "medium",
+    "script_complexity": "medium",
+    "networking_profile": "local"
+  }
+}

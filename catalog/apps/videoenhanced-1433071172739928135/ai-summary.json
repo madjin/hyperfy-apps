@@ -1,0 +1,16 @@
+{
+  "app_id": "videoenhanced-1433071172739928135",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:30:34+00:00",
+  "description": "Renders a video screen with configurable shape options (including oval) and a toggleable lit/unlit mode. Displays media on selectable geometric surfaces, allowing users to switch between shapes and lighting states via UI controls.",
+  "feature_tags": [
+    "media-player",
+    "ui",
+    "3d-model",
+    "interaction"
+  ],
+  "interaction_modes": [],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "none"
+}

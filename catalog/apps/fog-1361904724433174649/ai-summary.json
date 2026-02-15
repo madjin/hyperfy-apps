@@ -1,0 +1,16 @@
+{
+  "app_id": "fog-1361904724433174649",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:20:52+00:00",
+  "description": "Spawns a box-shaped particle emitter that renders slow-drifting, semi-transparent fog across a 20x20 area. Uses a configurable texture image and alphaOverLife curve to fade particles in and out, creating an atmospheric fog layer in the environment.",
+  "feature_tags": [
+    "particles",
+    "environment"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none"
+}

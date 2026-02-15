@@ -1,0 +1,20 @@
+{
+  "app_id": "emote-rom-1361914201701875788",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:20:21+00:00",
+  "description": "Binds up to 10 emote animations to number keys (0-9), triggers player emote effects with a floating emoji UI indicator above the avatar, and syncs playback across all clients via server broadcast so every player sees the animation and emoji in multiplayer.",
+  "feature_tags": [
+    "animation",
+    "ui",
+    "multiplayer",
+    "interaction",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "events"
+}

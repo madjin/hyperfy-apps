@@ -1,0 +1,35 @@
+{
+  "name": "Discord3",
+  "author": "Gert-Jan Akerboom",
+  "description": "Broadcasts world events to a Discord webhook: sends player join/leave and chat messages, tracks session duration, and renders a rotating Discord logo with screen-space UI notifications. Supports excluding specific player names and toggling logo visibility.",
+  "tags": [
+    "ui",
+    "animation",
+    "interaction",
+    "3d-model",
+    "multiplayer"
+  ],
+  "interaction_modes": [
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking": "events",
+  "preview_url": "catalog/generated_previews/discord3-1421084209073885294.png",
+  "download_path": "v2-hyp/Discord3.hyp",
+  "created_at": "2025-09-26T10:41:17.911Z",
+  "props": {
+    "webhook": "https://discord.com/api/webhooks/1420401455269023917/PcnFDVPD1uWbWhNfGOebUn8ByUXs42NqFKjLdx01eYMa1ZRyNHdxLGH5guzgEptMz299",
+    "broadcastChat": true,
+    "ownerName": "Akerboom",
+    "reportTime": 0,
+    "excludedNames": "Akerboom",
+    "showLogo": true,
+    "showNotifications": true
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\nfunction parseTemplate(template, values) {\n    return template.replace(/\\${(\\w+)}/g, (match, key) => {\n      return values[key] !== undefined ? values[key] : match;\n    });\n  }\n  \n  app.configure([\n    {\n      key: 'broadcastChat',\n      type: 'switch',\n      label: 'broadcast',\n      options: [\n        { label: 'on', value: true },\n        { label: 'off', value: false },\n      ],\n    },\n    {\n      key: 'webhook',\n      type: 'text',\n      label: \"Webhook URL\"\n    },\n    {\n      key: 'excludedNames',\n      type: 'text',\n      label: \"Excluded Names (comma-separated)\",\n      placeholder: \"Enter names to exclude from join/leave messages\"\n    },\n    {\n      key: 'showLogo',\n      type: 'switch',\n      label: 'Show Discord Logo',\n      options: [\n        { label: 'on', value: true },\n        { label: 'off', value: false },\n      ],\n    },\n    {\n      key: 'showNotifications',\n      type: 'switch',\n      label: 'Screen UI notification',\n      options: [\n        { label: 'yes', value: true },\n        { label: 'no', value: false },\n      ],\n    },\n  ])\n\n  if (world.isServer) {\n    \n    // Track player session start times\n    const playerSessions = new Map();\n    \n    // Function to format duration in human-readable format\n    const formatDuration = (milliseconds) => {\n      const seconds = Math.floor(milliseconds / 1000);\n      const minutes = Math.floor(seconds / 60);\n      const hours = Math.floor(minutes / 60);\n      \n      if (hours > 0) {\n        return `${hours}h ${minutes % 60}m ${seconds % 60}s`;\n      } else if (minutes > 0) {\n        return `${minutes}m ${seconds % 60}s`;\n      } else {\n        return `${seconds}s`;\n      }\n    };\n\n    // Function to check if a player name should be excluded\n    const isPlayerExcluded = (playerName, playerId) => {\n      if (!app.config.excludedNames || !app.config.excludedNames.trim()) {\n        return false;\n      }\n      \n      const excludedNames = app.confi",
+  "asset_files": [
+    "Discord3.glb"
+  ]
+}

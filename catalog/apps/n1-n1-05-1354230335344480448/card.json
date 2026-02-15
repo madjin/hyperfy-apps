@@ -1,0 +1,22 @@
+{
+  "name": "n1-n1-05",
+  "author": "ash",
+  "description": "Loads a GLB model and sets its collider to trimesh mode by disabling convex on the collider node, enabling precise collision detection that matches the exact mesh geometry rather than a simplified convex hull.",
+  "tags": [
+    "physics",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking": "none",
+  "preview_url": "catalog/generated_previews/n1-n1-05-1354230335344480448.jpg",
+  "download_path": "v2-hyp/n1-n1-05.hyp",
+  "created_at": "2025-03-25T23:07:52.329Z",
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\nconst collider = app.get('collider')\ncollider.convex = false\n}\n",
+  "asset_files": [
+    "n1-n1-05.glb"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "app_id": "model-1353698908353724480",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:24:13+00:00",
+  "description": "Loads a GLB 3D model and traverses its mesh nodes to create a rigidbody with geometry-based colliders for each mesh. Exposes configurable scale and a collision toggle switch via the app UI, enabling quick physics-ready placement of custom models.",
+  "feature_tags": [
+    "3d-model",
+    "physics",
+    "ui"
+  ],
+  "interaction_modes": [
+    "trigger"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "none"
+}

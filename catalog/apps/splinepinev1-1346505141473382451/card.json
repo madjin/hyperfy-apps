@@ -1,0 +1,22 @@
+{
+  "name": "SplinePineV1",
+  "author": "Gert-Jan Akerboom",
+  "description": "Spawns 30 cloned pine-part meshes along a sine-curve spline, scaling each piece smaller toward the top to procedurally generate a curved pine tree from a single lightweight 50kb GLB model. Randomizes global scale and Y-rotation on each load for natural variation.",
+  "tags": [
+    "3d-model",
+    "environment"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking": "none",
+  "preview_url": "catalog/discord/hyp_media/SplinePineV1_1346505141473382451/m1_splinepine0001-1000.mp4",
+  "download_path": "v2-hyp/SplinePineV1.hyp",
+  "created_at": "2025-03-04T15:30:42.583Z",
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\n// Get the cube model\nconst cube = app.get('pinepart');\n\nif (!cube) {\n  console.error('Could not find Cube model');\n  return;\n}\n\n// Global random scale for the entire structure\nconst GLOBAL_SCALE = num(0.5, 1.5, 2); // Random scale between 0.5x and 1.5x\nconst GLOBAL_Y_ROTATION = num(0, 360); // Random Y-axis rotation for the whole structure\n\nconst TOTAL_CUBES = 30;\nconst CURVE_AMOUNT = 2 * GLOBAL_SCALE; // Scale the curve amount\nconst TOTAL_HEIGHT = 10 * GLOBAL_SCALE; // Scale total height\nconst MIN_SCALE = 0.1; // Smallest size at the top\nconst SPACING_FACTOR = 2; // Controls how much spacing reduces at the top\n\n// Create cubes along the curve\nfor (let i = 0; i < TOTAL_CUBES; i++) {\n    const cubeClone = cube.clone(true);\n    \n    // Adjust t to create a non-linear height distribution\n    const t = 1 - Math.pow(1 - (i / (TOTAL_CUBES - 1)), SPACING_FACTOR);\n    \n    // Position using sine curve\n    const x = CURVE_AMOUNT * Math.sin(t * Math.PI);\n    const y = t * TOTAL_HEIGHT;\n    \n    // Scale the cube (larger at the bottom, smaller at the top) and apply global scaling\n    const scale = (1 - t * (1 - MIN_SCALE)) * GLOBAL_SCALE;\n    cubeClone.scale.set(scale, scale, scale);\n    \n    // Apply individual random Y rotation using Hyperfy's num() function\n    const randomYRotation = num(0, 360);\n    cubeClone.rotation.set(0, randomYRotation, 0);\n    \n    // Apply global Y rotation\n    const rotatedX = x * Math.cos(GLOBAL_Y_ROTATION * (Math.PI / 180)) - 0 * Math.sin(GLOBAL_Y_ROTATION * (Math.PI / 180));\n    const rotatedZ = x * Math.sin(GLOBAL_Y_ROTATION * (Math.PI / 180)) + 0 * Math.cos(GLOBAL_Y_ROTATION * (Math.PI / 180));\n    \n    cubeClone.position.set(rotatedX, y, rotatedZ);\n    \n    app.add(cubeClone);\n}\n\n// Hide the original cube model\ncube.visible = false;\n\n}\n",
+  "asset_files": [
+    "SplinePineV1.glb"
+  ]
+}

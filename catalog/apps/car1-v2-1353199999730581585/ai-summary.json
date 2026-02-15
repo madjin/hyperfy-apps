@@ -1,0 +1,19 @@
+{
+  "app_id": "car1-v2-1353199999730581585",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:19:12+00:00",
+  "description": "Drivable car with raycast suspension that simulates spring forces, lateral grip, and anti-roll stabilization per wheel. Players steer and accelerate via WASD controls, and an anchor node seats the driver. Uses fixedUpdate physics with world.raycast to ground each tire and apply forces at local posit",
+  "feature_tags": [
+    "vehicle",
+    "physics",
+    "interaction",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "high",
+  "networking_profile": "events"
+}

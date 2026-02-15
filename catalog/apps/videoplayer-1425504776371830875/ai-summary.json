@@ -1,0 +1,19 @@
+{
+  "app_id": "videoplayer-1425504776371830875",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:30:39+00:00",
+  "description": "Plays video files or HLS (.m3u8) streams on a configurable surface node with adjustable width, height, fit, and volume. Syncs playback state across multiplayer clients using elapsed-time math for VOD and immediate play for live streams.",
+  "feature_tags": [
+    "media-player",
+    "audio",
+    "multiplayer",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "events"
+}

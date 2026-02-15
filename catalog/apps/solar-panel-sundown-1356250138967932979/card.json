@@ -1,0 +1,35 @@
+{
+  "name": "Solar_Panel_-_sundown",
+  "author": "ash",
+  "description": "Solar panel 3D model that configures the world sky node by setting a custom skybox texture, HDR environment map, sun direction based on hour/AM-PM input, and sun intensity. Calculates sun direction by rotating a vector around the X axis to simulate time-of-day lighting.",
+  "tags": [
+    "environment",
+    "3d-model",
+    "ui"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "low",
+  "networking": "none",
+  "preview_url": "catalog/discord/hyp_media/Solar_Panel_-_sundown_1356250138967932979/m5_xyz-skelly-200.mp4",
+  "download_path": "v2-hyp/Solar_Panel_-_sundown.hyp",
+  "created_at": "2025-03-31T12:53:51.039Z",
+  "props": {
+    "sky": {
+      "type": "texture",
+      "name": "sundown2-4k.jpg",
+      "url": "asset://91a4557e7fe2cc3678f166852f558de98538ecd4e46018ca8c99ba9654adff1d.jpg"
+    },
+    "hdr": {
+      "type": "hdr",
+      "name": "sundown2.hdr",
+      "url": "asset://beed60f0c2b9d1291c12d0ff694763bdcce28e55c9886fc6be75b76ff02cc31b.hdr"
+    },
+    "hour": 3,
+    "period": "pm",
+    "hour2": 9,
+    "intensity": 1
+  }
+}

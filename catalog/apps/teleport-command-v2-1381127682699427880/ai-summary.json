@@ -1,0 +1,19 @@
+{
+  "app_id": "teleport-command-v2-1381127682699427880",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:29:22+00:00",
+  "description": "Teleports a player to a stored destination when they type a configurable slash command (e.g. /home). An admin clicks a button to set the destination position and rotation, which persists via world storage. The server syncs destination state to all clients via networked events.",
+  "feature_tags": [
+    "teleport",
+    "interaction",
+    "ui",
+    "multiplayer"
+  ],
+  "interaction_modes": [
+    "passive",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "events"
+}

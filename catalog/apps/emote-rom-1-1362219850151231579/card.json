@@ -1,0 +1,57 @@
+{
+  "name": "Emote_Rom_1",
+  "author": "~/drdoge.eth",
+  "description": "Emote player ROM that triggers up to 10 configurable emote animations via numpad keys, syncs playback across multiplayer clients using server broadcast, and renders a floating emoji UI billboard above each player during the emote duration.",
+  "tags": [
+    "animation",
+    "ui",
+    "multiplayer",
+    "interaction",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking": "events",
+  "preview_url": "catalog/generated_previews/emote-rom-1-1362219850151231579.jpg",
+  "download_path": "v2-hyp/Emote_Rom_1.hyp",
+  "created_at": "2025-04-17T00:15:21.097Z",
+  "props": {
+    "rName": "Emotes",
+    "color": "0.0957",
+    "emote1Emoji": "\ud83d\ude0a",
+    "emote2Emoji": "",
+    "emote3Emoji": "",
+    "emote4Emoji": "",
+    "emote5Emoji": "\ud83c\udfb5",
+    "emote6Emoji": "",
+    "emote7Emoji": "",
+    "emote8Emoji": "",
+    "emote9Emoji": "",
+    "emote0Emoji": "",
+    "duration": 6,
+    "emote1File": {
+      "type": "emote",
+      "name": "Skateboard Kick Push.glb",
+      "url": "asset://794179bb27efd57e8f2043d0b54fec96232ec0443bacda527cd8e0052019e9c4.glb"
+    },
+    "emote2File": {
+      "type": "emote",
+      "name": "Breakdance Finishing Combo Var 1.glb",
+      "url": "asset://501b55d3c45dd3132d38019c2383fb03b9a22a983ef64c68a0e7c1c3334664f3.glb"
+    },
+    "emote3File": {
+      "type": "emote",
+      "name": "Breakdance Finishing Combo Var 2.glb",
+      "url": "asset://2595bcdc8c8b5be4847b4f43d424220dee04b3d8a68798e8d8eef73bf2f900f6.glb"
+    },
+    "emote4File": {
+      "type": "emote",
+      "name": "Breakdance Finishing Combo Var 3.glb",
+      "url": "asset://98c5162baf5d090d63f3ed9e70d3a94a61420d8b60cc45f7ddce606e1ff43fb5.glb"
+    }
+  }
+}

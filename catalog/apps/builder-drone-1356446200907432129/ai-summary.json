@@ -1,0 +1,21 @@
+{
+  "app_id": "builder-drone-1356446200907432129",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:17:11+00:00",
+  "description": "Spawns a flyable builder drone with spinning rotors that a player controls via a configurable hold-key keybind. Syncs position and quaternion across server and clients using networked events, and overrides the camera to a first-person drone view for building in flight mode.",
+  "feature_tags": [
+    "vehicle",
+    "camera",
+    "physics",
+    "animation",
+    "multiplayer",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "high",
+  "networking_profile": "events"
+}

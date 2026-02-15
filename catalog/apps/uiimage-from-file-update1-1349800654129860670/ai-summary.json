@@ -1,0 +1,16 @@
+{
+  "app_id": "uiimage-from-file-update1-1349800654129860670",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:30:15+00:00",
+  "description": "Renders a configurable UI panel that displays a user-uploaded image file (jpg/png/webp) with adjustable width, height, object-fit mode, and 3D position. Creates uiview and uiimage nodes, supports billboard mode, and exposes range/number props for sizing and placement.",
+  "feature_tags": [
+    "ui",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "ui"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none"
+}

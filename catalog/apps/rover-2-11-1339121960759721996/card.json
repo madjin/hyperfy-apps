@@ -1,0 +1,41 @@
+{
+  "name": "Rover.2.11",
+  "author": "maximus",
+  "description": "Autonomous collectron rover that patrols within a configurable radius, detects nearby items via perception scans, and depletes health/loot stats over time. Renders a billboard UI panel displaying status, target info, and stat bars. Emits proximity-check and resource-transfer events to coordinate wit",
+  "tags": [
+    "npc",
+    "ui",
+    "interaction",
+    "3d-model",
+    "environment"
+  ],
+  "interaction_modes": [
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "high",
+  "networking": "events",
+  "preview_url": "catalog/discord/hyp_media/Rover.2.11_1339121960759721996/p0_vt01.png",
+  "download_path": "v2-hyp/Rover.2.11.hyp",
+  "created_at": "2025-02-12T06:32:35.128Z",
+  "props": {
+    "armorValue": 25,
+    "moveSpeed": 3,
+    "perceptionRadius": 50,
+    "baseHealth": 80,
+    "baseLoot": 80,
+    "healthRegenRate": 3,
+    "lootRegenRate": 3,
+    "healthDepleteRate": 3,
+    "lootDepleteRate": 3,
+    "speed": 3,
+    "healthDepletionTime": 2,
+    "lootDepletionTime": 1,
+    "rotationSpeed": 10,
+    "perceptionAngle": 360,
+    "perceptionRate": 5,
+    "pauseDuration": 2,
+    "patrolRadius": 50
+  }
+}

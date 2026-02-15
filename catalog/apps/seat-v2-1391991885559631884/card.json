@@ -1,0 +1,70 @@
+{
+  "name": "Seatv2",
+  "author": "0mka",
+  "description": "Interactive seat that anchors a player to a configurable sitting position and triggers one of four selectable sitting emotes. Syncs occupancy state via server networking, displays a hover UI image on pointer enter, and supports both hold-action and click-pointer interaction modes with adjustable dis",
+  "tags": [
+    "interaction",
+    "animation",
+    "ui",
+    "3d-model",
+    "multiplayer"
+  ],
+  "interaction_modes": [
+    "action",
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking": "events",
+  "preview_url": "catalog/generated_previews/seat-v2-1391991885559631884.jpg",
+  "download_path": "v2-hyp/Seatv2.hyp",
+  "created_at": "2025-07-08T03:58:47.476Z",
+  "props": {
+    "emote": {
+      "type": "emote",
+      "url": "assets/emote.glb"
+    },
+    "visibleType": "visible",
+    "hoverImage": {
+      "type": "texture",
+      "url": "assets/hoverImage.webp"
+    },
+    "interactionType": "action",
+    "actionLabel": "Sit",
+    "actionDistance": 3,
+    "actionDuration": 0.5,
+    "enableHoverUI": "enabled",
+    "actionYPosition": 0,
+    "activeEmote": "emote1",
+    "emote1": {
+      "type": "emote",
+      "url": "assets/emote1.glb"
+    },
+    "emote2": {
+      "type": "emote",
+      "url": "assets/emote2.glb"
+    },
+    "emote3": {
+      "type": "emote",
+      "url": "assets/emote3.glb"
+    },
+    "emote4": {
+      "type": "emote",
+      "url": "assets/emote4.glb"
+    },
+    "anchorXPosition": 0,
+    "anchorYPosition": 0.09
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\napp.configure([\n  {\n    type: 'section',\n    label: 'Animation'\n  },\n  {\n    key: 'emote1',\n    type: 'file',\n    kind: 'emote',\n    label: 'Emote 1',\n    hint: 'First animation option'\n  },\n  {\n    key: 'emote2',\n    type: 'file',\n    kind: 'emote',\n    label: 'Emote 2',\n    hint: 'Second animation option'\n  },\n  {\n    key: 'emote3',\n    type: 'file',\n    kind: 'emote',\n    label: 'Emote 3',\n    hint: 'Third animation option'\n  },\n  {\n    key: 'emote4',\n    type: 'file',\n    kind: 'emote',\n    label: 'Emote 4',\n    hint: 'Fourth animation option'\n  },\n  {\n    key: 'activeEmote',\n    type: 'switch',\n    label: 'Active Emote',\n    options: [\n      { value: 'emote1', label: 'Emote 1' },\n      { value: 'emote2', label: 'Emote 2' },\n      { value: 'emote3', label: 'Emote 3' },\n      { value: 'emote4', label: 'Emote 4' }\n    ],\n    initial: 'emote1',\n    hint: 'Choose which emote to use when sitting'\n  },\n  {\n    type: 'section',\n    label: 'Visual'\n  },\n  {\n    key: 'visibleType',\n    type: 'switch',\n    label: 'Visibility',\n    options: [\n      { value: 'visible', label: 'Visible' },\n      { value: 'invisible', label: 'Invisible' }\n    ],\n    initial: 'visible',\n    hint: 'Show or hide the trigger mesh'\n  },\n  {\n    key: 'hoverImage',\n    type: 'file',\n    kind: 'texture',\n    label: 'Hover Image',\n    optional: true,\n    hint: 'Image to display when hovering over the seat'\n  },\n  {\n    key: 'enableHoverUI',\n    type: 'switch',\n    label: 'Enable Hover UI',\n    options: [\n      { value: 'enabled', label: 'Enabled' },\n      { value: 'disabled', label: 'Disabled' }\n    ],\n    initial: 'enabled',\n    hint: 'Show hover image when pointing at the seat'\n  },\n  {\n    type: 'section',\n    label: 'Interaction'\n  },\n  {\n    key: 'interactionType',\n    type: 'switch',\n    label: 'Interaction',\n    options: [\n      { value: 'action', label: 'Action (Hold to interact)' },\n      { value: 'pointer', label: 'Pointer ",
+  "asset_files": [
+    "Seat\ud83e\ude91v2.glb",
+    "Seat\ud83e\ude91v2__image.webp",
+    "emote.glb",
+    "emote1.glb",
+    "emote2.glb",
+    "emote3.glb",
+    "emote4.glb",
+    "hoverImage.webp"
+  ]
+}

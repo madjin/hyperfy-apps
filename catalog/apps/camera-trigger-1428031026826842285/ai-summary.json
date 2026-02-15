@@ -1,0 +1,18 @@
+{
+  "app_id": "camera-trigger-1428031026826842285",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:18:48+00:00",
+  "description": "Creates a trigger zone collider that detects when the local player steps on it and smoothly lerps the camera to a fixed overlook position. On exit, the camera transitions back to the player's eye level. Ideal for museum or gallery camera control.",
+  "feature_tags": [
+    "camera",
+    "physics",
+    "interaction",
+    "animation"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "none"
+}

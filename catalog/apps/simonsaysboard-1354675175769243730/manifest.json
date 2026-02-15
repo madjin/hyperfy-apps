@@ -1,0 +1,80 @@
+{
+  "app_id": "simonsaysboard-1354675175769243730",
+  "app_slug": "simonsaysboard",
+  "app_name": "SimonSaysBoard",
+  "source": {
+    "hyp_filename": "SimonSaysBoard.hyp",
+    "discord_attachment_id": "1354675175039176744",
+    "discord_message_id": "1354675175769243730",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-03-27T04:35:30.551Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1354675175039176744/SimonSaysBoard.hyp?ex=69799212&is=69784092&hm=e07ae606d366bfc410e2a61d9fb6f4e3fcc99823fd2072966fced6cf39be972c&"
+  },
+  "author": {
+    "display_name": "cru",
+    "discord_user_id": "735663632356212887",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "simple idea for a minigame I'm testing. Very work in progress \n\"Simon Says\" - it's not technically Simon Says, but a similar vibe. \n\nThe screen displays a color, and players must jump to the correct block in time. In the final game, if they fail to do this, they would fall into a pit and die. \n\nThe game would increase in difficulty by getting quicker, reducing the # of functioning colors in the arena, or shrinking the cube sizes. There's a whole bunch of variables that could be added. \n\nEventually when there's one player remaining, the game would end. \n\nNext steps would be to add audio feedback, physics, and integrate with an HP system, like the one <@357905702926286858> created. There are also some issues with the way the colors are sent over to the playing area. It just grabs it from the local console I think \n\nThis idea is inspired by a project <@783416470205497394>  is working on where various colored cubes are instanced.",
+    "raw_message_content": "simple idea for a minigame I'm testing. Very work in progress \n\"Simon Says\" - it's not technically Simon Says, but a similar vibe. \n\nThe screen displays a color, and players must jump to the correct block in time. In the final game, if they fail to do this, they would fall into a pit and die. \n\nThe game would increase in difficulty by getting quicker, reducing the # of functioning colors in the arena, or shrinking the cube sizes. There's a whole bunch of variables that could be added. \n\nEventually when there's one player remaining, the game would end. \n\nNext steps would be to add audio feedback, physics, and integrate with an HP system, like the one <@357905702926286858> created. There are also some issues with the way the colors are sent over to the playing area. It just grabs it from the local console I think \n\nThis idea is inspired by a project <@783416470205497394>  is working on where various colored cubes are instanced.",
+    "summary_excerpt": "SimonSaysBoard.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/simonsaysboard",
+    "v2_json_path": "v2/apps/simonsaysboard/SimonSaysBoard.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/SimonSaysBoard.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/SimonSaysBoard_1354675175769243730/p0_2025-03-27_00-21-03_1.mp4",
+    "media_type": ".mp4",
+    "selection_reason": "same_message",
+    "is_fallback_any_author": false
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/SimonSaysBoard_1354675175769243730/p0_2025-03-27_00-21-03_1.mp4",
+      "original_filename": "2025-03-27_00-21-03_1.mp4",
+      "content_type": "video/mp4",
+      "relative_index": 0,
+      "same_author": true,
+      "selection_reason": "same_message",
+      "size_bytes": 11434206,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1354675173898453072"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "simonsaysboard-1354675175769243730",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:17:27+00:00",
+    "description": "A Simon Says-inspired multiplayer minigame where players jump to colored blocks matching the displayed color. Last player standing wins. Features difficulty scaling and competitive gameplay.",
+    "feature_tags": [
+      "multiplayer",
+      "minigame",
+      "reaction-based",
+      "elimination"
+    ],
+    "interaction_modes": [
+      "action",
+      "ui"
+    ],
+    "asset_profile": "medium",
+    "script_complexity": "medium",
+    "networking_profile": "shared_state"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "app_id": "camera-laser-1425737416207110174",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:18:52+00:00",
+  "description": "Equippable laser gun that shoots red laser beams from the camera direction. Players trigger an action to equip, then fire lasers on mouse click. Laser clones spawn via networked events, fade out over 3 seconds, and are cleaned up by the server.",
+  "feature_tags": [
+    "combat",
+    "camera",
+    "interaction",
+    "multiplayer",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "action",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "events"
+}

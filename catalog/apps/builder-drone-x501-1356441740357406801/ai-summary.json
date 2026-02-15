@@ -1,0 +1,21 @@
+{
+  "app_id": "builder-drone-x501-1356441740357406801",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:17:16+00:00",
+  "description": "Flyable builder drone that captures keyboard and mouse input to let a player pilot a 3D drone model in first-person camera mode. Animates spinning rotors, syncs position and quaternion across clients via networked state, and releases control on disconnect or keypress.",
+  "feature_tags": [
+    "camera",
+    "physics",
+    "animation",
+    "interaction",
+    "multiplayer",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "action",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "high",
+  "networking_profile": "events"
+}

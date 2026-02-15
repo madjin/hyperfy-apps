@@ -1,0 +1,18 @@
+{
+  "app_id": "pingscriptforcompanion-1354172080924397802",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:25:23+00:00",
+  "description": "Responds to ping events from a companion or minimap system by calculating distance via Math.hypot and emitting pong events with the object's configurable display name, type, and position. Attach to any 3D model to make it scannable as a landmark.",
+  "feature_tags": [
+    "interaction",
+    "ui",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "low",
+  "networking_profile": "events"
+}

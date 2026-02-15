@@ -1,0 +1,19 @@
+{
+  "app_id": "hyperportal-with-set-manual-1352439458317865070",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:22:45+00:00",
+  "description": "Portal that teleports players to a stored destination when they enter a trigger zone. Admins configure the target position via a UI switch: 'Set' captures the player's current location, while 'Manual' allows typing exact X/Y/Z coordinates. Position syncs from server to all clients.",
+  "feature_tags": [
+    "teleport",
+    "interaction",
+    "ui",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "events"
+}

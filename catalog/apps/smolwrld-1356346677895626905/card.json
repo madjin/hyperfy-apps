@@ -1,0 +1,87 @@
+{
+  "name": "SmolWrld",
+  "author": ".hyp shaman",
+  "description": "Miniature nature scene that plays six spatial audio sources (water and ambient music) attached to lake and waterfall reference nodes, rotates the sky dome, and scrolls water material texture each frame. Configurable volume, distance model, rolloff, and cone settings via UI panels.",
+  "tags": [
+    "audio",
+    "environment",
+    "animation",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "heavy",
+  "script_complexity": "medium",
+  "networking": "none",
+  "preview_url": "catalog/discord/hyp_media/SmolWrld_1356346677895626905/p5_Screenshot_2025-03-31_at_1.28.44_PM.png",
+  "download_path": "v2-hyp/SmolWrld.hyp",
+  "created_at": "2025-03-31T19:17:27.713Z",
+  "props": {
+    "volume": 7.6,
+    "audioType": "music",
+    "loop": true,
+    "spatial": true,
+    "distanceModel": "exponential",
+    "refDistance": 1,
+    "maxDistance": 100,
+    "rolloffFactor": 10,
+    "coneInnerAngle": 360,
+    "coneOuterAngle": 360,
+    "coneOuterGain": 1,
+    "vol1": 1,
+    "vol2": 1,
+    "loop1": true,
+    "loop2": true,
+    "distanceModel1": "exponential",
+    "refDistance1": 1,
+    "maxDistance1": 40,
+    "rolloffFactor1": 3,
+    "coneInnerAngle1": 360,
+    "coneOuterAngle1": 360,
+    "coneOuterGain1": 1,
+    "distanceModel2": "exponential",
+    "refDistance2": 1,
+    "maxDistance2": 40,
+    "rolloffFactor2": 3,
+    "coneInnerAngle2": 360,
+    "coneOuterAngle2": 360,
+    "coneOuterGain2": 0,
+    "world": null,
+    "water": {
+      "type": "audio",
+      "url": "assets/water.mp3"
+    },
+    "worldAudio": {
+      "type": "audio",
+      "url": "assets/worldAudio.mp3"
+    },
+    "worldVolume": 1,
+    "worldDistance": "inverse",
+    "worldRefDistance": 1,
+    "worldMaxDistance": 40,
+    "worldRolloff": 3,
+    "worldConeInner": 360,
+    "worldConeOuter": 360,
+    "worldAudioType": "music",
+    "worldConeOuterGain": 0,
+    "audio": {
+      "type": "audio",
+      "url": "assets/audio.mp3"
+    },
+    "volume2": 24.4,
+    "audioType2": "music",
+    "audio2": {
+      "type": "audio",
+      "url": "assets/audio2.mp3"
+    }
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\nconst sky = app.get('Sky')\nconst water = app.get('Water')\nconst lake = app.get('Water2')\n\nconst wRef1 = app.get('WRef1')\nconst wRef2 = app.get('WRef2')\nconst wRef3 = app.get('WRef3')\nconst wRef4 = app.get('WRef4')\nconst wRef5 = app.get('WRef5')\n\n\napp.configure([\n  //#region bg audio\n\t{\n\t\ttype: 'section',\n\t\tkey: 'audioSection1',\n\t\tlabel: 'Audio Settings'\n\t},\n\t{\n\t\ttype: 'file',\n\t\tkey: 'audio',\n\t\tkind: 'audio',\n\t\tlabel: 'Audio File'\n\t},\n\t{\n\t\ttype: 'range',\n\t\tkey: 'volume',\n\t\tlabel: 'Volume',\n\t\tmin: 0,\n\t\tmax: 42,\n\t\tstep: 0.1,\n\t\tinitial: 0.6\n\t},\n\t{\n\t\ttype: 'dropdown',\n\t\tkey: 'audioType', \n\t\tlabel: 'Audio Type',\n\t\toptions: [\n\t\t\t{ label: 'Music', value: 'music' },\n\t\t\t{ label: 'Sound Effect', value: 'sfx' }\n\t\t],\n\t\tinitial: 'music'\n\t},\n\t{\n\t\ttype: 'section',\n\t\tkey: 'spatialSection',\n\t\tlabel: 'Spatial Audio Settings'\n\t},\n\t{\n\t\ttype: 'dropdown',\n\t\tkey: 'distanceModel',\n\t\tlabel: 'Distance Model',\n\t\toptions: [\n\t\t\t{ label: 'Linear', value: 'linear' },\n\t\t\t{ label: 'Inverse', value: 'inverse' },\n\t\t\t{ label: 'Exponential', value: 'exponential' }\n\t\t],\n\t\tinitial: 'inverse'\n\t},\n\t{\n\t\ttype: 'number',\n\t\tkey: 'refDistance',\n\t\tlabel: 'Reference Distance',\n\t\tmin: 0,\n\t\tmax: 10,\n\t\tstep: 0.1,\n\t\tinitial: 1\n\t},\n\t{\n\t\ttype: 'number',\n\t\tkey: 'maxDistance',\n\t\tlabel: 'Maximum Distance',\n\t\tmin: 1,\n\t\tmax: 100,\n\t\tstep: 1,\n\t\tinitial: 40\n\t},\n\t{\n\t\ttype: 'number',\n\t\tkey: 'rolloffFactor',\n\t\tlabel: 'Rolloff Factor',\n\t\tmin: 0,\n\t\tmax: 10,\n\t\tstep: 0.1,\n\t\tinitial: 3\n\t},\n\t{\n\t\ttype: 'section',\n\t\tkey: 'coneSection',\n\t\tlabel: 'Sound Cone Settings'\n\t},\n\t{\n\t\ttype: 'number',\n\t\tkey: 'coneInnerAngle',\n\t\tlabel: 'Cone Inner Angle',\n\t\tmin: 0,\n\t\tmax: 360,\n\t\tstep: 1,\n\t\tinitial: 360\n\t},\n\t{\n\t\ttype: 'number',\n\t\tkey: 'coneOuterAngle',\n\t\tlabel: 'Cone Outer Angle',\n\t\tmin: 0,\n\t\tmax: 360,\n\t\tstep: 1,\n\t\tinitial: 360\n\t},\n\t{\n\t\ttype: 'range',\n\t\tkey: 'coneOuterGain',\n\t\tlabel: 'Cone Outer Gain',\n\t\tmin: 0,\n\t\tmax: 1,\n\t\tstep: 0.1,\n\t\tinitial: 0\n\t},\n\t//#endregion\n\t//#region fg audi",
+  "asset_files": [
+    "SmolWrld.glb",
+    "audio.mp3",
+    "audio2.mp3",
+    "water.mp3",
+    "worldAudio.mp3"
+  ]
+}

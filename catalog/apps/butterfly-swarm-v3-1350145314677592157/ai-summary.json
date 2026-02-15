@@ -1,0 +1,18 @@
+{
+  "app_id": "butterfly-swarm-v3-1350145314677592157",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:18:02+00:00",
+  "description": "Spawns up to 5000 butterfly clones from a GLB wing model and animates their wing-flapping and oscillatory flight paths each frame. A configurable UI panel exposes butterfly amount, random scale range, flap-speed range, and fly-speed range for tuning swarm behavior.",
+  "feature_tags": [
+    "animation",
+    "3d-model",
+    "ui",
+    "environment"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "none"
+}

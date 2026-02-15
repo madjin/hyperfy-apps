@@ -1,0 +1,17 @@
+{
+  "app_id": "gert-2-1-aloe-1346629939817877556",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:21:31+00:00",
+  "description": "Spawns configurable Aloe Vera plant clones across a rectangular area, randomizing position, Y-axis rotation, and uniform scale for each 3D model instance. Users configure clone count, area width/depth, and min/max size through a UI panel.",
+  "feature_tags": [
+    "3d-model",
+    "environment",
+    "ui"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "low",
+  "networking_profile": "none"
+}

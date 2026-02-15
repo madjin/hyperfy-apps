@@ -1,0 +1,80 @@
+{
+  "app_id": "forest-1443613740150034512",
+  "app_slug": "forest",
+  "app_name": "Forest",
+  "source": {
+    "hyp_filename": "Forest.hyp",
+    "discord_attachment_id": "1443613739638325350",
+    "discord_message_id": "1443613740150034512",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-11-27T14:45:36.698Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1443613739638325350/Forest.hyp?ex=692b0710&is=6929b590&hm=d7ba15894f2c4835beb781fd884638f1062edac3a2e6f62a89e51ca6cddf6f57&"
+  },
+  "author": {
+    "display_name": "Gert-Jan Akerboom",
+    "discord_user_id": "601886221072990251",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "try it out",
+    "raw_message_content": "try it out",
+    "summary_excerpt": "Forest.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/forest",
+    "v2_json_path": "v2/apps/forest/Forest.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Forest.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/Forest_1443613740150034512/m1_forest-gen.mp4",
+    "media_type": ".mp4",
+    "selection_reason": "same_author_nearby",
+    "is_fallback_any_author": false
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/Forest_1443613740150034512/m1_forest-gen.mp4",
+      "original_filename": "forest-gen.mp4",
+      "content_type": "video/mp4",
+      "relative_index": -1,
+      "same_author": true,
+      "selection_reason": "same_author_nearby",
+      "size_bytes": 8567260,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1443613680909418638"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "forest-1443613740150034512",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:03:59+00:00",
+    "description": "Detects and debugs the phase-out of extension cards by region and across all apps.",
+    "feature_tags": [
+      "monitoring",
+      "performance",
+      "resource",
+      "device",
+      "bottleneck"
+    ],
+    "interaction_modes": [
+      "passive"
+    ],
+    "asset_profile": "medium",
+    "script_complexity": "high",
+    "networking_profile": "local"
+  }
+}

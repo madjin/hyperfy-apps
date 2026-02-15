@@ -1,0 +1,19 @@
+{
+  "app_id": "hyperportal-with-set-1349789440293474304",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:22:40+00:00",
+  "description": "Portal trigger zone that teleports players to an admin-configurable destination. Admins click a 'Set' button in the inspect UI to store their current position on the server, and any player entering the portal collider is teleported to that saved location.",
+  "feature_tags": [
+    "teleport",
+    "interaction",
+    "ui",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "events"
+}

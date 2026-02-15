@@ -1,0 +1,17 @@
+{
+  "app_id": "notifications-1376587859414356008",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:24:43+00:00",
+  "description": "Renders a screen-space UI notification panel that animates slide-in/slide-out. Listens for world events via a configurable message key and queues incoming messages with optional color, fontSize, and timer. The panel auto-scales the 3D model to zero so nothing shows in-world.",
+  "feature_tags": [
+    "ui",
+    "animation"
+  ],
+  "interaction_modes": [
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "events"
+}

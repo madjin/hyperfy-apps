@@ -1,0 +1,69 @@
+{
+  "app_id": "videoplayer-1425504776371830875",
+  "app_slug": "videoplayer",
+  "app_name": "VideoPlayer",
+  "source": {
+    "hyp_filename": "VideoPlayer.hyp",
+    "discord_attachment_id": "1425504776090554479",
+    "discord_message_id": "1425504776371830875",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-10-08T15:27:03.285Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1346623562462527649/1425504776090554479/VideoPlayer.hyp?ex=69798207&is=69783087&hm=9f49b9d43874e03458bb0e11df12769b6304d90b6397e8b40f4c2af14c48689d&"
+  },
+  "author": {
+    "display_name": "Valiant",
+    "discord_user_id": "540822785371668480",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "Video Player\n\nModification of built in video app with HLS (.m3u8) stream support.",
+    "raw_message_content": "Video Player\n\nModification of built in video app with HLS (.m3u8) stream support.",
+    "summary_excerpt": "VideoPlayer.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/videoplayer",
+    "v2_json_path": "v2/apps/videoplayer/VideoPlayer.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/VideoPlayer.md"
+  },
+  "preview": {
+    "primary_media_path": null,
+    "media_type": null,
+    "selection_reason": null,
+    "is_fallback_any_author": false
+  },
+  "media": [],
+  "status": {
+    "has_preview": false,
+    "needs_media_review": true,
+    "needs_author_review": false,
+    "flags": [
+      "no_media_found"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "videoplayer-1425504776371830875",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:21:33+00:00",
+    "description": "Enhanced video player supporting local files and HLS (.m3u8) live streams with multiplayer synchronization, configurable display surface, and audio controls.",
+    "feature_tags": [
+      "media-player",
+      "multiplayer",
+      "ui",
+      "environment"
+    ],
+    "interaction_modes": [
+      "ui",
+      "passive",
+      "networked"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "medium",
+    "networking_profile": "shared_state"
+  }
+}

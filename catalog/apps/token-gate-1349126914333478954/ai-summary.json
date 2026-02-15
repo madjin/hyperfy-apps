@@ -1,0 +1,20 @@
+{
+  "app_id": "token-gate-1349126914333478954",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:29:56+00:00",
+  "description": "Token-gated door that checks a player's Solana SPL token balance and animates a sliding or swinging door open when the minimum threshold is met. Renders UI panels displaying required token amount and live wallet balance. Auto-closes after a configurable timer. Requires external Solana mod.",
+  "feature_tags": [
+    "ui",
+    "animation",
+    "interaction",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "action",
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "high",
+  "networking_profile": "events"
+}

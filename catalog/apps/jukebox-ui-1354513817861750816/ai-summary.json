@@ -1,0 +1,19 @@
+{
+  "app_id": "jukebox-ui-1354513817861750816",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:22:50+00:00",
+  "description": "Multi-track jukebox that plays up to five configurable audio tracks with spatial 3D sound. Renders an in-world UI panel displaying track name, playback status, elapsed time, and animated visualizer bars. Supports shuffle, loop, next/prev navigation, and configurable volume and accent color.",
+  "feature_tags": [
+    "audio",
+    "ui",
+    "3d-model",
+    "interaction"
+  ],
+  "interaction_modes": [
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "heavy",
+  "script_complexity": "high",
+  "networking_profile": "events"
+}

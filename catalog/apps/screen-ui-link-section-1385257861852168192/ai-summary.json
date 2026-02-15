@@ -1,0 +1,16 @@
+{
+  "app_id": "screen-ui-link-section-1385257861852168192",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:27:46+00:00",
+  "description": "Renders a toggleable screen-space UI panel with up to 14 configurable download link buttons. A toggle icon triggers the panel open/closed, and clicking a button opens the configured URL via world.open. Button count, labels, and URLs are all editable through app.configure.",
+  "feature_tags": [
+    "ui",
+    "interaction"
+  ],
+  "interaction_modes": [
+    "ui"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "none"
+}

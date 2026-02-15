@@ -1,0 +1,20 @@
+{
+  "app_id": "machine-gun-with-animation-1349513227842879581",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:23:38+00:00",
+  "description": "Equippable machine gun weapon that overrides player locomotion animations with rifle-specific emotes for idle, walk, sprint, and directional movement. Players triggers a pick-up action, and the script syncs shooting and drop events across client and server via networked messages.",
+  "feature_tags": [
+    "combat",
+    "animation",
+    "interaction",
+    "3d-model",
+    "multiplayer"
+  ],
+  "interaction_modes": [
+    "action",
+    "networked"
+  ],
+  "asset_profile": "heavy",
+  "script_complexity": "medium",
+  "networking_profile": "events"
+}

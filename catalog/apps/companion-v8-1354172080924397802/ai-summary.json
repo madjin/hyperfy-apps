@@ -1,0 +1,20 @@
+{
+  "app_id": "companion-v8-1354172080924397802",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:19:18+00:00",
+  "description": "AI-powered VRM companion NPC named Victor that follows players, patrols within a configurable radius, scans nearby objects, and responds to chat commands via HuggingFace API with a cowboy Securitron personality. Animates idle and walk cycles on the avatar using emote assets.",
+  "feature_tags": [
+    "npc",
+    "animation",
+    "interaction",
+    "ui",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "heavy",
+  "script_complexity": "high",
+  "networking_profile": "events"
+}

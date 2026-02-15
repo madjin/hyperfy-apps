@@ -1,0 +1,69 @@
+{
+  "app_id": "car1-v2-1353199999730581585",
+  "app_slug": "car1-v2",
+  "app_name": "car1-v2",
+  "source": {
+    "hyp_filename": "car1-v2.hyp",
+    "discord_attachment_id": "1353199999349162085",
+    "discord_message_id": "1353199999730581585",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-03-23T02:53:41.176Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1353199999349162085/car1-v2.hyp?ex=69797a35&is=697828b5&hm=adb34ebb36b5873714d2a9b4884aad8c5de9ca1f5024d45e69ed772242e63137&"
+  },
+  "author": {
+    "display_name": "ash",
+    "discord_user_id": "179546010303856640",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "ok added some better anti-roll to this",
+    "raw_message_content": "ok added some better anti-roll to this",
+    "summary_excerpt": "car1 v2.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/car1-v2",
+    "v2_json_path": "v2/apps/car1-v2/blueprint.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/car1-v2.md"
+  },
+  "preview": {
+    "primary_media_path": null,
+    "media_type": null,
+    "selection_reason": null,
+    "is_fallback_any_author": false
+  },
+  "media": [],
+  "status": {
+    "has_preview": false,
+    "needs_media_review": true,
+    "needs_author_review": false,
+    "flags": [
+      "no_media_found"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "car1-v2-1353199999730581585",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-14T21:50:58+00:00",
+    "description": "A physics-based drivable car with improved anti-roll suspension. Features 4-wheel spring suspension, steering, acceleration/braking, and lateral grip simulation. Uses raycast-based wheel grounding with visual hub positioning.",
+    "feature_tags": [
+      "vehicle",
+      "physics",
+      "3d-model",
+      "interaction",
+      "animation"
+    ],
+    "interaction_modes": [
+      "action",
+      "passive"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "high",
+    "networking_profile": "none"
+  }
+}

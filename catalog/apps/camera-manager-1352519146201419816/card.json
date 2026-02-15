@@ -1,0 +1,23 @@
+{
+  "name": "CameraManager",
+  "author": "Shiffty",
+  "description": "Reusable camera management system that switches between follow, orbit, and static modes, triggers smooth transitions between camera states, and applies configurable screen shake effects. Listens for world events like camera:follow and camera:shake to control camera position and rotation with damping",
+  "tags": [
+    "camera",
+    "interaction"
+  ],
+  "interaction_modes": [
+    "passive",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "high",
+  "networking": "events",
+  "preview_url": "catalog/discord/hyp_media/CameraManager_1352519146201419816/p0_CameraManagerTest.mp4",
+  "download_path": "v2-hyp/CameraManager.hyp",
+  "created_at": "2025-03-21T05:48:13.045Z",
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\n// CameraManager.js - Reusable camera management system for Hyperfy apps\n// Controls camera behavior including follow, static, orbit, and transitions\n\nif (world.isClient) {\n  // Default camera configuration\n  const DEFAULT_CONFIG = {\n    // Follow mode settings\n    FOLLOW_HEIGHT: 3,              // Height above target when following\n    FOLLOW_DISTANCE: 3,            // Distance behind target when following\n    FOLLOW_HORIZONTAL_DAMPING: 0.2, // Horizontal movement smoothing (0-1)\n    FOLLOW_VERTICAL_DAMPING: 0.2,   // Vertical movement smoothing (0-1)\n    FOLLOW_LEAD_FACTOR: 0.05,      // How much to look ahead based on velocity\n    \n    // Camera damping setting\n    CAMERA_DAMPING: 0.2,           // Camera movement smoothing (0-1)\n    \n    // Orbit mode settings\n    ORBIT_RADIUS: 5,               // Distance from target in orbit mode\n    ORBIT_HEIGHT: 2,               // Height above target in orbit mode\n    ORBIT_SPEED: 0.5,              // Rotation speed in orbit mode\n    \n    // Transition settings\n    TRANSITION_DURATION: 1.0,      // Default transition time in seconds\n    \n    // Shake settings\n    SHAKE_DECAY: 0.9,              // How quickly shake effect decays\n    SHAKE_MAX_ANGLE: 0.05,         // Maximum rotation in radians during shake\n  }\n  \n  // Camera states\n  const CAMERA_STATES = {\n    DEFAULT: 'default',           // Regular player camera\n    FOLLOW: 'follow',             // Following an object\n    STATIC: 'static',             // Fixed camera position looking at a target\n    ORBIT: 'orbit',               // Orbiting around a target\n    TRANSITIONING: 'transitioning' // In transition between states\n  }\n  \n  // State tracking\n  let currentState = CAMERA_STATES.DEFAULT\n  let targetObject = null\n  let config = { ...DEFAULT_CONFIG }\n  let control = null\n  \n  // Position tracking \n  let cameraPosition = new Vector3()\n  let cameraTarget = new Vector3()\n  let orbitAngle = 0\n  \n  // Stati",
+  "asset_files": [
+    "Camera Manager.glb"
+  ]
+}

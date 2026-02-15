@@ -1,0 +1,19 @@
+{
+  "app_id": "rainv3-1359821051999158272",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:26:29+00:00",
+  "description": "Spawns up to 5000 billboard raindrop particles that fall with configurable gravity, speed, and spawn radius, then triggers ring-shaped splash effects on ground impact. Uses a pooled particle system with camera-facing rotation and UI controls for rain area, scale, and physics.",
+  "feature_tags": [
+    "particles",
+    "physics",
+    "environment",
+    "camera",
+    "ui"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "none"
+}

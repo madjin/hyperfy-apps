@@ -1,0 +1,83 @@
+{
+  "app_id": "car1-1353196235074441290",
+  "app_slug": "car1",
+  "app_name": "car1",
+  "source": {
+    "hyp_filename": "car1.hyp",
+    "discord_attachment_id": "1353196234675851345",
+    "discord_message_id": "1353196235074441290",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-03-23T02:38:43.612Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1353196234675851345/car1.hyp?ex=697976b3&is=69782533&hm=ce8c48e78dcd758990f45ddc87ba8f44c04159edf21b3ca0f7683d53c07b9d7f&"
+  },
+  "author": {
+    "display_name": "ash",
+    "discord_user_id": "179546010303856640",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "ok...\nlatest dev has new physics stuff for vehicles etc.\nand here's the bones of a car, it needs some tuning.\nits client-side only for now but i have a feeling you could fully simulate it all on the server and just send visuals to the client.",
+    "raw_message_content": "ok...\nlatest dev has new physics stuff for vehicles etc.\nand here's the bones of a car, it needs some tuning.\nits client-side only for now but i have a feeling you could fully simulate it all on the server and just send visuals to the client.",
+    "summary_excerpt": "car1.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/car1",
+    "v2_json_path": "v2/apps/car1/car1.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/car1.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/car1_1353196235074441290/m6_susanequip.png",
+    "media_type": ".png",
+    "selection_reason": "any_author_fallback",
+    "is_fallback_any_author": true
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/car1_1353196235074441290/m6_susanequip.png",
+      "original_filename": "susanequip.png",
+      "content_type": "image/png",
+      "relative_index": -6,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 254566,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1353182907858026557"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [
+      "media_fallback_any_author"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "car1-1353196235074441290",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:00:09+00:00",
+    "description": "Client-side vehicle physics demo featuring a drivable car with raycast-based suspension, spring physics, and WASD controls. Simulates realistic wheel forces, steering, and acceleration with dynamic visual wheel positioning. Experimental prototype intended for future server-side simulation.",
+    "feature_tags": [
+      "vehicle",
+      "physics",
+      "interaction",
+      "3d-model",
+      "animation",
+      "camera"
+    ],
+    "interaction_modes": [
+      "action"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "high",
+    "networking_profile": "local"
+  }
+}

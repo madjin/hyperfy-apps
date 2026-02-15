@@ -1,0 +1,16 @@
+{
+  "app_id": "speedtrail-v0-1-1361987355577421954",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:28:45+00:00",
+  "description": "Spawns dust-like trail particles behind the local player when moving on the ground, and triggers a radial particle burst on landing. Uses raycasts to detect ground distance and fall velocity, with configurable speed thresholds, spread, zigzag motion, and lifetime. Client-only; not synced to other pl",
+  "feature_tags": [
+    "particles",
+    "physics"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "high",
+  "networking_profile": "none"
+}

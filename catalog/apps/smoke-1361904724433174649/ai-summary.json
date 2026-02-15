@@ -1,0 +1,16 @@
+{
+  "app_id": "smoke-1361904724433174649",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:28:22+00:00",
+  "description": "Spawns a cone-shaped smoke particle emitter that renders semi-transparent particles drifting upward with orbital velocity and rotation over lifetime. Supports a configurable texture image prop for the particle sprite. Serves as a reference demo for the Hyperfy particles API.",
+  "feature_tags": [
+    "particles",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none"
+}

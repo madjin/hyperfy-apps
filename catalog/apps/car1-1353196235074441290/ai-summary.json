@@ -1,0 +1,20 @@
+{
+  "app_id": "car1-1353196235074441290",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:19:07+00:00",
+  "description": "Client-side drivable car that simulates raycast suspension, steering, and acceleration forces per wheel during fixedUpdate. Players anchor into the vehicle body and control it with WASD keys, while tire hubs animate rotation and lateral grip using physics raycasts against the ground.",
+  "feature_tags": [
+    "vehicle",
+    "physics",
+    "animation",
+    "interaction",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "high",
+  "networking_profile": "events"
+}

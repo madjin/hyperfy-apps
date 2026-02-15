@@ -1,0 +1,19 @@
+{
+  "app_id": "platforms-1437886474681979002",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:25:29+00:00",
+  "description": "Configurable platformer template that spawns selectable platform sizes (small to extra-large) and triggers a falling platform via an area trigger zone. When a player steps on the trigger, the platform switches to dynamic physics after a configurable delay, then resets to its original position on a t",
+  "feature_tags": [
+    "physics",
+    "interaction",
+    "ui",
+    "3d-model",
+    "environment"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "none"
+}

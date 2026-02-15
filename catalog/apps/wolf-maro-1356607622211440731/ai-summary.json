@@ -1,0 +1,17 @@
+{
+  "app_id": "wolf-maro-1356607622211440731",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:31:07+00:00",
+  "description": "Renders a skinned wolf character mesh that plays an idle animation by default and triggers a random animation from the rig's animation list on pointer click, with configurable speed and crossfade blending.",
+  "feature_tags": [
+    "3d-model",
+    "animation",
+    "interaction"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "low",
+  "networking_profile": "none"
+}

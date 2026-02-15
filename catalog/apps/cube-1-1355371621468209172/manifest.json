@@ -1,0 +1,80 @@
+{
+  "app_id": "cube-1-1355371621468209172",
+  "app_slug": "cube-1",
+  "app_name": "Cube_1",
+  "source": {
+    "hyp_filename": "Cube_1.hyp",
+    "discord_attachment_id": "1355371621136990400",
+    "discord_message_id": "1355371621468209172",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-03-29T02:42:56.145Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1355371621136990400/Cube_1.hyp?ex=697977b0&is=69782630&hm=3b4b9bd1a6a6ed4e7334068059ac4dcb41d7a7838a7fa63aa882ec25519384e2&"
+  },
+  "author": {
+    "display_name": "ash",
+    "discord_user_id": "179546010303856640",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "Cube 1.hyp",
+    "raw_message_content": "",
+    "summary_excerpt": "Cube 1.hyp",
+    "source_priority_used": "summary_excerpt"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/cube-1",
+    "v2_json_path": "v2/apps/cube-1/Cube 1.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Cube_1.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/Cube_1_1355371621468209172/m2_xyz-unlinked-uvscroll.mp4",
+    "media_type": ".mp4",
+    "selection_reason": "same_author_nearby",
+    "is_fallback_any_author": false
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/Cube_1_1355371621468209172/m2_xyz-unlinked-uvscroll.mp4",
+      "original_filename": "xyz-unlinked-uvscroll.mp4",
+      "content_type": "video/mp4",
+      "relative_index": -2,
+      "same_author": true,
+      "selection_reason": "same_author_nearby",
+      "size_bytes": 533301,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1355371490803187732"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "cube-1-1355371621468209172",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:00:13+00:00",
+    "description": "A configurable cube demonstrating unlinked mesh instances with independent texture scrolling animation. Features UI-controlled scroll speed and uses delta-time updates for smooth material offset animation.",
+    "feature_tags": [
+      "animation",
+      "3d-model",
+      "ui",
+      "interaction"
+    ],
+    "interaction_modes": [
+      "ui",
+      "passive"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "low",
+    "networking_profile": "none"
+  }
+}

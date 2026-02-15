@@ -1,0 +1,81 @@
+{
+  "app_id": "physics-triggers-tags-1354303006505435206",
+  "app_slug": "physics-triggers-tags",
+  "app_name": "Physics_-_Triggers__Tags",
+  "source": {
+    "hyp_filename": "Physics_-_Triggers__Tags.hyp",
+    "discord_attachment_id": "1354303006170021999",
+    "discord_message_id": "1354303006505435206",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-03-26T03:56:38.484Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1354303006170021999/Physics_-_Triggers__Tags.hyp?ex=697988f6&is=69783776&hm=e60272e9d7d090e931c6f239198057c901635dddb6757221185f52210020cc64&"
+  },
+  "author": {
+    "display_name": "ash",
+    "discord_user_id": "179546010303856640",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "Physics Triggers Tags.hyp",
+    "raw_message_content": "",
+    "summary_excerpt": "Physics Triggers Tags.hyp",
+    "source_priority_used": "summary_excerpt"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/physics-triggers-tags",
+    "v2_json_path": "v2/apps/physics-triggers-tags/Physics - Triggers & Tags.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Physics_-_Triggers__Tags.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/Physics_-_Triggers_Tags_1354303006505435206/p0_xyz-physics-triggers--tags.mp4",
+    "media_type": ".mp4",
+    "selection_reason": "same_message",
+    "is_fallback_any_author": false
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/Physics_-_Triggers_Tags_1354303006505435206/p0_xyz-physics-triggers--tags.mp4",
+      "original_filename": "xyz-physics-triggers--tags.mp4",
+      "content_type": "video/mp4",
+      "relative_index": 0,
+      "same_author": true,
+      "selection_reason": "same_message",
+      "size_bytes": 4254669,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1354303005448474677"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "physics-triggers-tags-1354303006505435206",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:11:21+00:00",
+    "description": "A physics demonstration showcasing trigger zones and object tags. Features static and dynamic bodies with collision detection, displaying trigger entry/exit events via floating UI text. Useful for learning Hyperfy physics interactions and tag-based filtering.",
+    "feature_tags": [
+      "physics",
+      "ui",
+      "interaction",
+      "3d-model"
+    ],
+    "interaction_modes": [
+      "trigger",
+      "ui",
+      "passive"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "low",
+    "networking_profile": "none"
+  }
+}

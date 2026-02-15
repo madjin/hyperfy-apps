@@ -1,0 +1,17 @@
+{
+  "app_id": "launchpad-1427685965249515723",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:22:59+00:00",
+  "description": "Trampoline-style launchpad that detects player entry via a trigger zone on a 3D model and pushes the player upward with a vertical force vector, acting as a bouncy jump pad for traversal.",
+  "feature_tags": [
+    "physics",
+    "interaction",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none"
+}

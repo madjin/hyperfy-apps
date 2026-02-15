@@ -1,0 +1,18 @@
+{
+  "app_id": "ss3-1362219892073435166",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:29:07+00:00",
+  "description": "Spawns a configurable particle aura effect around a 3D model with multiple color themes (nuka, plasma, quantum, fire, ghost, toxic) and effect styles (flame, energy, mist, sparkle, storm). Renders primary, secondary, and glow particle layers with customizable emission rates, lifetime, scale, cone an",
+  "feature_tags": [
+    "particles",
+    "3d-model",
+    "ui"
+  ],
+  "interaction_modes": [
+    "passive",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "high",
+  "networking_profile": "events"
+}

@@ -1,0 +1,20 @@
+{
+  "app_id": "pay-to-enter-door-1349126914333478954",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:25:05+00:00",
+  "description": "Animated door that triggers open after a Solana SPL token payment. Supports sliding and swinging modes with configurable direction, distance, and swing angle. Renders a billboard UI panel showing the token price, checks wallet balance, and auto-closes the door after a timer expires.",
+  "feature_tags": [
+    "ui",
+    "animation",
+    "interaction",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "action",
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "high",
+  "networking_profile": "events"
+}

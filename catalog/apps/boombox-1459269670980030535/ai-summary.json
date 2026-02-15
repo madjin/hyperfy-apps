@@ -1,0 +1,19 @@
+{
+  "app_id": "boombox-1459269670980030535",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:17:01+00:00",
+  "description": "Renders a detailed old-school boombox built from primitive shapes (speakers, cassette deck, knobs, antenna) and plays looping spatial audio with configurable volume, distance, and rolloff. Syncs play/pause state between server and clients via networked events, toggled by a clickable action button wi",
+  "feature_tags": [
+    "audio",
+    "interaction",
+    "physics",
+    "multiplayer"
+  ],
+  "interaction_modes": [
+    "action",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "high",
+  "networking_profile": "events"
+}

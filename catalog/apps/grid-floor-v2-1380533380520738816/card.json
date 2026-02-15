@@ -1,0 +1,23 @@
+{
+  "name": "Grid_Floor_v2",
+  "author": "ash",
+  "description": "Renders a world-scale grid floor using a Kenney prototype texture on a GLB model and positions it slightly above the origin at y=0.03. Serves as a simple environment base tile for scene building.",
+  "tags": [
+    "3d-model",
+    "environment"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking": "none",
+  "preview_url": "catalog/generated_previews/grid-floor-v2-1380533380520738816.jpg",
+  "download_path": "v2-hyp/Grid_Floor_v2.hyp",
+  "created_at": "2025-06-06T13:06:46.986Z",
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\napp.position.set(0, 0.03, 0)\n}\n",
+  "asset_files": [
+    "Grid Floor v2.glb",
+    "Grid Floor v2__image.png"
+  ]
+}

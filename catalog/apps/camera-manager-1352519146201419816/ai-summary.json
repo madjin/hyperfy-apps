@@ -1,0 +1,17 @@
+{
+  "app_id": "camera-manager-1352519146201419816",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:18:56+00:00",
+  "description": "Reusable camera management system that switches between follow, orbit, and static modes, triggers smooth transitions between camera states, and applies configurable screen shake effects. Listens for world events like camera:follow and camera:shake to control camera position and rotation with damping",
+  "feature_tags": [
+    "camera",
+    "interaction"
+  ],
+  "interaction_modes": [
+    "passive",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "high",
+  "networking_profile": "events"
+}

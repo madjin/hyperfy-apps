@@ -1,0 +1,33 @@
+{
+  "id": "orFKIFWPYp",
+  "version": 87,
+  "name": "Rover",
+  "image": null,
+  "author": "itsmetamike",
+  "url": null,
+  "desc": null,
+  "model": "asset://5a7f2f807fe5029a7957a92bcc2685381e88e59b005843e2debdccadb898519c.glb",
+  "script": "asset://e272e0985d207afb627a462f509b06ab6612027ac81b4cc5d45367d656274922.js",
+  "props": {
+    "armorValue": 25,
+    "moveSpeed": 3,
+    "perceptionRadius": 50,
+    "baseHealth": 80,
+    "baseLoot": 80,
+    "healthRegenRate": 3,
+    "lootRegenRate": 3,
+    "healthDepleteRate": 3,
+    "lootDepleteRate": 3,
+    "speed": 3,
+    "healthDepletionTime": 2,
+    "lootDepletionTime": 1,
+    "rotationSpeed": 10,
+    "perceptionAngle": 360,
+    "perceptionRate": 5,
+    "pauseDuration": 2,
+    "patrolRadius": 50
+  },
+  "preload": false,
+  "public": false,
+  "locked": false
+}

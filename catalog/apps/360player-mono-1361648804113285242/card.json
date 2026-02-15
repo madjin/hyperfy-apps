@@ -1,0 +1,27 @@
+{
+  "name": "360Player_Mono",
+  "author": "MetaRick",
+  "description": "Renders a 360-degree mono video onto a sphere mesh, playing it as a looping skybox. Accepts an uploaded video file or a pasted URL link via configurable props, and maps the video texture with 16:9 aspect ratio to the sphere geometry on the client side.",
+  "tags": [
+    "media-player",
+    "3d-model",
+    "environment"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking": "none",
+  "preview_url": "catalog/discord/hyp_media/360Player_Mono_1361648804113285242/m5_xyz-particle-spritesheets.mp4",
+  "download_path": "v2-hyp/360Player_Mono.hyp",
+  "created_at": "2025-04-15T10:26:13.112Z",
+  "props": {
+    "video": null,
+    "videoLink": "https://player.vimeo.com/progressive_redirect/playback/1052335324/rendition/2160p/file.mp4?loc=external&signature=e861f9b2581b5f144533be80b360009c2b397f6e84362f1a7913f7cfefec850b"
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\napp.configure([\n  {\n    key: 'video',\n    type: 'file',\n    kind: 'video',\n    label: 'Upload Video',\n  },\n  {\n    key: 'videoLink',\n    type: 'text',\n    label: 'Video Link (paste URL here)',\n  }\n]);\n\n// Use the uploaded file URL if provided; otherwise, use the pasted video link.\nconst src = props.video?.url || props.videoLink;\n\nif (!src) {\n  console.error(\"No video source provided. Please upload a video file or paste a video link.\");\n} else if (world.isClient) {\n  const mesh = app.get('Sphere');\n  const video = app.create('video', {\n    src,\n    linked: true,\n    loop: true,\n    aspect: 16 / 9, // 360 videos are generally 2:1\n    geometry: mesh.geometry,\n    cover: true,\n  });\n  \n  // Match video position, orientation, and scale to the mesh\n  video.position.copy(mesh.position);\n  video.quaternion.copy(mesh.quaternion);\n  video.scale.copy(mesh.scale).multiplyScalar(0.99);\n  \n  // Add the video to the scene and start playback\n  app.add(video);\n  video.play();\n}\n\n}\n",
+  "asset_files": [
+    "360Player_Mono.glb"
+  ]
+}

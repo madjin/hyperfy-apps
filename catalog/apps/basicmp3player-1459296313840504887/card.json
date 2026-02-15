@@ -1,0 +1,36 @@
+{
+  "name": "BasicMp3Player",
+  "author": "Valiant",
+  "description": "Minimal clickable MP3 player that plays and pauses an audio node when the user clicks a GLB cube mesh. Supports uploaded files or pasted URLs, with configurable volume, loop, spatial/global mode, and auto-play on upload.",
+  "tags": [
+    "audio",
+    "interaction",
+    "media-player",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking": "none",
+  "preview_url": "catalog/generated_previews/basicmp3player-1459296313840504887.jpg",
+  "download_path": "v2-hyp/BasicMp3Player.hyp",
+  "created_at": "2026-01-09T21:22:33.634Z",
+  "props": {
+    "collision": true,
+    "url": "",
+    "loop": true,
+    "volume": 1,
+    "spatial": true,
+    "distance": 10,
+    "rolloff": 3,
+    "global": true,
+    "autoPlayUploaded": true
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\n/**\n * Minimal clickable MP3 player (client-side)\n *\n * @author Valiant\n * @license MIT\n * Copyright (c) 2026 Valiant\n *\n * - Either upload a file (plays by default), or paste a URL\n * - Click the first mesh in the GLB to play/pause\n */\n\napp.configure([\n  { key: 'file', type: 'file', kind: 'audio', label: 'Audio File (upload)' },\n  { key: 'url', type: 'text', label: 'Audio URL (mp3)', placeholder: 'https://.../file.mp3' },\n\n  { key: 'volume', type: 'number', label: 'Volume', dp: 2, step: 0.1, bigStep: 1, initial: 1 },\n  { key: 'loop', type: 'toggle', label: 'Loop', initial: true },\n  { key: 'global', type: 'toggle', label: 'Global (non-spatial)', initial: true },\n\n  { key: 'autoPlayUploaded', type: 'toggle', label: 'Auto-play uploaded file', initial: true },\n]);\n\nfunction findFirstMesh(root) {\n  const stack = [root];\n  while (stack.length) {\n    const n = stack.pop();\n    if (n && n.name === 'mesh') return n;\n    if (n && n.children) for (let i = n.children.length - 1; i >= 0; i--) stack.push(n.children[i]);\n  }\n  return null;\n}\n\nfunction getSrc() {\n  // Prefer uploaded file if present; else URL text\n  const fileUrl = props.file?.url ? String(props.file.url).trim() : '';\n  if (fileUrl) return fileUrl;\n\n  const url = props.url ? String(props.url).trim() : '';\n  return url;\n}\n\nlet sound;\nlet playing = false;\n\nif (world.isClient) {\n  const target = findFirstMesh(app);\n  if (target) target.cursor = 'pointer';\n\n  const src = getSrc();\n\n  sound = app.create('audio', {\n    src,\n    volume: props.volume ?? 1,\n    loop: !!props.loop,\n    spatial: props.global ? false : true,\n    group: 'music',\n  });\n  app.add(sound);\n\n  // Attempt auto-play if an uploaded file exists.\n  // Note: browsers may still require a user gesture before audio is allowed.\n  const hasUploaded = !!props.file?.url;\n  if (hasUploaded && props.autoPlayUploaded) {\n    const p = sound.play?.();\n    if (p && p.catch) p.catch(() => {});\n    p",
+  "asset_files": [
+    "BasicMp3Player.glb",
+    "BasicMp3Player__image.png"
+  ]
+}

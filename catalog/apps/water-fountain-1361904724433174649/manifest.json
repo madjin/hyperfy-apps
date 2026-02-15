@@ -1,0 +1,78 @@
+{
+  "app_id": "water-fountain-1361904724433174649",
+  "app_slug": "water-fountain",
+  "app_name": "Water_Fountain",
+  "source": {
+    "hyp_filename": "Water_Fountain.hyp",
+    "discord_attachment_id": "1361904720754643115",
+    "discord_message_id": "1361904724433174649",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-04-16T03:23:09.271Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1361904720754643115/Water_Fountain.hyp?ex=6979811c&is=69782f9c&hm=2c1a518e30baa6c768e1a6b9e1cfc86f77abd886500a93e07621b5b066a75ebe&"
+  },
+  "author": {
+    "display_name": "ash",
+    "discord_user_id": "179546010303856640",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "Water Fountain.hyp",
+    "raw_message_content": "",
+    "summary_excerpt": "Water Fountain.hyp",
+    "source_priority_used": "summary_excerpt"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/water-fountain",
+    "v2_json_path": "v2/apps/water-fountain/Water Fountain.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Water_Fountain.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/Water_Fountain_1361904724433174649/m1_xyz-particle-demos_2_-_edit.mp4",
+    "media_type": ".mp4",
+    "selection_reason": "same_author_nearby",
+    "is_fallback_any_author": false
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/Water_Fountain_1361904724433174649/m1_xyz-particle-demos_2_-_edit.mp4",
+      "original_filename": "xyz-particle-demos_2_-_edit.mp4",
+      "content_type": "video/mp4",
+      "relative_index": -1,
+      "same_author": true,
+      "selection_reason": "same_author_nearby",
+      "size_bytes": 22376201,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1361903616788664400"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "water-fountain-1361904724433174649",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:22:17+00:00",
+    "description": "Valid JSON object returned as no invalid content was provided to fix",
+    "feature_tags": [
+      "placeholder",
+      "error_handling"
+    ],
+    "interaction_modes": [
+      "networked",
+      "passive"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "low",
+    "networking_profile": "none"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "app_id": "physics-contacts-tags-1354299208894648330",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:25:10+00:00",
+  "description": "Demonstrates rigidbody contact detection using tagged objects. Assigns tags to Blue and Red physics bodies, listens for onContactStart and onContactEnd events, and renders billboard UI text labels above each body showing which tagged object it is currently touching.",
+  "feature_tags": [
+    "physics",
+    "ui",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "ui"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none"
+}

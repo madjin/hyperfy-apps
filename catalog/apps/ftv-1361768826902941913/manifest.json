@@ -1,0 +1,83 @@
+{
+  "app_id": "ftv-1361768826902941913",
+  "app_slug": "ftv",
+  "app_name": "FTV",
+  "source": {
+    "hyp_filename": "FTV.hyp",
+    "discord_attachment_id": "1361768826458341649",
+    "discord_message_id": "1361768826902941913",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-04-15T18:23:08.775Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1361768826458341649/FTV.hyp?ex=6979ab4c&is=697859cc&hm=9aa406013da37ea2e980702e536f5b96e83b47bbfc95cd35d20a864858df5f97&"
+  },
+  "author": {
+    "display_name": "~/drdoge.eth",
+    "discord_user_id": "357905702926286858",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "FTV.hyp",
+    "raw_message_content": "",
+    "summary_excerpt": "FTV.hyp",
+    "source_priority_used": "summary_excerpt"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/ftv",
+    "v2_json_path": "v2/apps/ftv/blueprint.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/FTV.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/FTV_1361768826902941913/p0_ww.mp4",
+    "media_type": ".mp4",
+    "selection_reason": "same_message",
+    "is_fallback_any_author": false
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/FTV_1361768826902941913/p0_ww.mp4",
+      "original_filename": "ww.mp4",
+      "content_type": "video/mp4",
+      "relative_index": 0,
+      "same_author": true,
+      "selection_reason": "same_message",
+      "size_bytes": 28373571,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1361768822788456629"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "ftv-1361768826902941913",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-14T22:07:41+00:00",
+    "description": "A customizable multi-video TV player with spatial audio, UI controls, and playlist management. Supports up to 5 videos with autoplay, shuffle, and channel change sound effects. Features configurable screen mesh, aspect ratios, and audio falloff settings.",
+    "feature_tags": [
+      "media-player",
+      "ui",
+      "audio",
+      "interaction",
+      "3d-model"
+    ],
+    "interaction_modes": [
+      "ui",
+      "action",
+      "passive",
+      "networked"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "high",
+    "networking_profile": "events"
+  }
+}

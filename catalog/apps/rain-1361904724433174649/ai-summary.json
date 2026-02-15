@@ -1,0 +1,16 @@
+{
+  "app_id": "rain-1361904724433174649",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:26:19+00:00",
+  "description": "Spawns a downward-facing particle emitter from a 20x20 rectangle shape at height 10, rendering additive-blended rain drops with configurable texture image and alpha-over-life fade curves. Serves as a particle system reference demo.",
+  "feature_tags": [
+    "particles",
+    "environment"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none"
+}

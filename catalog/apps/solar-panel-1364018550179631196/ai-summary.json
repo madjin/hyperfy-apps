@@ -1,0 +1,17 @@
+{
+  "app_id": "solar-panel-1364018550179631196",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:28:31+00:00",
+  "description": "A solar panel 3D model that controls the world sky node by configuring sun direction, intensity, HDR lighting, and sky texture. Calculates sun position by rotating a direction vector based on configurable hour and AM/PM period settings.",
+  "feature_tags": [
+    "environment",
+    "3d-model",
+    "ui"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "low",
+  "networking_profile": "none"
+}

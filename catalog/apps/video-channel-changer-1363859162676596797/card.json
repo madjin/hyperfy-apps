@@ -1,0 +1,35 @@
+{
+  "name": "Video_Channel_Changer",
+  "author": "ash",
+  "description": "Plays a video atlas on a target mesh and cycles through 16 UV-based channels on pointer click. Supports mp4 files or HLS streams with configurable aspect ratio, fit mode, and looping. Replaces the original mesh geometry with a video node at the same transform.",
+  "tags": [
+    "media-player",
+    "interaction",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking": "none",
+  "preview_url": "catalog/discord/hyp_media/Video_Channel_Changer_1363859162676596797/m3_IMG_1182.png",
+  "download_path": "v2-hyp/Video_Channel_Changer.hyp",
+  "created_at": "2025-04-21T12:49:23.660Z",
+  "props": {
+    "video": null,
+    "target": "Screen",
+    "loop": true,
+    "aspect": "16:9",
+    "fit": "none",
+    "videoFile": {
+      "type": "video",
+      "url": "assets/videoFile.mp4"
+    }
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\napp.configure([\n  {\n    key: 'videoFile',\n    type: 'file',\n    kind: 'video',\n    label: 'Video File',\n    hint: 'An mp4 video file to be played.'\n  },\n  {\n    key: 'videoUrl',\n    type: 'text',\n    label: 'Video URL',\n    placeholder: '.m3u8',\n    hint: 'The URL to an HLS (m3u8) video manifest.'\n  },\n  {\n    key: 'target',\n    type: 'text',\n    label: 'Target',\n    hint: 'The name of the object/mesh to display the video on.',\n  },\n  \n  {\n    key: 'aspect',\n    type: 'text',\n    label: 'Aspect Ratio',\n    hint: `The physical/visual aspect ratio of your target mesh. The UVs of your target mesh should generally always cover the entire UV space, and then use the 'Fit' property below to control how videos fit onto it.` ,\n  },\n  {\n    key: 'fit',\n    type: 'switch',\n    label: 'Fit',\n    options: [\n      { label: 'None', value: 'none' },\n      { label: 'Cover', value: 'cover' },\n      { label: 'Contain', value: 'contain' },\n    ],\n    hint: `The strategy used to fit the video onto the target mesh, based on the videos actual aspect ratio vs the target mesh. 'None' will stretch to fit the target mesh UVs. 'Cover' will scale the video up to cover the entire UV space while maintaining its aspect ratio. 'Contain' will scale the video so that it all fits inside the UV space, also while maintaining its aspect ratio.`\n  },\n  {\n    key: 'loop',\n    type: 'toggle',\n    label: 'Loop',\n    hint: 'Whether the video should start again once it reaches the end.'\n  },\n])\n\nconst src =  props.videoFile?.url || props.videoUrl\nconst target = props.target\nconst [aWidth, aHeight] = props.aspect.split(':')\nconst aspect = aWidth / aHeight \nconst fit = props.fit\nconst loop = props.loop\n\nif (world.isClient) {\n  const mesh = app.get(target)\n  const video = app.create('video', {\n    src,\n    geometry: mesh.geometry,\n    linked: true,\n    loop,\n    aspect,\n    fit,\n    doubleside: true,\n    castShadow: true,\n    receiveShadow: true",
+  "asset_files": [
+    "Video Channel Changer.glb",
+    "videoFile.mp4"
+  ]
+}

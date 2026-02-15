@@ -1,0 +1,21 @@
+{
+  "app_id": "mato-pets-1343812585706749963",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:23:48+00:00",
+  "description": "Networked VRM pet that follows a target player using raycasting for obstacle avoidance. Players can adopt the pet via an interaction action. Animates idle, walking, and sitting emotes, and syncs position/quaternion across clients with interpolation.",
+  "feature_tags": [
+    "npc",
+    "animation",
+    "multiplayer",
+    "interaction",
+    "physics",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "action",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "high",
+  "networking_profile": "events"
+}

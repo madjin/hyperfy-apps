@@ -1,0 +1,21 @@
+{
+  "app_id": "builder-drone-x501-1356505487033499729",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:17:22+00:00",
+  "description": "Flyable builder drone that players trigger via an action prompt, then pilot with WASD/Space/C keys. Animates four rotor nodes, syncs position and quaternion across clients via networked state, and attaches a third-person camera to the drone's view node. Releases control on disconnect or keypress.",
+  "feature_tags": [
+    "vehicle",
+    "camera",
+    "physics",
+    "animation",
+    "interaction",
+    "multiplayer"
+  ],
+  "interaction_modes": [
+    "action",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "high",
+  "networking_profile": "events"
+}

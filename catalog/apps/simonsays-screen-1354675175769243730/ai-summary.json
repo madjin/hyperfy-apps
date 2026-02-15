@@ -1,0 +1,19 @@
+{
+  "app_id": "simonsays-screen-1354675175769243730",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:27:57+00:00",
+  "description": "Simon Says minigame screen that renders a UI panel displaying randomized color names across escalating phases. Server syncs game state to clients, triggers countdown timers, and emits color/reset signals to linked arena blocks via networked channels.",
+  "feature_tags": [
+    "ui",
+    "multiplayer",
+    "audio",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "heavy",
+  "script_complexity": "high",
+  "networking_profile": "events"
+}

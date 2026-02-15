@@ -1,0 +1,65 @@
+{
+  "app_id": "n1-n1-05-1354230335344480448",
+  "app_slug": "n1-n1-05",
+  "app_name": "n1-n1-05",
+  "source": {
+    "hyp_filename": "n1-n1-05.hyp",
+    "discord_attachment_id": "1354230334979571833",
+    "discord_message_id": "1354230335344480448",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-03-25T23:07:52.329Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1354230334979571833/n1-n1-05.hyp?ex=69794548&is=6977f3c8&hm=13b9fcfff3d4b97fe44e9544e43c09f4546e509e176ed5994153c0837b241b7e&"
+  },
+  "author": {
+    "display_name": "ash",
+    "discord_user_id": "179546010303856640",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "here is the exact same glb you posted above, with convex disabled",
+    "raw_message_content": "here is the exact same glb you posted above, with convex disabled",
+    "summary_excerpt": "n1 n1 05.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/n1-n1-05",
+    "v2_json_path": "v2/apps/n1-n1-05/n1-n1-05.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/n1-n1-05.md"
+  },
+  "preview": {
+    "primary_media_path": null,
+    "media_type": null,
+    "selection_reason": null,
+    "is_fallback_any_author": false
+  },
+  "media": [],
+  "status": {
+    "has_preview": false,
+    "needs_media_review": true,
+    "needs_author_review": false,
+    "flags": [
+      "no_media_found"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "n1-n1-05-1354230335344480448",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:09:45+00:00",
+    "description": "Configures a GLB model's collider to use precise trimesh collision (convex=false) instead of convex hull, demonstrating physics collision setup for accurate mesh boundaries.",
+    "feature_tags": [
+      "physics",
+      "3d-model"
+    ],
+    "interaction_modes": [
+      "passive"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "low",
+    "networking_profile": "none"
+  }
+}

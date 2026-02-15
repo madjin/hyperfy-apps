@@ -1,0 +1,16 @@
+{
+  "app_id": "rom2-1355042999578660955",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:27:14+00:00",
+  "description": "Renders a configurable ROM cartridge 3D model with a UI text label displaying the rom name and adjusts material texture offsets to switch between seven color variants (Red, Orange, Yellow, Green, Blue, Indigo, Violet) via a dropdown prop.",
+  "feature_tags": [
+    "ui",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "ui"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none"
+}

@@ -1,0 +1,109 @@
+{
+  "app_id": "butterfly-swarm-v6-1354772253396701385",
+  "app_slug": "butterfly-swarm-v6",
+  "app_name": "Butterfly_Swarm_V6",
+  "source": {
+    "hyp_filename": "Butterfly_Swarm_V6.hyp",
+    "discord_attachment_id": "1354772252872409148",
+    "discord_message_id": "1354772253396701385",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-03-27T11:01:15.661Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1350129252976168992/1354772252872409148/Butterfly_Swarm_V6.hyp?ex=697943bb&is=6977f23b&hm=206b5930c34ca73a1afd10285eb3c83bb40ad12090a9ed4faaa538412fd5dfef&"
+  },
+  "author": {
+    "display_name": "Gert-Jan Akerboom",
+    "discord_user_id": "601886221072990251",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "Butterfly Swarm V6.hyp",
+    "raw_message_content": "",
+    "summary_excerpt": "Butterfly Swarm V6.hyp",
+    "source_priority_used": "summary_excerpt"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/butterfly-swarm-v6",
+    "v2_json_path": "v2/apps/butterfly-swarm-v6/Butterfly Swarm V6.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Butterfly_Swarm_V6.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/Butterfly_Swarm_V6_1354772253396701385/p3_image.png",
+    "media_type": ".png",
+    "selection_reason": "any_author_fallback",
+    "is_fallback_any_author": true
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/Butterfly_Swarm_V6_1354772253396701385/p3_image.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": 3,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 102333,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1354867765554712586"
+    },
+    {
+      "catalog_path": "catalog/discord/hyp_media/Butterfly_Swarm_V6_1354772253396701385/p4_image.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": 4,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 388285,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1354870556830466262"
+    },
+    {
+      "catalog_path": "catalog/discord/hyp_media/Butterfly_Swarm_V6_1354772253396701385/p5_image.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": 5,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 69066,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1354872920438079758"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [
+      "media_fallback_any_author"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "butterfly-swarm-v6-1354772253396701385",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T03:58:30+00:00",
+    "description": "Configurable 3D butterfly swarm generator with randomized flight patterns, wing flapping animations, and spawn area controls. Features UI for adjusting butterfly count, scale variance, flight speed, and spawn dimensions.",
+    "feature_tags": [
+      "particles",
+      "animation",
+      "environment",
+      "3d-model",
+      "ui"
+    ],
+    "interaction_modes": [
+      "ui",
+      "passive"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "medium",
+    "networking_profile": "none"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "The_Meadow",
+  "author": "ash",
+  "description": "Scene app that renders a meadow environment with configurable sky texture, HDR reflections, and fog. Calculates sun direction from elevation and horizontal rotation parameters, and applies sun intensity, color, and fog near/far distances to a sky node.",
+  "tags": [
+    "environment",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "low",
+  "networking": "none",
+  "preview_url": "catalog/discord/hyp_media/The_Meadow_1415309781345894431/m4_image.png",
+  "download_path": "v2-hyp/The_Meadow.hyp",
+  "created_at": "2025-09-10T12:15:47.057Z",
+  "props": {
+    "hour": 4,
+    "period": "pm",
+    "intensity": 1,
+    "sky": {
+      "type": "texture",
+      "name": "Clear_08_4pm_LDR.2048.webp",
+      "url": "asset://179d71586e675efc4af04185e1b2d3e6b7f4a5b707f1ef5e9b6497c5660ecab7.webp"
+    },
+    "hdr": {
+      "type": "hdr",
+      "name": "Clear_08_4pm_LDR.hdr",
+      "url": "asset://62db0ffbcea86b5e9ba23fb5da739b160e8abfd3b390235fed5ac436750e1e2e.hdr"
+    },
+    "verticalRotation": 40,
+    "horizontalRotation": 230,
+    "rotationY": 0,
+    "fogNear": 450,
+    "fogFar": 1000,
+    "fogColor": "#97b4d3",
+    "color": "white"
+  }
+}

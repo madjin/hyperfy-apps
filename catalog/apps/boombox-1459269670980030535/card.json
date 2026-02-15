@@ -1,0 +1,37 @@
+{
+  "name": "Boombox",
+  "author": "Dhin",
+  "description": "Renders a detailed old-school boombox built from primitive shapes (speakers, cassette deck, knobs, antenna) and plays looping spatial audio with configurable volume, distance, and rolloff. Syncs play/pause state between server and clients via networked events, toggled by a clickable action button wi",
+  "tags": [
+    "audio",
+    "interaction",
+    "physics",
+    "multiplayer"
+  ],
+  "interaction_modes": [
+    "action",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "high",
+  "networking": "events",
+  "preview_url": "catalog/discord/hyp_media/Boombox_1459269670980030535/m5_image.png",
+  "download_path": "v2-hyp/Boombox.hyp",
+  "created_at": "2026-01-09T19:36:41.481Z",
+  "props": {
+    "prompt": "old school boom box",
+    "audio": {
+      "type": "audio",
+      "url": "assets/audio.mp3"
+    },
+    "volume": 0.5,
+    "audioDistance": 7,
+    "rolloffFactor": 5,
+    "isPlaying": true
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\nconst DEG2RAD = Math.PI / 180;\n\n// Remove default block\napp.remove(app.get('Block'));\n\napp.configure([\n  {\n    key: 'audio',\n    type: 'file',\n    kind: 'audio',\n    label: 'Audio File'\n  },\n  {\n    key: 'volume',\n    type: 'range',\n    label: 'Volume',\n    min: 0,\n    max: 1,\n    step: 0.1,\n    default: 0.5\n  },\n  {\n    key: 'audioDistance',\n    type: 'range',\n    label: 'Audio Distance',\n    min: 1,\n    max: 50,\n    step: 1,\n    default: 10\n  },\n  {\n    key: 'rolloffFactor',\n    type: 'range',\n    label: 'Audio Rolloff',\n    min: 0.5,\n    max: 5,\n    step: 0.1,\n    default: 1\n  },\n  {\n    key: 'isPlaying',\n    type: 'boolean',\n    label: 'Play Audio',\n    default: false\n  }\n]);\n\n// Initialize server-side state\nif (world.isServer) {\n  app.state.isPlaying = app.state.isPlaying ?? false;\n}\n\n// Create boombox group\nconst boombox = app.create('group');\n\n// Create spatial audio (client-side only)\nlet boomboxAudio = null;\nif (world.isClient && app.props.audio?.url) {\n  boomboxAudio = app.create('audio', {\n    src: app.props.audio.url,\n    volume: app.props.volume || 0.5,\n    loop: true,\n    spatial: true,\n    refDistance: app.props.audioDistance || 10,\n    maxDistance: (app.props.audioDistance || 10) * 3,\n    rolloffFactor: app.props.rolloffFactor || 1,\n    distanceModel: 'inverse'\n  });\n  boomboxAudio.position.set(0, 0.22 / 2, 0); // Center of boombox body\n  app.add(boomboxAudio);\n\n  // Sync initial state from server\n  if (app.state.isPlaying) {\n    boomboxAudio.play();\n  } else {\n    boomboxAudio.stop();\n  }\n}\n\n// Dimensions\nconst W = 0.60; // width (meters)\nconst H = 0.22; // height\nconst D = 0.16; // depth\nconst halfW = W / 2;\nconst halfH = H / 2;\nconst halfD = D / 2;\nconst frontOffset = 0.001; // tiny offset to avoid z-fighting\n\n// Body\nconst body = app.create('prim', {\n  type: 'box',\n  size: [W, H, D],\n  position: [0, halfH, 0],\n  color: '#1f1f1f',\n  physics: 'static'\n});\nboombox.add(body);\n\n// Sp",
+  "asset_files": [
+    "Boombox.glb",
+    "audio.mp3"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "app_id": "raycaster-1348748103104331778",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:26:51+00:00",
+  "description": "Performs a server-side raycast from a beam origin and direction, then spawns a scaled clone of a 3D model at the hit point. Uses networked events to relay hit data from server to client and removes the previous clone before placing a new one.",
+  "feature_tags": [
+    "physics",
+    "interaction",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "events"
+}

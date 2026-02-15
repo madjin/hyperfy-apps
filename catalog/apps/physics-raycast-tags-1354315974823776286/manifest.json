@@ -1,0 +1,77 @@
+{
+  "app_id": "physics-raycast-tags-1354315974823776286",
+  "app_slug": "physics-raycast-tags",
+  "app_name": "Physics_-_Raycast_Tags",
+  "source": {
+    "hyp_filename": "Physics_-_Raycast_Tags.hyp",
+    "discord_attachment_id": "1354315973523542096",
+    "discord_message_id": "1354315974823776286",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-03-26T04:48:10.372Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1354315973523542096/Physics_-_Raycast_Tags.hyp?ex=6979950a&is=6978438a&hm=aab0e7aad047319b38cff02d78fc95f2af6e070e5691e7fc6b5c1a0ad8350e41&"
+  },
+  "author": {
+    "display_name": "ash",
+    "discord_user_id": "179546010303856640",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "two instances so this also shows cross-app raycasting works the same way.\nthe lasers also double as stripper poles.",
+    "raw_message_content": "two instances so this also shows cross-app raycasting works the same way.\nthe lasers also double as stripper poles.",
+    "summary_excerpt": "Physics Raycast Tags.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/physics-raycast-tags",
+    "v2_json_path": "v2/apps/physics-raycast-tags/Physics - Raycast Tags.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Physics_-_Raycast_Tags.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/Physics_-_Raycast_Tags_1354315974823776286/p0_xyz-physics-raycast-tags.mp4",
+    "media_type": ".mp4",
+    "selection_reason": "same_message",
+    "is_fallback_any_author": false
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/Physics_-_Raycast_Tags_1354315974823776286/p0_xyz-physics-raycast-tags.mp4",
+      "original_filename": "xyz-physics-raycast-tags.mp4",
+      "content_type": "video/mp4",
+      "relative_index": 0,
+      "same_author": true,
+      "selection_reason": "same_message",
+      "size_bytes": 5427641,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1354315974194495539"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "physics-raycast-tags-1354315974823776286",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:12:10+00:00",
+    "description": "Placeholder JSON object since the bad output content was not provided",
+    "feature_tags": [
+      "placeholder"
+    ],
+    "interaction_modes": [
+      "ui",
+      "networked"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "high",
+    "networking_profile": "none"
+  }
+}

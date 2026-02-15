@@ -1,0 +1,23 @@
+{
+  "app_id": "mini-nuke-1354185108835270728",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:23:52+00:00",
+  "description": "Interactive mini-nuke weapon that detonates on player action, spawning radiation particle clouds with \u2622 symbols, playing explosion and Geiger counter audio, and dealing periodic radiation damage to nearby players within a configurable blast radius.",
+  "feature_tags": [
+    "particles",
+    "audio",
+    "combat",
+    "interaction",
+    "ui",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "action",
+    "trigger",
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "heavy",
+  "script_complexity": "high",
+  "networking_profile": "events"
+}

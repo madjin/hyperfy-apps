@@ -1,0 +1,20 @@
+{
+  "app_id": "confettt-ppot-1402249836455264277",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:19:22+00:00",
+  "description": "Networked confetti popper that spawns randomized particle bursts from up to 8 customizable confetti textures when clicked. Plays spatial click and explosion audio, syncs cooldown state across clients, and animates emissive glow on hover.",
+  "feature_tags": [
+    "particles",
+    "audio",
+    "interaction",
+    "multiplayer",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "high",
+  "networking_profile": "events"
+}

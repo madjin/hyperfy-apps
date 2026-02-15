@@ -1,0 +1,97 @@
+{
+  "app_id": "rainv4-1359841759248646274",
+  "app_slug": "rainv4",
+  "app_name": "RainV4",
+  "source": {
+    "hyp_filename": "RainV4.hyp",
+    "discord_attachment_id": "1359841758925815889",
+    "discord_message_id": "1359841759248646274",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-04-10T10:45:40.043Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1346623562462527649/1359841758925815889/RainV4.hyp?ex=69794013&is=6977ee93&hm=fee94b3fc8fbfefd88e073e51e194ee8e3a6280f4ee916e49cb2c0fd7ad55888&"
+  },
+  "author": {
+    "display_name": "Gert-Jan Akerboom",
+    "discord_user_id": "601886221072990251",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "Added a cube for easier access, you can toggle it on and off in the UI",
+    "raw_message_content": "Added a cube for easier access, you can toggle it on and off in the UI",
+    "summary_excerpt": "RainV4.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/rainv4",
+    "v2_json_path": "v2/apps/rainv4/RainV4.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/RainV4.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/RainV4_1359841759248646274/m2_image.png",
+    "media_type": ".png",
+    "selection_reason": "any_author_fallback",
+    "is_fallback_any_author": true
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/RainV4_1359841759248646274/m2_image.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": -2,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 138172,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1359680764010303610"
+    },
+    {
+      "catalog_path": "catalog/discord/hyp_media/RainV4_1359841759248646274/m2_image_1359680764517683422.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": -2,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 541019,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1359680764517683422"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [
+      "media_fallback_any_author"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "rainv4-1359841759248646274",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:14:49+00:00",
+    "description": "Configuration settings for the application",
+    "feature_tags": [
+      "settings",
+      "config",
+      "json_config",
+      "configuration"
+    ],
+    "interaction_modes": [
+      "passive",
+      "passive",
+      "passive",
+      "passive"
+    ],
+    "asset_profile": "medium",
+    "script_complexity": "low",
+    "networking_profile": "none"
+  }
+}

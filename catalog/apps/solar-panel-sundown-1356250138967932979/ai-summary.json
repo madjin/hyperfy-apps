@@ -1,0 +1,17 @@
+{
+  "app_id": "solar-panel-sundown-1356250138967932979",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:28:35+00:00",
+  "description": "Solar panel 3D model that configures the world sky node by setting a custom skybox texture, HDR environment map, sun direction based on hour/AM-PM input, and sun intensity. Calculates sun direction by rotating a vector around the X axis to simulate time-of-day lighting.",
+  "feature_tags": [
+    "environment",
+    "3d-model",
+    "ui"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "low",
+  "networking_profile": "none"
+}

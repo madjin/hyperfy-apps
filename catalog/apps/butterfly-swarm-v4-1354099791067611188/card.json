@@ -1,0 +1,57 @@
+{
+  "name": "Butterfly_Swarm_V4",
+  "author": "Gert-Jan Akerboom",
+  "description": "Spawns a configurable swarm of up to 5000 butterfly clones from a GLB model, animates wing flapping and oscillatory flight paths using sine-wave motion on each frame update. A UI panel exposes controls for butterfly count, scale range, flap speed, and fly speed.",
+  "tags": [
+    "animation",
+    "3d-model",
+    "ui",
+    "environment"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking": "none",
+  "preview_url": "catalog/generated_previews/butterfly-swarm-v4-1354099791067611188.jpg",
+  "download_path": "v2-hyp/Butterfly_Swarm_V4.hyp",
+  "created_at": "2025-03-25T14:29:08.148Z",
+  "props": {
+    "scale": 0.3,
+    "startX": 0,
+    "startY": 5,
+    "startZ": 0,
+    "flapSpeed": 10,
+    "maxFlap": 60,
+    "moveSpeed": 0.4,
+    "moveRange": 2,
+    "driftSpeed": 0.3,
+    "driftRange": 1,
+    "baseStartX": 10,
+    "baseStartY": 5,
+    "baseStartZ": 0,
+    "areaWidth": 10,
+    "areaDepth": 10,
+    "clone_count": 20,
+    "area_size_x": 10,
+    "area_size_z": 10,
+    "min_size": 0.2,
+    "max_size": 2,
+    "butterfly_amount": 50,
+    "scale_min": 0.1,
+    "scale_max": 0.5,
+    "flapspeed_min": 5,
+    "flapspeed_max": 20,
+    "flyspeed_min": 0.1,
+    "flyspeed_max": 0.5,
+    "og_onoff": "no",
+    "og_visible": "false",
+    "visible": "true"
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\n\napp.configure(() => {\n  return [\n\n    {\n      type: 'switch',\n      key: 'visible',           // the key on `props` to set this value\n      label: 'Original Butterfly Visible',         // the label for the text input\n      options: [\n        {\n          label: 'True',     // the label to show on this switch item\n          value: 'true',     // the value to set on the props when selected\n        },\n        {\n          label: 'False',     // the label to show on this switch item\n          value: 'false',     // the value to set on the props when selected\n        }\n      ],\n      initial: 'true',       // the initial value to set if not configured\n    },\n    {\n\t\t\ttype: 'section',\n\t\t\tkey: 'amount',\n\t\t\tlabel: 'set the amount of butterflies min 1 / max 5000',\n\t\t},\n    {\n      key: \"butterfly_amount\",\n      label: \"Butterfly Amount\",\n      type: \"number\",\n      initial: 50,\n      min: 1,\n      max: 5000,\n      step: 1,\n    },\n    {\n\t\t\ttype: 'section',\n\t\t\tkey: 'scale',\n\t\t\tlabel: 'Set random scale_min 0.1/max 10',\n\t\t},\n    {\n      key: \"scale_min\",\n      label: \"Scale Min\",\n      type: \"number\",\n      initial: 0.1,\n      min: 0.1,\n      max: 10,\n      dp:1,\n      step: 0.1,\n    },\n    {\n      key: \"scale_max\",\n      label: \"Scale Max\",\n      type: \"number\",\n      initial: 0.5,\n      min: 0.1,\n      max: 10,\n      dp:1,\n      step: 0.1,\n    },\n    {\n\t\t\ttype: 'section',\n\t\t\tkey: 'flapspeed',\n\t\t\tlabel: 'Set random Flap-speed_min 1/max 50',\n\t\t},\n    {\n      key: \"flapspeed_min\",\n      label: \"Flap-speed Min\",\n      type: \"number\",\n      initial: 8,\n      min: 1,\n      max: 50,\n      step: 1,\n    },\n    {\n      key: \"flapspeed_max\",\n      label: \"Flap-speed Max\",\n      type: \"number\",\n      initial: 15,\n      min: 1,\n      max: 50,\n      step: 1,\n    },\n    {\n\t\t\ttype: 'section',\n\t\t\tkey: 'fly-speed',\n\t\t\tlabel: 'Set random Fly-speed_min 0.1/max 20',\n\t\t},\n    {\n      key: \"flyspeed_min\",\n      label: \"Fly-speed Min",
+  "asset_files": [
+    "Butterfly Swarm V4.glb",
+    "Butterfly Swarm V4__image.jpg"
+  ]
+}

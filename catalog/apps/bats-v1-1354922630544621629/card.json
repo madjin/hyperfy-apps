@@ -1,0 +1,41 @@
+{
+  "name": "Bats_v1",
+  "author": "Valiant",
+  "description": "Spawns a configurable swarm of up to 5000 bat clones that animates wing-flapping and erratic flight paths each frame. Plays a looping spatial audio clip for the swarm ambience. Exposes UI controls for bat count, scale, wingbeat speed, fly speed, and sound toggle.",
+  "tags": [
+    "animation",
+    "audio",
+    "3d-model",
+    "environment",
+    "ui"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking": "none",
+  "preview_url": "catalog/discord/hyp_media/Bats_v1_1354922630544621629/m2_image.png",
+  "download_path": "v2-hyp/Bats_v1.hyp",
+  "created_at": "2025-03-27T20:58:48.367Z",
+  "props": {
+    "visible": "true",
+    "bat_amount": 1050,
+    "scale_min": 0.1,
+    "scale_max": 0.1,
+    "wingbeat_min": 12,
+    "wingbeat_max": 25,
+    "flyspeed_min": 0.3,
+    "flyspeed_max": 1,
+    "soundEnabled": "true",
+    "batSound": {
+      "type": "audio",
+      "url": "assets/batSound.mp3"
+    }
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\napp.configure(() => {\n  return [\n    {\n      type: 'switch',\n      key: 'visible',\n      label: 'Original Bat Visible',\n      options: [\n        { label: 'True', value: 'true' },\n        { label: 'False', value: 'false' }\n      ],\n      initial: 'true',\n    },\n    {\n      type: 'section',\n      key: 'amount',\n      label: 'Set the amount of bats (min 1 / max 5000)',\n    },\n    {\n      key: \"bat_amount\",\n      label: \"Bat Amount\",\n      type: \"number\",\n      initial: 50,\n      min: 1,\n      max: 5000,\n      step: 1,\n    },\n    {\n      type: 'section',\n      key: 'scale',\n      label: 'Set random scale (min 0.05 / max 10)',\n    },\n    {\n      key: \"scale_min\",\n      label: \"Scale Min\",\n      type: \"number\",\n      initial: 0.1,\n      min: 0.05,\n      max: 10,\n      dp: 1,\n      step: 0.1,\n    },\n    {\n      key: \"scale_max\",\n      label: \"Scale Max\",\n      type: \"number\",\n      initial: 0.5,\n      min: 0.1,\n      max: 10,\n      dp: 1,\n      step: 0.1,\n    },\n    {\n      type: 'section',\n      key: 'wingbeat',\n      label: 'Set random wing-beat speed (min 1 / max 50)',\n    },\n    {\n      key: \"wingbeat_min\",\n      label: \"Wing-beat Speed Min\",\n      type: \"number\",\n      initial: 8,\n      min: 1,\n      max: 50,\n      step: 1,\n    },\n    {\n      key: \"wingbeat_max\",\n      label: \"Wing-beat Speed Max\",\n      type: \"number\",\n      initial: 15,\n      min: 1,\n      max: 50,\n      step: 1,\n    },\n    {\n      type: 'section',\n      key: 'fly-speed',\n      label: 'Set random fly-speed (min 0.1 / max 20)',\n    },\n    {\n      key: \"flyspeed_min\",\n      label: \"Fly-speed Min\",\n      type: \"number\",\n      dp: 1,\n      initial: 0.1,\n      min: 0.1,\n      max: 20,\n      step: 0.1,\n    },\n    {\n      key: \"flyspeed_max\",\n      label: \"Fly-speed Max\",\n      type: \"number\",\n      dp: 1,\n      initial: 1,\n      min: 0.1,\n      max: 20,\n      step: 0.1,\n    },\n    {\n      type: 'section',\n      key: 'audio',\n      label:",
+  "asset_files": [
+    "Bats v1.glb",
+    "batSound.mp3"
+  ]
+}

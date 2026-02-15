@@ -1,0 +1,18 @@
+{
+  "app_id": "teleport-trigger-box-1431333007888748678",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:29:28+00:00",
+  "description": "Spawns a customizable trigger zone that teleports players to a configurable X,Y,Z destination on entry. Creates a rigidbody with a geometry collider set as a trigger, and uses onTriggerEnter to call player.teleport. The box mesh can be toggled visible or hidden and scaled along each axis via props.",
+  "feature_tags": [
+    "teleport",
+    "physics",
+    "interaction",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "trigger"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "none"
+}

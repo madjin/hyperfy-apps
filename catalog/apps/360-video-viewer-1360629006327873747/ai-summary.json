@@ -1,0 +1,16 @@
+{
+  "app_id": "360-video-viewer-1360629006327873747",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:15:47+00:00",
+  "description": "Renders 360-degree video onto an inverted sphere mesh, allowing users to stand on a central platform and view immersive panoramic footage. Creates a video node mapped to the sphere's geometry with 2:1 aspect ratio and plays it in a looping mode. Supports uploaded files and m3u8 streams.",
+  "feature_tags": [
+    "media-player",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none"
+}

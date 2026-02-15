@@ -1,0 +1,39 @@
+{
+  "id": "$scene",
+  "version": 264,
+  "name": "The Grid",
+  "image": null,
+  "author": null,
+  "url": null,
+  "desc": null,
+  "model": "asset://bc0f8c61d98a54bed2c9ec01f4cfe732f8d1a9d072f7b0e3951e7940345b536d.glb",
+  "script": "asset://fb50c3aae07a14b6e944c263d7737d8b678d0bbf0084db1b4a9dbf8e2e7bd017.js",
+  "props": {
+    "hour": 4,
+    "period": "pm",
+    "intensity": 1,
+    "sky": {
+      "type": "texture",
+      "name": "Clear_08_4pm_LDR.2048.webp",
+      "url": "asset://179d71586e675efc4af04185e1b2d3e6b7f4a5b707f1ef5e9b6497c5660ecab7.webp"
+    },
+    "hdr": {
+      "type": "hdr",
+      "name": "Clear_08_4pm_LDR.hdr",
+      "url": "asset://62db0ffbcea86b5e9ba23fb5da739b160e8abfd3b390235fed5ac436750e1e2e.hdr"
+    },
+    "verticalRotation": 40,
+    "horizontalRotation": 230,
+    "rotationY": 0,
+    "fogNear": 450,
+    "fogFar": 1000,
+    "fogColor": "",
+    "color": "white"
+  },
+  "preload": true,
+  "public": false,
+  "locked": false,
+  "unique": false,
+  "scene": true,
+  "disabled": false
+}

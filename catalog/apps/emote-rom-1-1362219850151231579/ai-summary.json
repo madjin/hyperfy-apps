@@ -1,0 +1,20 @@
+{
+  "app_id": "emote-rom-1-1362219850151231579",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:20:26+00:00",
+  "description": "Emote player ROM that triggers up to 10 configurable emote animations via numpad keys, syncs playback across multiplayer clients using server broadcast, and renders a floating emoji UI billboard above each player during the emote duration.",
+  "feature_tags": [
+    "animation",
+    "ui",
+    "multiplayer",
+    "interaction",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "events"
+}

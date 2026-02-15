@@ -1,0 +1,29 @@
+{
+  "name": "Loot-Ringed_Planet",
+  "author": "maximus",
+  "description": "Renders a rotating ringed planet GLB model that acts as a collectible loot item in a space trading sim. Animates continuous Y-axis rotation on update, listens for proximity-check events to trigger collection by a collectron, and emits item-detected and pong events for cross-app communication.",
+  "tags": [
+    "3d-model",
+    "animation",
+    "interaction"
+  ],
+  "interaction_modes": [
+    "passive",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking": "events",
+  "preview_url": "catalog/discord/hyp_media/Loot-Ringed_Planet_1339121960759721996/p0_vt01.png",
+  "download_path": "v2-hyp/Loot-Ringed_Planet.hyp",
+  "created_at": "2025-02-12T06:32:35.128Z",
+  "props": {
+    "lootValue": 1,
+    "name": "Ringed Planet",
+    "healthValue": 50
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\napp.scale.x = 15\napp.scale.y = 15\napp.scale.z = 15\n\napp.configure(() => [\n  {\n    key: 'model',\n    type: 'file',\n    label: 'Model',\n    description: 'Upload a GLB model for this item',\n    accept: '.glb',\n    required: true\n  },\n  {\n    key: 'lootValue',\n    type: 'number',\n    label: 'Loot Value',\n    description: 'How much loot this pack provides',\n    initial: 25,\n    required: true\n  },\n  {\n    key: 'name',\n    type: 'text',\n    label: 'Display Name',\n    description: 'Custom name for this loot pack',\n    initial: 'Loot Pack',\n    required: true\n  }\n]);\n\nconst state = {\n    displayName: app.config.name || \"Loot Pack\",\n    type: \"ringedPlanet\",\n    value: app.config.lootValue || 1,\n    isCollected: false\n};\n\n// Add rotation animation\napp.on('update', (delta) => {\n    if (!state.isCollected) {\n        app.rotation.y += delta - .012;\n    }\n});\n\n// Handle proximity checks for collection\nworld.on('proximity-check', (info) => {\n    if (state.isCollected) return;\n    \n    const distance = Math.sqrt(\n        Math.pow(info.position.x - app.position.x, 2) +\n        Math.pow(info.position.z - app.position.z, 2)\n    );\n    \n    // Only collect when the collectron is very close\n    if (distance <= 0.5 && (info.type === 'collectron' || info.metadata?.type === 'collectron')) {\n        console.log('Collection attempt by:', info.type, 'at distance:', distance);\n        state.isCollected = true;\n        \n        // First emit cleanup event so collectron can update its state\n        world.emit('item-cleanup', app.instanceId);\n        \n        // Emit detection event for collectron to process\n        world.emit('item-detected', {\n            itemId: app.instanceId,\n            collectorId: info.instanceId,\n            item: {\n                name: state.displayName,\n                type: state.type,\n                value: state.value\n            }\n        });\n\n        // Hide the mesh and remove the entity\n     ",
+  "asset_files": [
+    "Loot-Ringed Planet.glb"
+  ]
+}

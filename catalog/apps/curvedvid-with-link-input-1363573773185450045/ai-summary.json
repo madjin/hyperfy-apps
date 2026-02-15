@@ -1,0 +1,16 @@
+{
+  "app_id": "curvedvid-with-link-input-1363573773185450045",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:19:46+00:00",
+  "description": "Renders a video stream onto a curved 3D screen mesh, supporting both uploaded video files and pasted URL links. Creates a video node that copies the mesh position and quaternion, then plays the video in a looped 16:9 aspect ratio with cover mode enabled.",
+  "feature_tags": [
+    "media-player",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "heavy",
+  "script_complexity": "low",
+  "networking_profile": "none"
+}

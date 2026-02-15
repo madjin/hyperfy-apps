@@ -1,0 +1,20 @@
+{
+  "app_id": "saori-2-5-trump-agent-1346629939817877556",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:27:37+00:00",
+  "description": "AI-driven NPC agent using a VRM avatar that listens for chat messages and player enter/leave events, sends world state to an external endpoint, and renders speech bubble UI responses. Triggers configurable emotes (wave, think, cheer, explain) and rotates to look at targeted players.",
+  "feature_tags": [
+    "npc",
+    "ui",
+    "animation",
+    "interaction",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "heavy",
+  "script_complexity": "high",
+  "networking_profile": "events"
+}

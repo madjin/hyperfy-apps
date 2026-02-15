@@ -1,0 +1,17 @@
+{
+  "app_id": "eel-add-particles1-1-1362432359785304154",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:20:15+00:00",
+  "description": "Spawns additive glow-dust particles attached to a specific bone of an animated rig. Reads bone transform each frame via getBoneTransform and positions the particle emitter in world space, with a configurable particle texture and alpha-over-life fade curve.",
+  "feature_tags": [
+    "particles",
+    "animation",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "none"
+}

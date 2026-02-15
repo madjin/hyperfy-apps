@@ -1,0 +1,24 @@
+{
+  "name": "Raycaster",
+  "author": "Saori",
+  "description": "Performs a server-side raycast from a beam origin and direction, then spawns a scaled clone of a 3D model at the hit point. Uses networked events to relay hit data from server to client and removes the previous clone before placing a new one.",
+  "tags": [
+    "physics",
+    "interaction",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking": "events",
+  "preview_url": "catalog/generated_previews/raycaster-1348748103104331778.jpg",
+  "download_path": "v2-hyp/Raycaster.hyp",
+  "created_at": "2025-03-10T20:03:26.308Z",
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\nif (world.isServer) {\n  world.on('raybeam', ({ origin, direction }) => {\n    const originVec3 = new Vector3(origin[0], origin[1], origin[2])\n    const directionVec3 = new Vector3(direction[0], direction[1], direction[2])\n    \n    directionVec3.normalize()\n    \n    const offsetDistance = 0.5\n    const offsetOrigin = new Vector3()\n    offsetOrigin.copy(originVec3)\n    offsetOrigin.addScaledVector(directionVec3, offsetDistance)\n    \n    const hit = world.raycast(offsetOrigin, directionVec3, Infinity)\n    if (!hit) return\n    \n    app.send('hit', {\n      point: hit.point.toArray(),\n      distance: hit.distance\n    })\n    \n  })\n}\n\nif(world.isClient) {\n  let clone = null\n\n  app.on('hit', ({point, distance}) => {\n    console.log(distance)\n    if (clone !== null) world.remove(clone)\n    const beam = app.get('Beam')\n    clone = beam.clone()\n    clone.position.set(point[0], point[1], point[2])\n    clone.scale.set(0.1, 0.1, 0.1)\n    world.add(clone)\n  })\n}\n}\n",
+  "asset_files": [
+    "Raycaster.glb"
+  ]
+}

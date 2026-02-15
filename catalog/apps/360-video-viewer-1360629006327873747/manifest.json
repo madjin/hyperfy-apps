@@ -1,0 +1,81 @@
+{
+  "app_id": "360-video-viewer-1360629006327873747",
+  "app_slug": "360-video-viewer",
+  "app_name": "360_Video_Viewer",
+  "source": {
+    "hyp_filename": "360_Video_Viewer.hyp",
+    "discord_attachment_id": "1360629006348583082",
+    "discord_message_id": "1360629006327873747",
+    "discord_channel": "\ud83d\udcbb\u2502developers",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-04-12T14:53:54.373Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/994775534733115412/1360629006348583082/360_Video_Viewer.hyp?ex=69797a42&is=697828c2&hm=59781489a27476e6885c05c3865f28098332762c19d6ae472196f0249f963043&"
+  },
+  "author": {
+    "display_name": "ash",
+    "discord_user_id": "179546010303856640",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "If anyone wants to try out 360 videos on dev here's the app i used.\nIt has a little platform right in the middle you can stand on.\nYou can find 360 videos on youtube and download them with https://www.socialplug.io/free-tools/youtube-video-downloader\nNote that worlds by default limit upload filesizes so you may need to increase that for them to save properly.\nYou can also set the src to an m3u8 stream if you find any.",
+    "raw_message_content": "If anyone wants to try out 360 videos on dev here's the app i used.\nIt has a little platform right in the middle you can stand on.\nYou can find 360 videos on youtube and download them with https://www.socialplug.io/free-tools/youtube-video-downloader\nNote that worlds by default limit upload filesizes so you may need to increase that for them to save properly.\nYou can also set the src to an m3u8 stream if you find any.",
+    "summary_excerpt": "360 Video Viewer.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/360-video-viewer",
+    "v2_json_path": "v2/apps/360-video-viewer/360 Video Viewer.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/360_Video_Viewer.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/360_Video_Viewer_1360629006327873747/p2_image.png",
+    "media_type": ".png",
+    "selection_reason": "same_author_nearby",
+    "is_fallback_any_author": false
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/360_Video_Viewer_1360629006327873747/p2_image.png",
+      "original_filename": "image.png",
+      "content_type": "image/png",
+      "relative_index": 2,
+      "same_author": true,
+      "selection_reason": "same_author_nearby",
+      "size_bytes": 2941611,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1360630186676064366"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "360-video-viewer-1360629006327873747",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T03:54:25+00:00",
+    "description": "A 360-degree video player that renders immersive spherical video inside a sphere geometry. Users stand on a central platform while video plays on the inner surface. Supports local video files and m3u8 streaming sources.",
+    "feature_tags": [
+      "media-player",
+      "environment",
+      "ui",
+      "3d-model",
+      "interaction"
+    ],
+    "interaction_modes": [
+      "ui",
+      "passive"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "low",
+    "networking_profile": "none"
+  }
+}

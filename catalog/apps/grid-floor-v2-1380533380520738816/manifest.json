@@ -1,0 +1,66 @@
+{
+  "app_id": "grid-floor-v2-1380533380520738816",
+  "app_slug": "grid-floor-v2",
+  "app_name": "Grid_Floor_v2",
+  "source": {
+    "hyp_filename": "Grid_Floor_v2.hyp",
+    "discord_attachment_id": "1380533380067889284",
+    "discord_message_id": "1380533380520738816",
+    "discord_channel": "\ud83c\udfa8\u2502showcase",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-06-06T13:06:46.986Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1346623562462527649/1380533380067889284/Grid_Floor_v2.hyp?ex=69796126&is=69780fa6&hm=1004de06154a21b1477dec3ee6e46063ba3e1fb7a271a167dc56105425f4bf0c&"
+  },
+  "author": {
+    "display_name": "ash",
+    "discord_user_id": "179546010303856640",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "Grid Floor v2.hyp",
+    "raw_message_content": "",
+    "summary_excerpt": "Grid Floor v2.hyp",
+    "source_priority_used": "summary_excerpt"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/grid-floor-v2",
+    "v2_json_path": "v2/apps/grid-floor-v2/Grid Floor v2.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Grid_Floor_v2.md"
+  },
+  "preview": {
+    "primary_media_path": null,
+    "media_type": null,
+    "selection_reason": null,
+    "is_fallback_any_author": false
+  },
+  "media": [],
+  "status": {
+    "has_preview": false,
+    "needs_media_review": true,
+    "needs_author_review": false,
+    "flags": [
+      "no_media_found"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "grid-floor-v2-1380533380520738816",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:05:22+00:00",
+    "description": "A lightweight grid floor asset positioned 0.03 units above ground to prevent z-fighting. Includes textured GLB model and minimal positioning script. Designed as a reusable environmental building block for Hyperfy worlds.",
+    "feature_tags": [
+      "environment",
+      "building",
+      "3d-model"
+    ],
+    "interaction_modes": [
+      "passive"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "low",
+    "networking_profile": "none"
+  }
+}

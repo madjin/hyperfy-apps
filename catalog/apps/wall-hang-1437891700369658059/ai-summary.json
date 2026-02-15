@@ -1,0 +1,19 @@
+{
+  "app_id": "wall-hang-1437891700369658059",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:30:43+00:00",
+  "description": "Wall hang mechanic that raycasts to detect ledges while the player falls, teleports the player to the grab point, and applies a hanging emote effect. Space triggers a climb impulse upward while S drops the player away from the wall normal.",
+  "feature_tags": [
+    "physics",
+    "animation",
+    "interaction",
+    "teleport",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "high",
+  "networking_profile": "none"
+}

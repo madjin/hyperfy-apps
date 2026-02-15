@@ -1,0 +1,36 @@
+{
+  "name": "TriggerZone",
+  "author": "Gert-Jan Akerboom",
+  "description": "Creates a configurable box collider trigger zone that detects when a player walks through it and sends a notification message to a Discord webhook. Renders a semi-transparent emissive prim cube as a visual indicator with adjustable color, opacity, and size. Supports excluding specific players by nam",
+  "tags": [
+    "physics",
+    "interaction",
+    "ui"
+  ],
+  "interaction_modes": [
+    "trigger",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking": "events",
+  "preview_url": "catalog/generated_previews/triggerzone-1440323116382556250.png",
+  "download_path": "v2-hyp/TriggerZone.hyp",
+  "created_at": "2025-11-18T12:49:50.855Z",
+  "props": {
+    "collision": true,
+    "broadcastChat": true,
+    "triggerName": "Trigger Zone",
+    "showTrigger": true,
+    "triggerColor": "#ff6ede",
+    "triggerOpacity": 0.49,
+    "webhook": "",
+    "triggerSizeX": 2,
+    "triggerSizeY": 2,
+    "triggerSizeZ": 2
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\n// Discord Trigger Zone App\n// Sends Discord messages when players enter a trigger zone\n\n// Remove default block\napp.remove(app.get('Block'))\n\napp.configure([\n  {\n    key: 'broadcastChat',\n    type: 'switch',\n    label: 'Broadcast',\n    options: [\n      { label: 'on', value: true },\n      { label: 'off', value: false },\n    ],\n    initial: true,\n  },\n  {\n    key: 'webhook',\n    type: 'text',\n    label: 'Webhook URL',\n    placeholder: 'Enter Discord webhook URL',\n  },\n  {\n    key: 'excludedNames',\n    type: 'text',\n    label: 'Excluded Names (comma-separated)',\n    placeholder: 'Enter names to exclude from trigger',\n  },\n  {\n    key: 'triggerName',\n    type: 'text',\n    label: 'Trigger Name',\n    placeholder: 'e.g., Main Entrance',\n    initial: 'Trigger Zone',\n  },\n  {\n    key: 'showTrigger',\n    type: 'switch',\n    label: 'Show Trigger Cube',\n    options: [\n      { label: 'on', value: true },\n      { label: 'off', value: false },\n    ],\n    initial: true,\n  },\n  {\n    key: 'triggerColor',\n    type: 'color',\n    label: 'Trigger Color',\n    initial: '#00FF00',\n  },\n  {\n    key: 'triggerOpacity',\n    type: 'range',\n    label: 'Trigger Opacity',\n    min: 0,\n    max: 1,\n    step: 0.01,\n    initial: 0.5,\n  },\n])\n\n\n// Helper function to get color value (handles both color picker and text input)\nfunction getColorValue() {\n  const color = app.config.triggerColor\n  // If color picker returns an object, extract the hex value\n  // Otherwise, use the string directly\n  if (typeof color === 'object' && color !== null) {\n    return color.hex || color.value || '#00FF00'\n  }\n  return color || '#00FF00'\n}\n\n// Helper function to check if trigger should be visible\nfunction shouldShowTrigger() {\n  // Handle switch value - could be true, false, or undefined\n  if (app.config.showTrigger === false) {\n    return false\n  }\n  // Default to true if undefined or true\n  return true\n}\n\n// ===== TRIGGER ZONE SETUP =====\n// Helper ",
+  "asset_files": [
+    "TriggerZone.glb"
+  ]
+}

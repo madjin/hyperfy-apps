@@ -1,0 +1,23 @@
+{
+  "id": "657imhgsrT",
+  "version": 2,
+  "name": "TEIL2",
+  "image": null,
+  "author": null,
+  "url": null,
+  "desc": null,
+  "model": "asset://b93c1f159939d95f2b05950dd4c6f63547ea9733d979cfbbdbcb42983cbc8d8a.glb",
+  "script": "asset://6ecadc8344a7e77a8270dc85099f82fea9f5b78cd7d013e94fd6095e69e5ebca.js",
+  "props": {
+    "audio": {
+      "type": "audio",
+      "name": "IDLE-3-loop-MP3.mp3",
+      "url": "asset://106e351912176bb68cb49d49e2be83becec591bc4b7344fc4d497726a691b610.mp3"
+    }
+  },
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "unique": false,
+  "disabled": false
+}

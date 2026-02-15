@@ -1,0 +1,71 @@
+{
+  "app_id": "rocket-global-coll-1437796842313355295",
+  "app_slug": "rocket-global-coll",
+  "app_name": "RocketGlobalColl",
+  "source": {
+    "hyp_filename": "RocketGlobalColl.hyp",
+    "discord_attachment_id": "1437796842350968912",
+    "discord_message_id": "1437796842313355295",
+    "discord_channel": "\ud83d\udc1e\u2502issues",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-11-11T13:31:20.181Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1022421054582423562/1437796842350968912/RocketGlobalColl.hyp?ex=697966e8&is=69781568&hm=e3e9a5d137d6f48e2059bedb0aa14952b08c7322d7d23e2a34100b187fdf67aa&"
+  },
+  "author": {
+    "display_name": "Gert-Jan Akerboom",
+    "discord_user_id": "601886221072990251",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "i have this rocket, the latest version.",
+    "raw_message_content": "i have this rocket, the latest version.",
+    "summary_excerpt": "RocketGlobalColl.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/rocket-global-coll",
+    "v2_json_path": "v2/apps/rocket-global-coll/Rocket(Global+Coll).json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/RocketGlobalColl.md"
+  },
+  "preview": {
+    "primary_media_path": null,
+    "media_type": null,
+    "selection_reason": null,
+    "is_fallback_any_author": false
+  },
+  "media": [],
+  "status": {
+    "has_preview": false,
+    "needs_media_review": true,
+    "needs_author_review": false,
+    "flags": [
+      "no_media_found"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "rocket-global-coll-1437796842313355295",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-14T19:46:04+00:00",
+    "description": "An interactive networked rocket launcher with collision physics, particle exhaust effects, and synchronized launch/respawn animations controlled via action button.",
+    "feature_tags": [
+      "particles",
+      "animation",
+      "physics",
+      "interaction",
+      "multiplayer",
+      "3d-model"
+    ],
+    "interaction_modes": [
+      "action",
+      "networked",
+      "ui"
+    ],
+    "asset_profile": "medium",
+    "script_complexity": "high",
+    "networking_profile": "events"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "monkey_head",
+  "author": ".hyp shaman",
+  "description": "Renders a monkey head 3D model with a jump button texture and configurable jumpHeight prop. The script is empty, serving as a minimal template to demonstrate app structure with a GLB model and texture asset loaded into the scene.",
+  "tags": [
+    "3d-model",
+    "ui"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking": "none",
+  "preview_url": "catalog/discord/hyp_media/monkey_head_1360004867166437467/m2_image.png",
+  "download_path": "v2-hyp/monkey_head.hyp",
+  "created_at": "2025-04-10T21:33:48.001Z",
+  "props": {
+    "jumpButtonImage": {
+      "type": "texture",
+      "url": "assets/jumpButtonImage.png"
+    },
+    "jumpHeight": 1
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\n\n}\n",
+  "asset_files": [
+    "jumpButtonImage.png",
+    "monkey_head.glb"
+  ]
+}

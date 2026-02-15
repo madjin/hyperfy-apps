@@ -1,0 +1,19 @@
+{
+  "app_id": "cam-raycast-action-bar-1348748294658195487",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:18:44+00:00",
+  "description": "Renders a 10-slot action bar UI at the bottom of the screen with keybind labels and WoW-style spell icons. Triggers a camera-based raycast on key press (Q) that sends the ray direction and origin to the server via networked events for server-side hit detection.",
+  "feature_tags": [
+    "ui",
+    "camera",
+    "combat",
+    "interaction"
+  ],
+  "interaction_modes": [
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "events"
+}

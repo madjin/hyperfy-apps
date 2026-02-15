@@ -1,0 +1,20 @@
+{
+  "app_id": "discord3-1421084209073885294",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:20:01+00:00",
+  "description": "Broadcasts world events to a Discord webhook: sends player join/leave and chat messages, tracks session duration, and renders a rotating Discord logo with screen-space UI notifications. Supports excluding specific player names and toggling logo visibility.",
+  "feature_tags": [
+    "ui",
+    "animation",
+    "interaction",
+    "3d-model",
+    "multiplayer"
+  ],
+  "interaction_modes": [
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "events"
+}

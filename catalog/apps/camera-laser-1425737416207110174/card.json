@@ -1,0 +1,26 @@
+{
+  "name": "CameraLaser",
+  "author": "Shiffty",
+  "description": "Equippable laser gun that shoots red laser beams from the camera direction. Players trigger an action to equip, then fire lasers on mouse click. Laser clones spawn via networked events, fade out over 3 seconds, and are cleaned up by the server.",
+  "tags": [
+    "combat",
+    "camera",
+    "interaction",
+    "multiplayer",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "action",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking": "events",
+  "preview_url": "catalog/discord/hyp_media/CameraLaser_1425737416207110174/p2_cannonballs.mp4",
+  "download_path": "v2-hyp/CameraLaser.hyp",
+  "created_at": "2025-10-09T06:51:28.944Z",
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\n// Camera Laser Shooter\n// Shoot lasers from the camera that stay in world position and disappear after a few seconds\n\n// Configuration\nconst LASER_LIFETIME = 3.0 // How long lasers stay visible (seconds)\nconst LASER_LENGTH = 50.0 // Maximum length of laser beam\nconst LASER_COLOR = '#FF0000' // Red laser color\n\n// Reference the laser template from the GLB\nconst laserTemplate = app.get('Laser')\nif (laserTemplate) {\n    laserTemplate.active = false\n}\n\n// Animated torus\nconst torus = app.create('prim', {\n  type: 'torus',\n  scale: [1, 1, 1],\n  position: [app.position.x, app.position.y + 1.5, app.position.z],\n  color: '#ffff00'\n})\nworld.add(torus)\n\n// Client-Side Logic\nif (world.isClient) {\n    const lasers = [] // Track active lasers\n    let control\n    let equipped = false\n\n    // Create interaction trigger for equipping laser\n    const action = app.create('action')\n    action.label = 'Equip Laser Gun'\n    action.position.y = 1.5\n    app.add(action)\n\n    // Handle equip action\n    action.onTrigger = () => {\n        action.active = false\n        control = app.control()\n        equipped = true\n\n        // Capture mouse controls\n        control.mouseLeft.onPress = shootLaser\n    }\n\n    // Shoot laser from camera\n    function shootLaser() {\n        if (!equipped || !control?.pointer.locked) return\n\n        // Get camera position and forward direction\n        const cameraPos = control.camera.position.toArray()\n        const forward = new Vector3(0, 0, -1).applyQuaternion(control.camera.quaternion)\n\n        // Send laser fire event to server\n        app.send('laser:fire', [cameraPos, forward.toArray()])\n    }\n\n    // Handle laser spawn from server\n    app.on('laser:spawn', (data) => {\n        const [id, posArray, dirArray] = data\n        if (!laserTemplate) {\n            console.error('[CameraLaser] Laser template not found')\n            return\n        }\n\n        // Create laser instance\n        const laser",
+  "asset_files": [
+    "Camera Laser.glb"
+  ]
+}

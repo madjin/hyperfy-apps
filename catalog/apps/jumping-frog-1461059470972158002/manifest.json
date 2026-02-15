@@ -1,0 +1,67 @@
+{
+  "app_id": "jumping-frog-1461059470972158002",
+  "app_slug": "jumping-frog",
+  "app_name": "Jumping_Frog",
+  "source": {
+    "hyp_filename": "Jumping_Frog.hyp",
+    "discord_attachment_id": "1461059470732951734",
+    "discord_message_id": "1461059470972158002",
+    "discord_channel": "\u26a1\u2502general",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2026-01-14T18:08:43.052Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/958209074045026327/1461059470732951734/Jumping_Frog.hyp?ex=6979a7ea&is=6978566a&hm=fed4761e8927fac23b8d33665d39d419d34b18dc7bfbcb9ac3b6b8243b5bad55&"
+  },
+  "author": {
+    "display_name": "fractilians",
+    "discord_user_id": "821575310398980116",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "Jumping Frog.hyp",
+    "raw_message_content": "",
+    "summary_excerpt": "Jumping Frog.hyp",
+    "source_priority_used": "summary_excerpt"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/jumping-frog",
+    "v2_json_path": "v2/apps/jumping-frog/Jumping Frog.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Jumping_Frog.md"
+  },
+  "preview": {
+    "primary_media_path": null,
+    "media_type": null,
+    "selection_reason": null,
+    "is_fallback_any_author": false
+  },
+  "media": [],
+  "status": {
+    "has_preview": false,
+    "needs_media_review": true,
+    "needs_author_review": false,
+    "flags": [
+      "no_media_found"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "jumping-frog-1461059470972158002",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T04:07:09+00:00",
+    "description": "A procedural animated frog character that continuously hops with squash-and-stretch physics, tongue-flicking animations, and randomized jump parameters. Built from geometric primitives with articulated legs and expressive eyes, serving as autonomous environmental decoration.",
+    "feature_tags": [
+      "animation",
+      "3d-model",
+      "npc",
+      "environment"
+    ],
+    "interaction_modes": [
+      "passive"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "medium",
+    "networking_profile": "none"
+  }
+}

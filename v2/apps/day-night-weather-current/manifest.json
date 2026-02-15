@@ -1,0 +1,121 @@
+[
+  {
+    "type": "model",
+    "url": "asset://acdf8fa51fdb8b4e726b2fd502dce23a3a6010d37aabbe9209cd0958ed92fba5.glb",
+    "filename": "acdf8fa51fdb8b4e726b2fd502dce23a3a6010d37aabbe9209cd0958ed92fba5.glb",
+    "size": 12728,
+    "mime": "model/gltf-binary"
+  },
+  {
+    "type": "script",
+    "url": "asset://52f9fe83b66eb1fed1b0273f212cd990e1d2d0a4d9e472c1fbdc970f0bd7164a.js",
+    "filename": "52f9fe83b66eb1fed1b0273f212cd990e1d2d0a4d9e472c1fbdc970f0bd7164a.js",
+    "size": 60432,
+    "mime": "application/javascript"
+  },
+  {
+    "type": "texture",
+    "url": "asset://a89b198e301f183c89c7d92e9eb29d93cbff452404bb63d994a815b767e4195e.png",
+    "filename": "a89b198e301f183c89c7d92e9eb29d93cbff452404bb63d994a815b767e4195e.png",
+    "size": 147,
+    "mime": "application/json"
+  },
+  {
+    "type": "texture",
+    "url": "asset://ec7fdf804dcca54904e4ebd480c1b574a040439bc2543010d640f303f35126ee.jpg",
+    "filename": "ec7fdf804dcca54904e4ebd480c1b574a040439bc2543010d640f303f35126ee.jpg",
+    "size": 321725,
+    "mime": "image/jpeg"
+  },
+  {
+    "type": "hdr",
+    "url": "asset://3bd5de5a2bf09b581b4be89763bf3261bf65a9c6aee8a3ba99d960c405857b7e.hdr",
+    "filename": "3bd5de5a2bf09b581b4be89763bf3261bf65a9c6aee8a3ba99d960c405857b7e.hdr",
+    "size": 284529,
+    "mime": "application/octet-stream"
+  },
+  {
+    "type": "texture",
+    "url": "asset://39d25b8b27606488c25e0a5f3d94cce7befa80b8e4599961ac94622a41550cd3.jpg",
+    "filename": "39d25b8b27606488c25e0a5f3d94cce7befa80b8e4599961ac94622a41550cd3.jpg",
+    "size": 37739,
+    "mime": "image/jpeg"
+  },
+  {
+    "type": "hdr",
+    "url": "asset://6861489f983cdc0c22435b781a3487171bd25f25f9cc52c46ac402d48e08249e.hdr",
+    "filename": "6861489f983cdc0c22435b781a3487171bd25f25f9cc52c46ac402d48e08249e.hdr",
+    "size": 1745132,
+    "mime": "application/octet-stream"
+  },
+  {
+    "type": "texture",
+    "url": "asset://4e5f177b7717d291464f01538756eb2f471961b09b39ea82ea72447210af7110.png",
+    "filename": "4e5f177b7717d291464f01538756eb2f471961b09b39ea82ea72447210af7110.png",
+    "size": 33145,
+    "mime": "image/png"
+  },
+  {
+    "type": "texture",
+    "url": "asset://6827a0a32a293ec9570fb98d63963b8dd6e6aaba9e1096afad932e93a378bea9.png",
+    "filename": "6827a0a32a293ec9570fb98d63963b8dd6e6aaba9e1096afad932e93a378bea9.png",
+    "size": 47313,
+    "mime": "image/png"
+  },
+  {
+    "type": "texture",
+    "url": "asset://b68627734d08aab3eaf3f94718521553628c75aace1de6c74de28501c1a4c147.png",
+    "filename": "b68627734d08aab3eaf3f94718521553628c75aace1de6c74de28501c1a4c147.png",
+    "size": 100114,
+    "mime": "image/png"
+  },
+  {
+    "type": "texture",
+    "url": "asset://eae1d92c205a2654254281d470ee70cce86cf4e8e849db29e4d5edff0f67c695.png",
+    "filename": "eae1d92c205a2654254281d470ee70cce86cf4e8e849db29e4d5edff0f67c695.png",
+    "size": 90424,
+    "mime": "image/png"
+  },
+  {
+    "type": "texture",
+    "url": "asset://1e8ab968178e507824ab28353c0ffffa918ae3adbcf89513d3db50a17b7bc8a2.png",
+    "filename": "1e8ab968178e507824ab28353c0ffffa918ae3adbcf89513d3db50a17b7bc8a2.png",
+    "size": 62216,
+    "mime": "image/png"
+  },
+  {
+    "type": "texture",
+    "url": "asset://3cb3237277e41f89b8c7a3be9a2106606a6fe229358dd7b78bfb5ca905545aca.png",
+    "filename": "3cb3237277e41f89b8c7a3be9a2106606a6fe229358dd7b78bfb5ca905545aca.png",
+    "size": 19663,
+    "mime": "image/png"
+  },
+  {
+    "type": "texture",
+    "url": "asset://fe6d473393d3b9350c7a654b7cb5fbd343766b5b5b11d3e4aba476832d4a6d3f.png",
+    "filename": "fe6d473393d3b9350c7a654b7cb5fbd343766b5b5b11d3e4aba476832d4a6d3f.png",
+    "size": 46347,
+    "mime": "image/png"
+  },
+  {
+    "type": "audio",
+    "url": "asset://b8002fbc9f6429e5daefbd05921826260682812f2969d4551f38eccc89badebf.mp3",
+    "filename": "b8002fbc9f6429e5daefbd05921826260682812f2969d4551f38eccc89badebf.mp3",
+    "size": 629760,
+    "mime": "audio/mpeg"
+  },
+  {
+    "type": "audio",
+    "url": "asset://61c92c476b9ffaa6f25191b2974d7a4459163c0e01a69aac2a3e87ec34166c39.mp3",
+    "filename": "61c92c476b9ffaa6f25191b2974d7a4459163c0e01a69aac2a3e87ec34166c39.mp3",
+    "size": 957126,
+    "mime": "audio/mpeg"
+  },
+  {
+    "type": "texture",
+    "url": "asset://a8c05800698cd502c3416a1f2335292544d52b3c8624c3c829a534c52b364860.png",
+    "filename": "a8c05800698cd502c3416a1f2335292544d52b3c8624c3c829a534c52b364860.png",
+    "size": 42254,
+    "mime": "image/png"
+  }
+]

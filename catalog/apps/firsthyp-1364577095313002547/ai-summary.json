@@ -1,0 +1,16 @@
+{
+  "app_id": "firsthyp-1364577095313002547",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:20:43+00:00",
+  "description": "Loads a GLB room model named ROOMERS4 and scrolls UV texture offsets on a mesh named UVSCROLL each frame, animating the material along the Y-axis at a configurable speed for a seamless looping effect on gold element plane textures.",
+  "feature_tags": [
+    "3d-model",
+    "animation"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "low",
+  "networking_profile": "none"
+}

@@ -1,0 +1,16 @@
+{
+  "app_id": "alleysign-1341753324801626154",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:16:15+00:00",
+  "description": "Loads an alley sign GLB model and rotates it continuously around its Y-axis at a configurable speed using the per-frame update loop. A simple demonstration of scripted object rotation without triggering GLB animations.",
+  "feature_tags": [
+    "3d-model",
+    "animation"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none"
+}

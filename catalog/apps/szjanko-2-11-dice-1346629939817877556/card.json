@@ -1,0 +1,19 @@
+{
+  "name": "szjanko-2-11-dice",
+  "author": "0mka",
+  "description": "Interactive dice app that animates a 3D dice model when clicked. Triggers a rolling animation on pointer down, rotating the cube with easing over a two-second duration using per-frame update deltas. The rotation decelerates smoothly to simulate a realistic dice roll.",
+  "tags": [
+    "animation",
+    "interaction",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking": "none",
+  "preview_url": "catalog/generated_previews/szjanko-2-11-dice-1346629939817877556.png",
+  "download_path": "v2-hyp/szjanko-2-11-dice.hyp",
+  "created_at": "2025-03-04T23:46:36.827Z"
+}

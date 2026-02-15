@@ -1,0 +1,20 @@
+{
+  "app_id": "video-with-player-ui-1447233812231880724",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:30:30+00:00",
+  "description": "Renders a video surface with world-space Play, Pause, and Reset UI buttons that players can click to control playback. Syncs video state across multiplayer via client-server messaging, supports looping, configurable dimensions, volume, and fit modes.",
+  "feature_tags": [
+    "media-player",
+    "ui",
+    "multiplayer",
+    "interaction",
+    "audio"
+  ],
+  "interaction_modes": [
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking_profile": "events"
+}

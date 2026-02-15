@@ -1,2 +1,5 @@
 node_modules/
+__pycache__/
 tmp
+catalog/discord/hyp_media_raw/
+catalog/manifests/ai-summary-failures/

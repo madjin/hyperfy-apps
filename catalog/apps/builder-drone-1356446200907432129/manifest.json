@@ -1,0 +1,137 @@
+{
+  "app_id": "builder-drone-1356446200907432129",
+  "app_slug": "builder-drone",
+  "app_name": "Builder_Drone",
+  "source": {
+    "hyp_filename": "Builder_Drone.hyp",
+    "discord_attachment_id": "1356446200651452477",
+    "discord_message_id": "1356446200907432129",
+    "discord_channel": "\u26a1\u2502general",
+    "discord_channel_category": "Platform",
+    "discord_timestamp": "2025-04-01T01:52:55.848Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/958209074045026327/1356446200651452477/Builder_Drone.hyp?ex=69796bf7&is=69781a77&hm=9964ef46d10255853a9492374c64fab0de8c2704a4a3dc31dbe56e549bd64ab4&"
+  },
+  "author": {
+    "display_name": "devbyte",
+    "discord_user_id": "1351937536620236870",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "I did a quick edit with cursor that lets you configure a keybind and not need to be near the drone. Just hold down the key.",
+    "raw_message_content": "I did a quick edit with cursor that lets you configure a keybind and not need to be near the drone. Just hold down the key.",
+    "summary_excerpt": "Builder Drone.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/builder-drone",
+    "v2_json_path": "v2/apps/builder-drone/Builder Drone.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Builder_Drone.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/Builder_Drone_1356446200907432129/m2_xyz-builder-drone-x501.mp4",
+    "media_type": ".mp4",
+    "selection_reason": "any_author_fallback",
+    "is_fallback_any_author": true
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/Builder_Drone_1356446200907432129/m7_Screenshot_2025-03-31_200800.png",
+      "original_filename": "Screenshot_2025-03-31_200800.png",
+      "content_type": "image/png",
+      "relative_index": -7,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 1261459,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1356419888935342340"
+    },
+    {
+      "catalog_path": "catalog/discord/hyp_media/Builder_Drone_1356446200907432129/m5_Screenshot_2025-03-31_205343.png",
+      "original_filename": "Screenshot_2025-03-31_205343.png",
+      "content_type": "image/png",
+      "relative_index": -5,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 791726,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1356431657036677360"
+    },
+    {
+      "catalog_path": "catalog/discord/hyp_media/Builder_Drone_1356446200907432129/m2_xyz-builder-drone-x501.mp4",
+      "original_filename": "xyz-builder-drone-x501.mp4",
+      "content_type": "video/mp4",
+      "relative_index": -2,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 4190300,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1356441739052978196"
+    },
+    {
+      "catalog_path": "catalog/discord/hyp_media/Builder_Drone_1356446200907432129/p2_7BF1F0C5-A1B7-4314-B897-43E2666AB7C8.png",
+      "original_filename": "7BF1F0C5-A1B7-4314-B897-43E2666AB7C8.png",
+      "content_type": "image/png",
+      "relative_index": 2,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 596796,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1356451711329370193"
+    },
+    {
+      "catalog_path": "catalog/discord/hyp_media/Builder_Drone_1356446200907432129/p6_brave_7aQ5Vf2bpF.mp4",
+      "original_filename": "brave_7aQ5Vf2bpF.mp4",
+      "content_type": "video/mp4",
+      "relative_index": 6,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 1108899,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1356666163811323974"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [
+      "media_fallback_any_author"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "builder-drone-1356446200907432129",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T03:56:24+00:00",
+    "description": "Configurable builder drone enabling first-person flying mode for construction. Hold custom keybind to pilot with WASD/Space/C controls while others see your avatar. Features networked physics sync and adjustable hold duration.",
+    "feature_tags": [
+      "vehicle",
+      "camera",
+      "physics",
+      "building",
+      "multiplayer",
+      "interaction"
+    ],
+    "interaction_modes": [
+      "action",
+      "ui",
+      "networked"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "medium",
+    "networking_profile": "shared_state"
+  }
+}

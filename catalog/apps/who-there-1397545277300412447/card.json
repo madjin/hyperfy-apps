@@ -1,0 +1,27 @@
+{
+  "name": "who_there",
+  "author": "Gert-Jan Akerboom",
+  "description": "Renders a screenspace UI panel in the top-right corner that displays an online player count and toggles an expandable list showing all player names. Listens for enter/leave events and syncs the roster every two seconds to keep the UI current.",
+  "tags": [
+    "ui",
+    "multiplayer",
+    "interaction"
+  ],
+  "interaction_modes": [
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking": "events",
+  "preview_url": "catalog/discord/hyp_media/who_there_1397545277300412447/m1_image.png",
+  "download_path": "v2-hyp/who_there.hyp",
+  "created_at": "2025-07-23T11:45:59.244Z",
+  "props": {
+    "visible": "false"
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\n/**\n * Who's In World - Hyperfy App\n * Creates a screenspace UI that shows all players currently in the world\n * Updates in real-time when players enter or leave\n * \n * @author Assistant\n * @license MIT\n */\n\n// Add app configuration for cube visibility\napp.configure(() => {\n  return [\n    {\n      type: 'switch',\n      key: 'visible',\n      label: 'Cube Visible',\n      options: [\n        {\n          label: 'Show',\n          value: 'true',\n        },\n        {\n          label: 'Hide',\n          value: 'false',\n        }\n      ],\n      initial: 'true',\n    }\n  ];\n});\n\n// Initialize app state\nif (!app.state.players) {\n  app.state.players = []\n}\n\n// Track UI state\nlet isExpanded = false\nlet playerEntryNodes = []\n\n// Create the main UI container (compact mode)\nconst playerListUI = app.create('ui', {\n  width: 120,\n  height: 60,\n  res: 2,\n  position: [1, 0, 0], // Top right corner (same as elevator4.js)\n  offset: [-20, 20, 0], // 140px from right edge, 20px from top\n  space: 'screen',\n  pivot: 'top-right', // Same as elevator4.js\n  backgroundColor: 'rgba(0, 0, 0, 0.8)',\n  borderRadius: 10,\n  borderColor: '#ffffff',\n  borderWidth: 2,\n  padding: 10,\n  pointerEvents: true, // Enable pointer events for toggle\n  alignItems: 'center',\n  justifyContent: 'center',\n  flexDirection: 'row',\n  gap: 8,\n})\n\n// Create the \"Online\" text\nconst onlineText = app.create('uitext', {\n  value: 'Online',\n  fontSize: 16,\n  fontWeight: 'bold',\n  color: '#ffffff',\n  textAlign: 'center',\n})\n\n// Create the player count text\nconst countText = app.create('uitext', {\n  value: '0',\n  fontSize: 18,\n  fontWeight: 'bold',\n  color: '#4a90e2',\n  textAlign: 'center',\n})\n\n// Create toggle button\nconst toggleButton = app.create('uiview', {\n  width: 20,\n  height: 20,\n  backgroundColor: 'rgba(255, 255, 255, 0.2)',\n  borderRadius: 4,\n  alignItems: 'center',\n  justifyContent: 'center',\n  cursor: 'pointer',\n})\n\nconst toggleIcon = app.create('uitext', ",
+  "asset_files": [
+    "who there.glb"
+  ]
+}

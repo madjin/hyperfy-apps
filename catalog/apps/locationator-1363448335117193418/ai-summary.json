@@ -1,0 +1,16 @@
+{
+  "app_id": "locationator-1363448335117193418",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:23:04+00:00",
+  "description": "Renders a billboarded UI text label above a placed 3D model that displays live world position (X, Y, Z) and rotation (RX, RY, RZ) coordinates, updating each frame to help builders identify exact teleport destinations.",
+  "feature_tags": [
+    "ui",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "ui"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none"
+}

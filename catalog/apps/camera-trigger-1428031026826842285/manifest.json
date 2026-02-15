@@ -1,0 +1,96 @@
+{
+  "app_id": "camera-trigger-1428031026826842285",
+  "app_slug": "camera-trigger",
+  "app_name": "Camera_Trigger",
+  "source": {
+    "hyp_filename": "Camera_Trigger.hyp",
+    "discord_attachment_id": "1428031026504142888",
+    "discord_message_id": "1428031026826842285",
+    "discord_channel": "\ud83e\uddca\u25023d-design",
+    "discord_channel_category": "Creators",
+    "discord_timestamp": "2025-10-15T14:45:28.329Z",
+    "discord_url": "https://cdn.discordapp.com/attachments/1031058655581323324/1428031026504142888/Camera_Trigger.hyp?ex=68f25688&is=68f10508&hm=6cd49970d7ec55d8ab6480578cc0948128621a5a63c86d969e5a0d3b5b3182d9&"
+  },
+  "author": {
+    "display_name": "Dhin",
+    "discord_user_id": "235754161377902593",
+    "confidence": "high",
+    "evidence": "discord"
+  },
+  "description": {
+    "short": "<@849162940699115530> \nThis could potentially be pretty cool for a museum type environment.\nIt's a trigger that while standing on it changes the camera view. Would require setup but may give more control than the jumper.",
+    "raw_message_content": "<@849162940699115530> \nThis could potentially be pretty cool for a museum type environment.\nIt's a trigger that while standing on it changes the camera view. Would require setup but may give more control than the jumper.",
+    "summary_excerpt": "Camera Trigger.hyp",
+    "source_priority_used": "discord_message"
+  },
+  "links": {
+    "v2_app_dir": "v2/apps/camera-trigger",
+    "v2_json_path": "v2/apps/camera-trigger/Camera Trigger.json",
+    "hyp_summary_path": "catalog/discord/hyp_summaries/Camera_Trigger.md"
+  },
+  "preview": {
+    "primary_media_path": "catalog/discord/hyp_media/Camera_Trigger_1428031026826842285/m1_IMG_0630.png",
+    "media_type": ".png",
+    "selection_reason": "any_author_fallback",
+    "is_fallback_any_author": true
+  },
+  "media": [
+    {
+      "catalog_path": "catalog/discord/hyp_media/Camera_Trigger_1428031026826842285/m1_IMG_0630.png",
+      "original_filename": "IMG_0630.png",
+      "content_type": "image/jpeg",
+      "relative_index": -1,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 611448,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1428010788530032795"
+    },
+    {
+      "catalog_path": "catalog/discord/hyp_media/Camera_Trigger_1428031026826842285/m1_IMG_0623.png",
+      "original_filename": "IMG_0623.png",
+      "content_type": "image/jpeg",
+      "relative_index": -1,
+      "same_author": false,
+      "selection_reason": "any_author_fallback",
+      "size_bytes": 524920,
+      "optimized": true,
+      "excluded_large": false,
+      "download_status": "downloaded",
+      "attachment_id": "1428010788869898392"
+    }
+  ],
+  "status": {
+    "has_preview": true,
+    "needs_media_review": false,
+    "needs_author_review": false,
+    "flags": [
+      "media_fallback_any_author"
+    ],
+    "notes": ""
+  },
+  "generated_at": "2026-02-15T07:17:42+00:00",
+  "max_commit_size_bytes": 50000000,
+  "ai": {
+    "app_id": "camera-trigger-1428031026826842285",
+    "model": "moonshotai/kimi-k2.5",
+    "generated_at": "2026-02-11T03:59:02+00:00",
+    "description": "A physics trigger zone that smoothly transitions the camera to a configured overlook view when a player enters, and returns to first-person view on exit. Designed for museum or gallery environments to showcase specific viewing angles of exhibits.",
+    "feature_tags": [
+      "camera",
+      "interaction",
+      "animation",
+      "environment",
+      "3d-model"
+    ],
+    "interaction_modes": [
+      "trigger",
+      "passive"
+    ],
+    "asset_profile": "light",
+    "script_complexity": "medium",
+    "networking_profile": "local"
+  }
+}

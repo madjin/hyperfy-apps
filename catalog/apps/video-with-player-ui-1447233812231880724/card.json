@@ -1,0 +1,45 @@
+{
+  "name": "Video_with_player_UI",
+  "author": "Gert-Jan Akerboom",
+  "description": "Renders a video surface with world-space Play, Pause, and Reset UI buttons that players can click to control playback. Syncs video state across multiplayer via client-server messaging, supports looping, configurable dimensions, volume, and fit modes.",
+  "tags": [
+    "media-player",
+    "ui",
+    "multiplayer",
+    "interaction",
+    "audio"
+  ],
+  "interaction_modes": [
+    "ui",
+    "networked"
+  ],
+  "asset_profile": "medium",
+  "script_complexity": "medium",
+  "networking": "events",
+  "preview_url": "catalog/discord/hyp_media/Video_with_player_UI_1447233812231880724/p0_video_player_ui.png",
+  "download_path": "v2-hyp/Video_with_player_UI.hyp",
+  "created_at": "2025-12-07T14:30:29.140Z",
+  "props": {
+    "width": 0,
+    "height": 2,
+    "fit": "cover",
+    "lit": false,
+    "shadows": true,
+    "video": null,
+    "loop": true,
+    "volume": 1,
+    "sync": true,
+    "doubleside": true,
+    "placeholder": {
+      "type": "video",
+      "url": "assets/placeholder.mp4"
+    },
+    "playerUI": true
+  },
+  "script_excerpt": "export default function main(world, app, fetch, props, setTimeout) {\napp.configure([\n  {\n    key: 'placeholder',\n    type: 'file',\n    kind: 'video',\n    label: 'Placeholder',\n    hidden: true,\n  },\n  {\n    key: 'video',\n    type: 'file',\n    kind: 'video',\n    label: 'Video',\n    hint: 'The video file to play.'\n  },\n  {\n    key: 'loop',\n    type: 'toggle',\n    label: 'Loop',\n    hint: 'Whether the video should loop or stop when it reaches the end.',\n    initial: true,\n  },\n  {\n    key: 'sync',\n    type: 'toggle',\n    label: 'Sync',\n    hint: 'When enabled, video state will be synchronized over multiplayer.',\n    initial: true,\n  },\n  {\n    key: 'playerUI',\n    type: 'toggle',\n    label: 'Player UI',\n    hint: 'When enabled, shows control buttons (Play, Pause, Reset) below the video player.',\n    initial: true,\n  },\n  {\n    key: 'surface',\n    type: 'section',\n    label: 'Surface'\n  },\n  {\n    key: 'width',\n    type: 'number',\n    label: 'Width',\n    dp: 1,\n    step: 0.1,\n    bigStep: 1,\n    hint: 'The width of the surface. This can be set to zero as long as you provide a height, and the width will automatically adapt to the videos aspect ratio.',\n    initial: 0,\n  },\n  {\n    key: 'height',\n    type: 'number',\n    label: 'Height',\n    dp: 1,\n    step: 0.1,\n    bigStep: 1,\n    hint: 'The height of the surface. This can be set to zero as long as you provide a width, and the height will automatically adapt to the videos aspect ratio.',\n    initial: 1,\n  },\n  {\n    key: 'fit',\n    type: 'switch',\n    label: 'Fit',\n    options: [\n      { label: 'Stretch', value: 'none' },\n      { label: 'Cover', value: 'cover' },\n      { label: 'Contain', value: 'contain' },\n    ],\n    hint: 'How the video should be scaled to fit the surface. This is only relevant when both height and width are set.',\n    initial: 'none',\n  },\n  {\n    key: 'lit',\n    type: 'toggle',\n    label: 'Lit',\n    hint: 'Whether the surface reacts to world lighting or not.'\n  },\n  {\n    key: 'shadows',\n    type: '",
+  "asset_files": [
+    "Video with player UI.glb",
+    "Video with player UI__image.png",
+    "placeholder.mp4"
+  ]
+}

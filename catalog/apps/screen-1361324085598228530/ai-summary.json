@@ -1,0 +1,17 @@
+{
+  "app_id": "screen-1361324085598228530",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:27:41+00:00",
+  "description": "Renders a TV screen that triggers screensharing via a player action button. Creates a 16:9 video node linked to the display geometry and supports an admin-restricted toggle to control who can share their screen within a 5-unit interaction distance.",
+  "feature_tags": [
+    "media-player",
+    "interaction",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "action"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "none"
+}

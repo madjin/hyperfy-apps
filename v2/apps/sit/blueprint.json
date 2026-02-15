@@ -1,0 +1,23 @@
+{
+  "id": "rHABb52LBB",
+  "version": 11,
+  "name": "SITING POSITION",
+  "image": null,
+  "author": null,
+  "url": null,
+  "desc": "Seat APP Mod",
+  "model": "asset://bc106fe8e4158546ce8a5b3565105659b2d8c3b6fc96e7835ac3d8c373a6978c.glb",
+  "script": "asset://95f29a69627e4f79d88cad3d9d4440311669e859c95be0b68d747d616ce40378.js",
+  "props": {
+    "emote": {
+      "type": "emote",
+      "name": "Sitting And Talking To Another Person.glb",
+      "url": "asset://ad0dc6273210096fa432edaddea494beaa855cc3f108f2e909c6d4242559a97a.glb"
+    },
+    "visibleType": "visible"
+  },
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "unique": false
+}

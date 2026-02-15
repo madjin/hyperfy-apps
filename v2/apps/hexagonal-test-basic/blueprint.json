@@ -1,0 +1,25 @@
+{
+  "id": "HLBVsCgEvN",
+  "version": 111,
+  "name": "hexagonal_test",
+  "image": null,
+  "author": null,
+  "url": null,
+  "desc": null,
+  "model": "asset://62a8304a6f23cec0e3c628533d3aacf99beefd743ee2daf670225e4a0fe3e09c.glb",
+  "script": "asset://5ef185d3a1a428e005a93d47a4bdc9df71411e2e001cd154477f27d9b42fe92e.js",
+  "props": {
+    "shiftDistance": 10,
+    "shiftSpeed": 50,
+    "oscillationAmplitude": 1,
+    "oscillationFrequency": 25,
+    "uvTransitionSpeed": 2,
+    "uvCycleFPS": 6,
+    "uvScrollSpeed": 100,
+    "uvTrailSpeed": 6
+  },
+  "preload": false,
+  "public": false,
+  "locked": false,
+  "unique": false
+}

@@ -1,0 +1,18 @@
+{
+  "app_id": "simonsaysboard-1354675175769243730",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:28:12+00:00",
+  "description": "Simon Says minigame board that displays a target color and toggles visibility of six colored cubes (RED, ORANGE, YELLOW, GREEN, BLUE, PURPLE) via color-update and reset events. Players must jump to the matching block in time. Work-in-progress prototype for a last-player-standing arena game.",
+  "feature_tags": [
+    "interaction",
+    "ui",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "passive",
+    "networked"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "low",
+  "networking_profile": "events"
+}

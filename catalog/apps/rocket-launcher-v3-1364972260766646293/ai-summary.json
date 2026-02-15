@@ -1,0 +1,18 @@
+{
+  "app_id": "rocket-launcher-v3-1364972260766646293",
+  "model": "anthropic/claude-opus-4.6",
+  "generated_at": "2026-02-15T19:27:00+00:00",
+  "description": "Interactive rocket launcher that triggers a launch sequence when the player holds an action button. Spawns additive exhaust particles on the rocket mesh, animates it skyward with quadratic easing to 500 units, then respawns it by rising smoothly from underground.",
+  "feature_tags": [
+    "particles",
+    "animation",
+    "interaction",
+    "3d-model"
+  ],
+  "interaction_modes": [
+    "action"
+  ],
+  "asset_profile": "light",
+  "script_complexity": "medium",
+  "networking_profile": "none"
+}
