@@ -38,6 +38,7 @@ FAILURE_DUMP_DIR = CATALOG_ROOT / "manifests" / "ai-summary-failures"
 
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 MODEL_DEFAULT = "moonshotai/kimi-k2.5"
+JUDGE_MODEL = "minimax/minimax-m2.5"
 
 ALLOWED_COMPLEXITY = {"low", "medium", "high"}
 ALLOWED_PROFILE = {"light", "medium", "heavy"}
@@ -262,6 +263,67 @@ def normalize_tag(tag: str) -> str:
     return TAG_CANONICAL.get(t, t)
 
 
+def judge_description_suspicious(
+    app_id: str,
+    app_name: str,
+    description: str,
+    source_excerpt: str,
+    api_key: str,
+    max_retries: int = 2,
+) -> bool:
+    """Use LLM judge to determine if a description is broken/generic/hallucinated.
+
+    Returns True if suspicious, False if it looks like a real summary.
+    """
+    system = (
+        "You are a quality-control judge for AI-generated app summaries in a Hyperfy "
+        "(3D virtual world) app catalog. You will be given an app's name, ID, source "
+        "code excerpt, and an AI-generated description. Determine if the description "
+        "actually describes this specific app, or if it is broken/generic/hallucinated.\n\n"
+        "A SUSPICIOUS description might:\n"
+        "- Describe a completely unrelated app (e.g. 'student management system' for a 3D game)\n"
+        "- Be a meta-comment about JSON repair or schema conformance\n"
+        "- Be a generic placeholder with no app-specific detail\n"
+        "- Reference technologies or features not present in the source code\n"
+        "- Be extremely short with no meaningful information\n\n"
+        "A GOOD description will reference concepts, features, or behaviors actually "
+        "present in the source code.\n\n"
+        "Respond with ONLY a JSON object: {\"suspicious\": true, \"reason\": \"...\"} "
+        "or {\"suspicious\": false}"
+    )
+    user = (
+        f"App ID: {app_id}\n"
+        f"App Name: {app_name}\n\n"
+        f"Source code excerpt (first ~4000 chars):\n"
+        f"{source_excerpt[:4000]}\n\n"
+        f"AI-generated description:\n{description}\n\n"
+        "Is this description suspicious?"
+    )
+    payload = {
+        "model": JUDGE_MODEL,
+        "temperature": 0.0,
+        "max_tokens": 100,
+        "messages": [
+            {"role": "system", "content": system},
+            {"role": "user", "content": user},
+        ],
+        "response_format": {"type": "json_object"},
+    }
+    try:
+        response = call_openrouter(payload, api_key=api_key, max_retries=max_retries)
+        content = (
+            response.get("choices", [{}])[0]
+            .get("message", {})
+            .get("content", "")
+        )
+        parsed = extract_json_object(content)
+        if parsed:
+            return bool(parsed.get("suspicious", False))
+    except Exception as e:
+        print(f"    judge warning for {app_id}: {e}")
+    return False
+
+
 def validate_summary(data: dict[str, Any], app_id: str, model: str) -> dict[str, Any]:
     # Merge one_liner + primary_use_case into description if old schema
     desc = data.get("description", "")
@@ -429,24 +491,55 @@ def build_prompt_payload(
     return payload
 
 
-def build_repair_payload(model: str, bad_content: str, use_json_schema: bool = True) -> dict[str, Any]:
+def build_repair_payload(
+    model: str,
+    bad_content: str,
+    app_facts: dict[str, Any],
+    app_files_context: dict[str, Any],
+    use_json_schema: bool = True,
+) -> dict[str, Any]:
+    schema = {
+        "app_id": "string",
+        "description": "string <=300 chars - a concise summary of what this app does and its primary use case",
+        "feature_tags": "string[] max 6",
+        "interaction_modes": "enum[] subset of [action,trigger,ui,passive,networked]",
+        "asset_profile": "enum: light|medium|heavy",
+        "script_complexity": "enum: low|medium|high",
+        "networking_profile": "enum: none|local|shared_state|events",
+    }
+
     system = (
-        "You convert text into strict valid JSON. "
-        "Return ONLY one JSON object and nothing else."
+        "You are a Hyperfy app archivist assistant. The previous attempt to summarize "
+        "this app produced invalid JSON output. Using the app context below, generate "
+        "a valid JSON summary. Return ONLY one JSON object and nothing else."
     )
-    user = (
-        "The previous model output was not valid JSON for the required schema. "
-        "Fix it and return valid JSON only.\n\n"
-        "BAD_OUTPUT:\n"
-        f"{bad_content[:12000]}"
-    )
+
+    user_parts = [
+        "Summarize this Hyperfy app into a lean manifest-enrichment JSON.\n",
+        "APP_FACTS:\n" + json.dumps(app_facts, indent=2) + "\n",
+        "APP_FILES_CONTEXT:\n" + json.dumps(app_files_context, indent=2) + "\n",
+    ]
+    if bad_content and bad_content.strip():
+        user_parts.append(
+            "PREVIOUS_BAD_OUTPUT (for reference only, may be malformed):\n"
+            + bad_content[:4000] + "\n"
+        )
+    user_parts.extend([
+        "OUTPUT_SCHEMA:\n" + json.dumps(schema, indent=2) + "\n",
+        "Rules:\n"
+        "- Keep arrays short and non-duplicative.\n"
+        "- Use enums exactly as specified.\n"
+        f"- {TAG_SUGGESTED}\n"
+        "- Return JSON only.",
+    ])
+
     payload = {
         "model": model,
-        "temperature": 0.0,
+        "temperature": 0.1,
         "max_tokens": 1200,
         "messages": [
             {"role": "system", "content": system},
-            {"role": "user", "content": user},
+            {"role": "user", "content": "\n".join(user_parts)},
         ],
     }
     if use_json_schema:
@@ -516,6 +609,16 @@ def process_one(
             "has_hyp_summary": bool(hyp_summary_md),
         }
 
+    # Build app_facts here so it's available for both primary and repair calls
+    app_facts = {
+        "app_id": app_manifest.get("app_id"),
+        "app_name": app_manifest.get("app_name"),
+        "app_slug": app_manifest.get("app_slug"),
+        "author": app_manifest.get("author", {}),
+        "source": app_manifest.get("source", {}),
+        "description": app_manifest.get("description", {}),
+    }
+
     payload = build_prompt_payload(
         app_manifest,
         hyp_entry,
@@ -525,19 +628,33 @@ def process_one(
         model,
         use_json_schema=use_json_schema,
     )
-    response = call_openrouter(payload, api_key=api_key, max_retries=max_retries)
 
+    # Step 1: Primary LLM call
+    response = call_openrouter(payload, api_key=api_key, max_retries=max_retries)
     content = (
         response.get("choices", [{}])[0]
         .get("message", {})
         .get("content", "")
     )
+
+    # Step 2: If empty content, retry primary once after a short sleep
+    if not content or not content.strip():
+        time.sleep(2)
+        response = call_openrouter(payload, api_key=api_key, max_retries=max_retries)
+        content = (
+            response.get("choices", [{}])[0]
+            .get("message", {})
+            .get("content", "")
+        )
+
+    # Step 3: Parse JSON; if fail, context-aware repair call
     parsed = extract_json_object(content)
     if not parsed:
-        # One repair attempt: ask model to convert its bad output into strict JSON.
         repair_payload = build_repair_payload(
             model=model,
             bad_content=content,
+            app_facts=app_facts,
+            app_files_context=app_files_context,
             use_json_schema=use_json_schema,
         )
         repair_response = call_openrouter(repair_payload, api_key=api_key, max_retries=max_retries)
@@ -559,8 +676,44 @@ def process_one(
             )
             raise RuntimeError(f"Model output is not valid JSON (dumped: {dump_path})")
 
+    # Step 4: Validate structure
     summary = validate_summary(parsed, app_id=app_row["app_id"], model=model)
 
+    # Step 5: LLM judge check — if suspicious, retry full primary prompt once
+    source_excerpt = app_files_context.get("index_js_excerpt", "")
+    app_name = app_manifest.get("app_name", app_row["app_id"])
+    if judge_description_suspicious(
+        app_id=app_row["app_id"],
+        app_name=app_name,
+        description=summary["description"],
+        source_excerpt=source_excerpt,
+        api_key=api_key,
+    ):
+        print(f"    {app_row['app_id']}: judge flagged description, retrying primary...")
+        time.sleep(2)
+        retry_response = call_openrouter(payload, api_key=api_key, max_retries=max_retries)
+        retry_content = (
+            retry_response.get("choices", [{}])[0]
+            .get("message", {})
+            .get("content", "")
+        )
+        retry_parsed = extract_json_object(retry_content)
+        if retry_parsed:
+            retry_summary = validate_summary(retry_parsed, app_id=app_row["app_id"], model=model)
+            # Step 6: If still suspicious after retry, fail
+            if judge_description_suspicious(
+                app_id=app_row["app_id"],
+                app_name=app_name,
+                description=retry_summary["description"],
+                source_excerpt=source_excerpt,
+                api_key=api_key,
+            ):
+                raise RuntimeError(
+                    f"Description still suspicious after retry: {retry_summary['description'][:100]}"
+                )
+            summary = retry_summary
+
+    # Step 7: Write ai-summary.json
     app_dir.mkdir(parents=True, exist_ok=True)
     ai_summary_path.write_text(json.dumps(summary, indent=2), encoding="utf-8")
 
@@ -586,6 +739,11 @@ def main() -> int:
         action="store_true",
         help="Disable structured outputs json_schema and fall back to json_object mode",
     )
+    parser.add_argument(
+        "--broken-only",
+        action="store_true",
+        help="Only re-run apps whose descriptions the LLM judge flags as suspicious/broken",
+    )
 
     args = parser.parse_args()
 
@@ -603,8 +761,10 @@ def main() -> int:
         return 1
 
     api_key = os.environ.get("OPENROUTER_API_KEY", "").strip()
-    if not args.dry_run and not api_key:
+    if not api_key and (not args.dry_run or args.broken_only):
         print("Error: OPENROUTER_API_KEY is required")
+        if args.broken_only:
+            print("  (--broken-only needs the API key for the LLM judge even in dry-run)")
         return 1
 
     global_manifest = read_json(GLOBAL_MANIFEST)
@@ -619,6 +779,64 @@ def main() -> int:
 
     hyp_index_entries = json.loads(HYP_INDEX_RAW.read_text(encoding="utf-8"))
     context_snippets = load_context_snippets()
+
+    # --broken-only: use LLM judge to filter to only apps with suspicious descriptions
+    if args.broken_only:
+        args.force = True  # implies --force so existing summaries get regenerated
+        print(f"Scanning {len(app_rows)} apps with LLM judge ({JUDGE_MODEL})...")
+        broken_ids: list[str] = []
+
+        def _check_app(app_row: dict[str, Any]) -> tuple[str, bool, str]:
+            app_id = app_row["app_id"]
+            manifest_path = REPO_ROOT / app_row["manifest_path"]
+            ai_summary_path = manifest_path.parent / "ai-summary.json"
+            if not ai_summary_path.exists():
+                return app_id, True, "no ai-summary.json"
+
+            try:
+                summary = read_json(ai_summary_path)
+            except Exception:
+                return app_id, True, "unreadable ai-summary.json"
+
+            description = summary.get("description", "")
+            if not description or not description.strip():
+                return app_id, True, "empty description"
+
+            # Load source excerpt for context
+            app_manifest = read_json(manifest_path)
+            source_excerpt = ""
+            v2_dir_rel = app_manifest.get("links", {}).get("v2_app_dir")
+            if v2_dir_rel:
+                index_js = REPO_ROOT / v2_dir_rel / "index.js"
+                if index_js.exists():
+                    source_excerpt = index_js.read_text(
+                        encoding="utf-8", errors="ignore"
+                    )[:4000]
+
+            app_name = app_manifest.get("app_name", app_id)
+            suspicious = judge_description_suspicious(
+                app_id=app_id,
+                app_name=app_name,
+                description=description,
+                source_excerpt=source_excerpt,
+                api_key=api_key,
+            )
+            return app_id, suspicious, description[:80] if suspicious else ""
+
+        with ThreadPoolExecutor(max_workers=max(1, args.concurrency)) as ex:
+            futures = {ex.submit(_check_app, row): row for row in app_rows}
+            for fut in as_completed(futures):
+                app_id, suspicious, reason = fut.result()
+                if suspicious:
+                    broken_ids.append(app_id)
+                    print(f"  BROKEN: {app_id} — {reason}")
+
+        broken_set = set(broken_ids)
+        app_rows = [a for a in app_rows if a["app_id"] in broken_set]
+        print(f"Found {len(app_rows)} broken apps to re-run.")
+        if not app_rows:
+            print("Nothing to do.")
+            return 0
 
     print(f"Apps to summarize: {len(app_rows)}")
     print(f"Model: {args.model}")

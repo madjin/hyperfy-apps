@@ -100,36 +100,30 @@ def detect_v2_json(v2_dir: Path) -> Path | None:
 
 
 def resolve_v2_slug(app_name: str, filename_stem: str, v2_slugs: set[str], mappings: dict[str, str]) -> str | None:
-    candidates: list[str] = []
-
-    app_name_norm = app_name.replace("_", " ").strip()
-    candidates.append(app_name_norm.lower())
-    candidates.append(filename_stem.replace("_", " ").strip().lower())
-
-    mapped = mappings.get(app_name_norm.lower()) or mappings.get(filename_stem.replace("_", " ").lower())
-    if mapped:
-        candidates.append(mapped)
-
-    slug_variants = {
-        sanitize_slug(app_name_norm),
+    candidates = {
+        sanitize_slug(app_name),
         sanitize_slug(filename_stem),
-        sanitize_slug(app_name_norm).replace("-", "_"),
-        sanitize_slug(filename_stem).replace("-", "_"),
     }
-    candidates.extend(slug_variants)
 
-    # direct and fuzzy checks
+    # check filename mappings
+    app_key = app_name.replace("_", " ").strip().lower()
+    file_key = filename_stem.replace("_", " ").strip().lower()
+    mapped = mappings.get(app_key) or mappings.get(file_key)
+    if mapped:
+        candidates.add(sanitize_slug(mapped))
+
+    # exact match (v2 dirs are now all slugified)
     for c in candidates:
-        if not c:
-            continue
-        if c in v2_slugs:
+        if c and c in v2_slugs:
             return c
 
-    # try stripped punctuation variants
+    # fallback: strip all non-alphanumeric and compare
     for c in candidates:
         c2 = re.sub(r"[^a-z0-9]", "", c)
+        if not c2:
+            continue
         for slug in v2_slugs:
-            if re.sub(r"[^a-z0-9]", "", slug) == c2 and c2:
+            if re.sub(r"[^a-z0-9]", "", slug) == c2:
                 return slug
 
     return None
@@ -364,7 +358,8 @@ def build_catalog_manifests(
 ):
     entries = json.loads(hyp_index_path.read_text(encoding="utf-8"))
     v2_root = repo_root / "v2"
-    v2_slugs = {p.name for p in v2_root.iterdir() if p.is_dir()}
+    v2_apps_dir = v2_root / "apps"
+    v2_slugs = {p.name for p in v2_apps_dir.iterdir() if p.is_dir()} if v2_apps_dir.exists() else set()
     mappings = load_filename_mappings(repo_root / "filename-mappings.csv")
 
     apps_out_root = repo_root / "catalog" / "apps"
@@ -386,7 +381,7 @@ def build_catalog_manifests(
         message_id = e.get("message_id") or e.get("attachment_id") or "unknown"
         app_id = f"{preferred_slug}-{message_id}"
 
-        v2_dir = repo_root / "v2" / v2_slug if v2_slug else None
+        v2_dir = repo_root / "v2" / "apps" / v2_slug if v2_slug else None
         v2_json = detect_v2_json(v2_dir) if v2_dir else None
         v2_json_data: dict[str, Any] = {}
         if v2_json and v2_json.exists():
@@ -478,7 +473,7 @@ def build_catalog_manifests(
                 "source_priority_used": desc_source,
             },
             "links": {
-                "v2_app_dir": f"v2/{v2_slug}" if v2_slug else None,
+                "v2_app_dir": f"v2/apps/{v2_slug}" if v2_slug else None,
                 "v2_json_path": str(v2_json.relative_to(repo_root)) if v2_json else None,
                 "hyp_summary_path": f"catalog/discord/hyp_summaries/{summary_rel}" if summary_rel else None,
             },
@@ -517,7 +512,7 @@ def build_catalog_manifests(
             "has_preview": primary is not None,
             "primary_preview": primary.get("catalog_path") if primary else None,
             "manifest_path": f"catalog/apps/{app_id}/manifest.json",
-            "v2_app_dir": f"v2/{v2_slug}" if v2_slug else None,
+            "v2_app_dir": f"v2/apps/{v2_slug}" if v2_slug else None,
             "has_ai_summary": bool(ai_summary),
             "ai_summary_path": f"catalog/apps/{app_id}/ai-summary.json" if ai_summary else None,
             "flags": sorted(flags),

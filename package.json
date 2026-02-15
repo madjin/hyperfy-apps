@@ -6,14 +6,14 @@
   "scripts": {
     "extract": "node extract-hyp.mjs v2-hyp --project v2",
     "extract:single": "node extract-hyp.mjs",
-    "catalog:build": "python scripts/catalog/build_catalog.py",
-    "catalog:dry-run": "python scripts/catalog/build_catalog.py --dry-run",
-    "catalog:context": "python scripts/research/prepare_context_bundle.py",
-    "catalog:summarize": "python scripts/research/summarize_hyp_files_openrouter.py",
-    "catalog:summarize:dry-run": "python scripts/research/summarize_hyp_files_openrouter.py --dry-run",
-    "explorer:build": "python scripts/catalog/build_explorer_data.py",
-    "explorer:serve": "python -m http.server 8080",
-    "build:all": "python scripts/catalog/build_catalog.py --skip-optimize && python scripts/catalog/build_explorer_data.py"
+    "catalog:build": "uv run python scripts/catalog/build_catalog.py",
+    "catalog:dry-run": "uv run python scripts/catalog/build_catalog.py --dry-run",
+    "catalog:context": "uv run python scripts/research/prepare_context_bundle.py",
+    "catalog:summarize": "uv run python scripts/research/summarize_hyp_files_openrouter.py",
+    "catalog:summarize:dry-run": "uv run python scripts/research/summarize_hyp_files_openrouter.py --dry-run",
+    "explorer:build": "uv run python scripts/catalog/build_explorer_data.py",
+    "explorer:serve": "uv run python -m http.server 8080",
+    "build:all": "uv run python scripts/catalog/build_catalog.py --skip-optimize && uv run python scripts/catalog/build_explorer_data.py"
   },
   "keywords": [
     "hyperfy",
