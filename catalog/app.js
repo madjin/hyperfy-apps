@@ -4,7 +4,7 @@ import htm from "htm";
 
 const html = htm.bind(React.createElement);
 
-const EXPLORER_DATA = "./data/explorer-data.json";
+const EXPLORER_DATA = "./explorer-data.json";
 const MIN_TAG_COUNT = 3; // Only show tags used by this many apps in sidebar
 const MISSING_PREVIEW_SVG = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 24 24' fill='none' stroke='%233a3a5a' stroke-width='1.5'%3E%3Crect x='3' y='3' width='18' height='18' rx='2'/%3E%3Ccircle cx='8.5' cy='8.5' r='1.5'/%3E%3Cpath d='m21 15-5-5L5 21'/%3E%3C/svg%3E`;
 
@@ -338,7 +338,7 @@ function Explorer() {
   const [error, setError] = useState("");
   const [query, setQuery] = useState("");
   const [sortMode, setSortMode] = useState("name");
-  const [filterMode, setFilterMode] = useState("all"); // all, preview, source
+  const [filterMode, setFilterMode] = useState("all"); // all, preview
   const [activeTags, setActiveTags] = useState(new Set());
   const [sourceApp, setSourceApp] = useState(null);
 
@@ -386,7 +386,6 @@ function Explorer() {
 
       // Filter mode
       if (filterMode === "no-preview" && app.has_preview) return false;
-      if (filterMode === "source" && !app.has_source) return false;
 
       // Tag filter (AND: app must have all active tags)
       if (activeTags.size > 0) {
@@ -498,10 +497,6 @@ function Explorer() {
             <option value="oldest">Sort: Oldest</option>
           </select>
 
-          <button
-            className=${`filter-btn ${filterMode === "source" ? "active" : ""}`}
-            onClick=${() => setFilterMode(filterMode === "source" ? "all" : "source")}
-          >With Source</button>
         </div>
 
         ${hasActiveFilters

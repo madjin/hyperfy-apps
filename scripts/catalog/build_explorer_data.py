@@ -2,7 +2,7 @@
 """Build merged explorer data from catalog manifests and AI summaries.
 
 Outputs:
-  catalog/data/explorer-data.json            - single file for web explorer
+  catalog/explorer-data.json                 - single file for web explorer
   catalog/apps/<app-id>/card.json           - per-app file for AI agents
 
 Inputs:
@@ -24,7 +24,7 @@ from typing import Any
 REPO_ROOT = Path(__file__).resolve().parents[2]
 CATALOG_ROOT = REPO_ROOT / "catalog"
 GLOBAL_MANIFEST = CATALOG_ROOT / "manifests" / "apps-manifest.json"
-EXPLORER_DATA_DIR = CATALOG_ROOT / "data"
+EXPLORER_DATA_DIR = CATALOG_ROOT
 GENERATED_PREVIEWS_DIR = CATALOG_ROOT / "generated_previews"
 V2_APPS_DIR = REPO_ROOT / "v2"
 V2_ASSETS_DIR = REPO_ROOT / "v2" / "assets"

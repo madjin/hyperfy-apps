@@ -40,7 +40,7 @@ v2-hyp/*.hyp (binary)
     → scripts/catalog/build_catalog.py
     → catalog/apps/<app-id>/manifest.json + ai-summary.json
     → scripts/catalog/build_explorer_data.py
-    → catalog/data/explorer-data.json + catalog/apps/<app-id>/card.json
+    → catalog/explorer-data.json + catalog/apps/<app-id>/card.json
     → catalog/ (static site on GitHub Pages)
 ```
 
@@ -50,7 +50,7 @@ v2-hyp/*.hyp (binary)
 - **`v2-hyp/`** — Original `.hyp` binary files (174 files).
 - **`catalog/`** — Static web explorer deployed to GitHub Pages. React 18 + HTM, no build step.
 - **`catalog/apps/<app-id>/`** — Per-app metadata: `manifest.json` (provenance), `ai-summary.json` (AI output), `card.json` (merged for explorer/agents).
-- **`catalog/data/explorer-data.json`** — Single merged JSON fetched by the explorer UI (221KB).
+- **`catalog/explorer-data.json`** — Single merged JSON fetched by the explorer UI (221KB).
 - **`catalog/discord/hyp_media/`** — Optimized preview images/videos (~670MB, committed via LFS-like approach).
 - **`scripts/catalog/`** — Build pipeline scripts.
 - **`scripts/research/`** — AI summarization and context preparation.
@@ -64,7 +64,7 @@ Single-page React app with no build step — edit `app.js`/`styles.css` directly
 - **`app.js`** — Full component tree (~500 LOC). Uses HTM tagged templates (`` html`<div>...</div>` ``), not JSX.
 - **`styles.css`** — Dark theme, CSS variables (`--bg: #0c0c14`, `--accent: #8b5cf6`).
 
-Data flow: fetches `data/explorer-data.json` on load; SourceModal lazy-loads `apps/<id>/card.json` on demand.
+Data flow: fetches `explorer-data.json` on load; SourceModal lazy-loads `apps/<id>/card.json` on demand.
 
 ### Per-App Metadata Schema
 
